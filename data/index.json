@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "updated": "2026-11-12",
+  "note": "The JLPT has not published official vocabulary or kanji lists since 2010. Level assignments in Kotoba Path follow commonly used community lists.",
+  "stages": [
+    { "id": "orientation", "no": 0, "title": "Orientation", "summary": "How Japanese works: the three scripts, mora, word order, politeness.", "level": "orientation" },
+    { "id": "hiragana", "no": 1, "title": "Hiragana", "summary": "46 basic characters, then dakuten, combinations, small っ and long vowels, with real words from the first row.", "level": "kana" },
+    { "id": "katakana", "no": 2, "title": "Katakana", "summary": "Same path as hiragana, plus loanwords, the long-vowel mark ー and extended combinations.", "level": "katakana" },
+    { "id": "n5", "no": 3, "title": "JLPT N5", "summary": "Kanji, vocabulary and grammar interleaved, with graded readings and listening.", "level": "n5" },
+    { "id": "n4", "no": 4, "title": "JLPT N4", "summary": "Everyday Japanese: more kanji, て-form chains, potential and conditional forms.", "level": "n4" },
+    { "id": "n3", "no": 5, "title": "JLPT N3", "summary": "Intermediate reading, natural-speed listening, nuance in grammar.", "level": "n3" },
+    { "id": "n2", "no": 6, "title": "JLPT N2", "summary": "Newspapers, formal registers, keigo in practice.", "level": "n2" },
+    { "id": "n1", "no": 7, "title": "JLPT N1", "summary": "Advanced reading and listening, literary and specialist vocabulary.", "level": "n1" }
+  ],
+  "levels": [
+    { "id": "orientation", "title": "Orientation", "files": {} },
+    { "id": "kana", "title": "Hiragana", "files": {} },
+    { "id": "katakana", "title": "Katakana", "files": {} },
+    { "id": "n5", "title": "JLPT N5", "targets": { "kanji": 100, "vocab": 800, "grammar": 80 }, "files": {} },
+    { "id": "n4", "title": "JLPT N4", "targets": { "kanji": 300, "vocab": 1500, "grammar": 120 }, "files": {} },
+    { "id": "n3", "title": "JLPT N3", "targets": { "kanji": 650, "vocab": 3750, "grammar": 150 }, "files": {} },
+    { "id": "n2", "title": "JLPT N2", "targets": { "kanji": 1000, "vocab": 6000, "grammar": 180 }, "files": {} },
+    { "id": "n1", "title": "JLPT N1", "targets": { "kanji": 2000, "vocab": 10000, "grammar": 200 }, "files": {} }
+  ]
+}

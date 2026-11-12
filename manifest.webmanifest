@@ -1,0 +1,25 @@
+{
+  "name": "Kotoba Path — Japanese from zero to N1",
+  "short_name": "Kotoba Path",
+  "description": "A calm, offline-first Japanese study tool: kana, kanji, vocabulary, grammar, reading, listening and speaking, measured against JLPT N5–N1.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f7fa",
+  "theme_color": "#3b5bdb",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Review", "short_name": "Review", "url": "./#/review", "description": "Start today's reviews" },
+    { "name": "Learn", "short_name": "Learn", "url": "./#/learn", "description": "Continue the lesson path" }
+  ]
+}

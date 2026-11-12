@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" data-theme="system" data-font-size="medium" data-jp-font="sans" data-motion="system">
+<head>
+  <meta charset="utf-8">
+  <title>Kotoba Path</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A calm, offline-first Japanese learning app that takes you from zero to JLPT N1.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7fa">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#15161c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Kotoba Path">
+  <meta name="referrer" content="no-referrer">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <!-- Fonts: Noto Sans JP (default) and Noto Serif JP (textbook style). Loaded from Google Fonts,
+       cached by the service worker after first use, and replaced by system Japanese fonts when offline. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script>
+    // Apply saved appearance settings before first paint to avoid a flash of the wrong theme.
+    // The full settings module re-applies them from IndexedDB once the app boots.
+    (function () {
+      try {
+        var raw = localStorage.getItem('kp:appearance');
+        if (!raw) return;
+        var a = JSON.parse(raw);
+        var root = document.documentElement;
+        if (a.theme) root.dataset.theme = a.theme;
+        if (a.fontSize) root.dataset.fontSize = a.fontSize;
+        if (a.jpFont) root.dataset.jpFont = a.jpFont;
+        if (a.motion) root.dataset.motion = a.motion;
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#view">Skip to content</a>
+
+  <!-- Icon sprite. Icons are simple 24x24 stroked glyphs, referenced with <use href="#i-..."> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+      <symbol id="i-learn" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20"/><path d="M9 8h6"/></symbol>
+      <symbol id="i-review" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/><path d="M12 8v4l3 2"/></symbol>
+      <symbol id="i-speak" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/><path d="M8 21h8"/></symbol>
+      <symbol id="i-read" viewBox="0 0 24 24"><path d="M4 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4z"/><path d="M20 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z"/></symbol>
+      <symbol id="i-progress" viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-8"/><path d="M22 20H2"/></symbol>
+      <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 21h16"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M4 21h16"/></symbol>
+      <symbol id="i-offline" viewBox="0 0 24 24"><path d="M2 8.5a16 16 0 0 1 20 0"/><path d="M5 12a11 11 0 0 1 14 0"/><path d="M8.5 15.5a6 6 0 0 1 7 0"/><circle cx="12" cy="19" r="1"/><path d="M3 3l18 18"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5L20 7"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+      <symbol id="i-install" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M12 8v7"/><path d="m9 12 3 3 3-3"/></symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 13h10l1-13"/><path d="M9 7V4h6v3"/></symbol>
+      <!-- Brand mark: three stepping stones rising left to right, the "path". -->
+      <symbol id="brand-mark" viewBox="0 0 64 64">
+        <rect width="64" height="64" rx="16" fill="currentColor"/>
+        <circle cx="18" cy="46" r="6" fill="#fff" opacity=".7"/>
+        <circle cx="32" cy="32" r="8" fill="#fff" opacity=".85"/>
+        <circle cx="47" cy="17" r="10" fill="#fff"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="app" id="app">
+    <header class="topbar" role="banner">
+      <a class="brand" href="#/home" aria-label="Kotoba Path home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#brand-mark"/></svg></span>
+        <span class="brand-name">Kotoba Path</span>
+      </a>
+      <div class="topbar-actions">
+        <span class="offline-badge" id="offline-badge" hidden role="status">
+          <svg class="icon" aria-hidden="true"><use href="#i-offline"/></svg><span>Offline</span>
+        </span>
+        <button class="icon-btn" id="search-btn" type="button" aria-label="Quick lookup (press slash)" title="Quick lookup (/)">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+        </button>
+        <a class="icon-btn nav-secondary" href="#/progress" data-route="progress" aria-label="Progress" title="Progress">
+          <svg class="icon" aria-hidden="true"><use href="#i-progress"/></svg>
+        </a>
+        <a class="icon-btn nav-secondary" href="#/settings" data-route="settings" aria-label="Settings" title="Settings">
+          <svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg>
+        </a>
+      </div>
+    </header>
+
+    <nav class="mainnav" id="mainnav" aria-label="Main">
+      <a href="#/home" data-route="home"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></a>
+      <a href="#/learn" data-route="learn"><svg class="icon" aria-hidden="true"><use href="#i-learn"/></svg><span>Learn</span></a>
+      <a href="#/review" data-route="review"><svg class="icon" aria-hidden="true"><use href="#i-review"/></svg><span>Review</span></a>
+      <a href="#/speak" data-route="speak"><svg class="icon" aria-hidden="true"><use href="#i-speak"/></svg><span>Speak</span></a>
+      <a href="#/read" data-route="read"><svg class="icon" aria-hidden="true"><use href="#i-read"/></svg><span>Read</span></a>
+      <a href="#/progress" data-route="progress" class="nav-desktop-only"><svg class="icon" aria-hidden="true"><use href="#i-progress"/></svg><span>Progress</span></a>
+      <a href="#/settings" data-route="settings" class="nav-desktop-only"><svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg><span>Settings</span></a>
+    </nav>
+
+    <main class="view" id="view" tabindex="-1" aria-busy="true">
+      <noscript><p class="container">Kotoba Path needs JavaScript to run. Please enable it and reload.</p></noscript>
+    </main>
+  </div>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="false"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

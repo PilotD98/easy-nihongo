@@ -1,0 +1,14 @@
+{
+  "name": "kotoba-path",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kotoba Path — a calm, offline-first Japanese learning app (zero to JLPT N1) that deploys as a static site.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

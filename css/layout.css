@@ -1,0 +1,75 @@
+/* ------------------------------------------------------------------
+   App layout. Mobile first: top bar + bottom tab bar.
+   At 900px and up: left sidebar, no tab bar.
+   ------------------------------------------------------------------ */
+.app { min-height: 100dvh; display: flex; flex-direction: column; }
+
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  height: calc(var(--topbar-h) + var(--sa-top));
+  padding: var(--sa-top) max(var(--s-4), var(--sa-right)) 0 max(var(--s-4), var(--sa-left));
+  display: flex; align-items: center; justify-content: space-between; gap: var(--s-3);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.brand { display: inline-flex; align-items: center; gap: var(--s-2); color: inherit; text-decoration: none; font-weight: 700; min-height: var(--tap); }
+.brand-mark { width: 28px; height: 28px; color: var(--accent); }
+.brand-mark svg { width: 100%; height: 100%; }
+.topbar-actions { display: flex; align-items: center; gap: var(--s-1); }
+
+.offline-badge {
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; margin-right: var(--s-1);
+  font-size: .8rem; font-weight: 500; color: var(--warn); background: var(--warn-soft); border-radius: 999px;
+}
+.offline-badge .icon { width: 16px; height: 16px; }
+
+/* Bottom tab bar (mobile) */
+.mainnav {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+  height: calc(var(--tabbar-h) + var(--sa-bottom));
+  padding: 0 var(--sa-right) var(--sa-bottom) var(--sa-left);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+.mainnav a {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  min-height: var(--tap); color: var(--text-3); text-decoration: none; font-size: .7rem; font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+.mainnav a .icon { width: 24px; height: 24px; }
+.mainnav a[aria-current="page"] { color: var(--accent); }
+.mainnav a.nav-desktop-only { display: none; }
+.nav-secondary[aria-current="page"] { color: var(--accent); background: var(--accent-soft); }
+
+.view {
+  flex: 1;
+  width: 100%;
+  padding: var(--s-4) max(var(--s-4), var(--sa-right)) calc(var(--tabbar-h) + var(--sa-bottom) + var(--s-6)) max(var(--s-4), var(--sa-left));
+}
+.container { max-width: var(--content-max); margin: 0 auto; }
+.view > * { max-width: var(--content-max); margin-left: auto; margin-right: auto; }
+
+/* Desktop: sidebar navigation */
+@media (min-width: 900px) {
+  .app { flex-direction: row; flex-wrap: wrap; }
+  .topbar { width: 100%; }
+  .mainnav {
+    position: sticky; top: calc(var(--topbar-h) + var(--sa-top)); bottom: auto;
+    align-self: flex-start;
+    display: flex; flex-direction: column; gap: 2px;
+    width: var(--sidebar-w); height: calc(100dvh - var(--topbar-h) - var(--sa-top));
+    padding: var(--s-4) var(--s-3);
+    background: transparent; border-top: 0; border-right: 1px solid var(--border);
+  }
+  .mainnav a {
+    flex-direction: row; justify-content: flex-start; gap: var(--s-3);
+    padding: 0 var(--s-3); border-radius: var(--radius-sm); font-size: .95rem; color: var(--text-2);
+  }
+  .mainnav a:hover { background: var(--surface-2); color: var(--text); }
+  .mainnav a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
+  .mainnav a.nav-desktop-only { display: flex; }
+  .topbar .nav-secondary { display: none; }
+  .view { flex: 1; min-width: 0; padding: var(--s-6) var(--s-6) var(--s-7); }
+}
