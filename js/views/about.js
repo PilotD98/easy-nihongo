@@ -7,7 +7,7 @@ export const title = 'About';
 
 const SOURCES = [
   { name: 'Noto Sans JP, Noto Serif JP', use: 'Japanese typefaces', license: 'SIL Open Font License 1.1', url: 'https://fonts.google.com/noto', status: 'in use' },
-  { name: 'KanjiVG', use: 'Kana and kanji stroke-order diagrams', license: 'CC BY-SA 3.0', url: 'https://kanjivg.tagaini.net/', status: 'from the Hiragana stage' },
+  { name: 'KanjiVG', use: 'Kana and kanji stroke-order diagrams', license: 'CC BY-SA 3.0', url: 'https://kanjivg.tagaini.net/', status: 'in use' },
   { name: 'KANJIDIC2 (EDRDG)', use: 'Kanji readings, meanings, stroke counts', license: 'EDRDG licence (CC BY-SA 4.0)', url: 'https://www.edrdg.org/wiki/index.php/KANJIDIC_Project', status: 'from the N5 stage' },
   { name: 'JMdict/EDICT (EDRDG)', use: 'Vocabulary readings and meanings', license: 'EDRDG licence (CC BY-SA 4.0)', url: 'https://www.edrdg.org/jmdict/j_jmdict.html', status: 'from the N5 stage' },
   { name: 'Tatoeba', use: 'Example sentences', license: 'CC BY 2.0 FR', url: 'https://tatoeba.org/', status: 'from the N5 stage' }

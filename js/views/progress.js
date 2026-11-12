@@ -4,6 +4,7 @@ import { h, append, formatMinutes } from '../ui/dom.js';
 import { progress, STAGES, STAGE_LABELS } from '../store/progress.js';
 import { days } from '../store/days.js';
 import { getManifest } from '../content/loader.js';
+import { loadKana } from '../content/kana.js';
 
 export const title = 'Progress';
 
@@ -63,8 +64,36 @@ export async function render(el) {
       )
     ),
 
-    summary.total === 0 ? h('p', { class: 'small muted' }, 'Accuracy by item type, by level, and the most-missed list appear here once you have reviewed items.') : null
+    summary.total === 0 ? h('p', { class: 'small muted' }, 'Accuracy by item type, by level, and the most-missed list appear here once you have reviewed items.') : mostMissed(all, await glyphMap())
   ]);
+}
+
+async function glyphMap() {
+  const map = new Map();
+  try {
+    const kana = await loadKana('kana');
+    for (const c of kana.allChars) map.set(c.id, `${c.char} (${c.romaji})`);
+    for (const w of kana.allWords) map.set(w.id, `${w.jp} (${w.romaji}, ${w.meaning})`);
+  } catch { /* content not available offline yet */ }
+  return map;
+}
+
+function mostMissed(all, glyphs) {
+  const missed = (all || []).filter((r) => (r.wrong || 0) > 0).sort((a, b) => (b.wrong || 0) - (a.wrong || 0) || (b.lapses || 0) - (a.lapses || 0)).slice(0, 10);
+  if (!missed.length) return h('section', { class: 'card' }, h('h2', null, 'Most missed'), h('p', { class: 'muted' }, 'No misses yet.'));
+  const ids = missed.map((r) => r.id);
+  return h('section', { class: 'card', 'aria-labelledby': 'miss-h' },
+    h('div', { class: 'card-title' }, h('h2', { id: 'miss-h' }, 'Most missed'), h('a', { class: 'btn btn-primary', href: `#/review?start=1&items=${encodeURIComponent(ids.join(','))}` }, 'Practice these')),
+    h('ul', { class: 'missed-list' }, missed.map((r) => h('li', null,
+      h('a', { href: `#/learn/item/${encodeURIComponent(r.id)}`, class: 'grow', lang: 'ja' }, glyphs.get(r.id) || labelFor(r.id)),
+      h('span', { class: 'small muted' }, `${r.wrong} missed · ${STAGE_LABELS[r.stage] || r.stage}`)))));
+}
+
+function labelFor(id) {
+  const parts = id.split(':');
+  const slug = parts[parts.length - 1] || id;
+  const jp = slug.includes('-') ? slug.slice(slug.indexOf('-') + 1) : null;
+  return jp && /[぀-ヿ一-鿿]/.test(jp) ? jp : parts[0] === 'kana' ? `kana “${slug}”` : id;
 }
 
 function coverage(level, masteredByType) {

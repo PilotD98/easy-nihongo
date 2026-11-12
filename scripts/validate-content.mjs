@@ -85,8 +85,20 @@ for (const level of manifest.levels || []) {
 for (const [levelId, data] of Object.entries(levelData)) {
   if (data.kana) {
     const { rel, json } = data.kana;
-    requireFields(rel, json, ['script', 'groups']);
+    requireFields(rel, json, ['script', 'groups', 'quiz', 'exam']);
+    const strokeFile = path.join(DATA, 'strokes', `${json.script}.json`);
+    const strokeData = fs.existsSync(strokeFile) ? JSON.parse(fs.readFileSync(strokeFile, 'utf8')) : null;
+    if (!strokeData) warn(rel, `no stroke data at data/strokes/${json.script}.json`);
     for (const g of json.groups || []) {
+      if (!['basic', 'dakuten', 'handakuten', 'combo', 'special'].includes(g.kind)) err(`${rel} group ${g.id}`, `unknown kind "${g.kind}"`);
+      for (const c of g.chars || []) {
+        if (!strokeData) continue;
+        const parts = c.parts || [c.char];
+        const known = parts.every((p) => strokeData[p]);
+        if (!known) { if (!c.parts) warn(`${rel} char ${c.char}`, 'no stroke data for this character'); continue; }
+        const expected = parts.reduce((n, p) => n + strokeData[p].strokes.length, 0);
+        if (c.strokes !== expected) err(`${rel} char ${c.char}`, `strokes is ${c.strokes} but stroke data has ${expected}`);
+      }
       const where = `${rel} group ${g.id}`;
       requireFields(where, g, ['id', 'title', 'kind', 'chars']);
       for (const c of g.chars || []) {

@@ -10,7 +10,9 @@ const routes = {
   read: () => import('./views/read.js'),
   progress: () => import('./views/progress.js'),
   settings: () => import('./views/settings.js'),
-  about: () => import('./views/about.js')
+  about: () => import('./views/about.js'),
+  lesson: () => import('./views/lesson.js'),
+  exam: () => import('./views/exam.js')
 };
 
 let cleanup = null;

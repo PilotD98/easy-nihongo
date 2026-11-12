@@ -8,7 +8,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '0.1.0';
+const VERSION = '0.2.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -25,6 +25,7 @@ const SHELL = [
   './css/base.css',
   './css/layout.css',
   './css/components.css',
+  './css/lesson.css',
   './js/app.js',
   './js/router.js',
   './js/store/db.js',
@@ -37,6 +38,16 @@ const SHELL = [
   './js/ui/dialog.js',
   './js/ui/search.js',
   './js/ui/shortcuts.js',
+  './js/ui/audio.js',
+  './js/ui/stroke.js',
+  './js/ui/tracepad.js',
+  './js/ui/kanatext.js',
+  './js/ui/quiz.js',
+  './js/engine/fsrs.js',
+  './js/engine/scheduler.js',
+  './js/engine/scaffold.js',
+  './js/engine/romaji.js',
+  './js/content/kana.js',
   './js/content/loader.js',
   './js/content/ids.js',
   './js/util/platform.js',
@@ -49,7 +60,15 @@ const SHELL = [
   './js/views/settings.js',
   './js/views/about.js',
   './js/views/notfound.js',
+  './js/views/orientation.js',
+  './js/views/kana-stage.js',
+  './js/views/lesson.js',
+  './js/views/exam.js',
+  './js/views/item.js',
   './data/index.json',
+  './data/orientation.json',
+  './data/kana.json',
+  './data/strokes/hiragana.json',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

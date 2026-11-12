@@ -1,0 +1,57 @@
+{
+  "id": "orientation",
+  "title": "How Japanese works",
+  "minutes": 8,
+  "sections": [
+    {
+      "id": "scripts",
+      "title": "Three scripts, one language",
+      "body": [
+        "Written Japanese mixes three scripts in the same sentence. Each has a job.",
+        "Hiragana (ひらがな) is the curvy script. It writes grammar: particles, verb endings, and native words that have no kanji. It is the first thing you will learn, and every other sound in the language can be written with it.",
+        "Katakana (カタカナ) is the angular script. It writes the same sounds as hiragana, but is used for loanwords (コーヒー, coffee), foreign names, onomatopoeia and emphasis.",
+        "Kanji (漢字) are characters borrowed from Chinese. Each carries meaning and one or more readings. They write the roots of nouns, verbs and adjectives. There are about 2,000 in daily use; you will meet them gradually from the N5 stage."
+      ],
+      "example": { "jp": "わたしはコーヒーを飲みます。", "parts": [["わたし", "hiragana"], ["は", "hiragana"], ["コーヒー", "katakana"], ["を", "hiragana"], ["飲", "kanji"], ["みます。", "hiragana"]], "romaji": "watashi wa koohii o nomimasu.", "en": "I drink coffee." }
+    },
+    {
+      "id": "mora",
+      "title": "Beats, not syllables",
+      "body": [
+        "Japanese rhythm is built from beats called mora. Each kana is one beat, and all beats take the same time. The word にほん (Japan) has three beats: ni-ho-n. ん counts as a beat of its own.",
+        "Vowels can be long (two beats) or short (one beat), and that difference changes meaning: おばさん (aunt) versus おばあさん (grandmother). A small っ is a silent beat, a pause before the next consonant: きて (come) versus きって (stamp).",
+        "There are only five vowels: a, i, u, e, o. They are short and clean, closer to Spanish or Italian than English. Consonants are followed by a vowel almost always, which is why English words get reshaped: ice cream becomes アイスクリーム, a-i-su-ku-ri-i-mu."
+      ],
+      "example": { "jp": "にほん", "beats": ["に", "ほ", "ん"], "romaji": "ni · ho · n", "en": "Japan: three beats" }
+    },
+    {
+      "id": "order",
+      "title": "Verb at the end",
+      "body": [
+        "English sentences go subject, verb, object: I eat sushi. Japanese goes subject, object, verb: I sushi eat. The verb always comes last, and everything before it is marked by a small particle that says what role it plays.",
+        "は (read \"wa\") marks the topic, what the sentence is about. を (read \"o\") marks the object. There are no articles (a, the), no plural endings, and verbs do not change for person: たべます means I eat, you eat, she eats.",
+        "Because the particles do the work, word order before the verb is flexible, and anything already clear from context is simply left out. A full answer to \"Did you eat?\" can be one word: たべました (ate)."
+      ],
+      "example": { "jp": "わたしは すしを たべます。", "parts": [["わたしは", "topic"], ["すしを", "object"], ["たべます。", "verb"]], "romaji": "watashi wa sushi o tabemasu.", "en": "I eat sushi." }
+    },
+    {
+      "id": "politeness",
+      "title": "Politeness is grammar",
+      "body": [
+        "Japanese verbs have a plain form and a polite form, and choosing between them is part of every sentence. The polite form (ending in ます / です) is the safe default with strangers, colleagues and anyone older. The plain form (たべる, だ) is for family, close friends and writing to yourself.",
+        "There is also a respectful register, keigo, used in service and business settings. You will learn it at N3 and beyond; for now, knowing that it exists is enough.",
+        "Kotoba Path teaches the polite form first, so everything you can say from day one is safe to say to anyone."
+      ],
+      "example": { "jp": "たべる → たべます", "romaji": "taberu → tabemasu", "en": "plain → polite: \"eat\"" }
+    },
+    {
+      "id": "romaji",
+      "title": "About romaji",
+      "body": [
+        "Romaji writes Japanese sounds in Latin letters. Kotoba Path uses it as training wheels: you will see it under each kana until you know that kana, and then it fades away, character by character.",
+        "Japanese people do not read romaji in daily life, and leaning on it slows down reading. Treat it as a temporary support, not a goal. You can adjust how long it stays in Settings → Script support.",
+        "Next: the first five hiragana, あ い う え お, the vowels every other sound is built on."
+      ]
+    }
+  ]
+}

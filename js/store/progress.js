@@ -56,13 +56,14 @@ export const progress = {
     const rows = (await db.getAll('progress')) || [];
     const byStage = Object.fromEntries(STAGES.map((s) => [s, 0]));
     const byType = {};
-    let due = 0;
+    let due = 0, nextDue = null;
     const nowMs = now.getTime();
     for (const r of rows) {
       byStage[r.stage || stageFor(r)] += 1;
       byType[r.type] = (byType[r.type] || 0) + 1;
       if (r.due && Date.parse(r.due) <= nowMs) due += 1;
+      else if (r.due && (!nextDue || Date.parse(r.due) < Date.parse(nextDue))) nextDue = r.due;
     }
-    return { total: rows.length, byStage, byType, due };
+    return { total: rows.length, byStage, byType, due, nextDue };
   }
 };

@@ -1,0 +1,2455 @@
+{
+ "script": "hiragana",
+ "title": "Hiragana",
+ "exam": {
+  "questions": 50,
+  "passPercent": 90,
+  "unlocks": "katakana"
+ },
+ "quiz": {
+  "questions": 12,
+  "passPercent": 80
+ },
+ "groups": [
+  {
+   "id": "h-a",
+   "title": "あ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:a",
+     "char": "あ",
+     "romaji": "a",
+     "mnemonic": "An antenna with a cross on top and a loop below: \"a\" for antenna.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:i",
+     "char": "い",
+     "romaji": "i",
+     "mnemonic": "Two eels swimming side by side: \"ee\" as in eel.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:u",
+     "char": "う",
+     "romaji": "u",
+     "mnemonic": "A person bent over going \"ooh\", with a little hat on top.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:e",
+     "char": "え",
+     "romaji": "e",
+     "mnemonic": "An exotic bird with a long swooping tail: \"e\" for exotic.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:o",
+     "char": "お",
+     "romaji": "o",
+     "mnemonic": "A golfer about to tee off: the ball is the little tick on the right. \"Oh!\"",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:ai-あい",
+     "jp": "あい",
+     "romaji": "ai",
+     "meaning": "love"
+    },
+    {
+     "id": "vocab:kana:ie-いえ",
+     "jp": "いえ",
+     "romaji": "ie",
+     "meaning": "house"
+    },
+    {
+     "id": "vocab:kana:ue-うえ",
+     "jp": "うえ",
+     "romaji": "ue",
+     "meaning": "above; on top"
+    },
+    {
+     "id": "vocab:kana:ao-あお",
+     "jp": "あお",
+     "romaji": "ao",
+     "meaning": "blue"
+    },
+    {
+     "id": "vocab:kana:iu-いう",
+     "jp": "いう",
+     "romaji": "iu",
+     "meaning": "to say"
+    },
+    {
+     "id": "vocab:kana:e-え",
+     "jp": "え",
+     "romaji": "e",
+     "meaning": "picture"
+    }
+   ],
+   "note": "Every hiragana is one beat (mora). Vowels are short and pure: a as in \"father\", i as in \"machine\", u as in \"flute\" (lips relaxed), e as in \"bed\", o as in \"more\"."
+  },
+  {
+   "id": "h-ka",
+   "title": "か row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ka",
+     "char": "か",
+     "romaji": "ka",
+     "mnemonic": "A karate kick: the hooked leg and a short chopping stroke.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:ki",
+     "char": "き",
+     "romaji": "ki",
+     "mnemonic": "A key: two bars across a shaft, with a small loop at the bottom.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:ku",
+     "char": "く",
+     "romaji": "ku",
+     "mnemonic": "A bird's beak opening to say \"coo\".",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:ke",
+     "char": "け",
+     "romaji": "ke",
+     "mnemonic": "A keg of beer standing next to a stick.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:ko",
+     "char": "こ",
+     "romaji": "ko",
+     "mnemonic": "Two koi fish swimming one above the other.",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:aka-あか",
+     "jp": "あか",
+     "romaji": "aka",
+     "meaning": "red"
+    },
+    {
+     "id": "vocab:kana:aki-あき",
+     "jp": "あき",
+     "romaji": "aki",
+     "meaning": "autumn"
+    },
+    {
+     "id": "vocab:kana:kao-かお",
+     "jp": "かお",
+     "romaji": "kao",
+     "meaning": "face"
+    },
+    {
+     "id": "vocab:kana:ike-いけ",
+     "jp": "いけ",
+     "romaji": "ike",
+     "meaning": "pond"
+    },
+    {
+     "id": "vocab:kana:koe-こえ",
+     "jp": "こえ",
+     "romaji": "koe",
+     "meaning": "voice"
+    },
+    {
+     "id": "vocab:kana:eki-えき",
+     "jp": "えき",
+     "romaji": "eki",
+     "meaning": "station"
+    },
+    {
+     "id": "vocab:kana:kaku-かく",
+     "jp": "かく",
+     "romaji": "kaku",
+     "meaning": "to write"
+    },
+    {
+     "id": "vocab:kana:kiku-きく",
+     "jp": "きく",
+     "romaji": "kiku",
+     "meaning": "to listen; to ask"
+    },
+    {
+     "id": "vocab:kana:kau-かう",
+     "jp": "かう",
+     "romaji": "kau",
+     "meaning": "to buy"
+    },
+    {
+     "id": "vocab:kana:iku-いく",
+     "jp": "いく",
+     "romaji": "iku",
+     "meaning": "to go"
+    }
+   ]
+  },
+  {
+   "id": "h-sa",
+   "title": "さ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:sa",
+     "char": "さ",
+     "romaji": "sa",
+     "mnemonic": "A samurai sword with its crossguard.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:shi",
+     "char": "し",
+     "romaji": "shi",
+     "mnemonic": "A fishing hook: \"she\" caught a fish.",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:su",
+     "char": "す",
+     "romaji": "su",
+     "mnemonic": "A swing hanging from a bar: Sue on a swing.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:se",
+     "char": "せ",
+     "romaji": "se",
+     "mnemonic": "A set of bars like a gate: \"se\" for set.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:so",
+     "char": "そ",
+     "romaji": "so",
+     "mnemonic": "A zigzag sewing stitch: \"so\" and sew.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:sushi-すし",
+     "jp": "すし",
+     "romaji": "sushi",
+     "meaning": "sushi"
+    },
+    {
+     "id": "vocab:kana:asa-あさ",
+     "jp": "あさ",
+     "romaji": "asa",
+     "meaning": "morning"
+    },
+    {
+     "id": "vocab:kana:isu-いす",
+     "jp": "いす",
+     "romaji": "isu",
+     "meaning": "chair"
+    },
+    {
+     "id": "vocab:kana:seki-せき",
+     "jp": "せき",
+     "romaji": "seki",
+     "meaning": "seat"
+    },
+    {
+     "id": "vocab:kana:ashi-あし",
+     "jp": "あし",
+     "romaji": "ashi",
+     "meaning": "foot; leg"
+    },
+    {
+     "id": "vocab:kana:kasa-かさ",
+     "jp": "かさ",
+     "romaji": "kasa",
+     "meaning": "umbrella"
+    },
+    {
+     "id": "vocab:kana:uso-うそ",
+     "jp": "うそ",
+     "romaji": "uso",
+     "meaning": "lie"
+    },
+    {
+     "id": "vocab:kana:osu-おす",
+     "jp": "おす",
+     "romaji": "osu",
+     "meaning": "to push"
+    },
+    {
+     "id": "vocab:kana:suki-すき",
+     "jp": "すき",
+     "romaji": "suki",
+     "meaning": "liked; favourite"
+    },
+    {
+     "id": "vocab:kana:sake-さけ",
+     "jp": "さけ",
+     "romaji": "sake",
+     "meaning": "sake (rice wine)"
+    }
+   ],
+   "note": "し is \"shi\", not \"si\". Romaji in this app follows Hepburn, which spells sounds the way English speakers expect."
+  },
+  {
+   "id": "h-ta",
+   "title": "た row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ta",
+     "char": "た",
+     "romaji": "ta",
+     "mnemonic": "It looks like \"ta\" written in Latin letters: a t and an a.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:chi",
+     "char": "ち",
+     "romaji": "chi",
+     "mnemonic": "A cheerleader with a round skirt: \"chi\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:tsu",
+     "char": "つ",
+     "romaji": "tsu",
+     "mnemonic": "A tsunami wave curling over.",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:te",
+     "char": "て",
+     "romaji": "te",
+     "mnemonic": "A telephone cord hanging from a hook.",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:to",
+     "char": "と",
+     "romaji": "to",
+     "mnemonic": "A toe with a splinter stuck in it.",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:tako-たこ",
+     "jp": "たこ",
+     "romaji": "tako",
+     "meaning": "octopus"
+    },
+    {
+     "id": "vocab:kana:tsukue-つくえ",
+     "jp": "つくえ",
+     "romaji": "tsukue",
+     "meaning": "desk"
+    },
+    {
+     "id": "vocab:kana:te-て",
+     "jp": "て",
+     "romaji": "te",
+     "meaning": "hand"
+    },
+    {
+     "id": "vocab:kana:tokei-とけい",
+     "jp": "とけい",
+     "romaji": "tokei",
+     "meaning": "clock; watch"
+    },
+    {
+     "id": "vocab:kana:uta-うた",
+     "jp": "うた",
+     "romaji": "uta",
+     "meaning": "song"
+    },
+    {
+     "id": "vocab:kana:shita-した",
+     "jp": "した",
+     "romaji": "shita",
+     "meaning": "below; under"
+    },
+    {
+     "id": "vocab:kana:tatsu-たつ",
+     "jp": "たつ",
+     "romaji": "tatsu",
+     "meaning": "to stand"
+    },
+    {
+     "id": "vocab:kana:tsuki-つき",
+     "jp": "つき",
+     "romaji": "tsuki",
+     "meaning": "moon; month"
+    },
+    {
+     "id": "vocab:kana:ichi-いち",
+     "jp": "いち",
+     "romaji": "ichi",
+     "meaning": "one"
+    },
+    {
+     "id": "vocab:kana:kuchi-くち",
+     "jp": "くち",
+     "romaji": "kuchi",
+     "meaning": "mouth"
+    },
+    {
+     "id": "vocab:kana:chikatetsu-ちかてつ",
+     "jp": "ちかてつ",
+     "romaji": "chikatetsu",
+     "meaning": "subway"
+    }
+   ],
+   "note": "ち is \"chi\" and つ is \"tsu\". The つ sound is like the \"ts\" at the end of \"cats\"."
+  },
+  {
+   "id": "h-na",
+   "title": "な row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:na",
+     "char": "な",
+     "romaji": "na",
+     "mnemonic": "A nun kneeling, with a cross beside her: \"na\".",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:ni",
+     "char": "に",
+     "romaji": "ni",
+     "mnemonic": "A needle beside two short threads: \"nee\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:nu",
+     "char": "ぬ",
+     "romaji": "nu",
+     "mnemonic": "Noodles twirled around chopsticks, with a loop at the end.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:ne",
+     "char": "ね",
+     "romaji": "ne",
+     "mnemonic": "A cat (neko) sitting with its tail curled underneath.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:no",
+     "char": "の",
+     "romaji": "no",
+     "mnemonic": "A \"no entry\" sign: a circle with a stroke through it.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:natsu-なつ",
+     "jp": "なつ",
+     "romaji": "natsu",
+     "meaning": "summer"
+    },
+    {
+     "id": "vocab:kana:inu-いぬ",
+     "jp": "いぬ",
+     "romaji": "inu",
+     "meaning": "dog"
+    },
+    {
+     "id": "vocab:kana:neko-ねこ",
+     "jp": "ねこ",
+     "romaji": "neko",
+     "meaning": "cat"
+    },
+    {
+     "id": "vocab:kana:niku-にく",
+     "jp": "にく",
+     "romaji": "niku",
+     "meaning": "meat"
+    },
+    {
+     "id": "vocab:kana:okane-おかね",
+     "jp": "おかね",
+     "romaji": "okane",
+     "meaning": "money"
+    },
+    {
+     "id": "vocab:kana:nani-なに",
+     "jp": "なに",
+     "romaji": "nani",
+     "meaning": "what"
+    },
+    {
+     "id": "vocab:kana:sakana-さかな",
+     "jp": "さかな",
+     "romaji": "sakana",
+     "meaning": "fish"
+    },
+    {
+     "id": "vocab:kana:kinou-きのう",
+     "jp": "きのう",
+     "romaji": "kinou",
+     "meaning": "yesterday"
+    },
+    {
+     "id": "vocab:kana:anata-あなた",
+     "jp": "あなた",
+     "romaji": "anata",
+     "meaning": "you"
+    },
+    {
+     "id": "vocab:kana:inaka-いなか",
+     "jp": "いなか",
+     "romaji": "inaka",
+     "meaning": "countryside"
+    }
+   ]
+  },
+  {
+   "id": "h-ha",
+   "title": "は row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ha",
+     "char": "は",
+     "romaji": "ha",
+     "mnemonic": "A stick next to a letter \"t\" with a loop: someone laughing \"ha!\"",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:hi",
+     "char": "ひ",
+     "romaji": "hi",
+     "mnemonic": "A big smile: \"hee hee\".",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:fu",
+     "char": "ふ",
+     "romaji": "fu",
+     "mnemonic": "Mount Fuji with wisps of cloud around it.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:he",
+     "char": "へ",
+     "romaji": "he",
+     "mnemonic": "A heap: a small hill with a peak.",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:ho",
+     "char": "ほ",
+     "romaji": "ho",
+     "mnemonic": "A house with a stick fence: \"ho-me\".",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:hana-はな",
+     "jp": "はな",
+     "romaji": "hana",
+     "meaning": "flower; nose"
+    },
+    {
+     "id": "vocab:kana:hito-ひと",
+     "jp": "ひと",
+     "romaji": "hito",
+     "meaning": "person"
+    },
+    {
+     "id": "vocab:kana:fune-ふね",
+     "jp": "ふね",
+     "romaji": "fune",
+     "meaning": "boat; ship"
+    },
+    {
+     "id": "vocab:kana:hoshi-ほし",
+     "jp": "ほし",
+     "romaji": "hoshi",
+     "meaning": "star"
+    },
+    {
+     "id": "vocab:kana:hashi-はし",
+     "jp": "はし",
+     "romaji": "hashi",
+     "meaning": "chopsticks; bridge"
+    },
+    {
+     "id": "vocab:kana:haha-はは",
+     "jp": "はは",
+     "romaji": "haha",
+     "meaning": "(my) mother"
+    },
+    {
+     "id": "vocab:kana:heta-へた",
+     "jp": "へた",
+     "romaji": "heta",
+     "meaning": "unskilled; bad at"
+    },
+    {
+     "id": "vocab:kana:hikouki-ひこうき",
+     "jp": "ひこうき",
+     "romaji": "hikouki",
+     "meaning": "airplane"
+    },
+    {
+     "id": "vocab:kana:futoi-ふとい",
+     "jp": "ふとい",
+     "romaji": "futoi",
+     "meaning": "thick; fat"
+    },
+    {
+     "id": "vocab:kana:hako-はこ",
+     "jp": "はこ",
+     "romaji": "hako",
+     "meaning": "box"
+    }
+   ],
+   "note": "ふ is \"fu\": blow the sound out gently between the lips, not with the teeth. Note: は is read \"wa\" when it is the topic particle (わたしは)."
+  },
+  {
+   "id": "h-ma",
+   "title": "ま row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ma",
+     "char": "ま",
+     "romaji": "ma",
+     "mnemonic": "A mast with two crossbars and a loop: \"ma\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:mi",
+     "char": "み",
+     "romaji": "mi",
+     "mnemonic": "A rope tied in a loop around me: \"mee\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:mu",
+     "char": "む",
+     "romaji": "mu",
+     "mnemonic": "A cow going \"moo\", with a curled tail.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:me",
+     "char": "め",
+     "romaji": "me",
+     "mnemonic": "An eye (me) with a long lash across it.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:mo",
+     "char": "も",
+     "romaji": "mo",
+     "mnemonic": "A hook with more bars across it: \"mo\" for more.",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:machi-まち",
+     "jp": "まち",
+     "romaji": "machi",
+     "meaning": "town"
+    },
+    {
+     "id": "vocab:kana:mimi-みみ",
+     "jp": "みみ",
+     "romaji": "mimi",
+     "meaning": "ear"
+    },
+    {
+     "id": "vocab:kana:mushi-むし",
+     "jp": "むし",
+     "romaji": "mushi",
+     "meaning": "insect"
+    },
+    {
+     "id": "vocab:kana:me-め",
+     "jp": "め",
+     "romaji": "me",
+     "meaning": "eye"
+    },
+    {
+     "id": "vocab:kana:momo-もも",
+     "jp": "もも",
+     "romaji": "momo",
+     "meaning": "peach"
+    },
+    {
+     "id": "vocab:kana:ame-あめ",
+     "jp": "あめ",
+     "romaji": "ame",
+     "meaning": "rain; candy"
+    },
+    {
+     "id": "vocab:kana:umi-うみ",
+     "jp": "うみ",
+     "romaji": "umi",
+     "meaning": "sea"
+    },
+    {
+     "id": "vocab:kana:namae-なまえ",
+     "jp": "なまえ",
+     "romaji": "namae",
+     "meaning": "name"
+    },
+    {
+     "id": "vocab:kana:ima-いま",
+     "jp": "いま",
+     "romaji": "ima",
+     "meaning": "now"
+    },
+    {
+     "id": "vocab:kana:mise-みせ",
+     "jp": "みせ",
+     "romaji": "mise",
+     "meaning": "shop"
+    },
+    {
+     "id": "vocab:kana:nomu-のむ",
+     "jp": "のむ",
+     "romaji": "nomu",
+     "meaning": "to drink"
+    }
+   ]
+  },
+  {
+   "id": "h-ya",
+   "title": "や row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ya",
+     "char": "や",
+     "romaji": "ya",
+     "mnemonic": "A yak's head with a horn sticking up: \"ya\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:yu",
+     "char": "ゆ",
+     "romaji": "yu",
+     "mnemonic": "A fish making a U-turn: \"you\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:yo",
+     "char": "よ",
+     "romaji": "yo",
+     "mnemonic": "A yo-yo hanging from its string.",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:yama-やま",
+     "jp": "やま",
+     "romaji": "yama",
+     "meaning": "mountain"
+    },
+    {
+     "id": "vocab:kana:yuki-ゆき",
+     "jp": "ゆき",
+     "romaji": "yuki",
+     "meaning": "snow"
+    },
+    {
+     "id": "vocab:kana:yomu-よむ",
+     "jp": "よむ",
+     "romaji": "yomu",
+     "meaning": "to read"
+    },
+    {
+     "id": "vocab:kana:fuyu-ふゆ",
+     "jp": "ふゆ",
+     "romaji": "fuyu",
+     "meaning": "winter"
+    },
+    {
+     "id": "vocab:kana:heya-へや",
+     "jp": "へや",
+     "romaji": "heya",
+     "meaning": "room"
+    },
+    {
+     "id": "vocab:kana:yasai-やさい",
+     "jp": "やさい",
+     "romaji": "yasai",
+     "meaning": "vegetable"
+    },
+    {
+     "id": "vocab:kana:tsuyoi-つよい",
+     "jp": "つよい",
+     "romaji": "tsuyoi",
+     "meaning": "strong"
+    },
+    {
+     "id": "vocab:kana:oyu-おゆ",
+     "jp": "おゆ",
+     "romaji": "oyu",
+     "meaning": "hot water"
+    },
+    {
+     "id": "vocab:kana:yasumi-やすみ",
+     "jp": "やすみ",
+     "romaji": "yasumi",
+     "meaning": "holiday; rest"
+    },
+    {
+     "id": "vocab:kana:yoko-よこ",
+     "jp": "よこ",
+     "romaji": "yoko",
+     "meaning": "side; beside"
+    }
+   ]
+  },
+  {
+   "id": "h-ra",
+   "title": "ら row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:ra",
+     "char": "ら",
+     "romaji": "ra",
+     "mnemonic": "A rabbit's ear and curled body: \"ra\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:ri",
+     "char": "り",
+     "romaji": "ri",
+     "mnemonic": "Two reeds standing in water: \"ree\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:ru",
+     "char": "る",
+     "romaji": "ru",
+     "mnemonic": "A loop at the end of the road: \"ru\".",
+     "strokes": 1
+    },
+    {
+     "id": "kana:h:re",
+     "char": "れ",
+     "romaji": "re",
+     "mnemonic": "A runner's leg kicking back: \"re\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:ro",
+     "char": "ろ",
+     "romaji": "ro",
+     "mnemonic": "A road with a sharp bend: \"ro\". Like る without the loop.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:sakura-さくら",
+     "jp": "さくら",
+     "romaji": "sakura",
+     "meaning": "cherry blossom"
+    },
+    {
+     "id": "vocab:kana:tori-とり",
+     "jp": "とり",
+     "romaji": "tori",
+     "meaning": "bird"
+    },
+    {
+     "id": "vocab:kana:kuruma-くるま",
+     "jp": "くるま",
+     "romaji": "kuruma",
+     "meaning": "car"
+    },
+    {
+     "id": "vocab:kana:sora-そら",
+     "jp": "そら",
+     "romaji": "sora",
+     "meaning": "sky"
+    },
+    {
+     "id": "vocab:kana:kore-これ",
+     "jp": "これ",
+     "romaji": "kore",
+     "meaning": "this"
+    },
+    {
+     "id": "vocab:kana:kirei-きれい",
+     "jp": "きれい",
+     "romaji": "kirei",
+     "meaning": "pretty; clean"
+    },
+    {
+     "id": "vocab:kana:hiru-ひる",
+     "jp": "ひる",
+     "romaji": "hiru",
+     "meaning": "noon; daytime"
+    },
+    {
+     "id": "vocab:kana:yoru-よる",
+     "jp": "よる",
+     "romaji": "yoru",
+     "meaning": "night"
+    },
+    {
+     "id": "vocab:kana:haru-はる",
+     "jp": "はる",
+     "romaji": "haru",
+     "meaning": "spring"
+    },
+    {
+     "id": "vocab:kana:miru-みる",
+     "jp": "みる",
+     "romaji": "miru",
+     "meaning": "to see; to watch"
+    },
+    {
+     "id": "vocab:kana:kaeru-かえる",
+     "jp": "かえる",
+     "romaji": "kaeru",
+     "meaning": "to return home; frog"
+    },
+    {
+     "id": "vocab:kana:arau-あらう",
+     "jp": "あらう",
+     "romaji": "arau",
+     "meaning": "to wash"
+    }
+   ],
+   "note": "The Japanese r is a light tap of the tongue, between English r, l and d. It is never rolled."
+  },
+  {
+   "id": "h-wa",
+   "title": "わ・を・ん",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:h:wa",
+     "char": "わ",
+     "romaji": "wa",
+     "mnemonic": "A person waving with a rounded arm: \"wa\". Like れ with a closed curve.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:wo",
+     "char": "を",
+     "romaji": "o (wo)",
+     "mnemonic": "A toe stepping into water: \"wo-ah!\" Used only as the object particle, pronounced \"o\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:n",
+     "char": "ん",
+     "romaji": "n",
+     "mnemonic": "An \"n\" that slid off its chair. The only kana with no vowel.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:watashi-わたし",
+     "jp": "わたし",
+     "romaji": "watashi",
+     "meaning": "I; me"
+    },
+    {
+     "id": "vocab:kana:kawa-かわ",
+     "jp": "かわ",
+     "romaji": "kawa",
+     "meaning": "river"
+    },
+    {
+     "id": "vocab:kana:niwa-にわ",
+     "jp": "にわ",
+     "romaji": "niwa",
+     "meaning": "garden"
+    },
+    {
+     "id": "vocab:kana:hon-ほん",
+     "jp": "ほん",
+     "romaji": "hon",
+     "meaning": "book"
+    },
+    {
+     "id": "vocab:kana:sensei-せんせい",
+     "jp": "せんせい",
+     "romaji": "sensei",
+     "meaning": "teacher"
+    },
+    {
+     "id": "vocab:kana:nihon-にほん",
+     "jp": "にほん",
+     "romaji": "nihon",
+     "meaning": "Japan"
+    },
+    {
+     "id": "vocab:kana:onna-おんな",
+     "jp": "おんな",
+     "romaji": "onna",
+     "meaning": "woman"
+    },
+    {
+     "id": "vocab:kana:mikan-みかん",
+     "jp": "みかん",
+     "romaji": "mikan",
+     "meaning": "mandarin orange"
+    },
+    {
+     "id": "vocab:kana:en-えん",
+     "jp": "えん",
+     "romaji": "en",
+     "meaning": "yen"
+    },
+    {
+     "id": "vocab:kana:warau-わらう",
+     "jp": "わらう",
+     "romaji": "warau",
+     "meaning": "to laugh"
+    },
+    {
+     "id": "vocab:kana:shinkansen-しんかんせん",
+     "jp": "しんかんせん",
+     "romaji": "shinkansen",
+     "meaning": "bullet train"
+    },
+    {
+     "id": "vocab:kana:honoyomu-ほんをよむ",
+     "jp": "ほんをよむ",
+     "romaji": "hon o yomu",
+     "meaning": "to read a book (を marks the object)"
+    }
+   ],
+   "note": "を is used only as the object particle and is pronounced \"o\". ん is its own beat: ほん is two beats, ho-n. へ is read \"e\" when it marks a direction."
+  },
+  {
+   "id": "h-ga",
+   "title": "が row (dakuten)",
+   "kind": "dakuten",
+   "intro": "Two small dots (dakuten ゛) at the top right turn k into g.",
+   "chars": [
+    {
+     "id": "kana:h:ga",
+     "char": "が",
+     "romaji": "ga",
+     "base": "か",
+     "mnemonic": "か with two dots (dakuten) becomes ga. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:gi",
+     "char": "ぎ",
+     "romaji": "gi",
+     "base": "き",
+     "mnemonic": "き with two dots (dakuten) becomes gi. Same shape, voiced sound.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:gu",
+     "char": "ぐ",
+     "romaji": "gu",
+     "base": "く",
+     "mnemonic": "く with two dots (dakuten) becomes gu. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:ge",
+     "char": "げ",
+     "romaji": "ge",
+     "base": "け",
+     "mnemonic": "け with two dots (dakuten) becomes ge. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:go",
+     "char": "ご",
+     "romaji": "go",
+     "base": "こ",
+     "mnemonic": "こ with two dots (dakuten) becomes go. Same shape, voiced sound.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:kagami-かがみ",
+     "jp": "かがみ",
+     "romaji": "kagami",
+     "meaning": "mirror"
+    },
+    {
+     "id": "vocab:kana:ginkou-ぎんこう",
+     "jp": "ぎんこう",
+     "romaji": "ginkou",
+     "meaning": "bank"
+    },
+    {
+     "id": "vocab:kana:kagi-かぎ",
+     "jp": "かぎ",
+     "romaji": "kagi",
+     "meaning": "key"
+    },
+    {
+     "id": "vocab:kana:gohan-ごはん",
+     "jp": "ごはん",
+     "romaji": "gohan",
+     "meaning": "cooked rice; meal"
+    },
+    {
+     "id": "vocab:kana:hiragana-ひらがな",
+     "jp": "ひらがな",
+     "romaji": "hiragana",
+     "meaning": "hiragana"
+    },
+    {
+     "id": "vocab:kana:manga-まんが",
+     "jp": "まんが",
+     "romaji": "manga",
+     "meaning": "comics"
+    },
+    {
+     "id": "vocab:kana:gakusei-がくせい",
+     "jp": "がくせい",
+     "romaji": "gakusei",
+     "meaning": "student"
+    },
+    {
+     "id": "vocab:kana:usagi-うさぎ",
+     "jp": "うさぎ",
+     "romaji": "usagi",
+     "meaning": "rabbit"
+    },
+    {
+     "id": "vocab:kana:eigo-えいご",
+     "jp": "えいご",
+     "romaji": "eigo",
+     "meaning": "English (language)"
+    },
+    {
+     "id": "vocab:kana:gogo-ごご",
+     "jp": "ごご",
+     "romaji": "gogo",
+     "meaning": "afternoon; p.m."
+    },
+    {
+     "id": "vocab:kana:kagu-かぐ",
+     "jp": "かぐ",
+     "romaji": "kagu",
+     "meaning": "furniture"
+    },
+    {
+     "id": "vocab:kana:genki-げんき",
+     "jp": "げんき",
+     "romaji": "genki",
+     "meaning": "healthy; energetic"
+    }
+   ],
+   "note": "Dakuten (゛) voice the consonant: k → g, s → z, t → d, h → b. Voiced sounds use the voice box; put a finger on your throat and feel it buzz."
+  },
+  {
+   "id": "h-za",
+   "title": "ざ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns s into z. Note じ is \"ji\", not \"zi\".",
+   "chars": [
+    {
+     "id": "kana:h:za",
+     "char": "ざ",
+     "romaji": "za",
+     "base": "さ",
+     "mnemonic": "さ with two dots (dakuten) becomes za. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:ji",
+     "char": "じ",
+     "romaji": "ji",
+     "base": "し",
+     "mnemonic": "し with two dots (dakuten) becomes ji. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:zu",
+     "char": "ず",
+     "romaji": "zu",
+     "base": "す",
+     "mnemonic": "す with two dots (dakuten) becomes zu. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:ze",
+     "char": "ぜ",
+     "romaji": "ze",
+     "base": "せ",
+     "mnemonic": "せ with two dots (dakuten) becomes ze. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:zo",
+     "char": "ぞ",
+     "romaji": "zo",
+     "base": "そ",
+     "mnemonic": "そ with two dots (dakuten) becomes zo. Same shape, voiced sound.",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:kaze-かぜ",
+     "jp": "かぜ",
+     "romaji": "kaze",
+     "meaning": "wind; a cold"
+    },
+    {
+     "id": "vocab:kana:mizu-みず",
+     "jp": "みず",
+     "romaji": "mizu",
+     "meaning": "water"
+    },
+    {
+     "id": "vocab:kana:kazoku-かぞく",
+     "jp": "かぞく",
+     "romaji": "kazoku",
+     "meaning": "family"
+    },
+    {
+     "id": "vocab:kana:kaji-かじ",
+     "jp": "かじ",
+     "romaji": "kaji",
+     "meaning": "fire (disaster)"
+    },
+    {
+     "id": "vocab:kana:zou-ぞう",
+     "jp": "ぞう",
+     "romaji": "zou",
+     "meaning": "elephant"
+    },
+    {
+     "id": "vocab:kana:gozen-ごぜん",
+     "jp": "ごぜん",
+     "romaji": "gozen",
+     "meaning": "morning; a.m."
+    },
+    {
+     "id": "vocab:kana:kanji-かんじ",
+     "jp": "かんじ",
+     "romaji": "kanji",
+     "meaning": "kanji"
+    },
+    {
+     "id": "vocab:kana:jikan-じかん",
+     "jp": "じかん",
+     "romaji": "jikan",
+     "meaning": "time; hour"
+    },
+    {
+     "id": "vocab:kana:hiza-ひざ",
+     "jp": "ひざ",
+     "romaji": "hiza",
+     "meaning": "knee"
+    },
+    {
+     "id": "vocab:kana:suzushii-すずしい",
+     "jp": "すずしい",
+     "romaji": "suzushii",
+     "meaning": "cool (weather)"
+    },
+    {
+     "id": "vocab:kana:zannen-ざんねん",
+     "jp": "ざんねん",
+     "romaji": "zannen",
+     "meaning": "regrettable; too bad"
+    }
+   ]
+  },
+  {
+   "id": "h-da",
+   "title": "だ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns t into d. ぢ and づ are rare and sound like じ and ず.",
+   "chars": [
+    {
+     "id": "kana:h:da",
+     "char": "だ",
+     "romaji": "da",
+     "base": "た",
+     "mnemonic": "た with two dots (dakuten) becomes da. Same shape, voiced sound.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:di",
+     "char": "ぢ",
+     "romaji": "ji (di)",
+     "base": "ち",
+     "mnemonic": "ち with two dots (dakuten) becomes ji. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:du",
+     "char": "づ",
+     "romaji": "zu (du)",
+     "base": "つ",
+     "mnemonic": "つ with two dots (dakuten) becomes zu. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:de",
+     "char": "で",
+     "romaji": "de",
+     "base": "て",
+     "mnemonic": "て with two dots (dakuten) becomes de. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:do",
+     "char": "ど",
+     "romaji": "do",
+     "base": "と",
+     "mnemonic": "と with two dots (dakuten) becomes do. Same shape, voiced sound.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:daigaku-だいがく",
+     "jp": "だいがく",
+     "romaji": "daigaku",
+     "meaning": "university"
+    },
+    {
+     "id": "vocab:kana:denwa-でんわ",
+     "jp": "でんわ",
+     "romaji": "denwa",
+     "meaning": "telephone"
+    },
+    {
+     "id": "vocab:kana:doko-どこ",
+     "jp": "どこ",
+     "romaji": "doko",
+     "meaning": "where"
+    },
+    {
+     "id": "vocab:kana:tomodachi-ともだち",
+     "jp": "ともだち",
+     "romaji": "tomodachi",
+     "meaning": "friend"
+    },
+    {
+     "id": "vocab:kana:denki-でんき",
+     "jp": "でんき",
+     "romaji": "denki",
+     "meaning": "electricity; light"
+    },
+    {
+     "id": "vocab:kana:mado-まど",
+     "jp": "まど",
+     "romaji": "mado",
+     "meaning": "window"
+    },
+    {
+     "id": "vocab:kana:dare-だれ",
+     "jp": "だれ",
+     "romaji": "dare",
+     "meaning": "who"
+    },
+    {
+     "id": "vocab:kana:deguchi-でぐち",
+     "jp": "でぐち",
+     "romaji": "deguchi",
+     "meaning": "exit"
+    },
+    {
+     "id": "vocab:kana:karada-からだ",
+     "jp": "からだ",
+     "romaji": "karada",
+     "meaning": "body"
+    },
+    {
+     "id": "vocab:kana:hanaji-はなぢ",
+     "jp": "はなぢ",
+     "romaji": "hanaji",
+     "meaning": "nosebleed"
+    },
+    {
+     "id": "vocab:kana:tsuzuku-つづく",
+     "jp": "つづく",
+     "romaji": "tsuzuku",
+     "meaning": "to continue"
+    }
+   ]
+  },
+  {
+   "id": "h-ba",
+   "title": "ば row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns h into b.",
+   "chars": [
+    {
+     "id": "kana:h:ba",
+     "char": "ば",
+     "romaji": "ba",
+     "base": "は",
+     "mnemonic": "は with two dots (dakuten) becomes ba. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:bi",
+     "char": "び",
+     "romaji": "bi",
+     "base": "ひ",
+     "mnemonic": "ひ with two dots (dakuten) becomes bi. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:bu",
+     "char": "ぶ",
+     "romaji": "bu",
+     "base": "ふ",
+     "mnemonic": "ふ with two dots (dakuten) becomes bu. Same shape, voiced sound.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:be",
+     "char": "べ",
+     "romaji": "be",
+     "base": "へ",
+     "mnemonic": "へ with two dots (dakuten) becomes be. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:bo",
+     "char": "ぼ",
+     "romaji": "bo",
+     "base": "ほ",
+     "mnemonic": "ほ with two dots (dakuten) becomes bo. Same shape, voiced sound.",
+     "strokes": 6
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:kaban-かばん",
+     "jp": "かばん",
+     "romaji": "kaban",
+     "meaning": "bag"
+    },
+    {
+     "id": "vocab:kana:buta-ぶた",
+     "jp": "ぶた",
+     "romaji": "buta",
+     "meaning": "pig"
+    },
+    {
+     "id": "vocab:kana:boushi-ぼうし",
+     "jp": "ぼうし",
+     "romaji": "boushi",
+     "meaning": "hat"
+    },
+    {
+     "id": "vocab:kana:taberu-たべる",
+     "jp": "たべる",
+     "romaji": "taberu",
+     "meaning": "to eat"
+    },
+    {
+     "id": "vocab:kana:ebi-えび",
+     "jp": "えび",
+     "romaji": "ebi",
+     "meaning": "shrimp"
+    },
+    {
+     "id": "vocab:kana:kabe-かべ",
+     "jp": "かべ",
+     "romaji": "kabe",
+     "meaning": "wall"
+    },
+    {
+     "id": "vocab:kana:shinbun-しんぶん",
+     "jp": "しんぶん",
+     "romaji": "shinbun",
+     "meaning": "newspaper"
+    },
+    {
+     "id": "vocab:kana:yubi-ゆび",
+     "jp": "ゆび",
+     "romaji": "yubi",
+     "meaning": "finger"
+    },
+    {
+     "id": "vocab:kana:kotoba-ことば",
+     "jp": "ことば",
+     "romaji": "kotoba",
+     "meaning": "word; language"
+    },
+    {
+     "id": "vocab:kana:abunai-あぶない",
+     "jp": "あぶない",
+     "romaji": "abunai",
+     "meaning": "dangerous"
+    },
+    {
+     "id": "vocab:kana:asobu-あそぶ",
+     "jp": "あそぶ",
+     "romaji": "asobu",
+     "meaning": "to play"
+    },
+    {
+     "id": "vocab:kana:doubutsu-どうぶつ",
+     "jp": "どうぶつ",
+     "romaji": "doubutsu",
+     "meaning": "animal"
+    },
+    {
+     "id": "vocab:kana:bangohan-ばんごはん",
+     "jp": "ばんごはん",
+     "romaji": "bangohan",
+     "meaning": "dinner"
+    }
+   ]
+  },
+  {
+   "id": "h-pa",
+   "title": "ぱ row (handakuten)",
+   "kind": "handakuten",
+   "intro": "A small circle (handakuten ゜) turns h into p.",
+   "chars": [
+    {
+     "id": "kana:h:pa",
+     "char": "ぱ",
+     "romaji": "pa",
+     "base": "は",
+     "mnemonic": "は with a small circle (handakuten) becomes pa. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:pi",
+     "char": "ぴ",
+     "romaji": "pi",
+     "base": "ひ",
+     "mnemonic": "ひ with a small circle (handakuten) becomes pi. Same shape, voiced sound.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:pu",
+     "char": "ぷ",
+     "romaji": "pu",
+     "base": "ふ",
+     "mnemonic": "ふ with a small circle (handakuten) becomes pu. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:pe",
+     "char": "ぺ",
+     "romaji": "pe",
+     "base": "へ",
+     "mnemonic": "へ with a small circle (handakuten) becomes pe. Same shape, voiced sound.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:h:po",
+     "char": "ぽ",
+     "romaji": "po",
+     "base": "ほ",
+     "mnemonic": "ほ with a small circle (handakuten) becomes po. Same shape, voiced sound.",
+     "strokes": 5
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:pan-ぱん",
+     "jp": "ぱん",
+     "romaji": "pan",
+     "meaning": "bread"
+    },
+    {
+     "id": "vocab:kana:enpitsu-えんぴつ",
+     "jp": "えんぴつ",
+     "romaji": "enpitsu",
+     "meaning": "pencil"
+    },
+    {
+     "id": "vocab:kana:sanpo-さんぽ",
+     "jp": "さんぽ",
+     "romaji": "sanpo",
+     "meaning": "a walk"
+    },
+    {
+     "id": "vocab:kana:tenpura-てんぷら",
+     "jp": "てんぷら",
+     "romaji": "tenpura",
+     "meaning": "tempura"
+    },
+    {
+     "id": "vocab:kana:kanpai-かんぱい",
+     "jp": "かんぱい",
+     "romaji": "kanpai",
+     "meaning": "cheers!"
+    },
+    {
+     "id": "vocab:kana:senpai-せんぱい",
+     "jp": "せんぱい",
+     "romaji": "senpai",
+     "meaning": "senior (at school or work)"
+    },
+    {
+     "id": "vocab:kana:perapera-ぺらぺら",
+     "jp": "ぺらぺら",
+     "romaji": "perapera",
+     "meaning": "fluent"
+    },
+    {
+     "id": "vocab:kana:shinpai-しんぱい",
+     "jp": "しんぱい",
+     "romaji": "shinpai",
+     "meaning": "worry"
+    },
+    {
+     "id": "vocab:kana:pokapoka-ぽかぽか",
+     "jp": "ぽかぽか",
+     "romaji": "pokapoka",
+     "meaning": "pleasantly warm"
+    },
+    {
+     "id": "vocab:kana:pikapika-ぴかぴか",
+     "jp": "ぴかぴか",
+     "romaji": "pikapika",
+     "meaning": "sparkling"
+    }
+   ],
+   "note": "The handakuten (゜) is a small circle. It appears only on the は row and makes p sounds."
+  },
+  {
+   "id": "h-combo1",
+   "title": "Combinations (きゃ, しゅ, ちょ…)",
+   "kind": "combo",
+   "intro": "Combine an i-row kana with a small ゃ, ゅ or ょ. The two symbols make one beat.",
+   "chars": [
+    {
+     "id": "kana:h:kya",
+     "char": "きゃ",
+     "romaji": "kya",
+     "parts": [
+      "き",
+      "ゃ"
+     ],
+     "mnemonic": "き (ki) + small ゃ = kya, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:h:kyu",
+     "char": "きゅ",
+     "romaji": "kyu",
+     "parts": [
+      "き",
+      "ゅ"
+     ],
+     "mnemonic": "き (ki) + small ゅ = kyu, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:kyo",
+     "char": "きょ",
+     "romaji": "kyo",
+     "parts": [
+      "き",
+      "ょ"
+     ],
+     "mnemonic": "き (ki) + small ょ = kyo, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:sha",
+     "char": "しゃ",
+     "romaji": "sha",
+     "parts": [
+      "し",
+      "ゃ"
+     ],
+     "mnemonic": "し (shi) + small ゃ = sha, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:shu",
+     "char": "しゅ",
+     "romaji": "shu",
+     "parts": [
+      "し",
+      "ゅ"
+     ],
+     "mnemonic": "し (shi) + small ゅ = shu, said as one beat.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:sho",
+     "char": "しょ",
+     "romaji": "sho",
+     "parts": [
+      "し",
+      "ょ"
+     ],
+     "mnemonic": "し (shi) + small ょ = sho, said as one beat.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:cha",
+     "char": "ちゃ",
+     "romaji": "cha",
+     "parts": [
+      "ち",
+      "ゃ"
+     ],
+     "mnemonic": "ち (chi) + small ゃ = cha, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:chu",
+     "char": "ちゅ",
+     "romaji": "chu",
+     "parts": [
+      "ち",
+      "ゅ"
+     ],
+     "mnemonic": "ち (chi) + small ゅ = chu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:cho",
+     "char": "ちょ",
+     "romaji": "cho",
+     "parts": [
+      "ち",
+      "ょ"
+     ],
+     "mnemonic": "ち (chi) + small ょ = cho, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:nya",
+     "char": "にゃ",
+     "romaji": "nya",
+     "parts": [
+      "に",
+      "ゃ"
+     ],
+     "mnemonic": "に (ni) + small ゃ = nya, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:nyu",
+     "char": "にゅ",
+     "romaji": "nyu",
+     "parts": [
+      "に",
+      "ゅ"
+     ],
+     "mnemonic": "に (ni) + small ゅ = nyu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:nyo",
+     "char": "にょ",
+     "romaji": "nyo",
+     "parts": [
+      "に",
+      "ょ"
+     ],
+     "mnemonic": "に (ni) + small ょ = nyo, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:hya",
+     "char": "ひゃ",
+     "romaji": "hya",
+     "parts": [
+      "ひ",
+      "ゃ"
+     ],
+     "mnemonic": "ひ (hi) + small ゃ = hya, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:hyu",
+     "char": "ひゅ",
+     "romaji": "hyu",
+     "parts": [
+      "ひ",
+      "ゅ"
+     ],
+     "mnemonic": "ひ (hi) + small ゅ = hyu, said as one beat.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:hyo",
+     "char": "ひょ",
+     "romaji": "hyo",
+     "parts": [
+      "ひ",
+      "ょ"
+     ],
+     "mnemonic": "ひ (hi) + small ょ = hyo, said as one beat.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:h:mya",
+     "char": "みゃ",
+     "romaji": "mya",
+     "parts": [
+      "み",
+      "ゃ"
+     ],
+     "mnemonic": "み (mi) + small ゃ = mya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:myu",
+     "char": "みゅ",
+     "romaji": "myu",
+     "parts": [
+      "み",
+      "ゅ"
+     ],
+     "mnemonic": "み (mi) + small ゅ = myu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:myo",
+     "char": "みょ",
+     "romaji": "myo",
+     "parts": [
+      "み",
+      "ょ"
+     ],
+     "mnemonic": "み (mi) + small ょ = myo, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:rya",
+     "char": "りゃ",
+     "romaji": "rya",
+     "parts": [
+      "り",
+      "ゃ"
+     ],
+     "mnemonic": "り (ri) + small ゃ = rya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:ryu",
+     "char": "りゅ",
+     "romaji": "ryu",
+     "parts": [
+      "り",
+      "ゅ"
+     ],
+     "mnemonic": "り (ri) + small ゅ = ryu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:ryo",
+     "char": "りょ",
+     "romaji": "ryo",
+     "parts": [
+      "り",
+      "ょ"
+     ],
+     "mnemonic": "り (ri) + small ょ = ryo, said as one beat.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:kyaku-きゃく",
+     "jp": "きゃく",
+     "romaji": "kyaku",
+     "meaning": "guest; customer"
+    },
+    {
+     "id": "vocab:kana:shashin-しゃしん",
+     "jp": "しゃしん",
+     "romaji": "shashin",
+     "meaning": "photograph"
+    },
+    {
+     "id": "vocab:kana:ocha-おちゃ",
+     "jp": "おちゃ",
+     "romaji": "ocha",
+     "meaning": "tea"
+    },
+    {
+     "id": "vocab:kana:hyaku-ひゃく",
+     "jp": "ひゃく",
+     "romaji": "hyaku",
+     "meaning": "hundred"
+    },
+    {
+     "id": "vocab:kana:ryokou-りょこう",
+     "jp": "りょこう",
+     "romaji": "ryokou",
+     "meaning": "travel"
+    },
+    {
+     "id": "vocab:kana:kyou-きょう",
+     "jp": "きょう",
+     "romaji": "kyou",
+     "meaning": "today"
+    },
+    {
+     "id": "vocab:kana:shukudai-しゅくだい",
+     "jp": "しゅくだい",
+     "romaji": "shukudai",
+     "meaning": "homework"
+    },
+    {
+     "id": "vocab:kana:toshokan-としょかん",
+     "jp": "としょかん",
+     "romaji": "toshokan",
+     "meaning": "library"
+    },
+    {
+     "id": "vocab:kana:chuui-ちゅうい",
+     "jp": "ちゅうい",
+     "romaji": "chuui",
+     "meaning": "attention; caution"
+    },
+    {
+     "id": "vocab:kana:ryouri-りょうり",
+     "jp": "りょうり",
+     "romaji": "ryouri",
+     "meaning": "cooking; cuisine"
+    },
+    {
+     "id": "vocab:kana:shumi-しゅみ",
+     "jp": "しゅみ",
+     "romaji": "shumi",
+     "meaning": "hobby"
+    },
+    {
+     "id": "vocab:kana:kyonen-きょねん",
+     "jp": "きょねん",
+     "romaji": "kyonen",
+     "meaning": "last year"
+    },
+    {
+     "id": "vocab:kana:shokuji-しょくじ",
+     "jp": "しょくじ",
+     "romaji": "shokuji",
+     "meaning": "meal"
+    },
+    {
+     "id": "vocab:kana:myouji-みょうじ",
+     "jp": "みょうじ",
+     "romaji": "myouji",
+     "meaning": "surname"
+    },
+    {
+     "id": "vocab:kana:kyoushitsu-きょうしつ",
+     "jp": "きょうしつ",
+     "romaji": "kyoushitsu",
+     "meaning": "classroom"
+    },
+    {
+     "id": "vocab:kana:ryuu-りゅう",
+     "jp": "りゅう",
+     "romaji": "ryuu",
+     "meaning": "dragon"
+    },
+    {
+     "id": "vocab:kana:nyuugaku-にゅうがく",
+     "jp": "にゅうがく",
+     "romaji": "nyuugaku",
+     "meaning": "school entrance"
+    }
+   ],
+   "note": "A full-size kana followed by a small ゃ, ゅ or ょ blends into a single beat: きゃ is one beat, きや is two. Compare びょういん (hospital) with びよういん (hair salon)."
+  },
+  {
+   "id": "h-combo2",
+   "title": "Voiced combinations (ぎゃ, じゅ, びょ…)",
+   "kind": "combo",
+   "intro": "The same pattern with dakuten and handakuten kana. じゃ, じゅ, じょ are \"ja, ju, jo\".",
+   "chars": [
+    {
+     "id": "kana:h:gya",
+     "char": "ぎゃ",
+     "romaji": "gya",
+     "parts": [
+      "ぎ",
+      "ゃ"
+     ],
+     "mnemonic": "ぎ (gi) + small ゃ = gya, said as one beat.",
+     "strokes": 9
+    },
+    {
+     "id": "kana:h:gyu",
+     "char": "ぎゅ",
+     "romaji": "gyu",
+     "parts": [
+      "ぎ",
+      "ゅ"
+     ],
+     "mnemonic": "ぎ (gi) + small ゅ = gyu, said as one beat.",
+     "strokes": 8
+    },
+    {
+     "id": "kana:h:gyo",
+     "char": "ぎょ",
+     "romaji": "gyo",
+     "parts": [
+      "ぎ",
+      "ょ"
+     ],
+     "mnemonic": "ぎ (gi) + small ょ = gyo, said as one beat.",
+     "strokes": 8
+    },
+    {
+     "id": "kana:h:ja",
+     "char": "じゃ",
+     "romaji": "ja",
+     "parts": [
+      "じ",
+      "ゃ"
+     ],
+     "mnemonic": "じ (ji) + small ゃ = ja, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:ju",
+     "char": "じゅ",
+     "romaji": "ju",
+     "parts": [
+      "じ",
+      "ゅ"
+     ],
+     "mnemonic": "じ (ji) + small ゅ = ju, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:jo",
+     "char": "じょ",
+     "romaji": "jo",
+     "parts": [
+      "じ",
+      "ょ"
+     ],
+     "mnemonic": "じ (ji) + small ょ = jo, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:bya",
+     "char": "びゃ",
+     "romaji": "bya",
+     "parts": [
+      "び",
+      "ゃ"
+     ],
+     "mnemonic": "び (bi) + small ゃ = bya, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:byu",
+     "char": "びゅ",
+     "romaji": "byu",
+     "parts": [
+      "び",
+      "ゅ"
+     ],
+     "mnemonic": "び (bi) + small ゅ = byu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:byo",
+     "char": "びょ",
+     "romaji": "byo",
+     "parts": [
+      "び",
+      "ょ"
+     ],
+     "mnemonic": "び (bi) + small ょ = byo, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:pya",
+     "char": "ぴゃ",
+     "romaji": "pya",
+     "parts": [
+      "ぴ",
+      "ゃ"
+     ],
+     "mnemonic": "ぴ (pi) + small ゃ = pya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:h:pyu",
+     "char": "ぴゅ",
+     "romaji": "pyu",
+     "parts": [
+      "ぴ",
+      "ゅ"
+     ],
+     "mnemonic": "ぴ (pi) + small ゅ = pyu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:pyo",
+     "char": "ぴょ",
+     "romaji": "pyo",
+     "parts": [
+      "ぴ",
+      "ょ"
+     ],
+     "mnemonic": "ぴ (pi) + small ょ = pyo, said as one beat.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:gyuunyuu-ぎゅうにゅう",
+     "jp": "ぎゅうにゅう",
+     "romaji": "gyuunyuu",
+     "meaning": "milk"
+    },
+    {
+     "id": "vocab:kana:juu-じゅう",
+     "jp": "じゅう",
+     "romaji": "juu",
+     "meaning": "ten"
+    },
+    {
+     "id": "vocab:kana:jaa-じゃあ",
+     "jp": "じゃあ",
+     "romaji": "jaa",
+     "meaning": "well then"
+    },
+    {
+     "id": "vocab:kana:byouin-びょういん",
+     "jp": "びょういん",
+     "romaji": "byouin",
+     "meaning": "hospital"
+    },
+    {
+     "id": "vocab:kana:sanbyaku-さんびゃく",
+     "jp": "さんびゃく",
+     "romaji": "sanbyaku",
+     "meaning": "three hundred"
+    },
+    {
+     "id": "vocab:kana:gyouza-ぎょうざ",
+     "jp": "ぎょうざ",
+     "romaji": "gyouza",
+     "meaning": "gyoza dumplings"
+    },
+    {
+     "id": "vocab:kana:jugyou-じゅぎょう",
+     "jp": "じゅぎょう",
+     "romaji": "jugyou",
+     "meaning": "class; lesson"
+    },
+    {
+     "id": "vocab:kana:ningyou-にんぎょう",
+     "jp": "にんぎょう",
+     "romaji": "ningyou",
+     "meaning": "doll"
+    },
+    {
+     "id": "vocab:kana:jouzu-じょうず",
+     "jp": "じょうず",
+     "romaji": "jouzu",
+     "meaning": "skilled; good at"
+    },
+    {
+     "id": "vocab:kana:jisho-じしょ",
+     "jp": "じしょ",
+     "romaji": "jisho",
+     "meaning": "dictionary"
+    },
+    {
+     "id": "vocab:kana:kanojo-かのじょ",
+     "jp": "かのじょ",
+     "romaji": "kanojo",
+     "meaning": "she; girlfriend"
+    },
+    {
+     "id": "vocab:kana:pyonpyon-ぴょんぴょん",
+     "jp": "ぴょんぴょん",
+     "romaji": "pyonpyon",
+     "meaning": "hopping"
+    }
+   ]
+  },
+  {
+   "id": "h-sokuon",
+   "title": "Small っ (double consonants)",
+   "kind": "special",
+   "intro": "Small っ marks a doubled consonant: the sound stops for one beat.",
+   "chars": [
+    {
+     "id": "kana:h:xtsu",
+     "char": "っ",
+     "romaji": "(pause)",
+     "mnemonic": "A small つ. It is not pronounced; it doubles the next consonant by holding a one-beat pause.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:gakkou-がっこう",
+     "jp": "がっこう",
+     "romaji": "gakkou",
+     "meaning": "school"
+    },
+    {
+     "id": "vocab:kana:kitte-きって",
+     "jp": "きって",
+     "romaji": "kitte",
+     "meaning": "postage stamp"
+    },
+    {
+     "id": "vocab:kana:zasshi-ざっし",
+     "jp": "ざっし",
+     "romaji": "zasshi",
+     "meaning": "magazine"
+    },
+    {
+     "id": "vocab:kana:kippu-きっぷ",
+     "jp": "きっぷ",
+     "romaji": "kippu",
+     "meaning": "ticket"
+    },
+    {
+     "id": "vocab:kana:chotto-ちょっと",
+     "jp": "ちょっと",
+     "romaji": "chotto",
+     "meaning": "a little"
+    },
+    {
+     "id": "vocab:kana:ippai-いっぱい",
+     "jp": "いっぱい",
+     "romaji": "ippai",
+     "meaning": "full; a lot"
+    },
+    {
+     "id": "vocab:kana:massugu-まっすぐ",
+     "jp": "まっすぐ",
+     "romaji": "massugu",
+     "meaning": "straight ahead"
+    },
+    {
+     "id": "vocab:kana:nikki-にっき",
+     "jp": "にっき",
+     "romaji": "nikki",
+     "meaning": "diary"
+    },
+    {
+     "id": "vocab:kana:happyaku-はっぴゃく",
+     "jp": "はっぴゃく",
+     "romaji": "happyaku",
+     "meaning": "eight hundred"
+    },
+    {
+     "id": "vocab:kana:yukkuri-ゆっくり",
+     "jp": "ゆっくり",
+     "romaji": "yukkuri",
+     "meaning": "slowly"
+    },
+    {
+     "id": "vocab:kana:kissaten-きっさてん",
+     "jp": "きっさてん",
+     "romaji": "kissaten",
+     "meaning": "café"
+    },
+    {
+     "id": "vocab:kana:sekken-せっけん",
+     "jp": "せっけん",
+     "romaji": "sekken",
+     "meaning": "soap"
+    },
+    {
+     "id": "vocab:kana:kekkon-けっこん",
+     "jp": "けっこん",
+     "romaji": "kekkon",
+     "meaning": "marriage"
+    }
+   ],
+   "note": "Small っ is a silent beat: hold the pause before the next consonant. がっこう is four beats: ga-(pause)-ko-o. Writing it full size (つ) changes the word."
+  },
+  {
+   "id": "h-long",
+   "title": "Long vowels",
+   "kind": "special",
+   "intro": "Vowel length changes meaning. Train your ear to hear one beat versus two.",
+   "chars": [
+    {
+     "id": "kana:h:long-a",
+     "char": "ああ",
+     "romaji": "aa",
+     "mnemonic": "Add あ to hold an a-sound for two beats: おかあさん.",
+     "parts": [
+      "あ",
+      "あ"
+     ],
+     "strokes": 6
+    },
+    {
+     "id": "kana:h:long-i",
+     "char": "いい",
+     "romaji": "ii",
+     "mnemonic": "Add い to hold an i-sound: おにいさん, おおきい.",
+     "parts": [
+      "い",
+      "い"
+     ],
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:long-u",
+     "char": "うう",
+     "romaji": "uu",
+     "mnemonic": "Add う to hold a u-sound: くうき, ゆうめい.",
+     "parts": [
+      "う",
+      "う"
+     ],
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:long-e",
+     "char": "えい",
+     "romaji": "ei (ee)",
+     "mnemonic": "A long e is usually written with い: せんせい, えいが. Hold the e; the i is barely heard.",
+     "parts": [
+      "え",
+      "い"
+     ],
+     "strokes": 4
+    },
+    {
+     "id": "kana:h:long-o",
+     "char": "おう",
+     "romaji": "ou (oo)",
+     "mnemonic": "A long o is usually written with う: おとうさん, とうきょう. A few words use お: おおきい, とおい.",
+     "parts": [
+      "お",
+      "う"
+     ],
+     "strokes": 5
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:kana:okaasan-おかあさん",
+     "jp": "おかあさん",
+     "romaji": "okaasan",
+     "meaning": "mother"
+    },
+    {
+     "id": "vocab:kana:oniisan-おにいさん",
+     "jp": "おにいさん",
+     "romaji": "oniisan",
+     "meaning": "older brother"
+    },
+    {
+     "id": "vocab:kana:oneesan-おねえさん",
+     "jp": "おねえさん",
+     "romaji": "oneesan",
+     "meaning": "older sister"
+    },
+    {
+     "id": "vocab:kana:otousan-おとうさん",
+     "jp": "おとうさん",
+     "romaji": "otousan",
+     "meaning": "father"
+    },
+    {
+     "id": "vocab:kana:kuuki-くうき",
+     "jp": "くうき",
+     "romaji": "kuuki",
+     "meaning": "air"
+    },
+    {
+     "id": "vocab:kana:tooi-とおい",
+     "jp": "とおい",
+     "romaji": "tooi",
+     "meaning": "far"
+    },
+    {
+     "id": "vocab:kana:ookii-おおきい",
+     "jp": "おおきい",
+     "romaji": "ookii",
+     "meaning": "big"
+    },
+    {
+     "id": "vocab:kana:koukou-こうこう",
+     "jp": "こうこう",
+     "romaji": "koukou",
+     "meaning": "high school"
+    },
+    {
+     "id": "vocab:kana:yuubinkyoku-ゆうびんきょく",
+     "jp": "ゆうびんきょく",
+     "romaji": "yuubinkyoku",
+     "meaning": "post office"
+    },
+    {
+     "id": "vocab:kana:eiga-えいが",
+     "jp": "えいが",
+     "romaji": "eiga",
+     "meaning": "movie"
+    },
+    {
+     "id": "vocab:kana:toukyou-とうきょう",
+     "jp": "とうきょう",
+     "romaji": "toukyou",
+     "meaning": "Tokyo"
+    },
+    {
+     "id": "vocab:kana:yuumei-ゆうめい",
+     "jp": "ゆうめい",
+     "romaji": "yuumei",
+     "meaning": "famous"
+    },
+    {
+     "id": "vocab:kana:ohayou-おはよう",
+     "jp": "おはよう",
+     "romaji": "ohayou",
+     "meaning": "good morning"
+    },
+    {
+     "id": "vocab:kana:arigatou-ありがとう",
+     "jp": "ありがとう",
+     "romaji": "arigatou",
+     "meaning": "thank you"
+    },
+    {
+     "id": "vocab:kana:sayounara-さようなら",
+     "jp": "さようなら",
+     "romaji": "sayounara",
+     "meaning": "goodbye"
+    },
+    {
+     "id": "vocab:kana:iie-いいえ",
+     "jp": "いいえ",
+     "romaji": "iie",
+     "meaning": "no"
+    }
+   ],
+   "note": "Long vowels are held for two beats. They are written by adding あ, い, う, え or お: おばさん (aunt) and おばあさん (grandmother) differ only in length. \"ou\" is pronounced as a long o, and \"ei\" as a long e."
+  }
+ ]
+}

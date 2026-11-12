@@ -13,8 +13,10 @@ level only when needed:
 ```
 data/index.json          manifest: stages, levels, targets, file list
 data/SCHEMA.md           field-by-field reference for every file type
+data/orientation.json    Stage 0 text
 data/kana.json           hiragana groups, characters and first words
-data/katakana.json       katakana
+data/katakana.json       katakana (next phase)
+data/strokes/*.json      stroke paths extracted from KanjiVG (regenerate, do not hand-edit)
 data/n5/kanji.json       kanji for N5 (and n4/, n3/, n2/, n1/ likewise)
 data/n5/vocab.json       vocabulary
 data/n5/grammar.json     grammar points
@@ -37,6 +39,7 @@ It fails the build if:
 - an `id` is missing, malformed, or used twice anywhere in the curriculum;
 - an item lacks a required field (readings, meanings, stroke count, mnemonic…);
 - a kana-stage word uses a character that has not been introduced yet;
+- a kana character's `strokes` count disagrees with the KanjiVG stroke data;
 - a vocabulary item uses a kanji that is taught later, unless it is marked
   `"furiganaException": true` (it then always shows furigana until the kanji is learned);
 - a grammar example, exercise, or reading passage uses an untaught kanji
@@ -45,6 +48,12 @@ It fails the build if:
 
 It warns, without failing, when a kanji's example word is taught later than the
 kanji itself. Prefer examples the learner already knows.
+
+## Mnemonics
+
+Memory hints are short, concrete, and tied to the shape and the sound. Write
+your own; do not copy them from other apps or books. Keep them culturally
+neutral and free of anything a learner might find off-putting.
 
 ## Never change an ID
 

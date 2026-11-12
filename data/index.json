@@ -1,6 +1,7 @@
 {
   "schema": 1,
   "updated": "2026-11-12",
+  "version": "0.2.0",
   "note": "The JLPT has not published official vocabulary or kanji lists since 2010. Level assignments in Kotoba Path follow commonly used community lists.",
   "stages": [
     { "id": "orientation", "no": 0, "title": "Orientation", "summary": "How Japanese works: the three scripts, mora, word order, politeness.", "level": "orientation" },
@@ -13,8 +14,8 @@
     { "id": "n1", "no": 7, "title": "JLPT N1", "summary": "Advanced reading and listening, literary and specialist vocabulary.", "level": "n1" }
   ],
   "levels": [
-    { "id": "orientation", "title": "Orientation", "files": {} },
-    { "id": "kana", "title": "Hiragana", "files": {} },
+    { "id": "orientation", "title": "Orientation", "files": { "orientation": "orientation.json" } },
+    { "id": "kana", "title": "Hiragana", "files": { "kana": "kana.json" } },
     { "id": "katakana", "title": "Katakana", "files": {} },
     { "id": "n5", "title": "JLPT N5", "targets": { "kanji": 100, "vocab": 800, "grammar": 80 }, "files": {} },
     { "id": "n4", "title": "JLPT N4", "targets": { "kanji": 300, "vocab": 1500, "grammar": 120 }, "files": {} },
