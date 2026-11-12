@@ -7,6 +7,8 @@ import { strokeDiagram, strokeDiagrams } from '../ui/stroke.js';
 import { speak, canSpeak, initAudio } from '../ui/audio.js';
 import { kanaWord } from '../ui/kanatext.js';
 import { kanaLevel } from '../engine/scaffold.js';
+import { pitchDiagram, pitchName } from '../ui/pitch.js';
+import { toMora } from '../engine/mora.js';
 
 export const title = 'Item';
 
@@ -44,7 +46,8 @@ export async function render(el, id) {
     append(el, [
       h('header', { class: 'page-head' }, h('h1', null, kanaWord(word, rec ? kanaLevel(rec) : 1, { cls: 'jp-xl' })), h('p', { class: 'lede' }, `${word.meaning} · ${word.romaji}`)),
       h('section', { class: 'card' },
-        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp) }, icon('speak'), 'Listen') : null),
+        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp) }, icon('speak'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp, { rate: 0.7 }) }, icon('speak'), 'Slow') : null),
+        word.pitch !== undefined ? h('div', { style: { marginTop: '12px' } }, h('h3', null, 'Pitch accent'), h('div', { class: 'row' }, pitchDiagram(word.jp, word.pitch), h('span', { class: 'small muted' }, `[${word.pitch}] ${pitchName(word.pitch, toMora(word.jp).length)}`))) : null,
         h('h3', { style: { marginTop: '12px' } }, 'Characters'),
         h('div', { class: 'char-grid' }, word.units.map((u) => { const c = kana.charByGlyph.get(u); return h('a', { class: 'char-chip', href: c ? `#/learn/item/${encodeURIComponent(c.id)}` : null }, jp(u, 'jp-xl'), h('span', { class: 'small muted' }, c ? c.romaji : '')); }))),
       progressCard(rec, `#/lesson/${levelId}/${group.id}`)

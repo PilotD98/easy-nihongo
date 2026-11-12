@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------------
+   Speaking practice: session cards, live transcript, mora feedback,
+   recordings, and pitch-accent diagrams.
+   ------------------------------------------------------------------ */
+.speak-stage { margin-top: var(--s-4); }
+.speak-who { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-3); margin-bottom: var(--s-2); }
+.speak-phrase { margin-bottom: var(--s-3); }
+.speak-jp { font-size: 1.7rem; line-height: 1.8; }
+.speak-q .jp { font-size: 1.4rem; }
+.speak-model summary { cursor: pointer; min-height: var(--tap); display: flex; align-items: center; font-weight: 500; }
+.speak-live { min-height: 1.8em; font-size: 1.3rem; color: var(--text-2); margin: var(--s-2) 0; }
+.btn.is-listening { background: var(--err-soft); border-color: var(--err); color: var(--err); animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--err) 40%, transparent); } 50% { box-shadow: 0 0 0 8px transparent; } }
+:root[data-motion="reduce"] .btn.is-listening { animation: none; }
+@media (prefers-reduced-motion: reduce) { :root[data-motion="system"] .btn.is-listening { animation: none; } }
+.speak-result { margin-top: var(--s-3); }
+.speak-score { font-size: 1.6rem; }
+.speak-score.is-good { color: var(--ok); }
+.mora-row { display: flex; flex-wrap: wrap; gap: 6px; margin: var(--s-3) 0; }
+.mora { display: inline-flex; flex-direction: column; align-items: center; min-width: 40px; padding: 4px 8px; border-radius: 8px; font-size: 1.4rem; line-height: 1.2; background: var(--surface-2); font-family: var(--font-jp); }
+.mora small { font-size: .7rem; line-height: 1; margin-top: 2px; }
+.mora.is-ok { background: var(--ok-soft); color: var(--ok); }
+.mora.is-bad { background: var(--err-soft); color: var(--err); }
+.mora.is-missing { text-decoration: line-through; }
+.mora.is-extra { background: transparent; border: 1px dashed var(--border); color: var(--text-3); font-size: 1.1rem; }
+.mora.is-wild { background: var(--accent-soft); color: var(--accent); }
+.speak-tips { margin: var(--s-2) 0; padding-left: 1.2em; }
+.speak-tips li { margin-bottom: 4px; }
+.speak-playback { margin-top: var(--s-3); }
+.speak-playback audio { margin: var(--s-2) 0; }
+
+/* Pitch accent diagram */
+.pitch { max-width: 100%; height: auto; }
+.pitch-line { fill: none; stroke: var(--accent); stroke-width: 2; }
+.pitch-dot { fill: var(--accent); }
+.pitch-particle { fill: var(--surface); stroke: var(--accent); stroke-width: 2; }
+.pitch-label { font-size: 9px; fill: var(--text-2); font-family: var(--font-jp); }

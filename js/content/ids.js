@@ -7,10 +7,11 @@
      sent:n5:0012           example sentence
      read:n5:001            reading passage
      listen:n5:001          listening drill
+     spk:kana:greet:01      speaking phrase (set:item)
    IDs never change once published; progress records are keyed on them. */
 
-export const ID_TYPES = ['kana', 'kanji', 'vocab', 'gram', 'sent', 'read', 'listen'];
-export const ID_RE = /^(kana|kanji|vocab|gram|sent|read|listen):([^:\s]+)(?::([^\s]+))?$/u;
+export const ID_TYPES = ['kana', 'kanji', 'vocab', 'gram', 'sent', 'read', 'listen', 'spk'];
+export const ID_RE = /^(kana|kanji|vocab|gram|sent|read|listen|spk):([^:\s]+)(?::([^\s]+))?$/u;
 
 export function parseId(id) {
   const m = ID_RE.exec(id || '');

@@ -7,11 +7,12 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 3 (Orientation + Hiragana + Katakana).** On top of the
-Phase 1 foundation (installable PWA, offline mode, device-local storage with
-export/import, settings, theming, deploy workflow), the app teaches Stage 0 and
+**Status: Phase 4 (kana stages + Speaking module).** On top of the Phase 1
+foundation (installable PWA, offline mode, device-local storage with
+export/import, settings, theming, deploy workflow), the app teaches Stage 0,
 the complete hiragana and katakana stages with a spaced-repetition review
-engine. Speaking practice and N5 → N1 content ship in the following phases.
+engine, and speaking practice with mora-level feedback. N5 → N1 content ships
+in the following phases.
 
 ## Features
 
@@ -54,21 +55,39 @@ Available now:
   safe-area aware, 44px targets, light/dark themes, four text sizes,
   sans/serif Japanese fonts, reduced motion, keyboard shortcuts
   (`/` search, `?` shortcuts, `1–4` grade, `Enter` continue, `Space` reveal).
-- **Speak page capability check** with Japanese voice-install instructions
-  per platform (the practice modes arrive with the Speaking module).
+- **Speaking practice** in four modes: repeat-after-me, shadowing (speak
+  along with slow audio), answer-a-question (compare with a model answer that
+  can contain slots such as your name), and role-plays (self-introduction,
+  ordering a coffee, asking the way) where the app voices the other person.
+  Speech recognition (`ja-JP`, interim results) shows the live transcript,
+  then the phrase is compared **beat by beat**: matched mora in green, missed
+  or wrong ones in red, a percentage, and specific tips ("Long vowel: hold
+  the ばあ for two full beats", "Small っ: stop the sound for one beat",
+  "Voicing: ざ and さ differ only in the voice box"). The best of the
+  recognizer's alternatives is used, and common kanji spellings the
+  recognizer returns are mapped back to kana.
+- **Record and compare** (self-check): record yourself with MediaRecorder and
+  play it back next to the native voice. Recordings stay in memory on the
+  device. Where speech recognition is unavailable this is the main path, with
+  self-rating; nothing broken is ever shown.
+- **Pitch accent** diagrams (high/low line over the mora) for 125 kana-stage
+  words, on item pages and in speaking sets, with the standard pattern names.
+- **Audio** at natural (1.0×) and slow (0.7×) speed everywhere, plus a
+  capability check with Japanese voice-install instructions per platform.
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in later phases: speaking practice with mora-level feedback;
-N5 → N1 kanji, vocabulary, grammar, reading and listening with furigana
-scaffolding (L3–L4); placement test; mock JLPT exams.
+Coming in later phases: N5 → N1 kanji, vocabulary, grammar, reading and
+listening with furigana scaffolding (L3–L4); placement test; mock JLPT exams;
+speaking sets for each JLPT level.
 
 ## Screenshots
 
 Screenshots are added at the polish phase. Screens today: Home (today's
 plan), Learn (stage path → hiragana groups → lesson: stroke order, tracing,
 words, quiz), Review (session with grading), Speak (capability check), Read,
-Progress (dashboard, most-missed), Settings, item pages and quick lookup.
+Progress (dashboard, most-missed), Settings, item pages and quick lookup,
+Speak (hub, session with live transcript and mora feedback).
 
 ## Run it locally
 
@@ -135,8 +154,14 @@ curriculum and scans for accidentally committed secrets before deploying.
 - **Safari on iPhone / iPad**: install via Share → "Add to Home Screen".
   Text-to-speech works offline once a Japanese voice is installed (Settings →
   Accessibility → Spoken Content → Voices → Japanese). Speech recognition works
-  in Safari 14.5+ and requires a network connection. Recording (MediaRecorder)
-  works in Safari 14.1+.
+  in Safari 14.5+ and requires a network connection; iOS asks for microphone
+  permission the first time, and the installed (home-screen) app may ask again
+  separately from Safari. Recording (MediaRecorder) works in Safari 14.1+ and
+  produces `audio/mp4`.
+- **Speech recognition accuracy**: the browser's recognizer may return kanji
+  (今日は for こんにちは). Kotoba Path compares by sound using the best of up
+  to five alternatives and a list of common spellings per phrase, and tells
+  you when part of a result could not be compared.
 - **Firefox**: everything except speech recognition (it falls back to
   record-and-compare self-assessment) and the automatic install prompt.
 - Storage: browsers may evict site data under pressure if the app is not
@@ -153,12 +178,12 @@ css/                     tokens (theme, sizes), base, layout, components
 js/app.js                boot
 js/router.js             hash router with lazy-loaded views
 js/store/                db (IndexedDB + fallback), settings, progress, days, backup
-js/ui/                   dom helpers, toast, dialog, search, shortcuts, audio, stroke diagrams, trace pad, quiz, kana text
-js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), romaji (IME), scaffold (display levels)
+js/ui/                   dom helpers, toast, dialog, search, shortcuts, audio, stroke diagrams, trace pad, quiz, kana text, recognizer, recorder, pitch
+js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), romaji (IME), scaffold (display levels), mora (beat alignment, tips)
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
-js/views/                home, learn, orientation, kana-stage, lesson, exam, item, review, speak, read, progress, settings, about
-data/                    curriculum JSON (orientation, kana, strokes/, per-level folders later; SCHEMA.md)
+js/views/                home, learn, orientation, kana-stage, lesson, exam, item, review, speak, speak-session, read, progress, settings, about
+data/                    curriculum JSON (orientation, kana, katakana, speaking, strokes/; SCHEMA.md)
 scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs
 .github/workflows/       GitHub Pages deployment
 ```
@@ -171,8 +196,11 @@ add or correct curriculum.
 Application code: MIT License (see `LICENSE`).
 
 Content sources are credited in the app's About page and here, with their
-licenses. Kana mnemonics, example words, loanword notes and the Orientation
-text were written for this project. Stroke data in `data/strokes/` is derived from
+licenses. Kana mnemonics, example words, loanword notes, speaking phrases,
+dialogues and the Orientation text were written for this project. Pitch
+accent numbers follow the Tokyo standard as listed in NHK and OJAD references;
+they were entered by hand and should be checked against those sources before
+being relied on. Stroke data in `data/strokes/` is derived from
 KanjiVG and stays under CC BY-SA 3.0 (see `data/strokes/README.md`).
 
 | Source | Used for | License |
@@ -194,8 +222,9 @@ open-licensed curriculum data and the Noto fonts from Google Fonts (cached
 after first use). There are no analytics, no trackers and no accounts. All
 progress is stored on your device and only leaves it when you export a backup.
 Speech synthesis and recognition use the browser's built-in engines; on some
-platforms recognition is processed by the browser vendor's service. Recordings
-stay on the device.
+platforms (Chrome, Safari) recognition sends audio to the browser vendor's
+service while you are using the Speak feature, and only then. Recordings stay
+in memory on the device and are discarded when you leave the page.
 
 No API keys or credentials exist in this repository. If an optional feature
 ever needs a key, you would enter it in Settings and it would be stored only

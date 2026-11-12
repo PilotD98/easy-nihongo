@@ -1,68 +1,77 @@
-/* Speak: speaking practice. This release ships the capability check and voice
-   setup guide; the practice modes arrive with the Speaking module. */
+/* Speak: hub with capability check and the four practice modes.
+   Routes: #/speak, #/speak/<setId> (session) */
 import { h, append, icon, jp } from '../ui/dom.js';
 import { supports, japaneseVoices, waitForVoices, osName, isIOS } from '../util/platform.js';
 import { settings } from '../store/settings.js';
 import { toast } from '../ui/toast.js';
+import { speakingMenu, MODES } from '../content/speaking.js';
+import { recognitionSupported } from '../ui/recognizer.js';
+import { recordingSupported } from '../ui/recorder.js';
 
 export const title = 'Speak';
 
-export async function render(el) {
+export async function render(el, ctx) {
+  if (ctx.segs[1]) { const m = await import('./speak-session.js'); return m.render(el, ctx); }
+
   const sup = supports();
   await waitForVoices();
   const voices = japaneseVoices();
+  const sr = recognitionSupported();
+  const recOk = recordingSupported();
+  const allGood = voices.length > 0 && sr && recOk;
 
-  const rows = [
-    cap(sup.speechSynthesis && voices.length > 0,
-      'Japanese voice (text-to-speech)',
-      voices.length ? `${voices.length} Japanese voice${voices.length === 1 ? '' : 's'} installed: ${voices.slice(0, 3).map((v) => v.name).join(', ')}${voices.length > 3 ? '…' : ''}`
-        : sup.speechSynthesis ? 'No Japanese voice is installed in this browser. See the setup steps below.' : 'This browser has no speech synthesis.'),
-    cap(sup.speechRecognition,
-      'Speech recognition (ja-JP)',
-      sup.speechRecognition ? 'Supported. Pronunciation feedback compares what you said with the target, mora by mora.' : 'Not supported here. Practice falls back to record-and-compare self-assessment.'),
-    cap(sup.mediaRecorder,
-      'Recording (self-check)',
-      sup.mediaRecorder ? 'Supported. Recordings stay on this device.' : 'Not supported in this browser.')
-  ];
-
-  const testBtn = h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => speakTest(voices) }, icon('speak'), 'Test the Japanese voice');
+  const menu = await speakingMenu().catch(() => ({}));
 
   append(el, [
     h('header', { class: 'page-head' },
       h('h1', null, 'Speak'),
-      h('p', { class: 'lede' }, 'Repeat-after-me, shadowing, question practice and role-plays with mora-level feedback. First, make sure this device can speak Japanese.')
-    ),
-    h('section', { class: 'card', 'aria-labelledby': 'cap-h' },
-      h('h2', { id: 'cap-h' }, 'What this browser supports'),
-      h('ul', { class: 'stack', style: { listStyle: 'none', padding: 0 } }, rows),
-      h('div', { class: 'btn-row', style: { marginTop: '16px' } }, testBtn,
-        h('span', { class: 'small muted' }, 'Plays ', jp('こんにちは'), ` at ${settings.get('audioRate')}× speed.`))
-    ),
-    voices.length ? null : voiceGuide(),
-    isIOS() ? h('p', { class: 'small muted' }, 'On iPhone and iPad, speech recognition works in Safari and needs an internet connection. Text-to-speech and recording work offline.') : null,
-    h('div', { class: 'empty' }, jp('話す', 'jp-xl'), h('p', null, 'Practice modes are not included in this build yet. They arrive with the Speaking module, after kana.'))
+      h('p', { class: 'lede' }, 'Say it out loud. The app listens, compares beat by beat, and tells you exactly what to fix.')),
+
+    !voices.length ? h('div', { class: 'notice notice-warn' }, icon('info'), h('p', null, 'No Japanese voice is installed, so examples cannot be played. See the setup steps below.')) : null,
+    !sr ? h('div', { class: 'notice' }, icon('info'), h('p', null, 'This browser has no speech recognition, so practice uses record-and-compare: record yourself, play it back next to the native audio, and rate it yourself.')) : null,
+
+    Object.entries(MODES).map(([mode, meta]) => {
+      const sets = menu[mode] || [];
+      return h('section', { class: 'card', 'aria-labelledby': `m-${mode}` },
+        h('div', { class: 'card-title' }, h('h2', { id: `m-${mode}` }, meta.title)),
+        h('p', { class: 'muted' }, meta.blurb),
+        sets.length ? h('ul', { class: 'path' }, sets.map((s) => h('li', null,
+          h('span', { class: `step-no ${s.unlocked ? 'is-available' : ''}`, 'aria-hidden': 'true' }, icon(meta.icon)),
+          h('div', null, h('div', { class: 'step-title' }, s.title), h('div', { class: 'step-sub' }, `${s.summary} · ${(s.items || s.turns).length} ${mode === 'roleplay' ? 'lines' : 'items'} · ${s.level === 'katakana' ? 'after katakana' : 'from hiragana'}`)),
+          s.unlocked ? h('a', { class: 'btn btn-primary', href: `#/speak/${encodeURIComponent(s.id)}` }, 'Start')
+            : h('span', { class: 'icon lock', title: 'Unlocks with the katakana stage' }, icon('lock'))
+        ))) : h('p', { class: 'small muted' }, 'No sets yet.')
+      );
+    }),
+
+    h('details', { class: 'card', open: allGood ? null : true },
+      h('summary', { style: { cursor: 'pointer', fontWeight: 600, minHeight: '44px', display: 'flex', alignItems: 'center' } }, allGood ? 'This browser supports everything' : 'What this browser supports'),
+      h('ul', { class: 'stack', style: { listStyle: 'none', padding: 0, marginTop: '12px' } },
+        cap(voices.length > 0, 'Japanese voice (text-to-speech)', voices.length ? `${voices.length} installed: ${voices.slice(0, 3).map((v) => v.name).join(', ')}${voices.length > 3 ? '…' : ''}` : sup.speechSynthesis ? 'No Japanese voice installed.' : 'No speech synthesis in this browser.'),
+        cap(sr, 'Speech recognition (ja-JP)', sr ? 'Supported. Needs a network connection on most browsers.' : 'Not supported; record-and-compare is used instead.'),
+        cap(recOk, 'Recording (self-check)', recOk ? 'Supported. Recordings stay in memory on this device.' : 'Not supported in this browser.')),
+      h('div', { class: 'btn-row', style: { marginTop: '12px' } },
+        h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => testVoice(voices) }, icon('speak'), 'Test the Japanese voice'),
+        h('span', { class: 'small muted' }, 'Plays ', jp('こんにちは'), ` at ${settings.get('audioRate')}× speed.`)),
+      voices.length ? null : voiceGuide(),
+      isIOS() ? h('p', { class: 'small muted', style: { marginTop: '12px' } }, 'On iPhone and iPad, speech recognition works in Safari and needs an internet connection. Text-to-speech and recording work offline.') : null)
   ]);
 }
 
 function cap(ok, label, detail) {
   return h('li', { class: 'row', style: { alignItems: 'flex-start' } },
-    h('span', { class: `pill`, style: { background: ok ? 'var(--ok-soft)' : 'var(--warn-soft)', color: ok ? 'var(--ok)' : 'var(--warn)', flex: 'none', marginTop: '2px' } }, ok ? 'Ready' : 'Missing'),
-    h('div', { class: 'grow' }, h('div', { style: { fontWeight: 500 } }, label), h('div', { class: 'small muted' }, detail))
-  );
+    h('span', { class: 'pill', style: { background: ok ? 'var(--ok-soft)' : 'var(--warn-soft)', color: ok ? 'var(--ok)' : 'var(--warn)', flex: 'none', marginTop: '2px' } }, ok ? 'Ready' : 'Missing'),
+    h('div', { class: 'grow' }, h('div', { style: { fontWeight: 500 } }, label), h('div', { class: 'small muted' }, detail)));
 }
 
-function speakTest(voices) {
+function testVoice(voices) {
   try {
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance('こんにちは');
-    u.lang = 'ja-JP';
-    u.voice = voices[0];
-    u.rate = Number(settings.get('audioRate')) || 1;
+    u.lang = 'ja-JP'; u.voice = voices[0]; u.rate = Number(settings.get('audioRate')) || 1;
     u.onerror = () => toast('The voice could not play. Try again or pick another voice in your system settings.');
     speechSynthesis.speak(u);
-  } catch {
-    toast('The voice could not play in this browser.');
-  }
+  } catch { toast('The voice could not play in this browser.'); }
 }
 
 function voiceGuide() {
@@ -77,12 +86,10 @@ function voiceGuide() {
   };
   const names = { ios: 'iPhone / iPad', android: 'Android', windows: 'Windows', macos: 'macOS', linux: 'Linux', other: 'your device' };
   const order = [os, ...Object.keys(steps).filter((k) => k !== os && k !== 'other')];
-  return h('section', { class: 'card', 'aria-labelledby': 'voice-h' },
-    h('h2', { id: 'voice-h' }, 'Install a Japanese voice'),
+  return h('div', { style: { marginTop: '12px' } },
+    h('h3', null, 'Install a Japanese voice'),
     h('p', { class: 'muted' }, 'All example audio uses your device’s built-in Japanese voice, so it works offline and sends nothing anywhere.'),
     order.map((k, i) => h('details', { open: i === 0 ? true : null },
       h('summary', { style: { cursor: 'pointer', minHeight: '44px', display: 'flex', alignItems: 'center', fontWeight: 500 } }, names[k]),
-      h('ol', null, steps[k].map((s) => h('li', null, s)))
-    ))
-  );
+      h('ol', null, steps[k].map((s) => h('li', null, s))))));
 }

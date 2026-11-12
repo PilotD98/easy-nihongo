@@ -1,0 +1,132 @@
+{
+  "level": "speaking",
+  "note": "Phrases are written in kana only, because kanji are introduced from the N5 stage. The alt field lists spellings the speech recognizer commonly returns, so comparison is by sound.",
+  "sets": [
+    {
+      "id": "spk:kana:greet", "mode": "repeat", "level": "kana", "title": "Greetings and set phrases",
+      "summary": "The phrases every learner needs on day one.",
+      "items": [
+        { "id": "spk:kana:greet:01", "jp": "おはようございます", "romaji": "ohayou gozaimasu", "en": "Good morning (polite)", "alt": ["おはよう御座います"] },
+        { "id": "spk:kana:greet:02", "jp": "こんにちは", "romaji": "konnichiwa", "en": "Hello (daytime)", "alt": ["今日は", "こんにちわ"] },
+        { "id": "spk:kana:greet:03", "jp": "こんばんは", "romaji": "konbanwa", "en": "Good evening", "alt": ["今晩は", "こんばんわ"] },
+        { "id": "spk:kana:greet:04", "jp": "ありがとうございます", "romaji": "arigatou gozaimasu", "en": "Thank you (polite)", "alt": ["有難うございます", "有り難うございます"] },
+        { "id": "spk:kana:greet:05", "jp": "すみません", "romaji": "sumimasen", "en": "Excuse me; sorry", "alt": ["済みません"] },
+        { "id": "spk:kana:greet:06", "jp": "はじめまして", "romaji": "hajimemashite", "en": "Nice to meet you", "alt": ["初めまして"] },
+        { "id": "spk:kana:greet:07", "jp": "おやすみなさい", "romaji": "oyasuminasai", "en": "Good night", "alt": ["お休みなさい"] },
+        { "id": "spk:kana:greet:08", "jp": "さようなら", "romaji": "sayounara", "en": "Goodbye", "alt": [] },
+        { "id": "spk:kana:greet:09", "jp": "いただきます", "romaji": "itadakimasu", "en": "Said before eating", "alt": ["頂きます"] },
+        { "id": "spk:kana:greet:10", "jp": "ごちそうさまでした", "romaji": "gochisousama deshita", "en": "Said after eating", "alt": ["ご馳走様でした", "御馳走様でした"] },
+        { "id": "spk:kana:greet:11", "jp": "おねがいします", "romaji": "onegai shimasu", "en": "Please (requesting)", "alt": ["お願いします"] },
+        { "id": "spk:kana:greet:12", "jp": "だいじょうぶです", "romaji": "daijoubu desu", "en": "It's fine; I'm OK", "alt": ["大丈夫です"] },
+        { "id": "spk:kana:greet:13", "jp": "わかりました", "romaji": "wakarimashita", "en": "Understood", "alt": ["分かりました", "解りました"] },
+        { "id": "spk:kana:greet:14", "jp": "どうぞ", "romaji": "douzo", "en": "Here you are; go ahead", "alt": [] }
+      ]
+    },
+    {
+      "id": "spk:kana:rhythm", "mode": "repeat", "level": "kana", "title": "Rhythm: long vowels, っ and ん",
+      "summary": "Minimal pairs where one beat changes the meaning.",
+      "items": [
+        { "id": "spk:kana:rhythm:01", "jp": "おばさん", "romaji": "obasan", "en": "aunt (short a)", "alt": ["叔母さん", "伯母さん"], "pair": "spk:kana:rhythm:02" },
+        { "id": "spk:kana:rhythm:02", "jp": "おばあさん", "romaji": "obaasan", "en": "grandmother (long aa)", "alt": ["お婆さん", "祖母さん"], "pair": "spk:kana:rhythm:01" },
+        { "id": "spk:kana:rhythm:03", "jp": "きて", "romaji": "kite", "en": "come (no pause)", "alt": ["来て"], "pair": "spk:kana:rhythm:04" },
+        { "id": "spk:kana:rhythm:04", "jp": "きって", "romaji": "kitte", "en": "stamp (pause before te)", "alt": ["切手"], "pair": "spk:kana:rhythm:03" },
+        { "id": "spk:kana:rhythm:05", "jp": "びよういん", "romaji": "biyouin", "en": "hair salon (bi-yo-u)", "alt": ["美容院"], "pair": "spk:kana:rhythm:06" },
+        { "id": "spk:kana:rhythm:06", "jp": "びょういん", "romaji": "byouin", "en": "hospital (byo-u)", "alt": ["病院"], "pair": "spk:kana:rhythm:05" },
+        { "id": "spk:kana:rhythm:07", "jp": "がっこう", "romaji": "gakkou", "en": "school", "alt": ["学校"] },
+        { "id": "spk:kana:rhythm:08", "jp": "しんぶん", "romaji": "shinbun", "en": "newspaper", "alt": ["新聞"] },
+        { "id": "spk:kana:rhythm:09", "jp": "ゆっくり", "romaji": "yukkuri", "en": "slowly", "alt": [] },
+        { "id": "spk:kana:rhythm:10", "jp": "とおい", "romaji": "tooi", "en": "far", "alt": ["遠い"] },
+        { "id": "spk:kana:rhythm:11", "jp": "ちょっとまって", "romaji": "chotto matte", "en": "wait a moment", "alt": ["ちょっと待って"] },
+        { "id": "spk:kana:rhythm:12", "jp": "こうこう", "romaji": "koukou", "en": "high school", "alt": ["高校"] }
+      ]
+    },
+    {
+      "id": "spk:kana:loan", "mode": "repeat", "level": "katakana", "title": "Loanwords, Japanese style",
+      "summary": "English words reshaped into Japanese beats.",
+      "items": [
+        { "id": "spk:kana:loan:01", "jp": "コーヒー", "romaji": "koohii", "en": "coffee", "alt": ["珈琲"] },
+        { "id": "spk:kana:loan:02", "jp": "ケーキ", "romaji": "keeki", "en": "cake", "alt": [] },
+        { "id": "spk:kana:loan:03", "jp": "タクシー", "romaji": "takushii", "en": "taxi", "alt": [] },
+        { "id": "spk:kana:loan:04", "jp": "レストラン", "romaji": "resutoran", "en": "restaurant", "alt": [] },
+        { "id": "spk:kana:loan:05", "jp": "インターネット", "romaji": "intaanetto", "en": "internet", "alt": [] },
+        { "id": "spk:kana:loan:06", "jp": "パソコン", "romaji": "pasokon", "en": "computer", "alt": [] },
+        { "id": "spk:kana:loan:07", "jp": "サッカー", "romaji": "sakkaa", "en": "football", "alt": [] },
+        { "id": "spk:kana:loan:08", "jp": "チョコレート", "romaji": "chokoreeto", "en": "chocolate", "alt": [] },
+        { "id": "spk:kana:loan:09", "jp": "スーパー", "romaji": "suupaa", "en": "supermarket", "alt": [] },
+        { "id": "spk:kana:loan:10", "jp": "アイスクリーム", "romaji": "aisukuriimu", "en": "ice cream", "alt": [] }
+      ]
+    },
+    {
+      "id": "spk:kana:shadow1", "mode": "shadow", "level": "kana", "title": "First sentences",
+      "summary": "Speak along with the audio at slow speed, then at natural speed.",
+      "items": [
+        { "id": "spk:kana:shadow1:01", "jp": "はじめまして。たなかです。", "romaji": "hajimemashite. tanaka desu.", "en": "Nice to meet you. I'm Tanaka.", "alt": ["初めまして。田中です。"] },
+        { "id": "spk:kana:shadow1:02", "jp": "どうぞよろしくおねがいします。", "romaji": "douzo yoroshiku onegai shimasu.", "en": "Pleased to meet you (please treat me well).", "alt": ["どうぞよろしくお願いします。", "どうぞ宜しくお願いします。"] },
+        { "id": "spk:kana:shadow1:03", "jp": "わたしはにほんごのがくせいです。", "romaji": "watashi wa nihongo no gakusei desu.", "en": "I am a student of Japanese.", "alt": ["私は日本語の学生です。"] },
+        { "id": "spk:kana:shadow1:04", "jp": "きょうはいいてんきですね。", "romaji": "kyou wa ii tenki desu ne.", "en": "Nice weather today, isn't it?", "alt": ["今日はいい天気ですね。", "今日は良い天気ですね。"] },
+        { "id": "spk:kana:shadow1:05", "jp": "コーヒーをおねがいします。", "romaji": "koohii o onegai shimasu.", "en": "A coffee, please.", "alt": ["コーヒーをお願いします。", "珈琲をお願いします。"] },
+        { "id": "spk:kana:shadow1:06", "jp": "すみません、えきはどこですか。", "romaji": "sumimasen, eki wa doko desu ka.", "en": "Excuse me, where is the station?", "alt": ["すみません、駅はどこですか。"] },
+        { "id": "spk:kana:shadow1:07", "jp": "これはいくらですか。", "romaji": "kore wa ikura desu ka.", "en": "How much is this?", "alt": ["これは幾らですか。"] },
+        { "id": "spk:kana:shadow1:08", "jp": "ゆっくりはなしてください。", "romaji": "yukkuri hanashite kudasai.", "en": "Please speak slowly.", "alt": ["ゆっくり話してください。", "ゆっくり話して下さい。"] },
+        { "id": "spk:kana:shadow1:09", "jp": "ありがとうございました。またきます。", "romaji": "arigatou gozaimashita. mata kimasu.", "en": "Thank you. I'll come again.", "alt": ["ありがとうございました。また来ます。", "有難うございました。また来ます。"] }
+      ]
+    },
+    {
+      "id": "spk:kana:qa1", "mode": "question", "level": "kana", "title": "Simple questions",
+      "summary": "Hear a question, answer out loud, then compare with a model answer.",
+      "items": [
+        { "id": "spk:kana:qa1:01", "q": "おなまえはなんですか。", "qRomaji": "onamae wa nan desu ka.", "qEn": "What is your name?", "model": "[name]です。", "modelRomaji": "[name] desu.", "en": "I am [name].", "alt": [] },
+        { "id": "spk:kana:qa1:02", "q": "おげんきですか。", "qRomaji": "ogenki desu ka.", "qEn": "How are you?", "model": "はい、げんきです。", "modelRomaji": "hai, genki desu.", "en": "Yes, I'm well.", "alt": ["はい、元気です。"] },
+        { "id": "spk:kana:qa1:03", "q": "どこからきましたか。", "qRomaji": "doko kara kimashita ka.", "qEn": "Where are you from?", "model": "[place]からきました。", "modelRomaji": "[place] kara kimashita.", "en": "I came from [place].", "alt": ["[place]から来ました。"] },
+        { "id": "spk:kana:qa1:04", "q": "なにをのみますか。", "qRomaji": "nani o nomimasu ka.", "qEn": "What will you drink?", "model": "コーヒーをのみます。", "modelRomaji": "koohii o nomimasu.", "en": "I'll drink coffee.", "alt": ["コーヒーを飲みます。"] },
+        { "id": "spk:kana:qa1:05", "q": "すしはすきですか。", "qRomaji": "sushi wa suki desu ka.", "qEn": "Do you like sushi?", "model": "はい、すきです。", "modelRomaji": "hai, suki desu.", "en": "Yes, I like it.", "alt": ["はい、好きです。"] },
+        { "id": "spk:kana:qa1:06", "q": "にほんごはむずかしいですか。", "qRomaji": "nihongo wa muzukashii desu ka.", "qEn": "Is Japanese difficult?", "model": "はい、むずかしいです。", "modelRomaji": "hai, muzukashii desu.", "en": "Yes, it's difficult.", "alt": ["はい、難しいです。"] },
+        { "id": "spk:kana:qa1:07", "q": "いまなんじですか。", "qRomaji": "ima nanji desu ka.", "qEn": "What time is it now?", "model": "[time]じです。", "modelRomaji": "[time]-ji desu.", "en": "It's [time] o'clock.", "alt": ["[time]時です。"] }
+      ]
+    },
+    {
+      "id": "spk:kana:rp-intro", "mode": "roleplay", "level": "kana", "title": "Self-introduction",
+      "summary": "Meet someone for the first time. You play the newcomer.",
+      "partner": "Tanaka",
+      "turns": [
+        { "who": "partner", "jp": "はじめまして。たなかです。", "romaji": "hajimemashite. tanaka desu.", "en": "Nice to meet you. I'm Tanaka." },
+        { "who": "you", "jp": "はじめまして。[name]です。", "romaji": "hajimemashite. [name] desu.", "en": "Nice to meet you. I'm [name].", "alt": ["初めまして。[name]です。"] },
+        { "who": "partner", "jp": "どうぞよろしくおねがいします。", "romaji": "douzo yoroshiku onegai shimasu.", "en": "Pleased to meet you." },
+        { "who": "you", "jp": "こちらこそ、よろしくおねがいします。", "romaji": "kochira koso, yoroshiku onegai shimasu.", "en": "Likewise, pleased to meet you.", "alt": ["こちらこそ、よろしくお願いします。"] },
+        { "who": "partner", "jp": "どこからきましたか。", "romaji": "doko kara kimashita ka.", "en": "Where are you from?" },
+        { "who": "you", "jp": "[place]からきました。", "romaji": "[place] kara kimashita.", "en": "I'm from [place].", "alt": ["[place]から来ました。"] },
+        { "who": "partner", "jp": "そうですか。にほんごがじょうずですね。", "romaji": "sou desu ka. nihongo ga jouzu desu ne.", "en": "I see. Your Japanese is good!" },
+        { "who": "you", "jp": "いいえ、まだまだです。", "romaji": "iie, madamada desu.", "en": "Oh no, I still have a long way to go.", "alt": [] }
+      ]
+    },
+    {
+      "id": "spk:kana:rp-coffee", "mode": "roleplay", "level": "katakana", "title": "Ordering a coffee",
+      "summary": "At a café counter. You are the customer.",
+      "partner": "Staff",
+      "turns": [
+        { "who": "partner", "jp": "いらっしゃいませ。", "romaji": "irasshaimase.", "en": "Welcome." },
+        { "who": "you", "jp": "コーヒーをひとつおねがいします。", "romaji": "koohii o hitotsu onegai shimasu.", "en": "One coffee, please.", "alt": ["コーヒーを一つお願いします。"] },
+        { "who": "partner", "jp": "ホットですか、アイスですか。", "romaji": "hotto desu ka, aisu desu ka.", "en": "Hot or iced?" },
+        { "who": "you", "jp": "ホットでおねがいします。", "romaji": "hotto de onegai shimasu.", "en": "Hot, please.", "alt": ["ホットでお願いします。"] },
+        { "who": "partner", "jp": "おもちかえりですか。", "romaji": "omochikaeri desu ka.", "en": "To take away?" },
+        { "who": "you", "jp": "いいえ、ここでのみます。", "romaji": "iie, koko de nomimasu.", "en": "No, I'll drink it here.", "alt": ["いいえ、ここで飲みます。"] },
+        { "who": "partner", "jp": "さんびゃくえんです。", "romaji": "sanbyaku en desu.", "en": "That's 300 yen." },
+        { "who": "you", "jp": "はい、どうぞ。", "romaji": "hai, douzo.", "en": "Here you are.", "alt": [] },
+        { "who": "partner", "jp": "ありがとうございます。", "romaji": "arigatou gozaimasu.", "en": "Thank you." }
+      ]
+    },
+    {
+      "id": "spk:kana:rp-station", "mode": "roleplay", "level": "kana", "title": "Asking the way to the station",
+      "summary": "Stop a passer-by and follow their directions.",
+      "partner": "Passer-by",
+      "turns": [
+        { "who": "you", "jp": "すみません、えきはどこですか。", "romaji": "sumimasen, eki wa doko desu ka.", "en": "Excuse me, where is the station?", "alt": ["すみません、駅はどこですか。"] },
+        { "who": "partner", "jp": "えきですか。あのみちをまっすぐいってください。", "romaji": "eki desu ka. ano michi o massugu itte kudasai.", "en": "The station? Go straight along that road." },
+        { "who": "you", "jp": "まっすぐですね。", "romaji": "massugu desu ne.", "en": "Straight ahead, right?", "alt": ["真っ直ぐですね。"] },
+        { "who": "partner", "jp": "はい。それから、ひだりにまがってください。", "romaji": "hai. sorekara, hidari ni magatte kudasai.", "en": "Yes. Then turn left." },
+        { "who": "you", "jp": "ひだりですね。ありがとうございます。", "romaji": "hidari desu ne. arigatou gozaimasu.", "en": "Left, right? Thank you.", "alt": ["左ですね。ありがとうございます。", "左ですね。有難うございます。"] },
+        { "who": "partner", "jp": "どういたしまして。", "romaji": "dou itashimashite.", "en": "You're welcome." }
+      ]
+    }
+  ]
+}

@@ -131,6 +131,25 @@ vocabulary and kanji (or marks them with `{漢字|かんじ}` inline furigana). 
 inside such braces. Listening items add `"speed": ["natural", "slow"]` and a
 `dictation` list.
 
+## Speaking (`speaking.json`)
+
+```json
+{ "sets": [
+  { "id": "spk:kana:greet", "mode": "repeat", "level": "kana", "title": "Greetings", "summary": "…",
+    "items": [ { "id": "spk:kana:greet:02", "jp": "こんにちは", "romaji": "konnichiwa", "en": "Hello", "alt": ["今日は"], "pitch": 5, "pair": "spk:…" } ] },
+  { "id": "spk:kana:qa1", "mode": "question", "level": "kana", "title": "…", "summary": "…",
+    "items": [ { "id": "…", "q": "おなまえは？", "qRomaji": "…", "qEn": "…", "model": "[name]です。", "modelRomaji": "…", "en": "…", "alt": [] } ] },
+  { "id": "spk:kana:rp-intro", "mode": "roleplay", "level": "kana", "title": "…", "summary": "…", "partner": "Tanaka",
+    "turns": [ { "who": "partner", "jp": "…", "romaji": "…", "en": "…" }, { "who": "you", "jp": "…", "romaji": "…", "en": "…", "alt": [] } ] }
+] }
+```
+
+`mode` is `repeat | shadow | question | roleplay`. `jp`, `q` and `model` are
+kana only; `[slot]` marks a part the learner fills in (name, place, time) that
+is not scored. `alt` lists spellings the speech recognizer commonly returns
+for the phrase. `level` gates the set on the kana stage that teaches its
+characters.
+
 ## Progress records (device storage, not in the repo)
 
 ```json

@@ -8,7 +8,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '0.3.0';
+const VERSION = '0.4.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -26,6 +26,7 @@ const SHELL = [
   './css/layout.css',
   './css/components.css',
   './css/lesson.css',
+  './css/speak.css',
   './js/app.js',
   './js/router.js',
   './js/store/db.js',
@@ -43,6 +44,11 @@ const SHELL = [
   './js/ui/tracepad.js',
   './js/ui/kanatext.js',
   './js/ui/quiz.js',
+  './js/ui/pitch.js',
+  './js/ui/recognizer.js',
+  './js/ui/recorder.js',
+  './js/engine/mora.js',
+  './js/content/speaking.js',
   './js/engine/fsrs.js',
   './js/engine/scheduler.js',
   './js/engine/scaffold.js',
@@ -65,12 +71,14 @@ const SHELL = [
   './js/views/lesson.js',
   './js/views/exam.js',
   './js/views/item.js',
+  './js/views/speak-session.js',
   './data/index.json',
   './data/orientation.json',
   './data/kana.json',
   './data/strokes/hiragana.json',
   './data/katakana.json',
   './data/strokes/katakana.json',
+  './data/speaking.json',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

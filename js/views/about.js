@@ -31,7 +31,7 @@ export async function render(el) {
     ),
     h('section', { class: 'card' },
       h('h2', null, 'Privacy'),
-      h('p', null, 'Kotoba Path makes no network requests except to load its own files, open-licensed curriculum data, and fonts. Speech synthesis and recognition use your browser’s built-in engines; on some platforms recognition is processed by the browser vendor’s service. Recordings never leave the device.')
+      h('p', null, 'Kotoba Path makes no network requests except to load its own files, open-licensed curriculum data, and fonts. Speech synthesis and recognition use your browser’s built-in engines; on some platforms (Chrome, Safari) recognition sends audio to the browser vendor’s service while you use the Speak feature. Recordings stay in memory on this device and are discarded when you leave the page.')
     ),
     h('p', { class: 'small muted' }, 'Application code is released under the MIT License.')
   );

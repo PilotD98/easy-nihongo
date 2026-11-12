@@ -16,7 +16,7 @@ import { ID_RE } from '../js/content/ids.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
-const LEVEL_ORDER = ['orientation', 'kana', 'katakana', 'n5', 'n4', 'n3', 'n2', 'n1'];
+const LEVEL_ORDER = ['orientation', 'speaking', 'kana', 'katakana', 'n5', 'n4', 'n3', 'n2', 'n1'];
 
 const errors = [];
 const warnings = [];
@@ -162,6 +162,27 @@ for (const [levelId, data] of Object.entries(levelData)) {
       const where = `${rel} ${r.id}`;
       requireFields(where, r, ['id', 'level', 'order', 'title', 'text', 'questions']);
       registerId(r.id, where);
+    }
+  }
+  if (data.speaking) {
+    const { rel, json } = data.speaking;
+    const kanaOnly = (s) => /^[\u3041-\u30ff\s、。，．・！？!?「」\[\]a-z]+$/u.test(s);
+    for (const set of json.sets || []) {
+      const where = `${rel} set ${set.id}`;
+      requireFields(where, set, ['id', 'mode', 'level', 'title', 'summary']);
+      if (!['repeat', 'shadow', 'question', 'roleplay'].includes(set.mode)) err(where, `unknown mode ${set.mode}`);
+      if (!['kana', 'katakana', 'n5', 'n4', 'n3', 'n2', 'n1'].includes(set.level)) err(where, `unknown level ${set.level}`);
+      registerId(set.id, where);
+      const items = set.mode === 'roleplay' ? set.turns : set.items;
+      if (!Array.isArray(items) || !items.length) { err(where, 'needs items (or turns for roleplay)'); continue; }
+      items.forEach((it, i) => {
+        const w = `${where} #${i + 1}`;
+        if (set.mode === 'roleplay') { requireFields(w, it, ['who', 'jp', 'romaji', 'en']); if (!['you', 'partner'].includes(it.who)) err(w, 'who must be you|partner'); }
+        else if (set.mode === 'question') { requireFields(w, it, ['id', 'q', 'qRomaji', 'qEn', 'model', 'modelRomaji', 'en']); registerId(it.id, w); }
+        else { requireFields(w, it, ['id', 'jp', 'romaji', 'en']); registerId(it.id, w); }
+        for (const f of ['jp', 'q', 'model']) if (it[f] && !kanaOnly(it[f])) err(w, `${f} must be kana only (kanji are introduced from N5): ${it[f]}`);
+        if (it.pair && !(set.items || []).some((x) => x.id === it.pair)) err(w, `pair ${it.pair} not in this set`);
+      });
     }
   }
 }

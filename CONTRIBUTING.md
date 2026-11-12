@@ -16,6 +16,7 @@ data/SCHEMA.md           field-by-field reference for every file type
 data/orientation.json    Stage 0 text
 data/kana.json           hiragana groups, characters and first words
 data/katakana.json       katakana groups, characters and loanwords
+data/speaking.json       speaking sets: repeat, shadow, question, roleplay
 data/strokes/*.json      stroke paths extracted from KanjiVG (regenerate, do not hand-edit)
 data/n5/kanji.json       kanji for N5 (and n4/, n3/, n2/, n1/ likewise)
 data/n5/vocab.json       vocabulary
@@ -44,7 +45,9 @@ It fails the build if:
   `"furiganaException": true` (it then always shows furigana until the kanji is learned);
 - a grammar example, exercise, or reading passage uses an untaught kanji
   outside an inline-furigana span written as `{漢字|かんじ}`;
-- a kanji's example word does not exist or does not contain that kanji.
+- a kanji's example word does not exist or does not contain that kanji;
+- a speaking phrase contains kanji (phrases stay in kana until the N5 stage;
+  put kanji spellings the recognizer might return in `alt` instead).
 
 It warns, without failing, when a kanji's example word is taught later than the
 kanji itself. Prefer examples the learner already knows.
@@ -67,7 +70,8 @@ do not reuse its ID for something else.
   the About page). Stroke counts follow KANJIDIC2.
 - Romaji is modified Hepburn: `shi`, `chi`, `tsu`, `fu`, `ji`; long vowels are
   written out (`ou`, `uu`) rather than with macrons, so they type naturally.
-- Pitch accent numbers follow the NHK/OJAD convention (0 = heiban).
+- Pitch accent numbers follow the NHK/OJAD convention (0 = heiban). Only add
+  a `pitch` value when the word is unambiguous and you have checked it.
 - If you are not sure, say so in the pull request rather than guessing.
 
 ## What not to add

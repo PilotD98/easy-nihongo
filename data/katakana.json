@@ -139,7 +139,8 @@
      "id": "vocab:katakana:keeki-ケーキ",
      "jp": "ケーキ",
      "romaji": "keeki",
-     "meaning": "cake"
+     "meaning": "cake",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:kii-キー",
@@ -337,13 +338,15 @@
      "id": "vocab:katakana:tesuto-テスト",
      "jp": "テスト",
      "romaji": "tesuto",
-     "meaning": "test"
+     "meaning": "test",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:takushii-タクシー",
      "jp": "タクシー",
      "romaji": "takushii",
-     "meaning": "taxi"
+     "meaning": "taxi",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:toosuto-トースト",
@@ -454,7 +457,8 @@
      "id": "vocab:katakana:nooto-ノート",
      "jp": "ノート",
      "romaji": "nooto",
-     "meaning": "notebook"
+     "meaning": "notebook",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:nekutai-ネクタイ",
@@ -547,7 +551,8 @@
      "id": "vocab:katakana:koohii-コーヒー",
      "jp": "コーヒー",
      "romaji": "koohii",
-     "meaning": "coffee"
+     "meaning": "coffee",
+     "pitch": 3
     },
     {
      "id": "vocab:katakana:naifu-ナイフ",
@@ -824,13 +829,15 @@
      "id": "vocab:katakana:hoteru-ホテル",
      "jp": "ホテル",
      "romaji": "hoteru",
-     "meaning": "hotel"
+     "meaning": "hotel",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:kamera-カメラ",
      "jp": "カメラ",
      "romaji": "kamera",
-     "meaning": "camera"
+     "meaning": "camera",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:toire-トイレ",
@@ -854,7 +861,8 @@
      "id": "vocab:katakana:meeru-メール",
      "jp": "メール",
      "romaji": "meeru",
-     "meaning": "email"
+     "meaning": "email",
+     "pitch": 0
     },
     {
      "id": "vocab:katakana:karaa-カラー",
@@ -945,7 +953,8 @@
      "id": "vocab:katakana:wain-ワイン",
      "jp": "ワイン",
      "romaji": "wain",
-     "meaning": "wine"
+     "meaning": "wine",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:remon-レモン",
@@ -957,13 +966,15 @@
      "id": "vocab:katakana:raamen-ラーメン",
      "jp": "ラーメン",
      "romaji": "raamen",
-     "meaning": "ramen"
+     "meaning": "ramen",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:resutoran-レストラン",
      "jp": "レストラン",
      "romaji": "resutoran",
-     "meaning": "restaurant"
+     "meaning": "restaurant",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:rimokon-リモコン",
@@ -1068,7 +1079,8 @@
      "id": "vocab:katakana:geemu-ゲーム",
      "jp": "ゲーム",
      "romaji": "geemu",
-     "meaning": "game"
+     "meaning": "game",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:gasu-ガス",
@@ -1080,7 +1092,8 @@
      "id": "vocab:katakana:gitaa-ギター",
      "jp": "ギター",
      "romaji": "gitaa",
-     "meaning": "guitar"
+     "meaning": "guitar",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:gurasu-グラス",
@@ -1326,7 +1339,8 @@
      "id": "vocab:katakana:doa-ドア",
      "jp": "ドア",
      "romaji": "doa",
-     "meaning": "door"
+     "meaning": "door",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:sarada-サラダ",
@@ -1437,19 +1451,22 @@
      "id": "vocab:katakana:terebi-テレビ",
      "jp": "テレビ",
      "romaji": "terebi",
-     "meaning": "television"
+     "meaning": "television",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:basu-バス",
      "jp": "バス",
      "romaji": "basu",
-     "meaning": "bus"
+     "meaning": "bus",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:biiru-ビール",
      "jp": "ビール",
      "romaji": "biiru",
-     "meaning": "beer"
+     "meaning": "beer",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:banana-バナナ",
@@ -1572,19 +1589,22 @@
      "id": "vocab:katakana:pan-パン",
      "jp": "パン",
      "romaji": "pan",
-     "meaning": "bread"
+     "meaning": "bread",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:pen-ペン",
      "jp": "ペン",
      "romaji": "pen",
-     "meaning": "pen"
+     "meaning": "pen",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:pasokon-パソコン",
      "jp": "パソコン",
      "romaji": "pasokon",
-     "meaning": "personal computer"
+     "meaning": "personal computer",
+     "pitch": 0
     },
     {
      "id": "vocab:katakana:suupu-スープ",
@@ -1638,7 +1658,8 @@
      "id": "vocab:katakana:suupaa-スーパー",
      "jp": "スーパー",
      "romaji": "suupaa",
-     "meaning": "supermarket"
+     "meaning": "supermarket",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:depaato-デパート",
@@ -1904,13 +1925,15 @@
      "id": "vocab:katakana:shatsu-シャツ",
      "jp": "シャツ",
      "romaji": "shatsu",
-     "meaning": "shirt"
+     "meaning": "shirt",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:nyuusu-ニュース",
      "jp": "ニュース",
      "romaji": "nyuusu",
-     "meaning": "news"
+     "meaning": "news",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:shawaa-シャワー",
@@ -2137,7 +2160,8 @@
      "id": "vocab:katakana:juusu-ジュース",
      "jp": "ジュース",
      "romaji": "juusu",
-     "meaning": "juice"
+     "meaning": "juice",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:jogingu-ジョギング",
@@ -2227,7 +2251,8 @@
      "id": "vocab:katakana:sakkaa-サッカー",
      "jp": "サッカー",
      "romaji": "sakkaa",
-     "meaning": "football (soccer)"
+     "meaning": "football (soccer)",
+     "pitch": 1
     },
     {
      "id": "vocab:katakana:kukkii-クッキー",
