@@ -94,7 +94,27 @@ export async function kanaStatus(levelId = 'kana') {
 export async function nextStep() {
   if (!(await orientationDone())) return { href: '#/learn/orientation', label: 'Start with Orientation', sub: 'How Japanese works · 8 min' };
   const s = await kanaStatus('kana');
-  if (s.nextGroup) return { href: `#/lesson/kana/${s.nextGroup.id}`, label: `Hiragana: ${s.nextGroup.title}`, sub: `Group ${s.nextGroup.index + 1} of ${s.total}` };
+  if (s.nextGroup && !s.exam) return { href: `#/lesson/kana/${s.nextGroup.id}`, label: `Hiragana: ${s.nextGroup.title}`, sub: `Group ${s.nextGroup.index + 1} of ${s.total}` };
   if (!s.exam) return { href: '#/exam/kana', label: 'Take the hiragana exam', sub: 'Unlocks katakana' };
-  return { href: '#/learn', label: 'Learning path', sub: 'Katakana arrives in the next release' };
+  const k = await kanaStatus('katakana').catch(() => null);
+  if (k && k.nextGroup && !k.exam) return { href: `#/lesson/katakana/${k.nextGroup.id}`, label: `Katakana: ${k.nextGroup.title}`, sub: `Group ${k.nextGroup.index + 1} of ${k.total}` };
+  if (k && !k.exam) return { href: '#/exam/katakana', label: 'Take the katakana exam', sub: 'Unlocks N5' };
+  return { href: '#/learn', label: 'Learning path', sub: 'N5 arrives in the next release' };
 }
+
+/** Which kana level an item id belongs to, or null. */
+export function kanaLevelFor(id) {
+  if (id.startsWith('kana:h:') || id.startsWith('vocab:kana:')) return 'kana';
+  if (id.startsWith('kana:k:') || id.startsWith('vocab:katakana:')) return 'katakana';
+  return null;
+}
+
+/** Load every kana level that has content (hiragana, katakana). */
+export async function loadAllKana() {
+  const out = {};
+  for (const id of ['kana', 'katakana']) { try { out[id] = await loadKana(id); } catch { /* not in this build */ } }
+  return out;
+}
+
+/** The stage path segment for a kana level id. */
+export function stagePathFor(levelId) { return levelId === 'kana' ? 'hiragana' : levelId; }

@@ -82,6 +82,23 @@ for (const [r, k] of Object.entries(TABLE)) {
   if (!REVERSE[k]) REVERSE[k] = r;
 }
 REVERSE['ん'] = 'n'; REVERSE['を'] = 'o'; REVERSE['ぢ'] = 'ji'; REVERSE['づ'] = 'zu';
+REVERSE['てぃ'] = 'ti'; REVERSE['でぃ'] = 'di'; REVERSE['とぅ'] = 'tu'; REVERSE['どぅ'] = 'du'; REVERSE['でゅ'] = 'dyu';
+TABLE.dhu = 'でゅ';
+
+const VOWEL_KANA = { a: 'あ', i: 'い', u: 'う', e: 'え', o: 'お' };
+/** Replace each ー with the vowel kana it lengthens (こーひー -> こおひい), so comparisons are by sound. */
+export function expandChoon(hira) {
+  let out = '';
+  for (let i = 0; i < hira.length; i++) {
+    const ch = hira[i];
+    if (ch !== 'ー') { out += ch; continue; }
+    const prev = out.slice(-2);
+    const r = REVERSE[prev] || REVERSE[out.slice(-1)] || '';
+    const v = r.replace(/'$/, '').slice(-1);
+    out += VOWEL_KANA[v] || '';
+  }
+  return out;
+}
 
 /** Hiragana (or katakana) -> Hepburn romaji. Long vowels are written out (ou, uu). */
 export function kanaToRomaji(kana) {
@@ -120,7 +137,7 @@ export function isKanaOnly(s) { return /^[ぁ-ゖァ-ヶー\s]+$/.test(s); }
 
 /** Normalise a typed answer for comparison: trim, lower-case, katakana -> hiragana, strip spaces and apostrophes. */
 export function normalize(s) {
-  return toHiragana(String(s || '')).toLowerCase().replace(/[\s'’\-ー]/g, '');
+  return expandChoon(toHiragana(String(s || ''))).toLowerCase().replace(/[\s'’\-]/g, '');
 }
 
 /** Levenshtein distance (for the "typo?" prompt). */

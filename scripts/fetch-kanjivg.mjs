@@ -6,7 +6,7 @@
 
    Usage:
      node scripts/fetch-kanjivg.mjs hiragana            # U+3041..U+3093 -> data/strokes/hiragana.json
-     node scripts/fetch-kanjivg.mjs katakana            # U+30A1..U+30F6 -> data/strokes/katakana.json
+     node scripts/fetch-kanjivg.mjs katakana            # U+30A1..U+30F6 + ー -> data/strokes/katakana.json
      node scripts/fetch-kanjivg.mjs chars 日本語 out.json  # arbitrary characters
 
    Output format: { "あ": { "strokes": ["M…", "M…"], "numbers": [[x, y], …] }, … }
@@ -24,7 +24,7 @@ const [, , mode, arg, outArg] = process.argv;
 let chars = [];
 let outFile;
 if (mode === 'hiragana') { chars = range(0x3041, 0x3093); outFile = 'data/strokes/hiragana.json'; }
-else if (mode === 'katakana') { chars = range(0x30a1, 0x30f6); outFile = 'data/strokes/katakana.json'; }
+else if (mode === 'katakana') { chars = [...range(0x30a1, 0x30f6), 'ー']; outFile = 'data/strokes/katakana.json'; }
 else if (mode === 'chars' && arg && outArg) { chars = [...arg]; outFile = outArg; }
 else { console.error('Usage: node scripts/fetch-kanjivg.mjs hiragana|katakana|chars <text> <out.json>'); process.exit(2); }
 

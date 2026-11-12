@@ -4,7 +4,7 @@ import { h, append, formatMinutes } from '../ui/dom.js';
 import { progress, STAGES, STAGE_LABELS } from '../store/progress.js';
 import { days } from '../store/days.js';
 import { getManifest } from '../content/loader.js';
-import { loadKana } from '../content/kana.js';
+import { loadAllKana } from '../content/kana.js';
 
 export const title = 'Progress';
 
@@ -70,11 +70,11 @@ export async function render(el) {
 
 async function glyphMap() {
   const map = new Map();
-  try {
-    const kana = await loadKana('kana');
+  const levels = await loadAllKana();
+  for (const kana of Object.values(levels)) {
     for (const c of kana.allChars) map.set(c.id, `${c.char} (${c.romaji})`);
     for (const w of kana.allWords) map.set(w.id, `${w.jp} (${w.romaji}, ${w.meaning})`);
-  } catch { /* content not available offline yet */ }
+  }
   return map;
 }
 

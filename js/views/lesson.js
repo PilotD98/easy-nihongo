@@ -2,6 +2,7 @@
    audio, tracing) → words → quiz → result. Route: #/lesson/kana/<groupId> */
 import { h, append, icon, jp } from '../ui/dom.js';
 import { loadKana, markGroupPassed, passedGroups } from '../content/kana.js';
+import { stagePathFor } from '../content/kana.js';
 import { strokeDiagram, strokeDiagrams } from '../ui/stroke.js';
 import { tracePad } from '../ui/tracepad.js';
 import { speak, canSpeak, initAudio, stopSpeaking } from '../ui/audio.js';
@@ -21,7 +22,7 @@ export async function render(el, ctx) {
   const kana = await loadKana(levelId);
   const group = kana.groups.find((g) => g.id === groupId);
   if (!group) {
-    append(el, [h('h1', null, 'Lesson not found'), h('a', { class: 'btn', href: `#/learn/${levelId === 'kana' ? 'hiragana' : levelId}` }, 'Back')]);
+    append(el, [h('h1', null, 'Lesson not found'), h('a', { class: 'btn', href: `#/learn/${stagePathFor(levelId)}` }, 'Back')]);
     return;
   }
   await initAudio();
@@ -41,7 +42,7 @@ export async function render(el, ctx) {
   append(el, [
     h('header', { class: 'page-head row', style: { justifyContent: 'space-between' } },
       h('div', null, h('h1', null, group.title), h('p', { class: 'lede' }, `${kana.data.title} · group ${group.index + 1} of ${kana.groups.length}`)),
-      h('a', { class: 'btn', href: `#/learn/${levelId === 'kana' ? 'hiragana' : levelId}`, onClick: () => { stopSpeaking(); logTime(); } }, 'Exit')),
+      h('a', { class: 'btn', href: `#/learn/${stagePathFor(levelId)}`, onClick: () => { stopSpeaking(); logTime(); } }, 'Exit')),
     progressBar,
     stage
   ]);
@@ -152,7 +153,7 @@ export async function render(el, ctx) {
         ok && !next ? h('a', { class: 'btn btn-primary btn-lg', href: `#/exam/${levelId}` }, 'Take the exam') : null,
         !ok ? h('button', { class: 'btn btn-primary btn-lg', type: 'button', onClick: () => { stepIdx = 1; logged = false; show(); } }, 'Review the characters') : null,
         !ok ? h('button', { class: 'btn', type: 'button', onClick: () => { stepIdx = steps.length - 1; logged = false; show(); } }, 'Retry the quiz') : null,
-        h('a', { class: 'btn', href: `#/learn/${levelId === 'kana' ? 'hiragana' : levelId}` }, 'Back to the list')
+        h('a', { class: 'btn', href: `#/learn/${stagePathFor(levelId)}` }, 'Back to the list')
       )
     ]);
   }

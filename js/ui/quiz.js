@@ -7,7 +7,7 @@
      why: 'short explanation shown on mistakes' } */
 import { h, icon, jp } from './dom.js';
 import { speak, canSpeak } from './audio.js';
-import { romajiToKana, judge } from '../engine/romaji.js';
+import { romajiToKana, toKatakana, judge } from '../engine/romaji.js';
 import { tracePad } from './tracepad.js';
 
 const shuffle = (arr) => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -50,14 +50,18 @@ export function kanaQuiz(chars, words, { n = 12, pool = chars, wordPool = words,
   const qs = [];
   const cs = shuffle(chars);
   const ws = shuffle(words);
+  // Cycle through every character and word before any repeats.
+  let ci = 0, wi = 0;
+  const nextChar = () => cs[ci++ % cs.length];
+  const nextWord = () => ws[wi++ % ws.length];
   let i = 0;
   while (qs.length < n && (cs.length || ws.length)) {
     const slot = i % 4;
-    if (slot === 0 && cs.length) qs.push(qCharToRomaji(cs[i % cs.length], pool));
-    else if (slot === 1 && cs.length) qs.push(qRomajiToChar(cs[(i + 1) % cs.length], pool));
-    else if (slot === 2 && ws.length) qs.push(qWordTyped(ws[i % ws.length]));
-    else if (ws.length) qs.push(listening && wordPool.length >= 4 ? qListenWord(ws[(i + 2) % ws.length], wordPool) : qWordTyped(ws[(i + 2) % ws.length]));
-    else qs.push(qCharToRomaji(cs[i % cs.length], pool));
+    if (slot === 0 && cs.length) qs.push(qCharToRomaji(nextChar(), pool));
+    else if (slot === 1 && cs.length) qs.push(qRomajiToChar(nextChar(), pool));
+    else if (slot === 2 && ws.length) qs.push(qWordTyped(nextWord()));
+    else if (ws.length) { const w = nextWord(); qs.push(listening && wordPool.length >= 4 ? qListenWord(w, wordPool) : qWordTyped(w)); }
+    else qs.push(qCharToRomaji(nextChar(), pool));
     i++;
   }
   // avoid the same item twice in a row
@@ -130,7 +134,9 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
     input.addEventListener('input', () => {
       if (composing) return;
       const { kana, pending } = romajiToKana(input.value);
-      preview.textContent = /[a-z]/i.test(input.value) ? kana + pending : '';
+      const wantsKatakana = /[ァ-ー]/.test([q.answer, q.prompt.jp, ...(q.accepted || [])].join(''));
+      const shown = wantsKatakana ? toKatakana(kana) : kana;
+      preview.textContent = /[a-z]/i.test(input.value) ? shown + pending : '';
     });
     const typoRow = h('div', { class: 'row', hidden: true });
     const submit = () => {

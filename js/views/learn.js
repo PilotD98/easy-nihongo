@@ -12,7 +12,8 @@ export const title = 'Learn';
 
 const SUBVIEWS = {
   orientation: () => import('./orientation.js'),
-  hiragana: () => import('./kana-stage.js')
+  hiragana: () => import('./kana-stage.js'),
+  katakana: () => import('./kana-stage.js')
 };
 
 export async function render(el, ctx) {
@@ -30,6 +31,7 @@ export async function render(el, ctx) {
   const levelsById = Object.fromEntries((manifest.levels || []).map((l) => [l.id, l]));
   const oDone = await orientationDone();
   const hira = await kanaStatus('kana').catch(() => null);
+  const kata = (await isUnlocked('katakana')) ? await kanaStatus('katakana').catch(() => null) : null;
 
   const items = [];
   for (const s of manifest.stages || []) {
@@ -45,6 +47,11 @@ export async function render(el, ctx) {
       done = !!hira.exam;
       status = hira.exam ? 'Passed' : hira.passed.size ? 'Continue' : 'Start';
       sub = `${hira.passed.size} of ${hira.total} groups passed` + (hira.exam ? ` · exam ${hira.exam.score}%` : '');
+    } else if (s.id === 'katakana' && kata) {
+      href = '#/learn/katakana';
+      done = !!kata.exam;
+      status = kata.exam ? 'Passed' : kata.passed.size ? 'Continue' : 'Start';
+      sub = `${kata.passed.size} of ${kata.total} groups passed` + (kata.exam ? ` · exam ${kata.exam.score}%` : '');
     } else { href = `#/learn/${s.id}`; status = 'Open'; }
     items.push(h('li', null,
       h('span', { class: `step-no ${href ? 'is-available' : ''} ${done ? 'is-passed' : ''}`, 'aria-hidden': 'true' }, done ? icon('check') : String(s.no)),

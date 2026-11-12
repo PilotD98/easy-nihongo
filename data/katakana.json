@@ -1,0 +1,2616 @@
+{
+ "script": "katakana",
+ "title": "Katakana",
+ "exam": {
+  "questions": 50,
+  "passPercent": 90,
+  "unlocks": "N5"
+ },
+ "quiz": {
+  "questions": 12,
+  "passPercent": 80
+ },
+ "groups": [
+  {
+   "id": "k-a",
+   "title": "ア row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:a",
+     "char": "ア",
+     "romaji": "a",
+     "mnemonic": "A sharp antenna bent by the wind: \"a\". Katakana are angular where hiragana are curvy.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:i",
+     "char": "イ",
+     "romaji": "i",
+     "mnemonic": "A person leaning on a stick: \"ee\". Two straight strokes.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:u",
+     "char": "ウ",
+     "romaji": "u",
+     "mnemonic": "A roof with a chimney: \"u\". It is ワ with a hat; hiragana う has the same top.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:e",
+     "char": "エ",
+     "romaji": "e",
+     "mnemonic": "An elevator door frame, a capital I on its side: \"e\" for エレベーター.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:o",
+     "char": "オ",
+     "romaji": "o",
+     "mnemonic": "A figure carrying a pole over the shoulder: \"oh!\"",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:choon",
+     "char": "ー",
+     "romaji": "long vowel (ー)",
+     "mnemonic": "A dash that stretches the vowel before it for one extra beat: コーヒー is ko-o-hi-i. Vertical text turns it vertical.",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:ea-エア",
+     "jp": "エア",
+     "romaji": "ea",
+     "meaning": "air (as in air conditioner)"
+    },
+    {
+     "id": "vocab:katakana:ai-アイ",
+     "jp": "アイ",
+     "romaji": "ai",
+     "meaning": "eye (as in eye contact)"
+    },
+    {
+     "id": "vocab:katakana:ee-エー",
+     "jp": "エー",
+     "romaji": "ee",
+     "meaning": "the letter A"
+    },
+    {
+     "id": "vocab:katakana:oo-オー",
+     "jp": "オー",
+     "romaji": "oo",
+     "meaning": "the letter O; \"oh\""
+    }
+   ],
+   "note": "Katakana writes the same 46 sounds as hiragana with angular strokes. It is used for loanwords (コーヒー), foreign names, animal and plant names in science, onomatopoeia, and emphasis. The long-vowel mark ー replaces the extra vowel kana hiragana uses: hiragana おかあさん, katakana カー."
+  },
+  {
+   "id": "k-ka",
+   "title": "カ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ka",
+     "char": "カ",
+     "romaji": "ka",
+     "mnemonic": "Hiragana か without its dash: the same karate kick.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ki",
+     "char": "キ",
+     "romaji": "ki",
+     "mnemonic": "A key with two teeth: き without the bottom loop.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:ku",
+     "char": "ク",
+     "romaji": "ku",
+     "mnemonic": "A cuckoo's open beak: \"ku\". Watch out for タ (ク with a dot inside).",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ke",
+     "char": "ケ",
+     "romaji": "ke",
+     "mnemonic": "A capital K leaning back: \"ke\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:ko",
+     "char": "コ",
+     "romaji": "ko",
+     "mnemonic": "The corner of a box: \"ko\" for corner.",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:kaa-カー",
+     "jp": "カー",
+     "romaji": "kaa",
+     "meaning": "car"
+    },
+    {
+     "id": "vocab:katakana:keeki-ケーキ",
+     "jp": "ケーキ",
+     "romaji": "keeki",
+     "meaning": "cake"
+    },
+    {
+     "id": "vocab:katakana:kii-キー",
+     "jp": "キー",
+     "romaji": "kii",
+     "meaning": "key"
+    },
+    {
+     "id": "vocab:katakana:koa-コア",
+     "jp": "コア",
+     "romaji": "koa",
+     "meaning": "core"
+    },
+    {
+     "id": "vocab:katakana:eko-エコ",
+     "jp": "エコ",
+     "romaji": "eko",
+     "meaning": "eco (ecological)"
+    },
+    {
+     "id": "vocab:katakana:kokoa-ココア",
+     "jp": "ココア",
+     "romaji": "kokoa",
+     "meaning": "cocoa"
+    },
+    {
+     "id": "vocab:katakana:kakao-カカオ",
+     "jp": "カカオ",
+     "romaji": "kakao",
+     "meaning": "cacao"
+    },
+    {
+     "id": "vocab:katakana:ookee-オーケー",
+     "jp": "オーケー",
+     "romaji": "ookee",
+     "meaning": "OK"
+    },
+    {
+     "id": "vocab:katakana:ika-イカ",
+     "jp": "イカ",
+     "romaji": "ika",
+     "meaning": "squid"
+    }
+   ],
+   "note": "Loanword rule 1: English consonant clusters get a vowel inserted, usually u (ク, ス, ト takes o): \"cake\" → ケーキ, \"ice\" → アイス."
+  },
+  {
+   "id": "k-sa",
+   "title": "サ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:sa",
+     "char": "サ",
+     "romaji": "sa",
+     "mnemonic": "The top of さ, straightened: a samurai's crossguard with the sword below.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:shi",
+     "char": "シ",
+     "romaji": "shi",
+     "mnemonic": "Three drops sliding in from the left, with a smile swept upward: \"she\" smiles. Compare ツ, whose drops fall from above.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:su",
+     "char": "ス",
+     "romaji": "su",
+     "mnemonic": "A skier gliding downhill: \"su\" for スキー.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:se",
+     "char": "セ",
+     "romaji": "se",
+     "mnemonic": "Hiragana せ with straight lines: a set of bars.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:so",
+     "char": "ソ",
+     "romaji": "so",
+     "mnemonic": "Two drops falling from above: \"so\". Compare ン, which has one drop and a flatter sweep.",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:sukii-スキー",
+     "jp": "スキー",
+     "romaji": "sukii",
+     "meaning": "ski"
+    },
+    {
+     "id": "vocab:katakana:aisu-アイス",
+     "jp": "アイス",
+     "romaji": "aisu",
+     "meaning": "ice cream"
+    },
+    {
+     "id": "vocab:katakana:soosu-ソース",
+     "jp": "ソース",
+     "romaji": "soosu",
+     "meaning": "sauce"
+    },
+    {
+     "id": "vocab:katakana:keesu-ケース",
+     "jp": "ケース",
+     "romaji": "keesu",
+     "meaning": "case"
+    },
+    {
+     "id": "vocab:katakana:koosu-コース",
+     "jp": "コース",
+     "romaji": "koosu",
+     "meaning": "course"
+    },
+    {
+     "id": "vocab:katakana:eesu-エース",
+     "jp": "エース",
+     "romaji": "eesu",
+     "meaning": "ace"
+    },
+    {
+     "id": "vocab:katakana:saakasu-サーカス",
+     "jp": "サーカス",
+     "romaji": "saakasu",
+     "meaning": "circus"
+    },
+    {
+     "id": "vocab:katakana:kisu-キス",
+     "jp": "キス",
+     "romaji": "kisu",
+     "meaning": "kiss"
+    },
+    {
+     "id": "vocab:katakana:shiisoo-シーソー",
+     "jp": "シーソー",
+     "romaji": "shiisoo",
+     "meaning": "seesaw"
+    },
+    {
+     "id": "vocab:katakana:oashisu-オアシス",
+     "jp": "オアシス",
+     "romaji": "oashisu",
+     "meaning": "oasis"
+    }
+   ],
+   "note": "Loanword rule 2: a long English vowel or an -er/-or ending becomes ー: \"course\" → コース, \"soccer\" → サッカー. シ (drops from the side) and ツ (drops from above) are the most-confused pair; so are ソ and ン."
+  },
+  {
+   "id": "k-ta",
+   "title": "タ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ta",
+     "char": "タ",
+     "romaji": "ta",
+     "mnemonic": "ク with a dot inside: a taco shell with filling.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:chi",
+     "char": "チ",
+     "romaji": "chi",
+     "mnemonic": "A capital T with a flag on top: a cheerleader waving.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:tsu",
+     "char": "ツ",
+     "romaji": "tsu",
+     "mnemonic": "A tsunami: two drops falling from above and a wave sweeping up. Compare シ, whose drops come from the side.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:te",
+     "char": "テ",
+     "romaji": "te",
+     "mnemonic": "A telephone pole with two crossbars.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:to",
+     "char": "ト",
+     "romaji": "to",
+     "mnemonic": "A boot seen from the side with a toe sticking out: \"to\".",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:tesuto-テスト",
+     "jp": "テスト",
+     "romaji": "tesuto",
+     "meaning": "test"
+    },
+    {
+     "id": "vocab:katakana:takushii-タクシー",
+     "jp": "タクシー",
+     "romaji": "takushii",
+     "meaning": "taxi"
+    },
+    {
+     "id": "vocab:katakana:toosuto-トースト",
+     "jp": "トースト",
+     "romaji": "toosuto",
+     "meaning": "toast"
+    },
+    {
+     "id": "vocab:katakana:tsuaa-ツアー",
+     "jp": "ツアー",
+     "romaji": "tsuaa",
+     "meaning": "tour"
+    },
+    {
+     "id": "vocab:katakana:tekisuto-テキスト",
+     "jp": "テキスト",
+     "romaji": "tekisuto",
+     "meaning": "textbook"
+    },
+    {
+     "id": "vocab:katakana:suutsu-スーツ",
+     "jp": "スーツ",
+     "romaji": "suutsu",
+     "meaning": "suit"
+    },
+    {
+     "id": "vocab:katakana:suteeki-ステーキ",
+     "jp": "ステーキ",
+     "romaji": "suteeki",
+     "meaning": "steak"
+    },
+    {
+     "id": "vocab:katakana:auto-アウト",
+     "jp": "アウト",
+     "romaji": "auto",
+     "meaning": "out"
+    },
+    {
+     "id": "vocab:katakana:takosu-タコス",
+     "jp": "タコス",
+     "romaji": "takosu",
+     "meaning": "tacos"
+    },
+    {
+     "id": "vocab:katakana:kaato-カート",
+     "jp": "カート",
+     "romaji": "kaato",
+     "meaning": "cart"
+    },
+    {
+     "id": "vocab:katakana:sukaato-スカート",
+     "jp": "スカート",
+     "romaji": "sukaato",
+     "meaning": "skirt"
+    }
+   ],
+   "note": "ツ and シ: in ツ the two short strokes point down and the sweep rises steeply; in シ the short strokes point right and the sweep is flatter. Note スーツ (suit) and スカート (skirt): \"t\" before a vowel-less ending becomes ト."
+  },
+  {
+   "id": "k-na",
+   "title": "ナ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:na",
+     "char": "ナ",
+     "romaji": "na",
+     "mnemonic": "A knife blade with a crossguard: \"na\" for ナイフ.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ni",
+     "char": "ニ",
+     "romaji": "ni",
+     "mnemonic": "Two lines: ni is \"two\" (二) in Japanese.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:nu",
+     "char": "ヌ",
+     "romaji": "nu",
+     "mnemonic": "Noodles draped over chopsticks: \"nu\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ne",
+     "char": "ネ",
+     "romaji": "ne",
+     "mnemonic": "A cat (neko) sitting on a stake, tail hanging down.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:no",
+     "char": "ノ",
+     "romaji": "no",
+     "mnemonic": "A single stroke: a nose in profile, \"no\".",
+     "strokes": 1
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:tenisu-テニス",
+     "jp": "テニス",
+     "romaji": "tenisu",
+     "meaning": "tennis"
+    },
+    {
+     "id": "vocab:katakana:nooto-ノート",
+     "jp": "ノート",
+     "romaji": "nooto",
+     "meaning": "notebook"
+    },
+    {
+     "id": "vocab:katakana:nekutai-ネクタイ",
+     "jp": "ネクタイ",
+     "romaji": "nekutai",
+     "meaning": "necktie"
+    },
+    {
+     "id": "vocab:katakana:kanuu-カヌー",
+     "jp": "カヌー",
+     "romaji": "kanuu",
+     "meaning": "canoe"
+    },
+    {
+     "id": "vocab:katakana:sonata-ソナタ",
+     "jp": "ソナタ",
+     "romaji": "sonata",
+     "meaning": "sonata"
+    },
+    {
+     "id": "vocab:katakana:oonaa-オーナー",
+     "jp": "オーナー",
+     "romaji": "oonaa",
+     "meaning": "owner"
+    },
+    {
+     "id": "vocab:katakana:naasu-ナース",
+     "jp": "ナース",
+     "romaji": "naasu",
+     "meaning": "nurse"
+    },
+    {
+     "id": "vocab:katakana:koonaa-コーナー",
+     "jp": "コーナー",
+     "romaji": "koonaa",
+     "meaning": "corner"
+    },
+    {
+     "id": "vocab:katakana:noo-ノー",
+     "jp": "ノー",
+     "romaji": "noo",
+     "meaning": "no"
+    }
+   ],
+   "note": "ナ (two strokes, straight) versus メ (two strokes, crossing low). Words you already know in hiragana (いぬ, ねこ) stay hiragana; katakana is for words that came from other languages."
+  },
+  {
+   "id": "k-ha",
+   "title": "ハ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ha",
+     "char": "ハ",
+     "romaji": "ha",
+     "mnemonic": "Two sides of a wide-open laughing mouth: \"ha ha\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:hi",
+     "char": "ヒ",
+     "romaji": "hi",
+     "mnemonic": "A heel seen from the side: \"hee\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:fu",
+     "char": "フ",
+     "romaji": "fu",
+     "mnemonic": "A hood pulled over the top of Mount Fuji: \"fu\". Compare ワ (closed on the left) and ウ (with a hat).",
+     "strokes": 1
+    },
+    {
+     "id": "kana:k:he",
+     "char": "ヘ",
+     "romaji": "he",
+     "mnemonic": "Identical to hiragana へ: a small heap.",
+     "strokes": 1
+    },
+    {
+     "id": "kana:k:ho",
+     "char": "ホ",
+     "romaji": "ho",
+     "mnemonic": "A holy cross with two drops: \"ho\".",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:koohii-コーヒー",
+     "jp": "コーヒー",
+     "romaji": "koohii",
+     "meaning": "coffee"
+    },
+    {
+     "id": "vocab:katakana:naifu-ナイフ",
+     "jp": "ナイフ",
+     "romaji": "naifu",
+     "meaning": "knife"
+    },
+    {
+     "id": "vocab:katakana:haato-ハート",
+     "jp": "ハート",
+     "romaji": "haato",
+     "meaning": "heart"
+    },
+    {
+     "id": "vocab:katakana:hoosu-ホース",
+     "jp": "ホース",
+     "romaji": "hoosu",
+     "meaning": "hose"
+    },
+    {
+     "id": "vocab:katakana:hiitaa-ヒーター",
+     "jp": "ヒーター",
+     "romaji": "hiitaa",
+     "meaning": "heater"
+    },
+    {
+     "id": "vocab:katakana:sukaafu-スカーフ",
+     "jp": "スカーフ",
+     "romaji": "sukaafu",
+     "meaning": "scarf"
+    },
+    {
+     "id": "vocab:katakana:haafu-ハーフ",
+     "jp": "ハーフ",
+     "romaji": "haafu",
+     "meaning": "half"
+    },
+    {
+     "id": "vocab:katakana:hea-ヘア",
+     "jp": "ヘア",
+     "romaji": "hea",
+     "meaning": "hair (style)"
+    }
+   ],
+   "note": "フ, ワ and ウ share a family: フ is open on the left, ワ is closed, ウ wears a hat. コーヒー (coffee) is the classic four-beat word: ko-o-hi-i."
+  },
+  {
+   "id": "k-ma",
+   "title": "マ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ma",
+     "char": "マ",
+     "romaji": "ma",
+     "mnemonic": "A 7 with a tail: a magnet pulling to the right, \"ma\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:mi",
+     "char": "ミ",
+     "romaji": "mi",
+     "mnemonic": "Three lines: mi is \"three\" (三) in Japanese.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:mu",
+     "char": "ム",
+     "romaji": "mu",
+     "mnemonic": "A cow's muzzle with a tuft: \"moo\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:me",
+     "char": "メ",
+     "romaji": "me",
+     "mnemonic": "A needle crossing a thread: \"me\" marks the spot. Compare ナ (straight bar).",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:mo",
+     "char": "モ",
+     "romaji": "mo",
+     "mnemonic": "Hiragana も without its bottom hook: more bars.",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:memo-メモ",
+     "jp": "メモ",
+     "romaji": "memo",
+     "meaning": "memo"
+    },
+    {
+     "id": "vocab:katakana:misu-ミス",
+     "jp": "ミス",
+     "romaji": "misu",
+     "meaning": "mistake"
+    },
+    {
+     "id": "vocab:katakana:masuku-マスク",
+     "jp": "マスク",
+     "romaji": "masuku",
+     "meaning": "mask"
+    },
+    {
+     "id": "vocab:katakana:meekaa-メーカー",
+     "jp": "メーカー",
+     "romaji": "meekaa",
+     "meaning": "maker; manufacturer"
+    },
+    {
+     "id": "vocab:katakana:hoomu-ホーム",
+     "jp": "ホーム",
+     "romaji": "hoomu",
+     "meaning": "home; train platform"
+    },
+    {
+     "id": "vocab:katakana:hamu-ハム",
+     "jp": "ハム",
+     "romaji": "hamu",
+     "meaning": "ham"
+    },
+    {
+     "id": "vocab:katakana:taimu-タイム",
+     "jp": "タイム",
+     "romaji": "taimu",
+     "meaning": "time"
+    },
+    {
+     "id": "vocab:katakana:mini-ミニ",
+     "jp": "ミニ",
+     "romaji": "mini",
+     "meaning": "mini"
+    },
+    {
+     "id": "vocab:katakana:mootaa-モーター",
+     "jp": "モーター",
+     "romaji": "mootaa",
+     "meaning": "motor"
+    },
+    {
+     "id": "vocab:katakana:manaa-マナー",
+     "jp": "マナー",
+     "romaji": "manaa",
+     "meaning": "manners"
+    },
+    {
+     "id": "vocab:katakana:teema-テーマ",
+     "jp": "テーマ",
+     "romaji": "teema",
+     "meaning": "theme"
+    },
+    {
+     "id": "vocab:katakana:muusu-ムース",
+     "jp": "ムース",
+     "romaji": "muusu",
+     "meaning": "mousse"
+    }
+   ],
+   "note": "Loanword rule 3: English \"-er\" at the end becomes aa with ー: \"maker\" → メーカー, \"motor\" → モーター. ム looks like a cow's nose; マ is a 7 with a tail."
+  },
+  {
+   "id": "k-ya",
+   "title": "ヤ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ya",
+     "char": "ヤ",
+     "romaji": "ya",
+     "mnemonic": "Hiragana や without the loop: a yak's horn.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:yu",
+     "char": "ユ",
+     "romaji": "yu",
+     "mnemonic": "A U-turn sign laid flat: \"yu\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:yo",
+     "char": "ヨ",
+     "romaji": "yo",
+     "mnemonic": "A mirrored capital E: three shelves for your yoghurt.",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:yooyoo-ヨーヨー",
+     "jp": "ヨーヨー",
+     "romaji": "yooyoo",
+     "meaning": "yo-yo"
+    },
+    {
+     "id": "vocab:katakana:yuumoa-ユーモア",
+     "jp": "ユーモア",
+     "romaji": "yuumoa",
+     "meaning": "humour"
+    },
+    {
+     "id": "vocab:katakana:taiya-タイヤ",
+     "jp": "タイヤ",
+     "romaji": "taiya",
+     "meaning": "tyre"
+    },
+    {
+     "id": "vocab:katakana:yuniiku-ユニーク",
+     "jp": "ユニーク",
+     "romaji": "yuniiku",
+     "meaning": "unique"
+    },
+    {
+     "id": "vocab:katakana:yuusu-ユース",
+     "jp": "ユース",
+     "romaji": "yuusu",
+     "meaning": "youth"
+    },
+    {
+     "id": "vocab:katakana:yashi-ヤシ",
+     "jp": "ヤシ",
+     "romaji": "yashi",
+     "meaning": "palm tree"
+    }
+   ],
+   "note": "Small ャ, ュ, ョ are introduced in the combinations group. The full-size ヤ ユ ヨ you learn here are their own beats."
+  },
+  {
+   "id": "k-ra",
+   "title": "ラ row",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:ra",
+     "char": "ラ",
+     "romaji": "ra",
+     "mnemonic": "A ramen bowl with its lid lifted: \"ra\".",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ri",
+     "char": "リ",
+     "romaji": "ri",
+     "mnemonic": "Hiragana り with the strokes separated: two reeds.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:ru",
+     "char": "ル",
+     "romaji": "ru",
+     "mnemonic": "A root splitting in two: \"ru\". Compare レ (one stroke).",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:re",
+     "char": "レ",
+     "romaji": "re",
+     "mnemonic": "A lever, or a leg kicking: \"re\".",
+     "strokes": 1
+    },
+    {
+     "id": "kana:k:ro",
+     "char": "ロ",
+     "romaji": "ro",
+     "mnemonic": "A square mouth, a robot's mouth: \"ro\".",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:hoteru-ホテル",
+     "jp": "ホテル",
+     "romaji": "hoteru",
+     "meaning": "hotel"
+    },
+    {
+     "id": "vocab:katakana:kamera-カメラ",
+     "jp": "カメラ",
+     "romaji": "kamera",
+     "meaning": "camera"
+    },
+    {
+     "id": "vocab:katakana:toire-トイレ",
+     "jp": "トイレ",
+     "romaji": "toire",
+     "meaning": "toilet"
+    },
+    {
+     "id": "vocab:katakana:arukooru-アルコール",
+     "jp": "アルコール",
+     "romaji": "arukooru",
+     "meaning": "alcohol"
+    },
+    {
+     "id": "vocab:katakana:ruuru-ルール",
+     "jp": "ルール",
+     "romaji": "ruuru",
+     "meaning": "rule"
+    },
+    {
+     "id": "vocab:katakana:meeru-メール",
+     "jp": "メール",
+     "romaji": "meeru",
+     "meaning": "email"
+    },
+    {
+     "id": "vocab:katakana:karaa-カラー",
+     "jp": "カラー",
+     "romaji": "karaa",
+     "meaning": "colour"
+    },
+    {
+     "id": "vocab:katakana:miruku-ミルク",
+     "jp": "ミルク",
+     "romaji": "miruku",
+     "meaning": "milk"
+    },
+    {
+     "id": "vocab:katakana:koora-コーラ",
+     "jp": "コーラ",
+     "romaji": "koora",
+     "meaning": "cola"
+    },
+    {
+     "id": "vocab:katakana:kurasu-クラス",
+     "jp": "クラス",
+     "romaji": "kurasu",
+     "meaning": "class"
+    },
+    {
+     "id": "vocab:katakana:reesu-レース",
+     "jp": "レース",
+     "romaji": "reesu",
+     "meaning": "race; lace"
+    },
+    {
+     "id": "vocab:katakana:karee-カレー",
+     "jp": "カレー",
+     "romaji": "karee",
+     "meaning": "curry"
+    },
+    {
+     "id": "vocab:katakana:raisu-ライス",
+     "jp": "ライス",
+     "romaji": "raisu",
+     "meaning": "rice (on a plate)"
+    },
+    {
+     "id": "vocab:katakana:taoru-タオル",
+     "jp": "タオル",
+     "romaji": "taoru",
+     "meaning": "towel"
+    },
+    {
+     "id": "vocab:katakana:sararii-サラリー",
+     "jp": "サラリー",
+     "romaji": "sararii",
+     "meaning": "salary"
+    }
+   ],
+   "note": "The r-row is the busiest in loanwords because English l and r both become the Japanese r: \"rule\" → ルール, \"lace\" and \"race\" are both レース. ル (two strokes) versus レ (one stroke)."
+  },
+  {
+   "id": "k-wa",
+   "title": "ワ・ヲ・ン",
+   "kind": "basic",
+   "chars": [
+    {
+     "id": "kana:k:wa",
+     "char": "ワ",
+     "romaji": "wa",
+     "mnemonic": "A wide box with a lid: \"wa\". ウ is ワ with a hat; フ is ワ without the left side.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:wo",
+     "char": "ヲ",
+     "romaji": "o (wo)",
+     "mnemonic": "ラ with an extra bar. Rare: it appears only in old texts and stylised writing. Pronounced \"o\".",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:n",
+     "char": "ン",
+     "romaji": "n",
+     "mnemonic": "One drop from above and a long upward sweep: \"n\". Compare ソ (two drops, steeper sweep).",
+     "strokes": 2
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:wain-ワイン",
+     "jp": "ワイン",
+     "romaji": "wain",
+     "meaning": "wine"
+    },
+    {
+     "id": "vocab:katakana:remon-レモン",
+     "jp": "レモン",
+     "romaji": "remon",
+     "meaning": "lemon"
+    },
+    {
+     "id": "vocab:katakana:raamen-ラーメン",
+     "jp": "ラーメン",
+     "romaji": "raamen",
+     "meaning": "ramen"
+    },
+    {
+     "id": "vocab:katakana:resutoran-レストラン",
+     "jp": "レストラン",
+     "romaji": "resutoran",
+     "meaning": "restaurant"
+    },
+    {
+     "id": "vocab:katakana:rimokon-リモコン",
+     "jp": "リモコン",
+     "romaji": "rimokon",
+     "meaning": "remote control"
+    },
+    {
+     "id": "vocab:katakana:antena-アンテナ",
+     "jp": "アンテナ",
+     "romaji": "antena",
+     "meaning": "antenna"
+    },
+    {
+     "id": "vocab:katakana:meron-メロン",
+     "jp": "メロン",
+     "romaji": "meron",
+     "meaning": "melon"
+    },
+    {
+     "id": "vocab:katakana:hinto-ヒント",
+     "jp": "ヒント",
+     "romaji": "hinto",
+     "meaning": "hint"
+    },
+    {
+     "id": "vocab:katakana:wakuchin-ワクチン",
+     "jp": "ワクチン",
+     "romaji": "wakuchin",
+     "meaning": "vaccine"
+    },
+    {
+     "id": "vocab:katakana:tento-テント",
+     "jp": "テント",
+     "romaji": "tento",
+     "meaning": "tent"
+    },
+    {
+     "id": "vocab:katakana:konsaato-コンサート",
+     "jp": "コンサート",
+     "romaji": "konsaato",
+     "meaning": "concert"
+    },
+    {
+     "id": "vocab:katakana:wantan-ワンタン",
+     "jp": "ワンタン",
+     "romaji": "wantan",
+     "meaning": "wonton"
+    }
+   ],
+   "note": "ン closes a syllable: パン, レストラン. It is one beat on its own. ソ versus ン: ソ's sweep starts from the top; ン's sweep starts low and rises."
+  },
+  {
+   "id": "k-ga",
+   "title": "ガ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "Two small dots (゛) at the top right turn k into g, exactly as in hiragana.",
+   "chars": [
+    {
+     "id": "kana:k:ga",
+     "char": "ガ",
+     "romaji": "ga",
+     "base": "カ",
+     "mnemonic": "カ with two dots (dakuten) becomes ga. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:gi",
+     "char": "ギ",
+     "romaji": "gi",
+     "base": "キ",
+     "mnemonic": "キ with two dots (dakuten) becomes gi. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:gu",
+     "char": "グ",
+     "romaji": "gu",
+     "base": "ク",
+     "mnemonic": "ク with two dots (dakuten) becomes gu. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:ge",
+     "char": "ゲ",
+     "romaji": "ge",
+     "base": "ケ",
+     "mnemonic": "ケ with two dots (dakuten) becomes ge. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:go",
+     "char": "ゴ",
+     "romaji": "go",
+     "base": "コ",
+     "mnemonic": "コ with two dots (dakuten) becomes go. Same shape, voiced sound.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:geemu-ゲーム",
+     "jp": "ゲーム",
+     "romaji": "geemu",
+     "meaning": "game"
+    },
+    {
+     "id": "vocab:katakana:gasu-ガス",
+     "jp": "ガス",
+     "romaji": "gasu",
+     "meaning": "gas"
+    },
+    {
+     "id": "vocab:katakana:gitaa-ギター",
+     "jp": "ギター",
+     "romaji": "gitaa",
+     "meaning": "guitar"
+    },
+    {
+     "id": "vocab:katakana:gurasu-グラス",
+     "jp": "グラス",
+     "romaji": "gurasu",
+     "meaning": "glass (for drinks)"
+    },
+    {
+     "id": "vocab:katakana:gooru-ゴール",
+     "jp": "ゴール",
+     "romaji": "gooru",
+     "meaning": "goal"
+    },
+    {
+     "id": "vocab:katakana:hangaa-ハンガー",
+     "jp": "ハンガー",
+     "romaji": "hangaa",
+     "meaning": "hanger"
+    },
+    {
+     "id": "vocab:katakana:yooguruto-ヨーグルト",
+     "jp": "ヨーグルト",
+     "romaji": "yooguruto",
+     "meaning": "yoghurt"
+    },
+    {
+     "id": "vocab:katakana:gia-ギア",
+     "jp": "ギア",
+     "romaji": "gia",
+     "meaning": "gear"
+    },
+    {
+     "id": "vocab:katakana:gomu-ゴム",
+     "jp": "ゴム",
+     "romaji": "gomu",
+     "meaning": "rubber"
+    },
+    {
+     "id": "vocab:katakana:gamu-ガム",
+     "jp": "ガム",
+     "romaji": "gamu",
+     "meaning": "chewing gum"
+    },
+    {
+     "id": "vocab:katakana:haikingu-ハイキング",
+     "jp": "ハイキング",
+     "romaji": "haikingu",
+     "meaning": "hiking"
+    },
+    {
+     "id": "vocab:katakana:gorufu-ゴルフ",
+     "jp": "ゴルフ",
+     "romaji": "gorufu",
+     "meaning": "golf"
+    },
+    {
+     "id": "vocab:katakana:mangoo-マンゴー",
+     "jp": "マンゴー",
+     "romaji": "mangoo",
+     "meaning": "mango"
+    }
+   ],
+   "note": "Voiced consonants work exactly as in hiragana. English \"-ing\" becomes イング: ハイキング, ショッピング."
+  },
+  {
+   "id": "k-za",
+   "title": "ザ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns s into z. ジ is \"ji\".",
+   "chars": [
+    {
+     "id": "kana:k:za",
+     "char": "ザ",
+     "romaji": "za",
+     "base": "サ",
+     "mnemonic": "サ with two dots (dakuten) becomes za. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:ji",
+     "char": "ジ",
+     "romaji": "ji",
+     "base": "シ",
+     "mnemonic": "シ with two dots (dakuten) becomes ji. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:zu",
+     "char": "ズ",
+     "romaji": "zu",
+     "base": "ス",
+     "mnemonic": "ス with two dots (dakuten) becomes zu. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:ze",
+     "char": "ゼ",
+     "romaji": "ze",
+     "base": "セ",
+     "mnemonic": "セ with two dots (dakuten) becomes ze. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:zo",
+     "char": "ゾ",
+     "romaji": "zo",
+     "base": "ソ",
+     "mnemonic": "ソ with two dots (dakuten) becomes zo. Same shape, voiced sound.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:saizu-サイズ",
+     "jp": "サイズ",
+     "romaji": "saizu",
+     "meaning": "size"
+    },
+    {
+     "id": "vocab:katakana:zero-ゼロ",
+     "jp": "ゼロ",
+     "romaji": "zero",
+     "meaning": "zero"
+    },
+    {
+     "id": "vocab:katakana:kuizu-クイズ",
+     "jp": "クイズ",
+     "romaji": "kuizu",
+     "meaning": "quiz"
+    },
+    {
+     "id": "vocab:katakana:jiinzu-ジーンズ",
+     "jp": "ジーンズ",
+     "romaji": "jiinzu",
+     "meaning": "jeans"
+    },
+    {
+     "id": "vocab:katakana:zoon-ゾーン",
+     "jp": "ゾーン",
+     "romaji": "zoon",
+     "meaning": "zone"
+    },
+    {
+     "id": "vocab:katakana:jimu-ジム",
+     "jp": "ジム",
+     "romaji": "jimu",
+     "meaning": "gym"
+    },
+    {
+     "id": "vocab:katakana:sooseeji-ソーセージ",
+     "jp": "ソーセージ",
+     "romaji": "sooseeji",
+     "meaning": "sausage"
+    },
+    {
+     "id": "vocab:katakana:yuuzaa-ユーザー",
+     "jp": "ユーザー",
+     "romaji": "yuuzaa",
+     "meaning": "user"
+    },
+    {
+     "id": "vocab:katakana:zerii-ゼリー",
+     "jp": "ゼリー",
+     "romaji": "zerii",
+     "meaning": "jelly"
+    },
+    {
+     "id": "vocab:katakana:chiizu-チーズ",
+     "jp": "チーズ",
+     "romaji": "chiizu",
+     "meaning": "cheese"
+    },
+    {
+     "id": "vocab:katakana:rajio-ラジオ",
+     "jp": "ラジオ",
+     "romaji": "rajio",
+     "meaning": "radio"
+    }
+   ],
+   "note": "ジ is \"ji\": ジム (gym), ラジオ (radio). English \"z\" and \"th\" both tend to become ザ-row sounds."
+  },
+  {
+   "id": "k-da",
+   "title": "ダ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns t into d. ヂ and ヅ are very rare.",
+   "chars": [
+    {
+     "id": "kana:k:da",
+     "char": "ダ",
+     "romaji": "da",
+     "base": "タ",
+     "mnemonic": "タ with two dots (dakuten) becomes da. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:di",
+     "char": "ヂ",
+     "romaji": "ji (di)",
+     "base": "チ",
+     "mnemonic": "チ with two dots (dakuten) becomes ji. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:du",
+     "char": "ヅ",
+     "romaji": "zu (du)",
+     "base": "ツ",
+     "mnemonic": "ツ with two dots (dakuten) becomes zu. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:de",
+     "char": "デ",
+     "romaji": "de",
+     "base": "テ",
+     "mnemonic": "テ with two dots (dakuten) becomes de. Same shape, voiced sound.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:do",
+     "char": "ド",
+     "romaji": "do",
+     "base": "ト",
+     "mnemonic": "ト with two dots (dakuten) becomes do. Same shape, voiced sound.",
+     "strokes": 4
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:deeta-データ",
+     "jp": "データ",
+     "romaji": "deeta",
+     "meaning": "data"
+    },
+    {
+     "id": "vocab:katakana:dezain-デザイン",
+     "jp": "デザイン",
+     "romaji": "dezain",
+     "meaning": "design"
+    },
+    {
+     "id": "vocab:katakana:doa-ドア",
+     "jp": "ドア",
+     "romaji": "doa",
+     "meaning": "door"
+    },
+    {
+     "id": "vocab:katakana:sarada-サラダ",
+     "jp": "サラダ",
+     "romaji": "sarada",
+     "meaning": "salad"
+    },
+    {
+     "id": "vocab:katakana:doonatsu-ドーナツ",
+     "jp": "ドーナツ",
+     "romaji": "doonatsu",
+     "meaning": "doughnut"
+    },
+    {
+     "id": "vocab:katakana:kaado-カード",
+     "jp": "カード",
+     "romaji": "kaado",
+     "meaning": "card"
+    },
+    {
+     "id": "vocab:katakana:deeto-デート",
+     "jp": "デート",
+     "romaji": "deeto",
+     "meaning": "date (romantic)"
+    },
+    {
+     "id": "vocab:katakana:moderu-モデル",
+     "jp": "モデル",
+     "romaji": "moderu",
+     "meaning": "model"
+    },
+    {
+     "id": "vocab:katakana:dansu-ダンス",
+     "jp": "ダンス",
+     "romaji": "dansu",
+     "meaning": "dance"
+    },
+    {
+     "id": "vocab:katakana:gaido-ガイド",
+     "jp": "ガイド",
+     "romaji": "gaido",
+     "meaning": "guide"
+    },
+    {
+     "id": "vocab:katakana:doru-ドル",
+     "jp": "ドル",
+     "romaji": "doru",
+     "meaning": "dollar"
+    },
+    {
+     "id": "vocab:katakana:dejitaru-デジタル",
+     "jp": "デジタル",
+     "romaji": "dejitaru",
+     "meaning": "digital"
+    }
+   ],
+   "note": "English \"d\" + vowel is straightforward; a bare \"d\" at the end becomes ド: カード (card), ガイド (guide)."
+  },
+  {
+   "id": "k-ba",
+   "title": "バ row (dakuten)",
+   "kind": "dakuten",
+   "intro": "The dakuten turns h into b.",
+   "chars": [
+    {
+     "id": "kana:k:ba",
+     "char": "バ",
+     "romaji": "ba",
+     "base": "ハ",
+     "mnemonic": "ハ with two dots (dakuten) becomes ba. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:bi",
+     "char": "ビ",
+     "romaji": "bi",
+     "base": "ヒ",
+     "mnemonic": "ヒ with two dots (dakuten) becomes bi. Same shape, voiced sound.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:bu",
+     "char": "ブ",
+     "romaji": "bu",
+     "base": "フ",
+     "mnemonic": "フ with two dots (dakuten) becomes bu. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:be",
+     "char": "ベ",
+     "romaji": "be",
+     "base": "ヘ",
+     "mnemonic": "ヘ with two dots (dakuten) becomes be. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:bo",
+     "char": "ボ",
+     "romaji": "bo",
+     "base": "ホ",
+     "mnemonic": "ホ with two dots (dakuten) becomes bo. Same shape, voiced sound.",
+     "strokes": 6
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:terebi-テレビ",
+     "jp": "テレビ",
+     "romaji": "terebi",
+     "meaning": "television"
+    },
+    {
+     "id": "vocab:katakana:basu-バス",
+     "jp": "バス",
+     "romaji": "basu",
+     "meaning": "bus"
+    },
+    {
+     "id": "vocab:katakana:biiru-ビール",
+     "jp": "ビール",
+     "romaji": "biiru",
+     "meaning": "beer"
+    },
+    {
+     "id": "vocab:katakana:banana-バナナ",
+     "jp": "バナナ",
+     "romaji": "banana",
+     "meaning": "banana"
+    },
+    {
+     "id": "vocab:katakana:booru-ボール",
+     "jp": "ボール",
+     "romaji": "booru",
+     "meaning": "ball"
+    },
+    {
+     "id": "vocab:katakana:erebeetaa-エレベーター",
+     "jp": "エレベーター",
+     "romaji": "erebeetaa",
+     "meaning": "elevator"
+    },
+    {
+     "id": "vocab:katakana:bataa-バター",
+     "jp": "バター",
+     "romaji": "bataa",
+     "meaning": "butter"
+    },
+    {
+     "id": "vocab:katakana:biru-ビル",
+     "jp": "ビル",
+     "romaji": "biru",
+     "meaning": "building"
+    },
+    {
+     "id": "vocab:katakana:botan-ボタン",
+     "jp": "ボタン",
+     "romaji": "botan",
+     "meaning": "button"
+    },
+    {
+     "id": "vocab:katakana:baiku-バイク",
+     "jp": "バイク",
+     "romaji": "baiku",
+     "meaning": "motorbike"
+    },
+    {
+     "id": "vocab:katakana:buutsu-ブーツ",
+     "jp": "ブーツ",
+     "romaji": "buutsu",
+     "meaning": "boots"
+    },
+    {
+     "id": "vocab:katakana:beruto-ベルト",
+     "jp": "ベルト",
+     "romaji": "beruto",
+     "meaning": "belt"
+    },
+    {
+     "id": "vocab:katakana:burogu-ブログ",
+     "jp": "ブログ",
+     "romaji": "burogu",
+     "meaning": "blog"
+    },
+    {
+     "id": "vocab:katakana:arubaito-アルバイト",
+     "jp": "アルバイト",
+     "romaji": "arubaito",
+     "meaning": "part-time job"
+    }
+   ],
+   "note": "English \"v\" is usually written with the バ row: テレビ (television), ビル (building). ヴ exists for precision but is optional."
+  },
+  {
+   "id": "k-pa",
+   "title": "パ row (handakuten)",
+   "kind": "handakuten",
+   "intro": "The small circle (゜) turns h into p.",
+   "chars": [
+    {
+     "id": "kana:k:pa",
+     "char": "パ",
+     "romaji": "pa",
+     "base": "ハ",
+     "mnemonic": "ハ with a small circle (handakuten) becomes pa. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:pi",
+     "char": "ピ",
+     "romaji": "pi",
+     "base": "ヒ",
+     "mnemonic": "ヒ with a small circle (handakuten) becomes pi. Same shape, voiced sound.",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:pu",
+     "char": "プ",
+     "romaji": "pu",
+     "base": "フ",
+     "mnemonic": "フ with a small circle (handakuten) becomes pu. Same shape, voiced sound.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:pe",
+     "char": "ペ",
+     "romaji": "pe",
+     "base": "ヘ",
+     "mnemonic": "ヘ with a small circle (handakuten) becomes pe. Same shape, voiced sound.",
+     "strokes": 2
+    },
+    {
+     "id": "kana:k:po",
+     "char": "ポ",
+     "romaji": "po",
+     "base": "ホ",
+     "mnemonic": "ホ with a small circle (handakuten) becomes po. Same shape, voiced sound.",
+     "strokes": 5
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:pan-パン",
+     "jp": "パン",
+     "romaji": "pan",
+     "meaning": "bread"
+    },
+    {
+     "id": "vocab:katakana:pen-ペン",
+     "jp": "ペン",
+     "romaji": "pen",
+     "meaning": "pen"
+    },
+    {
+     "id": "vocab:katakana:pasokon-パソコン",
+     "jp": "パソコン",
+     "romaji": "pasokon",
+     "meaning": "personal computer"
+    },
+    {
+     "id": "vocab:katakana:suupu-スープ",
+     "jp": "スープ",
+     "romaji": "suupu",
+     "meaning": "soup"
+    },
+    {
+     "id": "vocab:katakana:piano-ピアノ",
+     "jp": "ピアノ",
+     "romaji": "piano",
+     "meaning": "piano"
+    },
+    {
+     "id": "vocab:katakana:posuto-ポスト",
+     "jp": "ポスト",
+     "romaji": "posuto",
+     "meaning": "postbox"
+    },
+    {
+     "id": "vocab:katakana:puuru-プール",
+     "jp": "プール",
+     "romaji": "puuru",
+     "meaning": "swimming pool"
+    },
+    {
+     "id": "vocab:katakana:piza-ピザ",
+     "jp": "ピザ",
+     "romaji": "piza",
+     "meaning": "pizza"
+    },
+    {
+     "id": "vocab:katakana:pengin-ペンギン",
+     "jp": "ペンギン",
+     "romaji": "pengin",
+     "meaning": "penguin"
+    },
+    {
+     "id": "vocab:katakana:pasuta-パスタ",
+     "jp": "パスタ",
+     "romaji": "pasuta",
+     "meaning": "pasta"
+    },
+    {
+     "id": "vocab:katakana:supootsu-スポーツ",
+     "jp": "スポーツ",
+     "romaji": "supootsu",
+     "meaning": "sports"
+    },
+    {
+     "id": "vocab:katakana:suupaa-スーパー",
+     "jp": "スーパー",
+     "romaji": "suupaa",
+     "meaning": "supermarket"
+    },
+    {
+     "id": "vocab:katakana:depaato-デパート",
+     "jp": "デパート",
+     "romaji": "depaato",
+     "meaning": "department store"
+    },
+    {
+     "id": "vocab:katakana:pinku-ピンク",
+     "jp": "ピンク",
+     "romaji": "pinku",
+     "meaning": "pink"
+    },
+    {
+     "id": "vocab:katakana:pasupooto-パスポート",
+     "jp": "パスポート",
+     "romaji": "pasupooto",
+     "meaning": "passport"
+    }
+   ],
+   "note": "Half-voiced p sounds carry a lot of everyday vocabulary: パン, ペン, パソコン (pasokon, from \"personal computer\")."
+  },
+  {
+   "id": "k-combo1",
+   "title": "Combinations (キャ, シュ, チョ…)",
+   "kind": "combo",
+   "intro": "Combine an i-row katakana with a small ャ, ュ or ョ. The two symbols make one beat.",
+   "chars": [
+    {
+     "id": "kana:k:kya",
+     "char": "キャ",
+     "romaji": "kya",
+     "parts": [
+      "キ",
+      "ャ"
+     ],
+     "mnemonic": "キ (ki) + small ャ = kya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:kyu",
+     "char": "キュ",
+     "romaji": "kyu",
+     "parts": [
+      "キ",
+      "ュ"
+     ],
+     "mnemonic": "キ (ki) + small ュ = kyu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:kyo",
+     "char": "キョ",
+     "romaji": "kyo",
+     "parts": [
+      "キ",
+      "ョ"
+     ],
+     "mnemonic": "キ (ki) + small ョ = kyo, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:sha",
+     "char": "シャ",
+     "romaji": "sha",
+     "parts": [
+      "シ",
+      "ャ"
+     ],
+     "mnemonic": "シ (shi) + small ャ = sha, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:shu",
+     "char": "シュ",
+     "romaji": "shu",
+     "parts": [
+      "シ",
+      "ュ"
+     ],
+     "mnemonic": "シ (shi) + small ュ = shu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:sho",
+     "char": "ショ",
+     "romaji": "sho",
+     "parts": [
+      "シ",
+      "ョ"
+     ],
+     "mnemonic": "シ (shi) + small ョ = sho, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:cha",
+     "char": "チャ",
+     "romaji": "cha",
+     "parts": [
+      "チ",
+      "ャ"
+     ],
+     "mnemonic": "チ (chi) + small ャ = cha, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:chu",
+     "char": "チュ",
+     "romaji": "chu",
+     "parts": [
+      "チ",
+      "ュ"
+     ],
+     "mnemonic": "チ (chi) + small ュ = chu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:cho",
+     "char": "チョ",
+     "romaji": "cho",
+     "parts": [
+      "チ",
+      "ョ"
+     ],
+     "mnemonic": "チ (chi) + small ョ = cho, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:nya",
+     "char": "ニャ",
+     "romaji": "nya",
+     "parts": [
+      "ニ",
+      "ャ"
+     ],
+     "mnemonic": "ニ (ni) + small ャ = nya, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:nyu",
+     "char": "ニュ",
+     "romaji": "nyu",
+     "parts": [
+      "ニ",
+      "ュ"
+     ],
+     "mnemonic": "ニ (ni) + small ュ = nyu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:nyo",
+     "char": "ニョ",
+     "romaji": "nyo",
+     "parts": [
+      "ニ",
+      "ョ"
+     ],
+     "mnemonic": "ニ (ni) + small ョ = nyo, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:hya",
+     "char": "ヒャ",
+     "romaji": "hya",
+     "parts": [
+      "ヒ",
+      "ャ"
+     ],
+     "mnemonic": "ヒ (hi) + small ャ = hya, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:hyu",
+     "char": "ヒュ",
+     "romaji": "hyu",
+     "parts": [
+      "ヒ",
+      "ュ"
+     ],
+     "mnemonic": "ヒ (hi) + small ュ = hyu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:hyo",
+     "char": "ヒョ",
+     "romaji": "hyo",
+     "parts": [
+      "ヒ",
+      "ョ"
+     ],
+     "mnemonic": "ヒ (hi) + small ョ = hyo, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:mya",
+     "char": "ミャ",
+     "romaji": "mya",
+     "parts": [
+      "ミ",
+      "ャ"
+     ],
+     "mnemonic": "ミ (mi) + small ャ = mya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:myu",
+     "char": "ミュ",
+     "romaji": "myu",
+     "parts": [
+      "ミ",
+      "ュ"
+     ],
+     "mnemonic": "ミ (mi) + small ュ = myu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:myo",
+     "char": "ミョ",
+     "romaji": "myo",
+     "parts": [
+      "ミ",
+      "ョ"
+     ],
+     "mnemonic": "ミ (mi) + small ョ = myo, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:rya",
+     "char": "リャ",
+     "romaji": "rya",
+     "parts": [
+      "リ",
+      "ャ"
+     ],
+     "mnemonic": "リ (ri) + small ャ = rya, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:ryu",
+     "char": "リュ",
+     "romaji": "ryu",
+     "parts": [
+      "リ",
+      "ュ"
+     ],
+     "mnemonic": "リ (ri) + small ュ = ryu, said as one beat.",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:ryo",
+     "char": "リョ",
+     "romaji": "ryo",
+     "parts": [
+      "リ",
+      "ョ"
+     ],
+     "mnemonic": "リ (ri) + small ョ = ryo, said as one beat.",
+     "strokes": 5
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:shatsu-シャツ",
+     "jp": "シャツ",
+     "romaji": "shatsu",
+     "meaning": "shirt"
+    },
+    {
+     "id": "vocab:katakana:nyuusu-ニュース",
+     "jp": "ニュース",
+     "romaji": "nyuusu",
+     "meaning": "news"
+    },
+    {
+     "id": "vocab:katakana:shawaa-シャワー",
+     "jp": "シャワー",
+     "romaji": "shawaa",
+     "meaning": "shower"
+    },
+    {
+     "id": "vocab:katakana:chokoreeto-チョコレート",
+     "jp": "チョコレート",
+     "romaji": "chokoreeto",
+     "meaning": "chocolate"
+    },
+    {
+     "id": "vocab:katakana:kyabetsu-キャベツ",
+     "jp": "キャベツ",
+     "romaji": "kyabetsu",
+     "meaning": "cabbage"
+    },
+    {
+     "id": "vocab:katakana:kyanpu-キャンプ",
+     "jp": "キャンプ",
+     "romaji": "kyanpu",
+     "meaning": "camping"
+    },
+    {
+     "id": "vocab:katakana:shanpuu-シャンプー",
+     "jp": "シャンプー",
+     "romaji": "shanpuu",
+     "meaning": "shampoo"
+    },
+    {
+     "id": "vocab:katakana:chansu-チャンス",
+     "jp": "チャンス",
+     "romaji": "chansu",
+     "meaning": "chance"
+    },
+    {
+     "id": "vocab:katakana:kyanseru-キャンセル",
+     "jp": "キャンセル",
+     "romaji": "kyanseru",
+     "meaning": "cancel"
+    },
+    {
+     "id": "vocab:katakana:shoo-ショー",
+     "jp": "ショー",
+     "romaji": "shoo",
+     "meaning": "show"
+    },
+    {
+     "id": "vocab:katakana:menyuu-メニュー",
+     "jp": "メニュー",
+     "romaji": "menyuu",
+     "meaning": "menu"
+    },
+    {
+     "id": "vocab:katakana:manikyua-マニキュア",
+     "jp": "マニキュア",
+     "romaji": "manikyua",
+     "meaning": "nail polish"
+    },
+    {
+     "id": "vocab:katakana:kyandoru-キャンドル",
+     "jp": "キャンドル",
+     "romaji": "kyandoru",
+     "meaning": "candle"
+    },
+    {
+     "id": "vocab:katakana:hyuuman-ヒューマン",
+     "jp": "ヒューマン",
+     "romaji": "hyuuman",
+     "meaning": "human"
+    }
+   ],
+   "note": "Small ャ ュ ョ blend into one beat, as in hiragana. English \"sh\", \"ch\", \"ny\" and \"-ure\" endings land here: シャツ, チャンス, ニュース, ミュージック."
+  },
+  {
+   "id": "k-combo2",
+   "title": "Voiced combinations (ギャ, ジュ, ビョ…)",
+   "kind": "combo",
+   "intro": "The same pattern with dakuten and handakuten katakana.",
+   "chars": [
+    {
+     "id": "kana:k:gya",
+     "char": "ギャ",
+     "romaji": "gya",
+     "parts": [
+      "ギ",
+      "ャ"
+     ],
+     "mnemonic": "ギ (gi) + small ャ = gya, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:gyu",
+     "char": "ギュ",
+     "romaji": "gyu",
+     "parts": [
+      "ギ",
+      "ュ"
+     ],
+     "mnemonic": "ギ (gi) + small ュ = gyu, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:gyo",
+     "char": "ギョ",
+     "romaji": "gyo",
+     "parts": [
+      "ギ",
+      "ョ"
+     ],
+     "mnemonic": "ギ (gi) + small ョ = gyo, said as one beat.",
+     "strokes": 8
+    },
+    {
+     "id": "kana:k:ja",
+     "char": "ジャ",
+     "romaji": "ja",
+     "parts": [
+      "ジ",
+      "ャ"
+     ],
+     "mnemonic": "ジ (ji) + small ャ = ja, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:ju",
+     "char": "ジュ",
+     "romaji": "ju",
+     "parts": [
+      "ジ",
+      "ュ"
+     ],
+     "mnemonic": "ジ (ji) + small ュ = ju, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:jo",
+     "char": "ジョ",
+     "romaji": "jo",
+     "parts": [
+      "ジ",
+      "ョ"
+     ],
+     "mnemonic": "ジ (ji) + small ョ = jo, said as one beat.",
+     "strokes": 8
+    },
+    {
+     "id": "kana:k:bya",
+     "char": "ビャ",
+     "romaji": "bya",
+     "parts": [
+      "ビ",
+      "ャ"
+     ],
+     "mnemonic": "ビ (bi) + small ャ = bya, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:byu",
+     "char": "ビュ",
+     "romaji": "byu",
+     "parts": [
+      "ビ",
+      "ュ"
+     ],
+     "mnemonic": "ビ (bi) + small ュ = byu, said as one beat.",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:byo",
+     "char": "ビョ",
+     "romaji": "byo",
+     "parts": [
+      "ビ",
+      "ョ"
+     ],
+     "mnemonic": "ビ (bi) + small ョ = byo, said as one beat.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:pya",
+     "char": "ピャ",
+     "romaji": "pya",
+     "parts": [
+      "ピ",
+      "ャ"
+     ],
+     "mnemonic": "ピ (pi) + small ャ = pya, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:pyu",
+     "char": "ピュ",
+     "romaji": "pyu",
+     "parts": [
+      "ピ",
+      "ュ"
+     ],
+     "mnemonic": "ピ (pi) + small ュ = pyu, said as one beat.",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:pyo",
+     "char": "ピョ",
+     "romaji": "pyo",
+     "parts": [
+      "ピ",
+      "ョ"
+     ],
+     "mnemonic": "ピ (pi) + small ョ = pyo, said as one beat.",
+     "strokes": 6
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:jamu-ジャム",
+     "jp": "ジャム",
+     "romaji": "jamu",
+     "meaning": "jam"
+    },
+    {
+     "id": "vocab:katakana:juusu-ジュース",
+     "jp": "ジュース",
+     "romaji": "juusu",
+     "meaning": "juice"
+    },
+    {
+     "id": "vocab:katakana:jogingu-ジョギング",
+     "jp": "ジョギング",
+     "romaji": "jogingu",
+     "meaning": "jogging"
+    },
+    {
+     "id": "vocab:katakana:gyararii-ギャラリー",
+     "jp": "ギャラリー",
+     "romaji": "gyararii",
+     "meaning": "gallery"
+    },
+    {
+     "id": "vocab:katakana:jazu-ジャズ",
+     "jp": "ジャズ",
+     "romaji": "jazu",
+     "meaning": "jazz"
+    },
+    {
+     "id": "vocab:katakana:pyua-ピュア",
+     "jp": "ピュア",
+     "romaji": "pyua",
+     "meaning": "pure"
+    },
+    {
+     "id": "vocab:katakana:janpu-ジャンプ",
+     "jp": "ジャンプ",
+     "romaji": "janpu",
+     "meaning": "jump"
+    },
+    {
+     "id": "vocab:katakana:jooku-ジョーク",
+     "jp": "ジョーク",
+     "romaji": "jooku",
+     "meaning": "joke"
+    },
+    {
+     "id": "vocab:katakana:jagaimo-ジャガイモ",
+     "jp": "ジャガイモ",
+     "romaji": "jagaimo",
+     "meaning": "potato"
+    },
+    {
+     "id": "vocab:katakana:janru-ジャンル",
+     "jp": "ジャンル",
+     "romaji": "janru",
+     "meaning": "genre"
+    },
+    {
+     "id": "vocab:katakana:byuu-ビュー",
+     "jp": "ビュー",
+     "romaji": "byuu",
+     "meaning": "view"
+    },
+    {
+     "id": "vocab:katakana:gyooza-ギョーザ",
+     "jp": "ギョーザ",
+     "romaji": "gyooza",
+     "meaning": "gyoza dumplings"
+    }
+   ],
+   "note": "Voiced combinations: ジャ ジュ ジョ carry English \"j\" and soft \"g\": ジャム, ジュース, ジョギング."
+  },
+  {
+   "id": "k-sokuon",
+   "title": "Small ッ (double consonants)",
+   "kind": "special",
+   "intro": "Small ッ marks a doubled consonant: the sound stops for one beat.",
+   "chars": [
+    {
+     "id": "kana:k:xtsu",
+     "char": "ッ",
+     "romaji": "(pause)",
+     "mnemonic": "A small ツ. Not pronounced: it doubles the next consonant with a one-beat pause, as in ベッド (bed).",
+     "strokes": 3
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:beddo-ベッド",
+     "jp": "ベッド",
+     "romaji": "beddo",
+     "meaning": "bed"
+    },
+    {
+     "id": "vocab:katakana:sakkaa-サッカー",
+     "jp": "サッカー",
+     "romaji": "sakkaa",
+     "meaning": "football (soccer)"
+    },
+    {
+     "id": "vocab:katakana:kukkii-クッキー",
+     "jp": "クッキー",
+     "romaji": "kukkii",
+     "meaning": "cookie"
+    },
+    {
+     "id": "vocab:katakana:poketto-ポケット",
+     "jp": "ポケット",
+     "romaji": "poketto",
+     "meaning": "pocket"
+    },
+    {
+     "id": "vocab:katakana:chiketto-チケット",
+     "jp": "チケット",
+     "romaji": "chiketto",
+     "meaning": "ticket"
+    },
+    {
+     "id": "vocab:katakana:kappu-カップ",
+     "jp": "カップ",
+     "romaji": "kappu",
+     "meaning": "cup"
+    },
+    {
+     "id": "vocab:katakana:koppu-コップ",
+     "jp": "コップ",
+     "romaji": "koppu",
+     "meaning": "glass; tumbler"
+    },
+    {
+     "id": "vocab:katakana:roketto-ロケット",
+     "jp": "ロケット",
+     "romaji": "roketto",
+     "meaning": "rocket"
+    },
+    {
+     "id": "vocab:katakana:matchi-マッチ",
+     "jp": "マッチ",
+     "romaji": "matchi",
+     "meaning": "match (for lighting)"
+    },
+    {
+     "id": "vocab:katakana:baggu-バッグ",
+     "jp": "バッグ",
+     "romaji": "baggu",
+     "meaning": "bag"
+    },
+    {
+     "id": "vocab:katakana:petto-ペット",
+     "jp": "ペット",
+     "romaji": "petto",
+     "meaning": "pet"
+    },
+    {
+     "id": "vocab:katakana:netto-ネット",
+     "jp": "ネット",
+     "romaji": "netto",
+     "meaning": "the internet; net"
+    },
+    {
+     "id": "vocab:katakana:torakku-トラック",
+     "jp": "トラック",
+     "romaji": "torakku",
+     "meaning": "truck"
+    },
+    {
+     "id": "vocab:katakana:sandoitchi-サンドイッチ",
+     "jp": "サンドイッチ",
+     "romaji": "sandoitchi",
+     "meaning": "sandwich"
+    },
+    {
+     "id": "vocab:katakana:shoppingu-ショッピング",
+     "jp": "ショッピング",
+     "romaji": "shoppingu",
+     "meaning": "shopping"
+    },
+    {
+     "id": "vocab:katakana:intaanetto-インターネット",
+     "jp": "インターネット",
+     "romaji": "intaanetto",
+     "meaning": "internet"
+    },
+    {
+     "id": "vocab:katakana:ryukku-リュック",
+     "jp": "リュック",
+     "romaji": "ryukku",
+     "meaning": "backpack"
+    }
+   ],
+   "note": "Small ッ doubles the next consonant and often appears where English has a short, clipped vowel: bed → ベッド, cup → カップ, net → ネット."
+  },
+  {
+   "id": "k-ext",
+   "title": "Extended combinations (ファ, ティ, ウェ…)",
+   "kind": "combo",
+   "intro": "Katakana borrows sounds Japanese never had by pairing a kana with a small vowel: ファ, ティ, ウェ, ヴァ.",
+   "chars": [
+    {
+     "id": "kana:k:x-fa",
+     "char": "ファ",
+     "romaji": "fa",
+     "parts": [
+      "フ",
+      "ァ"
+     ],
+     "mnemonic": "フ + small ァ: fa, as in ファン (fan).",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:x-fi",
+     "char": "フィ",
+     "romaji": "fi",
+     "parts": [
+      "フ",
+      "ィ"
+     ],
+     "mnemonic": "フ + small ィ: fi, as in フィルム (film).",
+     "strokes": 3
+    },
+    {
+     "id": "kana:k:x-fe",
+     "char": "フェ",
+     "romaji": "fe",
+     "parts": [
+      "フ",
+      "ェ"
+     ],
+     "mnemonic": "フ + small ェ: fe, as in カフェ (café).",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:x-fo",
+     "char": "フォ",
+     "romaji": "fo",
+     "parts": [
+      "フ",
+      "ォ"
+     ],
+     "mnemonic": "フ + small ォ: fo, as in フォーク (fork).",
+     "strokes": 4
+    },
+    {
+     "id": "kana:k:x-ti",
+     "char": "ティ",
+     "romaji": "ti",
+     "parts": [
+      "テ",
+      "ィ"
+     ],
+     "mnemonic": "テ + small ィ: a true \"ti\" sound, as in ティー (tea). Compare チ (chi).",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:x-di",
+     "char": "ディ",
+     "romaji": "di",
+     "parts": [
+      "デ",
+      "ィ"
+     ],
+     "mnemonic": "デ + small ィ: \"di\", as in ディナー (dinner).",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:x-wi",
+     "char": "ウィ",
+     "romaji": "wi",
+     "parts": [
+      "ウ",
+      "ィ"
+     ],
+     "mnemonic": "ウ + small ィ: \"wi\", as in ウィンドウ (window).",
+     "strokes": 5
+    },
+    {
+     "id": "kana:k:x-we",
+     "char": "ウェ",
+     "romaji": "we",
+     "parts": [
+      "ウ",
+      "ェ"
+     ],
+     "mnemonic": "ウ + small ェ: \"we\", as in ウェブ (web).",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:x-wo",
+     "char": "ウォ",
+     "romaji": "wo",
+     "parts": [
+      "ウ",
+      "ォ"
+     ],
+     "mnemonic": "ウ + small ォ: \"wo\", as in ウォーター (water).",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:x-she",
+     "char": "シェ",
+     "romaji": "she",
+     "parts": [
+      "シ",
+      "ェ"
+     ],
+     "mnemonic": "シ + small ェ: \"she\", as in シェフ (chef).",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:x-je",
+     "char": "ジェ",
+     "romaji": "je",
+     "parts": [
+      "ジ",
+      "ェ"
+     ],
+     "mnemonic": "ジ + small ェ: \"je\", as in ジェット (jet).",
+     "strokes": 8
+    },
+    {
+     "id": "kana:k:x-che",
+     "char": "チェ",
+     "romaji": "che",
+     "parts": [
+      "チ",
+      "ェ"
+     ],
+     "mnemonic": "チ + small ェ: \"che\", as in チェック (check).",
+     "strokes": 6
+    },
+    {
+     "id": "kana:k:x-va",
+     "char": "ヴァ",
+     "romaji": "va",
+     "parts": [
+      "ヴ",
+      "ァ"
+     ],
+     "mnemonic": "ヴ (ウ with dakuten) + small ァ: \"va\". Many people say and write バ instead.",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:x-dyu",
+     "char": "デュ",
+     "romaji": "dyu",
+     "parts": [
+      "デ",
+      "ュ"
+     ],
+     "mnemonic": "デ + small ュ: \"dyu\", as in プロデューサー (producer).",
+     "strokes": 7
+    },
+    {
+     "id": "kana:k:x-tu",
+     "char": "トゥ",
+     "romaji": "tu",
+     "parts": [
+      "ト",
+      "ゥ"
+     ],
+     "mnemonic": "ト + small ゥ: a true \"tu\", as in タトゥー (tattoo).",
+     "strokes": 5
+    }
+   ],
+   "words": [
+    {
+     "id": "vocab:katakana:paatii-パーティー",
+     "jp": "パーティー",
+     "romaji": "paatii",
+     "meaning": "party"
+    },
+    {
+     "id": "vocab:katakana:fasshon-ファッション",
+     "jp": "ファッション",
+     "romaji": "fasshon",
+     "meaning": "fashion"
+    },
+    {
+     "id": "vocab:katakana:fooku-フォーク",
+     "jp": "フォーク",
+     "romaji": "fooku",
+     "meaning": "fork"
+    },
+    {
+     "id": "vocab:katakana:sofa-ソファ",
+     "jp": "ソファ",
+     "romaji": "sofa",
+     "meaning": "sofa"
+    },
+    {
+     "id": "vocab:katakana:webu-ウェブ",
+     "jp": "ウェブ",
+     "romaji": "webu",
+     "meaning": "the web"
+    },
+    {
+     "id": "vocab:katakana:windou-ウィンドウ",
+     "jp": "ウィンドウ",
+     "romaji": "windou",
+     "meaning": "window (on a screen)"
+    },
+    {
+     "id": "vocab:katakana:chekku-チェック",
+     "jp": "チェック",
+     "romaji": "chekku",
+     "meaning": "check"
+    },
+    {
+     "id": "vocab:katakana:jetto-ジェット",
+     "jp": "ジェット",
+     "romaji": "jetto",
+     "meaning": "jet"
+    },
+    {
+     "id": "vocab:katakana:shefu-シェフ",
+     "jp": "シェフ",
+     "romaji": "shefu",
+     "meaning": "chef"
+    },
+    {
+     "id": "vocab:katakana:tii-ティー",
+     "jp": "ティー",
+     "romaji": "tii",
+     "meaning": "tea"
+    },
+    {
+     "id": "vocab:katakana:firumu-フィルム",
+     "jp": "フィルム",
+     "romaji": "firumu",
+     "meaning": "film"
+    },
+    {
+     "id": "vocab:katakana:dinaa-ディナー",
+     "jp": "ディナー",
+     "romaji": "dinaa",
+     "meaning": "dinner"
+    },
+    {
+     "id": "vocab:katakana:kafe-カフェ",
+     "jp": "カフェ",
+     "romaji": "kafe",
+     "meaning": "café"
+    },
+    {
+     "id": "vocab:katakana:ferii-フェリー",
+     "jp": "フェリー",
+     "romaji": "ferii",
+     "meaning": "ferry"
+    },
+    {
+     "id": "vocab:katakana:wootaa-ウォーター",
+     "jp": "ウォーター",
+     "romaji": "wootaa",
+     "meaning": "water"
+    },
+    {
+     "id": "vocab:katakana:supagetti-スパゲッティ",
+     "jp": "スパゲッティ",
+     "romaji": "supagetti",
+     "meaning": "spaghetti"
+    },
+    {
+     "id": "vocab:katakana:vaiorin-ヴァイオリン",
+     "jp": "ヴァイオリン",
+     "romaji": "vaiorin",
+     "meaning": "violin"
+    },
+    {
+     "id": "vocab:katakana:tisshu-ティッシュ",
+     "jp": "ティッシュ",
+     "romaji": "tisshu",
+     "meaning": "tissue"
+    },
+    {
+     "id": "vocab:katakana:tatuu-タトゥー",
+     "jp": "タトゥー",
+     "romaji": "tatuu",
+     "meaning": "tattoo"
+    }
+   ],
+   "note": "Extended combinations use small ァ ィ ゥ ェ ォ to reach sounds Japanese did not have: ファ (fa), ティ (ti), ウェ (we), ヴァ (va). They appear only in loanwords and names. Usage varies: ヴァイオリン and バイオリン are both common."
+  }
+ ]
+}

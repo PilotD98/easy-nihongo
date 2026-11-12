@@ -14,7 +14,7 @@ export async function render(el, id) {
   const p = parseId(id);
   const rec = await progress.get(id);
   await initAudio();
-  const levelId = p?.type === 'kana' ? (p.scope === 'k' ? 'katakana' : 'kana') : p?.scope === 'kana' ? 'kana' : null;
+  const levelId = p?.type === 'kana' ? (p.scope === 'k' ? 'katakana' : 'kana') : p?.type === 'vocab' && (p.scope === 'kana' || p.scope === 'katakana') ? p.scope : null;
   if (!levelId) {
     append(el, [h('h1', null, 'Item'), h('div', { class: 'notice' }, icon('info'), h('p', null, 'This item belongs to a stage that is not included in the app yet.')), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]);
     return;
@@ -33,7 +33,7 @@ export async function render(el, id) {
     const diagram = parts.every((x) => kana.strokes[x]) ? (parts.length === 1 ? strokeDiagram(kana.strokes[ch.char], { size: 180, label: ch.char }) : strokeDiagrams(parts, kana.strokes, { size: 130 })) : null;
     const words = kana.allWords.filter((w) => w.units.includes(ch.char)).slice(0, 8);
     append(el, [
-      h('header', { class: 'page-head' }, h('h1', null, jp(ch.char, 'jp-xl'), ' ', h('span', { class: 'muted' }, ch.romaji)), h('p', { class: 'lede' }, `${kana.data.title} · ${group.title} · ${ch.strokes} strokes`)),
+      h('header', { class: 'page-head' }, h('h1', null, jp(ch.char, 'jp-xl'), ' ', h('span', { class: 'muted' }, ch.romaji)), h('p', { class: 'lede' }, `${kana.data.title} · ${group.title} · ${ch.strokes} stroke${ch.strokes === 1 ? '' : 's'}`)),
       h('section', { class: 'card' },
         diagram ? h('div', { class: 'row', style: { alignItems: 'flex-start' } }, diagram.el, h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => diagram.play() }, 'Replay strokes'), canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(ch.char) }, icon('speak'), 'Listen') : null)) : null,
         h('p', { class: 'mnemonic' }, h('strong', null, 'Remember: '), ch.mnemonic)),

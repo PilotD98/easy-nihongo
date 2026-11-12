@@ -1,6 +1,6 @@
 # Stroke-order data
 
-`hiragana.json` (and later `katakana.json`, `kanji-*.json`) contain stroke
+`hiragana.json` and `katakana.json` (and later `kanji-*.json`) contain stroke
 paths extracted from **KanjiVG** by Ulrich Apel and contributors,
 https://kanjivg.tagaini.net/, released under the
 **Creative Commons Attribution-ShareAlike 3.0** license
@@ -14,4 +14,5 @@ Regenerate with:
 
 ```bash
 node scripts/fetch-kanjivg.mjs hiragana
+node scripts/fetch-kanjivg.mjs katakana
 ```

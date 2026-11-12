@@ -6,7 +6,7 @@ import { h, append, icon, jp } from '../ui/dom.js';
 import { progress, STAGES, STAGE_LABELS } from '../store/progress.js';
 import { dueQueue, answer } from '../engine/scheduler.js';
 import { previewIntervals, Rating } from '../engine/fsrs.js';
-import { loadKana } from '../content/kana.js';
+import { loadAllKana, kanaLevelFor } from '../content/kana.js';
 import { parseId } from '../content/ids.js';
 import { qCharToRomaji, qRomajiToChar, qWordTyped, qListenWord, qCharTyped, qDraw, renderQuestion } from '../ui/quiz.js';
 import { canSpeak, initAudio, stopSpeaking } from '../ui/audio.js';
@@ -55,7 +55,7 @@ function nextDueText(summary) {
 /* ---------- session ---------- */
 async function runSession(el, records, { focus }) {
   await initAudio();
-  const kana = await loadKana('kana');
+  const kanaLevels = await loadAllKana();
   const startedAt = Date.now();
   const queue = records.slice();
   let done = 0, correctCount = 0;
@@ -92,7 +92,7 @@ async function runSession(el, records, { focus }) {
     const rec = queue.shift();
     counter.textContent = `${done + 1} / ${done + 1 + queue.length}`;
     bar.firstChild.style.width = `${(done / Math.max(totalPlanned, done + queue.length + 1)) * 100}%`;
-    const q = questionFor(rec, kana);
+    const q = questionFor(rec, kanaLevels[kanaLevelFor(rec.id)]);
     if (!q) { next(); return; }
     grades.hidden = true;
     qCleanup?.();
@@ -140,7 +140,7 @@ async function runSession(el, records, { focus }) {
 /** Pick a question type for a record, rotating by review count. */
 function questionFor(rec, kana) {
   const p = parseId(rec.id);
-  if (!p) return null;
+  if (!p || !kana) return null;
   if (p.type === 'kana') {
     const ch = kana.charsById.get(rec.id);
     if (!ch) return null;
@@ -149,7 +149,7 @@ function questionFor(rec, kana) {
     const t = types[rec.reps % types.length];
     const single = !ch.parts && kana.strokes[ch.char];
     if (t === 'recognition') return qCharToRomaji(ch, pool);
-    if (t === 'recallTyped' && ch.char !== 'っ') return qCharTyped(ch);
+    if (t === 'recallTyped' && !/[()]/.test(ch.romaji)) return qCharTyped(ch);
     if (t === 'draw' && single) return qDraw(ch, kana.strokes[ch.char]);
     return qRomajiToChar(ch, pool);
   }

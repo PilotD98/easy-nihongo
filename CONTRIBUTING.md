@@ -15,7 +15,7 @@ data/index.json          manifest: stages, levels, targets, file list
 data/SCHEMA.md           field-by-field reference for every file type
 data/orientation.json    Stage 0 text
 data/kana.json           hiragana groups, characters and first words
-data/katakana.json       katakana (next phase)
+data/katakana.json       katakana groups, characters and loanwords
 data/strokes/*.json      stroke paths extracted from KanjiVG (regenerate, do not hand-edit)
 data/n5/kanji.json       kanji for N5 (and n4/, n3/, n2/, n1/ likewise)
 data/n5/vocab.json       vocabulary

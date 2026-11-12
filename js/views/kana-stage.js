@@ -2,9 +2,10 @@
    unlocked by passing the previous group's quiz, then the stage exam. */
 import { h, append, icon, jp } from '../ui/dom.js';
 import { kanaStatus } from '../content/kana.js';
+import { stagePathFor } from '../content/kana.js';
 import { progress } from '../store/progress.js';
 
-export const title = 'Hiragana';
+export const title = 'Kana';
 
 export async function render(el, ctx) {
   const levelId = ctx.levelId || 'kana';

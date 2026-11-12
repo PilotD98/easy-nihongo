@@ -7,11 +7,11 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 2 (Orientation + Hiragana).** On top of the Phase 1
-foundation (installable PWA, offline mode, device-local storage with
-export/import, settings, theming, deploy workflow), the app now teaches Stage 0
-and the complete hiragana stage with a spaced-repetition review engine.
-Katakana, speaking practice and N5 → N1 content ship in the following phases.
+**Status: Phase 3 (Orientation + Hiragana + Katakana).** On top of the
+Phase 1 foundation (installable PWA, offline mode, device-local storage with
+export/import, settings, theming, deploy workflow), the app teaches Stage 0 and
+the complete hiragana and katakana stages with a spaced-repetition review
+engine. Speaking practice and N5 → N1 content ship in the following phases.
 
 ## Features
 
@@ -25,6 +25,11 @@ Available now:
   animated **stroke-order diagram** (KanjiVG), a memory hint, audio, and a
   **trace-it pad** with a rough shape-and-stroke-count check. Each group ends
   with a 12-question check; a 50-question **exam** unlocks katakana.
+- **Katakana stage**: the same path with 19 groups, 121 characters (including
+  the long-vowel mark ー, small ッ, and extended combinations such as ファ, ティ,
+  ウェ, ヴァ) and 223 loanwords, with loanword rules explained group by group
+  (consonant clusters, ー for long vowels and -er endings, ッ for clipped
+  vowels, l/r, v/b). Its exam unlocks N5.
 - **Review engine**: FSRS-5 scheduling with learning steps, a per-day review
   cap that spreads backlogs out, and a new-item goal that eases off when
   recent accuracy drops. Review types rotate: recognition, recall (typed and
@@ -54,7 +59,7 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in later phases: katakana; speaking practice with mora-level feedback;
+Coming in later phases: speaking practice with mora-level feedback;
 N5 → N1 kanji, vocabulary, grammar, reading and listening with furigana
 scaffolding (L3–L4); placement test; mock JLPT exams.
 
@@ -82,7 +87,7 @@ Other scripts:
 ```bash
 node scripts/validate-content.mjs   # check curriculum data
 node scripts/make-icons.mjs         # regenerate PWA icons
-node scripts/fetch-kanjivg.mjs hiragana   # refresh stroke data from KanjiVG
+node scripts/fetch-kanjivg.mjs hiragana   # refresh stroke data from KanjiVG (also: katakana)
 ```
 
 On `localhost` the service worker is network-first, so edits show on reload.
@@ -166,8 +171,8 @@ add or correct curriculum.
 Application code: MIT License (see `LICENSE`).
 
 Content sources are credited in the app's About page and here, with their
-licenses. Hiragana mnemonics, example words and the Orientation text were
-written for this project. Stroke data in `data/strokes/` is derived from
+licenses. Kana mnemonics, example words, loanword notes and the Orientation
+text were written for this project. Stroke data in `data/strokes/` is derived from
 KanjiVG and stays under CC BY-SA 3.0 (see `data/strokes/README.md`).
 
 | Source | Used for | License |

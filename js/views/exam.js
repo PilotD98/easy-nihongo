@@ -1,6 +1,7 @@
 /* Stage exam for a kana script. Route: #/exam/kana */
 import { h, append, icon } from '../ui/dom.js';
 import { loadKana, markExamPassed, examPassed, passedGroups } from '../content/kana.js';
+import { stagePathFor } from '../content/kana.js';
 import { kanaQuiz, runQuiz } from '../ui/quiz.js';
 import { days } from '../store/days.js';
 import { initAudio } from '../ui/audio.js';
@@ -12,7 +13,7 @@ export async function render(el, ctx) {
   const levelId = ctx.segs[1] || 'kana';
   const kana = await loadKana(levelId);
   const passed = await passedGroups(levelId);
-  const backHref = `#/learn/${levelId === 'kana' ? 'hiragana' : levelId}`;
+  const backHref = `#/learn/${stagePathFor(levelId)}`;
   if (passed.size < kana.groups.length) {
     append(el, [h('h1', null, `${kana.data.title} exam`), h('div', { class: 'notice' }, icon('lock'), h('p', null, `Pass all ${kana.groups.length} groups first.`)), h('a', { class: 'btn', href: backHref }, 'Back')]);
     return;
@@ -49,7 +50,7 @@ export async function render(el, ctx) {
         h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${pct}%`), h('div', { class: 'stat-label' }, `${res.correct} of ${res.total}`)),
         h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, String(missed.length)), h('div', { class: 'stat-label' }, 'items missed'))),
       missed.length ? h('p', { style: { marginTop: '12px' } }, missed.map((it) => h('span', { class: 'pill', lang: 'ja' }, it.char || it.jp, ' ', it.romaji))) : null,
-      h('p', { class: 'muted' }, ok ? `${cfg.unlocks[0].toUpperCase()}${cfg.unlocks.slice(1)} is unlocked. Your reviews keep every hiragana fresh from here on.` : `You need ${cfg.passPercent}%. Review the missed items, keep doing your daily reviews, and come back.`),
+      h('p', { class: 'muted' }, ok ? `${cfg.unlocks} is unlocked. Your reviews keep every hiragana fresh from here on.` : `You need ${cfg.passPercent}%. Review the missed items, keep doing your daily reviews, and come back.`),
       h('div', { class: 'btn-row' },
         ok ? h('a', { class: 'btn btn-primary', href: '#/learn' }, 'Learning path') : h('button', { class: 'btn btn-primary', type: 'button', onClick: begin }, 'Try again'),
         h('a', { class: 'btn', href: backHref }, 'Back')
