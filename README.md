@@ -7,13 +7,13 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 6 (kana + Speaking + JLPT N5 + dashboard, placement, mock
-exam).** On top of the Phase 1 foundation (installable PWA, offline mode,
-device-local storage with export/import, settings, theming, deploy workflow),
-the app teaches Stage 0, the complete hiragana and katakana stages, speaking
-practice with mora-level feedback, and the full JLPT N5 stage with furigana
-scaffolding, measured by a progress dashboard, an optional placement test and
-a timed N5 mock exam. N4 → N1 content ships one level per phase.
+**Status: Phase 7 (kana + Speaking + JLPT N5 and N4 + dashboard, placement,
+mock exams).** On top of the Phase 1 foundation (installable PWA, offline
+mode, device-local storage with export/import, settings, theming, deploy
+workflow), the app teaches Stage 0, the complete hiragana and katakana stages,
+speaking practice with mora-level feedback, and the JLPT N5 and N4 stages with
+furigana scaffolding, measured by a progress dashboard, an optional placement
+test and timed mock exams. N3 → N1 ship one level per phase.
 
 ## Features
 
@@ -41,6 +41,12 @@ Available now:
   order the pieces, produce), ten graded readings and eight listening drills
   (dictation, comprehension, shadowing) built only from material already
   taught. Words that use kanji beyond N5 always show furigana.
+- **JLPT N4 stage**: 29 units with 174 further kanji (the same KANJIDIC2 /
+  KanjiVG pipeline and original mnemonics), 670 new words verified against
+  JMdict, 63 grammar points (て-form patterns, potential, volitional,
+  conditionals, passive, causative, honorific and humble verbs, and more),
+  7 readings and 6 listening drills. N4 unlocks when every N5 unit is passed
+  (or by placement), and its mock exam uses the N4 pass mark.
 - **Furigana scaffolding (L3–L4)**: kanji show their reading above until a
   word has been answered correctly four times in a row, then the reading
   hides and a tap reveals it; it comes back after repeated misses. Readings
@@ -107,7 +113,7 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in later phases: N4 → N1 content, one level per phase with its mock
+Coming in later phases: N3 → N1 content, one level per phase with its mock
 exam; speaking sets for each JLPT level; final accessibility and performance
 pass.
 
@@ -214,7 +220,7 @@ js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), 
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
 js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, placement, mock, settings, about
-data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/, strokes/; SCHEMA.md)
+data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/, n4/, strokes/; SCHEMA.md)
 scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs, fetch-edrdg.mjs
 .github/workflows/       GitHub Pages deployment
 ```
@@ -238,11 +244,11 @@ KanjiVG and stays under CC BY-SA 3.0 (see `data/strokes/README.md`).
 |---|---|---|
 | [Noto Sans JP, Noto Serif JP](https://fonts.google.com/noto) | Japanese typefaces | SIL Open Font License 1.1 |
 | [KanjiVG](https://kanjivg.tagaini.net/) | Stroke-order diagrams | CC BY-SA 3.0 |
-| [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (EDRDG) | N5 kanji readings, meanings, stroke counts (`data/n5/kanji.json`) | EDRDG licence (CC BY-SA 4.0) |
-| [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (EDRDG) | Verification of every N5 word's reading and meaning at build time (not redistributed) | EDRDG licence (CC BY-SA 4.0) |
+| [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (EDRDG) | N5 and N4 kanji readings, meanings, stroke counts (`data/n5/kanji.json`, `data/n4/kanji.json`) | EDRDG licence (CC BY-SA 4.0) |
+| [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (EDRDG) | Verification of every N5 and N4 word's reading and meaning at build time (not redistributed) | EDRDG licence (CC BY-SA 4.0) |
 | [Tatoeba](https://tatoeba.org/) | Not used yet; example sentences and readings are original | CC BY 2.0 FR |
 
-The kanji data in `data/n5/kanji.json` is derived from KANJIDIC2 and is
+The kanji data in `data/n5/kanji.json` and `data/n4/kanji.json` is derived from KANJIDIC2 and is
 redistributed under the EDRDG licence (CC BY-SA 4.0); see
 https://www.edrdg.org/edrdg/licence.html. The N5 word list, meanings,
 grammar explanations, example sentences, readings and listening scripts were

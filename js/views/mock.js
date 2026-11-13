@@ -2,7 +2,7 @@
    breakdown and weak areas with one-tap practice. Route: #/mock/n5 */
 import { h, append, icon } from '../ui/dom.js';
 import { loadJlpt } from '../content/n5.js';
-import { buildMockN5, scoreMock, SUB_LABELS } from '../ui/exam-n5.js';
+import { buildMockN5, scoreMock, SUB_LABELS, PASS } from '../ui/exam-n5.js';
 import { renderQuestion } from '../ui/quiz.js';
 import { markupText } from '../ui/kanjitext.js';
 import { initAudio, stopSpeaking, canSpeak } from '../ui/audio.js';
@@ -16,7 +16,7 @@ export async function examHistory(levelId = 'n5') { return (await db.get('meta',
 
 export async function render(el, ctx) {
   const levelId = ctx.segs[1] || 'n5';
-  if (!(await isUnlocked(levelId))) { append(el, [h('h1', null, 'Mock exam'), h('div', { class: 'notice' }, icon('lock'), h('p', null, 'Unlock N5 first (pass the katakana exam or take the placement test).')), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]); return; }
+  if (!(await isUnlocked(levelId))) { append(el, [h('h1', null, 'Mock exam'), h('div', { class: 'notice' }, icon('lock'), h('p', null, `Unlock ${levelId.toUpperCase()} first.`)), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]); return; }
   const lv = await loadJlpt(levelId);
   await initAudio();
   const history = await examHistory(levelId);
@@ -33,7 +33,7 @@ export async function render(el, ctx) {
     append(area, [h('section', { class: 'card' },
       h('ul', { class: 'path' }, sections.map((s) => h('li', null, h('span', { class: 'step-no is-available', 'aria-hidden': 'true' }, s.id), h('div', null, h('div', { class: 'step-title' }, s.title), h('div', { class: 'step-sub' }, `${s.questions.length} questions · ${s.minutes} minutes`)), h('span', null)))),
       canSpeak() ? null : h('div', { class: 'notice notice-warn' }, icon('info'), h('p', null, 'No Japanese voice is available, so the Listening section is left out and the estimate covers Language Knowledge and Reading only.')),
-      h('p', { class: 'small muted' }, 'Each section is timed; when time runs out it is submitted as is. You can submit early. Pass mark (estimate): 80 of 180 overall, with at least 38 of 120 in Language Knowledge + Reading and 19 of 60 in Listening.'),
+      h('p', { class: 'small muted' }, `Each section is timed; when time runs out it is submitted as is. You can submit early. Pass mark (estimate): ${(PASS[levelId] || PASS.n5).total} of 180 overall, with at least ${(PASS[levelId] || PASS.n5).lk} of 120 in Language Knowledge + Reading and 19 of 60 in Listening.`),
       h('div', { class: 'btn-row' }, h('button', { class: 'btn btn-primary btn-lg', type: 'button', onClick: () => run(sections) }, 'Begin'), h('a', { class: 'btn', href: `#/learn/${levelId}` }, 'Not now'))),
       history.length ? h('section', { class: 'card' }, h('h2', null, 'Previous attempts'), h('ul', { class: 'missed-list' }, history.slice(-5).reverse().map((x) => h('li', null, h('span', { class: 'grow' }, new Date(x.date).toLocaleDateString()), h('span', { class: `pill` }, `${x.total} / 180 · ${x.passed == null ? 'no listening' : x.passed ? 'pass' : 'fail'}`))))) : null]);
   }
@@ -92,7 +92,8 @@ export async function render(el, ctx) {
   }
 
   async function showResults(sections, results) {
-    const sc = scoreMock(sections, results);
+    const sc = scoreMock(sections, results, levelId);
+    const pass = PASS[levelId] || PASS.n5;
     const entry = { date: new Date().toISOString(), level: levelId, total: sc.total, lk: sc.lk, listening: sc.listening, passed: sc.passed };
     const hist = await examHistory(levelId);
     await db.put('meta', { id: `${levelId}:mocks`, value: [...hist, entry].slice(-20) });
@@ -101,8 +102,8 @@ export async function render(el, ctx) {
       h('section', { class: `card ${sc.passed ? 'card-accent' : ''}` },
         h('h2', null, sc.passed == null ? 'Result (no listening section)' : sc.passed ? 'Estimated pass' : 'Estimated fail'),
         h('div', { class: 'stat-grid' },
-          h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${sc.total}`), h('div', { class: 'stat-label' }, 'of 180 overall (pass ≥ 80)')),
-          h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${sc.lk}`), h('div', { class: 'stat-label' }, 'of 120 language + reading (≥ 38)')),
+          h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${sc.total}`), h('div', { class: 'stat-label' }, `of 180 overall (pass ≥ ${pass.total})`)),
+          h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${sc.lk}`), h('div', { class: 'stat-label' }, `of 120 language + reading (≥ ${pass.lk})`)),
           h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, sc.listening == null ? '—' : `${sc.listening}`), h('div', { class: 'stat-label' }, 'of 60 listening (≥ 19)'))),
         h('p', { class: 'small muted', style: { marginTop: '12px' } }, 'Scaled from your percentage in each section. The real JLPT uses item-response scaling and more questions; treat this as a direction, not a verdict.')),
       h('section', { class: 'card' },

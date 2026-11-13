@@ -13,6 +13,11 @@ import { loadJlpt, recordsFor } from '../content/n5.js';
 import { vocabWord, sentence } from '../ui/kanjitext.js';
 import { isKanji } from '../engine/furigana.js';
 
+async function levelOfKanji(char) {
+  for (const id of ['n5', 'n4', 'n3', 'n2', 'n1']) { try { const lv = await loadJlpt(id); if (lv.kanjiByChar.has(char)) return id; } catch { break; } }
+  return 'n5';
+}
+
 async function renderJlptItem(el, id, p, levelId, rec) {
   let lv;
   try { lv = await loadJlpt(levelId); } catch { append(el, [h('h1', null, 'Item'), h('p', { class: 'muted' }, 'This level is not included in the app yet.'), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]); return; }
@@ -25,7 +30,7 @@ async function renderJlptItem(el, id, p, levelId, rec) {
   if (p.type === 'kanji') {
     const data = lv.strokes[it.char];
     const diagram = data ? strokeDiagram(data, { size: 180, label: it.char }) : null;
-    const examples = it.examples.map((x) => lv.byId.get(x)).filter(Boolean);
+    const examples = it.examples.map((x) => lv.allById.get(x)).filter(Boolean);
     append(el, [
       h('header', { class: 'page-head' }, h('h1', null, jp(it.char, 'jp-xl'), ' ', h('span', { class: 'muted' }, it.meanings.join(', '))), h('p', { class: 'lede' }, `${lv.title} · unit ${it.unit} · ${it.strokes} stroke${it.strokes === 1 ? '' : 's'}`)),
       h('section', { class: 'card' },
@@ -66,7 +71,7 @@ export async function render(el, id) {
   await initAudio();
   const levelId = p?.type === 'kana' ? (p.scope === 'k' ? 'katakana' : 'kana') : p?.type === 'vocab' && (p.scope === 'kana' || p.scope === 'katakana') ? p.scope : null;
   if (!levelId) {
-    const jlptLevel = p?.type === 'kanji' ? 'n5' : (p?.scope && /^n[1-5]$/.test(p.scope) ? p.scope : null);
+    const jlptLevel = p?.type === 'kanji' ? await levelOfKanji(p.slug) : (p?.scope && /^n[1-5]$/.test(p.scope) ? p.scope : null);
     if (jlptLevel) return renderJlptItem(el, id, p, jlptLevel, rec);
     append(el, [h('h1', null, 'Item'), h('div', { class: 'notice' }, icon('info'), h('p', null, 'This item belongs to a stage that is not included in the app yet.')), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]);
     return;

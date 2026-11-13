@@ -1,5 +1,7 @@
 // N5 kanji in teaching order (units of five), with original mnemonics.
 // Readings, meanings and stroke counts come from KANJIDIC2 at build time.
+export const UNIT_TITLES = ['Numbers 1–5', 'Numbers 6–10', 'Big numbers, money, year', 'Days: sun, moon, fire, water, tree', 'Gold, earth, book, person', 'Size and place', 'Nature and body', 'Body and people', 'Family', 'School', 'Time', 'Before, after, every', 'Directions and countries', 'Movement', 'Perception', 'Actions', 'Transport and places', 'Society and weather', 'Colours and sky', 'Living things', 'Standing, town, safety'];
+
 export const KANJI = [
   // Unit 1: numbers
   ['一', 'One line: one.'],

@@ -78,6 +78,14 @@ export async function isUnlocked(levelId) {
   const unlocked = (await db.get('meta', 'unlocked'))?.value || [];
   return unlocked.includes(levelId);
 }
+
+/** Add a level to the unlocked list (idempotent). */
+export async function unlockLevel(levelId) {
+  const unlocked = (await db.get('meta', 'unlocked'))?.value || [];
+  if (!unlocked.includes(levelId)) await db.put('meta', { id: 'unlocked', value: [...unlocked, levelId] });
+}
+export const JLPT_ORDER = ['n5', 'n4', 'n3', 'n2', 'n1'];
+export function nextJlpt(levelId) { const i = JLPT_ORDER.indexOf(levelId); return i >= 0 && i < JLPT_ORDER.length - 1 ? JLPT_ORDER[i + 1] : null; }
 export async function orientationDone() { return !!(await db.get('meta', 'orientation:done'))?.value; }
 export async function markOrientationDone() { await db.put('meta', { id: 'orientation:done', value: true }); }
 
@@ -100,10 +108,15 @@ export async function nextStep() {
   if (k && k.nextGroup && !k.exam) return { href: `#/lesson/katakana/${k.nextGroup.id}`, label: `Katakana: ${k.nextGroup.title}`, sub: `Group ${k.nextGroup.index + 1} of ${k.total}` };
   if (k && !k.exam) return { href: '#/exam/katakana', label: 'Take the katakana exam', sub: 'Unlocks N5' };
   const { jlptStatus } = await import('./n5.js');
-  const n5 = await jlptStatus('n5').catch(() => null);
-  if (n5 && n5.unlocked && n5.nextUnit) return { href: `#/unit/n5/${n5.nextUnit.id.split(':').pop()}`, label: `N5 unit ${n5.nextUnit.no}: ${n5.nextUnit.title}`, sub: `Unit ${n5.nextUnit.no} of ${n5.total}` };
-  if (n5 && n5.unlocked) return { href: '#/learn/n5', label: 'N5 complete: keep reviewing', sub: 'N4 arrives in a later release' };
-  return { href: '#/learn', label: 'Learning path', sub: 'Unlock N5 by passing the katakana exam' };
+  let last = null;
+  for (const id of JLPT_ORDER) {
+    const st = await jlptStatus(id).catch(() => null);
+    if (!st) break;
+    if (!st.unlocked) return last ? { href: `#/learn/${last}`, label: `${last.toUpperCase()} complete: keep reviewing`, sub: `${id.toUpperCase()} unlocks when every ${last.toUpperCase()} unit is passed` } : { href: '#/learn', label: 'Learning path', sub: 'Unlock N5 by passing the katakana exam' };
+    if (st.nextUnit) return { href: `#/unit/${id}/${st.nextUnit.no}`, label: `${id.toUpperCase()} unit ${st.nextUnit.no}: ${st.nextUnit.title}`, sub: `Unit ${st.nextUnit.no} of ${st.total}` };
+    last = id;
+  }
+  return { href: last ? `#/learn/${last}` : '#/learn', label: last ? `${last.toUpperCase()} complete: keep reviewing` : 'Learning path', sub: 'The next level arrives in a later release' };
 }
 
 /** Which kana level an item id belongs to, or null. */

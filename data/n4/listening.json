@@ -1,0 +1,253 @@
+[
+ {
+  "id": "listen:n4:001",
+  "level": "n4",
+  "unit": 2,
+  "order": 295,
+  "type": "dictation",
+  "title": "Dictation: て-form patterns",
+  "text": "ホテルを予約しておきました。 財布を忘れてしまいました。 一度食べてみてください。",
+  "items": [
+   {
+    "text": "ホテルを{予約|よやく}しておきました。",
+    "kana": "ホテルをよやくしておきました。",
+    "en": "I booked the hotel in advance."
+   },
+   {
+    "text": "{財布|さいふ}を{忘|わす}れてしまいました。",
+    "kana": "さいふをわすれてしまいました。",
+    "en": "I forgot my wallet."
+   },
+   {
+    "text": "{一度食|いちどた}べてみてください。",
+    "kana": "いちどたべてみてください。",
+    "en": "Please try it once."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n4:002",
+  "level": "n4",
+  "unit": 5,
+  "order": 595,
+  "type": "comprehension",
+  "title": "Plans for the weekend",
+  "text": "週末は雨が降っても、友達と山に登るつもりです。でも、台風が来たら、家で映画を見ることにします。",
+  "items": [
+   {
+    "text": "{週末|しゅうまつ}は雨が{降|ふ}っても、{友達|ともだち}と山に{登|のぼ}るつもりです。でも、{台風|たいふう}が来たら、家で{映画|えいが}を見ることにします。",
+    "kana": "しゅうまつはあめがふっても、ともだちとやまにのぼるつもりです。でも、たいふうがきたら、いえでえいがをみることにします。",
+    "en": "At the weekend I intend to climb a mountain with friends even if it rains. But if a typhoon comes, I will watch films at home.",
+    "questions": [
+     {
+      "q": "{台風|たいふう}が来たら、どうしますか。",
+      "qKana": "たいふうがきたら、どうしますか。",
+      "choices": [
+       "山に登ります",
+       "家で映画を見ます",
+       "友達の家に行きます"
+      ],
+      "answer": 1,
+      "why": "台風が来たら、家で映画を見ることにします。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "台風が来たら、どうしますか。",
+    "qKana": "たいふうがきたら、どうしますか。",
+    "choices": [
+     "山に登ります",
+     "家で映画を見ます",
+     "友達の家に行きます"
+    ],
+    "answer": 1,
+    "why": "台風が来たら、家で映画を見ることにします。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n4:003",
+  "level": "n4",
+  "unit": 8,
+  "order": 895,
+  "type": "shadow",
+  "title": "Shadowing: changes and decisions",
+  "text": "日本語が話せるようになりました。 毎朝走ることにしました。 忘れないように、メモしておきます。",
+  "items": [
+   {
+    "text": "日本語が話せるようになりました。",
+    "kana": "にほんごがはなせるようになりました。",
+    "en": "I have become able to speak Japanese."
+   },
+   {
+    "text": "{毎朝走|まいあさはし}ることにしました。",
+    "kana": "まいあさはしることにしました。",
+    "en": "I decided to run every morning."
+   },
+   {
+    "text": "{忘|わす}れないように、メモしておきます。",
+    "kana": "わすれないように、メモしておきます。",
+    "en": "I'll make a note so I don't forget."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n4:004",
+  "level": "n4",
+  "unit": 11,
+  "order": 1195,
+  "type": "comprehension",
+  "title": "Announcement at the station",
+  "text": "ご乗車の皆様にお知らせします。事故のため、電車が十分ほど遅れております。お急ぎのところ、ご迷惑をおかけして申し訳ありません。",
+  "items": [
+   {
+    "text": "ご{乗車|じょうしゃ}の{皆様|みなさま}にお知らせします。{事故|じこ}のため、電車が十分ほど{遅|おく}れております。お{急|いそ}ぎのところ、ご{迷惑|めいわく}をおかけして{申|もう}し{訳|わけ}ありません。",
+    "kana": "ごじょうしゃのみなさまにおしらせします。じこのため、でんしゃがじゅっぷんほどおくれております。おいそぎのところ、ごめいわくをおかけしてもうしわけありません。",
+    "en": "Attention passengers. Because of an accident, the train is delayed by about ten minutes. We apologise for the inconvenience to those in a hurry.",
+    "questions": [
+     {
+      "q": "電車はどのくらい{遅|おく}れていますか。",
+      "qKana": "でんしゃはどのくらいおくれていますか。",
+      "choices": [
+       "五分",
+       "十分",
+       "三十分"
+      ],
+      "answer": 1,
+      "why": "十分ほど遅れております。"
+     },
+     {
+      "q": "どうして{遅|おく}れていますか。",
+      "qKana": "どうしておくれていますか。",
+      "choices": [
+       "雨のため",
+       "事故のため",
+       "工事のため"
+      ],
+      "answer": 1,
+      "why": "事故のため…"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "電車はどのくらい遅れていますか。",
+    "qKana": "でんしゃはどのくらいおくれていますか。",
+    "choices": [
+     "五分",
+     "十分",
+     "三十分"
+    ],
+    "answer": 1,
+    "why": "十分ほど遅れております。"
+   },
+   {
+    "q": "どうして遅れていますか。",
+    "qKana": "どうしておくれていますか。",
+    "choices": [
+     "雨のため",
+     "事故のため",
+     "工事のため"
+    ],
+    "answer": 1,
+    "why": "事故のため…"
+   }
+  ]
+ },
+ {
+  "id": "listen:n4:005",
+  "level": "n4",
+  "unit": 16,
+  "order": 1695,
+  "type": "dictation",
+  "title": "Dictation: advice and requests",
+  "text": "早く寝たほうがいいですよ。 もう少しゆっくり話していただけませんか。 少々お待ちください。",
+  "items": [
+   {
+    "text": "早く寝たほうがいいですよ。",
+    "kana": "はやくねたほうがいいですよ。",
+    "en": "You had better go to bed early."
+   },
+   {
+    "text": "もう{少|すこ}しゆっくり話していただけませんか。",
+    "kana": "もうすこしゆっくりはなしていただけませんか。",
+    "en": "Could you speak a little more slowly?"
+   },
+   {
+    "text": "{少々|しょうしょう}お{待|ま}ちください。",
+    "kana": "しょうしょうおまちください。",
+    "en": "Please wait a moment."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n4:006",
+  "level": "n4",
+  "unit": 20,
+  "order": 2095,
+  "type": "comprehension",
+  "title": "A phone message",
+  "text": "もしもし、佐藤です。明日の会議ですが、部長が出張で来られなくなったので、来週の月曜日に変わりました。資料は金曜日までに送っていただけませんか。よろしくお願いします。",
+  "items": [
+   {
+    "text": "もしもし、{佐藤|さとう}です。{明日|あした}の{会議|かいぎ}ですが、{部長|ぶちょう}が{出張|しゅっちょう}で来られなくなったので、来週の月曜日に{変|か}わりました。{資料|しりょう}は金曜日までに送っていただけませんか。よろしくお{願|ねが}いします。",
+    "kana": "もしもし、さとうです。あしたのかいぎですが、ぶちょうがしゅっちょうでこられなくなったので、らいしゅうのげつようびにかわりました。しりょうはきんようびまでにおくっていただけませんか。よろしくおねがいします。",
+    "en": "Hello, this is Sato. About tomorrow's meeting: the manager can no longer come because of a business trip, so it has been moved to next Monday. Could you send the materials by Friday? Thank you.",
+    "questions": [
+     {
+      "q": "{会議|かいぎ}はいつになりましたか。",
+      "qKana": "かいぎはいつになりましたか。",
+      "choices": [
+       "明日",
+       "来週の月曜日",
+       "金曜日"
+      ],
+      "answer": 1,
+      "why": "来週の月曜日に変わりました。"
+     },
+     {
+      "q": "{資料|しりょう}はいつまでに送りますか。",
+      "qKana": "しりょうはいつまでにおくりますか。",
+      "choices": [
+       "明日",
+       "金曜日",
+       "月曜日"
+      ],
+      "answer": 1,
+      "why": "金曜日までに送っていただけませんか。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "会議はいつになりましたか。",
+    "qKana": "かいぎはいつになりましたか。",
+    "choices": [
+     "明日",
+     "来週の月曜日",
+     "金曜日"
+    ],
+    "answer": 1,
+    "why": "来週の月曜日に変わりました。"
+   },
+   {
+    "q": "資料はいつまでに送りますか。",
+    "qKana": "しりょうはいつまでにおくりますか。",
+    "choices": [
+     "明日",
+     "金曜日",
+     "月曜日"
+    ],
+    "answer": 1,
+    "why": "金曜日までに送っていただけませんか。"
+   }
+  ]
+ }
+]

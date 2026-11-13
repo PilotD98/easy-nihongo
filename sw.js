@@ -8,7 +8,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '0.6.0';
+const VERSION = '0.7.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -98,6 +98,13 @@ const SHELL = [
   './data/n5/readings.json',
   './data/n5/listening.json',
   './data/n5/units.json',
+  './data/strokes/kanji-n4.json',
+  './data/n4/kanji.json',
+  './data/n4/vocab.json',
+  './data/n4/grammar.json',
+  './data/n4/readings.json',
+  './data/n4/listening.json',
+  './data/n4/units.json',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

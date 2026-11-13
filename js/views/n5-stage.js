@@ -9,7 +9,7 @@ export async function render(el, ctx) {
   const levelId = ctx.levelId || 'n5';
   const { level: lv, passed, nextUnit, total, unlocked } = await jlptStatus(levelId);
   if (!unlocked) {
-    append(el, [h('h1', null, lv.title), h('div', { class: 'notice' }, icon('lock'), h('p', null, 'Pass the katakana exam to unlock this stage.')), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]);
+    append(el, [h('h1', null, lv.title), h('div', { class: 'notice' }, icon('lock'), h('p', null, levelId === 'n5' ? 'Pass the katakana exam to unlock this stage.' : 'Pass every unit of the previous level to unlock this stage.')), h('a', { class: 'btn', href: '#/learn' }, 'Learning path')]);
     return;
   }
   const records = new Map(((await progress.all()) || []).map((r) => [r.id, r]));

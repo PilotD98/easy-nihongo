@@ -17,7 +17,7 @@ const TYPE_LABELS = { kana: 'Kana', vocab: 'Vocabulary', kanji: 'Kanji', grammar
 
 export async function render(el) {
   const [summary, recent, longer, streak, totals, manifest, all, mocks] = await Promise.all([
-    progress.summary(), days.recent(14), days.recent(56), days.streak(), days.totals(), getManifest().catch(() => null), progress.all(), db.get('meta', 'n5:mocks')
+    progress.summary(), days.recent(14), days.recent(56), days.streak(), days.totals(), getManifest().catch(() => null), progress.all(), mergedMocks()
   ]);
   const records = all || [];
   const levels = (manifest?.levels || []).filter((l) => /^n[1-5]$/.test(l.id));
@@ -60,7 +60,7 @@ export async function render(el) {
 
     accuracyCard(records, accuracy),
 
-    mocks?.value?.length ? mockCard(mocks.value) : null,
+    mocks.length ? mockCard(mocks) : null,
 
     h('section', { class: 'card', 'aria-labelledby': 'hist-h' },
       h('div', { class: 'card-title' }, h('h2', { id: 'hist-h' }, 'Study time'), h('span', { class: 'pill', title: 'Missing a day never costs you anything.' }, `${streak}-day streak`)),
@@ -120,12 +120,18 @@ function accuracyCard(records, overall) {
       : h('p', { class: 'muted' }, 'Accuracy by item type and by level appears after your first review sessions.'));
 }
 
+async function mergedMocks() {
+  const all = [];
+  for (const id of ['n5', 'n4', 'n3', 'n2', 'n1']) { const row = await db.get('meta', `${id}:mocks`); for (const x of row?.value || []) all.push({ ...x, level: x.level || id }); }
+  return all.sort((a, b) => a.date.localeCompare(b.date));
+}
+
 function mockCard(list) {
   const last = list[list.length - 1];
   return h('section', { class: 'card', 'aria-labelledby': 'mock-h' },
-    h('div', { class: 'card-title' }, h('h2', { id: 'mock-h' }, 'Mock exams'), h('a', { class: 'btn', href: '#/mock/n5' }, 'Take one')),
+    h('div', { class: 'card-title' }, h('h2', { id: 'mock-h' }, 'Mock exams'), h('a', { class: 'btn', href: `#/mock/${last.level || 'n5'}` }, 'Take one')),
     h('div', { class: 'stat-grid' },
-      h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${last.total}`), h('div', { class: 'stat-label' }, `of 180 · ${last.passed == null ? 'no listening' : last.passed ? 'pass' : 'fail'} (latest)`)),
+      h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${last.total}`), h('div', { class: 'stat-label' }, `of 180 · ${(last.level || 'n5').toUpperCase()} · ${last.passed == null ? 'no listening' : last.passed ? 'pass' : 'fail'} (latest)`)),
       h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, `${last.lk}`), h('div', { class: 'stat-label' }, 'language + reading / 120')),
       h('div', { class: 'stat' }, h('div', { class: 'stat-value' }, last.listening == null ? '—' : `${last.listening}`), h('div', { class: 'stat-label' }, 'listening / 60'))),
     list.length > 1 ? h('div', { style: { marginTop: '12px' } }, sparkline(list.slice(-8).map((x) => ({ id: x.date.slice(0, 10), v: x.total })), (r) => r.v, '', (r) => `${r.id}: ${r.v}/180`, 180)) : null);
@@ -151,10 +157,12 @@ async function glyphMap() {
   }
   try {
     const { loadJlpt } = await import('../content/n5.js');
-    const lv = await loadJlpt('n5');
-    for (const k of lv.kanji) map.set(k.id, `${k.char} (${k.meanings[0]})`);
-    for (const v of lv.vocab) map.set(v.id, `${v.jp} (${v.kana}, ${v.meanings[0]})`);
-    for (const g of lv.grammar) map.set(g.id, g.title);
+    for (const id of ['n5', 'n4', 'n3', 'n2', 'n1']) {
+      let lv; try { lv = await loadJlpt(id); } catch { break; }
+      for (const k of lv.kanji) map.set(k.id, `${k.char} (${k.meanings[0]})`);
+      for (const v of lv.vocab) map.set(v.id, `${v.jp} (${v.kana}, ${v.meanings[0]})`);
+      for (const g of lv.grammar) map.set(g.id, g.title);
+    }
   } catch { /* level not in this build */ }
   return map;
 }

@@ -89,13 +89,16 @@ export function buildMockN5(lv) {
 }
 
 /** Score sections into the JLPT-style scaled estimate. */
-export function scoreMock(sections, results) {
+export const PASS = { n5: { total: 80, lk: 38, listening: 19 }, n4: { total: 90, lk: 38, listening: 19 }, n3: { total: 95, lk: 19, listening: 19 }, n2: { total: 90, lk: 19, listening: 19 }, n1: { total: 100, lk: 19, listening: 19 } };
+
+export function scoreMock(sections, results, levelId = 'n5') {
+  const pass = PASS[levelId] || PASS.n5;
   const pct = (id) => { const qs = results.filter((r) => r.section === id); return qs.length ? qs.filter((r) => r.correct).length / qs.length : null; };
   const a = pct('A'), b = pct('B'), c = pct('C');
   const lk = Math.round((((a ?? 0) + (b ?? 0)) / ((a != null ? 1 : 0) + (b != null ? 1 : 0) || 1)) * 120);
   const listening = c == null ? null : Math.round(c * 60);
   const total = lk + (listening ?? 0);
-  const passed = listening == null ? null : total >= 80 && lk >= 38 && listening >= 19;
+  const passed = listening == null ? null : total >= pass.total && lk >= pass.lk && listening >= pass.listening;
   const bySub = {};
   for (const r of results) { const k = `${r.section}:${r.sub}`; bySub[k] = bySub[k] || { correct: 0, total: 0, ids: new Set() }; bySub[k].total++; if (r.correct) bySub[k].correct++; else bySub[k].ids.add(r.itemId); }
   return { a, b, c, lk, listening, total, passed, bySub: Object.fromEntries(Object.entries(bySub).map(([k, v]) => [k, { ...v, ids: [...v.ids] }])) };

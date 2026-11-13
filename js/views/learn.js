@@ -22,6 +22,7 @@ export async function render(el, ctx) {
   const sub = ctx.segs[1];
   if (sub === 'item') { const m = await import('./item.js'); return m.render(el, ctx.segs[2] || ''); }
   if (SUBVIEWS[sub]) { const m = await SUBVIEWS[sub](); return m.render(el, { ...ctx, levelId: sub === 'hiragana' ? 'kana' : sub }); }
+  if (/^n[1-5]$/.test(sub || '')) { const m = await import('./n5-stage.js'); return m.render(el, { ...ctx, levelId: sub }); }
 
   let manifest = null;
   try { manifest = await getManifest(); }
@@ -34,7 +35,8 @@ export async function render(el, ctx) {
   const oDone = await orientationDone();
   const hira = await kanaStatus('kana').catch(() => null);
   const kata = (await isUnlocked('katakana')) ? await kanaStatus('katakana').catch(() => null) : null;
-  const n5 = (await isUnlocked('n5')) ? await jlptStatus('n5').catch(() => null) : null;
+  const jlpt = {};
+  for (const id of ['n5', 'n4', 'n3', 'n2', 'n1']) jlpt[id] = (await isUnlocked(id)) ? await jlptStatus(id).catch(() => null) : null;
 
   const items = [];
   for (const s of manifest.stages || []) {
@@ -55,11 +57,12 @@ export async function render(el, ctx) {
       done = !!kata.exam;
       status = kata.exam ? 'Passed' : kata.passed.size ? 'Continue' : 'Start';
       sub = `${kata.passed.size} of ${kata.total} groups passed` + (kata.exam ? ` · exam ${kata.exam.score}%` : '');
-    } else if (s.id === 'n5' && n5) {
-      href = '#/learn/n5';
-      done = !n5.nextUnit;
-      status = done ? 'Complete' : n5.passed.size ? 'Continue' : 'Start';
-      sub = `${n5.passed.size} of ${n5.total} units passed`;
+    } else if (jlpt[s.id]) {
+      const st = jlpt[s.id];
+      href = `#/learn/${s.id}`;
+      done = !st.nextUnit;
+      status = done ? 'Complete' : st.passed.size ? 'Continue' : 'Start';
+      sub = `${st.passed.size} of ${st.total} units passed`;
     } else { href = `#/learn/${s.id}`; status = 'Open'; }
     items.push(h('li', null,
       h('span', { class: `step-no ${href ? 'is-available' : ''} ${done ? 'is-passed' : ''}`, 'aria-hidden': 'true' }, done ? icon('check') : String(s.no)),

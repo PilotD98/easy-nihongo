@@ -5,7 +5,7 @@ import { loadLevel } from './loader.js';
 import { loadStrokes } from '../ui/stroke.js';
 import { progress } from '../store/progress.js';
 import { db } from '../store/db.js';
-import { isUnlocked } from './kana.js';
+import { isUnlocked, unlockLevel, nextJlpt } from './kana.js';
 import { isKanji } from '../engine/furigana.js';
 
 const cache = new Map();
@@ -14,6 +14,7 @@ export async function loadJlpt(levelId = 'n5') {
   if (cache.has(levelId)) return cache.get(levelId);
   const p = (async () => {
     const level = await loadLevel(levelId);
+    if (!level.files || !Object.keys(level.files).length) throw new Error(`Level ${levelId} is not in this build`);
     const d = level.data;
     let strokes = {};
     try { strokes = await loadStrokes(`kanji-${levelId}`); } catch { /* optional */ }
@@ -25,9 +26,23 @@ export async function loadJlpt(levelId = 'n5') {
     for (const v of vocab) { if (!vocabBySurface.has(v.jp)) vocabBySurface.set(v.jp, []); vocabBySurface.get(v.jp).push(v); }
     const vocabByKana = new Map();
     for (const v of vocab) { if (!vocabByKana.has(v.kana)) vocabByKana.set(v.kana, []); vocabByKana.get(v.kana).push(v); }
-    // longest-first surface list for tokenising sentences
-    const surfaces = [...new Set(vocab.map((v) => v.jp))].sort((a, b) => b.length - a.length);
-    return { id: levelId, title: level.title, targets: level.targets, strokes, kanji, vocab, grammar, readings, listening, units, byId, kanjiByChar, vocabBySurface, vocabByKana, surfaces };
+    // Earlier levels are known material: include their words for lookups, furigana and example words.
+    const order = ['n5', 'n4', 'n3', 'n2', 'n1'];
+    const allById = new Map(byId);
+    for (const prevId of order.slice(0, order.indexOf(levelId))) {
+      const prev = await loadJlpt(prevId);
+      for (const [id, it] of prev.byId) if (!allById.has(id)) allById.set(id, it);
+      for (const v of prev.vocab) {
+        if (!vocabBySurface.has(v.jp)) vocabBySurface.set(v.jp, []);
+        vocabBySurface.get(v.jp).push(v);
+        if (!vocabByKana.has(v.kana)) vocabByKana.set(v.kana, []);
+        vocabByKana.get(v.kana).push(v);
+      }
+      for (const [c, k] of prev.kanjiByChar) if (!kanjiByChar.has(c)) kanjiByChar.set(c, k);
+    }
+    // longest-first surface list for tokenising sentences (this level and earlier)
+    const surfaces = [...vocabBySurface.keys()].sort((a, b) => b.length - a.length);
+    return { id: levelId, title: level.title, targets: level.targets, strokes, kanji, vocab, grammar, readings, listening, units, byId, allById, kanjiByChar, vocabBySurface, vocabByKana, surfaces };
   })();
   cache.set(levelId, p);
   p.catch(() => cache.delete(levelId));
@@ -43,6 +58,8 @@ export async function markUnitPassed(levelId, unitId) {
   const set = await passedUnits(levelId);
   set.add(unitId);
   await db.put('meta', { id: `${levelId}:units`, value: [...set] });
+  const lv = await loadJlpt(levelId);
+  if (lv.units.every((u) => set.has(u.id))) { const next = nextJlpt(levelId); if (next) await unlockLevel(next); }
 }
 export async function jlptStatus(levelId = 'n5') {
   const lv = await loadJlpt(levelId);

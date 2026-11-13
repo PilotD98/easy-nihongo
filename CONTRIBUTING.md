@@ -53,24 +53,27 @@ It fails the build if:
 It warns, without failing, when a kanji's example word is taught later than the
 kanji itself. Prefer examples the learner already knows.
 
-## JLPT levels: how the N5 files were made
+## JLPT levels: how the per-level files are made
 
-The N5 files are generated from authored sources plus dictionary extracts:
+Each level's files are generated from authored sources in
+`scripts/authoring/<level>/` plus dictionary extracts (see
+`scripts/authoring/README.md`):
 
-1. `node scripts/fetch-edrdg.mjs kanji <chars> kanjidic.json` pulls readings,
-   meanings and stroke counts from KANJIDIC2 for the kanji list.
-2. `node scripts/fetch-kanjivg.mjs chars <chars> data/strokes/kanji-n5.json`
+1. `node scripts/fetch-edrdg.mjs kanji <chars> scripts/authoring/cache/kanjidic-<level>.json`
+   pulls readings, meanings and stroke counts from KANJIDIC2.
+2. `node scripts/fetch-kanjivg.mjs chars <chars> data/strokes/kanji-<level>.json`
    pulls stroke paths and component decompositions from KanjiVG.
-3. `node scripts/fetch-edrdg.mjs words words.json jmdict.json` checks every
-   authored word (surface + reading + part of speech) against JMdict; words
-   that are not found are flagged, and the build marks the rest `verified`.
-4. A build step assigns each word to the unit where its last kanji is
+3. `node scripts/authoring/check-vocab.mjs <level>` checks every authored
+   word (surface + reading + part of speech) against JMdict, reports words
+   already taught at an earlier level, and writes the cache the build reads.
+4. `node scripts/authoring/build-level.mjs <level>` drops kanji already
+   taught earlier, assigns each word to the unit where its last new kanji is
    taught, marks words that use kanji beyond the level with
-   `furiganaException`, wraps kanji in examples, exercises and readings that
-   are not yet taught as `{漢字|かな}`, and writes the per-level files.
+   `furiganaException`, wraps not-yet-taught kanji in examples, exercises and
+   readings as `{漢字|かな}` (anchored on vocabulary readings), picks example
+   words from this and earlier levels, and writes `data/<level>/*.json`.
 
-To correct an N5 entry, edit the JSON directly and run the validator. To add
-many entries, follow the same pipeline so readings stay verified. Keep
+To correct an entry, edit the source, rebuild, and run the validator. Keep
 example sentences and readings original; do not paste them from textbooks.
 
 ## Mnemonics

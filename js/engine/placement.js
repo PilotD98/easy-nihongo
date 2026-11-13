@@ -9,6 +9,7 @@ import { loadKana, markGroupPassed, markExamPassed, markOrientationDone } from '
 import { loadJlpt, markUnitPassed, unitItems } from '../content/n5.js';
 import { State } from './fsrs.js';
 import { isKanji } from './furigana.js';
+import { unlockLevel } from '../content/kana.js';
 
 const DAY = 86_400_000;
 
@@ -69,7 +70,7 @@ export async function applyPlacement(level, scores) {
   if (level !== 'none') added += await placeKana('kana');
   if (['kana', 'n5-half', 'n5'].includes(level)) added += await placeKana('katakana');
   if (level === 'n5-half') added += await placeN5(10);
-  if (level === 'n5') added += await placeN5(21);
+  if (level === 'n5') { added += await placeN5(21); await unlockLevel('n4'); }
   await markPlacementDone({ level, scores, added });
   return added;
 }

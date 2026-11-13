@@ -1,0 +1,324 @@
+[
+ {
+  "id": "read:n4:001",
+  "level": "n4",
+  "unit": 3,
+  "order": 390,
+  "title": "新しい習慣",
+  "en": "A new habit",
+  "text": "{私|わたし}は先月から{毎朝走|まいあさはし}ることにしました。{最初|さいしょ}は{三十分走|さんじゅっぷんはし}るのは{大変|たいへん}でしたが、だんだん{慣|な}れてきました。{走|はし}った後でシャワーを{浴|あ}びて、朝ご{飯|はん}を食べます。{朝早|あさはや}く起きられるようになったので、{仕事|しごと}の前に本を読む時間もできました。{友達|ともだち}も{一緒|いっしょ}に{走|はし}ってみたいと{言|い}っています。",
+  "kana": "わたしはせんげつからまいあさはしることにしました。さいしょはさんじゅっぷんはしるのはたいへんでしたが、だんだんなれてきました。はしったあとでシャワーをあびて、あさごはんをたべます。あさはやくおきられるようになったので、しごとのまえにほんをよむじかんもできました。ともだちもいっしょにはしってみたいといっています。",
+  "enText": "Since last month I have decided to run every morning. At first running for thirty minutes was hard, but gradually I got used to it. After running I take a shower and eat breakfast. Because I have become able to get up early, I also have time to read before work. My friend says they want to try running with me.",
+  "questions": [
+   {
+    "q": "この人はいつから{走|はし}っていますか。",
+    "qKana": "このひとはいつからはしっていますか。",
+    "choices": [
+     "先週から",
+     "先月から",
+     "去年から"
+    ],
+    "answer": 1,
+    "why": "先月から毎朝走ることにしました。"
+   },
+   {
+    "q": "{走|はし}った後で何をしますか。",
+    "qKana": "はしったあとでなにをしますか。",
+    "choices": [
+     "本を読みます",
+     "シャワーを浴びます",
+     "仕事に行きます"
+    ],
+    "answer": 1,
+    "why": "走った後でシャワーを浴びて…"
+   },
+   {
+    "q": "{友達|ともだち}は何と{言|い}っていますか。",
+    "qKana": "ともだちはなんといっていますか。",
+    "choices": [
+     "走りたくない",
+     "一緒に走ってみたい",
+     "朝は眠い"
+    ],
+    "answer": 1,
+    "why": "一緒に走ってみたいと言っています。"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:002",
+  "level": "n4",
+  "unit": 6,
+  "order": 690,
+  "title": "引っ越しの準備",
+  "en": "Preparing to move house",
+  "text": "来週、{新|あたら}しいアパートに{引|ひ}っ{越|こ}します。今週は{準備|じゅんび}で{忙|いそが}しいです。使わない{物|もの}は{捨|す}てて、{必要|ひつよう}な{物|もの}は{箱|はこ}に入れておきました。本が{多|おお}いので、{箱|はこ}が{十個|じゅっこ}もいります。{友達|ともだち}が{手伝|てつだ}ってくれるそうなので、{安心|あんしん}しました。{新|あたら}しい{部屋|へや}は駅から{近|ちか}くて、買い{物|もの}にも{便利|べんり}です。{早|はや}く{引|ひ}っ{越|こ}したいです。",
+  "kana": "らいしゅう、あたらしいアパートにひっこします。こんしゅうはじゅんびでいそがしいです。つかわないものはすてて、ひつようなものははこにいれておきました。ほんがおおいので、はこがじゅっこもいります。ともだちがてつだってくれるそうなので、あんしんしました。あたらしいへやはえきからちかくて、かいものにもべんりです。はやくひっこしたいです。",
+  "enText": "Next week I am moving to a new apartment. This week I am busy with preparations. I threw away things I do not use and packed the necessary things in boxes. Because I have many books, I need as many as ten boxes. I hear a friend will help me, so I feel relieved. The new room is close to the station and convenient for shopping. I want to move soon.",
+  "questions": [
+   {
+    "q": "いつ{引|ひ}っ{越|こ}しますか。",
+    "qKana": "いつひっこしますか。",
+    "choices": [
+     "今週",
+     "来週",
+     "来月"
+    ],
+    "answer": 1,
+    "why": "来週、新しいアパートに引っ越します。"
+   },
+   {
+    "q": "{箱|はこ}はいくついりますか。",
+    "qKana": "はこはいくついりますか。",
+    "choices": [
+     "五個",
+     "十個",
+     "二十個"
+    ],
+    "answer": 1,
+    "why": "箱が十個もいります。"
+   },
+   {
+    "q": "どうして{安心|あんしん}しましたか。",
+    "qKana": "どうしてあんしんしましたか。",
+    "choices": [
+     "部屋が広いから",
+     "友達が手伝ってくれるから",
+     "駅が近いから"
+    ],
+    "answer": 1,
+    "why": "友達が手伝ってくれるそうなので、安心しました。"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:003",
+  "level": "n4",
+  "unit": 9,
+  "order": 990,
+  "title": "病院で",
+  "en": "At the clinic",
+  "text": "{昨日|きのう}から{咳|せき}が出て、{熱|ねつ}もあるので、今日は会社を休んで{医院|いいん}に行きました。医者は「{風邪|かぜ}のようですね。{薬|くすり}を出しますから、{一日三回飲|いちにちさんかいの}んでください。お{酒|さけ}は飲まないほうがいいですよ」と言いました。{薬|くすり}は食事の後で飲まなければなりません。{薬局|やっきょく}で{薬|くすり}をもらって、家に帰りました。{明日|あした}までに{良|よ}くなるといいです。",
+  "kana": "きのうからせきがでて、ねつもあるので、きょうはかいしゃをやすんでいいんにいきました。いしゃは「かぜのようですね。くすりをだしますから、いちにちさんかいのんでください。おさけはのまないほうがいいですよ」といいました。くすりはしょくじのあとでのまなければなりません。やっきょくでくすりをもらって、いえにかえりました。あしたまでによくなるといいです。",
+  "enText": "Since yesterday I have had a cough and a fever, so today I took the day off work and went to the clinic. The doctor said, \"It seems to be a cold. I will prescribe medicine; take it three times a day. You had better not drink alcohol.\" The medicine must be taken after meals. I got the medicine at the pharmacy and went home. I hope I get better by tomorrow.",
+  "questions": [
+   {
+    "q": "医者は何と言いましたか。",
+    "qKana": "いしゃはなんといいましたか。",
+    "choices": [
+     "風邪のようだ",
+     "病院に入院する",
+     "お酒を飲んでもいい"
+    ],
+    "answer": 0,
+    "why": "「風邪のようですね」"
+   },
+   {
+    "q": "{薬|くすり}はいつ飲みますか。",
+    "qKana": "くすりはいつのみますか。",
+    "choices": [
+     "食事の前",
+     "食事の後",
+     "寝る前"
+    ],
+    "answer": 1,
+    "why": "食事の後で飲まなければなりません。"
+   },
+   {
+    "q": "どこで{薬|くすり}をもらいましたか。",
+    "qKana": "どこでくすりをもらいましたか。",
+    "choices": [
+     "医院",
+     "薬局",
+     "会社"
+    ],
+    "answer": 1,
+    "why": "薬局で薬をもらって…"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:004",
+  "level": "n4",
+  "unit": 12,
+  "order": 1290,
+  "title": "先生へのメール",
+  "en": "An email to a teacher",
+  "text": "山田先生、お{世話|せわ}になっております。木曜日の{授業|じゅぎょう}についてご{連絡|れんらく}いたします。その日は病院に行かなければならないので、{授業|じゅぎょう}を休ませていただけませんか。{宿題|しゅくだい}はもう{終|お}わりましたので、水曜日までに出します。来週の{授業|じゅぎょう}には{必|かなら}ず{出席|しゅっせき}いたします。どうぞよろしくお{願|ねが}いいたします。キム",
+  "kana": "やまだせんせい、おせわになっております。もくようびのじゅぎょうについてごれんらくいたします。そのひはびょういんにいかなければならないので、じゅぎょうをやすませていただけませんか。しゅくだいはもうおわりましたので、すいようびまでにだします。らいしゅうのじゅぎょうにはかならずしゅっせきいたします。どうぞよろしくおねがいいたします。キム",
+  "enText": "Dear Mr Yamada, thank you for your continued support. I am writing about Thursday's class. I have to go to the hospital that day, so could I possibly be excused from class? I have already finished the homework, so I will hand it in by Wednesday. I will definitely attend next week's class. Thank you very much. Kim",
+  "questions": [
+   {
+    "q": "キムさんは木曜日に何をしますか。",
+    "qKana": "キムさんはもくようびになにをしますか。",
+    "choices": [
+     "授業に出ます",
+     "病院に行きます",
+     "宿題をします"
+    ],
+    "answer": 1,
+    "why": "病院に行かなければならないので…"
+   },
+   {
+    "q": "{宿題|しゅくだい}はいつまでに出しますか。",
+    "qKana": "しゅくだいはいつまでにだしますか。",
+    "choices": [
+     "水曜日",
+     "木曜日",
+     "来週"
+    ],
+    "answer": 0,
+    "why": "水曜日までに出します。"
+   },
+   {
+    "q": "このメールは{誰|だれ}に書きましたか。",
+    "qKana": "このメールはだれにかきましたか。",
+    "choices": [
+     "友達",
+     "先生",
+     "医者"
+    ],
+    "answer": 1,
+    "why": "山田先生へのメールです。"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:005",
+  "level": "n4",
+  "unit": 15,
+  "order": 1590,
+  "title": "日本の電車",
+  "en": "Trains in Japan",
+  "text": "日本の電車は時間に{正確|せいかく}だと言われています。朝の電車はとても{混|こ}んでいて、{乗|の}るのが{大変|たいへん}なことがあります。でも、駅には{案内|あんない}が{多|おお}いので、外国人でも{乗|の}りやすいです。{切符|きっぷ}は{機械|きかい}で買うこともできますし、カードを使うこともできます。電車の中では電話で話さないのがマナーです。また、{優先席|ゆうせんせき}は年を{取|と}った人や体の{不自由|ふじゆう}な人のための{席|せき}なので、空けておいたほうがいいです。",
+  "kana": "にほんのでんしゃはじかんにせいかくだといわれています。あさのでんしゃはとてもこんでいて、のるのがたいへんなことがあります。でも、えきにはあんないがおおいので、がいこくじんでものりやすいです。きっぷはきかいでかうこともできますし、カードをつかうこともできます。でんしゃのなかではでんわではなさないのがマナーです。また、ゆうせんせきはとしをとったひとやからだのふじゆうなひとのためのせきなので、あけておいたほうがいいです。",
+  "enText": "Japanese trains are said to be punctual. Morning trains are very crowded, and it can be hard to get on. But stations have plenty of signs, so even foreigners find them easy to use. You can buy tickets from machines, and you can also use a card. On the train it is good manners not to talk on the phone. Also, priority seats are for elderly people and people with disabilities, so it is better to leave them free.",
+  "questions": [
+   {
+    "q": "日本の電車はどう言われていますか。",
+    "qKana": "にほんのでんしゃはどういわれていますか。",
+    "choices": [
+     "時間に正確だ",
+     "安い",
+     "空いている"
+    ],
+    "answer": 0,
+    "why": "時間に正確だと言われています。"
+   },
+   {
+    "q": "電車の中でしないほうがいいことは何ですか。",
+    "qKana": "でんしゃのなかでしないほうがいいことはなんですか。",
+    "choices": [
+     "本を読む",
+     "電話で話す",
+     "座る"
+    ],
+    "answer": 1,
+    "why": "電話で話さないのがマナーです。"
+   },
+   {
+    "q": "{優先席|ゆうせんせき}は{誰|だれ}のための{席|せき}ですか。",
+    "qKana": "ゆうせんせきはだれのためのせきですか。",
+    "choices": [
+     "外国人",
+     "年を取った人など",
+     "子供"
+    ],
+    "answer": 1,
+    "why": "年を取った人や体の不自由な人のための席です。"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:006",
+  "level": "n4",
+  "unit": 18,
+  "order": 1890,
+  "title": "留学生の生活",
+  "en": "An exchange student's life",
+  "text": "マリアさんはスペインから来た{留学生|りゅうがくせい}です。日本に来たばかりの時は、日本語が{全然分|ぜんぜんわ}からなくて、買い{物|もの}もできませんでした。でも、{毎日一生懸命勉強|まいにちいっしょうけんめいべんきょう}したので、今では日本人の{友達|ともだち}と{冗談|じょうだん}が言えるようになりました。アルバイトも始めました。週に{三回|さんかい}、駅前のカフェで{働|はたら}いています。店長は{厳|きび}しいですが、{親切|しんせつ}に仕事を教えてくれるので、だんだん{慣|な}れてきたそうです。{将来|しょうらい}は日本の会社で{働|はたら}きたいと思っています。",
+  "kana": "マリアさんはスペインからきたりゅうがくせいです。にほんにきたばかりのときは、にほんごがぜんぜんわからなくて、かいものもできませんでした。でも、まいにちいっしょうけんめいべんきょうしたので、いまではにほんじんのともだちとじょうだんがいえるようになりました。アルバイトもはじめました。しゅうにさんかい、えきまえのカフェではたらいています。てんちょうはきびしいですが、しんせつにしごとをおしえてくれるので、だんだんなれてきたそうです。しょうらいはにほんのかいしゃではたらきたいとおもっています。",
+  "enText": "Maria is an exchange student from Spain. When she had just arrived in Japan, she did not understand Japanese at all and could not even shop. But because she studied hard every day, she can now joke with Japanese friends. She has also started a part-time job. She works three times a week at a café in front of the station. The manager is strict but kindly teaches her the work, so she says she is gradually getting used to it. In the future she wants to work at a Japanese company.",
+  "questions": [
+   {
+    "q": "来たばかりの時、マリアさんはどうでしたか。",
+    "qKana": "きたばかりのとき、マリアさんはどうでしたか。",
+    "choices": [
+     "日本語がよく分かった",
+     "日本語が全然分からなかった",
+     "アルバイトをしていた"
+    ],
+    "answer": 1,
+    "why": "日本語が全然分からなくて…"
+   },
+   {
+    "q": "アルバイトはどこでしていますか。",
+    "qKana": "アルバイトはどこでしていますか。",
+    "choices": [
+     "学校",
+     "駅前のカフェ",
+     "会社"
+    ],
+    "answer": 1,
+    "why": "駅前のカフェで働いています。"
+   },
+   {
+    "q": "店長はどんな人ですか。",
+    "qKana": "てんちょうはどんなひとですか。",
+    "choices": [
+     "厳しいが親切",
+     "優しくない",
+     "スペイン人"
+    ],
+    "answer": 0,
+    "why": "厳しいですが、親切に仕事を教えてくれる…"
+   }
+  ]
+ },
+ {
+  "id": "read:n4:007",
+  "level": "n4",
+  "unit": 21,
+  "order": 2190,
+  "title": "お知らせ",
+  "en": "A notice",
+  "text": "住民の{皆様|みなさま}へ。来月五日の午前九時から午後五時まで、この{建物|たても}の水道の工事を行います。工事の間は水が使えなくなりますので、前の日までに{必要|ひつよう}な水を用意しておいてください。また、工事の{音|おと}がうるさくなるかもしれません。ご{迷惑|めいわく}をおかけしますが、ご{理解|りかい}とご{協力|きょうりょく}をお{願|ねが}いいたします。質問がある方は、{一階|いっかい}の{受付|うけつけ}までお{越|こ}しください。{管理人|かんりにん}",
+  "kana": "じゅうみんのみなさまへ。らいげついつかのごぜんくじからごごごじまで、このたてもののすいどうのこうじをおこないます。こうじのあいだはみずがつかえなくなりますので、まえのひまでにひつようなみずをよういしておいてください。また、こうじのおとがうるさくなるかもしれません。ごめいわくをおかけしますが、ごりかいとごきょうりょくをおねがいいたします。しつもんがあるかたは、いっかいのうけつけまでおこしください。かんりにん",
+  "enText": "To all residents. On the 5th of next month, from 9 a.m. to 5 p.m., water supply work will be carried out in this building. During the work, water will not be available, so please prepare the water you need by the day before. The noise of the work may also be loud. We apologise for the inconvenience and ask for your understanding and cooperation. Anyone with questions, please come to the reception on the first floor. The caretaker",
+  "questions": [
+   {
+    "q": "工事は何時から何時までですか。",
+    "qKana": "こうじはなんじからなんじまでですか。",
+    "choices": [
+     "午前九時から午後五時まで",
+     "午前五時から午後九時まで",
+     "一日中"
+    ],
+    "answer": 0,
+    "why": "午前九時から午後五時まで"
+   },
+   {
+    "q": "住民は何をしておかなければなりませんか。",
+    "qKana": "じゅうみんはなにをしておかなければなりませんか。",
+    "choices": [
+     "水を用意しておく",
+     "建物から出る",
+     "受付に電話する"
+    ],
+    "answer": 0,
+    "why": "必要な水を用意しておいてください。"
+   },
+   {
+    "q": "質問がある人はどうしますか。",
+    "qKana": "しつもんがあるひとはどうしますか。",
+    "choices": [
+     "管理人に電話する",
+     "一階の受付に行く",
+     "来月まで待つ"
+    ],
+    "answer": 1,
+    "why": "一階の受付までお越しください。"
+   }
+  ]
+ }
+]

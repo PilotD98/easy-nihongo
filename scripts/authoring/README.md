@@ -7,12 +7,17 @@ rebuild, then run the validator.
   groups, mnemonics and words → `data/kana.json`, `data/katakana.json`
   (stroke counts from `data/strokes/*.json`). `kana/add-pitch.mjs` adds pitch
   accent numbers to kana-stage words.
-- `n5/n5-kanji-src.mjs`, `n5/n5-vocab-src.mjs`, `n5/n5-grammar-src.mjs`,
-  `n5/n5-readings-src.mjs`: the N5 curriculum sources.
-- `n5/check-vocab.mjs`: verifies every word against JMdict (downloads the
-  dictionary to a temp folder on first run) and writes `cache/jmdict-n5.json`.
-- `n5/build-n5.mjs`: builds `data/n5/*.json`. Needs `cache/kanjidic-n5.json`
-  (`node scripts/fetch-edrdg.mjs kanji "<all kanji>" scripts/authoring/cache/kanjidic-n5.json`)
-  and `cache/jmdict-n5.json` from the check above.
+- `<level>/<level>-kanji-src.mjs` (kanji in teaching order with mnemonics and
+  unit titles), `<level>-vocab-src.mjs`, `<level>-grammar-src.mjs`,
+  `<level>-readings-src.mjs`: the curriculum sources for n5, n4, …
+- `check-vocab.mjs <level>`: verifies every word against JMdict (downloads
+  the dictionary to a temp folder on first run), reports words already taught
+  at an earlier level, and writes `cache/jmdict-<level>.json`.
+- `build-level.mjs <level>`: builds `data/<level>/*.json`. Needs
+  `cache/kanjidic-<level>.json`
+  (`node scripts/fetch-edrdg.mjs kanji "<all kanji>" scripts/authoring/cache/kanjidic-<level>.json`),
+  `data/strokes/kanji-<level>.json` (`node scripts/fetch-kanjivg.mjs chars "<all kanji>" …`)
+  and the JMdict cache from the check above. Earlier levels must be built
+  first, since their kanji and words count as known.
 
 `cache/` holds dictionary extracts and is not committed.

@@ -60,7 +60,7 @@ async function runSession(el, records, { focus }) {
   await initAudio();
   const kanaLevels = await loadAllKana();
   const jlpt = {};
-  for (const id of ['n5']) { try { jlpt[id] = await loadJlpt(id); } catch { /* not in this build */ } }
+  for (const id of ['n5', 'n4', 'n3', 'n2', 'n1']) { try { jlpt[id] = await loadJlpt(id); } catch { break; } }
   const startedAt = Date.now();
   const queue = records.slice();
   let done = 0, correctCount = 0;

@@ -77,7 +77,7 @@ export async function render(el, ctx) {
   function kanjiCard(k) {
     const data = lv.strokes[k.char];
     const diagram = data ? strokeDiagram(data, { size: 180, label: k.char }) : null;
-    const examples = k.examples.map((id) => lv.byId.get(id)).filter(Boolean);
+    const examples = k.examples.map((id) => lv.allById.get(id)).filter(Boolean);
     if (canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(k.kun[0]?.replace('･', '') || k.on[0] || k.char), 400);
     return h('section', { class: 'card' },
       h('div', { class: 'kanji-head' },
