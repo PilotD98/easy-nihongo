@@ -15,6 +15,7 @@ export async function render(el, ctx) {
   const records = new Map(((await progress.all()) || []).map((r) => [r.id, r]));
   const learnedKanji = lv.kanji.filter((k) => records.has(k.id)).length;
   const learnedVocab = lv.vocab.filter((v) => records.has(v.id)).length;
+  const mocks = (await import('./mock.js')).examHistory ? await (await import('./mock.js')).examHistory(levelId) : [];
 
   append(el, [
     h('header', { class: 'page-head' },
@@ -37,6 +38,10 @@ export async function render(el, ctx) {
             : h('span', { class: 'icon lock', title: 'Pass the previous unit to unlock' }, icon('lock'))
         );
       }))),
+    h('section', { class: `card ${passed.size >= Math.ceil(total / 2) ? 'card-accent' : ''}` },
+      h('div', { class: 'card-title' }, h('h2', null, `Mock JLPT ${lv.title.replace('JLPT ', '')}`), mocks.length ? h('span', { class: 'pill' }, `last: ${mocks[mocks.length - 1].total} / 180`) : null),
+      h('p', { class: 'muted' }, 'Three timed sections in the real format: vocabulary, grammar and reading, listening. Take it any time; it is most useful once half the units are done.'),
+      h('a', { class: 'btn btn-primary', href: `#/mock/${levelId}` }, mocks.length ? 'Take it again' : 'Take the mock exam')),
     h('section', { class: 'card' },
       h('h2', null, 'Read & listen'),
       h('p', { class: 'muted' }, 'Passages and listening drills open as their unit is passed.'),

@@ -7,6 +7,8 @@ import { dailyPlan } from '../engine/scheduler.js';
 import { nextStep } from '../content/kana.js';
 import { canPromptInstall, promptInstall, isStandalone, isIOS, onInstallAvailable } from '../util/platform.js';
 import { toast } from '../ui/toast.js';
+import { progress } from '../store/progress.js';
+import { placementDone } from '../engine/placement.js';
 
 export const title = 'Today';
 
@@ -19,8 +21,8 @@ function greeting() {
 }
 
 export async function render(el) {
-  const [plan, streak, manifest, step] = await Promise.all([
-    dailyPlan(), days.streak(), getManifest().catch(() => null), nextStep().catch(() => null)
+  const [plan, streak, manifest, step, itemCount, placed] = await Promise.all([
+    dailyPlan(), days.streak(), getManifest().catch(() => null), nextStep().catch(() => null), progress.count(), placementDone()
   ]);
   const today = plan.today;
   const dateLine = new Intl.DateTimeFormat(undefined, { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date());
@@ -47,6 +49,10 @@ export async function render(el) {
           : `Your daily goal is ${plan.newAllowance} new items plus everything due. Adjust it in Settings.`),
       plan.capped ? h('p', { class: 'small muted', style: { marginTop: '8px', marginBottom: 0 } }, `${plan.capped} more reviews wait for tomorrow (daily cap).`) : null),
 
+    itemCount === 0 && !placed && !settings.get('onboarded') ? h('section', { class: 'card card-accent', 'aria-labelledby': 'place-h' },
+      h('h2', { id: 'place-h' }, 'Already know some Japanese?'),
+      h('p', null, 'A short placement check lets you skip hiragana, katakana or part of N5. It is optional; starting from zero is the default.'),
+      h('div', { class: 'btn-row' }, h('a', { class: 'btn', href: '#/placement' }, 'Take the placement check'))) : null,
     setupCard()
   ]);
 

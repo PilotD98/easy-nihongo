@@ -78,7 +78,7 @@ export function kanaQuiz(chars, words, { n = 12, pool = chars, wordPool = words,
  * result: { correct: boolean, close: boolean, given, q }
  * Returns a cleanup function.
  */
-export function renderQuestion(container, q, { onAnswer, autoplay = true, number = null } = {}) {
+export function renderQuestion(container, q, { onAnswer, autoplay = true, number = null, silent = false } = {}) {
   container.replaceChildren();
   let answered = false;
   const keyHandlers = [];
@@ -104,6 +104,7 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
   const finish = (correct, given, { close = false } = {}) => {
     if (answered) return;
     answered = true;
+    if (silent) { onAnswer?.({ correct, close, given, q }); return; }
     feedback.className = `q-feedback ${correct ? 'is-correct' : 'is-wrong'}`;
     feedback.replaceChildren(
       h('div', { class: 'q-verdict' }, icon(correct ? 'check' : 'close'), correct ? (close ? 'Correct (small typo)' : 'Correct') : 'Not quite'),
@@ -120,8 +121,8 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
       b.addEventListener('click', () => {
         if (answered) return;
         const correct = stripMarkup(opt) === stripMarkup(q.answer);
-        b.classList.add(correct ? 'is-correct' : 'is-wrong');
-        if (!correct) [...list.children].find((c) => c.dataset.value === stripMarkup(q.answer))?.classList.add('is-correct');
+        if (!silent) b.classList.add(correct ? 'is-correct' : 'is-wrong'); else b.classList.add('is-chosen');
+        if (!correct && !silent) [...list.children].find((c) => c.dataset.value === stripMarkup(q.answer))?.classList.add('is-correct');
         [...list.children].forEach((c) => { c.disabled = true; });
         finish(correct, opt);
       });
@@ -176,8 +177,8 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
       if (answered) return;
       const given = chosen.map(stripMarkup).join('');
       const correct = given === stripMarkup(q.answer);
-      answerLine.classList.add(correct ? 'is-correct' : 'is-wrong');
-      if (!correct) answerLine.append(h('div', { class: 'small muted' }, 'Answer: ', markupText(q.answer)));
+      if (!silent) answerLine.classList.add(correct ? 'is-correct' : 'is-wrong');
+      if (!correct && !silent) answerLine.append(h('div', { class: 'small muted' }, 'Answer: ', markupText(q.answer)));
       finish(correct, given);
     } }, 'Check');
     const reset = h('button', { class: 'btn', type: 'button', onClick: () => { if (answered) return; chosen.length = 0; tiles.querySelectorAll('.is-used').forEach((b) => b.classList.remove('is-used')); refresh(); } }, 'Reset');

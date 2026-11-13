@@ -38,6 +38,7 @@ export async function render(el, ctx) {
     group('Data', [await dataCard(ctx)]),
     group('Help', [
       h('div', { class: 'btn-row' },
+        h('a', { class: 'btn', href: '#/placement' }, 'Placement test'),
         h('button', { class: 'btn', type: 'button', onClick: showShortcuts }, 'Keyboard shortcuts'),
         h('a', { class: 'btn', href: '#/about' }, 'About & credits')
       )

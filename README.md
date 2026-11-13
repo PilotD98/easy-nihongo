@@ -7,13 +7,13 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 5 (kana + Speaking + JLPT N5).** On top of the Phase 1
-foundation (installable PWA, offline mode, device-local storage with
-export/import, settings, theming, deploy workflow), the app teaches Stage 0,
-the complete hiragana and katakana stages, speaking practice with mora-level
-feedback, and the full JLPT N5 stage with furigana scaffolding. The progress
-dashboard, placement test, N5 mock exam, and N4 → N1 content ship in the
-following phases.
+**Status: Phase 6 (kana + Speaking + JLPT N5 + dashboard, placement, mock
+exam).** On top of the Phase 1 foundation (installable PWA, offline mode,
+device-local storage with export/import, settings, theming, deploy workflow),
+the app teaches Stage 0, the complete hiragana and katakana stages, speaking
+practice with mora-level feedback, and the full JLPT N5 stage with furigana
+scaffolding, measured by a progress dashboard, an optional placement test and
+a timed N5 mock exam. N4 → N1 content ships one level per phase.
 
 ## Features
 
@@ -60,8 +60,23 @@ Available now:
 - **Quick lookup** (`/`): search any character or word by kana, romaji or
   meaning; results open an item page with stroke order, progress and
   one-tap focused practice.
-- **Progress**: mastery stages, 14-day study history, accuracy, a most-missed
-  list with one-tap practice, and honest readiness estimates.
+- **Progress dashboard**: current JLPT level with separate kanji, vocabulary,
+  grammar, reading and listening bars (mastered and learned), mastery stage
+  counts, accuracy by item type and by level, a most-missed list with one-tap
+  practice, a readiness estimate based on coverage and accuracy (presented as
+  an estimate), mock exam history, study time per day and items learned per
+  week, and a streak with no penalties.
+- **Placement test** (optional, offered at first launch and in Settings):
+  say what you know, take a short check (hiragana, katakana, N5), and skip
+  ahead. Skipped stages are marked passed and their items enter the review
+  queue as already familiar, spread over the following weeks, so nothing is
+  lost and nothing is drilled from scratch.
+- **Mock JLPT N5**: three timed sections in the real exam's format
+  (vocabulary: kanji reading, orthography, words in context; grammar and
+  reading: sentence grammar, sentence composition ★, passages; listening:
+  words and comprehension), no feedback until the end, early submit, auto
+  submit on time-out, a scaled estimate on the JLPT scale (0–120 + 0–60,
+  pass at 80 with sectional minimums) and weak areas with one-tap practice.
 - **Installable PWA** with offline support (service worker precaches the app
   and curriculum; update toast on new versions).
 - **Private by design**: no accounts, no server, no analytics. Progress lives
@@ -92,8 +107,9 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in later phases: placement test and N5 mock exam; N4 → N1 content,
-one level per phase with its mock exam; speaking sets for each JLPT level.
+Coming in later phases: N4 → N1 content, one level per phase with its mock
+exam; speaking sets for each JLPT level; final accessibility and performance
+pass.
 
 ## Screenshots
 
@@ -194,10 +210,10 @@ js/app.js                boot
 js/router.js             hash router with lazy-loaded views
 js/store/                db (IndexedDB + fallback), settings, progress, days, backup
 js/ui/                   dom helpers, toast, dialog, search, shortcuts, audio, stroke diagrams, trace pad, quiz, kana text, recognizer, recorder, pitch
-js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), romaji (IME), scaffold (display levels), mora (beat alignment, tips)
+js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), romaji (IME), scaffold (display levels), mora (beat alignment, tips), furigana (alignment, markup), placement
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
-js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, settings, about
+js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, placement, mock, settings, about
 data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/, strokes/; SCHEMA.md)
 scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs, fetch-edrdg.mjs
 .github/workflows/       GitHub Pages deployment

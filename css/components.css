@@ -170,3 +170,11 @@ dialog.sheet .sheet-foot { display: flex; justify-content: flex-end; gap: var(--
 .row { display: flex; align-items: center; gap: var(--s-3); flex-wrap: wrap; }
 .grow { flex: 1; }
 .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); font-size: .8rem; font-weight: 500; }
+
+/* Dashboard additions */
+.bar-dual { position: relative; }
+.bar-dual > span { position: absolute; left: 0; top: 0; }
+.bar-dual .bar-learned { background: var(--accent-soft); }
+.acc-grid { display: grid; grid-template-columns: 1fr; gap: var(--s-4); }
+@media (min-width: 700px) { .acc-grid { grid-template-columns: 1fr 1fr; } }
+.acc-grid h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-3); }
