@@ -1,0 +1,460 @@
+[
+ {
+  "id": "read:n5:001",
+  "level": "n5",
+  "unit": 3,
+  "order": 390,
+  "title": "私の家族",
+  "en": "My family",
+  "text": "{私|わたし}は{学生|がくせい}です。{私|わたし}の{家族|かぞく}は{四人|よにん}です。{父|ちち}と{母|はは}と{兄|あに}と{私|わたし}です。{父|ちち}は{会社員|かいしゃいん}です。{母|はは}は{先生|せんせい}です。{兄|あに}は{大学生|だいがくせい}です。{犬|いぬ}もいます。{名前|なまえ}はポチです。",
+  "kana": "わたしはがくせいです。わたしのかぞくはよにんです。ちちとははとあにとわたしです。ちちはかいしゃいんです。はははせんせいです。あにはだいがくせいです。いぬもいます。なまえはポチです。",
+  "enText": "I am a student. My family is four people: my father, my mother, my older brother and me. My father is a company employee. My mother is a teacher. My brother is a university student. We also have a dog. Its name is Pochi.",
+  "questions": [
+   {
+    "q": "{家族|かぞく}は{何人|なんにん}ですか。",
+    "qKana": "かぞくはなんにんですか。",
+    "choices": [
+     "三人",
+     "四人",
+     "五人"
+    ],
+    "answer": 1,
+    "why": "四人です (four people), plus the dog."
+   },
+   {
+    "q": "{母|は}は{何|はなん}ですか。",
+    "qKana": "はははなんですか。",
+    "choices": [
+     "会社員",
+     "先生",
+     "学生"
+    ],
+    "answer": 1,
+    "why": "母は先生です。"
+   },
+   {
+    "q": "ポチは{何|なん}ですか。",
+    "qKana": "ポチはなんですか。",
+    "choices": [
+     "兄",
+     "猫",
+     "犬"
+    ],
+    "answer": 2,
+    "why": "犬もいます。名前はポチです。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:002",
+  "level": "n5",
+  "unit": 4,
+  "order": 490,
+  "title": "私の一日",
+  "en": "My day",
+  "text": "{私|わたし}は{毎朝六時|まいあさろくじ}に{起|お}きます。{七時|しちじ}に{朝|あさ}ご{飯|はん}を{食|た}べます。{八時|はちじ}に{家|いえ}を{出|で}ます。{電車|でんしゃ}で{学校|がっこう}に{行|い}きます。{九時|くじ}から{三時|さんじ}まで{勉強|べんきょう}します。{四時|よじ}に{家|いえ}に{帰|かえ}ります。{晩|ばん}ご{飯|はん}の{後|あと}で、テレビを{見|み}ます。{十一時|じゅういちじ}に{寝|ね}ます。",
+  "kana": "わたしはまいあさろくじにおきます。しちじにあさごはんをたべます。はちじにいえをでます。でんしゃでがっこうにいきます。くじからさんじまでべんきょうします。よじにいえにかえります。ばんごはんのあとで、テレビをみます。じゅういちじにねます。",
+  "enText": "I get up at six every morning. I eat breakfast at seven. I leave home at eight. I go to school by train. I study from nine to three. I come home at four. After dinner I watch TV. I go to bed at eleven.",
+  "questions": [
+   {
+    "q": "{何時|なんじ}に{起|お}きますか。",
+    "qKana": "なんじにおきますか。",
+    "choices": [
+     "六時",
+     "七時",
+     "八時"
+    ],
+    "answer": 0,
+    "why": "六時に起きます。"
+   },
+   {
+    "q": "{何|なん}で{学校|がっこう}に{行|い}きますか。",
+    "qKana": "なんでがっこうにいきますか。",
+    "choices": [
+     "バス",
+     "電車",
+     "車"
+    ],
+    "answer": 1,
+    "why": "電車で学校に行きます。"
+   },
+   {
+    "q": "{晩|ばん}ご{飯|はん}の{後|あと}で{何|なに}をしますか。",
+    "qKana": "ばんごはんのあとでなにをしますか。",
+    "choices": [
+     "テレビを見ます",
+     "勉強します",
+     "寝ます"
+    ],
+    "answer": 0,
+    "why": "テレビを見ます。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:003",
+  "level": "n5",
+  "unit": 6,
+  "order": 690,
+  "title": "私の町",
+  "en": "My town",
+  "text": "{私|わたし}の{町|まち}は小さいです。でも、きれいです。{駅|えき}の{前|まえ}に{銀行|ぎんこう}と{郵便局|ゆうびんきょく}があります。{駅|えき}の{後|うし}ろに大きい{公園|こうえん}があります。{公園|こうえん}の中に{池|いけ}があります。{池|いけ}に{魚|さかな}がたくさんいます。{町|まち}の{北|きた}に山があります。山は{高|たか}くないです。{春|はる}、山の{花|はな}はとてもきれいです。",
+  "kana": "わたしのまちはちいさいです。でも、きれいです。えきのまえにぎんこうとゆうびんきょくがあります。えきのうしろにおおきいこうえんがあります。こうえんのなかにいけがあります。いけにさかながたくさんいます。まちのきたにやまがあります。やまはたかくないです。はる、やまのはなはとてもきれいです。",
+  "enText": "My town is small, but pretty. In front of the station there is a bank and a post office. Behind the station there is a big park. In the park there is a pond. There are many fish in the pond. To the north of the town there is a mountain. The mountain is not high. In spring, the flowers on the mountain are very pretty.",
+  "questions": [
+   {
+    "q": "{駅|えき}の{前|まえ}に{何|なに}がありますか。",
+    "qKana": "えきのまえになにがありますか。",
+    "choices": [
+     "公園",
+     "銀行と郵便局",
+     "山"
+    ],
+    "answer": 1,
+    "why": "駅の前に銀行と郵便局があります。"
+   },
+   {
+    "q": "山は{高|たか}いですか。",
+    "qKana": "やまはたかいですか。",
+    "choices": [
+     "はい、高いです",
+     "いいえ、高くないです"
+    ],
+    "answer": 1,
+    "why": "山は高くないです。"
+   },
+   {
+    "q": "{池|いけ}に{何|なに}がいますか。",
+    "qKana": "いけになにがいますか。",
+    "choices": [
+     "鳥",
+     "犬",
+     "魚"
+    ],
+    "answer": 2,
+    "why": "池に魚がたくさんいます。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:004",
+  "level": "n5",
+  "unit": 8,
+  "order": 890,
+  "title": "週末",
+  "en": "The weekend",
+  "text": "{先週|せんしゅう}の{土曜日|どようび}、{私|わたし}は{友達|ともだち}と{映画|えいが}を{見|み}ました。{映画|えいが}はとても{面白|おもしろ}かったです。{映画|えいが}の{後|あと}で、レストランで{晩|ばん}ご{飯|はん}を{食|た}べました。{私|わたし}はカレーを{食|た}べました。{友達|ともだち}はすしを{食|た}べました。{日曜日|にちようび}は{家|いえ}で{休|やす}みました。本を{読|よ}みました。{音楽|おんがく}も{聞|き}きました。いい{週末|しゅうまつ}でした。",
+  "kana": "せんしゅうのどようび、わたしはともだちとえいがをみました。えいがはとてもおもしろかったです。えいがのあとで、レストランでばんごはんをたべました。わたしはカレーをたべました。ともだちはすしをたべました。にちようびはいえでやすみました。ほんをよみました。おんがくもききました。いいしゅうまつでした。",
+  "enText": "Last Saturday I saw a film with a friend. The film was very interesting. After the film we had dinner at a restaurant. I had curry. My friend had sushi. On Sunday I rested at home. I read a book. I also listened to music. It was a good weekend.",
+  "questions": [
+   {
+    "q": "{土曜日|どようび}に{何|なに}をしましたか。",
+    "qKana": "どようびになにをしましたか。",
+    "choices": [
+     "本を読みました",
+     "映画を見ました",
+     "家で休みました"
+    ],
+    "answer": 1,
+    "why": "友達と映画を見ました。"
+   },
+   {
+    "q": "{映画|えいが}はどうでしたか。",
+    "qKana": "えいがはどうでしたか。",
+    "choices": [
+     "面白かったです",
+     "つまらなかったです"
+    ],
+    "answer": 0,
+    "why": "とても面白かったです。"
+   },
+   {
+    "q": "{友達|ともだち}は{何|なに}を{食|た}べましたか。",
+    "qKana": "ともだちはなにをたべましたか。",
+    "choices": [
+     "カレー",
+     "すし",
+     "パン"
+    ],
+    "answer": 1,
+    "why": "友達はすしを食べました。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:005",
+  "level": "n5",
+  "unit": 10,
+  "order": 1090,
+  "title": "手紙",
+  "en": "A letter",
+  "text": "田中さん、お{元気|げんき}ですか。{私|わたし}は{今|いま}、{東京|とうきょう}に{住|す}んでいます。{毎日日本語|まいにちにほんご}を{勉強|べんきょう}しています。日本語は{難|むずか}しいですが、{面白|おもしろ}いです。先生はとても{親切|しんせつ}です。{週末|しゅうまつ}は{友達|ともだち}と{町|まち}を{歩|ある}いたり、{買|か}い{物|もの}をしたりします。{東京|とうきょう}は人が{多|おお}くて、にぎやかです。{来月|らいげつ}、{京都|きょうと}へ{旅行|りょこう}に{行|い}きます。{写真|しゃしん}を{撮|と}って、{送|おく}ります。",
+  "kana": "たなかさん、おげんきですか。わたしはいま、とうきょうにすんでいます。まいにちにほんごをべんきょうしています。にほんごはむずかしいですが、おもしろいです。せんせいはとてもしんせつです。しゅうまつはともだちとまちをあるいたり、かいものをしたりします。とうきょうはひとがおおくて、にぎやかです。らいげつ、きょうとへりょこうにいきます。しゃしんをとって、おくります。",
+  "enText": "Dear Mr Tanaka, how are you? I am living in Tokyo now. I study Japanese every day. Japanese is difficult, but interesting. The teacher is very kind. At weekends I walk around town with friends, go shopping and so on. Tokyo has many people and is lively. Next month I will travel to Kyoto. I will take photos and send them.",
+  "questions": [
+   {
+    "q": "{今|いま}どこに{住|す}んでいますか。",
+    "qKana": "いまどこにすんでいますか。",
+    "choices": [
+     "京都",
+     "東京",
+     "大阪"
+    ],
+    "answer": 1,
+    "why": "東京に住んでいます。"
+   },
+   {
+    "q": "日本語はどうですか。",
+    "qKana": "にほんごはどうですか。",
+    "choices": [
+     "易しいです",
+     "難しいですが、面白いです",
+     "つまらないです"
+    ],
+    "answer": 1,
+    "why": "難しいですが、面白いです。"
+   },
+   {
+    "q": "{来月何|らいげつなに}をしますか。",
+    "qKana": "らいげつなにをしますか。",
+    "choices": [
+     "買い物をします",
+     "京都へ行きます",
+     "友達に会います"
+    ],
+    "answer": 1,
+    "why": "来月、京都へ旅行に行きます。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:006",
+  "level": "n5",
+  "unit": 12,
+  "order": 1290,
+  "title": "病院で",
+  "en": "At the hospital",
+  "text": "{昨日|きのう}から{頭|あたま}が{痛|いた}いです。{熱|ねつ}もあります。今日は{会社|かいしゃ}を{休|やす}んで、{病院|びょういん}に{行|い}きました。{病院|びょういん}は{駅|えき}の{近|ちか}くにあります。{医者|いしゃ}は「{風邪|かぜ}ですね。{薬|くすり}を{飲|の}んで、ゆっくり{休|やす}んでください。お{酒|さけ}を{飲|の}んではいけません。」と{言|い}いました。{薬|くすり}は一日に{三回|ちにさんかい}、ご{飯|はん}の後で{飲|の}まなければなりません。{明日|あした}も{会社|かいしゃ}に{行|い}きません。",
+  "kana": "きのうからあたまがいたいです。ねつもあります。きょうはかいしゃをやすんで、びょういんにいきました。びょういんはえきのちかくにあります。いしゃは「かぜですね。くすりをのんで、ゆっくりやすんでください。おさけをのんではいけません。」といいました。くすりはいちにちにさんかい、ごはんのあとでのまなければなりません。あしたもかいしゃにいきません。",
+  "enText": "I have had a headache since yesterday. I also have a fever. Today I took the day off work and went to the hospital. The hospital is near the station. The doctor said, \"It's a cold. Take the medicine and rest well. You must not drink alcohol.\" I have to take the medicine three times a day, after meals. I will not go to work tomorrow either.",
+  "questions": [
+   {
+    "q": "どこが{痛|いた}いですか。",
+    "qKana": "どこがいたいですか。",
+    "choices": [
+     "お腹",
+     "頭",
+     "足"
+    ],
+    "answer": 1,
+    "why": "頭が痛いです。"
+   },
+   {
+    "q": "{薬|くすり}は一日に{何回飲|ちになんかいの}みますか。",
+    "qKana": "くすりはいちにちになんかいのみますか。",
+    "choices": [
+     "一回",
+     "二回",
+     "三回"
+    ],
+    "answer": 2,
+    "why": "一日に三回。"
+   },
+   {
+    "q": "何をしてはいけませんか。",
+    "qKana": "なにをしてはいけませんか。",
+    "choices": [
+     "薬を飲む",
+     "お酒を飲む",
+     "休む"
+    ],
+    "answer": 1,
+    "why": "お酒を飲んではいけません。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:007",
+  "level": "n5",
+  "unit": 14,
+  "order": 1490,
+  "title": "駅で",
+  "en": "At the station",
+  "text": "すみません、{東京|とうきょう}へ行きたいんですが、どの{電車|でんしゃ}に{乗|の}ればいいですか。「{東京|とうきょう}ですか。{三番|さんばん}のホームから{出|で}る{電車|でんしゃ}に{乗|の}ってください。{次|つぎ}の{電車|でんしゃ}は十時十五分に{出|で}ます。」ありがとうございます。{切符|きっぷ}はいくらですか。「八百円です。あそこで{買|か}うことができます。」分かりました。どうもありがとうございました。",
+  "kana": "すみません、とうきょうへいきたいんですが、どのでんしゃにのればいいですか。「とうきょうですか。さんばんのホームからでるでんしゃにのってください。つぎのでんしゃはじゅうじじゅうごふんにでます。」ありがとうございます。きっぷはいくらですか。「はっぴゃくえんです。あそこでかうことができます。」わかりました。どうもありがとうございました。",
+  "enText": "Excuse me, I want to go to Tokyo; which train should I take? \"Tokyo? Please take the train that leaves from platform three. The next train leaves at 10:15.\" Thank you. How much is a ticket? \"800 yen. You can buy one over there.\" I see. Thank you very much.",
+  "questions": [
+   {
+    "q": "{電車|でんしゃ}は{何番|なんばん}のホームから{出|で}ますか。",
+    "qKana": "でんしゃはなんばんのホームからでますか。",
+    "choices": [
+     "一番",
+     "二番",
+     "三番"
+    ],
+    "answer": 2,
+    "why": "三番のホームから出る電車。"
+   },
+   {
+    "q": "{次|つぎ}の{電車|でんしゃ}は何時に{出|で}ますか。",
+    "qKana": "つぎのでんしゃはなんじにでますか。",
+    "choices": [
+     "十時",
+     "十時十五分",
+     "十時五十分"
+    ],
+    "answer": 1,
+    "why": "十時十五分に出ます。"
+   },
+   {
+    "q": "{切符|きっぷ}はいくらですか。",
+    "qKana": "きっぷはいくらですか。",
+    "choices": [
+     "六百円",
+     "八百円",
+     "千円"
+    ],
+    "answer": 1,
+    "why": "八百円です。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:008",
+  "level": "n5",
+  "unit": 16,
+  "order": 1690,
+  "title": "新しい友達",
+  "en": "A new friend",
+  "text": "先月、{新|あたら}しい{友達|ともだち}ができました。名前はマリアさんです。マリアさんはスペインから来ました。日本語がとても上手です。{私|わたし}より上手だと{思|おも}います。マリアさんは{料理|りょうり}が{好|す}きで、よく{日本料理|にほんりょうり}を{作|つく}ります。{先週|せんしゅう}、{私|わたし}の{家|いえ}でてんぷらを{作|つく}ってくれました。とてもおいしかったです。{今度|こんど}は{私|わたし}がスペイン{料理|りょうり}を{習|なら}いたいです。",
+  "kana": "せんげつ、あたらしいともだちができました。なまえはマリアさんです。マリアさんはスペインからきました。にほんごがとてもじょうずです。わたしよりじょうずだとおもいます。マリアさんはりょうりがすきで、よくにほんりょうりをつくります。せんしゅう、わたしのいえでてんぷらをつくってくれました。とてもおいしかったです。こんどはわたしがスペインりょうりをならいたいです。",
+  "enText": "Last month I made a new friend. Her name is Maria. Maria came from Spain. Her Japanese is very good. I think she is better than me. Maria likes cooking and often makes Japanese food. Last week she made tempura for me at my house. It was delicious. Next time I want to learn Spanish cooking.",
+  "questions": [
+   {
+    "q": "マリアさんはどこから来ましたか。",
+    "qKana": "マリアさんはどこからきましたか。",
+    "choices": [
+     "日本",
+     "スペイン",
+     "アメリカ"
+    ],
+    "answer": 1,
+    "why": "スペインから来ました。"
+   },
+   {
+    "q": "マリアさんは何が{好|す}きですか。",
+    "qKana": "マリアさんはなにがすきですか。",
+    "choices": [
+     "料理",
+     "音楽",
+     "スポーツ"
+    ],
+    "answer": 0,
+    "why": "料理が好きで…"
+   },
+   {
+    "q": "{先週|せんしゅう}、何を{作|つく}りましたか。",
+    "qKana": "せんしゅう、なにをつくりましたか。",
+    "choices": [
+     "すし",
+     "カレー",
+     "てんぷら"
+    ],
+    "answer": 2,
+    "why": "てんぷらを作ってくれました。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:009",
+  "level": "n5",
+  "unit": 19,
+  "order": 1990,
+  "title": "日本の四季",
+  "en": "Japan's four seasons",
+  "text": "日本には{春|はる}、{夏|なつ}、{秋|あき}、{冬|ふゆ}があります。{春|はる}は{暖|あたた}かくて、{花|はな}がきれいです。{多|おお}くの人が{公園|こうえん}で{花|はな}を見ながらお{弁当|べんとう}を食べます。{夏|なつ}はとても{暑|あつ}いです。{海|うみ}や山に行く人が{多|おお}いです。{秋|あき}は{涼|すず}しくて、食べ{物|もの}がおいしいです。{冬|ふゆ}は{寒|さむ}いです。北の{町|まち}では{雪|ゆき}がたくさん{降|ふ}ります。{私|わたし}は{秋|あき}が{一番好|いちばんす}きです。あなたはどの{季節|きせつ}が{好|す}きですか。",
+  "kana": "にほんにははる、なつ、あき、ふゆがあります。はるはあたたかくて、はながきれいです。おおくのひとがこうえんではなをみながらおべんとうをたべます。なつはとてもあついです。うみやまにいくひとがおおいです。あきはすずしくて、たべものがおいしいです。ふゆはさむいです。きたのまちではゆきがたくさんふります。わたしはあきがいちばんすきです。あなたはどのきせつがすきですか。",
+  "enText": "Japan has spring, summer, autumn and winter. Spring is warm and the flowers are beautiful. Many people eat boxed lunches in parks while looking at the flowers. Summer is very hot. Many people go to the sea or the mountains. Autumn is cool and the food is delicious. Winter is cold. In northern towns a lot of snow falls. I like autumn best. Which season do you like?",
+  "questions": [
+   {
+    "q": "{春|はる}はどうですか。",
+    "qKana": "はるはどうですか。",
+    "choices": [
+     "暑いです",
+     "暖かいです",
+     "寒いです"
+    ],
+    "answer": 1,
+    "why": "春は暖かくて…"
+   },
+   {
+    "q": "{冬|ふゆ}に北の{町|まち}で何が{降|ふ}りますか。",
+    "qKana": "ふゆにきたのまちでなにがふりますか。",
+    "choices": [
+     "雨",
+     "雪",
+     "花"
+    ],
+    "answer": 1,
+    "why": "雪がたくさん降ります。"
+   },
+   {
+    "q": "この人はどの{季節|きせつ}が{一番好|いちばんす}きですか。",
+    "qKana": "このひとはどのきせつがいちばんすきですか。",
+    "choices": [
+     "春",
+     "夏",
+     "秋"
+    ],
+    "answer": 2,
+    "why": "秋が一番好きです。"
+   }
+  ]
+ },
+ {
+  "id": "read:n5:010",
+  "level": "n5",
+  "unit": 21,
+  "order": 2190,
+  "title": "来年の計画",
+  "en": "Plans for next year",
+  "text": "来年、{私|わたし}は日本へ行くつもりです。日本で日本語の学校に入って、{一年勉強|いちねんべんきょう}したいです。お金が{必要|ひつよう}ですから、今アルバイトをしています。{週|しゅう}に{三回|さんかい}、レストランで{働|はたら}いています。{大変|たいへん}ですが、{楽|たの}しいです。日本に{着|つ}いたら、まず{京都|きょうと}へ行きたいです。{古|ふる}いお{寺|てら}や{神社|じんじゃ}を見たいです。それから、日本の{友達|ともだち}をたくさん{作|つく}りたいです。日本語が上手になったら、日本の会社で{働|はたら}きたいと{思|おも}っています。",
+  "kana": "らいねん、わたしはにほんへいくつもりです。にほんでにほんごのがっこうにはいって、いちねんべんきょうしたいです。おかねがひつようですから、いまアルバイトをしています。しゅうにさんかい、レストランではたらいています。たいへんですが、たのしいです。にほんについたら、まずきょうとへいきたいです。ふるいおてらやじんじゃをみたいです。それから、にほんのともだちをたくさんつくりたいです。にほんごがじょうずになったら、にほんのかいしゃではたらきたいとおもっています。",
+  "enText": "Next year I intend to go to Japan. I want to enter a Japanese language school and study for a year. I need money, so I am doing a part-time job now. I work at a restaurant three times a week. It is hard but fun. When I arrive in Japan I want to go to Kyoto first. I want to see old temples and shrines. Then I want to make many Japanese friends. Once my Japanese is good, I am thinking of working at a Japanese company.",
+  "questions": [
+   {
+    "q": "この人は来年何をするつもりですか。",
+    "qKana": "このひとはらいねんなにをするつもりですか。",
+    "choices": [
+     "日本で働きます",
+     "日本語の学校で勉強します",
+     "京都に住みます"
+    ],
+    "answer": 1,
+    "why": "日本語の学校に入って、一年勉強したいです。"
+   },
+   {
+    "q": "今、何をしていますか。",
+    "qKana": "いま、なにをしていますか。",
+    "choices": [
+     "アルバイトをしています",
+     "日本に住んでいます",
+     "会社で働いています"
+    ],
+    "answer": 0,
+    "why": "今アルバイトをしています。"
+   },
+   {
+    "q": "日本に{着|つ}いたら、まずどこへ行きたいですか。",
+    "qKana": "にほんについたら、まずどこへいきたいですか。",
+    "choices": [
+     "東京",
+     "京都",
+     "会社"
+    ],
+    "answer": 1,
+    "why": "まず京都へ行きたいです。"
+   }
+  ]
+ }
+]

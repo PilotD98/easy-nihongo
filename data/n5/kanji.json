@@ -1,0 +1,2982 @@
+[
+ {
+  "id": "kanji:一",
+  "char": "一",
+  "level": "n5",
+  "unit": 1,
+  "order": 100,
+  "meanings": [
+   "one"
+  ],
+  "on": [
+   "イチ",
+   "イツ"
+  ],
+  "kun": [
+   "ひと",
+   "ひと･つ"
+  ],
+  "strokes": 1,
+  "radicals": [],
+  "mnemonic": "One line: one.",
+  "examples": [
+   "vocab:n5:ichi-一",
+   "vocab:n5:hitotsu-一つ",
+   "vocab:n5:ichiban-一番",
+   "vocab:n5:isshoni-一緒に"
+  ]
+ },
+ {
+  "id": "kanji:二",
+  "char": "二",
+  "level": "n5",
+  "unit": 1,
+  "order": 101,
+  "meanings": [
+   "two"
+  ],
+  "on": [
+   "ニ",
+   "ジ"
+  ],
+  "kun": [
+   "ふた",
+   "ふた･つ",
+   "ふたたび"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "Two lines: two.",
+  "examples": [
+   "vocab:n5:ni-二",
+   "vocab:n5:futatsu-二つ"
+  ]
+ },
+ {
+  "id": "kanji:三",
+  "char": "三",
+  "level": "n5",
+  "unit": 1,
+  "order": 102,
+  "meanings": [
+   "three"
+  ],
+  "on": [
+   "サン",
+   "ゾウ"
+  ],
+  "kun": [
+   "み",
+   "み･つ",
+   "みっ･つ"
+  ],
+  "strokes": 3,
+  "radicals": [
+   "一"
+  ],
+  "mnemonic": "Three lines: three.",
+  "examples": [
+   "vocab:n5:san-三",
+   "vocab:n5:mittsu-三つ"
+  ]
+ },
+ {
+  "id": "kanji:四",
+  "char": "四",
+  "level": "n5",
+  "unit": 1,
+  "order": 103,
+  "meanings": [
+   "four"
+  ],
+  "on": [
+   "シ"
+  ],
+  "kun": [
+   "よ",
+   "よ･つ",
+   "よっ･つ",
+   "よん"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "囗",
+   "儿",
+   "丿"
+  ],
+  "mnemonic": "A box with legs inside: four legs on a table.",
+  "examples": [
+   "vocab:n5:yon-四",
+   "vocab:n5:yottsu-四つ"
+  ]
+ },
+ {
+  "id": "kanji:五",
+  "char": "五",
+  "level": "n5",
+  "unit": 1,
+  "order": 104,
+  "meanings": [
+   "five"
+  ],
+  "on": [
+   "ゴ"
+  ],
+  "kun": [
+   "いつ",
+   "いつ･つ"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "二",
+   "一"
+  ],
+  "mnemonic": "A five-bar gate seen from the side.",
+  "examples": [
+   "vocab:n5:go-五",
+   "vocab:n5:itsutsu-五つ"
+  ]
+ },
+ {
+  "id": "kanji:六",
+  "char": "六",
+  "level": "n5",
+  "unit": 2,
+  "order": 200,
+  "meanings": [
+   "six"
+  ],
+  "on": [
+   "ロク",
+   "リク"
+  ],
+  "kun": [
+   "む",
+   "む･つ",
+   "むっ･つ",
+   "むい"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "亠",
+   "八"
+  ],
+  "mnemonic": "A hat with two legs underneath: six, a person with a hat.",
+  "examples": [
+   "vocab:n5:roku-六",
+   "vocab:n5:muttsu-六つ"
+  ]
+ },
+ {
+  "id": "kanji:七",
+  "char": "七",
+  "level": "n5",
+  "unit": 2,
+  "order": 201,
+  "meanings": [
+   "seven"
+  ],
+  "on": [
+   "シチ"
+  ],
+  "kun": [
+   "なな",
+   "なな･つ",
+   "なの"
+  ],
+  "strokes": 2,
+  "radicals": [
+   "一",
+   "乙"
+  ],
+  "mnemonic": "An upside-down seven with a cross: seven.",
+  "examples": [
+   "vocab:n5:nana-七",
+   "vocab:n5:nanatsu-七つ"
+  ]
+ },
+ {
+  "id": "kanji:八",
+  "char": "八",
+  "level": "n5",
+  "unit": 2,
+  "order": 202,
+  "meanings": [
+   "eight"
+  ],
+  "on": [
+   "ハチ",
+   "ハツ"
+  ],
+  "kun": [
+   "や",
+   "や･つ",
+   "やっ･つ",
+   "よう"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "Two strokes spreading apart: eight, like a volcano's slopes.",
+  "examples": [
+   "vocab:n5:hachi-八",
+   "vocab:n5:yattsu-八つ"
+  ]
+ },
+ {
+  "id": "kanji:九",
+  "char": "九",
+  "level": "n5",
+  "unit": 2,
+  "order": 203,
+  "meanings": [
+   "nine"
+  ],
+  "on": [
+   "キュウ",
+   "ク"
+  ],
+  "kun": [
+   "ここの",
+   "ここの･つ"
+  ],
+  "strokes": 2,
+  "radicals": [
+   "丿",
+   "乙"
+  ],
+  "mnemonic": "A hook with a tail: nine, a bent elbow.",
+  "examples": [
+   "vocab:n5:kyuu-九",
+   "vocab:n5:kokonotsu-九つ"
+  ]
+ },
+ {
+  "id": "kanji:十",
+  "char": "十",
+  "level": "n5",
+  "unit": 2,
+  "order": 204,
+  "meanings": [
+   "ten"
+  ],
+  "on": [
+   "ジュウ",
+   "ジッ",
+   "ジュッ"
+  ],
+  "kun": [
+   "とお",
+   "と",
+   "そ"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "A cross: ten, like the Roman X turned straight.",
+  "examples": [
+   "vocab:n5:juu-十",
+   "vocab:n5:too-十"
+  ]
+ },
+ {
+  "id": "kanji:百",
+  "char": "百",
+  "level": "n5",
+  "unit": 3,
+  "order": 300,
+  "meanings": [
+   "hundred"
+  ],
+  "on": [
+   "ヒャク",
+   "ビャク"
+  ],
+  "kun": [
+   "もも"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "一",
+   "白",
+   "日"
+  ],
+  "mnemonic": "One (一) over a white field (白): a hundred.",
+  "examples": [
+   "vocab:n5:hyaku-百",
+   "vocab:n5:yaoya-八百屋",
+   "vocab:n5:hyakuen-百円"
+  ]
+ },
+ {
+  "id": "kanji:千",
+  "char": "千",
+  "level": "n5",
+  "unit": 3,
+  "order": 301,
+  "meanings": [
+   "thousand"
+  ],
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "ち"
+  ],
+  "strokes": 3,
+  "radicals": [
+   "丿",
+   "十"
+  ],
+  "mnemonic": "A ten (十) with a slash on top: a thousand.",
+  "examples": [
+   "vocab:n5:sen-千"
+  ]
+ },
+ {
+  "id": "kanji:万",
+  "char": "万",
+  "level": "n5",
+  "unit": 3,
+  "order": 302,
+  "meanings": [
+   "ten thousand",
+   "10,000"
+  ],
+  "on": [
+   "マン",
+   "バン"
+  ],
+  "kun": [
+   "よろず"
+  ],
+  "strokes": 3,
+  "radicals": [
+   "一"
+  ],
+  "mnemonic": "Ten thousand: a bird's wing with a hook, counting more than you can see.",
+  "examples": [
+   "vocab:n5:man-万"
+  ]
+ },
+ {
+  "id": "kanji:円",
+  "char": "円",
+  "level": "n5",
+  "unit": 3,
+  "order": 303,
+  "meanings": [
+   "circle",
+   "yen",
+   "round"
+  ],
+  "on": [
+   "エン"
+  ],
+  "kun": [
+   "まる･い",
+   "まる",
+   "まど",
+   "まど･か"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "冂"
+  ],
+  "mnemonic": "A coin seen through a window frame: yen, circle.",
+  "examples": [
+   "vocab:n5:en-円",
+   "vocab:n5:hyakuen-百円"
+  ]
+ },
+ {
+  "id": "kanji:年",
+  "char": "年",
+  "level": "n5",
+  "unit": 3,
+  "order": 304,
+  "meanings": [
+   "year",
+   "counter for years"
+  ],
+  "on": [
+   "ネン"
+  ],
+  "kun": [
+   "とし"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "丿",
+   "干",
+   "十"
+  ],
+  "mnemonic": "A rice plant bending under a new year of grain.",
+  "examples": [
+   "vocab:n5:toshi-年",
+   "vocab:n5:kyonen-去年"
+  ]
+ },
+ {
+  "id": "kanji:日",
+  "char": "日",
+  "level": "n5",
+  "unit": 4,
+  "order": 400,
+  "meanings": [
+   "day",
+   "sun",
+   "Japan"
+  ],
+  "on": [
+   "ニチ",
+   "ジツ"
+  ],
+  "kun": [
+   "ひ",
+   "び",
+   "か"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "The sun as a window with one bar: day, sun.",
+  "examples": [
+   "vocab:n5:hi-日",
+   "vocab:n5:ashita-明日",
+   "vocab:n5:kinou-昨日",
+   "vocab:n5:tsuitachi-一日"
+  ]
+ },
+ {
+  "id": "kanji:月",
+  "char": "月",
+  "level": "n5",
+  "unit": 4,
+  "order": 401,
+  "meanings": [
+   "month",
+   "moon"
+  ],
+  "on": [
+   "ゲツ",
+   "ガツ"
+  ],
+  "kun": [
+   "つき"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "A crescent moon with two lines inside: moon, month.",
+  "examples": [
+   "vocab:n5:tsuki-月",
+   "vocab:n5:getsuyoubi-月曜日"
+  ]
+ },
+ {
+  "id": "kanji:火",
+  "char": "火",
+  "level": "n5",
+  "unit": 4,
+  "order": 402,
+  "meanings": [
+   "fire"
+  ],
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "ひ",
+   "び",
+   "ほ"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "A person with sparks flying off: fire.",
+  "examples": [
+   "vocab:n5:hi-火",
+   "vocab:n5:kayoubi-火曜日"
+  ]
+ },
+ {
+  "id": "kanji:水",
+  "char": "水",
+  "level": "n5",
+  "unit": 4,
+  "order": 403,
+  "meanings": [
+   "water"
+  ],
+  "on": [
+   "スイ"
+  ],
+  "kun": [
+   "みず"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "A stream splashing to both sides: water.",
+  "examples": [
+   "vocab:n5:mizu-水",
+   "vocab:n5:suiyoubi-水曜日"
+  ]
+ },
+ {
+  "id": "kanji:木",
+  "char": "木",
+  "level": "n5",
+  "unit": 4,
+  "order": 404,
+  "meanings": [
+   "tree",
+   "wood"
+  ],
+  "on": [
+   "ボク",
+   "モク"
+  ],
+  "kun": [
+   "き",
+   "こ"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "A tree with branches and roots: tree, wood.",
+  "examples": [
+   "vocab:n5:ki-木",
+   "vocab:n5:mokuyoubi-木曜日"
+  ]
+ },
+ {
+  "id": "kanji:金",
+  "char": "金",
+  "level": "n5",
+  "unit": 5,
+  "order": 500,
+  "meanings": [
+   "gold"
+  ],
+  "on": [
+   "キン",
+   "コン",
+   "ゴン"
+  ],
+  "kun": [
+   "かね",
+   "かな",
+   "がね"
+  ],
+  "strokes": 8,
+  "radicals": [],
+  "mnemonic": "A roof over two nuggets in the ground: gold, money.",
+  "examples": [
+   "vocab:n5:okane-お金",
+   "vocab:n5:kinyoubi-金曜日"
+  ]
+ },
+ {
+  "id": "kanji:土",
+  "char": "土",
+  "level": "n5",
+  "unit": 5,
+  "order": 501,
+  "meanings": [
+   "soil",
+   "earth",
+   "ground"
+  ],
+  "on": [
+   "ド",
+   "ト"
+  ],
+  "kun": [
+   "つち"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "A plant sprouting from the ground: earth, soil.",
+  "examples": [
+   "vocab:n5:tsuchi-土",
+   "vocab:n5:doyoubi-土曜日",
+   "vocab:n5:omiyage-お土産"
+  ]
+ },
+ {
+  "id": "kanji:本",
+  "char": "本",
+  "level": "n5",
+  "unit": 5,
+  "order": 502,
+  "meanings": [
+   "book",
+   "present",
+   "main"
+  ],
+  "on": [
+   "ホン"
+  ],
+  "kun": [
+   "もと"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "木",
+   "丨"
+  ],
+  "mnemonic": "A tree (木) with a mark at its root: origin; a book.",
+  "examples": [
+   "vocab:n5:hon-本",
+   "vocab:n5:honya-本屋",
+   "vocab:n5:nihon-日本",
+   "vocab:n5:hondana-本棚"
+  ]
+ },
+ {
+  "id": "kanji:人",
+  "char": "人",
+  "level": "n5",
+  "unit": 5,
+  "order": 503,
+  "meanings": [
+   "person"
+  ],
+  "on": [
+   "ジン",
+   "ニン"
+  ],
+  "kun": [
+   "ひと",
+   "り",
+   "と"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "A person walking, seen from the side: person.",
+  "examples": [
+   "vocab:n5:hito-人",
+   "vocab:n5:nin-人",
+   "vocab:n5:hitori-一人",
+   "vocab:n5:futari-二人"
+  ]
+ },
+ {
+  "id": "kanji:中",
+  "char": "中",
+  "level": "n5",
+  "unit": 5,
+  "order": 504,
+  "meanings": [
+   "in",
+   "inside",
+   "middle"
+  ],
+  "on": [
+   "チュウ"
+  ],
+  "kun": [
+   "なか",
+   "うち",
+   "あた･る"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "口",
+   "丨"
+  ],
+  "mnemonic": "A line through the middle of a box: inside, middle.",
+  "examples": [
+   "vocab:n5:naka-中",
+   "vocab:n5:tochuu-途中"
+  ]
+ },
+ {
+  "id": "kanji:大",
+  "char": "大",
+  "level": "n5",
+  "unit": 6,
+  "order": 600,
+  "meanings": [
+   "large",
+   "big"
+  ],
+  "on": [
+   "ダイ",
+   "タイ"
+  ],
+  "kun": [
+   "おお",
+   "おお･きい",
+   "おお･いに"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "A person with arms stretched wide: big.",
+  "examples": [
+   "vocab:n5:otona-大人",
+   "vocab:n5:oosaka-大阪",
+   "vocab:n5:taihen-大変",
+   "vocab:n5:taisetsu-大切"
+  ]
+ },
+ {
+  "id": "kanji:小",
+  "char": "小",
+  "level": "n5",
+  "unit": 6,
+  "order": 601,
+  "meanings": [
+   "little",
+   "small"
+  ],
+  "on": [
+   "ショウ"
+  ],
+  "kun": [
+   "ちい･さい",
+   "こ",
+   "お",
+   "さ"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "A hook with two small drops: small.",
+  "examples": [
+   "vocab:n5:chiisai-小さい"
+  ]
+ },
+ {
+  "id": "kanji:上",
+  "char": "上",
+  "level": "n5",
+  "unit": 6,
+  "order": 602,
+  "meanings": [
+   "above",
+   "up"
+  ],
+  "on": [
+   "ジョウ",
+   "ショウ",
+   "シャン"
+  ],
+  "kun": [
+   "うえ",
+   "うわ",
+   "かみ",
+   "あ･げる"
+  ],
+  "strokes": 3,
+  "radicals": [
+   "卜",
+   "一"
+  ],
+  "mnemonic": "A mark above the line: up, above.",
+  "examples": [
+   "vocab:n5:ue-上",
+   "vocab:n5:ijou-以上",
+   "vocab:n5:ageru-上げる"
+  ]
+ },
+ {
+  "id": "kanji:下",
+  "char": "下",
+  "level": "n5",
+  "unit": 6,
+  "order": 603,
+  "meanings": [
+   "below",
+   "down",
+   "descend"
+  ],
+  "on": [
+   "カ",
+   "ゲ"
+  ],
+  "kun": [
+   "した",
+   "しも",
+   "もと",
+   "さ･げる"
+  ],
+  "strokes": 3,
+  "radicals": [
+   "一",
+   "卜"
+  ],
+  "mnemonic": "A mark below the line: down, below.",
+  "examples": [
+   "vocab:n5:shita-下",
+   "vocab:n5:kutsushita-靴下",
+   "vocab:n5:ika-以下",
+   "vocab:n5:chikatetsu-地下鉄"
+  ]
+ },
+ {
+  "id": "kanji:山",
+  "char": "山",
+  "level": "n5",
+  "unit": 6,
+  "order": 604,
+  "meanings": [
+   "mountain"
+  ],
+  "on": [
+   "サン",
+   "セン"
+  ],
+  "kun": [
+   "やま"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "Three peaks: mountain.",
+  "examples": [
+   "vocab:n5:yama-山",
+   "vocab:n5:fujisan-富士山"
+  ]
+ },
+ {
+  "id": "kanji:川",
+  "char": "川",
+  "level": "n5",
+  "unit": 7,
+  "order": 700,
+  "meanings": [
+   "stream",
+   "river"
+  ],
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "かわ"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "Three flowing lines: river.",
+  "examples": [
+   "vocab:n5:kawa-川"
+  ]
+ },
+ {
+  "id": "kanji:田",
+  "char": "田",
+  "level": "n5",
+  "unit": 7,
+  "order": 701,
+  "meanings": [
+   "rice field",
+   "rice paddy"
+  ],
+  "on": [
+   "デン"
+  ],
+  "kun": [
+   "た"
+  ],
+  "strokes": 5,
+  "radicals": [],
+  "mnemonic": "A field divided into paddies: rice field.",
+  "examples": [
+   "vocab:n5:tanbo-田んぼ",
+   "vocab:n5:tanaka-田中"
+  ]
+ },
+ {
+  "id": "kanji:口",
+  "char": "口",
+  "level": "n5",
+  "unit": 7,
+  "order": 702,
+  "meanings": [
+   "mouth"
+  ],
+  "on": [
+   "コウ",
+   "ク"
+  ],
+  "kun": [
+   "くち"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "An open mouth: mouth, opening.",
+  "examples": [
+   "vocab:n5:kuchi-口",
+   "vocab:n5:jinkou-人口"
+  ]
+ },
+ {
+  "id": "kanji:目",
+  "char": "目",
+  "level": "n5",
+  "unit": 7,
+  "order": 703,
+  "meanings": [
+   "eye",
+   "class",
+   "look"
+  ],
+  "on": [
+   "モク",
+   "ボク"
+  ],
+  "kun": [
+   "め",
+   "ま"
+  ],
+  "strokes": 5,
+  "radicals": [],
+  "mnemonic": "An eye turned on its side, with the pupil lines: eye.",
+  "examples": [
+   "vocab:n5:me-目"
+  ]
+ },
+ {
+  "id": "kanji:耳",
+  "char": "耳",
+  "level": "n5",
+  "unit": 7,
+  "order": 704,
+  "meanings": [
+   "ear"
+  ],
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "みみ"
+  ],
+  "strokes": 6,
+  "radicals": [],
+  "mnemonic": "An ear with its lobe hanging down: ear.",
+  "examples": [
+   "vocab:n5:mimi-耳"
+  ]
+ },
+ {
+  "id": "kanji:手",
+  "char": "手",
+  "level": "n5",
+  "unit": 8,
+  "order": 800,
+  "meanings": [
+   "hand"
+  ],
+  "on": [
+   "シュ",
+   "ズ"
+  ],
+  "kun": [
+   "て",
+   "た"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "A hand with fingers spread: hand.",
+  "examples": [
+   "vocab:n5:te-手",
+   "vocab:n5:tegami-手紙",
+   "vocab:n5:kitte-切手",
+   "vocab:n5:jouzu-上手"
+  ]
+ },
+ {
+  "id": "kanji:足",
+  "char": "足",
+  "level": "n5",
+  "unit": 8,
+  "order": 801,
+  "meanings": [
+   "leg",
+   "foot",
+   "be sufficient"
+  ],
+  "on": [
+   "ソク"
+  ],
+  "kun": [
+   "あし",
+   "た･りる",
+   "た･る",
+   "た･す"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "口",
+   "龰"
+  ],
+  "mnemonic": "A mouth (口) over a leg stepping out: foot, leg; to be enough.",
+  "examples": [
+   "vocab:n5:ashi-足"
+  ]
+ },
+ {
+  "id": "kanji:力",
+  "char": "力",
+  "level": "n5",
+  "unit": 8,
+  "order": 802,
+  "meanings": [
+   "power",
+   "strength",
+   "strong"
+  ],
+  "on": [
+   "リョク",
+   "リキ",
+   "リイ"
+  ],
+  "kun": [
+   "ちから"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "A flexed arm: power, strength.",
+  "examples": [
+   "vocab:n5:chikara-力"
+  ]
+ },
+ {
+  "id": "kanji:女",
+  "char": "女",
+  "level": "n5",
+  "unit": 8,
+  "order": 803,
+  "meanings": [
+   "woman",
+   "female"
+  ],
+  "on": [
+   "ジョ",
+   "ニョ",
+   "ニョウ"
+  ],
+  "kun": [
+   "おんな",
+   "め"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "A figure kneeling gracefully: woman.",
+  "examples": [
+   "vocab:n5:onna-女",
+   "vocab:n5:kanojo-彼女",
+   "vocab:n5:onnanohito-女の人"
+  ]
+ },
+ {
+  "id": "kanji:男",
+  "char": "男",
+  "level": "n5",
+  "unit": 8,
+  "order": 804,
+  "meanings": [
+   "male"
+  ],
+  "on": [
+   "ダン",
+   "ナン"
+  ],
+  "kun": [
+   "おとこ",
+   "お"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "田",
+   "力"
+  ],
+  "mnemonic": "Power (力) in the rice field (田): man.",
+  "examples": [
+   "vocab:n5:otoko-男",
+   "vocab:n5:otokonohito-男の人"
+  ]
+ },
+ {
+  "id": "kanji:子",
+  "char": "子",
+  "level": "n5",
+  "unit": 9,
+  "order": 900,
+  "meanings": [
+   "child",
+   "sign of the rat",
+   "11PM-1AM"
+  ],
+  "on": [
+   "シ",
+   "ス",
+   "ツ"
+  ],
+  "kun": [
+   "こ",
+   "ね"
+  ],
+  "strokes": 3,
+  "radicals": [],
+  "mnemonic": "A child with arms out and legs wrapped: child.",
+  "examples": [
+   "vocab:n5:kodomo-子供",
+   "vocab:n5:isu-椅子",
+   "vocab:n5:boushi-帽子",
+   "vocab:n5:otokonoko-男の子"
+  ]
+ },
+ {
+  "id": "kanji:父",
+  "char": "父",
+  "level": "n5",
+  "unit": 9,
+  "order": 901,
+  "meanings": [
+   "father"
+  ],
+  "on": [
+   "フ"
+  ],
+  "kun": [
+   "ちち"
+  ],
+  "strokes": 4,
+  "radicals": [],
+  "mnemonic": "Crossed sticks held in two hands: father.",
+  "examples": [
+   "vocab:n5:chichi-父",
+   "vocab:n5:otousan-お父さん"
+  ]
+ },
+ {
+  "id": "kanji:母",
+  "char": "母",
+  "level": "n5",
+  "unit": 9,
+  "order": 902,
+  "meanings": [
+   "mother"
+  ],
+  "on": [
+   "ボ"
+  ],
+  "kun": [
+   "はは",
+   "も"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "毋"
+  ],
+  "mnemonic": "A woman with two dots: mother.",
+  "examples": [
+   "vocab:n5:haha-母",
+   "vocab:n5:okaasan-お母さん"
+  ]
+ },
+ {
+  "id": "kanji:友",
+  "char": "友",
+  "level": "n5",
+  "unit": 9,
+  "order": 903,
+  "meanings": [
+   "friend"
+  ],
+  "on": [
+   "ユウ"
+  ],
+  "kun": [
+   "とも"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "𠂇",
+   "又"
+  ],
+  "mnemonic": "Two hands reaching for each other: friend.",
+  "examples": [
+   "vocab:n5:tomodachi-友達"
+  ]
+ },
+ {
+  "id": "kanji:名",
+  "char": "名",
+  "level": "n5",
+  "unit": 9,
+  "order": 904,
+  "meanings": [
+   "name",
+   "noted",
+   "distinguished"
+  ],
+  "on": [
+   "メイ",
+   "ミョウ"
+  ],
+  "kun": [
+   "な"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "夕",
+   "口"
+  ],
+  "mnemonic": "In the evening (夕) you call out with your mouth (口): name.",
+  "examples": [
+   "vocab:n5:yuumei-有名",
+   "vocab:n5:hiragana-平仮名",
+   "vocab:n5:katakana-片仮名"
+  ]
+ },
+ {
+  "id": "kanji:先",
+  "char": "先",
+  "level": "n5",
+  "unit": 10,
+  "order": 1000,
+  "meanings": [
+   "before",
+   "ahead",
+   "previous"
+  ],
+  "on": [
+   "セン"
+  ],
+  "kun": [
+   "さき",
+   "ま･ず"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "儿",
+   "丿"
+  ],
+  "mnemonic": "A person stepping ahead of the ground line: ahead, previous.",
+  "examples": [
+   "vocab:n5:sensei-先生",
+   "vocab:n5:senshuu-先週",
+   "vocab:n5:sengetsu-先月",
+   "vocab:n5:sakini-先に"
+  ]
+ },
+ {
+  "id": "kanji:生",
+  "char": "生",
+  "level": "n5",
+  "unit": 10,
+  "order": 1001,
+  "meanings": [
+   "life",
+   "genuine",
+   "birth"
+  ],
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "い･きる",
+   "い･かす",
+   "い･ける",
+   "う･まれる"
+  ],
+  "strokes": 5,
+  "radicals": [],
+  "mnemonic": "A plant growing from the earth: life, to be born; raw.",
+  "examples": [
+   "vocab:n5:sensei-先生",
+   "vocab:n5:gakusei-学生",
+   "vocab:n5:seito-生徒",
+   "vocab:n5:seikatsu-生活"
+  ]
+ },
+ {
+  "id": "kanji:学",
+  "char": "学",
+  "level": "n5",
+  "unit": 10,
+  "order": 1002,
+  "meanings": [
+   "study",
+   "learning",
+   "science"
+  ],
+  "on": [
+   "ガク"
+  ],
+  "kun": [
+   "まな･ぶ"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "⺍",
+   "冖",
+   "子"
+  ],
+  "mnemonic": "A child (子) under a roof of learning: study.",
+  "examples": [
+   "vocab:n5:gakusei-学生",
+   "vocab:n5:gakkou-学校",
+   "vocab:n5:daigaku-大学",
+   "vocab:n5:kagaku-科学"
+  ]
+ },
+ {
+  "id": "kanji:校",
+  "char": "校",
+  "level": "n5",
+  "unit": 10,
+  "order": 1003,
+  "meanings": [
+   "exam",
+   "school",
+   "printing"
+  ],
+  "on": [
+   "コウ",
+   "キョウ"
+  ],
+  "kun": [],
+  "strokes": 10,
+  "radicals": [
+   "木",
+   "交",
+   "亠",
+   "父"
+  ],
+  "mnemonic": "Wood (木) crossed (交) into a building: school.",
+  "examples": [
+   "vocab:n5:gakkou-学校"
+  ]
+ },
+ {
+  "id": "kanji:語",
+  "char": "語",
+  "level": "n5",
+  "unit": 10,
+  "order": 1004,
+  "meanings": [
+   "word",
+   "speech",
+   "language"
+  ],
+  "on": [
+   "ゴ"
+  ],
+  "kun": [
+   "かた･る",
+   "かた･らう"
+  ],
+  "strokes": 14,
+  "radicals": [
+   "言",
+   "口",
+   "吾",
+   "五"
+  ],
+  "mnemonic": "Words (言) five (五) mouths (口) speak: language.",
+  "examples": [
+   "vocab:n5:eigo-英語",
+   "vocab:n5:nihongo-日本語"
+  ]
+ },
+ {
+  "id": "kanji:今",
+  "char": "今",
+  "level": "n5",
+  "unit": 11,
+  "order": 1100,
+  "meanings": [
+   "now"
+  ],
+  "on": [
+   "コン",
+   "キン"
+  ],
+  "kun": [
+   "いま"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "人",
+   "一"
+  ],
+  "mnemonic": "A roof over a now-mark: now.",
+  "examples": [
+   "vocab:n5:ima-今",
+   "vocab:n5:kyou-今日",
+   "vocab:n5:kesa-今朝",
+   "vocab:n5:konban-今晩"
+  ]
+ },
+ {
+  "id": "kanji:時",
+  "char": "時",
+  "level": "n5",
+  "unit": 11,
+  "order": 1101,
+  "meanings": [
+   "time",
+   "hour"
+  ],
+  "on": [
+   "ジ"
+  ],
+  "kun": [
+   "とき",
+   "どき"
+  ],
+  "strokes": 10,
+  "radicals": [
+   "日",
+   "寺",
+   "土",
+   "寸"
+  ],
+  "mnemonic": "The sun (日) at the temple (寺): time, hour.",
+  "examples": [
+   "vocab:n5:toki-時",
+   "vocab:n5:ji-時",
+   "vocab:n5:jikan-時間",
+   "vocab:n5:tokei-時計"
+  ]
+ },
+ {
+  "id": "kanji:分",
+  "char": "分",
+  "level": "n5",
+  "unit": 11,
+  "order": 1102,
+  "meanings": [
+   "part",
+   "minute of time",
+   "segment"
+  ],
+  "on": [
+   "ブン",
+   "フン",
+   "ブ"
+  ],
+  "kun": [
+   "わ･ける",
+   "わ･け",
+   "わ･かれる",
+   "わ･かる"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "八",
+   "刀"
+  ],
+  "mnemonic": "Eight (八) cuts with a sword (刀): to divide; minute.",
+  "examples": [
+   "vocab:n5:fun-分",
+   "vocab:n5:hanbun-半分",
+   "vocab:n5:tabun-多分",
+   "vocab:n5:jibun-自分"
+  ]
+ },
+ {
+  "id": "kanji:半",
+  "char": "半",
+  "level": "n5",
+  "unit": 11,
+  "order": 1103,
+  "meanings": [
+   "half",
+   "middle",
+   "odd number"
+  ],
+  "on": [
+   "ハン"
+  ],
+  "kun": [
+   "なか･ば"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "丶",
+   "二",
+   "十"
+  ],
+  "mnemonic": "A thing cut down the middle: half.",
+  "examples": [
+   "vocab:n5:han-半",
+   "vocab:n5:hanbun-半分"
+  ]
+ },
+ {
+  "id": "kanji:間",
+  "char": "間",
+  "level": "n5",
+  "unit": 11,
+  "order": 1104,
+  "meanings": [
+   "interval",
+   "space"
+  ],
+  "on": [
+   "カン",
+   "ケン"
+  ],
+  "kun": [
+   "あいだ",
+   "ま",
+   "あい"
+  ],
+  "strokes": 12,
+  "radicals": [
+   "門",
+   "日"
+  ],
+  "mnemonic": "The sun (日) seen through a gate (門): interval, between.",
+  "examples": [
+   "vocab:n5:aida-間",
+   "vocab:n5:jikan-時間"
+  ]
+ },
+ {
+  "id": "kanji:前",
+  "char": "前",
+  "level": "n5",
+  "unit": 12,
+  "order": 1200,
+  "meanings": [
+   "in front",
+   "before"
+  ],
+  "on": [
+   "ゼン"
+  ],
+  "kun": [
+   "まえ"
+  ],
+  "strokes": 9,
+  "radicals": [
+   "八",
+   "月",
+   "刂"
+  ],
+  "mnemonic": "A boat under the moon with a blade: in front, before.",
+  "examples": [
+   "vocab:n5:mae-前",
+   "vocab:n5:namae-名前",
+   "vocab:n5:gozen-午前"
+  ]
+ },
+ {
+  "id": "kanji:後",
+  "char": "後",
+  "level": "n5",
+  "unit": 12,
+  "order": 1201,
+  "meanings": [
+   "behind",
+   "back",
+   "later"
+  ],
+  "on": [
+   "ゴ",
+   "コウ"
+  ],
+  "kun": [
+   "のち",
+   "うし･ろ",
+   "うしろ",
+   "あと"
+  ],
+  "strokes": 9,
+  "radicals": [
+   "彳",
+   "亻",
+   "幺",
+   "夂"
+  ],
+  "mnemonic": "A short step (彳) with a thread trailing behind: after, behind.",
+  "examples": [
+   "vocab:n5:ushiro-後ろ",
+   "vocab:n5:gogo-午後",
+   "vocab:n5:saigo-最後"
+  ]
+ },
+ {
+  "id": "kanji:午",
+  "char": "午",
+  "level": "n5",
+  "unit": 12,
+  "order": 1202,
+  "meanings": [
+   "noon",
+   "sign of the horse",
+   "11AM-1PM"
+  ],
+  "on": [
+   "ゴ"
+  ],
+  "kun": [
+   "うま"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "丿",
+   "干",
+   "十"
+  ],
+  "mnemonic": "A pestle standing at noon: noon.",
+  "examples": [
+   "vocab:n5:gozen-午前",
+   "vocab:n5:gogo-午後"
+  ]
+ },
+ {
+  "id": "kanji:毎",
+  "char": "毎",
+  "level": "n5",
+  "unit": 12,
+  "order": 1203,
+  "meanings": [
+   "every"
+  ],
+  "on": [
+   "マイ"
+  ],
+  "kun": [
+   "ごと",
+   "ごと･に"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "𠂉",
+   "丿",
+   "毋"
+  ],
+  "mnemonic": "A mother (母) with a hat: every (every day, every week).",
+  "examples": [
+   "vocab:n5:mainichi-毎日",
+   "vocab:n5:maiasa-毎朝",
+   "vocab:n5:maiban-毎晩",
+   "vocab:n5:maishuu-毎週"
+  ]
+ },
+ {
+  "id": "kanji:何",
+  "char": "何",
+  "level": "n5",
+  "unit": 12,
+  "order": 1204,
+  "meanings": [
+   "what"
+  ],
+  "on": [
+   "カ"
+  ],
+  "kun": [
+   "なに",
+   "なん"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "亻",
+   "可",
+   "丁",
+   "一"
+  ],
+  "mnemonic": "A person (亻) carrying something you cannot (可) identify: what.",
+  "examples": [
+   "vocab:n5:nani-何"
+  ]
+ },
+ {
+  "id": "kanji:東",
+  "char": "東",
+  "level": "n5",
+  "unit": 13,
+  "order": 1300,
+  "meanings": [
+   "east"
+  ],
+  "on": [
+   "トウ"
+  ],
+  "kun": [
+   "ひがし"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "木",
+   "日",
+   "丿"
+  ],
+  "mnemonic": "The sun (日) rising behind a tree (木): east.",
+  "examples": [
+   "vocab:n5:higashi-東",
+   "vocab:n5:toukyou-東京"
+  ]
+ },
+ {
+  "id": "kanji:西",
+  "char": "西",
+  "level": "n5",
+  "unit": 13,
+  "order": 1301,
+  "meanings": [
+   "west",
+   "Spain"
+  ],
+  "on": [
+   "セイ",
+   "サイ",
+   "ス"
+  ],
+  "kun": [
+   "にし"
+  ],
+  "strokes": 6,
+  "radicals": [],
+  "mnemonic": "A bird settling into its nest at sunset: west.",
+  "examples": [
+   "vocab:n5:nishi-西"
+  ]
+ },
+ {
+  "id": "kanji:南",
+  "char": "南",
+  "level": "n5",
+  "unit": 13,
+  "order": 1302,
+  "meanings": [
+   "south"
+  ],
+  "on": [
+   "ナン",
+   "ナ"
+  ],
+  "kun": [
+   "みなみ"
+  ],
+  "strokes": 9,
+  "radicals": [
+   "十",
+   "冂",
+   "干"
+  ],
+  "mnemonic": "A warm shelter with a plant inside: south.",
+  "examples": [
+   "vocab:n5:minami-南"
+  ]
+ },
+ {
+  "id": "kanji:北",
+  "char": "北",
+  "level": "n5",
+  "unit": 13,
+  "order": 1303,
+  "meanings": [
+   "north"
+  ],
+  "on": [
+   "ホク"
+  ],
+  "kun": [
+   "きた"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "匕"
+  ],
+  "mnemonic": "Two people sitting back to back, facing away from the cold: north.",
+  "examples": [
+   "vocab:n5:kita-北"
+  ]
+ },
+ {
+  "id": "kanji:外",
+  "char": "外",
+  "level": "n5",
+  "unit": 13,
+  "order": 1304,
+  "meanings": [
+   "outside"
+  ],
+  "on": [
+   "ガイ",
+   "ゲ"
+  ],
+  "kun": [
+   "そと",
+   "ほか",
+   "はず･す",
+   "はず･れる"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "夕",
+   "卜"
+  ],
+  "mnemonic": "Evening (夕) divination (卜) done outside: outside.",
+  "examples": [
+   "vocab:n5:soto-外",
+   "vocab:n5:gaikoku-外国"
+  ]
+ },
+ {
+  "id": "kanji:国",
+  "char": "国",
+  "level": "n5",
+  "unit": 14,
+  "order": 1400,
+  "meanings": [
+   "country"
+  ],
+  "on": [
+   "コク"
+  ],
+  "kun": [
+   "くに"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "囗",
+   "玉",
+   "王",
+   "丶"
+  ],
+  "mnemonic": "A jewel (玉) inside borders (囗): country.",
+  "examples": [
+   "vocab:n5:kuni-国",
+   "vocab:n5:gaikoku-外国",
+   "vocab:n5:gaikokujin-外国人",
+   "vocab:n5:gaikokugo-外国語"
+  ]
+ },
+ {
+  "id": "kanji:右",
+  "char": "右",
+  "level": "n5",
+  "unit": 14,
+  "order": 1401,
+  "meanings": [
+   "right"
+  ],
+  "on": [
+   "ウ",
+   "ユウ"
+  ],
+  "kun": [
+   "みぎ"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "丆",
+   "口"
+  ],
+  "mnemonic": "A hand with a mouth: right (the hand you eat with).",
+  "examples": [
+   "vocab:n5:migi-右"
+  ]
+ },
+ {
+  "id": "kanji:左",
+  "char": "左",
+  "level": "n5",
+  "unit": 14,
+  "order": 1402,
+  "meanings": [
+   "left"
+  ],
+  "on": [
+   "サ",
+   "シャ"
+  ],
+  "kun": [
+   "ひだり"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "工"
+  ],
+  "mnemonic": "A hand with a carpenter's ruler (工): left.",
+  "examples": [
+   "vocab:n5:hidari-左"
+  ]
+ },
+ {
+  "id": "kanji:来",
+  "char": "来",
+  "level": "n5",
+  "unit": 14,
+  "order": 1403,
+  "meanings": [
+   "come",
+   "due",
+   "next"
+  ],
+  "on": [
+   "ライ",
+   "タイ"
+  ],
+  "kun": [
+   "く･る",
+   "きた･る",
+   "きた･す",
+   "き･たす"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "米",
+   "木",
+   "丿"
+  ],
+  "mnemonic": "Grain coming in from the field: to come.",
+  "examples": [
+   "vocab:n5:raishuu-来週",
+   "vocab:n5:raigetsu-来月",
+   "vocab:n5:rainen-来年",
+   "vocab:n5:kuru-来る"
+  ]
+ },
+ {
+  "id": "kanji:行",
+  "char": "行",
+  "level": "n5",
+  "unit": 14,
+  "order": 1404,
+  "meanings": [
+   "going",
+   "journey",
+   "carry out"
+  ],
+  "on": [
+   "コウ",
+   "ギョウ",
+   "アン"
+  ],
+  "kun": [
+   "い･く",
+   "ゆ･く",
+   "ゆ･き",
+   "ゆき"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "彳",
+   "亻"
+  ],
+  "mnemonic": "A crossroads: to go.",
+  "examples": [
+   "vocab:n5:ginkou-銀行",
+   "vocab:n5:ryokou-旅行",
+   "vocab:n5:iku-行く",
+   "vocab:n5:hikouki-飛行機"
+  ]
+ },
+ {
+  "id": "kanji:出",
+  "char": "出",
+  "level": "n5",
+  "unit": 15,
+  "order": 1500,
+  "meanings": [
+   "exit",
+   "leave",
+   "go out"
+  ],
+  "on": [
+   "シュツ",
+   "スイ"
+  ],
+  "kun": [
+   "で･る",
+   "で",
+   "だ･す",
+   "い･でる"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "山",
+   "丨",
+   "凵"
+  ],
+  "mnemonic": "A mountain on top of a mountain, climbing out: to go out, to exit.",
+  "examples": [
+   "vocab:n5:deguchi-出口",
+   "vocab:n5:dasu-出す",
+   "vocab:n5:deru-出る",
+   "vocab:n5:shuppatsu-出発"
+  ]
+ },
+ {
+  "id": "kanji:入",
+  "char": "入",
+  "level": "n5",
+  "unit": 15,
+  "order": 1501,
+  "meanings": [
+   "enter",
+   "insert"
+  ],
+  "on": [
+   "ニュウ",
+   "ジュ"
+  ],
+  "kun": [
+   "い･る",
+   "い･り",
+   "い･れる",
+   "い･れ"
+  ],
+  "strokes": 2,
+  "radicals": [],
+  "mnemonic": "An arrow entering a tent: to enter.",
+  "examples": [
+   "vocab:n5:iriguchi-入口",
+   "vocab:n5:hairu-入る",
+   "vocab:n5:ireru-入れる"
+  ]
+ },
+ {
+  "id": "kanji:見",
+  "char": "見",
+  "level": "n5",
+  "unit": 15,
+  "order": 1502,
+  "meanings": [
+   "see",
+   "hopes",
+   "chances"
+  ],
+  "on": [
+   "ケン"
+  ],
+  "kun": [
+   "み･る",
+   "み･える",
+   "み･せる"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "目",
+   "儿"
+  ],
+  "mnemonic": "An eye (目) on legs: to see.",
+  "examples": [
+   "vocab:n5:miru-見る",
+   "vocab:n5:iken-意見",
+   "vocab:n5:miseru-見せる"
+  ]
+ },
+ {
+  "id": "kanji:聞",
+  "char": "聞",
+  "level": "n5",
+  "unit": 15,
+  "order": 1503,
+  "meanings": [
+   "hear",
+   "ask",
+   "listen"
+  ],
+  "on": [
+   "ブン",
+   "モン"
+  ],
+  "kun": [
+   "き･く",
+   "き･こえる"
+  ],
+  "strokes": 14,
+  "radicals": [
+   "門",
+   "耳"
+  ],
+  "mnemonic": "An ear (耳) at the gate (門): to hear, to listen, to ask.",
+  "examples": [
+   "vocab:n5:shinbun-新聞",
+   "vocab:n5:kiku-聞く"
+  ]
+ },
+ {
+  "id": "kanji:読",
+  "char": "読",
+  "level": "n5",
+  "unit": 15,
+  "order": 1504,
+  "meanings": [
+   "read"
+  ],
+  "on": [
+   "ドク",
+   "トク",
+   "トウ"
+  ],
+  "kun": [
+   "よ･む",
+   "よ･み"
+  ],
+  "strokes": 14,
+  "radicals": [
+   "言",
+   "口",
+   "売",
+   "士"
+  ],
+  "mnemonic": "Words (言) being sold (売): to read.",
+  "examples": [
+   "vocab:n5:yomu-読む"
+  ]
+ },
+ {
+  "id": "kanji:書",
+  "char": "書",
+  "level": "n5",
+  "unit": 16,
+  "order": 1600,
+  "meanings": [
+   "write"
+  ],
+  "on": [
+   "ショ"
+  ],
+  "kun": [
+   "か･く",
+   "が･き",
+   "がき"
+  ],
+  "strokes": 10,
+  "radicals": [
+   "聿",
+   "⺕",
+   "丨",
+   "日"
+  ],
+  "mnemonic": "A brush over a field of paper: to write.",
+  "examples": [
+   "vocab:n5:jisho-辞書",
+   "vocab:n5:hagaki-葉書",
+   "vocab:n5:kaku-書く",
+   "vocab:n5:toshokan-図書館"
+  ]
+ },
+ {
+  "id": "kanji:食",
+  "char": "食",
+  "level": "n5",
+  "unit": 16,
+  "order": 1601,
+  "meanings": [
+   "eat",
+   "food"
+  ],
+  "on": [
+   "ショク",
+   "ジキ"
+  ],
+  "kun": [
+   "く･う",
+   "く･らう",
+   "た･べる",
+   "は･む"
+  ],
+  "strokes": 9,
+  "radicals": [],
+  "mnemonic": "A roof over a bowl with a spoon: to eat, food.",
+  "examples": [
+   "vocab:n5:shokudou-食堂",
+   "vocab:n5:choushoku-朝食",
+   "vocab:n5:chuushoku-昼食",
+   "vocab:n5:yuushoku-夕食"
+  ]
+ },
+ {
+  "id": "kanji:飲",
+  "char": "飲",
+  "level": "n5",
+  "unit": 16,
+  "order": 1602,
+  "meanings": [
+   "drink",
+   "smoke",
+   "take"
+  ],
+  "on": [
+   "イン",
+   "オン"
+  ],
+  "kun": [
+   "の･む",
+   "の･み"
+  ],
+  "strokes": 12,
+  "radicals": [
+   "飠",
+   "欠"
+  ],
+  "mnemonic": "Food (食) and a person yawning (欠) with an open mouth: to drink.",
+  "examples": [
+   "vocab:n5:nomu-飲む",
+   "vocab:n5:nomimono-飲み物"
+  ]
+ },
+ {
+  "id": "kanji:話",
+  "char": "話",
+  "level": "n5",
+  "unit": 16,
+  "order": 1603,
+  "meanings": [
+   "tale",
+   "talk"
+  ],
+  "on": [
+   "ワ"
+  ],
+  "kun": [
+   "はな･す",
+   "はなし"
+  ],
+  "strokes": 13,
+  "radicals": [
+   "言",
+   "口",
+   "舌",
+   "千"
+  ],
+  "mnemonic": "Words (言) from a tongue (舌): to speak, story.",
+  "examples": [
+   "vocab:n5:hanashi-話",
+   "vocab:n5:hanasu-話す"
+  ]
+ },
+ {
+  "id": "kanji:買",
+  "char": "買",
+  "level": "n5",
+  "unit": 16,
+  "order": 1604,
+  "meanings": [
+   "buy"
+  ],
+  "on": [
+   "バイ"
+  ],
+  "kun": [
+   "か･う"
+  ],
+  "strokes": 12,
+  "radicals": [
+   "罒",
+   "貝",
+   "目",
+   "八"
+  ],
+  "mnemonic": "A net (罒) over shells (貝), the old money: to buy.",
+  "examples": [
+   "vocab:n5:kau-買う",
+   "vocab:n5:kaimono-買い物",
+   "vocab:n5:kaimonosuru-買い物する"
+  ]
+ },
+ {
+  "id": "kanji:休",
+  "char": "休",
+  "level": "n5",
+  "unit": 17,
+  "order": 1700,
+  "meanings": [
+   "rest",
+   "day off",
+   "retire"
+  ],
+  "on": [
+   "キュウ"
+  ],
+  "kun": [
+   "やす･む",
+   "やす･まる",
+   "やす･める"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "亻",
+   "木"
+  ],
+  "mnemonic": "A person (亻) resting against a tree (木): to rest.",
+  "examples": [
+   "vocab:n5:yasumi-休み",
+   "vocab:n5:yasumu-休む",
+   "vocab:n5:natsuyasumi-夏休み",
+   "vocab:n5:oyasumi-お休み"
+  ]
+ },
+ {
+  "id": "kanji:車",
+  "char": "車",
+  "level": "n5",
+  "unit": 17,
+  "order": 1701,
+  "meanings": [
+   "car"
+  ],
+  "on": [
+   "シャ"
+  ],
+  "kun": [
+   "くるま"
+  ],
+  "strokes": 7,
+  "radicals": [],
+  "mnemonic": "A cart seen from above, with its axle: car, vehicle.",
+  "examples": [
+   "vocab:n5:kuruma-車",
+   "vocab:n5:densha-電車",
+   "vocab:n5:jidousha-自動車",
+   "vocab:n5:jitensha-自転車"
+  ]
+ },
+ {
+  "id": "kanji:電",
+  "char": "電",
+  "level": "n5",
+  "unit": 17,
+  "order": 1702,
+  "meanings": [
+   "electricity"
+  ],
+  "on": [
+   "デン"
+  ],
+  "kun": [],
+  "strokes": 13,
+  "radicals": [
+   "雨",
+   "日"
+  ],
+  "mnemonic": "Rain (雨) with lightning striking down: electricity.",
+  "examples": [
+   "vocab:n5:denwa-電話",
+   "vocab:n5:densha-電車",
+   "vocab:n5:denwasuru-電話する",
+   "vocab:n5:denshadai-電車代"
+  ]
+ },
+ {
+  "id": "kanji:駅",
+  "char": "駅",
+  "level": "n5",
+  "unit": 17,
+  "order": 1703,
+  "meanings": [
+   "station"
+  ],
+  "on": [
+   "エキ"
+  ],
+  "kun": [],
+  "strokes": 14,
+  "radicals": [
+   "馬",
+   "灬",
+   "尺",
+   "尸"
+  ],
+  "mnemonic": "A horse (馬) and a measure (尺): a post station, a train station.",
+  "examples": [
+   "vocab:n5:eki-駅"
+  ]
+ },
+ {
+  "id": "kanji:道",
+  "char": "道",
+  "level": "n5",
+  "unit": 17,
+  "order": 1704,
+  "meanings": [
+   "road-way",
+   "street",
+   "district"
+  ],
+  "on": [
+   "ドウ",
+   "トウ"
+  ],
+  "kun": [
+   "みち",
+   "いう"
+  ],
+  "strokes": 12,
+  "radicals": [
+   "首",
+   "自",
+   "目",
+   "⻌"
+  ],
+  "mnemonic": "A head (首) moving along a road (辶): road, way.",
+  "examples": [
+   "vocab:n5:michi-道",
+   "vocab:n5:suidou-水道",
+   "vocab:n5:douro-道路",
+   "vocab:n5:oudanhodou-横断歩道"
+  ]
+ },
+ {
+  "id": "kanji:店",
+  "char": "店",
+  "level": "n5",
+  "unit": 18,
+  "order": 1800,
+  "meanings": [
+   "store",
+   "shop"
+  ],
+  "on": [
+   "テン"
+  ],
+  "kun": [
+   "みせ",
+   "たな"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "广",
+   "厂",
+   "占",
+   "卜"
+  ],
+  "mnemonic": "A roof (广) over a fortune-teller (占) who set up shop: shop.",
+  "examples": [
+   "vocab:n5:mise-店",
+   "vocab:n5:tenin-店員",
+   "vocab:n5:kissaten-喫茶店"
+  ]
+ },
+ {
+  "id": "kanji:社",
+  "char": "社",
+  "level": "n5",
+  "unit": 18,
+  "order": 1801,
+  "meanings": [
+   "company",
+   "firm",
+   "office"
+  ],
+  "on": [
+   "シャ"
+  ],
+  "kun": [
+   "やしろ"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "礻",
+   "土"
+  ],
+  "mnemonic": "An altar (礻) on the earth (土): shrine; company.",
+  "examples": [
+   "vocab:n5:kaisha-会社",
+   "vocab:n5:shakai-社会",
+   "vocab:n5:kaishain-会社員"
+  ]
+ },
+ {
+  "id": "kanji:会",
+  "char": "会",
+  "level": "n5",
+  "unit": 18,
+  "order": 1802,
+  "meanings": [
+   "meeting",
+   "meet",
+   "party"
+  ],
+  "on": [
+   "カイ",
+   "エ"
+  ],
+  "kun": [
+   "あ･う",
+   "あ･わせる",
+   "あつ･まる"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "人",
+   "云",
+   "二",
+   "厶"
+  ],
+  "mnemonic": "People gathering under a roof: to meet; meeting.",
+  "examples": [
+   "vocab:n5:kaisha-会社",
+   "vocab:n5:kaigi-会議",
+   "vocab:n5:au-会う",
+   "vocab:n5:shakai-社会"
+  ]
+ },
+ {
+  "id": "kanji:気",
+  "char": "気",
+  "level": "n5",
+  "unit": 18,
+  "order": 1803,
+  "meanings": [
+   "spirit",
+   "mind",
+   "air"
+  ],
+  "on": [
+   "キ",
+   "ケ"
+  ],
+  "kun": [
+   "いき",
+   "き"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "气",
+   "𠂉",
+   "乂",
+   "丿"
+  ],
+  "mnemonic": "Steam rising from cooking rice: spirit, air, mood.",
+  "examples": [
+   "vocab:n5:denki-電気",
+   "vocab:n5:byouki-病気",
+   "vocab:n5:tenki-天気",
+   "vocab:n5:genki-元気"
+  ]
+ },
+ {
+  "id": "kanji:天",
+  "char": "天",
+  "level": "n5",
+  "unit": 18,
+  "order": 1804,
+  "meanings": [
+   "heavens",
+   "sky",
+   "imperial"
+  ],
+  "on": [
+   "テン"
+  ],
+  "kun": [
+   "あまつ",
+   "あめ",
+   "あま"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "一",
+   "大"
+  ],
+  "mnemonic": "A big (大) person with the sky above: heaven, sky.",
+  "examples": [
+   "vocab:n5:tenki-天気"
+  ]
+ },
+ {
+  "id": "kanji:雨",
+  "char": "雨",
+  "level": "n5",
+  "unit": 19,
+  "order": 1900,
+  "meanings": [
+   "rain"
+  ],
+  "on": [
+   "ウ"
+  ],
+  "kun": [
+   "あめ",
+   "あま",
+   "さめ"
+  ],
+  "strokes": 8,
+  "radicals": [],
+  "mnemonic": "Raindrops falling behind a window: rain.",
+  "examples": [
+   "vocab:n5:ame-雨"
+  ]
+ },
+ {
+  "id": "kanji:白",
+  "char": "白",
+  "level": "n5",
+  "unit": 19,
+  "order": 1901,
+  "meanings": [
+   "white"
+  ],
+  "on": [
+   "ハク",
+   "ビャク"
+  ],
+  "kun": [
+   "しろ",
+   "しら",
+   "しろ･い"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "日"
+  ],
+  "mnemonic": "The sun with a ray of light: white.",
+  "examples": [
+   "vocab:n5:shiro-白",
+   "vocab:n5:shiroi-白い",
+   "vocab:n5:omoshiroi-面白い"
+  ]
+ },
+ {
+  "id": "kanji:青",
+  "char": "青",
+  "level": "n5",
+  "unit": 19,
+  "order": 1902,
+  "meanings": [
+   "blue",
+   "green"
+  ],
+  "on": [
+   "セイ",
+   "ショウ"
+  ],
+  "kun": [
+   "あお",
+   "あお･い"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "龶",
+   "月"
+  ],
+  "mnemonic": "A plant growing over a well of clear water: blue, green.",
+  "examples": [
+   "vocab:n5:ao-青",
+   "vocab:n5:aoi-青い"
+  ]
+ },
+ {
+  "id": "kanji:赤",
+  "char": "赤",
+  "level": "n5",
+  "unit": 19,
+  "order": 1903,
+  "meanings": [
+   "red"
+  ],
+  "on": [
+   "セキ",
+   "シャク"
+  ],
+  "kun": [
+   "あか",
+   "あか･い",
+   "あか･らむ",
+   "あか･らめる"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "土"
+  ],
+  "mnemonic": "A person over a fire, glowing: red.",
+  "examples": [
+   "vocab:n5:aka-赤",
+   "vocab:n5:akai-赤い"
+  ]
+ },
+ {
+  "id": "kanji:黒",
+  "char": "黒",
+  "level": "n5",
+  "unit": 19,
+  "order": 1904,
+  "meanings": [
+   "black"
+  ],
+  "on": [
+   "コク"
+  ],
+  "kun": [
+   "くろ",
+   "くろ･ずむ",
+   "くろ･い"
+  ],
+  "strokes": 11,
+  "radicals": [
+   "里",
+   "日",
+   "灬"
+  ],
+  "mnemonic": "A chimney blackened by fire (灬): black.",
+  "examples": [
+   "vocab:n5:kuro-黒",
+   "vocab:n5:kuroi-黒い"
+  ]
+ },
+ {
+  "id": "kanji:空",
+  "char": "空",
+  "level": "n5",
+  "unit": 20,
+  "order": 2000,
+  "meanings": [
+   "empty",
+   "sky",
+   "void"
+  ],
+  "on": [
+   "クウ"
+  ],
+  "kun": [
+   "そら",
+   "あ･く",
+   "あ･き",
+   "あ･ける"
+  ],
+  "strokes": 8,
+  "radicals": [
+   "穴",
+   "宀",
+   "冖",
+   "八"
+  ],
+  "mnemonic": "A hole (穴) with nothing but work (工) in it: sky; empty.",
+  "examples": [
+   "vocab:n5:sora-空",
+   "vocab:n5:kuukou-空港",
+   "vocab:n5:kuuki-空気"
+  ]
+ },
+ {
+  "id": "kanji:花",
+  "char": "花",
+  "level": "n5",
+  "unit": 20,
+  "order": 2001,
+  "meanings": [
+   "flower"
+  ],
+  "on": [
+   "カ",
+   "ケ"
+  ],
+  "kun": [
+   "はな"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "艹",
+   "化",
+   "亻",
+   "匕"
+  ],
+  "mnemonic": "Grass (艹) that changes (化) into a flower: flower.",
+  "examples": [
+   "vocab:n5:hana-花",
+   "vocab:n5:hanaya-花屋",
+   "vocab:n5:kabin-花瓶"
+  ]
+ },
+ {
+  "id": "kanji:犬",
+  "char": "犬",
+  "level": "n5",
+  "unit": 20,
+  "order": 2002,
+  "meanings": [
+   "dog"
+  ],
+  "on": [
+   "ケン"
+  ],
+  "kun": [
+   "いぬ"
+  ],
+  "strokes": 4,
+  "radicals": [
+   "大",
+   "丶"
+  ],
+  "mnemonic": "A big (大) animal with a dot for its ear: dog.",
+  "examples": [
+   "vocab:n5:inu-犬"
+  ]
+ },
+ {
+  "id": "kanji:魚",
+  "char": "魚",
+  "level": "n5",
+  "unit": 20,
+  "order": 2003,
+  "meanings": [
+   "fish"
+  ],
+  "on": [
+   "ギョ"
+  ],
+  "kun": [
+   "うお",
+   "さかな",
+   "ざかな"
+  ],
+  "strokes": 11,
+  "radicals": [
+   "𠂊",
+   "田",
+   "灬"
+  ],
+  "mnemonic": "A fish with a head, scales and a tail (灬): fish.",
+  "examples": [
+   "vocab:n5:sakana-魚",
+   "vocab:n5:sakanaya-魚屋"
+  ]
+ },
+ {
+  "id": "kanji:高",
+  "char": "高",
+  "level": "n5",
+  "unit": 20,
+  "order": 2004,
+  "meanings": [
+   "tall",
+   "high",
+   "expensive"
+  ],
+  "on": [
+   "コウ"
+  ],
+  "kun": [
+   "たか･い",
+   "たか",
+   "だか",
+   "たか･まる"
+  ],
+  "strokes": 10,
+  "radicals": [
+   "亠",
+   "口",
+   "冋",
+   "冂"
+  ],
+  "mnemonic": "A tall tower with a window at the top: tall, high, expensive.",
+  "examples": [
+   "vocab:n5:takai-高い"
+  ]
+ },
+ {
+  "id": "kanji:長",
+  "char": "長",
+  "level": "n5",
+  "unit": 21,
+  "order": 2100,
+  "meanings": [
+   "long",
+   "leader",
+   "superior"
+  ],
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "なが･い",
+   "おさ"
+  ],
+  "strokes": 8,
+  "radicals": [],
+  "mnemonic": "An old man with long hair and a cane: long; chief.",
+  "examples": [
+   "vocab:n5:nagai-長い"
+  ]
+ },
+ {
+  "id": "kanji:立",
+  "char": "立",
+  "level": "n5",
+  "unit": 21,
+  "order": 2101,
+  "meanings": [
+   "stand up",
+   "rise",
+   "set up"
+  ],
+  "on": [
+   "リツ",
+   "リュウ",
+   "リットル"
+  ],
+  "kun": [
+   "た･つ",
+   "た･ち",
+   "た･てる",
+   "た･て"
+  ],
+  "strokes": 5,
+  "radicals": [
+   "亠"
+  ],
+  "mnemonic": "A person standing on the ground: to stand.",
+  "examples": [
+   "vocab:n5:tatsu-立つ",
+   "vocab:n5:rippa-立派"
+  ]
+ },
+ {
+  "id": "kanji:町",
+  "char": "町",
+  "level": "n5",
+  "unit": 21,
+  "order": 2102,
+  "meanings": [
+   "town",
+   "village",
+   "block"
+  ],
+  "on": [
+   "チョウ"
+  ],
+  "kun": [
+   "まち"
+  ],
+  "strokes": 7,
+  "radicals": [
+   "田",
+   "丁",
+   "一",
+   "亅"
+  ],
+  "mnemonic": "A rice field (田) with a street (丁): town.",
+  "examples": [
+   "vocab:n5:machi-町"
+  ]
+ },
+ {
+  "id": "kanji:安",
+  "char": "安",
+  "level": "n5",
+  "unit": 21,
+  "order": 2103,
+  "meanings": [
+   "relax",
+   "cheap",
+   "low"
+  ],
+  "on": [
+   "アン"
+  ],
+  "kun": [
+   "やす･い",
+   "やす･まる",
+   "やす",
+   "やす･らか"
+  ],
+  "strokes": 6,
+  "radicals": [
+   "宀",
+   "冖",
+   "女"
+  ],
+  "mnemonic": "A woman (女) under a roof: peaceful, safe; cheap.",
+  "examples": [
+   "vocab:n5:yasui-安い"
+  ]
+ }
+]

@@ -15,9 +15,10 @@ export const DEMOTE_LAPSES = 2;    // misses at level 2 before ruby returns
 /** Update the display level on a freshly scheduled record. Returns the record. */
 export function afterAnswer(rec, rating) {
   const r = { ...rec };
-  const isKana = r.type === 'kana' || r.type === 'vocab';
-  const top = isKana ? 2 : 4;
-  const base = isKana ? 1 : 3;
+  // Items that started at level 3 (kanji with furigana) move between 3 and 4; kana items between 1 and 2.
+  const kanjiTrack = (r.display || 1) >= 3 || r.type === 'kanji' || r.type === 'grammar';
+  const top = kanjiTrack ? 4 : 2;
+  const base = kanjiTrack ? 3 : 1;
   if (rating === Rating.Again) {
     r.missStreak = (rec.missStreak || 0) + 1;
     if (r.display >= top && r.missStreak >= DEMOTE_LAPSES) { r.display = base; r.missStreak = 0; }

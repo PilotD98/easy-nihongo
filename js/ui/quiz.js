@@ -9,6 +9,8 @@ import { h, icon, jp } from './dom.js';
 import { speak, canSpeak } from './audio.js';
 import { romajiToKana, toKatakana, judge } from '../engine/romaji.js';
 import { tracePad } from './tracepad.js';
+import { markupText } from './kanjitext.js';
+import { stripMarkup } from '../engine/furigana.js';
 
 const shuffle = (arr) => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const pick = (arr, n, exclude) => shuffle(arr.filter((x) => x !== exclude)).slice(0, n);
@@ -83,6 +85,8 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
 
   // Prompt
   const promptEl = h('div', { class: 'q-prompt' });
+  if (q.prompt.node) promptEl.append(q.prompt.node);
+  if (q.prompt.markup) promptEl.append(markupText(q.prompt.markup, { cls: 'q-jp q-markup' }));
   if (q.prompt.jp) promptEl.append(jp(q.prompt.jp, 'jp-xl q-jp'));
   if (q.prompt.text) promptEl.append(h('div', { class: 'q-text' }, q.prompt.text));
   if (q.prompt.audio) {
@@ -112,12 +116,12 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
   if (q.kind === 'choice' || q.kind === 'listen') {
     const list = h('div', { class: 'q-options', role: 'group', 'aria-label': 'Answers' });
     q.options.forEach((opt, idx) => {
-      const b = h('button', { class: `btn btn-lg q-option ${q.optionsJp ? 'jp' : ''}`, type: 'button', lang: q.optionsJp ? 'ja' : null, dataset: { idx: String(idx + 1) } }, h('kbd', { class: 'q-key', 'aria-hidden': 'true' }, String(idx + 1)), h('span', null, opt));
+      const b = h('button', { class: `btn btn-lg q-option ${q.optionsJp ? 'jp' : ''}`, type: 'button', lang: q.optionsJp ? 'ja' : null, dataset: { idx: String(idx + 1), value: stripMarkup(opt) } }, h('kbd', { class: 'q-key', 'aria-hidden': 'true' }, String(idx + 1)), q.optionsMarkup ? markupText(opt) : h('span', null, opt));
       b.addEventListener('click', () => {
         if (answered) return;
-        const correct = opt === q.answer;
+        const correct = stripMarkup(opt) === stripMarkup(q.answer);
         b.classList.add(correct ? 'is-correct' : 'is-wrong');
-        if (!correct) [...list.children].find((c) => c.textContent.includes(q.answer))?.classList.add('is-correct');
+        if (!correct) [...list.children].find((c) => c.dataset.value === stripMarkup(q.answer))?.classList.add('is-correct');
         [...list.children].forEach((c) => { c.disabled = true; });
         finish(correct, opt);
       });
@@ -158,6 +162,26 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
     const dontKnow = h('button', { class: 'btn', type: 'button', onClick: () => { input.classList.add('is-wrong'); input.disabled = true; finish(false, ''); } }, "Don't know");
     container.append(h('div', { class: 'q-typed' }, input, preview, typoRow, h('div', { class: 'btn-row' }, go, dontKnow)));
     setTimeout(() => input.focus(), 50);
+  } else if (q.kind === 'order') {
+    const chosen = [];
+    const answerLine = h('div', { class: 'q-order-line jp', lang: 'ja', 'aria-live': 'polite' });
+    const tiles = h('div', { class: 'q-tiles', role: 'group', 'aria-label': 'Pieces' });
+    const refresh = () => { answerLine.replaceChildren(...chosen.map((t) => markupText(t))); if (!chosen.length) answerLine.textContent = ''; };
+    q.tiles.forEach((t) => {
+      const b = h('button', { class: 'btn q-tile jp', type: 'button', lang: 'ja' }, markupText(t));
+      b.addEventListener('click', () => { if (answered) return; if (b.classList.toggle('is-used')) chosen.push(t); else chosen.splice(chosen.indexOf(t), 1); refresh(); });
+      tiles.append(b);
+    });
+    const check = h('button', { class: 'btn btn-primary', type: 'button', onClick: () => {
+      if (answered) return;
+      const given = chosen.map(stripMarkup).join('');
+      const correct = given === stripMarkup(q.answer);
+      answerLine.classList.add(correct ? 'is-correct' : 'is-wrong');
+      if (!correct) answerLine.append(h('div', { class: 'small muted' }, 'Answer: ', markupText(q.answer)));
+      finish(correct, given);
+    } }, 'Check');
+    const reset = h('button', { class: 'btn', type: 'button', onClick: () => { if (answered) return; chosen.length = 0; tiles.querySelectorAll('.is-used').forEach((b) => b.classList.remove('is-used')); refresh(); } }, 'Reset');
+    container.append(answerLine, tiles, h('div', { class: 'btn-row' }, check, reset));
   } else if (q.kind === 'draw') {
     const pad = tracePad(q.strokeData, { size: Math.min(280, window.innerWidth - 64), showGuide: false });
     const reveal = h('div', { class: 'row', style: { marginTop: '8px' } },

@@ -7,6 +7,9 @@ import { progress, STAGES, STAGE_LABELS } from '../store/progress.js';
 import { dueQueue, answer } from '../engine/scheduler.js';
 import { previewIntervals, Rating } from '../engine/fsrs.js';
 import { loadAllKana, kanaLevelFor } from '../content/kana.js';
+import { loadJlpt } from '../content/n5.js';
+import { qKanjiMeaning, qKanjiReading, qKanjiFromMeaning, qVocabMeaning, qVocabReading, qVocabRecall, qVocabListen, qGrammar } from '../ui/quiz-n5.js';
+import { isKanji } from '../engine/furigana.js';
 import { parseId } from '../content/ids.js';
 import { qCharToRomaji, qRomajiToChar, qWordTyped, qListenWord, qCharTyped, qDraw, renderQuestion } from '../ui/quiz.js';
 import { canSpeak, initAudio, stopSpeaking } from '../ui/audio.js';
@@ -56,6 +59,8 @@ function nextDueText(summary) {
 async function runSession(el, records, { focus }) {
   await initAudio();
   const kanaLevels = await loadAllKana();
+  const jlpt = {};
+  for (const id of ['n5']) { try { jlpt[id] = await loadJlpt(id); } catch { /* not in this build */ } }
   const startedAt = Date.now();
   const queue = records.slice();
   let done = 0, correctCount = 0;
@@ -92,7 +97,8 @@ async function runSession(el, records, { focus }) {
     const rec = queue.shift();
     counter.textContent = `${done + 1} / ${done + 1 + queue.length}`;
     bar.firstChild.style.width = `${(done / Math.max(totalPlanned, done + queue.length + 1)) * 100}%`;
-    const q = questionFor(rec, kanaLevels[kanaLevelFor(rec.id)]);
+    const kl = kanaLevelFor(rec.id);
+    const q = kl ? questionFor(rec, kanaLevels[kl]) : questionForJlpt(rec, jlpt);
     if (!q) { next(); return; }
     grades.hidden = true;
     qCleanup?.();
@@ -135,6 +141,34 @@ async function runSession(el, records, { focus }) {
   document.addEventListener('keydown', onKey);
   await next();
   return () => { document.removeEventListener('keydown', onKey); qCleanup?.(); };
+}
+
+/** Questions for kanji / vocabulary / grammar records of a JLPT level. */
+function questionForJlpt(rec, jlpt) {
+  const p = parseId(rec.id);
+  if (!p) return null;
+  const lv = Object.values(jlpt).find((l) => l.byId.has(rec.id));
+  if (!lv) return null;
+  const it = lv.byId.get(rec.id);
+  if (p.type === 'kanji') {
+    const types = ['meaning', 'reading', 'recall', 'draw'];
+    const t = types[rec.reps % types.length];
+    if (t === 'meaning') return qKanjiMeaning(it, lv.kanji);
+    if (t === 'reading') return qKanjiReading(it);
+    if (t === 'draw' && lv.strokes[it.char]) return qDraw({ id: it.id, char: it.char, romaji: it.meanings[0], mnemonic: it.mnemonic }, lv.strokes[it.char]);
+    return qKanjiFromMeaning(it, lv.kanji);
+  }
+  if (p.type === 'vocab') {
+    const hasKanji = [...it.jp].some(isKanji);
+    const types = hasKanji ? ['meaning', 'reading', 'recall', 'listen'] : ['meaning', 'recall', 'listen'];
+    const t = types[rec.reps % types.length];
+    if (t === 'meaning') return qVocabMeaning(it, lv.vocab);
+    if (t === 'reading') return qVocabReading(it);
+    if (t === 'listen' && canSpeak()) return qVocabListen(it, lv.vocab);
+    return qVocabRecall(it);
+  }
+  if (p.type === 'gram') return qGrammar(it);
+  return null;
 }
 
 /** Pick a question type for a record, rotating by review count. */

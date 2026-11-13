@@ -7,12 +7,13 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 4 (kana stages + Speaking module).** On top of the Phase 1
+**Status: Phase 5 (kana + Speaking + JLPT N5).** On top of the Phase 1
 foundation (installable PWA, offline mode, device-local storage with
 export/import, settings, theming, deploy workflow), the app teaches Stage 0,
-the complete hiragana and katakana stages with a spaced-repetition review
-engine, and speaking practice with mora-level feedback. N5 → N1 content ships
-in the following phases.
+the complete hiragana and katakana stages, speaking practice with mora-level
+feedback, and the full JLPT N5 stage with furigana scaffolding. The progress
+dashboard, placement test, N5 mock exam, and N4 → N1 content ship in the
+following phases.
 
 ## Features
 
@@ -31,6 +32,20 @@ Available now:
   ウェ, ヴァ) and 223 loanwords, with loanword rules explained group by group
   (consonant clusters, ー for long vowels and -er endings, ッ for clipped
   vowels, l/r, v/b). Its exam unlocks N5.
+- **JLPT N5 stage**: 21 interleaved units, each with five kanji (104 in
+  all, with KANJIDIC2 readings and meanings, KanjiVG stroke order and
+  component decomposition, original mnemonics and example words), the
+  vocabulary that uses them (792 words, every reading checked against JMdict),
+  two to four grammar points (69, each with a plain explanation, pattern,
+  three examples with audio, common mistakes and exercises: fill, choose,
+  order the pieces, produce), ten graded readings and eight listening drills
+  (dictation, comprehension, shadowing) built only from material already
+  taught. Words that use kanji beyond N5 always show furigana.
+- **Furigana scaffolding (L3–L4)**: kanji show their reading above until a
+  word has been answered correctly four times in a row, then the reading
+  hides and a tap reveals it; it comes back after repeated misses. Readings
+  are aligned per kanji run and anchored on vocabulary, with real `<ruby>`.
+  Tap any word in a passage for its reading, meaning and "add to reviews".
 - **Review engine**: FSRS-5 scheduling with learning steps, a per-day review
   cap that spreads backlogs out, and a new-item goal that eases off when
   recent accuracy drops. Review types rotate: recognition, recall (typed and
@@ -77,9 +92,8 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in later phases: N5 → N1 kanji, vocabulary, grammar, reading and
-listening with furigana scaffolding (L3–L4); placement test; mock JLPT exams;
-speaking sets for each JLPT level.
+Coming in later phases: placement test and N5 mock exam; N4 → N1 content,
+one level per phase with its mock exam; speaking sets for each JLPT level.
 
 ## Screenshots
 
@@ -106,7 +120,8 @@ Other scripts:
 ```bash
 node scripts/validate-content.mjs   # check curriculum data
 node scripts/make-icons.mjs         # regenerate PWA icons
-node scripts/fetch-kanjivg.mjs hiragana   # refresh stroke data from KanjiVG (also: katakana)
+node scripts/fetch-kanjivg.mjs hiragana   # refresh stroke data from KanjiVG (also: katakana, chars …)
+node scripts/fetch-edrdg.mjs kanji 日本 out.json   # pull KANJIDIC2 entries (build input, see CONTRIBUTING)
 ```
 
 On `localhost` the service worker is network-first, so edits show on reload.
@@ -182,9 +197,9 @@ js/ui/                   dom helpers, toast, dialog, search, shortcuts, audio, s
 js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), romaji (IME), scaffold (display levels), mora (beat alignment, tips)
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
-js/views/                home, learn, orientation, kana-stage, lesson, exam, item, review, speak, speak-session, read, progress, settings, about
-data/                    curriculum JSON (orientation, kana, katakana, speaking, strokes/; SCHEMA.md)
-scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs
+js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, settings, about
+data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/, strokes/; SCHEMA.md)
+scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs, fetch-edrdg.mjs
 .github/workflows/       GitHub Pages deployment
 ```
 
@@ -207,9 +222,15 @@ KanjiVG and stays under CC BY-SA 3.0 (see `data/strokes/README.md`).
 |---|---|---|
 | [Noto Sans JP, Noto Serif JP](https://fonts.google.com/noto) | Japanese typefaces | SIL Open Font License 1.1 |
 | [KanjiVG](https://kanjivg.tagaini.net/) | Stroke-order diagrams | CC BY-SA 3.0 |
-| [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (EDRDG) | Kanji readings, meanings, stroke counts | EDRDG licence (CC BY-SA 4.0) |
-| [JMdict/EDICT](https://www.edrdg.org/jmdict/j_jmdict.html) (EDRDG) | Vocabulary | EDRDG licence (CC BY-SA 4.0) |
-| [Tatoeba](https://tatoeba.org/) | Example sentences | CC BY 2.0 FR |
+| [KANJIDIC2](https://www.edrdg.org/wiki/index.php/KANJIDIC_Project) (EDRDG) | N5 kanji readings, meanings, stroke counts (`data/n5/kanji.json`) | EDRDG licence (CC BY-SA 4.0) |
+| [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) (EDRDG) | Verification of every N5 word's reading and meaning at build time (not redistributed) | EDRDG licence (CC BY-SA 4.0) |
+| [Tatoeba](https://tatoeba.org/) | Not used yet; example sentences and readings are original | CC BY 2.0 FR |
+
+The kanji data in `data/n5/kanji.json` is derived from KANJIDIC2 and is
+redistributed under the EDRDG licence (CC BY-SA 4.0); see
+https://www.edrdg.org/edrdg/licence.html. The N5 word list, meanings,
+grammar explanations, example sentences, readings and listening scripts were
+written for this project; readings and meanings were checked against JMdict.
 
 The JLPT has not published official vocabulary or kanji lists since 2010;
 level assignments follow commonly used community lists. Nothing is copied from

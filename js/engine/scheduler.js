@@ -52,12 +52,12 @@ export async function dailyPlan(now = new Date()) {
 /** Enter items into the SRS after a lesson: a first Good rating puts them on the learning steps. */
 export async function learnItems(items, now = new Date()) {
   let added = 0;
-  for (const { id, type } of items) {
+  for (const { id, type, display } of items) {
     const existing = await progress.get(id);
     if (existing) continue;
     let rec = newRecord(id, type);
     rec = schedule(rec, Rating.Good, now);
-    rec.display = 1;
+    rec.display = display || (type === 'kanji' || type === 'grammar' ? 3 : 1);
     await progress.save(rec);
     added += 1;
   }

@@ -7,13 +7,15 @@
 import { h, append, icon } from '../ui/dom.js';
 import { getManifest } from '../content/loader.js';
 import { isUnlocked, orientationDone, kanaStatus } from '../content/kana.js';
+import { jlptStatus } from './../content/n5.js';
 
 export const title = 'Learn';
 
 const SUBVIEWS = {
   orientation: () => import('./orientation.js'),
   hiragana: () => import('./kana-stage.js'),
-  katakana: () => import('./kana-stage.js')
+  katakana: () => import('./kana-stage.js'),
+  n5: () => import('./n5-stage.js')
 };
 
 export async function render(el, ctx) {
@@ -32,6 +34,7 @@ export async function render(el, ctx) {
   const oDone = await orientationDone();
   const hira = await kanaStatus('kana').catch(() => null);
   const kata = (await isUnlocked('katakana')) ? await kanaStatus('katakana').catch(() => null) : null;
+  const n5 = (await isUnlocked('n5')) ? await jlptStatus('n5').catch(() => null) : null;
 
   const items = [];
   for (const s of manifest.stages || []) {
@@ -52,6 +55,11 @@ export async function render(el, ctx) {
       done = !!kata.exam;
       status = kata.exam ? 'Passed' : kata.passed.size ? 'Continue' : 'Start';
       sub = `${kata.passed.size} of ${kata.total} groups passed` + (kata.exam ? ` · exam ${kata.exam.score}%` : '');
+    } else if (s.id === 'n5' && n5) {
+      href = '#/learn/n5';
+      done = !n5.nextUnit;
+      status = done ? 'Complete' : n5.passed.size ? 'Continue' : 'Start';
+      sub = `${n5.passed.size} of ${n5.total} units passed`;
     } else { href = `#/learn/${s.id}`; status = 'Open'; }
     items.push(h('li', null,
       h('span', { class: `step-no ${href ? 'is-available' : ''} ${done ? 'is-passed' : ''}`, 'aria-hidden': 'true' }, done ? icon('check') : String(s.no)),

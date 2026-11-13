@@ -1,0 +1,329 @@
+[
+ {
+  "id": "listen:n5:001",
+  "level": "n5",
+  "unit": 3,
+  "order": 395,
+  "type": "dictation",
+  "title": "Dictation: introductions",
+  "text": "私は学生です。 田中さんは先生です。 これは私の本です。 家族は四人です。",
+  "items": [
+   {
+    "text": "{私|わたし}は{学生|がくせい}です。",
+    "kana": "わたしはがくせいです。",
+    "en": "I am a student."
+   },
+   {
+    "text": "{田中|たなか}さんは{先生|せんせい}です。",
+    "kana": "たなかさんはせんせいです。",
+    "en": "Mr Tanaka is a teacher."
+   },
+   {
+    "text": "これは{私|わたし}の{本|ほん}です。",
+    "kana": "これはわたしのほんです。",
+    "en": "This is my book."
+   },
+   {
+    "text": "{家族|かぞく}は{四人|よにん}です。",
+    "kana": "かぞくはよにんです。",
+    "en": "My family is four people."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n5:002",
+  "level": "n5",
+  "unit": 5,
+  "order": 595,
+  "type": "dictation",
+  "title": "Dictation: times and numbers",
+  "text": "七時に起きます。 九時から五時まで働きます。 りんごを三つください。 この本は千円です。",
+  "items": [
+   {
+    "text": "{七時|しちじ}に{起|お}きます。",
+    "kana": "しちじにおきます。",
+    "en": "I get up at seven."
+   },
+   {
+    "text": "{九時|くじ}から{五時|ごじ}まで{働|はたら}きます。",
+    "kana": "くじからごじまではたらきます。",
+    "en": "I work from nine to five."
+   },
+   {
+    "text": "りんごを三つください。",
+    "kana": "りんごをみっつください。",
+    "en": "Three apples, please."
+   },
+   {
+    "text": "この本は千円です。",
+    "kana": "このほんはせんえんです。",
+    "en": "This book is 1,000 yen."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n5:003",
+  "level": "n5",
+  "unit": 7,
+  "order": 795,
+  "type": "comprehension",
+  "title": "Where is it?",
+  "text": "銀行は駅の前にあります。郵便局は銀行の隣です。 猫は椅子の下にいます。犬は庭にいます。",
+  "items": [
+   {
+    "text": "{銀行|ぎんこう}は{駅|えき}の{前|まえ}にあります。{郵便局|ゆうびんきょく}は{銀行|ぎんこう}の{隣|となり}です。",
+    "kana": "ぎんこうはえきのまえにあります。ゆうびんきょくはぎんこうのとなりです。",
+    "en": "The bank is in front of the station. The post office is next to the bank.",
+    "questions": [
+     {
+      "q": "{郵便局|ゆうびんきょく}はどこですか。",
+      "qKana": "ゆうびんきょくはどこですか。",
+      "choices": [
+       "駅の前",
+       "銀行の隣",
+       "駅の中"
+      ],
+      "answer": 1,
+      "why": "郵便局は銀行の隣です。"
+     }
+    ]
+   },
+   {
+    "text": "{猫|ねこ}は{椅子|いす}の下にいます。{犬|いぬ}は{庭|にわ}にいます。",
+    "kana": "ねこはいすのしたにいます。いぬはにわにいます。",
+    "en": "The cat is under the chair. The dog is in the garden.",
+    "questions": [
+     {
+      "q": "{犬|いぬ}はどこにいますか。",
+      "qKana": "いぬはどこにいますか。",
+      "choices": [
+       "椅子の下",
+       "庭",
+       "部屋"
+      ],
+      "answer": 1,
+      "why": "犬は庭にいます。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "郵便局はどこですか。",
+    "qKana": "ゆうびんきょくはどこですか。",
+    "choices": [
+     "駅の前",
+     "銀行の隣",
+     "駅の中"
+    ],
+    "answer": 1,
+    "why": "郵便局は銀行の隣です。"
+   },
+   {
+    "q": "犬はどこにいますか。",
+    "qKana": "いぬはどこにいますか。",
+    "choices": [
+     "椅子の下",
+     "庭",
+     "部屋"
+    ],
+    "answer": 1,
+    "why": "犬は庭にいます。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n5:004",
+  "level": "n5",
+  "unit": 9,
+  "order": 995,
+  "type": "shadow",
+  "title": "Shadowing: requests",
+  "text": "ここに名前を書いてください。 ちょっと待ってください。 もう一度言ってください。 ゆっくり話してください。",
+  "items": [
+   {
+    "text": "ここに{名前|なまえ}を{書|か}いてください。",
+    "kana": "ここになまえをかいてください。",
+    "en": "Please write your name here."
+   },
+   {
+    "text": "ちょっと{待|ま}ってください。",
+    "kana": "ちょっとまってください。",
+    "en": "Please wait a moment."
+   },
+   {
+    "text": "もう{一度言|いちどい}ってください。",
+    "kana": "もういちどいってください。",
+    "en": "Please say it once more."
+   },
+   {
+    "text": "ゆっくり{話|はな}してください。",
+    "kana": "ゆっくりはなしてください。",
+    "en": "Please speak slowly."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n5:005",
+  "level": "n5",
+  "unit": 11,
+  "order": 1195,
+  "type": "comprehension",
+  "title": "A phone call",
+  "text": "もしもし、田中です。明日の会議は十時からです。九時半に会社に来てください。",
+  "items": [
+   {
+    "text": "もしもし、田中です。{明日|あした}の{会議|かいぎ}は十時からです。九時半に{会社|かいしゃ}に{来|き}てください。",
+    "kana": "もしもし、たなかです。あしたのかいぎはじゅうじからです。くじはんにかいしゃにきてください。",
+    "en": "Hello, this is Tanaka. Tomorrow's meeting starts at ten. Please come to the office at nine thirty.",
+    "questions": [
+     {
+      "q": "{会議|かいぎ}は{何時|なんじ}からですか。",
+      "qKana": "かいぎはなんじからですか。",
+      "choices": [
+       "九時",
+       "九時半",
+       "十時"
+      ],
+      "answer": 2,
+      "why": "会議は十時からです。"
+     },
+     {
+      "q": "{何時|なんじ}に{会社|かいしゃ}に{来|き}ますか。",
+      "qKana": "なんじにかいしゃにきますか。",
+      "choices": [
+       "九時",
+       "九時半",
+       "十時"
+      ],
+      "answer": 1,
+      "why": "九時半に来てください。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "会議は何時からですか。",
+    "qKana": "かいぎはなんじからですか。",
+    "choices": [
+     "九時",
+     "九時半",
+     "十時"
+    ],
+    "answer": 2,
+    "why": "会議は十時からです。"
+   },
+   {
+    "q": "何時に会社に来ますか。",
+    "qKana": "なんじにかいしゃにきますか。",
+    "choices": [
+     "九時",
+     "九時半",
+     "十時"
+    ],
+    "answer": 1,
+    "why": "九時半に来てください。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n5:006",
+  "level": "n5",
+  "unit": 13,
+  "order": 1395,
+  "type": "dictation",
+  "title": "Dictation: daily life",
+  "text": "寝る前に歯を磨きます。 日本に行ったことがあります。 休みの日は本を読んだり、映画を見たりします。",
+  "items": [
+   {
+    "text": "{寝|ね}る前に{歯|は}を{磨|みが}きます。",
+    "kana": "ねるまえにはをみがきます。",
+    "en": "I brush my teeth before bed."
+   },
+   {
+    "text": "日本に{行|い}ったことがあります。",
+    "kana": "にほんにいったことがあります。",
+    "en": "I have been to Japan."
+   },
+   {
+    "text": "{休|やす}みの日は本を{読|よ}んだり、{映画|えいが}を{見|み}たりします。",
+    "kana": "やすみのひはほんをよんだり、えいがをみたりします。",
+    "en": "On days off I read, watch films and so on."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n5:007",
+  "level": "n5",
+  "unit": 17,
+  "order": 1795,
+  "type": "comprehension",
+  "title": "Weather forecast",
+  "text": "明日の天気です。東京は朝は雨が降るでしょう。午後は晴れるでしょう。寒くなりますから、暖かい服を着てください。",
+  "items": [
+   {
+    "text": "{明日|あした}の{天気|てんき}です。{東京|とうきょう}は{朝|あさ}は{雨|あめ}が{降|ふ}るでしょう。午後は{晴|は}れるでしょう。{寒|さむ}くなりますから、{暖|あたた}かい{服|ふく}を{着|き}てください。",
+    "kana": "あしたのてんきです。とうきょうはあさはあめがふるでしょう。ごごははれるでしょう。さむくなりますから、あたたかいふくをきてください。",
+    "en": "Tomorrow's weather. In Tokyo it will probably rain in the morning. In the afternoon it will clear up. It will get cold, so please wear warm clothes.",
+    "questions": [
+     {
+      "q": "{明日|あした}の午後はどうなりますか。",
+      "qKana": "あしたのごごはどうなりますか。",
+      "choices": [
+       "雨が降ります",
+       "晴れます",
+       "雪が降ります"
+      ],
+      "answer": 1,
+      "why": "午後は晴れるでしょう。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "明日の午後はどうなりますか。",
+    "qKana": "あしたのごごはどうなりますか。",
+    "choices": [
+     "雨が降ります",
+     "晴れます",
+     "雪が降ります"
+    ],
+    "answer": 1,
+    "why": "午後は晴れるでしょう。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n5:008",
+  "level": "n5",
+  "unit": 20,
+  "order": 2095,
+  "type": "shadow",
+  "title": "Shadowing: opinions and plans",
+  "text": "明日は雨が降ると思います。 来年日本へ行くつもりです。 日本語が上手になりました。",
+  "items": [
+   {
+    "text": "{明日|あした}は雨が{降|ふ}ると{思|おも}います。",
+    "kana": "あしたはあめがふるとおもいます。",
+    "en": "I think it will rain tomorrow."
+   },
+   {
+    "text": "来年日本へ行くつもりです。",
+    "kana": "らいねんにほんへいくつもりです。",
+    "en": "I intend to go to Japan next year."
+   },
+   {
+    "text": "日本語が上手になりました。",
+    "kana": "にほんごがじょうずになりました。",
+    "en": "My Japanese has become good."
+   }
+  ],
+  "questions": []
+ }
+]

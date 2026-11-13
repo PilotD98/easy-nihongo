@@ -8,7 +8,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '0.4.0';
+const VERSION = '0.5.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -27,6 +27,7 @@ const SHELL = [
   './css/components.css',
   './css/lesson.css',
   './css/speak.css',
+  './css/n5.css',
   './js/app.js',
   './js/router.js',
   './js/store/db.js',
@@ -49,6 +50,10 @@ const SHELL = [
   './js/ui/recorder.js',
   './js/engine/mora.js',
   './js/content/speaking.js',
+  './js/content/n5.js',
+  './js/engine/furigana.js',
+  './js/ui/kanjitext.js',
+  './js/ui/quiz-n5.js',
   './js/engine/fsrs.js',
   './js/engine/scheduler.js',
   './js/engine/scaffold.js',
@@ -72,6 +77,9 @@ const SHELL = [
   './js/views/exam.js',
   './js/views/item.js',
   './js/views/speak-session.js',
+  './js/views/n5-stage.js',
+  './js/views/unit.js',
+  './js/views/reading.js',
   './data/index.json',
   './data/orientation.json',
   './data/kana.json',
@@ -79,6 +87,13 @@ const SHELL = [
   './data/katakana.json',
   './data/strokes/katakana.json',
   './data/speaking.json',
+  './data/strokes/kanji-n5.json',
+  './data/n5/kanji.json',
+  './data/n5/vocab.json',
+  './data/n5/grammar.json',
+  './data/n5/readings.json',
+  './data/n5/listening.json',
+  './data/n5/units.json',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

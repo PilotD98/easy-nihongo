@@ -9,7 +9,7 @@
      node scripts/fetch-kanjivg.mjs katakana            # U+30A1..U+30F6 + ー -> data/strokes/katakana.json
      node scripts/fetch-kanjivg.mjs chars 日本語 out.json  # arbitrary characters
 
-   Output format: { "あ": { "strokes": ["M…", "M…"], "numbers": [[x, y], …] }, … }
+   Output format: { "あ": { "strokes": ["M…", "M…"], "numbers": [[x, y], …], "components": ["言", …] }, … }
    KanjiVG's coordinate box is 0 0 109 109. */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -48,8 +48,11 @@ for (const ch of chars) {
   const strokes = [...svg.matchAll(/<path[^>]*\sd="([^"]+)"/g)].map((m) => m[1].replace(/\s+/g, ' ').trim());
   const numbers = [...svg.matchAll(/<text[^>]*transform="matrix\([^)]*\s(-?[\d.]+)\s(-?[\d.]+)\)"[^>]*>(\d+)<\/text>/g)]
     .map((m) => [Number(m[1]), Number(m[2])]);
+  // Component decomposition (kvg:element on nested groups), e.g. 語 -> 言, 五, 口
+  const elements = [...svg.matchAll(/kvg:element="([^"]+)"/g)].map((m) => m[1]).filter((e) => e !== ch);
+  const components = [...new Set(elements)].slice(0, 6);
   // Only keep well-formed path data (letters, digits, punctuation used by SVG paths).
-  if (strokes.length && strokes.every((d) => /^[MmLlHhVvCcSsQqTtAaZz0-9 .,\-eE]+$/.test(d))) result[ch] = { strokes, numbers };
+  if (strokes.length && strokes.every((d) => /^[MmLlHhVvCcSsQqTtAaZz0-9 .,\-eE]+$/.test(d))) result[ch] = components.length ? { strokes, numbers, components } : { strokes, numbers };
   else missing.push(ch);
 }
 

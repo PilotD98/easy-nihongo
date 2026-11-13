@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------------
+   JLPT-level content: furigana scaffolding, kanji cards, unit lessons,
+   reading passages with tap-to-lookup, listening drills, order questions.
+   ------------------------------------------------------------------ */
+
+/* Furigana ruby with display levels */
+ruby.kt { ruby-position: over; }
+ruby.kt rt { font-size: .5em; color: var(--text-2); }
+ruby.kt.kt-hidden { cursor: pointer; border-radius: 4px; }
+ruby.kt.kt-hidden rt { visibility: hidden; }
+ruby.kt.kt-hidden.is-revealed rt { visibility: visible; }
+ruby.kt.kt-hidden:hover, ruby.kt.kt-hidden:focus-visible { background: var(--surface-2); }
+.kt-sentence { line-height: 2.2; }
+.q-markup { font-size: 1.6rem; line-height: 2.2; }
+
+/* Kanji cards */
+.kanji-head { display: grid; grid-template-columns: auto 1fr; gap: var(--s-4); align-items: start; }
+.kanji-big { font-size: 5rem; line-height: 1; font-family: var(--font-jp); }
+.kanji-readings dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-3); margin-top: var(--s-2); }
+.kanji-readings dd { margin: 0; font-size: 1.1rem; }
+.kanji-meanings { font-size: 1.2rem; font-weight: 600; }
+.components { display: flex; gap: var(--s-1); flex-wrap: wrap; }
+.components .pill { font-family: var(--font-jp); font-size: 1rem; }
+
+/* Vocabulary lists in lessons */
+.vocab-list { list-style: none; padding: 0; margin: 0; }
+.vocab-list li { display: grid; grid-template-columns: minmax(7rem, auto) 1fr auto; gap: var(--s-3); align-items: center; padding: var(--s-2) 0; border-bottom: 1px solid var(--border); min-height: var(--tap); }
+.vocab-list li:last-child { border-bottom: 0; }
+.vocab-list .vw { font-size: 1.5rem; line-height: 2; }
+.vocab-list .vm { color: var(--text); }
+.vocab-list .vm small { display: block; color: var(--text-3); }
+.pos-tag { font-size: .7rem; color: var(--text-3); text-transform: uppercase; letter-spacing: .04em; }
+
+/* Grammar cards */
+.gram-pattern { font-family: var(--font-jp); font-size: 1.25rem; padding: var(--s-2) var(--s-3); background: var(--surface-2); border-radius: var(--radius-sm); display: inline-block; margin-bottom: var(--s-3); }
+.gram-example { padding: var(--s-2) 0; border-bottom: 1px solid var(--border); }
+.gram-example:last-child { border-bottom: 0; }
+.gram-example .ex-jp { font-size: 1.35rem; }
+.gram-example .ex-meta { font-size: .9rem; color: var(--text-2); }
+.gram-mistakes li { margin-bottom: 4px; }
+
+/* Unit list */
+.unit-kanji { font-family: var(--font-jp); font-size: 1.2rem; letter-spacing: .15em; }
+
+/* Reading passage */
+.passage { font-size: 1.35rem; line-height: 2.4; }
+.passage .tok { background: none; border: 0; padding: 0 1px; font: inherit; color: inherit; cursor: pointer; border-radius: 4px; border-bottom: 1px dotted var(--border); }
+.passage .tok:hover, .passage .tok:focus-visible { background: var(--accent-soft); }
+.lookup-word { font-size: 2rem; line-height: 2; }
+.translation { color: var(--text-2); }
+
+/* Listening */
+.dictation-target { font-size: 1.3rem; }
+
+/* Order questions */
+.q-order-line { min-height: 2.8em; padding: var(--s-2) var(--s-3); border: 1px dashed var(--border); border-radius: var(--radius-sm); font-size: 1.3rem; display: flex; flex-wrap: wrap; gap: 4px; align-items: center; margin-bottom: var(--s-3); }
+.q-order-line.is-correct { border-color: var(--ok); background: var(--ok-soft); }
+.q-order-line.is-wrong { border-color: var(--err); background: var(--err-soft); }
+.q-tiles { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-bottom: var(--s-3); }
+.q-tile { font-size: 1.2rem; }
+.q-tile.is-used { opacity: .35; }

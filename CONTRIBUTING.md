@@ -18,6 +18,7 @@ data/kana.json           hiragana groups, characters and first words
 data/katakana.json       katakana groups, characters and loanwords
 data/speaking.json       speaking sets: repeat, shadow, question, roleplay
 data/strokes/*.json      stroke paths extracted from KanjiVG (regenerate, do not hand-edit)
+data/n5/units.json       the interleaved units (which kanji, words, grammar, readings go together)
 data/n5/kanji.json       kanji for N5 (and n4/, n3/, n2/, n1/ likewise)
 data/n5/vocab.json       vocabulary
 data/n5/grammar.json     grammar points
@@ -51,6 +52,26 @@ It fails the build if:
 
 It warns, without failing, when a kanji's example word is taught later than the
 kanji itself. Prefer examples the learner already knows.
+
+## JLPT levels: how the N5 files were made
+
+The N5 files are generated from authored sources plus dictionary extracts:
+
+1. `node scripts/fetch-edrdg.mjs kanji <chars> kanjidic.json` pulls readings,
+   meanings and stroke counts from KANJIDIC2 for the kanji list.
+2. `node scripts/fetch-kanjivg.mjs chars <chars> data/strokes/kanji-n5.json`
+   pulls stroke paths and component decompositions from KanjiVG.
+3. `node scripts/fetch-edrdg.mjs words words.json jmdict.json` checks every
+   authored word (surface + reading + part of speech) against JMdict; words
+   that are not found are flagged, and the build marks the rest `verified`.
+4. A build step assigns each word to the unit where its last kanji is
+   taught, marks words that use kanji beyond the level with
+   `furiganaException`, wraps kanji in examples, exercises and readings that
+   are not yet taught as `{漢字|かな}`, and writes the per-level files.
+
+To correct an N5 entry, edit the JSON directly and run the validator. To add
+many entries, follow the same pipeline so readings stay verified. Keep
+example sentences and readings original; do not paste them from textbooks.
 
 ## Mnemonics
 

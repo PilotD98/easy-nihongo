@@ -1,0 +1,3337 @@
+[
+ {
+  "id": "gram:n5:desu",
+  "level": "n5",
+  "unit": 1,
+  "order": 150,
+  "title": "N は N です",
+  "pattern": "[A] は [B] です",
+  "summary": "A is B",
+  "explanation": "です is the polite \"is/am/are\". は (read \"wa\") marks the topic, what you are talking about. There is no article and no plural: 学生です can mean \"I am a student\" or \"they are students\"; context decides.",
+  "examples": [
+   {
+    "jp": "{私|わたし}は{学生|がくせい}です。",
+    "kana": "わたしはがくせいです。",
+    "romaji": "watashi wa gakusei desu.",
+    "en": "I am a student."
+   },
+   {
+    "jp": "{田中|たなか}さんは{先生|せんせい}です。",
+    "kana": "たなかさんはせんせいです。",
+    "romaji": "tanaka-san wa sensei desu.",
+    "en": "Mr Tanaka is a teacher."
+   },
+   {
+    "jp": "これは{本|ほん}です。",
+    "kana": "これはほんです。",
+    "romaji": "kore wa hon desu.",
+    "en": "This is a book."
+   }
+  ],
+  "mistakes": [
+   "Reading the particle は as \"ha\". As a particle it is always \"wa\".",
+   "Adding \"a\" or \"the\": Japanese has no articles."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{私|わたし}＿{学生|がくせい}です。",
+    "answer": "は",
+    "choices": [
+     "は",
+     "を",
+     "に"
+    ],
+    "why": "は marks the topic (I).",
+    "answerKana": "は"
+   },
+   {
+    "type": "order",
+    "prompt": "Make: \"This is a pen.\"",
+    "answer": "これはペンです",
+    "choices": [
+     "これ",
+     "は",
+     "ペン",
+     "です"
+    ],
+    "why": "Topic + は + noun + です.",
+    "answerKana": "これはペンです"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ja-arimasen",
+  "level": "n5",
+  "unit": 1,
+  "order": 151,
+  "title": "N じゃありません",
+  "pattern": "[N] じゃありません / ではありません",
+  "summary": "is not N",
+  "explanation": "The negative of です is じゃありません (polite, spoken) or ではありません (more formal, written).",
+  "examples": [
+   {
+    "jp": "{私|わたし}は{先生|せんせい}じゃありません。",
+    "kana": "わたしはせんせいじゃありません。",
+    "romaji": "watashi wa sensei ja arimasen.",
+    "en": "I am not a teacher."
+   },
+   {
+    "jp": "これは{水|みず}じゃありません。お{茶|ちゃ}です。",
+    "kana": "これはみずじゃありません。おちゃです。",
+    "romaji": "kore wa mizu ja arimasen. ocha desu.",
+    "en": "This is not water. It is tea."
+   },
+   {
+    "jp": "{田中|たなか}さんは{学生|がくせい}ではありません。",
+    "kana": "たなかさんはがくせいではありません。",
+    "romaji": "tanaka-san wa gakusei de wa arimasen.",
+    "en": "Mr Tanaka is not a student."
+   }
+  ],
+  "mistakes": [
+   "Saying じゃないです is fine in conversation, but じゃありません is the textbook polite form."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "\"I am not a student.\"",
+    "answer": "{私|わたし}は{学生|がくせい}じゃありません。",
+    "choices": [
+     "{私|わたし}は{学生|がくせい}じゃありません。",
+     "{私|わたし}は{学生|がくせい}です。",
+     "{私|わたし}は{学生|がくせい}ですか。"
+    ],
+    "why": "じゃありません negates です.",
+    "answerKana": "わたしはがくせいじゃありません。"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ka",
+  "level": "n5",
+  "unit": 1,
+  "order": 152,
+  "title": "〜か (questions)",
+  "pattern": "[sentence] か。",
+  "summary": "Yes/no questions",
+  "explanation": "Add か to the end of a polite sentence to make a question. Word order does not change and no question mark is needed in Japanese writing (though it is often used).",
+  "examples": [
+   {
+    "jp": "あなたは{学生|がくせい}ですか。",
+    "kana": "あなたはがくせいですか。",
+    "romaji": "anata wa gakusei desu ka.",
+    "en": "Are you a student?"
+   },
+   {
+    "jp": "はい、{学生|がくせい}です。",
+    "kana": "はい、がくせいです。",
+    "romaji": "hai, gakusei desu.",
+    "en": "Yes, I am."
+   },
+   {
+    "jp": "いいえ、{学生|がくせい}じゃありません。",
+    "kana": "いいえ、がくせいじゃありません。",
+    "romaji": "iie, gakusei ja arimasen.",
+    "en": "No, I am not."
+   }
+  ],
+  "mistakes": [
+   "Raising the pitch is enough in casual speech, but in polite speech keep か."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{田中|たなか}さんは{先生|せんせい}です＿。",
+    "answer": "か",
+    "choices": [
+     "か",
+     "ね",
+     "よ"
+    ],
+    "why": "か turns the statement into a question.",
+    "answerKana": "か"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:no",
+  "level": "n5",
+  "unit": 1,
+  "order": 153,
+  "title": "N の N",
+  "pattern": "[A] の [B]",
+  "summary": "B of A; A's B",
+  "explanation": "の links two nouns. The first noun describes the second: 日本の車 \"a car of Japan\" = a Japanese car; 私の本 \"my book\".",
+  "examples": [
+   {
+    "jp": "これは{私|わたし}の{本|ほん}です。",
+    "kana": "これはわたしのほんです。",
+    "romaji": "kore wa watashi no hon desu.",
+    "en": "This is my book."
+   },
+   {
+    "jp": "{田中|たなか}さんは{日本語|にほんご}の{先生|せんせい}です。",
+    "kana": "たなかさんはにほんごのせんせいです。",
+    "romaji": "tanaka-san wa nihongo no sensei desu.",
+    "en": "Mr Tanaka is a Japanese teacher."
+   },
+   {
+    "jp": "それは{友達|ともだち}の{車|くるま}です。",
+    "kana": "それはともだちのくるまです。",
+    "romaji": "sore wa tomodachi no kuruma desu.",
+    "en": "That is my friend's car."
+   }
+  ],
+  "mistakes": [
+   "Reversing the order: English \"the teacher of Japanese\" is 日本語の先生, describer first."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "これは{私|わたし}＿かばんです。",
+    "answer": "の",
+    "choices": [
+     "の",
+     "は",
+     "が"
+    ],
+    "why": "の shows possession.",
+    "answerKana": "の"
+   },
+   {
+    "type": "order",
+    "prompt": "Make: \"a Japanese car\"",
+    "answer": "{日本|にほん}の{車|くるま}",
+    "choices": [
+     "{日本|にほん}",
+     "の",
+     "{車|くるま}"
+    ],
+    "why": "Describer + の + noun.",
+    "answerKana": "にほんのくるま"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:kore-sore-are",
+  "level": "n5",
+  "unit": 2,
+  "order": 254,
+  "title": "これ・それ・あれ",
+  "pattern": "これ / それ / あれ / どれ",
+  "summary": "this, that, that over there, which",
+  "explanation": "これ is near the speaker, それ near the listener, あれ far from both. どれ asks \"which one\". Before a noun use この・その・あの・どの instead: この本 \"this book\".",
+  "examples": [
+   {
+    "jp": "これは{何|なん}ですか。",
+    "kana": "これはなんですか。",
+    "romaji": "kore wa nan desu ka.",
+    "en": "What is this?"
+   },
+   {
+    "jp": "それは{辞書|じしょ}です。",
+    "kana": "それはじしょです。",
+    "romaji": "sore wa jisho desu.",
+    "en": "That is a dictionary."
+   },
+   {
+    "jp": "あの{人|ひと}は{誰|だれ}ですか。",
+    "kana": "あのひとはだれですか。",
+    "romaji": "ano hito wa dare desu ka.",
+    "en": "Who is that person over there?"
+   }
+  ],
+  "mistakes": [
+   "Using これ before a noun: say この本, not これ本."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "Pointing at a book in your own hand: \"This is a book.\"",
+    "answer": "これは{本|ほん}です。",
+    "choices": [
+     "これは{本|ほん}です。",
+     "それは{本|ほん}です。",
+     "あれは{本|ほん}です。"
+    ],
+    "why": "Near the speaker: これ.",
+    "answerKana": "これはほんです。"
+   },
+   {
+    "type": "fill",
+    "prompt": "＿{本|ほん}は{私|わたし}のです。(this)",
+    "answer": "この",
+    "choices": [
+     "この",
+     "これ",
+     "ここ"
+    ],
+    "why": "Before a noun, この.",
+    "answerKana": "この"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:koko-soko",
+  "level": "n5",
+  "unit": 2,
+  "order": 255,
+  "title": "ここ・そこ・あそこ",
+  "pattern": "ここ / そこ / あそこ / どこ",
+  "summary": "here, there, over there, where",
+  "explanation": "The same three-way system for places. どこ asks \"where\". こちら・そちら・あちら are the polite versions and also mean \"this way\".",
+  "examples": [
+   {
+    "jp": "ここは{教室|きょうしつ}です。",
+    "kana": "ここはきょうしつです。",
+    "romaji": "koko wa kyoushitsu desu.",
+    "en": "This is the classroom."
+   },
+   {
+    "jp": "トイレはどこですか。",
+    "kana": "トイレはどこですか。",
+    "romaji": "toire wa doko desu ka.",
+    "en": "Where is the toilet?"
+   },
+   {
+    "jp": "あそこです。",
+    "kana": "あそこです。",
+    "romaji": "asoko desu.",
+    "en": "It is over there."
+   }
+  ],
+  "mistakes": [
+   "Mixing これ (thing) and ここ (place)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{駅|えき}は＿ですか。(where)",
+    "answer": "どこ",
+    "choices": [
+     "どこ",
+     "どれ",
+     "だれ"
+    ],
+    "why": "どこ asks for a place.",
+    "answerKana": "どこ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ga-arimasu-imasu",
+  "level": "n5",
+  "unit": 2,
+  "order": 256,
+  "title": "あります・います",
+  "pattern": "[place] に [thing] があります / [person] がいます",
+  "summary": "there is; to have",
+  "explanation": "あります is for things and plants; います is for people and animals. が marks what exists; に marks the place.",
+  "examples": [
+   {
+    "jp": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+    "kana": "つくえのうえにほんがあります。",
+    "romaji": "tsukue no ue ni hon ga arimasu.",
+    "en": "There is a book on the desk."
+   },
+   {
+    "jp": "{教室|きょうしつ}に{学生|がくせい}がいます。",
+    "kana": "きょうしつにがくせいがいます。",
+    "romaji": "kyoushitsu ni gakusei ga imasu.",
+    "en": "There are students in the classroom."
+   },
+   {
+    "jp": "{犬|いぬ}がいます。",
+    "kana": "いぬがいます。",
+    "romaji": "inu ga imasu.",
+    "en": "There is a dog. / I have a dog."
+   }
+  ],
+  "mistakes": [
+   "Using あります for a person or animal.",
+   "Using で instead of に for the place where something exists."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{公園|こうえん}に{犬|いぬ}が＿。",
+    "answer": "います",
+    "choices": [
+     "います",
+     "あります"
+    ],
+    "why": "A dog is alive: います.",
+    "answerKana": "います"
+   },
+   {
+    "type": "fill",
+    "prompt": "{部屋|へや}にテレビが＿。",
+    "answer": "あります",
+    "choices": [
+     "あります",
+     "います"
+    ],
+    "why": "A TV is a thing: あります.",
+    "answerKana": "あります"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:position",
+  "level": "n5",
+  "unit": 2,
+  "order": 257,
+  "title": "N の上・下・中・前・後ろ",
+  "pattern": "[N] の [上/下/中/前/後ろ/隣/右/左] に",
+  "summary": "on, under, inside, in front of, behind, next to",
+  "explanation": "Position words follow the noun with の: 机の上 \"the top of the desk\", 駅の前 \"in front of the station\".",
+  "examples": [
+   {
+    "jp": "{猫|ねこ}は{椅子|いす}の{下|した}にいます。",
+    "kana": "ねこはいすのしたにいます。",
+    "romaji": "neko wa isu no shita ni imasu.",
+    "en": "The cat is under the chair."
+   },
+   {
+    "jp": "{銀行|ぎんこう}は{駅|えき}の{前|まえ}にあります。",
+    "kana": "ぎんこうはえきのまえにあります。",
+    "romaji": "ginkou wa eki no mae ni arimasu.",
+    "en": "The bank is in front of the station."
+   },
+   {
+    "jp": "かばんの{中|なか}に{財布|さいふ}があります。",
+    "kana": "かばんのなかにさいふがあります。",
+    "romaji": "kaban no naka ni saifu ga arimasu.",
+    "en": "There is a wallet in the bag."
+   }
+  ],
+  "mistakes": [
+   "Dropping の: 机上 is not a phrase."
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "prompt": "Make: \"The book is on the desk.\"",
+    "answer": "{本|ほん}は{机|つくえ}の{上|うえ}にあります",
+    "choices": [
+     "{本|ほん}は",
+     "{机|つくえ}の",
+     "{上|うえ}に",
+     "あります"
+    ],
+    "why": "Topic, place with の上, に, あります.",
+    "answerKana": "ほんはつくえのうえにあります"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:masu",
+  "level": "n5",
+  "unit": 3,
+  "order": 358,
+  "title": "Verb ます form",
+  "pattern": "[V-ます] / [V-ません]",
+  "summary": "polite present and future",
+  "explanation": "The ます form is the polite present. It covers both habit and future: 食べます \"I eat / I will eat\". Negative: ません.",
+  "examples": [
+   {
+    "jp": "{毎日日本語|まいにちにほんご}を{勉強|べんきょう}します。",
+    "kana": "まいにちにほんごをべんきょうします。",
+    "romaji": "mainichi nihongo o benkyou shimasu.",
+    "en": "I study Japanese every day."
+   },
+   {
+    "jp": "{明日東京|あしたとうきょう}へ{行|い}きます。",
+    "kana": "あしたとうきょうへいきます。",
+    "romaji": "ashita toukyou e ikimasu.",
+    "en": "I will go to Tokyo tomorrow."
+   },
+   {
+    "jp": "お{酒|さけ}を{飲|の}みません。",
+    "kana": "おさけをのみません。",
+    "romaji": "osake o nomimasen.",
+    "en": "I do not drink alcohol."
+   }
+  ],
+  "mistakes": [
+   "Using ます for the past: yesterday needs ました."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{私|わたし}は{毎朝|まいあさ}コーヒーを{飲|の}み＿。",
+    "answer": "ます",
+    "choices": [
+     "ます",
+     "ました",
+     "ません"
+    ],
+    "why": "A habit in the present: ます.",
+    "answerKana": "ます"
+   },
+   {
+    "type": "produce",
+    "prompt": "Say \"I do not eat meat.\" ({肉|にく})",
+    "answer": "{肉|にく}を{食|た}べません",
+    "why": "Negative polite: ません.",
+    "answerKana": "にくをたべません"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:mashita",
+  "level": "n5",
+  "unit": 3,
+  "order": 359,
+  "title": "Past: ました・ませんでした",
+  "pattern": "[V-ました] / [V-ませんでした]",
+  "summary": "polite past",
+  "explanation": "Change ます to ました for the past, and ません to ませんでした for the negative past.",
+  "examples": [
+   {
+    "jp": "{昨日映画|きのうえいが}を{見|み}ました。",
+    "kana": "きのうえいがをみました。",
+    "romaji": "kinou eiga o mimashita.",
+    "en": "I watched a film yesterday."
+   },
+   {
+    "jp": "{先週友達|せんしゅうともだち}に{会|あ}いました。",
+    "kana": "せんしゅうともだちにあいました。",
+    "romaji": "senshuu tomodachi ni aimashita.",
+    "en": "I met a friend last week."
+   },
+   {
+    "jp": "{朝|あさ}ご{飯|はん}を{食|た}べませんでした。",
+    "kana": "あさごはんをたべませんでした。",
+    "romaji": "asagohan o tabemasen deshita.",
+    "en": "I did not eat breakfast."
+   }
+  ],
+  "mistakes": [
+   "ませんでした, not ませんかった."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{昨日|きのう}テレビを{見|み}＿。",
+    "answer": "ました",
+    "choices": [
+     "ました",
+     "ます",
+     "ません"
+    ],
+    "why": "昨日 (yesterday) needs the past.",
+    "answerKana": "ました"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:o-object",
+  "level": "n5",
+  "unit": 3,
+  "order": 350,
+  "title": "を (object)",
+  "pattern": "[N] を [V]",
+  "summary": "marks the direct object",
+  "explanation": "を (read \"o\") marks the thing the verb acts on: パンを食べます \"eat bread\". It only appears in this role.",
+  "examples": [
+   {
+    "jp": "パンを{食|た}べます。",
+    "kana": "パンをたべます。",
+    "romaji": "pan o tabemasu.",
+    "en": "I eat bread."
+   },
+   {
+    "jp": "{本|ほん}を{読|よ}みます。",
+    "kana": "ほんをよみます。",
+    "romaji": "hon o yomimasu.",
+    "en": "I read a book."
+   },
+   {
+    "jp": "{水|みず}を{飲|の}みます。",
+    "kana": "みずをのみます。",
+    "romaji": "mizu o nomimasu.",
+    "en": "I drink water."
+   }
+  ],
+  "mistakes": [
+   "Using は for the object: は is the topic, を is the object."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{毎日|まいにち}{新聞|しんぶん}＿{読|よ}みます。",
+    "answer": "を",
+    "choices": [
+     "を",
+     "は",
+     "に"
+    ],
+    "why": "The newspaper is what is read: を.",
+    "answerKana": "を"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ni-e-direction",
+  "level": "n5",
+  "unit": 3,
+  "order": 351,
+  "title": "に・へ (destination)",
+  "pattern": "[place] に/へ 行きます・来ます・帰ります",
+  "summary": "to (a place)",
+  "explanation": "With movement verbs, に or へ (read \"e\") marks the destination. They are interchangeable here; へ stresses direction.",
+  "examples": [
+   {
+    "jp": "{学校|がっこう}に{行|い}きます。",
+    "kana": "がっこうにいきます。",
+    "romaji": "gakkou ni ikimasu.",
+    "en": "I go to school."
+   },
+   {
+    "jp": "{友達|ともだち}が{家|いえ}へ{来|き}ます。",
+    "kana": "ともだちがいえへきます。",
+    "romaji": "tomodachi ga ie e kimasu.",
+    "en": "A friend is coming to my house."
+   },
+   {
+    "jp": "{何時|なんじ}に{帰|かえ}りますか。",
+    "kana": "なんじにかえりますか。",
+    "romaji": "nanji ni kaerimasu ka.",
+    "en": "What time will you go home?"
+   }
+  ],
+  "mistakes": [
+   "Using で for the destination: で is where an action happens, not where you go."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{日曜日|にちようび}に{図書館|としょかん}＿{行|い}きます。",
+    "answer": "に",
+    "choices": [
+     "に",
+     "を",
+     "で"
+    ],
+    "why": "Destination of 行く: に (or へ).",
+    "answerKana": "に"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:de-place",
+  "level": "n5",
+  "unit": 4,
+  "order": 452,
+  "title": "で (place of action)",
+  "pattern": "[place] で [action]",
+  "summary": "at / in (where something happens)",
+  "explanation": "で marks where an action takes place: 図書館で勉強します \"study at the library\". Compare に for where something exists.",
+  "examples": [
+   {
+    "jp": "{図書館|としょかん}で{本|ほん}を{読|よ}みます。",
+    "kana": "としょかんでほんをよみます。",
+    "romaji": "toshokan de hon o yomimasu.",
+    "en": "I read books at the library."
+   },
+   {
+    "jp": "レストランで{昼|ひる}ご{飯|はん}を{食|た}べました。",
+    "kana": "レストランでひるごはんをたべました。",
+    "romaji": "resutoran de hirugohan o tabemashita.",
+    "en": "I ate lunch at a restaurant."
+   },
+   {
+    "jp": "どこで{働|はたら}いていますか。",
+    "kana": "どこではたらいていますか。",
+    "romaji": "doko de hataraite imasu ka.",
+    "en": "Where do you work?"
+   }
+  ],
+  "mistakes": [
+   "図書館に本を読みます is wrong: an action needs で."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{駅|えき}＿{友達|ともだち}に{会|あ}いました。",
+    "answer": "で",
+    "choices": [
+     "で",
+     "に",
+     "へ"
+    ],
+    "why": "Meeting happens at the station: で.",
+    "answerKana": "で"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:de-means",
+  "level": "n5",
+  "unit": 4,
+  "order": 453,
+  "title": "で (means)",
+  "pattern": "[tool/vehicle] で",
+  "summary": "by, with",
+  "explanation": "で also marks the means: バスで \"by bus\", 箸で \"with chopsticks\", 日本語で \"in Japanese\". Walking is 歩いて, with no で.",
+  "examples": [
+   {
+    "jp": "{電車|でんしゃ}で{会社|かいしゃ}に{行|い}きます。",
+    "kana": "でんしゃでかいしゃにいきます。",
+    "romaji": "densha de kaisha ni ikimasu.",
+    "en": "I go to the office by train."
+   },
+   {
+    "jp": "{箸|はし}で{食|た}べます。",
+    "kana": "はしでたべます。",
+    "romaji": "hashi de tabemasu.",
+    "en": "I eat with chopsticks."
+   },
+   {
+    "jp": "{日本語|にほんご}で{話|はな}してください。",
+    "kana": "にほんごではなしてください。",
+    "romaji": "nihongo de hanashite kudasai.",
+    "en": "Please speak in Japanese."
+   }
+  ],
+  "mistakes": [
+   "歩いてで is wrong; just 歩いて."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "タクシー＿{空港|くうこう}へ{行|い}きました。",
+    "answer": "で",
+    "choices": [
+     "で",
+     "に",
+     "を"
+    ],
+    "why": "Means of transport: で.",
+    "answerKana": "で"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:time-ni",
+  "level": "n5",
+  "unit": 4,
+  "order": 454,
+  "title": "に (time)",
+  "pattern": "[time] に",
+  "summary": "at (a specific time)",
+  "explanation": "に marks a specific time: 七時に \"at seven\", 日曜日に \"on Sunday\". Words like 今日, 明日, 毎日 take no に.",
+  "examples": [
+   {
+    "jp": "{七時|しちじ}に{起|お}きます。",
+    "kana": "しちじにおきます。",
+    "romaji": "shichiji ni okimasu.",
+    "en": "I get up at seven."
+   },
+   {
+    "jp": "{土曜日|どようび}に{買|か}い{物|もの}をします。",
+    "kana": "どようびにかいものをします。",
+    "romaji": "doyoubi ni kaimono o shimasu.",
+    "en": "I go shopping on Saturday."
+   },
+   {
+    "jp": "{明日日本|あした}に{来|ほんにき}ます。",
+    "kana": "あしたにほんにきます。",
+    "romaji": "ashita nihon ni kimasu.",
+    "en": "He comes to Japan tomorrow."
+   }
+  ],
+  "mistakes": [
+   "明日に, 今日に: relative time words do not take に."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{毎朝|まいあさ}六{時|じ}＿{起|お}きます。",
+    "answer": "に",
+    "choices": [
+     "に",
+     "で",
+     "を"
+    ],
+    "why": "A clock time takes に.",
+    "answerKana": "に"
+   },
+   {
+    "type": "choose",
+    "prompt": "Which is correct?",
+    "answer": "{明日|あした}{学校|がっこう}へ{行|い}きます。",
+    "choices": [
+     "{明日|あした}{学校|がっこう}へ{行|い}きます。",
+     "{明日|あした}に{学校|がっこう}へ{行|い}きます。"
+    ],
+    "why": "明日 takes no に.",
+    "answerKana": "あしたがっこうへいきます。"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:kara-made",
+  "level": "n5",
+  "unit": 4,
+  "order": 455,
+  "title": "から・まで",
+  "pattern": "[A] から [B] まで",
+  "summary": "from A to B",
+  "explanation": "から is \"from\", まで is \"until / up to\", for both time and place.",
+  "examples": [
+   {
+    "jp": "{九時|くじ}から{五時|ごじ}まで{働|はたら}きます。",
+    "kana": "くじからごじまではたらきます。",
+    "romaji": "kuji kara goji made hatarakimasu.",
+    "en": "I work from nine to five."
+   },
+   {
+    "jp": "{家|いえ}から{駅|えき}まで{歩|ある}きます。",
+    "kana": "いえからえきまであるきます。",
+    "romaji": "ie kara eki made arukimasu.",
+    "en": "I walk from home to the station."
+   },
+   {
+    "jp": "{授業|じゅぎょう}は{何時|なんじ}からですか。",
+    "kana": "じゅぎょうはなんじからですか。",
+    "romaji": "jugyou wa nanji kara desu ka.",
+    "en": "What time does class start from?"
+   }
+  ],
+  "mistakes": [
+   "まで means \"until\"; \"even\" is also まで but that is a later point."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{銀行|ぎんこう}は九{時|じ}＿三{時|じ}までです。",
+    "answer": "から",
+    "choices": [
+     "から",
+     "まで",
+     "に"
+    ],
+    "why": "The start point is から.",
+    "answerKana": "から"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:nani-nan",
+  "level": "n5",
+  "unit": 5,
+  "order": 556,
+  "title": "何 (なに・なん)",
+  "pattern": "何 + です/を / 何 + counter",
+  "summary": "what",
+  "explanation": "何 is read なん before です, の, and counters (何時, 何人), and なに before を and most particles: 何を食べますか.",
+  "examples": [
+   {
+    "jp": "それは{何|なん}ですか。",
+    "kana": "それはなんですか。",
+    "romaji": "sore wa nan desu ka.",
+    "en": "What is that?"
+   },
+   {
+    "jp": "{何|なに}を{食|た}べますか。",
+    "kana": "なにをたべますか。",
+    "romaji": "nani o tabemasu ka.",
+    "en": "What will you eat?"
+   },
+   {
+    "jp": "{今何時|いまなんじ}ですか。",
+    "kana": "いまなんじですか。",
+    "romaji": "ima nanji desu ka.",
+    "en": "What time is it now?"
+   }
+  ],
+  "mistakes": [
+   "Reading 何時 as なにじ: it is なんじ."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "How do you read {何|なに} in {何|なん}ですか?",
+    "answer": "なん",
+    "choices": [
+     "なん",
+     "なに"
+    ],
+    "why": "Before です: なん.",
+    "answerKana": "なん"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:counters",
+  "level": "n5",
+  "unit": 5,
+  "order": 557,
+  "title": "Counters: つ・人・枚・本・歳",
+  "pattern": "[N] を [number + counter] [V]",
+  "summary": "counting things and people",
+  "explanation": "Japanese counts with counters: ひとつ・ふたつ (things), 一人・二人 (people), 枚 (flat things), 本 (long things), 歳 (age). The number phrase usually comes right before the verb.",
+  "examples": [
+   {
+    "jp": "りんごを三つ{買|か}いました。",
+    "kana": "りんごをみっつかいました。",
+    "romaji": "ringo o mittsu kaimashita.",
+    "en": "I bought three apples."
+   },
+   {
+    "jp": "{学生|がくせい}が二人います。",
+    "kana": "がくせいがふたりいます。",
+    "romaji": "gakusei ga futari imasu.",
+    "en": "There are two students."
+   },
+   {
+    "jp": "{切手|きって}を{五枚|ごまい}ください。",
+    "kana": "きってをごまいください。",
+    "romaji": "kitte o gomai kudasai.",
+    "en": "Five stamps, please."
+   }
+  ],
+  "mistakes": [
+   "一人 is ひとり and 二人 is ふたり; from three it is regular: さんにん."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ビールを二＿ください。(bottles)",
+    "answer": "本",
+    "choices": [
+     "本",
+     "{枚|まい}",
+     "人"
+    ],
+    "why": "Bottles are long: 本.",
+    "answerKana": "ほん"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ikura",
+  "level": "n5",
+  "unit": 5,
+  "order": 558,
+  "title": "いくら・いくつ",
+  "pattern": "N はいくらですか / いくつ",
+  "summary": "how much, how many",
+  "explanation": "いくら asks price; いくつ asks a number of things or someone's age (politely おいくつ).",
+  "examples": [
+   {
+    "jp": "このかばんはいくらですか。",
+    "kana": "このかばんはいくらですか。",
+    "romaji": "kono kaban wa ikura desu ka.",
+    "en": "How much is this bag?"
+   },
+   {
+    "jp": "三千円です。",
+    "kana": "さんぜんえんです。",
+    "romaji": "sanzen en desu.",
+    "en": "It is 3,000 yen."
+   },
+   {
+    "jp": "りんごをいくつ{買|か}いますか。",
+    "kana": "りんごをいくつかいますか。",
+    "romaji": "ringo o ikutsu kaimasu ka.",
+    "en": "How many apples will you buy?"
+   }
+  ],
+  "mistakes": [
+   "三千 is さんぜん, not さんせん."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{時計|とけい}は＿ですか。(how much)",
+    "answer": "いくら",
+    "choices": [
+     "いくら",
+     "いくつ",
+     "いつ"
+    ],
+    "why": "Price: いくら.",
+    "answerKana": "いくら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:adj-i",
+  "level": "n5",
+  "unit": 6,
+  "order": 659,
+  "title": "い-adjectives",
+  "pattern": "[A-い] です / [A-くない] です",
+  "summary": "describing with い-adjectives",
+  "explanation": "い-adjectives end in い and go straight before a noun or before です. Negative: drop い, add くない. いい becomes よくない.",
+  "examples": [
+   {
+    "jp": "この本は{面白|おもしろ}いです。",
+    "kana": "このほんはおもしろいです。",
+    "romaji": "kono hon wa omoshiroi desu.",
+    "en": "This book is interesting."
+   },
+   {
+    "jp": "大きい{犬|いぬ}がいます。",
+    "kana": "おおきいいぬがいます。",
+    "romaji": "ookii inu ga imasu.",
+    "en": "There is a big dog."
+   },
+   {
+    "jp": "{今日|きょう}は{寒|さむ}くないです。",
+    "kana": "きょうはさむくないです。",
+    "romaji": "kyou wa samukunai desu.",
+    "en": "It is not cold today."
+   }
+  ],
+  "mistakes": [
+   "いいくない is wrong: よくない.",
+   "Adding な before a noun: 大きい犬, not 大きいな犬."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{町|まち}は＿です。(not big)",
+    "answer": "大きくない",
+    "choices": [
+     "大きくない",
+     "大きいない",
+     "大きじゃない"
+    ],
+    "why": "Drop い, add くない.",
+    "answerKana": "おおきくない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:adj-na",
+  "level": "n5",
+  "unit": 6,
+  "order": 650,
+  "title": "な-adjectives",
+  "pattern": "[A-な] N / [A] です / [A] じゃありません",
+  "summary": "describing with な-adjectives",
+  "explanation": "な-adjectives behave like nouns: before a noun add な (静かな部屋); before です nothing; negative じゃありません.",
+  "examples": [
+   {
+    "jp": "{静|しず}かな{町|まち}です。",
+    "kana": "しずかなまちです。",
+    "romaji": "shizuka na machi desu.",
+    "en": "It is a quiet town."
+   },
+   {
+    "jp": "{田中|たなか}さんは{親切|しんせつ}です。",
+    "kana": "たなかさんはしんせつです。",
+    "romaji": "tanaka-san wa shinsetsu desu.",
+    "en": "Mr Tanaka is kind."
+   },
+   {
+    "jp": "この{店|みせ}は{便利|べんり}じゃありません。",
+    "kana": "このみせはべんりじゃありません。",
+    "romaji": "kono mise wa benri ja arimasen.",
+    "en": "This shop is not convenient."
+   }
+  ],
+  "mistakes": [
+   "きれい and 嫌い end in い but are な-adjectives: きれいな花."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿{花|はな}ですね。(pretty)",
+    "answer": "きれいな",
+    "choices": [
+     "きれいな",
+     "きれい",
+     "きれいい"
+    ],
+    "why": "な-adjective before a noun needs な.",
+    "answerKana": "きれいな"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:adj-past",
+  "level": "n5",
+  "unit": 6,
+  "order": 651,
+  "title": "Adjectives in the past",
+  "pattern": "[A-かった] です / [A-くなかった] です / [A-na] でした",
+  "summary": "was / was not",
+  "explanation": "い-adjective past: drop い, add かった (negative: くなかった). な-adjectives and nouns use でした / じゃありませんでした.",
+  "examples": [
+   {
+    "jp": "{昨日|きのう}は{暑|あつ}かったです。",
+    "kana": "きのうはあつかったです。",
+    "romaji": "kinou wa atsukatta desu.",
+    "en": "Yesterday was hot."
+   },
+   {
+    "jp": "{映画|えいが}は{面白|おもしろ}くなかったです。",
+    "kana": "えいがはおもしろくなかったです。",
+    "romaji": "eiga wa omoshirokunakatta desu.",
+    "en": "The film was not interesting."
+   },
+   {
+    "jp": "{旅行|りょこう}は{楽|たの}しかったです。",
+    "kana": "りょこうはたのしかったです。",
+    "romaji": "ryokou wa tanoshikatta desu.",
+    "en": "The trip was fun."
+   }
+  ],
+  "mistakes": [
+   "暑いでした is wrong: 暑かったです."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "テストは＿です。(was difficult)",
+    "answer": "{難|むずか}しかった",
+    "choices": [
+     "{難|むずか}しかった",
+     "{難|むずか}しいでした",
+     "{難|むずか}しくて"
+    ],
+    "why": "い-adjective past: かった.",
+    "answerKana": "むずかしかった"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:donna",
+  "level": "n5",
+  "unit": 6,
+  "order": 652,
+  "title": "どんな・どう",
+  "pattern": "どんな N / N はどうですか",
+  "summary": "what kind of; how is",
+  "explanation": "どんな + noun asks \"what kind of\"; どうですか asks for an opinion or how something is.",
+  "examples": [
+   {
+    "jp": "日本はどんな{国|くに}ですか。",
+    "kana": "にほんはどんなくにですか。",
+    "romaji": "nihon wa donna kuni desu ka.",
+    "en": "What kind of country is Japan?"
+   },
+   {
+    "jp": "{新|あたら}しい{仕事|しごと}はどうですか。",
+    "kana": "あたらしいしごとはどうですか。",
+    "romaji": "atarashii shigoto wa dou desu ka.",
+    "en": "How is the new job?"
+   },
+   {
+    "jp": "とても{忙|いそが}しいです。",
+    "kana": "とてもいそがしいです。",
+    "romaji": "totemo isogashii desu.",
+    "en": "It is very busy."
+   }
+  ],
+  "mistakes": [
+   "どんな must be followed by a noun."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿人ですか。(what kind of)",
+    "answer": "どんな",
+    "choices": [
+     "どんな",
+     "どう",
+     "どれ"
+    ],
+    "why": "どんな + noun.",
+    "answerKana": "どんな"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:to-and",
+  "level": "n5",
+  "unit": 7,
+  "order": 753,
+  "title": "N と N / N と (with)",
+  "pattern": "[A] と [B] / [person] と [V]",
+  "summary": "and (nouns); with",
+  "explanation": "と joins nouns in a complete list and marks a companion: 友達と行きます \"go with a friend\".",
+  "examples": [
+   {
+    "jp": "パンと{卵|たまご}を{買|か}いました。",
+    "kana": "パンとたまごをかいました。",
+    "romaji": "pan to tamago o kaimashita.",
+    "en": "I bought bread and eggs."
+   },
+   {
+    "jp": "{友達|ともだち}と{映画|えいが}を{見|み}ます。",
+    "kana": "ともだちとえいがをみます。",
+    "romaji": "tomodachi to eiga o mimasu.",
+    "en": "I watch a film with a friend."
+   },
+   {
+    "jp": "{誰|だれ}と{行|い}きますか。",
+    "kana": "だれといきますか。",
+    "romaji": "dare to ikimasu ka.",
+    "en": "Who are you going with?"
+   }
+  ],
+  "mistakes": [
+   "と joins nouns only, not sentences."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{母|はは}＿{買|か}い{物|もの}に{行|い}きます。(with)",
+    "answer": "と",
+    "choices": [
+     "と",
+     "に",
+     "や"
+    ],
+    "why": "Companion: と.",
+    "answerKana": "と"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ya-nado",
+  "level": "n5",
+  "unit": 7,
+  "order": 754,
+  "title": "N や N (など)",
+  "pattern": "[A] や [B] (など)",
+  "summary": "A and B, among others",
+  "explanation": "や lists examples without claiming the list is complete; など \"and so on\" can close it. と means the list is complete.",
+  "examples": [
+   {
+    "jp": "{机|つくえ}の上に本やノートがあります。",
+    "kana": "つくえのうえにほんやノートがあります。",
+    "romaji": "tsukue no ue ni hon ya nooto ga arimasu.",
+    "en": "There are books, notebooks and so on on the desk."
+   },
+   {
+    "jp": "りんごやバナナなどを{買|か}いました。",
+    "kana": "りんごやバナナなどをかいました。",
+    "romaji": "ringo ya banana nado o kaimashita.",
+    "en": "I bought apples, bananas and the like."
+   },
+   {
+    "jp": "{東京|とうきょう}や{大阪|おおさか}に{行|い}きました。",
+    "kana": "とうきょうやおおさかにいきました。",
+    "romaji": "toukyou ya oosaka ni ikimashita.",
+    "en": "I went to Tokyo, Osaka and other places."
+   }
+  ],
+  "mistakes": [
+   "Using や for two things that are the whole list: that is と."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "You bought many things and mention two: which particle?",
+    "answer": "や",
+    "choices": [
+     "や",
+     "と"
+    ],
+    "why": "Incomplete list: や.",
+    "answerKana": "や"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:mo",
+  "level": "n5",
+  "unit": 7,
+  "order": 755,
+  "title": "も (also)",
+  "pattern": "[N] も",
+  "summary": "also, too",
+  "explanation": "も replaces は or が (and を) to mean \"also\". It can also follow に・で: 東京にも \"also in Tokyo\".",
+  "examples": [
+   {
+    "jp": "{私|わたし}も{学生|がくせい}です。",
+    "kana": "わたしもがくせいです。",
+    "romaji": "watashi mo gakusei desu.",
+    "en": "I am a student too."
+   },
+   {
+    "jp": "コーヒーもお{茶|ちゃ}も{好|す}きです。",
+    "kana": "コーヒーもおちゃもすきです。",
+    "romaji": "koohii mo ocha mo suki desu.",
+    "en": "I like both coffee and tea."
+   },
+   {
+    "jp": "{何|なに}も{食|た}べませんでした。",
+    "kana": "なにもたべませんでした。",
+    "romaji": "nani mo tabemasen deshita.",
+    "en": "I ate nothing."
+   }
+  ],
+  "mistakes": [
+   "私はも: も replaces は, never follows it."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "田中さんは{学生|がくせい}です。山田さん＿{学生|がくせい}です。",
+    "answer": "も",
+    "choices": [
+     "も",
+     "は",
+     "が"
+    ],
+    "why": "Also: も.",
+    "answerKana": "も"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ga-subject",
+  "level": "n5",
+  "unit": 7,
+  "order": 756,
+  "title": "が (subject)",
+  "pattern": "[N] が [V/A]",
+  "summary": "marks the subject; new information",
+  "explanation": "が marks the grammatical subject, especially new information, question words (誰が), and the thing liked/wanted/understood with 好き・分かる・あります.",
+  "examples": [
+   {
+    "jp": "{誰|だれ}が{来|き}ますか。",
+    "kana": "だれがきますか。",
+    "romaji": "dare ga kimasu ka.",
+    "en": "Who is coming?"
+   },
+   {
+    "jp": "{雨|あめ}が{降|ふ}っています。",
+    "kana": "あめがふっています。",
+    "romaji": "ame ga futte imasu.",
+    "en": "It is raining."
+   },
+   {
+    "jp": "{日本語|にほんご}が{分|わ}かります。",
+    "kana": "にほんごがわかります。",
+    "romaji": "nihongo ga wakarimasu.",
+    "en": "I understand Japanese."
+   }
+  ],
+  "mistakes": [
+   "Question words as subject take が, not は: 誰が, never 誰は."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿が{来|き}ましたか。",
+    "answer": "{誰|だれ}",
+    "choices": [
+     "{誰|だれ}",
+     "{誰|だれ}は",
+     "どこで"
+    ],
+    "why": "Question word subject + が.",
+    "answerKana": "だれ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:suki-kirai",
+  "level": "n5",
+  "unit": 8,
+  "order": 857,
+  "title": "〜が好きです・嫌いです・上手です",
+  "pattern": "[N] が 好き/嫌い/上手/下手 です",
+  "summary": "like, dislike, good at, bad at",
+  "explanation": "With these な-adjectives the thing liked or done well takes が, not を.",
+  "examples": [
+   {
+    "jp": "{私|わたし}は{音楽|おんがく}が{好|す}きです。",
+    "kana": "わたしはおんがくがすきです。",
+    "romaji": "watashi wa ongaku ga suki desu.",
+    "en": "I like music."
+   },
+   {
+    "jp": "{弟|おとうと}は{野菜|やさい}が{嫌|きら}いです。",
+    "kana": "おとうとはやさいがきらいです。",
+    "romaji": "otouto wa yasai ga kirai desu.",
+    "en": "My brother dislikes vegetables."
+   },
+   {
+    "jp": "田中さんは{英語|えいご}が上手です。",
+    "kana": "たなかさんはえいごがじょうずです。",
+    "romaji": "tanaka-san wa eigo ga jouzu desu.",
+    "en": "Mr Tanaka is good at English."
+   }
+  ],
+  "mistakes": [
+   "音楽を好きです is wrong: が."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{私|わたし}はすし＿{好|す}きです。",
+    "answer": "が",
+    "choices": [
+     "が",
+     "を",
+     "は"
+    ],
+    "why": "The liked thing takes が.",
+    "answerKana": "が"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:hoshii-tai",
+  "level": "n5",
+  "unit": 8,
+  "order": 858,
+  "title": "〜が欲しい・〜たい",
+  "pattern": "[N] が欲しいです / [V-stem] たいです",
+  "summary": "want (a thing); want to (do)",
+  "explanation": "欲しい is an い-adjective: 車が欲しいです \"I want a car\". For actions, attach たい to the ます-stem: 食べたいです. Both take が (を is also heard with たい).",
+  "examples": [
+   {
+    "jp": "{新|あたら}しいパソコンが{欲|ほ}しいです。",
+    "kana": "あたらしいパソコンがほしいです。",
+    "romaji": "atarashii pasokon ga hoshii desu.",
+    "en": "I want a new computer."
+   },
+   {
+    "jp": "日本へ{行|い}きたいです。",
+    "kana": "にほんへいきたいです。",
+    "romaji": "nihon e ikitai desu.",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "{何|なに}が{食|た}べたいですか。",
+    "kana": "なにがたべたいですか。",
+    "romaji": "nani ga tabetai desu ka.",
+    "en": "What do you want to eat?"
+   }
+  ],
+  "mistakes": [
+   "たい conjugates like an い-adjective: 行きたくないです (do not want to go)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "水が{飲|の}み＿です。(want to drink)",
+    "answer": "たい",
+    "choices": [
+     "たい",
+     "ます",
+     "ほしい"
+    ],
+    "why": "Verb stem + たい.",
+    "answerKana": "たい"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:masen-ka",
+  "level": "n5",
+  "unit": 8,
+  "order": 859,
+  "title": "〜ませんか・〜ましょう",
+  "pattern": "[V-ませんか] / [V-ましょう]",
+  "summary": "won't you…? / let's…",
+  "explanation": "ませんか invites politely (\"won't you…?\"); ましょう suggests doing something together (\"let's\").",
+  "examples": [
+   {
+    "jp": "{一緒|いっしょ}に{昼|ひる}ご{飯|はん}を{食|た}べませんか。",
+    "kana": "いっしょにひるごはんをたべませんか。",
+    "romaji": "issho ni hirugohan o tabemasen ka.",
+    "en": "Won't you have lunch with me?"
+   },
+   {
+    "jp": "ええ、{食|た}べましょう。",
+    "kana": "ええ、たべましょう。",
+    "romaji": "ee, tabemashou.",
+    "en": "Yes, let's."
+   },
+   {
+    "jp": "{少|すこ}し{休|やす}みましょう。",
+    "kana": "すこしやすみましょう。",
+    "romaji": "sukoshi yasumimashou.",
+    "en": "Let's rest a little."
+   }
+  ],
+  "mistakes": [
+   "ましょうか offers help: 手伝いましょうか \"Shall I help?\""
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{映画|えいが}を{見|み}＿。(won't you?)",
+    "answer": "ませんか",
+    "choices": [
+     "ませんか",
+     "ましょう",
+     "ますか"
+    ],
+    "why": "Invitation: ませんか.",
+    "answerKana": "ませんか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:kudasai",
+  "level": "n5",
+  "unit": 9,
+  "order": 950,
+  "title": "N をください",
+  "pattern": "[N] を ください / [N] を [number] ください",
+  "summary": "please give me",
+  "explanation": "ください after を asks for a thing: 水をください \"water, please\". Add a number phrase before ください to specify how many.",
+  "examples": [
+   {
+    "jp": "コーヒーをください。",
+    "kana": "コーヒーをください。",
+    "romaji": "koohii o kudasai.",
+    "en": "Coffee, please."
+   },
+   {
+    "jp": "この本を{二冊|にさつ}ください。",
+    "kana": "このほんをにさつください。",
+    "romaji": "kono hon o nisatsu kudasai.",
+    "en": "Two copies of this book, please."
+   },
+   {
+    "jp": "すみません、水をください。",
+    "kana": "すみません、みずをください。",
+    "romaji": "sumimasen, mizu o kudasai.",
+    "en": "Excuse me, water please."
+   }
+  ],
+  "mistakes": [
+   "ください alone is \"please give me\"; \"please do\" needs the て-form (next point)."
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "prompt": "Make: \"Tea, please.\"",
+    "answer": "お{茶|ちゃ}をください",
+    "choices": [
+     "お{茶|ちゃ}",
+     "を",
+     "ください"
+    ],
+    "why": "Noun + を + ください.",
+    "answerKana": "おちゃをください"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-form",
+  "level": "n5",
+  "unit": 9,
+  "order": 951,
+  "title": "て-form",
+  "pattern": "[V-て]",
+  "summary": "the connecting form",
+  "explanation": "The て-form links verbs to many patterns. Godan verbs change by their last sound: う・つ・る → って; む・ぶ・ぬ → んで; く → いて (行く → 行って); ぐ → いで; す → して. Ichidan verbs: drop る, add て. する → して, 来る → 来て.",
+  "examples": [
+   {
+    "jp": "{書|か}く → {書|か}いて",
+    "kana": "かく → かいて",
+    "romaji": "kaku → kaite",
+    "en": "write"
+   },
+   {
+    "jp": "{飲|の}む → {飲|の}んで",
+    "kana": "のむ → のんで",
+    "romaji": "nomu → nonde",
+    "en": "drink"
+   },
+   {
+    "jp": "{食|た}べる → {食|た}べて",
+    "kana": "たべる → たべて",
+    "romaji": "taberu → tabete",
+    "en": "eat"
+   }
+  ],
+  "mistakes": [
+   "行く is irregular: 行って, not 行いて.",
+   "帰る is godan: 帰って, not 帰て."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "て-form of {待|ま}つ",
+    "answer": "{待|ま}って",
+    "choices": [
+     "{待|ま}って",
+     "{待|ま}んで",
+     "{待|ま}て"
+    ],
+    "why": "つ → って.",
+    "answerKana": "まって"
+   },
+   {
+    "type": "choose",
+    "prompt": "て-form of {読|よ}む",
+    "answer": "{読|よ}んで",
+    "choices": [
+     "{読|よ}んで",
+     "{読|よ}って",
+     "{読|よ}みて"
+    ],
+    "why": "む → んで.",
+    "answerKana": "よんで"
+   },
+   {
+    "type": "choose",
+    "prompt": "て-form of {見|み}る",
+    "answer": "{見|み}て",
+    "choices": [
+     "{見|み}て",
+     "{見|み}って",
+     "{見|み}んで"
+    ],
+    "why": "Ichidan: drop る, add て.",
+    "answerKana": "みて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-kudasai",
+  "level": "n5",
+  "unit": 9,
+  "order": 952,
+  "title": "〜てください",
+  "pattern": "[V-て] ください",
+  "summary": "please do",
+  "explanation": "て-form + ください makes a polite request.",
+  "examples": [
+   {
+    "jp": "ここに{名前|なまえ}を{書|か}いてください。",
+    "kana": "ここになまえをかいてください。",
+    "romaji": "koko ni namae o kaite kudasai.",
+    "en": "Please write your name here."
+   },
+   {
+    "jp": "ちょっと{待|ま}ってください。",
+    "kana": "ちょっとまってください。",
+    "romaji": "chotto matte kudasai.",
+    "en": "Please wait a moment."
+   },
+   {
+    "jp": "もう{一度言|いちどい}ってください。",
+    "kana": "もういちどいってください。",
+    "romaji": "mou ichido itte kudasai.",
+    "en": "Please say it once more."
+   }
+  ],
+  "mistakes": [
+   "Using the ます-stem: 書きください is wrong."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ゆっくり＿ください。(speak)",
+    "answer": "{話|はなし}して",
+    "choices": [
+     "{話|はなし}して",
+     "{話|はなし}し",
+     "{話|はなし}す"
+    ],
+    "why": "て-form before ください.",
+    "answerKana": "はなしして"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-imasu",
+  "level": "n5",
+  "unit": 10,
+  "order": 1053,
+  "title": "〜ています",
+  "pattern": "[V-て] います",
+  "summary": "is doing; state",
+  "explanation": "ています shows an action in progress (食べています \"is eating\") or a continuing state (住んでいます \"lives\", 結婚しています \"is married\", 知っています \"knows\").",
+  "examples": [
+   {
+    "jp": "{今|いま}、本を{読|よ}んでいます。",
+    "kana": "いま、ほんをよんでいます。",
+    "romaji": "ima, hon o yonde imasu.",
+    "en": "I am reading a book now."
+   },
+   {
+    "jp": "{東京|とうきょう}に{住|す}んでいます。",
+    "kana": "とうきょうにすんでいます。",
+    "romaji": "toukyou ni sunde imasu.",
+    "en": "I live in Tokyo."
+   },
+   {
+    "jp": "田中さんを{知|し}っていますか。",
+    "kana": "たなかさんをしっていますか。",
+    "romaji": "tanaka-san o shitte imasu ka.",
+    "en": "Do you know Mr Tanaka?"
+   }
+  ],
+  "mistakes": [
+   "\"I don't know\" is 知りません, not 知っていません."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "父は{今|いま}テレビを{見|み}＿。(is watching)",
+    "answer": "ています",
+    "choices": [
+     "ています",
+     "ます",
+     "ました"
+    ],
+    "why": "In progress: ています.",
+    "answerKana": "ています"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-mo-ii",
+  "level": "n5",
+  "unit": 10,
+  "order": 1054,
+  "title": "〜てもいいです",
+  "pattern": "[V-て] もいいですか",
+  "summary": "may I…?; you may",
+  "explanation": "て-form + もいいです gives or asks permission.",
+  "examples": [
+   {
+    "jp": "ここで{写真|しゃしん}を{撮|と}ってもいいですか。",
+    "kana": "ここでしゃしんをとってもいいですか。",
+    "romaji": "koko de shashin o totte mo ii desu ka.",
+    "en": "May I take photos here?"
+   },
+   {
+    "jp": "はい、いいですよ。",
+    "kana": "はい、いいですよ。",
+    "romaji": "hai, ii desu yo.",
+    "en": "Yes, go ahead."
+   },
+   {
+    "jp": "{窓|まど}を{開|あ}けてもいいですか。",
+    "kana": "まどをあけてもいいですか。",
+    "romaji": "mado o akete mo ii desu ka.",
+    "en": "May I open the window?"
+   }
+  ],
+  "mistakes": [
+   "The refusal is てはいけません (next point), not てもいいじゃありません."
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "prompt": "Make: \"May I sit here?\"",
+    "answer": "ここに{座|すわ}ってもいいですか",
+    "choices": [
+     "ここに",
+     "{座|すわ}っても",
+     "いいですか"
+    ],
+    "why": "て + もいいですか.",
+    "answerKana": "ここにすわってもいいですか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-wa-ikemasen",
+  "level": "n5",
+  "unit": 10,
+  "order": 1055,
+  "title": "〜てはいけません",
+  "pattern": "[V-て] はいけません",
+  "summary": "must not",
+  "explanation": "て-form + はいけません forbids: ここで吸ってはいけません \"you must not smoke here\".",
+  "examples": [
+   {
+    "jp": "ここでタバコを{吸|す}ってはいけません。",
+    "kana": "ここでタバコをすってはいけません。",
+    "romaji": "koko de tabako o sutte wa ikemasen.",
+    "en": "You must not smoke here."
+   },
+   {
+    "jp": "{教室|きょうしつ}で{食|た}べてはいけません。",
+    "kana": "きょうしつでたべてはいけません。",
+    "romaji": "kyoushitsu de tabete wa ikemasen.",
+    "en": "You must not eat in the classroom."
+   },
+   {
+    "jp": "{写真|しゃしん}を{撮|と}ってはいけません。",
+    "kana": "しゃしんをとってはいけません。",
+    "romaji": "shashin o totte wa ikemasen.",
+    "en": "Photography is not allowed."
+   }
+  ],
+  "mistakes": [
+   "は here is read \"wa\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ここに{車|くるま}を{止|と}めて＿。(must not)",
+    "answer": "はいけません",
+    "choices": [
+     "はいけません",
+     "もいいです",
+     "ください"
+    ],
+    "why": "Prohibition.",
+    "answerKana": "はいけません"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-kara",
+  "level": "n5",
+  "unit": 11,
+  "order": 1156,
+  "title": "〜てから",
+  "pattern": "[V-て] から、[sentence]",
+  "summary": "after doing…",
+  "explanation": "て-form + から means \"after doing X\". Different from から \"because\".",
+  "examples": [
+   {
+    "jp": "ご{飯|はん}を{食|た}べてから、{薬|くすり}を{飲|の}みます。",
+    "kana": "ごはんをたべてから、くすりをのみます。",
+    "romaji": "gohan o tabete kara, kusuri o nomimasu.",
+    "en": "I take the medicine after eating."
+   },
+   {
+    "jp": "{仕事|しごと}が{終|お}わってから、{映画|えいが}を{見|み}ました。",
+    "kana": "しごとがおわってから、えいがをみました。",
+    "romaji": "shigoto ga owatte kara, eiga o mimashita.",
+    "en": "After work ended, I watched a film."
+   },
+   {
+    "jp": "手を{洗|あら}ってから{食|た}べてください。",
+    "kana": "てをあらってからたべてください。",
+    "romaji": "te o aratte kara tabete kudasai.",
+    "en": "Please wash your hands before you eat."
+   }
+  ],
+  "mistakes": [
+   "Only the last verb carries the tense."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{宿題|しゅくだい}をして＿、テレビを{見|み}ます。",
+    "answer": "から",
+    "choices": [
+     "から",
+     "まで",
+     "に"
+    ],
+    "why": "After doing: てから.",
+    "answerKana": "から"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-sequence",
+  "level": "n5",
+  "unit": 11,
+  "order": 1157,
+  "title": "て-form for sequences",
+  "pattern": "[V1-て]、[V2-て]、[V3]",
+  "summary": "do X, then Y, then Z",
+  "explanation": "Join actions in order with て-forms; only the last verb shows tense and politeness.",
+  "examples": [
+   {
+    "jp": "{朝起|あさお}きて、シャワーを{浴|あ}びて、{会社|かいしゃ}に{行|い}きます。",
+    "kana": "あさおきて、シャワーをあびて、かいしゃにいきます。",
+    "romaji": "asa okite, shawaa o abite, kaisha ni ikimasu.",
+    "en": "In the morning I get up, shower, and go to work."
+   },
+   {
+    "jp": "{駅|えき}に{行|い}って、{切符|きっぷ}を{買|か}いました。",
+    "kana": "えきにいって、きっぷをかいました。",
+    "romaji": "eki ni itte, kippu o kaimashita.",
+    "en": "I went to the station and bought a ticket."
+   },
+   {
+    "jp": "{友達|ともだち}に{会|あ}って、{話|はな}しました。",
+    "kana": "ともだちにあって、はなしました。",
+    "romaji": "tomodachi ni atte, hanashimashita.",
+    "en": "I met a friend and talked."
+   }
+  ],
+  "mistakes": [
+   "Putting ます on every verb: only the last."
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "prompt": "Make: \"I ate breakfast and went to school.\"",
+    "answer": "{朝|あさ}ご{飯|はん}を{食|た}べて学校に{行|い}きました",
+    "choices": [
+     "{朝|あさ}ご{飯|はん}を",
+     "{食|た}べて",
+     "学校に",
+     "{行|い}きました"
+    ],
+    "why": "Sequence with て.",
+    "answerKana": "あさごはんをたべてがっこうにいきました"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:nai-form",
+  "level": "n5",
+  "unit": 11,
+  "order": 1158,
+  "title": "ない-form",
+  "pattern": "[V-ない]",
+  "summary": "plain negative",
+  "explanation": "Godan: change the final u-sound to a-sound and add ない (書く → 書かない; う → わない: 買わない). Ichidan: drop る, add ない. する → しない, 来る → 来ない, ある → ない.",
+  "examples": [
+   {
+    "jp": "{行|い}かない",
+    "kana": "いかない",
+    "romaji": "ikanai",
+    "en": "not go"
+   },
+   {
+    "jp": "{食|た}べない",
+    "kana": "たべない",
+    "romaji": "tabenai",
+    "en": "not eat"
+   },
+   {
+    "jp": "{来|こ}ない",
+    "kana": "こない",
+    "romaji": "konai",
+    "en": "not come"
+   }
+  ],
+  "mistakes": [
+   "買う → 買わない, not 買あない."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "ない-form of {飲|の}む",
+    "answer": "{飲|の}まない",
+    "choices": [
+     "{飲|の}まない",
+     "{飲|の}みない",
+     "{飲|の}むない"
+    ],
+    "why": "む → まない.",
+    "answerKana": "のまない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:naide-kudasai",
+  "level": "n5",
+  "unit": 11,
+  "order": 1159,
+  "title": "〜ないでください",
+  "pattern": "[V-ない] でください",
+  "summary": "please do not",
+  "explanation": "ない-form + でください asks someone not to do something.",
+  "examples": [
+   {
+    "jp": "ここで{写真|しゃしん}を{撮|と}らないでください。",
+    "kana": "ここでしゃしんをとらないでください。",
+    "romaji": "koko de shashin o toranaide kudasai.",
+    "en": "Please do not take photos here."
+   },
+   {
+    "jp": "{忘|わす}れないでください。",
+    "kana": "わすれないでください。",
+    "romaji": "wasurenaide kudasai.",
+    "en": "Please do not forget."
+   },
+   {
+    "jp": "大きい{声|こえ}で{話|はな}さないでください。",
+    "kana": "おおきいこえではなさないでください。",
+    "romaji": "ookii koe de hanasanaide kudasai.",
+    "en": "Please do not speak loudly."
+   }
+  ],
+  "mistakes": [
+   "ないください without で is wrong."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ドアを{閉|し}め＿ください。(please don't close)",
+    "answer": "ないで",
+    "choices": [
+     "ないで",
+     "なくて",
+     "ません"
+    ],
+    "why": "ないでください.",
+    "answerKana": "ないで"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:nakereba",
+  "level": "n5",
+  "unit": 12,
+  "order": 1250,
+  "title": "〜なければなりません",
+  "pattern": "[V-なければ] なりません",
+  "summary": "must, have to",
+  "explanation": "From the ない-form: drop い, add ければなりません. In speech なければいけません and なきゃ are common.",
+  "examples": [
+   {
+    "jp": "{明日早|あしたはや}く{起|お}きなければなりません。",
+    "kana": "あしたはやくおきなければなりません。",
+    "romaji": "ashita hayaku okinakereba narimasen.",
+    "en": "I have to get up early tomorrow."
+   },
+   {
+    "jp": "{薬|くすり}を{飲|の}まなければなりません。",
+    "kana": "くすりをのまなければなりません。",
+    "romaji": "kusuri o nomanakereba narimasen.",
+    "en": "I must take the medicine."
+   },
+   {
+    "jp": "{宿題|しゅくだい}をしなければなりません。",
+    "kana": "しゅくだいをしなければなりません。",
+    "romaji": "shukudai o shinakereba narimasen.",
+    "en": "I have to do my homework."
+   }
+  ],
+  "mistakes": [
+   "This is obligation; \"must not\" is てはいけません."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "毎日{勉強|べんきょう}し＿なりません。",
+    "answer": "なければ",
+    "choices": [
+     "なければ",
+     "ないで",
+     "なくて"
+    ],
+    "why": "Obligation: なければなりません.",
+    "answerKana": "なければ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:nakute-mo-ii",
+  "level": "n5",
+  "unit": 12,
+  "order": 1251,
+  "title": "〜なくてもいいです",
+  "pattern": "[V-なくて] もいいです",
+  "summary": "need not",
+  "explanation": "From the ない-form: drop い, add くてもいいです: \"it is fine not to\".",
+  "examples": [
+   {
+    "jp": "{明日|あした}は{来|こ}なくてもいいです。",
+    "kana": "あしたはこなくてもいいです。",
+    "romaji": "ashita wa konakute mo ii desu.",
+    "en": "You need not come tomorrow."
+   },
+   {
+    "jp": "{靴|くつ}を{脱|ぬ}がなくてもいいですか。",
+    "kana": "くつをぬがなくてもいいですか。",
+    "romaji": "kutsu o nuganakute mo ii desu ka.",
+    "en": "Is it OK not to take off my shoes?"
+   },
+   {
+    "jp": "{急|いそ}がなくてもいいですよ。",
+    "kana": "いそがなくてもいいですよ。",
+    "romaji": "isoganakute mo ii desu yo.",
+    "en": "No need to hurry."
+   }
+  ],
+  "mistakes": [
+   "なくても, not ないでも."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "今日は{働|はたら}か＿いいです。(need not)",
+    "answer": "なくても",
+    "choices": [
+     "なくても",
+     "なければ",
+     "ないで"
+    ],
+    "why": "Permission not to: なくてもいい.",
+    "answerKana": "なくても"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:plain-form",
+  "level": "n5",
+  "unit": 12,
+  "order": 1252,
+  "title": "Plain (dictionary) form",
+  "pattern": "[V-る] / [V-ない] / [V-た] / [V-なかった]",
+  "summary": "casual speech and building blocks",
+  "explanation": "The dictionary form (食べる, 行く) is used with friends and inside many patterns. Past plain: た-form, made exactly like the て-form with た instead of て (書いた, 飲んだ, 食べた).",
+  "examples": [
+   {
+    "jp": "{明日映画|あしたえいが}を{見|み}る。",
+    "kana": "あしたえいがをみる。",
+    "romaji": "ashita eiga o miru.",
+    "en": "I'll see a film tomorrow. (casual)"
+   },
+   {
+    "jp": "{昨日|きのう}は何をした？",
+    "kana": "きのうはなにをした？",
+    "romaji": "kinou wa nani o shita?",
+    "en": "What did you do yesterday? (casual)"
+   },
+   {
+    "jp": "{行|い}かなかった。",
+    "kana": "いかなかった。",
+    "romaji": "ikanakatta.",
+    "en": "I didn't go. (casual)"
+   }
+  ],
+  "mistakes": [
+   "た-form of 行く is 行った."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "た-form of {読|よ}む",
+    "answer": "{読|よ}んだ",
+    "choices": [
+     "{読|よ}んだ",
+     "{読|よ}った",
+     "{読|よ}みた"
+    ],
+    "why": "む → んだ.",
+    "answerKana": "よんだ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ta-koto-ga-aru",
+  "level": "n5",
+  "unit": 13,
+  "order": 1353,
+  "title": "〜たことがあります",
+  "pattern": "[V-た] ことがあります",
+  "summary": "have (ever) done",
+  "explanation": "た-form + ことがあります expresses experience: \"I have been to / have done\".",
+  "examples": [
+   {
+    "jp": "日本に{行|い}ったことがあります。",
+    "kana": "にほんにいったことがあります。",
+    "romaji": "nihon ni itta koto ga arimasu.",
+    "en": "I have been to Japan."
+   },
+   {
+    "jp": "すしを{食|た}べたことがありますか。",
+    "kana": "すしをたべたことがありますか。",
+    "romaji": "sushi o tabeta koto ga arimasu ka.",
+    "en": "Have you ever eaten sushi?"
+   },
+   {
+    "jp": "いいえ、ありません。",
+    "kana": "いいえ、ありません。",
+    "romaji": "iie, arimasen.",
+    "en": "No, I haven't."
+   }
+  ],
+  "mistakes": [
+   "Use the た-form, not the ます-stem: 行きことが is wrong."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{富士山|ふじさん}に{登|のぼ}っ＿ことがあります。",
+    "answer": "た",
+    "choices": [
+     "た",
+     "て",
+     "る"
+    ],
+    "why": "Experience: たことがある.",
+    "answerKana": "た"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:tari-tari",
+  "level": "n5",
+  "unit": 13,
+  "order": 1354,
+  "title": "〜たり〜たりします",
+  "pattern": "[V-たり]、[V-たり] します",
+  "summary": "do things like X and Y",
+  "explanation": "List representative activities, not a sequence: 本を読んだり、音楽を聞いたりします.",
+  "examples": [
+   {
+    "jp": "{休|やす}みの日は本を{読|よ}んだり、{映画|えいが}を{見|み}たりします。",
+    "kana": "やすみのひはほんをよんだり、えいがをみたりします。",
+    "romaji": "yasumi no hi wa hon o yondari, eiga o mitari shimasu.",
+    "en": "On days off I do things like reading and watching films."
+   },
+   {
+    "jp": "{週末|しゅうまつ}は{掃除|そうじ}したり、{洗濯|せんたく}したりしました。",
+    "kana": "しゅうまつはそうじしたり、せんたくしたりしました。",
+    "romaji": "shuumatsu wa souji shitari, sentaku shitari shimashita.",
+    "en": "At the weekend I cleaned, did laundry and so on."
+   },
+   {
+    "jp": "{公園|こうえん}で{歩|ある}いたり、{話|はな}したりしました。",
+    "kana": "こうえんであるいたり、はなしたりしました。",
+    "romaji": "kouen de aruitari, hanashitari shimashita.",
+    "en": "We walked and talked in the park."
+   }
+  ],
+  "mistakes": [
+   "End with します/しました; the たり verbs carry no tense."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{日曜日|にちようび}は{買|か}い{物|もの}をし＿、{友達|ともだち}に{会|あ}ったりします。",
+    "answer": "たり",
+    "choices": [
+     "たり",
+     "て",
+     "たら"
+    ],
+    "why": "たり〜たり.",
+    "answerKana": "たり"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:mae-ni-ato-de",
+  "level": "n5",
+  "unit": 13,
+  "order": 1355,
+  "title": "〜前に・〜後で",
+  "pattern": "[V-る] 前に / [N] の前に ; [V-た] 後で / [N] の後で",
+  "summary": "before / after",
+  "explanation": "前に takes the dictionary form (寝る前に \"before sleeping\"); 後で takes the た-form (食べた後で \"after eating\") or noun + の.",
+  "examples": [
+   {
+    "jp": "{寝|ね}る前に{歯|は}を{磨|みが}きます。",
+    "kana": "ねるまえにはをみがきます。",
+    "romaji": "neru mae ni ha o migakimasu.",
+    "en": "I brush my teeth before going to bed."
+   },
+   {
+    "jp": "{仕事|しごと}の後でビールを{飲|の}みました。",
+    "kana": "しごとのあとでビールをのみました。",
+    "romaji": "shigoto no ato de biiru o nomimashita.",
+    "en": "I had a beer after work."
+   },
+   {
+    "jp": "{食|た}べた後で{散歩|さんぽ}しましょう。",
+    "kana": "たべたあとでさんぽしましょう。",
+    "romaji": "tabeta ato de sanpo shimashou.",
+    "en": "Let's take a walk after eating."
+   }
+  ],
+  "mistakes": [
+   "前に takes the dictionary form even in the past: 寝る前に…ました."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿前に手を{洗|あら}います。(eat)",
+    "answer": "{食|た}べる",
+    "choices": [
+     "{食|た}べる",
+     "{食|た}べた",
+     "{食|た}べて"
+    ],
+    "why": "Dictionary form before 前に.",
+    "answerKana": "たべる"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:kara-because",
+  "level": "n5",
+  "unit": 14,
+  "order": 1456,
+  "title": "〜から (because)",
+  "pattern": "[reason] から、[result]",
+  "summary": "because; so",
+  "explanation": "から after a clause gives the reason. The reason comes first; polite forms before から are fine.",
+  "examples": [
+   {
+    "jp": "時間がありませんから、タクシーで行きます。",
+    "kana": "じかんがありませんから、タクシーでいきます。",
+    "romaji": "jikan ga arimasen kara, takushii de ikimasu.",
+    "en": "There is no time, so I will go by taxi."
+   },
+   {
+    "jp": "{寒|さむ}いですから、{窓|まど}を{閉|し}めてください。",
+    "kana": "さむいですから、まどをしめてください。",
+    "romaji": "samui desu kara, mado o shimete kudasai.",
+    "en": "It is cold, so please close the window."
+   },
+   {
+    "jp": "どうして{休|やす}みましたか。{病気|びょうき}でしたから。",
+    "kana": "どうしてやすみましたか。びょうきでしたから。",
+    "romaji": "doushite yasumimashita ka. byouki deshita kara.",
+    "en": "Why were you absent? Because I was ill."
+   }
+  ],
+  "mistakes": [
+   "Putting the result first as in English \"because\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{暑|あつ}いです＿、エアコンをつけます。",
+    "answer": "から",
+    "choices": [
+     "から",
+     "ので",
+     "が"
+    ],
+    "why": "Reason + から.",
+    "answerKana": "から"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ga-but",
+  "level": "n5",
+  "unit": 14,
+  "order": 1457,
+  "title": "〜が (but)",
+  "pattern": "[sentence] が、[sentence]",
+  "summary": "but; softener",
+  "explanation": "が joins two sentences meaning \"but\". It also softens an opening: すみませんが \"excuse me, but…\".",
+  "examples": [
+   {
+    "jp": "日本語は{難|むずか}しいですが、{面白|おもしろ}いです。",
+    "kana": "にほんごはむずかしいですが、おもしろいです。",
+    "romaji": "nihongo wa muzukashii desu ga, omoshiroi desu.",
+    "en": "Japanese is difficult but interesting."
+   },
+   {
+    "jp": "すみませんが、{駅|えき}はどこですか。",
+    "kana": "すみませんが、えきはどこですか。",
+    "romaji": "sumimasen ga, eki wa doko desu ka.",
+    "en": "Excuse me, where is the station?"
+   },
+   {
+    "jp": "行きたいですが、お金がありません。",
+    "kana": "いきたいですが、おかねがありません。",
+    "romaji": "ikitai desu ga, okane ga arimasen.",
+    "en": "I want to go, but I have no money."
+   }
+  ],
+  "mistakes": [
+   "This が follows a full sentence; the subject particle が follows a noun."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{店|みせ}は{高|たか}いです＿、おいしいです。",
+    "answer": "が",
+    "choices": [
+     "が",
+     "から",
+     "と"
+    ],
+    "why": "Contrast: が.",
+    "answerKana": "が"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ne-yo",
+  "level": "n5",
+  "unit": 14,
+  "order": 1458,
+  "title": "〜ね・〜よ",
+  "pattern": "[sentence] ね / よ",
+  "summary": "seeking agreement; giving information",
+  "explanation": "ね asks for agreement or confirms (\"isn't it?\"); よ asserts information the listener does not have.",
+  "examples": [
+   {
+    "jp": "今日はいい{天気|てんき}ですね。",
+    "kana": "きょうはいいてんきですね。",
+    "romaji": "kyou wa ii tenki desu ne.",
+    "en": "Nice weather today, isn't it?"
+   },
+   {
+    "jp": "この{店|みせ}は{安|やす}いですよ。",
+    "kana": "このみせはやすいですよ。",
+    "romaji": "kono mise wa yasui desu yo.",
+    "en": "This shop is cheap, you know."
+   },
+   {
+    "jp": "{明日|あした}は{休|やす}みですね。",
+    "kana": "あしたはやすみですね。",
+    "romaji": "ashita wa yasumi desu ne.",
+    "en": "Tomorrow is a day off, right?"
+   }
+  ],
+  "mistakes": [
+   "Overusing よ sounds pushy; ね is the safer default."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "Telling someone a fact they didn't know: which ending?",
+    "answer": "よ",
+    "choices": [
+     "よ",
+     "ね"
+    ],
+    "why": "New information: よ.",
+    "answerKana": "よ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:comparison",
+  "level": "n5",
+  "unit": 15,
+  "order": 1559,
+  "title": "A より B のほうが",
+  "pattern": "[A] より [B] のほうが [adj] / [A] と [B] とどちらが",
+  "summary": "B is more … than A",
+  "explanation": "より marks the lesser; のほうが marks the greater. Ask with AとBとどちらが…ですか. Among three or more: 〜の中で〜が一番.",
+  "examples": [
+   {
+    "jp": "バスより{電車|でんしゃ}のほうが{速|はや}いです。",
+    "kana": "バスよりでんしゃのほうがはやいです。",
+    "romaji": "basu yori densha no hou ga hayai desu.",
+    "en": "The train is faster than the bus."
+   },
+   {
+    "jp": "コーヒーとお{茶|ちゃ}とどちらが{好|す}きですか。",
+    "kana": "コーヒーとおちゃとどちらがすきですか。",
+    "romaji": "koohii to ocha to dochira ga suki desu ka.",
+    "en": "Which do you like better, coffee or tea?"
+   },
+   {
+    "jp": "{果物|くだも}の中でりんごが{一番好|いちばんす}きです。",
+    "kana": "くだもののなかでりんごがいちばんすきです。",
+    "romaji": "kudamono no naka de ringo ga ichiban suki desu.",
+    "en": "Among fruits I like apples best."
+   }
+  ],
+  "mistakes": [
+   "より marks the one that is less, not more."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{東京|とうきょう}＿{大阪|おおさか}のほうが小さいです。",
+    "answer": "より",
+    "choices": [
+     "より",
+     "ほど",
+     "から"
+    ],
+    "why": "より marks the comparison base.",
+    "answerKana": "より"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:adverbs-ku-ni",
+  "level": "n5",
+  "unit": 15,
+  "order": 1550,
+  "title": "Adverbs: 〜く・〜に",
+  "pattern": "[A-い → A-く] V / [A-na → A-に] V",
+  "summary": "turning adjectives into adverbs",
+  "explanation": "い-adjectives become adverbs with く (早く \"early\"); な-adjectives with に (静かに \"quietly\").",
+  "examples": [
+   {
+    "jp": "{早|はや}く{起|お}きました。",
+    "kana": "はやくおきました。",
+    "romaji": "hayaku okimashita.",
+    "en": "I got up early."
+   },
+   {
+    "jp": "{静|しず}かに{話|はな}してください。",
+    "kana": "しずかにはなしてください。",
+    "romaji": "shizuka ni hanashite kudasai.",
+    "en": "Please speak quietly."
+   },
+   {
+    "jp": "日本語が上手になりました。",
+    "kana": "にほんごがじょうずになりました。",
+    "romaji": "nihongo ga jouzu ni narimashita.",
+    "en": "My Japanese has become good."
+   }
+  ],
+  "mistakes": [
+   "いい → よく: よく分かりました \"I understood well\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "もっと＿{書|か}いてください。(big)",
+    "answer": "大きく",
+    "choices": [
+     "大きく",
+     "大きい",
+     "大きに"
+    ],
+    "why": "い-adjective → く.",
+    "answerKana": "おおきく"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:naru",
+  "level": "n5",
+  "unit": 15,
+  "order": 1551,
+  "title": "〜くなります・〜になります",
+  "pattern": "[A-く] なります / [A-na / N] になります",
+  "summary": "to become",
+  "explanation": "なる \"become\" takes く from い-adjectives and に from な-adjectives and nouns.",
+  "examples": [
+   {
+    "jp": "{寒|さむ}くなりました。",
+    "kana": "さむくなりました。",
+    "romaji": "samuku narimashita.",
+    "en": "It has become cold."
+   },
+   {
+    "jp": "{部屋|へや}がきれいになりました。",
+    "kana": "へやがきれいになりました。",
+    "romaji": "heya ga kirei ni narimashita.",
+    "en": "The room has become clean."
+   },
+   {
+    "jp": "{医者|いしゃ}になりたいです。",
+    "kana": "いしゃになりたいです。",
+    "romaji": "isha ni naritai desu.",
+    "en": "I want to become a doctor."
+   }
+  ],
+  "mistakes": [
+   "医者がなる is wrong: 医者になる."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "先生＿なりました。",
+    "answer": "に",
+    "choices": [
+     "に",
+     "く",
+     "が"
+    ],
+    "why": "Noun + に + なる.",
+    "answerKana": "に"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:te-form-adj",
+  "level": "n5",
+  "unit": 16,
+  "order": 1652,
+  "title": "Joining adjectives: 〜くて・〜で",
+  "pattern": "[A-くて]、[A] / [A-na で]、[A]",
+  "summary": "X and Y (adjectives)",
+  "explanation": "い-adjectives join with くて (安くて おいしい); な-adjectives and nouns join with で (静かで きれい).",
+  "examples": [
+   {
+    "jp": "この{店|みせ}は{安|やす}くておいしいです。",
+    "kana": "このみせはやすくておいしいです。",
+    "romaji": "kono mise wa yasukute oishii desu.",
+    "en": "This restaurant is cheap and good."
+   },
+   {
+    "jp": "田中さんは{親切|しんせつ}で{面白|おもしろ}い人です。",
+    "kana": "たなかさんはしんせつでおもしろいひとです。",
+    "romaji": "tanaka-san wa shinsetsu de omoshiroi hito desu.",
+    "en": "Mr Tanaka is a kind and funny person."
+   },
+   {
+    "jp": "{部屋|へや}は{広|ひろ}くて{明|あか}るいです。",
+    "kana": "へやはひろくてあかるいです。",
+    "romaji": "heya wa hirokute akarui desu.",
+    "en": "The room is spacious and bright."
+   }
+  ],
+  "mistakes": [
+   "いい → よくて."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{町|まち}は{静|しず}か＿きれいです。",
+    "answer": "で",
+    "choices": [
+     "で",
+     "くて",
+     "と"
+    ],
+    "why": "な-adjective joins with で.",
+    "answerKana": "で"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:to-omoimasu",
+  "level": "n5",
+  "unit": 16,
+  "order": 1653,
+  "title": "〜と思います",
+  "pattern": "[plain form] と思います",
+  "summary": "I think that…",
+  "explanation": "Put the clause in the plain form, then と思います. Nouns and な-adjectives take だ before と.",
+  "examples": [
+   {
+    "jp": "{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}います。",
+    "kana": "あしたはあめがふるとおもいます。",
+    "romaji": "ashita wa ame ga furu to omoimasu.",
+    "en": "I think it will rain tomorrow."
+   },
+   {
+    "jp": "田中さんは来ないと{思|おも}います。",
+    "kana": "たなかさんはこないとおもいます。",
+    "romaji": "tanaka-san wa konai to omoimasu.",
+    "en": "I don't think Mr Tanaka will come."
+   },
+   {
+    "jp": "この本は{面白|おもしろ}いと{思|おも}います。",
+    "kana": "このほんはおもしろいとおもいます。",
+    "romaji": "kono hon wa omoshiroi to omoimasu.",
+    "en": "I think this book is interesting."
+   }
+  ],
+  "mistakes": [
+   "Using ます before と: 降りますと思います is unnatural."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}は学生＿と{思|おも}います。",
+    "answer": "だ",
+    "choices": [
+     "だ",
+     "です",
+     "な"
+    ],
+    "why": "Noun + だ before と思う.",
+    "answerKana": "だ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:to-iimasu",
+  "level": "n5",
+  "unit": 16,
+  "order": 1654,
+  "title": "〜と言います",
+  "pattern": "「…」と言います / [plain] と言いました",
+  "summary": "to say that…",
+  "explanation": "Quote with と言います. Direct quotes keep the original words; indirect quotes use the plain form.",
+  "examples": [
+   {
+    "jp": "田中さんは「{明日来|あしたき}ます」と{言|い}いました。",
+    "kana": "たなかさんは「あしたきます」といいました。",
+    "romaji": "tanaka-san wa \"ashita kimasu\" to iimashita.",
+    "en": "Mr Tanaka said, \"I'll come tomorrow.\""
+   },
+   {
+    "jp": "{友達|ともだち}は{忙|いそが}しいと{言|い}いました。",
+    "kana": "ともだちはいそがしいといいました。",
+    "romaji": "tomodachi wa isogashii to iimashita.",
+    "en": "My friend said he was busy."
+   },
+   {
+    "jp": "これは日本語で何と{言|い}いますか。",
+    "kana": "これはにほんごでなんといいますか。",
+    "romaji": "kore wa nihongo de nan to iimasu ka.",
+    "en": "What is this called in Japanese?"
+   }
+  ],
+  "mistakes": [
+   "Remember the particle と after the quote."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "母は「{早|はや}く{寝|ね}なさい」＿{言|い}いました。",
+    "answer": "と",
+    "choices": [
+     "と",
+     "を",
+     "に"
+    ],
+    "why": "Quote + と.",
+    "answerKana": "と"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:deshou",
+  "level": "n5",
+  "unit": 17,
+  "order": 1755,
+  "title": "〜でしょう",
+  "pattern": "[plain] でしょう",
+  "summary": "probably; isn't it?",
+  "explanation": "でしょう expresses probability (\"probably\") or, with rising intonation, seeks agreement. Used in weather forecasts.",
+  "examples": [
+   {
+    "jp": "{明日|あした}は{晴|は}れるでしょう。",
+    "kana": "あしたははれるでしょう。",
+    "romaji": "ashita wa hareru deshou.",
+    "en": "It will probably be sunny tomorrow."
+   },
+   {
+    "jp": "田中さんは来るでしょう。",
+    "kana": "たなかさんはくるでしょう。",
+    "romaji": "tanaka-san wa kuru deshou.",
+    "en": "Mr Tanaka will probably come."
+   },
+   {
+    "jp": "この{映画|えいが}は{面白|おもしろ}いでしょう？",
+    "kana": "このえいがはおもしろいでしょう？",
+    "romaji": "kono eiga wa omoshiroi deshou?",
+    "en": "This film is interesting, isn't it?"
+   }
+  ],
+  "mistakes": [
+   "でしょう after a noun takes no だ: 学生でしょう."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{明日|あした}は{雨|あめ}＿。(probably)",
+    "answer": "でしょう",
+    "choices": [
+     "でしょう",
+     "です",
+     "ですか"
+    ],
+    "why": "Probability: でしょう.",
+    "answerKana": "でしょう"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:toki",
+  "level": "n5",
+  "unit": 17,
+  "order": 1756,
+  "title": "〜時",
+  "pattern": "[plain / N の / A] 時、…",
+  "summary": "when…",
+  "explanation": "時 (とき) \"when\" follows the plain form, an adjective, or noun + の.",
+  "examples": [
+   {
+    "jp": "{子供|こども}の時、{東京|とうきょう}に{住|す}んでいました。",
+    "kana": "こどものとき、とうきょうにすんでいました。",
+    "romaji": "kodomo no toki, toukyou ni sunde imashita.",
+    "en": "When I was a child I lived in Tokyo."
+   },
+   {
+    "jp": "{暇|ひま}な時、本を読みます。",
+    "kana": "ひまなとき、ほんをよみます。",
+    "romaji": "hima na toki, hon o yomimasu.",
+    "en": "When I am free I read books."
+   },
+   {
+    "jp": "日本へ行く時、カメラを買います。",
+    "kana": "にほんへいくとき、カメラをかいます。",
+    "romaji": "nihon e iku toki, kamera o kaimasu.",
+    "en": "When I go to Japan, I will buy a camera."
+   }
+  ],
+  "mistakes": [
+   "Noun + 時 needs の: 子供の時."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "学生＿時、よく{旅行|りょこう}しました。",
+    "answer": "の",
+    "choices": [
+     "の",
+     "な",
+     "だ"
+    ],
+    "why": "Noun + の + 時.",
+    "answerKana": "の"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:nagara",
+  "level": "n5",
+  "unit": 17,
+  "order": 1757,
+  "title": "〜ながら",
+  "pattern": "[V-stem] ながら [V]",
+  "summary": "while doing",
+  "explanation": "ます-stem + ながら: two actions by the same person at the same time; the main action is the second verb.",
+  "examples": [
+   {
+    "jp": "{音楽|おんがく}を聞きながら{勉強|べんきょう}します。",
+    "kana": "おんがくをききながらべんきょうします。",
+    "romaji": "ongaku o kikinagara benkyou shimasu.",
+    "en": "I study while listening to music."
+   },
+   {
+    "jp": "テレビを見ながらご{飯|はん}を食べました。",
+    "kana": "テレビをみながらごはんをたべました。",
+    "romaji": "terebi o minagara gohan o tabemashita.",
+    "en": "I ate while watching TV."
+   },
+   {
+    "jp": "{歩|ある}きながら話しましょう。",
+    "kana": "あるきながらはなしましょう。",
+    "romaji": "arukinagara hanashimashou.",
+    "en": "Let's talk while walking."
+   }
+  ],
+  "mistakes": [
+   "Both actions must have the same subject."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "コーヒーを飲み＿{新聞|しんぶん}を読みます。",
+    "answer": "ながら",
+    "choices": [
+     "ながら",
+     "てから",
+     "たり"
+    ],
+    "why": "Simultaneous: ながら.",
+    "answerKana": "ながら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:mou-mada",
+  "level": "n5",
+  "unit": 18,
+  "order": 1858,
+  "title": "もう・まだ",
+  "pattern": "もう [V-ました] / まだ [V-ていません]",
+  "summary": "already / not yet",
+  "explanation": "もう with the past means \"already\"; まだ with ていません means \"not yet\". Answer もう食べましたか with いいえ、まだです.",
+  "examples": [
+   {
+    "jp": "もう{昼|ひる}ご{飯|はん}を食べましたか。",
+    "kana": "もうひるごはんをたべましたか。",
+    "romaji": "mou hirugohan o tabemashita ka.",
+    "en": "Have you already had lunch?"
+   },
+   {
+    "jp": "いいえ、まだ食べていません。",
+    "kana": "いいえ、まだたべていません。",
+    "romaji": "iie, mada tabete imasen.",
+    "en": "No, not yet."
+   },
+   {
+    "jp": "もう{宿題|しゅくだい}が{終|お}わりました。",
+    "kana": "もうしゅくだいがおわりました。",
+    "romaji": "mou shukudai ga owarimashita.",
+    "en": "I have already finished my homework."
+   }
+  ],
+  "mistakes": [
+   "まだ食べませんでした means \"didn't eat\", not \"haven't yet\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "レポートは＿書いていません。",
+    "answer": "まだ",
+    "choices": [
+     "まだ",
+     "もう",
+     "また"
+    ],
+    "why": "Not yet: まだ.",
+    "answerKana": "まだ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ni-indirect",
+  "level": "n5",
+  "unit": 18,
+  "order": 1859,
+  "title": "に (indirect object) あげます・もらいます",
+  "pattern": "[person] に [N] をあげます / [person] に [N] をもらいます",
+  "summary": "give to; receive from",
+  "explanation": "あげます \"give (to someone)\", もらいます \"receive (from someone)\", くれます \"give (to me)\". に marks the other person.",
+  "examples": [
+   {
+    "jp": "{友達|ともだち}にプレゼントをあげました。",
+    "kana": "ともだちにプレゼントをあげました。",
+    "romaji": "tomodachi ni purezento o agemashita.",
+    "en": "I gave my friend a present."
+   },
+   {
+    "jp": "母に{手紙|てがみ}をもらいました。",
+    "kana": "ははにてがみをもらいました。",
+    "romaji": "haha ni tegami o moraimashita.",
+    "en": "I received a letter from my mother."
+   },
+   {
+    "jp": "先生が本をくれました。",
+    "kana": "せんせいがほんをくれました。",
+    "romaji": "sensei ga hon o kuremashita.",
+    "en": "The teacher gave me a book."
+   }
+  ],
+  "mistakes": [
+   "Use くれます when the receiver is \"me\"; あげます would sound odd."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{弟|おとうと}＿本をあげました。",
+    "answer": "に",
+    "choices": [
+     "に",
+     "を",
+     "と"
+    ],
+    "why": "Recipient: に.",
+    "answerKana": "に"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:ni-purpose",
+  "level": "n5",
+  "unit": 18,
+  "order": 1850,
+  "title": "〜に行きます (purpose)",
+  "pattern": "[V-stem / N] に 行きます・来ます",
+  "summary": "go in order to",
+  "explanation": "ます-stem or an action noun + に + a movement verb: 映画を見に行きます \"go to see a film\", 買い物に行きます.",
+  "examples": [
+   {
+    "jp": "{映画|えいが}を見に行きます。",
+    "kana": "えいがをみにいきます。",
+    "romaji": "eiga o mi ni ikimasu.",
+    "en": "I am going to see a film."
+   },
+   {
+    "jp": "{友達|ともだち}が{遊|あそ}びに来ました。",
+    "kana": "ともだちがあそびにきました。",
+    "romaji": "tomodachi ga asobi ni kimashita.",
+    "en": "A friend came over to hang out."
+   },
+   {
+    "jp": "買い{物|もの}に行きませんか。",
+    "kana": "かいものにいきませんか。",
+    "romaji": "kaimono ni ikimasen ka.",
+    "en": "Won't you go shopping with me?"
+   }
+  ],
+  "mistakes": [
+   "Dictionary form + に is wrong: 見るに行きます."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "本を＿に{図書館|としょかん}へ行きます。",
+    "answer": "{借|か}り",
+    "choices": [
+     "{借|か}り",
+     "{借|か}りる",
+     "{借|か}りて"
+    ],
+    "why": "ます-stem before に.",
+    "answerKana": "かり"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:koto-ga-dekimasu",
+  "level": "n5",
+  "unit": 19,
+  "order": 1951,
+  "title": "〜ことができます",
+  "pattern": "[V-る] ことができます",
+  "summary": "can; be able to",
+  "explanation": "Dictionary form + ことができます expresses ability or possibility.",
+  "examples": [
+   {
+    "jp": "日本語を話すことができます。",
+    "kana": "にほんごをはなすことができます。",
+    "romaji": "nihongo o hanasu koto ga dekimasu.",
+    "en": "I can speak Japanese."
+   },
+   {
+    "jp": "ここで{切符|きっぷ}を買うことができます。",
+    "kana": "ここできっぷをかうことができます。",
+    "romaji": "koko de kippu o kau koto ga dekimasu.",
+    "en": "You can buy tickets here."
+   },
+   {
+    "jp": "{泳|およ}ぐことができません。",
+    "kana": "およぐことができません。",
+    "romaji": "oyogu koto ga dekimasen.",
+    "en": "I cannot swim."
+   }
+  ],
+  "mistakes": [
+   "Only the dictionary form goes before こと here."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{漢字|かんじ}を＿ことができますか。",
+    "answer": "読む",
+    "choices": [
+     "読む",
+     "読み",
+     "読んで"
+    ],
+    "why": "Dictionary form + ことができる.",
+    "answerKana": "よむ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:dake-shika",
+  "level": "n5",
+  "unit": 19,
+  "order": 1952,
+  "title": "だけ・しか〜ない",
+  "pattern": "[N] だけ / [N] しか [V-ない]",
+  "summary": "only",
+  "explanation": "だけ \"only\" is neutral; しか with a negative verb stresses that it is not enough.",
+  "examples": [
+   {
+    "jp": "百円だけあります。",
+    "kana": "ひゃくえんだけあります。",
+    "romaji": "hyaku en dake arimasu.",
+    "en": "I have only 100 yen."
+   },
+   {
+    "jp": "百円しかありません。",
+    "kana": "ひゃくえんしかありません。",
+    "romaji": "hyaku en shika arimasen.",
+    "en": "I have only 100 yen (and that's not much)."
+   },
+   {
+    "jp": "一人だけ来ました。",
+    "kana": "ひとりだけきました。",
+    "romaji": "hitori dake kimashita.",
+    "en": "Only one person came."
+   }
+  ],
+  "mistakes": [
+   "しか always needs a negative verb."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "お金が千円＿ありません。",
+    "answer": "しか",
+    "choices": [
+     "しか",
+     "だけ",
+     "も"
+    ],
+    "why": "しか + negative.",
+    "answerKana": "しか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:sugiru-polite",
+  "level": "n5",
+  "unit": 19,
+  "order": 1953,
+  "title": "お〜 / ご〜 and polite requests",
+  "pattern": "お名前 / ご家族 / お願いします",
+  "summary": "polite prefixes and set requests",
+  "explanation": "お attaches to native words (お名前, お茶) and ご to Sino-Japanese words (ご家族, ご住所). お願いします \"please (do it for me)\" is the all-purpose polite request.",
+  "examples": [
+   {
+    "jp": "お名前は何ですか。",
+    "kana": "おなまえはなんですか。",
+    "romaji": "onamae wa nan desu ka.",
+    "en": "What is your name?"
+   },
+   {
+    "jp": "ご{家族|かぞく}は何人ですか。",
+    "kana": "ごかぞくはなんにんですか。",
+    "romaji": "gokazoku wa nannin desu ka.",
+    "en": "How many people are in your family?"
+   },
+   {
+    "jp": "コーヒーをお{願|ねが}いします。",
+    "kana": "コーヒーをおねがいします。",
+    "romaji": "koohii o onegai shimasu.",
+    "en": "Coffee, please."
+   }
+  ],
+  "mistakes": [
+   "Do not add お to your own things when speaking of yourself (私のお名前 is odd)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿{仕事|しごと}は何ですか。(polite)",
+    "answer": "お",
+    "choices": [
+     "お",
+     "ご",
+     "の"
+    ],
+    "why": "仕事 takes お.",
+    "answerKana": "お"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:n-desu",
+  "level": "n5",
+  "unit": 20,
+  "order": 2054,
+  "title": "〜んです",
+  "pattern": "[plain] んです / [N / A-na] なんです",
+  "summary": "explaining; asking for explanation",
+  "explanation": "んです (のです) adds an explanatory tone: giving a reason, or asking why with どうして〜んですか. Nouns and な-adjectives take な before ん.",
+  "examples": [
+   {
+    "jp": "どうして{遅|おく}れたんですか。",
+    "kana": "どうしておくれたんですか。",
+    "romaji": "doushite okureta n desu ka.",
+    "en": "Why were you late?"
+   },
+   {
+    "jp": "電車が{止|と}まったんです。",
+    "kana": "でんしゃがとまったんです。",
+    "romaji": "densha ga tomatta n desu.",
+    "en": "The train stopped (that's why)."
+   },
+   {
+    "jp": "{頭|あたま}が{痛|いた}いんです。",
+    "kana": "あたまがいたいんです。",
+    "romaji": "atama ga itai n desu.",
+    "en": "I have a headache (explaining)."
+   }
+  ],
+  "mistakes": [
+   "Noun + んです needs な: 学生なんです."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "今日は休み＿んです。",
+    "answer": "な",
+    "choices": [
+     "な",
+     "だ",
+     "の"
+    ],
+    "why": "Noun + な + んです.",
+    "answerKana": "な"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:kedo-shi",
+  "level": "n5",
+  "unit": 20,
+  "order": 2055,
+  "title": "〜けど・〜し",
+  "pattern": "[plain] けど / [plain] し、[plain] し",
+  "summary": "but (casual); and what's more",
+  "explanation": "けど is a casual \"but\" (also けれども). し lists reasons: 安いし、おいしいし \"it's cheap, and it's tasty, so…\".",
+  "examples": [
+   {
+    "jp": "高いけど、買います。",
+    "kana": "たかいけど、かいます。",
+    "romaji": "takai kedo, kaimasu.",
+    "en": "It's expensive, but I'll buy it."
+   },
+   {
+    "jp": "この店は{安|やす}いし、{近|ちか}いし、よく来ます。",
+    "kana": "このみせはやすいし、ちかいし、よくきます。",
+    "romaji": "kono mise wa yasui shi, chikai shi, yoku kimasu.",
+    "en": "This shop is cheap and nearby, so I come often."
+   },
+   {
+    "jp": "行きたいけど、時間がない。",
+    "kana": "いきたいけど、じかんがない。",
+    "romaji": "ikitai kedo, jikan ga nai.",
+    "en": "I want to go, but there's no time."
+   }
+  ],
+  "mistakes": [
+   "けど is casual; use が in polite speech."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{疲|つか}れた＿、{宿題|しゅくだい}をします。",
+    "answer": "けど",
+    "choices": [
+     "けど",
+     "し",
+     "から"
+    ],
+    "why": "Contrast, casual: けど.",
+    "answerKana": "けど"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:tsumori-yotei",
+  "level": "n5",
+  "unit": 20,
+  "order": 2056,
+  "title": "〜つもりです",
+  "pattern": "[V-る / V-ない] つもりです",
+  "summary": "intend to",
+  "explanation": "Dictionary form + つもりです states an intention; ないつもりです \"intend not to\".",
+  "examples": [
+   {
+    "jp": "来年日本へ行くつもりです。",
+    "kana": "らいねんにほんへいくつもりです。",
+    "romaji": "rainen nihon e iku tsumori desu.",
+    "en": "I intend to go to Japan next year."
+   },
+   {
+    "jp": "{新|あたら}しい車を買うつもりです。",
+    "kana": "あたらしいくるまをかうつもりです。",
+    "romaji": "atarashii kuruma o kau tsumori desu.",
+    "en": "I plan to buy a new car."
+   },
+   {
+    "jp": "もうお{酒|さけ}を飲まないつもりです。",
+    "kana": "もうおさけをのまないつもりです。",
+    "romaji": "mou osake o nomanai tsumori desu.",
+    "en": "I intend not to drink alcohol any more."
+   }
+  ],
+  "mistakes": [
+   "つもり is for your own plans; for others' schedules use 予定."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{週末|しゅうまつ}は{家|いえ}で＿つもりです。(rest)",
+    "answer": "休む",
+    "choices": [
+     "休む",
+     "休み",
+     "休んで"
+    ],
+    "why": "Dictionary form + つもり.",
+    "answerKana": "やすむ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:tara",
+  "level": "n5",
+  "unit": 21,
+  "order": 2157,
+  "title": "〜たら (if / when)",
+  "pattern": "[V-たら]、… / [A-かったら] / [N だったら]",
+  "summary": "if; when (after)",
+  "explanation": "Make the た-form and add ら: 雨が降ったら \"if it rains\". It also means \"when X has happened\".",
+  "examples": [
+   {
+    "jp": "雨が{降|ふ}ったら、{家|いえ}にいます。",
+    "kana": "あめがふったら、いえにいます。",
+    "romaji": "ame ga futtara, ie ni imasu.",
+    "en": "If it rains, I will stay home."
+   },
+   {
+    "jp": "日本に{着|つ}いたら、電話します。",
+    "kana": "にほんについたら、でんわします。",
+    "romaji": "nihon ni tsuitara, denwa shimasu.",
+    "en": "When I arrive in Japan, I'll call."
+   },
+   {
+    "jp": "安かったら、買います。",
+    "kana": "やすかったら、かいます。",
+    "romaji": "yasukattara, kaimasu.",
+    "en": "If it is cheap, I'll buy it."
+   }
+  ],
+  "mistakes": [
+   "Nouns: 休みだったら, not 休みたら."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "時間があっ＿、{映画|えいが}を見ましょう。",
+    "answer": "たら",
+    "choices": [
+     "たら",
+     "て",
+     "から"
+    ],
+    "why": "Condition: たら.",
+    "answerKana": "たら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n5:sugiru",
+  "level": "n5",
+  "unit": 21,
+  "order": 2158,
+  "title": "〜すぎます",
+  "pattern": "[V-stem / A-stem] すぎます",
+  "summary": "too much",
+  "explanation": "Attach すぎる to the ます-stem (食べすぎる) or adjective stem (高すぎる \"too expensive\", 静かすぎる).",
+  "examples": [
+   {
+    "jp": "{昨日食|きのうた}べすぎました。",
+    "kana": "きのうたべすぎました。",
+    "romaji": "kinou tabesugimashita.",
+    "en": "I ate too much yesterday."
+   },
+   {
+    "jp": "この{靴|くつ}は大きすぎます。",
+    "kana": "このくつはおおきすぎます。",
+    "romaji": "kono kutsu wa ookisugimasu.",
+    "en": "These shoes are too big."
+   },
+   {
+    "jp": "この{問題|もんだい}は{難|むずか}しすぎます。",
+    "kana": "このもんだいはむずかしすぎます。",
+    "romaji": "kono mondai wa muzukashisugimasu.",
+    "en": "This problem is too hard."
+   }
+  ],
+  "mistakes": [
+   "いい → よすぎる."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "このかばんは高＿。(too expensive)",
+    "answer": "すぎます",
+    "choices": [
+     "すぎます",
+     "いすぎます",
+     "くすぎます"
+    ],
+    "why": "Adjective stem + すぎる.",
+    "answerKana": "すぎます"
+   }
+  ]
+ }
+]

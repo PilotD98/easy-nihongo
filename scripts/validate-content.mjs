@@ -62,6 +62,8 @@ for (const s of manifest.stages || []) {
 
 /* ---------- gather all items ---------- */
 const ids = new Map();              // id -> where
+const unitIds = new Set();
+const pendingUnitRefs = [];
 const kanjiTaught = new Map();      // char -> { level, order }
 const vocabById = new Map();        // id -> { level, order, jp }
 const levelData = {};
@@ -116,7 +118,8 @@ for (const [levelId, data] of Object.entries(levelData)) {
     if (!Array.isArray(json)) err(rel, 'must be a list');
     for (const k of json || []) {
       const where = `${rel} ${k.char || k.id}`;
-      requireFields(where, k, ['id', 'char', 'level', 'order', 'meanings', 'strokes', 'radicals', 'mnemonic', 'examples']);
+      requireFields(where, k, ['id', 'char', 'level', 'order', 'meanings', 'strokes', 'mnemonic', 'examples']);
+      if (!Array.isArray(k.radicals)) err(where, 'radicals must be a list (may be empty for single-stroke characters)');
       if (!k.on?.length && !k.kun?.length) err(where, 'needs at least one on or kun reading');
       if (k.level !== levelId) err(where, `level "${k.level}" does not match file level "${levelId}"`);
       if (k.char && k.id !== `kanji:${k.char}`) err(where, `id should be "kanji:${k.char}"`);
@@ -160,8 +163,20 @@ for (const [levelId, data] of Object.entries(levelData)) {
     if (!Array.isArray(json)) err(rel, 'must be a list');
     for (const r of json || []) {
       const where = `${rel} ${r.id}`;
-      requireFields(where, r, ['id', 'level', 'order', 'title', 'text', 'questions']);
+      requireFields(where, r, kind === 'listening' ? ['id', 'level', 'order', 'title', 'type', 'items'] : ['id', 'level', 'order', 'title', 'text', 'kana', 'questions']);
+      if (kind === 'listening' && !['dictation', 'comprehension', 'shadow'].includes(r.type)) err(where, `unknown listening type ${r.type}`);
       registerId(r.id, where);
+    }
+  }
+  if (data.units) {
+    const { rel, json } = data.units;
+    if (!Array.isArray(json)) err(rel, 'must be a list');
+    for (const u of json || []) {
+      const where = `${rel} ${u.id}`;
+      requireFields(where, u, ['id', 'no', 'level', 'title']);
+      if (!/^unit:[a-z0-9]+:\d+$/.test(u.id || '')) err(where, 'unit id must look like unit:n5:01');
+      if (unitIds.has(u.id)) err(where, 'duplicate unit id'); unitIds.add(u.id);
+      pendingUnitRefs.push([where, [...(u.kanji || []), ...(u.vocab || []), ...(u.grammar || []), ...(u.readings || []), ...(u.listening || [])]]);
     }
   }
   if (data.speaking) {
@@ -238,7 +253,7 @@ for (const [levelId, data] of Object.entries(levelData)) {
         const v = vocabById.get(vid);
         if (!v) { err(`${rel} ${k.char}`, `example ${vid} is not a known vocabulary id`); continue; }
         const li = LEVEL_ORDER.indexOf(v.level), lj = LEVEL_ORDER.indexOf(k.level);
-        if (li > lj || (li === lj && v.order > k.order)) warn(`${rel} ${k.char}`, `example ${vid} is taught after this kanji`);
+        if (li > lj || (li === lj && Math.floor(v.order / 100) > Math.floor(k.order / 100))) warn(`${rel} ${k.char}`, `example ${vid} is taught after this kanji`);
         if (!v.jp.includes(k.char)) err(`${rel} ${k.char}`, `example ${vid} (${v.jp}) does not contain ${k.char}`);
       }
     }
@@ -252,21 +267,24 @@ for (const [levelId, data] of Object.entries(levelData)) {
         if (missing.length) err(`${rel} ${g.id} example "${ex.jp}"`, `uses untaught kanji ${missing.join('')} (wrap as {漢字|かんじ} or teach first)`);
       }
       for (const x of g.exercises || []) {
-        const missing = untaughtKanji(`${x.prompt} ${x.answer}`, levelId, g.order);
-        if (missing.length) err(`${rel} ${g.id} exercise "${x.prompt}"`, `uses untaught kanji ${missing.join('')}`);
+        // Exercises are checked against kanji taught by the end of the level: prompts carry no reading for furigana.
+        const missing = untaughtKanji(`${x.prompt} ${x.answer} ${(x.choices || []).join(' ')}`, levelId, Number.MAX_SAFE_INTEGER);
+        if (missing.length) err(`${rel} ${g.id} exercise "${x.prompt}"`, `uses kanji outside the level: ${missing.join('')}`);
       }
       for (const rid of g.requires || []) if (!ids.has(rid)) err(`${rel} ${g.id}`, `requires unknown id ${rid}`);
     }
   }
   // Readings and listening
+  for (const [where, refs] of pendingUnitRefs) for (const id of refs) if (!ids.has(id)) err(where, `references unknown id ${id}`);
   for (const kind of ['readings', 'listening']) {
     if (!data[kind]) continue;
     const { rel, json } = data[kind];
     for (const r of json || []) {
-      const missing = untaughtKanji(r.text, levelId, Number.MAX_SAFE_INTEGER);
+      const missing = untaughtKanji(kind === 'listening' ? (r.items || []).map((it) => it.text).join('') : r.text, levelId, r.order ?? Number.MAX_SAFE_INTEGER);
       if (missing.length) err(`${rel} ${r.id}`, `uses kanji not taught by the end of ${levelId}: ${missing.join('')} (wrap as {漢字|かんじ})`);
       for (const uid of r.uses || []) if (!ids.has(uid)) err(`${rel} ${r.id}`, `uses unknown id ${uid}`);
-      for (const q of r.questions || []) {
+      const qs = kind === 'listening' ? (r.items || []).flatMap((it) => it.questions || []) : (r.questions || []);
+      for (const q of qs) {
         if (typeof q.answer !== 'number' || !Array.isArray(q.choices) || q.answer < 0 || q.answer >= q.choices.length) err(`${rel} ${r.id}`, 'question needs "choices" and a valid "answer" index');
       }
     }

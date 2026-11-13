@@ -99,7 +99,11 @@ export async function nextStep() {
   const k = await kanaStatus('katakana').catch(() => null);
   if (k && k.nextGroup && !k.exam) return { href: `#/lesson/katakana/${k.nextGroup.id}`, label: `Katakana: ${k.nextGroup.title}`, sub: `Group ${k.nextGroup.index + 1} of ${k.total}` };
   if (k && !k.exam) return { href: '#/exam/katakana', label: 'Take the katakana exam', sub: 'Unlocks N5' };
-  return { href: '#/learn', label: 'Learning path', sub: 'N5 arrives in the next release' };
+  const { jlptStatus } = await import('./n5.js');
+  const n5 = await jlptStatus('n5').catch(() => null);
+  if (n5 && n5.unlocked && n5.nextUnit) return { href: `#/unit/n5/${n5.nextUnit.id.split(':').pop()}`, label: `N5 unit ${n5.nextUnit.no}: ${n5.nextUnit.title}`, sub: `Unit ${n5.nextUnit.no} of ${n5.total}` };
+  if (n5 && n5.unlocked) return { href: '#/learn/n5', label: 'N5 complete: keep reviewing', sub: 'N4 arrives in a later release' };
+  return { href: '#/learn', label: 'Learning path', sub: 'Unlock N5 by passing the katakana exam' };
 }
 
 /** Which kana level an item id belongs to, or null. */

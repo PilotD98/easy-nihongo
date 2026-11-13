@@ -75,6 +75,13 @@ async function glyphMap() {
     for (const c of kana.allChars) map.set(c.id, `${c.char} (${c.romaji})`);
     for (const w of kana.allWords) map.set(w.id, `${w.jp} (${w.romaji}, ${w.meaning})`);
   }
+  try {
+    const { loadJlpt } = await import('../content/n5.js');
+    const lv = await loadJlpt('n5');
+    for (const k of lv.kanji) map.set(k.id, `${k.char} (${k.meanings[0]})`);
+    for (const v of lv.vocab) map.set(v.id, `${v.jp} (${v.kana}, ${v.meanings[0]})`);
+    for (const g of lv.grammar) map.set(g.id, g.title);
+  } catch { /* level not in this build */ }
   return map;
 }
 

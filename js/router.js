@@ -12,6 +12,7 @@ const routes = {
   settings: () => import('./views/settings.js'),
   about: () => import('./views/about.js'),
   lesson: () => import('./views/lesson.js'),
+  unit: () => import('./views/unit.js'),
   exam: () => import('./views/exam.js')
 };
 

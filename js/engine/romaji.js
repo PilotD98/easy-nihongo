@@ -137,7 +137,7 @@ export function isKanaOnly(s) { return /^[ぁ-ゖァ-ヶー\s]+$/.test(s); }
 
 /** Normalise a typed answer for comparison: trim, lower-case, katakana -> hiragana, strip spaces and apostrophes. */
 export function normalize(s) {
-  return expandChoon(toHiragana(String(s || ''))).toLowerCase().replace(/[\s'’\-]/g, '');
+  return expandChoon(toHiragana(String(s || ''))).toLowerCase().replace(/[\s'’\-、。，．！？!?.,]/g, '');
 }
 
 /** Levenshtein distance (for the "typo?" prompt). */

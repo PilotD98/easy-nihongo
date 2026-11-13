@@ -98,6 +98,21 @@ level, smaller `order`), or the word must carry `furiganaException: true`
 (it is then always shown with furigana until the kanji is learned). `kana` must
 contain only kana. `pitch` is a list of accent nuclei (0 = heiban).
 
+Extra N5 fields: `unit` (unit number), `verified` (reading and meaning found
+in JMdict), `common` (JMdict priority entry). `kun` readings mark okurigana
+with `･` (た･べる).
+
+## Units (`<level>/units.json`)
+
+```json
+[ { "id": "unit:n5:01", "no": 1, "level": "n5", "title": "Numbers 1–5",
+    "kanji": ["kanji:一", …], "vocab": ["vocab:n5:…", …], "grammar": ["gram:n5:desu", …],
+    "readings": ["read:n5:001"], "listening": ["listen:n5:001"] } ]
+```
+
+A unit is the lesson the learner takes: its kanji first, then its words, then
+its grammar points with exercises, then the reading, then a 12-question check.
+
 ## Grammar (`<level>/grammar.json`)
 
 ```json
@@ -112,9 +127,12 @@ contain only kana. `pitch` is a list of accent nuclei (0 = heiban).
 ]
 ```
 
-Rules: at least three examples; every example and exercise uses only taught
-vocabulary and kanji (or marks them with `{漢字|かんじ}` inline furigana). Exercise
-`type` is `fill | choose | order | produce`.
+Rules: at least three examples; every example uses only kanji taught by its
+unit, or marks them with `{漢字|かんじ}` inline furigana (the build does this
+automatically from the example's `kana`). Exercises may use any kanji of the
+level; untaught ones are wrapped using vocabulary readings. Exercise `type` is
+`fill | choose | order | produce`; `order` lists the pieces in `choices`;
+`produce` carries `answerKana` so typed romaji is accepted.
 
 ## Readings and listening (`<level>/readings.json`, `<level>/listening.json`)
 
@@ -128,8 +146,9 @@ vocabulary and kanji (or marks them with `{漢字|かんじ}` inline furigana). 
 ```
 
 `{漢字|かんじ}` marks inline furigana; the validator allows unknown kanji only
-inside such braces. Listening items add `"speed": ["natural", "slow"]` and a
-`dictation` list.
+inside such braces. Readings also carry `kana` (full reading) and `enText`.
+Listening drills have `type` (`dictation | comprehension | shadow`) and
+`items`, each with `text`, `kana`, `en` and, for comprehension, `questions`.
 
 ## Speaking (`speaking.json`)
 
