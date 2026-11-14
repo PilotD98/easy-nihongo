@@ -1,0 +1,253 @@
+[
+ {
+  "id": "listen:n3:001",
+  "level": "n3",
+  "unit": 4,
+  "order": 495,
+  "type": "dictation",
+  "title": "Dictation: formal statements",
+  "text": "会議は来週に延期することになりました。 詳しい内容は資料をご覧ください。 結果が出次第、ご連絡いたします。",
+  "items": [
+   {
+    "text": "会議は来週に{延期|えんき}することになりました。",
+    "kana": "かいぎはらいしゅうにえんきすることになりました。",
+    "en": "The meeting has been postponed to next week."
+   },
+   {
+    "text": "{詳|くわ}しい{内容|ないよう}は{資料|しりょう}をご{覧|らん}ください。",
+    "kana": "くわしいないようはしりょうをごらんください。",
+    "en": "Please see the materials for details."
+   },
+   {
+    "text": "{結果|けっか}が{出次第|でしだい}、ご{連絡|れんらく}いたします。",
+    "kana": "けっかがでしだい、ごれんらくいたします。",
+    "en": "We will contact you as soon as the results are out."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n3:002",
+  "level": "n3",
+  "unit": 12,
+  "order": 1295,
+  "type": "comprehension",
+  "title": "Announcement at a store",
+  "text": "お客様にお知らせいたします。本日は雨のため、屋上の催しは中止とさせていただきます。代わりに三階のホールで午後二時から開催いたしますので、どうぞお越しください。",
+  "items": [
+   {
+    "text": "お{客様|きゃくさま}にお知らせいたします。本日は雨のため、屋上の{催|もよお}しは中止とさせていただきます。代わりに{三階|さんがい}のホールで午後二時から{開催|かいさい}いたしますので、どうぞお{越|こ}しください。",
+    "kana": "おきゃくさまにおしらせいたします。ほんじつはあめのため、おくじょうのもよおしはちゅうしとさせていただきます。かわりにさんがいのホールでごごにじからかいさいいたしますので、どうぞおこしください。",
+    "en": "Attention customers. Because of rain, today's rooftop event is cancelled. Instead it will be held in the third-floor hall from 2 p.m., so please come along.",
+    "questions": [
+     {
+      "q": "{催|もよお}しはどこで行われますか。",
+      "qKana": "もよおしはどこでおこなわれますか。",
+      "choices": [
+       "屋上",
+       "三階のホール",
+       "一階の入口"
+      ],
+      "answer": 1,
+      "why": "三階のホールで午後二時から開催いたします。"
+     },
+     {
+      "q": "どうして{場所|ばしょ}が変わりましたか。",
+      "qKana": "どうしてばしょがかわりましたか。",
+      "choices": [
+       "雨のため",
+       "工事のため",
+       "人が多いため"
+      ],
+      "answer": 0,
+      "why": "本日は雨のため…"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "催しはどこで行われますか。",
+    "qKana": "もよおしはどこでおこなわれますか。",
+    "choices": [
+     "屋上",
+     "三階のホール",
+     "一階の入口"
+    ],
+    "answer": 1,
+    "why": "三階のホールで午後二時から開催いたします。"
+   },
+   {
+    "q": "どうして場所が変わりましたか。",
+    "qKana": "どうしてばしょがかわりましたか。",
+    "choices": [
+     "雨のため",
+     "工事のため",
+     "人が多いため"
+    ],
+    "answer": 0,
+    "why": "本日は雨のため…"
+   }
+  ]
+ },
+ {
+  "id": "listen:n3:003",
+  "level": "n3",
+  "unit": 20,
+  "order": 2095,
+  "type": "shadow",
+  "title": "Shadowing: opinions",
+  "text": "私は賛成ですが、費用の問題を解決する必要があると思います。 一方で、反対の意見も少なくありません。 要するに、まだ結論は出ていないということです。",
+  "items": [
+   {
+    "text": "{私|わたし}は{賛成|さんせい}ですが、{費用|ひよう}の問題を解決する必要があると思います。",
+    "kana": "わたしはさんせいですが、ひようのもんだいをかいけつするひつようがあるとおもいます。",
+    "en": "I agree, but I think we need to solve the cost problem."
+   },
+   {
+    "text": "一方で、反対の意見も{少|すく}なくありません。",
+    "kana": "いっぽうで、はんたいのいけんもすくなくありません。",
+    "en": "On the other hand, there are quite a few opposing opinions."
+   },
+   {
+    "text": "要するに、まだ結論は出ていないということです。",
+    "kana": "ようするに、まだけつろんはでていないということです。",
+    "en": "In short, no conclusion has been reached yet."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n3:004",
+  "level": "n3",
+  "unit": 28,
+  "order": 2895,
+  "type": "comprehension",
+  "title": "A conversation at work",
+  "text": "女：この報告書、明日までに直せますか。男：すみません、今日は会議が続いていて…。明後日の朝でもよろしいでしょうか。女：分かりました。では、朝一番でお願いします。",
+  "items": [
+   {
+    "text": "女：この報告書、{明日|あした}までに直せますか。男：すみません、今日は会議が続いていて…。{明後日|あさって}の朝でもよろしいでしょうか。女：分かりました。では、朝一番でお{願|ねが}いします。",
+    "kana": "おんな：このほうこくしょ、あしたまでになおせますか。おとこ：すみません、きょうはかいぎがつづいていて…。あさってのあさでもよろしいでしょうか。おんな：わかりました。では、あさいちばんでおねがいします。",
+    "en": "Woman: Can you correct this report by tomorrow? Man: Sorry, I have meetings all day today… Would the morning of the day after tomorrow be all right? Woman: Understood. Then first thing in the morning, please.",
+    "questions": [
+     {
+      "q": "男の人はいつ報告書を直しますか。",
+      "qKana": "おとこのひとはいつほうこくしょをなおしますか。",
+      "choices": [
+       "今日",
+       "明日",
+       "明後日の朝"
+      ],
+      "answer": 2,
+      "why": "明後日の朝でもよろしいでしょうか。…朝一番でお願いします。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "男の人はいつ報告書を直しますか。",
+    "qKana": "おとこのひとはいつほうこくしょをなおしますか。",
+    "choices": [
+     "今日",
+     "明日",
+     "明後日の朝"
+    ],
+    "answer": 2,
+    "why": "明後日の朝でもよろしいでしょうか。…朝一番でお願いします。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n3:005",
+  "level": "n3",
+  "unit": 44,
+  "order": 4495,
+  "type": "dictation",
+  "title": "Dictation: daily situations",
+  "text": "念のため、傘を持って行ったほうがいいですよ。 せっかく来たのだから、ゆっくり見ていきましょう。 どうしても今日中に終わらせなければなりません。",
+  "items": [
+   {
+    "text": "念のため、{傘|かさ}を持って行ったほうがいいですよ。",
+    "kana": "ねんのため、かさをもっていったほうがいいですよ。",
+    "en": "Just in case, you had better take an umbrella."
+   },
+   {
+    "text": "せっかく来たのだから、ゆっくり見ていきましょう。",
+    "kana": "せっかくきたのだから、ゆっくりみていきましょう。",
+    "en": "Since we came all this way, let's take our time looking around."
+   },
+   {
+    "text": "どうしても今日中に終わらせなければなりません。",
+    "kana": "どうしてもきょうじゅうにおわらせなければなりません。",
+    "en": "I absolutely must finish it today."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n3:006",
+  "level": "n3",
+  "unit": 52,
+  "order": 5295,
+  "type": "comprehension",
+  "title": "News: the weather and traffic",
+  "text": "台風の影響で、明日の午前中は各地で強い雨が降る見込みです。電車やバスの運行に遅れが出る可能性がありますので、お出かけの際は最新の情報をご確認ください。",
+  "items": [
+   {
+    "text": "台風の{影響|えいきょう}で、{明日|あした}の午前中は各地で強い雨が降る見込みです。電車やバスの運行に{遅|おく}れが出る可能性がありますので、お出かけの際は最新の情報をご確認ください。",
+    "kana": "たいふうのえいきょうで、あしたのごぜんちゅうはかくちでつよいあめがふるみこみです。でんしゃやバスのうんこうにおくれがでるかのうせいがありますので、おでかけのさいはさいしんのじょうほうをごかくにんください。",
+    "en": "Because of the typhoon, heavy rain is expected in many areas tomorrow morning. Trains and buses may be delayed, so please check the latest information before going out.",
+    "questions": [
+     {
+      "q": "{明日|あした}の午前中はどうなる見込みですか。",
+      "qKana": "あしたのごぜんちゅうはどうなるみこみですか。",
+      "choices": [
+       "晴れる",
+       "強い雨が降る",
+       "雪が降る"
+      ],
+      "answer": 1,
+      "why": "各地で強い雨が降る見込みです。"
+     },
+     {
+      "q": "出かける前に何をするように言っていますか。",
+      "qKana": "でかけるまえになにをするようにいっていますか。",
+      "choices": [
+       "傘を買う",
+       "最新の情報を確認する",
+       "会社に電話する"
+      ],
+      "answer": 1,
+      "why": "最新の情報をご確認ください。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "明日の午前中はどうなる見込みですか。",
+    "qKana": "あしたのごぜんちゅうはどうなるみこみですか。",
+    "choices": [
+     "晴れる",
+     "強い雨が降る",
+     "雪が降る"
+    ],
+    "answer": 1,
+    "why": "各地で強い雨が降る見込みです。"
+   },
+   {
+    "q": "出かける前に何をするように言っていますか。",
+    "qKana": "でかけるまえになにをするようにいっていますか。",
+    "choices": [
+     "傘を買う",
+     "最新の情報を確認する",
+     "会社に電話する"
+    ],
+    "answer": 1,
+    "why": "最新の情報をご確認ください。"
+   }
+  ]
+ }
+]

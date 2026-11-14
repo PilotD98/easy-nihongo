@@ -1,0 +1,5594 @@
+[
+ {
+  "id": "gram:n3:ni-yotte",
+  "level": "n3",
+  "unit": 1,
+  "order": 150,
+  "title": "〜によって・〜による",
+  "pattern": "[N] によって / による",
+  "summary": "by; depending on; due to",
+  "explanation": "によって marks the agent of a passive (作られた), a cause, a means, or variation (\"depending on\"). Before a noun: による.",
+  "examples": [
+   {
+    "jp": "この{寺|てら}は千年前に建てられたと言われています。",
+    "kana": "このてらはせんねんまえにたてられたといわれています。",
+    "romaji": "kono tera wa sennen mae ni taterareta to iwarete imasu.",
+    "en": "This temple is said to have been built a thousand years ago."
+   },
+   {
+    "jp": "{値段|ねだん}は店によって{違|ちが}います。",
+    "kana": "ねだんはみせによってちがいます。",
+    "romaji": "nedan wa mise ni yotte chigaimasu.",
+    "en": "Prices differ depending on the shop."
+   },
+   {
+    "jp": "{地震|じしん}による{被害|ひがい}が広がっています。",
+    "kana": "じしんによるひがいがひろがっています。",
+    "romaji": "jishin ni yoru higai ga hirogatte imasu.",
+    "en": "Damage caused by the earthquake is spreading."
+   }
+  ],
+  "mistakes": [
+   "によると is hearsay; によって is cause, means or agent."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "国＿{習慣|しゅうかん}が{違|ちが}います。(depending on)",
+    "answer": "によって",
+    "choices": [
+     "によって",
+     "によると",
+     "にとって"
+    ],
+    "why": "Variation: によって.",
+    "answerKana": "によって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-totte",
+  "level": "n3",
+  "unit": 1,
+  "order": 151,
+  "title": "〜にとって",
+  "pattern": "[N] にとって",
+  "summary": "for; from the standpoint of",
+  "explanation": "にとって gives the viewpoint from which a judgement is made.",
+  "examples": [
+   {
+    "jp": "{私|わたし}にとって家族が{一番大切|いちばんたいせつ}です。",
+    "kana": "わたしにとってかぞくがいちばんたいせつです。",
+    "romaji": "watashi ni totte kazoku ga ichiban taisetsu desu.",
+    "en": "For me, family is the most important."
+   },
+   {
+    "jp": "学生にとってこの{辞書|じしょ}は{便利|べんり}だ。",
+    "kana": "がくせいにとってこのじしょはべんりだ。",
+    "romaji": "gakusei ni totte kono jisho wa benri da.",
+    "en": "For students, this dictionary is handy."
+   },
+   {
+    "jp": "{子供|こども}にとっては{難|むずか}しい問題です。",
+    "kana": "こどもにとってはむずかしいもんだいです。",
+    "romaji": "kodomo ni totte wa muzukashii mondai desu.",
+    "en": "For children it is a hard problem."
+   }
+  ],
+  "mistakes": [
+   "Not for actions done \"for\" someone: that is のために."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "外国人＿漢字は大変です。",
+    "answer": "にとって",
+    "choices": [
+     "にとって",
+     "について",
+     "によって"
+    ],
+    "why": "Viewpoint: にとって.",
+    "answerKana": "にとって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-taishite",
+  "level": "n3",
+  "unit": 2,
+  "order": 252,
+  "title": "〜に対して",
+  "pattern": "[N] に対して",
+  "summary": "toward; in contrast to",
+  "explanation": "に対して marks the target of an attitude or action, or a contrast between two things.",
+  "examples": [
+   {
+    "jp": "先生に対して{失礼|しつれい}なことを言ってはいけない。",
+    "kana": "せんせいにたいしてしつれいなことをいってはいけない。",
+    "romaji": "sensei ni taishite shitsurei na koto o itte wa ikenai.",
+    "en": "You must not say rude things to the teacher."
+   },
+   {
+    "jp": "兄は{静|しず}かなのに対して、弟はにぎやかだ。",
+    "kana": "あにはしずかなのにたいして、おとうとはにぎやかだ。",
+    "romaji": "ani wa shizuka na noni taishite, otouto wa nigiyaka da.",
+    "en": "Whereas my older brother is quiet, my younger brother is lively."
+   },
+   {
+    "jp": "質問に対して{丁寧|ていねい}に答えた。",
+    "kana": "しつもんにたいしてていねいにこたえた。",
+    "romaji": "shitsumon ni taishite teinei ni kotaeta.",
+    "en": "He answered the question politely."
+   }
+  ],
+  "mistakes": [
+   "Contrast uses のに対して after a clause."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "お{客|きゃく}{様|よう}＿{失礼|しつれい}のないようにしてください。",
+    "answer": "に対して",
+    "choices": [
+     "に対して",
+     "にとって",
+     "によって"
+    ],
+    "why": "Target of an attitude: に対して.",
+    "answerKana": "にたいして"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kanshite",
+  "level": "n3",
+  "unit": 2,
+  "order": 253,
+  "title": "〜に関して・〜に関する",
+  "pattern": "[N] に関して / に関する [N]",
+  "summary": "regarding (formal)",
+  "explanation": "A more formal について. Before a noun: に関する.",
+  "examples": [
+   {
+    "jp": "{環境|かんきょう}に関する{法律|ほうりつ}が変わった。",
+    "kana": "かんきょうにかんするほうりつがかわった。",
+    "romaji": "kankyou ni kansuru houritsu ga kawatta.",
+    "en": "The law regarding the environment changed."
+   },
+   {
+    "jp": "この{件|けん}に関しては、後ほどご{連絡|れんらく}します。",
+    "kana": "このけんにかんしては、のちほどごれんらくします。",
+    "romaji": "kono ken ni kanshite wa, nochihodo gorenraku shimasu.",
+    "en": "Regarding this matter, I will contact you later."
+   },
+   {
+    "jp": "日本の{歴史|れきし}に関して{調|しら}べています。",
+    "kana": "にほんのれきしにかんしてしらべています。",
+    "romaji": "nihon no rekishi ni kanshite shirabete imasu.",
+    "en": "I am researching Japanese history."
+   }
+  ],
+  "mistakes": [
+   "について is the everyday equivalent."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "安全＿{規則|きそく}を{守|まも}ってください。(regarding)",
+    "answer": "に関する",
+    "choices": [
+     "に関する",
+     "に対する",
+     "による"
+    ],
+    "why": "Before a noun: に関する.",
+    "answerKana": "にかんする"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-shite",
+  "level": "n3",
+  "unit": 3,
+  "order": 354,
+  "title": "〜として",
+  "pattern": "[N] として",
+  "summary": "as (in the role of)",
+  "explanation": "として states a role or capacity: 学生として \"as a student\".",
+  "examples": [
+   {
+    "jp": "{留学生|りゅうがくせい}として日本に来ました。",
+    "kana": "りゅうがくせいとしてにほんにきました。",
+    "romaji": "ryuugakusei to shite nihon ni kimashita.",
+    "en": "I came to Japan as an exchange student."
+   },
+   {
+    "jp": "{彼|かれ}は医者として有名だ。",
+    "kana": "かれはいしゃとしてゆうめいだ。",
+    "romaji": "kare wa isha to shite yuumei da.",
+    "en": "He is famous as a doctor."
+   },
+   {
+    "jp": "{趣味|しゅみ}として写真を{撮|と}っています。",
+    "kana": "しゅみとしてしゃしんをとっています。",
+    "romaji": "shumi to shite shashin o totte imasu.",
+    "en": "I take photographs as a hobby."
+   }
+  ],
+  "mistakes": [
+   "として is a role; という is a name."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "代表＿会議に{出席|しゅっせき}します。",
+    "answer": "として",
+    "choices": [
+     "として",
+     "といって",
+     "とすると"
+    ],
+    "why": "In the role of: として.",
+    "answerKana": "として"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-tomo-ni",
+  "level": "n3",
+  "unit": 3,
+  "order": 355,
+  "title": "〜とともに・〜と一緒に",
+  "pattern": "[N] とともに",
+  "summary": "together with; as … also",
+  "explanation": "とともに (formal) means together with, or that two changes happen at the same time.",
+  "examples": [
+   {
+    "jp": "家族とともに日本へ{引|ひ}っ{越|こ}した。",
+    "kana": "かぞくとともににほんへひっこした。",
+    "romaji": "kazoku to tomo ni nihon e hikkoshita.",
+    "en": "I moved to Japan together with my family."
+   },
+   {
+    "jp": "年を取るとともに、体力が{落|お}ちてきた。",
+    "kana": "としをとるとともに、たいりょくがおちてきた。",
+    "romaji": "toshi o toru to tomo ni, tairyoku ga ochite kita.",
+    "en": "As I get older, my stamina has declined."
+   },
+   {
+    "jp": "経済の{発展|はってん}とともに、{生活|せいかつ}は{便利|べんり}になった。",
+    "kana": "けいざいのはってんとともに、せいかつはべんりになった。",
+    "romaji": "keizai no hatten to tomo ni, seikatsu wa benri ni natta.",
+    "en": "Along with economic development, life became convenient."
+   }
+  ],
+  "mistakes": [
+   "と一緒に is the everyday form for people."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "人口の{増加|ぞうか}＿、問題も{増|ふ}えた。",
+    "answer": "とともに",
+    "choices": [
+     "とともに",
+     "として",
+     "とすれば"
+    ],
+    "why": "Two changes together: とともに.",
+    "answerKana": "とともに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-tsurete",
+  "level": "n3",
+  "unit": 4,
+  "order": 456,
+  "title": "〜につれて・〜に従って",
+  "pattern": "[V-plain / N] につれて / に従って",
+  "summary": "as … , …",
+  "explanation": "Both express gradual change in step with another change. に従って also means \"in accordance with\".",
+  "examples": [
+   {
+    "jp": "{春|はる}が近づくにつれて、{暖|あたた}かくなってきた。",
+    "kana": "はるがちかづくにつれて、あたたかくなってきた。",
+    "romaji": "haru ga chikazuku ni tsurete, atatakaku natte kita.",
+    "en": "As spring approaches, it has been getting warmer."
+   },
+   {
+    "jp": "{指示|しじ}に{従|したが}って行動してください。",
+    "kana": "しじにしたがってこうどうしてください。",
+    "romaji": "shiji ni shitagatte koudou shite kudasai.",
+    "en": "Please act according to the instructions."
+   },
+   {
+    "jp": "時間が経つにつれて、{悲|かな}しみは{薄|うす}れていった。",
+    "kana": "じかんがたつにつれて、かなしみはうすれていった。",
+    "romaji": "jikan ga tatsu ni tsurete, kanashimi wa usurete itta.",
+    "en": "As time passed, the sadness faded."
+   }
+  ],
+  "mistakes": [
+   "Both clauses must describe gradual change."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{練習|れんしゅう}する＿、上手になった。",
+    "answer": "につれて",
+    "choices": [
+     "につれて",
+     "にとって",
+     "において"
+    ],
+    "why": "Change in step: につれて.",
+    "answerKana": "につれて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-oite",
+  "level": "n3",
+  "unit": 4,
+  "order": 457,
+  "title": "〜において",
+  "pattern": "[N] において / における",
+  "summary": "in; at (formal で)",
+  "explanation": "A formal で for place, time or field. Before a noun: における.",
+  "examples": [
+   {
+    "jp": "会議は{東京|とうきょう}において行われる。",
+    "kana": "かいぎはとうきょうにおいておこなわれる。",
+    "romaji": "kaigi wa toukyou ni oite okonawareru.",
+    "en": "The conference will be held in Tokyo."
+   },
+   {
+    "jp": "現代社会における{情報|じょうほう}の{役割|やくわり}は大きい。",
+    "kana": "げんだいしゃかいにおけるじょうほうのやくわりはおおきい。",
+    "romaji": "gendai shakai ni okeru jouhou no yakuwari wa ookii.",
+    "en": "The role of information in modern society is large."
+   },
+   {
+    "jp": "この分野において{彼|かれ}は{第一人者|だいいちにんしゃ}だ。",
+    "kana": "このぶんやにおいてかれはだいいちにんしゃだ。",
+    "romaji": "kono bunya ni oite kare wa daiichininsha da.",
+    "en": "In this field he is the leading figure."
+   }
+  ],
+  "mistakes": [
+   "Written and formal; use で in conversation."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "試験は大学＿行われます。(formal)",
+    "answer": "において",
+    "choices": [
+     "において",
+     "にとって",
+     "によって"
+    ],
+    "why": "Formal place: において.",
+    "answerKana": "において"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kawatte",
+  "level": "n3",
+  "unit": 5,
+  "order": 558,
+  "title": "〜に代わって・〜の代わりに",
+  "pattern": "[N] に代わって / の代わりに",
+  "summary": "instead of; on behalf of",
+  "explanation": "に代わって: in place of a person (formal). の代わりに: instead of, as a substitute.",
+  "examples": [
+   {
+    "jp": "社長に代わって、{私|わたし}がご{挨拶|あいさつ}いたします。",
+    "kana": "しゃちょうにかわって、わたしがごあいさついたします。",
+    "romaji": "shachou ni kawatte, watashi ga goaisatsu itashimasu.",
+    "en": "On behalf of the president, I will give the greeting."
+   },
+   {
+    "jp": "バスの代わりに{自転車|じてんしゃ}で行った。",
+    "kana": "バスのかわりにじてんしゃでいった。",
+    "romaji": "basu no kawari ni jitensha de itta.",
+    "en": "I went by bicycle instead of by bus."
+   },
+   {
+    "jp": "病気の母に代わって、{私|わたし}が{料理|りょうり}をしています。",
+    "kana": "びょうきのははにかわって、わたしがりょうりをしています。",
+    "romaji": "byouki no haha ni kawatte, watashi ga ryouri o shite imasu.",
+    "en": "In place of my sick mother, I am doing the cooking."
+   }
+  ],
+  "mistakes": [
+   "Verb + 代わりに: 行く代わりに (instead of going)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{砂糖|さとう}＿はちみつを使いました。",
+    "answer": "の代わりに",
+    "choices": [
+     "の代わりに",
+     "に代わって",
+     "として"
+    ],
+    "why": "Substitute thing: の代わりに.",
+    "answerKana": "の代わりに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:wake",
+  "level": "n3",
+  "unit": 5,
+  "order": 559,
+  "title": "〜わけだ・〜わけではない",
+  "pattern": "[plain] わけだ / わけではない / わけがない",
+  "summary": "that is why; not necessarily; no way",
+  "explanation": "わけだ: a natural conclusion. わけではない: partial denial (\"not necessarily\"). わけがない: strong denial (\"cannot be\").",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は十年日本にいる。日本語が上手なわけだ。",
+    "kana": "かれはじゅうねんにほんにいる。にほんごがじょうずなわけだ。",
+    "romaji": "kare wa juunen nihon ni iru. nihongo ga jouzu na wake da.",
+    "en": "He has been in Japan ten years. No wonder his Japanese is good."
+   },
+   {
+    "jp": "{嫌|きら}いなわけではないが、あまり食べない。",
+    "kana": "きらいなわけではないが、あまりたべない。",
+    "romaji": "kirai na wake de wa nai ga, amari tabenai.",
+    "en": "It is not that I dislike it, but I don't eat it much."
+   },
+   {
+    "jp": "こんな{難|むずか}しい問題が{解|と}けるわけがない。",
+    "kana": "こんなむずかしいもんだいがとけるわけがない。",
+    "romaji": "konna muzukashii mondai ga tokeru wake ga nai.",
+    "en": "There is no way I can solve such a hard problem."
+   }
+  ],
+  "mistakes": [
+   "な-adjectives and nouns take な / の before わけ."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "全部分かった＿ではありません。(not necessarily)",
+    "answer": "わけ",
+    "choices": [
+     "わけ",
+     "はず",
+     "つもり"
+    ],
+    "why": "Partial denial: わけではない.",
+    "answerKana": "わけ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:wake-ni-wa-ikanai",
+  "level": "n3",
+  "unit": 6,
+  "order": 650,
+  "title": "〜わけにはいかない",
+  "pattern": "[V-plain] わけにはいかない / [V-ない] わけにはいかない",
+  "summary": "cannot (for social reasons); must",
+  "explanation": "わけにはいかない: cannot afford to, given circumstances or duty. ないわけにはいかない: must.",
+  "examples": [
+   {
+    "jp": "{明日|あした}は試験なので、遊ぶわけにはいかない。",
+    "kana": "あしたはしけんなので、あそぶわけにはいかない。",
+    "romaji": "ashita wa shiken na node, asobu wake ni wa ikanai.",
+    "en": "I have an exam tomorrow, so I cannot go out and play."
+   },
+   {
+    "jp": "{上司|じょうし}の{頼|たの}みを{断|ことわ}るわけにはいかない。",
+    "kana": "じょうしのたのみをことわるわけにはいかない。",
+    "romaji": "joushi no tanomi o kotowaru wake ni wa ikanai.",
+    "en": "I cannot refuse my boss's request."
+   },
+   {
+    "jp": "{約束|やくそく}したから、行かないわけにはいかない。",
+    "kana": "やくそくしたから、いかないわけにはいかない。",
+    "romaji": "yakusoku shita kara, ikanai wake ni wa ikanai.",
+    "en": "I promised, so I have no choice but to go."
+   }
+  ],
+  "mistakes": [
+   "Different from できない (physical inability)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "大事な会議だから、休む＿。",
+    "answer": "わけにはいかない",
+    "choices": [
+     "わけにはいかない",
+     "わけがない",
+     "わけだ"
+    ],
+    "why": "Cannot, given duty: わけにはいかない.",
+    "answerKana": "わけにはいかない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:beki",
+  "level": "n3",
+  "unit": 6,
+  "order": 651,
+  "title": "〜べきだ",
+  "pattern": "[V-plain] べきだ / べきではない",
+  "summary": "should; ought to",
+  "explanation": "べき expresses what is proper. する → すべき or するべき. Stronger and more objective than たほうがいい.",
+  "examples": [
+   {
+    "jp": "{約束|やくそく}は{守|まも}るべきだ。",
+    "kana": "やくそくはまもるべきだ。",
+    "romaji": "yakusoku wa mamoru beki da.",
+    "en": "Promises should be kept."
+   },
+   {
+    "jp": "人の悪口を言うべきではない。",
+    "kana": "ひとのわるくちをいうべきではない。",
+    "romaji": "hito no waruguchi o iu beki de wa nai.",
+    "en": "One should not speak ill of others."
+   },
+   {
+    "jp": "学生はもっと本を読むべきだと思う。",
+    "kana": "がくせいはもっとほんをよむべきだとおもう。",
+    "romaji": "gakusei wa motto hon o yomu beki da to omou.",
+    "en": "I think students should read more books."
+   }
+  ],
+  "mistakes": [
+   "Use たほうがいい for personal advice; べき sounds like a rule."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "病気の時は、{無理|むり}をする＿ではない。",
+    "answer": "べき",
+    "choices": [
+     "べき",
+     "はず",
+     "わけ"
+    ],
+    "why": "Ought not: べきではない.",
+    "answerKana": "べき"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tame",
+  "level": "n3",
+  "unit": 7,
+  "order": 752,
+  "title": "〜ため（に）(cause)",
+  "pattern": "[plain] ため（に）",
+  "summary": "because of (formal)",
+  "explanation": "With the past tense or a noun + の, ため gives a cause formally: 事故のため \"due to an accident\".",
+  "examples": [
+   {
+    "jp": "{大雪|おおゆき}のため、電車が止まった。",
+    "kana": "おおゆきのため、でんしゃがとまった。",
+    "romaji": "ooyuki no tame, densha ga tomatta.",
+    "en": "Because of the heavy snow, the trains stopped."
+   },
+   {
+    "jp": "{風邪|かぜ}を{引|ひ}いたために、会議を{欠席|けっせき}した。",
+    "kana": "かぜをひいたために、かいぎをけっせきした。",
+    "romaji": "kaze o hiita tame ni, kaigi o kesseki shita.",
+    "en": "Because I caught a cold, I missed the meeting."
+   },
+   {
+    "jp": "工事のため、この道は通れません。",
+    "kana": "こうじのため、このみちはとおれません。",
+    "romaji": "kouji no tame, kono michi wa tooremasen.",
+    "en": "Due to construction, this road is closed."
+   }
+  ],
+  "mistakes": [
+   "Dictionary form + ために is purpose, not cause."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "台風＿、学校は休みになった。",
+    "answer": "のため",
+    "choices": [
+     "のため",
+     "のように",
+     "のかわり"
+    ],
+    "why": "Cause: Nのため.",
+    "answerKana": "のため"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:okage-sei",
+  "level": "n3",
+  "unit": 7,
+  "order": 753,
+  "title": "〜おかげで・〜せいで",
+  "pattern": "[plain / N の] おかげで / せいで",
+  "summary": "thanks to; because of (blame)",
+  "explanation": "おかげで credits a good result; せいで blames a bad one.",
+  "examples": [
+   {
+    "jp": "先生のおかげで{合格|ごうかく}できました。",
+    "kana": "せんせいのおかげでごうかくできました。",
+    "romaji": "sensei no okage de goukaku dekimashita.",
+    "en": "Thanks to my teacher, I passed."
+   },
+   {
+    "jp": "{寝坊|ねぼう}したせいで、電車に乗り{遅|おく}れた。",
+    "kana": "ねぼうしたせいで、でんしゃにのりおくれた。",
+    "romaji": "nebou shita sei de, densha ni noriokureta.",
+    "en": "Because I overslept, I missed the train."
+   },
+   {
+    "jp": "雨のせいで{試合|しあい}は中止になった。",
+    "kana": "あめのせいでしあいはちゅうしになった。",
+    "romaji": "ame no sei de shiai wa chuushi ni natta.",
+    "en": "Because of the rain, the match was cancelled."
+   }
+  ],
+  "mistakes": [
+   "Mixing them up changes the tone: おかげで for bad results is sarcastic."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{友達|ともだち}＿、楽しい旅行になった。(thanks to)",
+    "answer": "のおかげで",
+    "choices": [
+     "のおかげで",
+     "のせいで",
+     "のために"
+    ],
+    "why": "Credit: おかげで.",
+    "answerKana": "のおかげで"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kara-ni-wa",
+  "level": "n3",
+  "unit": 8,
+  "order": 854,
+  "title": "〜からには・〜以上",
+  "pattern": "[plain] からには / 以上（は）",
+  "summary": "now that; since",
+  "explanation": "Both mean \"since it is the case that…\", followed by a resolution or obligation.",
+  "examples": [
+   {
+    "jp": "{約束|やくそく}したからには、必ず行きます。",
+    "kana": "やくそくしたからには、かならずいきます。",
+    "romaji": "yakusoku shita kara ni wa, kanarazu ikimasu.",
+    "en": "Now that I have promised, I will definitely go."
+   },
+   {
+    "jp": "学生である以上、勉強するのは{当然|とうぜん}だ。",
+    "kana": "がくせいであるいじょう、べんきょうするのはとうぜんだ。",
+    "romaji": "gakusei de aru ijou, benkyou suru no wa touzen da.",
+    "en": "As long as you are a student, studying is natural."
+   },
+   {
+    "jp": "{引|ひ}き受けた以上は、最後までやる。",
+    "kana": "ひきうけたいじょうは、さいごまでやる。",
+    "romaji": "hikiuketa ijou wa, saigo made yaru.",
+    "en": "Since I took it on, I will do it to the end."
+   }
+  ],
+  "mistakes": [
+   "Nouns take である before 以上."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "日本に来た＿、日本語を話したい。",
+    "answer": "からには",
+    "choices": [
+     "からには",
+     "からといって",
+     "からこそ"
+    ],
+    "why": "Resolution after a fact: からには.",
+    "answerKana": "からには"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kara-koso",
+  "level": "n3",
+  "unit": 8,
+  "order": 855,
+  "title": "〜からこそ・〜からといって",
+  "pattern": "[plain] からこそ / からといって",
+  "summary": "precisely because; just because … does not mean",
+  "explanation": "からこそ stresses the reason. からといって denies that a reason is sufficient, with a negative ending.",
+  "examples": [
+   {
+    "jp": "好きだからこそ、{厳|きび}しく言うのだ。",
+    "kana": "すきだからこそ、きびしくいうのだ。",
+    "romaji": "suki da kara koso, kibishiku iu no da.",
+    "en": "Precisely because I care, I speak sternly."
+   },
+   {
+    "jp": "安いからといって、たくさん買うのはよくない。",
+    "kana": "やすいからといって、たくさんかうのはよくない。",
+    "romaji": "yasui kara to itte, takusan kau no wa yokunai.",
+    "en": "Just because it is cheap does not mean buying a lot is good."
+   },
+   {
+    "jp": "日本人だからといって、全員が{寿司|すし}を好きなわけではない。",
+    "kana": "にほんじんだからといって、ぜんいんがすしをすきなわけではない。",
+    "romaji": "nihonjin da kara to itte, zen'in ga sushi o suki na wake de wa nai.",
+    "en": "Just because they are Japanese does not mean everyone likes sushi."
+   }
+  ],
+  "mistakes": [
+   "からといって needs a negative or limiting ending."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{忙|いそが}しい＿、休まなくていいわけではない。",
+    "answer": "からといって",
+    "choices": [
+     "からといって",
+     "からこそ",
+     "からには"
+    ],
+    "why": "Insufficient reason: からといって.",
+    "answerKana": "からといって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:toiu-koto-da",
+  "level": "n3",
+  "unit": 9,
+  "order": 956,
+  "title": "〜ということだ・〜とのことだ",
+  "pattern": "[plain] ということだ / とのことだ",
+  "summary": "I hear that; it means that",
+  "explanation": "ということだ reports information or restates a meaning (\"in other words\"). とのことだ is a formal hearsay.",
+  "examples": [
+   {
+    "jp": "田中さんは来月帰国するということだ。",
+    "kana": "たなかさんはらいげつきこくするということだ。",
+    "romaji": "tanaka-san wa raigetsu kikoku suru to iu koto da.",
+    "en": "I hear Tanaka is returning home next month."
+   },
+   {
+    "jp": "つまり、計画は中止ということですね。",
+    "kana": "つまり、けいかくはちゅうしということですね。",
+    "romaji": "tsumari, keikaku wa chuushi to iu koto desu ne.",
+    "en": "In other words, the plan is cancelled, right?"
+   },
+   {
+    "jp": "部長は本日お休みとのことです。",
+    "kana": "ぶちょうはほんじつおやすみとのことです。",
+    "romaji": "buchou wa honjitsu oyasumi to no koto desu.",
+    "en": "I am told the manager is off today."
+   }
+  ],
+  "mistakes": [
+   "Nouns take no だ before ということだ in the restating sense."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "会議は三時から＿ことです。(I hear)",
+    "answer": "という",
+    "choices": [
+     "という",
+     "といった",
+     "とした"
+    ],
+    "why": "Hearsay: ということだ.",
+    "answerKana": "という"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-iu-no-wa",
+  "level": "n3",
+  "unit": 9,
+  "order": 957,
+  "title": "〜というのは・〜とは",
+  "pattern": "[N] というのは / とは …ことだ",
+  "summary": "X means…; as for X",
+  "explanation": "Defines or explains a term. The explanation often ends in ことだ or という意味だ.",
+  "examples": [
+   {
+    "jp": "「花見」というのは、{桜|さくら}を見て楽しむことです。",
+    "kana": "「はなみ」というのは、さくらをみてたのしむことです。",
+    "romaji": "\"hanami\" to iu no wa, sakura o mite tanoshimu koto desu.",
+    "en": "\"Hanami\" means enjoying looking at cherry blossoms."
+   },
+   {
+    "jp": "コンビニとは、コンビニエンスストアのことだ。",
+    "kana": "コンビニとは、コンビニエンスストアのことだ。",
+    "romaji": "konbini to wa, konbiniensu sutoa no koto da.",
+    "en": "\"Konbini\" means a convenience store."
+   },
+   {
+    "jp": "勉強というのは、続けることが大切だ。",
+    "kana": "べんきょうというのは、つづけることがたいせつだ。",
+    "romaji": "benkyou to iu no wa, tsuzukeru koto ga taisetsu da.",
+    "en": "As for studying, continuing is what matters."
+   }
+  ],
+  "mistakes": [
+   "とは is more formal / written."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "「{残業|ざんぎょう}」＿、決められた時間より長く働くことです。",
+    "answer": "というのは",
+    "choices": [
+     "というのは",
+     "というと",
+     "といえば"
+    ],
+    "why": "Definition: というのは.",
+    "answerKana": "というのは"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-ieba",
+  "level": "n3",
+  "unit": 10,
+  "order": 1058,
+  "title": "〜といえば・〜というと",
+  "pattern": "[N] といえば / というと",
+  "summary": "speaking of",
+  "explanation": "Picks up a topic just mentioned and associates something with it.",
+  "examples": [
+   {
+    "jp": "日本の食べ{物|もの}といえば、やはり{寿司|すし}でしょう。",
+    "kana": "にほんのたべものといえば、やはりすしでしょう。",
+    "romaji": "nihon no tabemono to ieba, yahari sushi deshou.",
+    "en": "Speaking of Japanese food, it has to be sushi."
+   },
+   {
+    "jp": "{京都|きょうと}というと、お{寺|てら}を思い出す。",
+    "kana": "きょうとというと、おてらをおもいだす。",
+    "romaji": "kyouto to iu to, otera o omoidasu.",
+    "en": "When you say Kyoto, I think of temples."
+   },
+   {
+    "jp": "夏といえば、花火だ。",
+    "kana": "なつといえば、はなびだ。",
+    "romaji": "natsu to ieba, hanabi da.",
+    "en": "Summer means fireworks."
+   }
+  ],
+  "mistakes": [
+   "Not for defining; that is というのは."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "スポーツ＿、サッカーが{一番|いちばん}人気だ。(speaking of)",
+    "answer": "といえば",
+    "choices": [
+     "といえば",
+     "というのは",
+     "として"
+    ],
+    "why": "Association: といえば.",
+    "answerKana": "といえば"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tte",
+  "level": "n3",
+  "unit": 10,
+  "order": 1059,
+  "title": "〜って (casual topic / quotation)",
+  "pattern": "[N] って / [plain] って",
+  "summary": "casual は / という / と",
+  "explanation": "In speech, って replaces という, というのは, は (topic) and と (quotation).",
+  "examples": [
+   {
+    "jp": "田中さんって、どんな人？",
+    "kana": "たなかさんって、どんなひと？",
+    "romaji": "tanaka-san tte, donna hito?",
+    "en": "What kind of person is Tanaka?"
+   },
+   {
+    "jp": "{明日|あした}は休みだって。",
+    "kana": "あしたはやすみだって。",
+    "romaji": "ashita wa yasumi da tte.",
+    "en": "I hear tomorrow is a day off."
+   },
+   {
+    "jp": "「さくら」って店、知ってる？",
+    "kana": "「さくら」ってみせ、しってる？",
+    "romaji": "\"sakura\" tte mise, shitteru?",
+    "en": "Do you know the shop called Sakura?"
+   }
+  ],
+  "mistakes": [
+   "Casual only."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "Casual version of 「田中さんというのはどんな人ですか」",
+    "answer": "田中さんって、どんな人？",
+    "choices": [
+     "田中さんって、どんな人？",
+     "田中さんにとって、どんな人？"
+    ],
+    "why": "って replaces というのは.",
+    "answerKana": "田中さんって、どんな人？"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ppoi-rashii-review",
+  "level": "n3",
+  "unit": 11,
+  "order": 1150,
+  "title": "〜っぽい・〜気味・〜らしい",
+  "pattern": "[N / V-stem] っぽい / 気味",
+  "summary": "-ish; a touch of",
+  "explanation": "っぽい: tends to be, -ish (子供っぽい \"childish\", 忘れっぽい \"forgetful\"). 気味: a slight tendency, often negative (風邪気味 \"a touch of a cold\").",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は{飽|あ}きっぽい{性格|せいかく}だ。",
+    "kana": "かれはあきっぽいせいかくだ。",
+    "romaji": "kare wa akippoi seikaku da.",
+    "en": "He gets bored easily."
+   },
+   {
+    "jp": "最近、{少|すこ}し{疲|つか}れ気味です。",
+    "kana": "さいきん、すこしつかれぎみです。",
+    "romaji": "saikin, sukoshi tsukaregimi desu.",
+    "en": "Lately I feel a bit tired."
+   },
+   {
+    "jp": "この水、{油|あぶら}っぽい味がする。",
+    "kana": "このみず、あぶらっぽいあじがする。",
+    "romaji": "kono mizu, aburappoi aji ga suru.",
+    "en": "This water tastes oily."
+   }
+  ],
+  "mistakes": [
+   "っぽい conjugates as an い-adjective."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "弟は{子供|こども}＿ところがある。(-ish)",
+    "answer": "っぽい",
+    "choices": [
+     "っぽい",
+     "気味",
+     "らしい"
+    ],
+    "why": "Tendency: っぽい.",
+    "answerKana": "っぽい"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ikenai-review",
+  "level": "n3",
+  "unit": 11,
+  "order": 1151,
+  "title": "〜がち・〜一方だ",
+  "pattern": "[V-stem / N] がち / [V-plain] 一方だ",
+  "summary": "tends to; keeps on -ing",
+  "explanation": "がち: prone to (usually negative): 遅れがち. 一方だ: a change continues in one direction only.",
+  "examples": [
+   {
+    "jp": "{冬|ふゆ}は{風邪|かぜ}を{引|ひ}きがちだ。",
+    "kana": "ふゆはかぜをひきがちだ。",
+    "romaji": "fuyu wa kaze o hikigachi da.",
+    "en": "In winter one tends to catch colds."
+   },
+   {
+    "jp": "{物価|ぶっか}は上がる一方だ。",
+    "kana": "ぶっかはあがるいっぽうだ。",
+    "romaji": "bukka wa agaru ippou da.",
+    "en": "Prices keep going up."
+   },
+   {
+    "jp": "{彼|かれ}は会議に{遅|おく}れがちです。",
+    "kana": "かれはかいぎにおくれがちです。",
+    "romaji": "kare wa kaigi ni okuregachi desu.",
+    "en": "He tends to be late for meetings."
+   }
+  ],
+  "mistakes": [
+   "一方だ is for continuing change, not a one-off event."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "人口は{減|へ}る＿だ。(keeps on)",
+    "answer": "一方",
+    "choices": [
+     "一方",
+     "がち",
+     "気味"
+    ],
+    "why": "Continuing change: 一方だ.",
+    "answerKana": "一方"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:uchi-ni",
+  "level": "n3",
+  "unit": 12,
+  "order": 1252,
+  "title": "〜うちに",
+  "pattern": "[V-plain / V-ない / N の / A] うちに",
+  "summary": "while (before it changes)",
+  "explanation": "うちに: do something while a state lasts, before it changes. With ない: before.",
+  "examples": [
+   {
+    "jp": "{温|あたた}かいうちに食べてください。",
+    "kana": "あたたかいうちにたべてください。",
+    "romaji": "atatakai uchi ni tabete kudasai.",
+    "en": "Please eat it while it is warm."
+   },
+   {
+    "jp": "{暗|くら}くならないうちに帰ろう。",
+    "kana": "くらくならないうちにかえろう。",
+    "romaji": "kuraku naranai uchi ni kaerou.",
+    "en": "Let's go home before it gets dark."
+   },
+   {
+    "jp": "日本にいるうちに、{富士山|ふじさん}に{登|のぼ}りたい。",
+    "kana": "にほんにいるうちに、ふじさんにのぼりたい。",
+    "romaji": "nihon ni iru uchi ni, fujisan ni noboritai.",
+    "en": "While I am in Japan, I want to climb Mt Fuji."
+   }
+  ],
+  "mistakes": [
+   "間に is neutral timing; うちに implies \"before it is too late\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{若|わか}い＿、いろいろな経験をしたほうがいい。",
+    "answer": "うちに",
+    "choices": [
+     "うちに",
+     "ところに",
+     "ために"
+    ],
+    "why": "While the state lasts: うちに.",
+    "answerKana": "うちに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tabi-ni",
+  "level": "n3",
+  "unit": 12,
+  "order": 1253,
+  "title": "〜たびに・〜ごとに",
+  "pattern": "[V-plain / N の] たびに / [N] ごとに",
+  "summary": "every time; every (interval)",
+  "explanation": "たびに: each time something happens. ごとに: at every interval (一週間ごとに) or every one of.",
+  "examples": [
+   {
+    "jp": "{彼|かれ}に会うたびに、元気をもらう。",
+    "kana": "かれにあうたびに、げんきをもらう。",
+    "romaji": "kare ni au tabi ni, genki o morau.",
+    "en": "Every time I meet him, I get energy."
+   },
+   {
+    "jp": "このバスは十分ごとに来ます。",
+    "kana": "このバスはじゅっぷんごとにきます。",
+    "romaji": "kono basu wa juppun goto ni kimasu.",
+    "en": "This bus comes every ten minutes."
+   },
+   {
+    "jp": "旅行のたびに、お{土産|みやげ}を買う。",
+    "kana": "りょこうのたびに、おみやげをかう。",
+    "romaji": "ryokou no tabi ni, omiyage o kau.",
+    "en": "Every time I travel, I buy souvenirs."
+   }
+  ],
+  "mistakes": [
+   "たびに takes the dictionary form even for past habits."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{薬|くすり}は六時間＿飲んでください。",
+    "answer": "ごとに",
+    "choices": [
+     "ごとに",
+     "たびに",
+     "うちに"
+    ],
+    "why": "Interval: ごとに.",
+    "answerKana": "ごとに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:saichuu",
+  "level": "n3",
+  "unit": 13,
+  "order": 1354,
+  "title": "〜最中に・〜ところに",
+  "pattern": "[V-ている / N の] 最中に",
+  "summary": "right in the middle of",
+  "explanation": "最中 (さいちゅう) stresses that something interrupts an action in progress.",
+  "examples": [
+   {
+    "jp": "食事の最中に電話が{鳴|な}った。",
+    "kana": "しょくじのさいちゅうにでんわがなった。",
+    "romaji": "shokuji no saichuu ni denwa ga natta.",
+    "en": "The phone rang right in the middle of the meal."
+   },
+   {
+    "jp": "会議をしている最中に、{停電|ていでん}になった。",
+    "kana": "かいぎをしているさいちゅうに、ていでんになった。",
+    "romaji": "kaigi o shite iru saichuu ni, teiden ni natta.",
+    "en": "In the middle of the meeting, the power went out."
+   },
+   {
+    "jp": "今、考えている最中です。",
+    "kana": "いま、かんがえているさいちゅうです。",
+    "romaji": "ima, kangaete iru saichuu desu.",
+    "en": "I am right in the middle of thinking about it."
+   }
+  ],
+  "mistakes": [
+   "Not used for states (住んでいる最中 is wrong)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "シャワーを{浴|あ}びている＿、お{客|きゃく}さんが来た。",
+    "answer": "最中に",
+    "choices": [
+     "最中に",
+     "うちに",
+     "ごとに"
+    ],
+    "why": "Interruption: 最中に.",
+    "answerKana": "もっと中に"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sai-ni",
+  "level": "n3",
+  "unit": 13,
+  "order": 1355,
+  "title": "〜際に・〜に際して",
+  "pattern": "[V-plain / N の] 際（に）",
+  "summary": "on the occasion of (formal)",
+  "explanation": "A formal とき: 利用の際 \"when using\".",
+  "examples": [
+   {
+    "jp": "お帰りの際は、お{忘|わす}れ{物|もの}のないようお気をつけください。",
+    "kana": "おかえりのさいは、おわすれもののないようおきをつけください。",
+    "romaji": "okaeri no sai wa, owasuremono no nai you oki o tsuke kudasai.",
+    "en": "When leaving, please take care not to forget anything."
+   },
+   {
+    "jp": "{申|もう}し込みの際に、{身分証明書|みぶんしょうめいしょ}が必要です。",
+    "kana": "もうしこみのさいに、みぶんしょうめいしょがひつようです。",
+    "romaji": "moushikomi no sai ni, mibun shoumeisho ga hitsuyou desu.",
+    "en": "Identification is required when applying."
+   },
+   {
+    "jp": "日本を{訪|おとず}れた際に、{京都|きょうと}に行きました。",
+    "kana": "にほんをおとずれたさいに、きょうとにいきました。",
+    "romaji": "nihon o otozureta sai ni, kyouto ni ikimashita.",
+    "en": "When I visited Japan, I went to Kyoto."
+   }
+  ],
+  "mistakes": [
+   "Formal; とき is the plain equivalent."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ご利用＿は、カードをお持ちください。",
+    "answer": "の際",
+    "choices": [
+     "の際",
+     "のうち",
+     "のたび"
+    ],
+    "why": "Formal \"when\": 際.",
+    "answerKana": "のさい"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-shitagatte-review",
+  "level": "n3",
+  "unit": 14,
+  "order": 1456,
+  "title": "〜ほど・〜くらい (degree)",
+  "pattern": "[N / V] ほど / くらい",
+  "summary": "to the extent that; so … that",
+  "explanation": "ほど and くらい express degree: 死ぬほど疲れた \"tired to death\". ほど〜ない: not as much as.",
+  "examples": [
+   {
+    "jp": "{泣|な}きたいほど{悔|くや}しかった。",
+    "kana": "なきたいほどくやしかった。",
+    "romaji": "nakitai hodo kuyashikatta.",
+    "en": "I was so frustrated I could cry."
+   },
+   {
+    "jp": "今日は昨日ほど{寒|さむ}くない。",
+    "kana": "きょうはきのうほどさむくない。",
+    "romaji": "kyou wa kinou hodo samukunai.",
+    "en": "Today is not as cold as yesterday."
+   },
+   {
+    "jp": "一歩も動けないくらい{疲|つか}れている。",
+    "kana": "いっぽもうごけないくらいつかれている。",
+    "romaji": "ippo mo ugokenai kurai tsukarete iru.",
+    "en": "I am so tired I cannot move a step."
+   }
+  ],
+  "mistakes": [
+   "ほど〜ない compares; ほど alone states degree."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}＿親切な人はいない。(no one as … as)",
+    "answer": "ほど",
+    "choices": [
+     "ほど",
+     "より",
+     "まで"
+    ],
+    "why": "No one as kind as him: ほど〜ない.",
+    "answerKana": "ほど"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ba-hodo",
+  "level": "n3",
+  "unit": 14,
+  "order": 1457,
+  "title": "〜ば〜ほど",
+  "pattern": "[V-eba] [V-plain] ほど / [A-ければ] [A-い] ほど",
+  "summary": "the more … the more",
+  "explanation": "Repeat the verb or adjective: 練習すればするほど上手になる.",
+  "examples": [
+   {
+    "jp": "{練習|れんしゅう}すればするほど上手になる。",
+    "kana": "れんしゅうすればするほどじょうずになる。",
+    "romaji": "renshuu sureba suru hodo jouzu ni naru.",
+    "en": "The more you practise, the better you get."
+   },
+   {
+    "jp": "安ければ安いほどいい。",
+    "kana": "やすければやすいほどいい。",
+    "romaji": "yasukereba yasui hodo ii.",
+    "en": "The cheaper the better."
+   },
+   {
+    "jp": "考えれば考えるほど分からなくなる。",
+    "kana": "かんがえればかんがえるほどわからなくなる。",
+    "romaji": "kangaereba kangaeru hodo wakaranaku naru.",
+    "en": "The more I think, the less I understand."
+   }
+  ],
+  "mistakes": [
+   "な-adjectives: 静かなら静かなほど."
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "prompt": "Make: \"The more you read, the more interesting it gets.\"",
+    "answer": "読めば読むほど面白くなる",
+    "choices": [
+     "読めば",
+     "読むほど",
+     "面白くなる"
+    ],
+    "why": "ば + plain + ほど.",
+    "answerKana": "読めば読むほどおもしろくなる"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:dake-de-naku-review",
+  "level": "n3",
+  "unit": 15,
+  "order": 1558,
+  "title": "〜ばかりでなく・〜に限らず",
+  "pattern": "[N] ばかりでなく / に限らず",
+  "summary": "not only; not limited to",
+  "explanation": "Formal relatives of だけでなく: ばかりでなく〜も, に限らず (\"not only … but all\").",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は英語ばかりでなく、フランス語も話せる。",
+    "kana": "かれはえいごばかりでなく、フランスごもはなせる。",
+    "romaji": "kare wa eigo bakari de naku, furansugo mo hanaseru.",
+    "en": "He can speak not only English but also French."
+   },
+   {
+    "jp": "この問題は日本に{限|かぎ}らず、世界中で起きている。",
+    "kana": "このもんだいはにほんにかぎらず、せかいじゅうでおきている。",
+    "romaji": "kono mondai wa nihon ni kagirazu, sekaijuu de okite iru.",
+    "en": "This problem is happening not only in Japan but all over the world."
+   },
+   {
+    "jp": "{子供|こども}ばかりでなく大人も楽しめる。",
+    "kana": "こどもばかりでなくおとなもたのしめる。",
+    "romaji": "kodomo bakari de naku otona mo tanoshimeru.",
+    "en": "Not only children but adults can enjoy it."
+   }
+  ],
+  "mistakes": [
+   "The second clause takes も."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{週末|しゅうまつ}＿、平日も{混|ま}んでいる。",
+    "answer": "に{限|かぎ}らず",
+    "choices": [
+     "に{限|かぎ}らず",
+     "に{限|かぎ}って",
+     "において"
+    ],
+    "why": "Not limited to: に限らず.",
+    "answerKana": "にかぎらず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sae",
+  "level": "n3",
+  "unit": 15,
+  "order": 1559,
+  "title": "〜さえ・〜さえ〜ば",
+  "pattern": "[N] さえ / [V-stem] さえすれば",
+  "summary": "even; if only",
+  "explanation": "さえ: even (an extreme example). さえ〜ば: if only this one condition holds.",
+  "examples": [
+   {
+    "jp": "{子供|こども}でさえ知っている。",
+    "kana": "こどもでさえしっている。",
+    "romaji": "kodomo de sae shitte iru.",
+    "en": "Even children know it."
+   },
+   {
+    "jp": "時間さえあれば、もっと旅行したい。",
+    "kana": "じかんさえあれば、もっとりょこうしたい。",
+    "romaji": "jikan sae areba, motto ryokou shitai.",
+    "en": "If only I had time, I would travel more."
+   },
+   {
+    "jp": "{忙|いそが}しくて、昼ご飯を食べる時間さえなかった。",
+    "kana": "いそがしくて、ひるごはんをたべるじかんさえなかった。",
+    "romaji": "isogashikute, hirugohan o taberu jikan sae nakatta.",
+    "en": "I was so busy I did not even have time for lunch."
+   }
+  ],
+  "mistakes": [
+   "Verb stem + さえすれば: 薬を飲みさえすれば."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}が来＿すれば、始められる。",
+    "answer": "さえ",
+    "choices": [
+     "さえ",
+     "こそ",
+     "まで"
+    ],
+    "why": "If only: さえ〜ば.",
+    "answerKana": "さえ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:koso",
+  "level": "n3",
+  "unit": 16,
+  "order": 1650,
+  "title": "〜こそ",
+  "pattern": "[N] こそ",
+  "summary": "precisely; the very",
+  "explanation": "こそ emphasises the preceding word: 今度こそ \"this time for sure\", こちらこそ.",
+  "examples": [
+   {
+    "jp": "今度こそ{合格|ごうかく}したい。",
+    "kana": "こんどこそごうかくしたい。",
+    "romaji": "kondo koso goukaku shitai.",
+    "en": "This time for sure I want to pass."
+   },
+   {
+    "jp": "こちらこそよろしくお{願|ねが}いします。",
+    "kana": "こちらこそよろしくおねがいします。",
+    "romaji": "kochira koso yoroshiku onegai shimasu.",
+    "en": "The pleasure is mine."
+   },
+   {
+    "jp": "これこそ{私|わたし}が{探|さが}していた本だ。",
+    "kana": "これこそわたしがさがしていたほんだ。",
+    "romaji": "kore koso watashi ga sagashite ita hon da.",
+    "en": "This is the very book I was looking for."
+   }
+  ],
+  "mistakes": [
+   "からこそ stresses a reason."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{努力|どりょく}＿{成功|せいこう}の{鍵|かぎ}だ。",
+    "answer": "こそ",
+    "choices": [
+     "こそ",
+     "さえ",
+     "しか"
+    ],
+    "why": "Emphasis: こそ.",
+    "answerKana": "こそ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:mo-emphasis",
+  "level": "n3",
+  "unit": 16,
+  "order": 1651,
+  "title": "〜も (as many as) / 〜しか〜ない review",
+  "pattern": "[number] も",
+  "summary": "as many as (emphasis)",
+  "explanation": "も after a number stresses that it is a lot; しか〜ない stresses that it is little.",
+  "examples": [
+   {
+    "jp": "昨日は十時間も寝た。",
+    "kana": "きのうはじゅうじかんもねた。",
+    "romaji": "kinou wa juujikan mo neta.",
+    "en": "I slept as long as ten hours yesterday."
+   },
+   {
+    "jp": "千円しか持っていない。",
+    "kana": "せんえんしかもっていない。",
+    "romaji": "sen'en shika motte inai.",
+    "en": "I only have a thousand yen."
+   },
+   {
+    "jp": "一日に三回も電話が来た。",
+    "kana": "いちにちにさんかいもでんわがきた。",
+    "romaji": "ichinichi ni sankai mo denwa ga kita.",
+    "en": "I got calls three times in one day."
+   }
+  ],
+  "mistakes": [
+   "も with a number is emphatic, not \"also\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この本は五回＿読んだ。(as many as)",
+    "answer": "も",
+    "choices": [
+     "も",
+     "しか",
+     "だけ"
+    ],
+    "why": "Emphasis on amount: も.",
+    "answerKana": "も"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kiri",
+  "level": "n3",
+  "unit": 17,
+  "order": 1752,
+  "title": "〜きり・〜たまま",
+  "pattern": "[V-た] きり / [V-た] まま",
+  "summary": "ever since; as it is",
+  "explanation": "たきり: something happened and nothing has followed. たまま: a state is left unchanged while something else happens.",
+  "examples": [
+   {
+    "jp": "{彼|かれ}とは{去年会|きょねんあ}ったきりだ。",
+    "kana": "かれとはきょねんあったきりだ。",
+    "romaji": "kare to wa kyonen atta kiri da.",
+    "en": "I have not seen him since last year."
+   },
+   {
+    "jp": "{窓|まど}を開けたまま寝てしまった。",
+    "kana": "まどをあけたままねてしまった。",
+    "romaji": "mado o aketa mama nete shimatta.",
+    "en": "I fell asleep with the window open."
+   },
+   {
+    "jp": "{靴|くつ}を{履|は}いたまま入らないでください。",
+    "kana": "くつをはいたままはいらないでください。",
+    "romaji": "kutsu o haita mama hairanaide kudasai.",
+    "en": "Please do not enter with your shoes on."
+   }
+  ],
+  "mistakes": [
+   "Nouns: そのまま \"as it is\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "電気をつけた＿出かけてしまった。",
+    "answer": "まま",
+    "choices": [
+     "まま",
+     "きり",
+     "ところ"
+    ],
+    "why": "Unchanged state: たまま.",
+    "answerKana": "まま"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nagara-mo",
+  "level": "n3",
+  "unit": 17,
+  "order": 1753,
+  "title": "〜ながら（も）(although)",
+  "pattern": "[V-stem / N / A] ながら（も）",
+  "summary": "although; despite",
+  "explanation": "Besides \"while\", ながら marks a contrast: 知っていながら \"despite knowing\". Often ながらも.",
+  "examples": [
+   {
+    "jp": "悪いと知りながら、{嘘|うそ}をついた。",
+    "kana": "わるいとしりながら、うそをついた。",
+    "romaji": "warui to shirinagara, uso o tsuita.",
+    "en": "Knowing it was wrong, I lied."
+   },
+   {
+    "jp": "{狭|せま}いながらも、楽しい{我|わ}が家だ。",
+    "kana": "せまいながらも、たのしいわがやだ。",
+    "romaji": "semai nagara mo, tanoshii wagaya da.",
+    "en": "Small though it is, it is a happy home."
+   },
+   {
+    "jp": "{残念|ざんねん}ながら、参加できません。",
+    "kana": "ざんねんながら、さんかできません。",
+    "romaji": "zannen nagara, sanka dekimasen.",
+    "en": "Unfortunately, I cannot take part."
+   }
+  ],
+  "mistakes": [
+   "Context decides between \"while\" and \"although\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "体に悪いと分かってい＿、タバコをやめられない。",
+    "answer": "ながら",
+    "choices": [
+     "ながら",
+     "ついでに",
+     "うちに"
+    ],
+    "why": "Contrast: ながら.",
+    "answerKana": "ながら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kuse-ni",
+  "level": "n3",
+  "unit": 18,
+  "order": 1854,
+  "title": "〜くせに",
+  "pattern": "[plain / N の / A-na な] くせに",
+  "summary": "even though (critical)",
+  "explanation": "A critical のに, used for the same subject: 知っているくせに \"even though you know\".",
+  "examples": [
+   {
+    "jp": "知っているくせに、教えてくれない。",
+    "kana": "しっているくせに、おしえてくれない。",
+    "romaji": "shitte iru kuse ni, oshiete kurenai.",
+    "en": "Even though he knows, he won't tell me."
+   },
+   {
+    "jp": "{子供|こども}のくせに、生意気だ。",
+    "kana": "こどものくせに、なまいきだ。",
+    "romaji": "kodomo no kuse ni, namaiki da.",
+    "en": "For a child, he is cheeky."
+   },
+   {
+    "jp": "下手なくせに、{自信|じしん}だけはある。",
+    "kana": "へたなくせに、じしんだけはある。",
+    "romaji": "heta na kuse ni, jishin dake wa aru.",
+    "en": "He is bad at it, yet full of confidence."
+   }
+  ],
+  "mistakes": [
+   "Rude; never use about superiors."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "お金がない＿、高い{物|もの}ばかり買う。",
+    "answer": "くせに",
+    "choices": [
+     "くせに",
+     "ために",
+     "うちに"
+    ],
+    "why": "Critical contrast: くせに.",
+    "answerKana": "くせに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-shite-mo",
+  "level": "n3",
+  "unit": 18,
+  "order": 1855,
+  "title": "〜としても・〜にしても",
+  "pattern": "[plain] としても / にしても",
+  "summary": "even if; even supposing",
+  "explanation": "としても: even supposing. にしても: even in the case of, often paired (AにしてもBにしても).",
+  "examples": [
+   {
+    "jp": "雨が降ったとしても、{試合|しあい}は行われる。",
+    "kana": "あめがふったとしても、しあいはおこなわれる。",
+    "romaji": "ame ga futta to shite mo, shiai wa okonawareru.",
+    "en": "Even if it rains, the match will be held."
+   },
+   {
+    "jp": "行くにしても行かないにしても、早く決めてください。",
+    "kana": "いくにしてもいかないにしても、はやくきめてください。",
+    "romaji": "iku ni shite mo ikanai ni shite mo, hayaku kimete kudasai.",
+    "en": "Whether you go or not, please decide quickly."
+   },
+   {
+    "jp": "{冗談|じょうだん}にしても、言いすぎだ。",
+    "kana": "じょうだんにしても、いいすぎだ。",
+    "romaji": "joudan ni shite mo, iisugi da.",
+    "en": "Even as a joke, that is going too far."
+   }
+  ],
+  "mistakes": [
+   "ても is the plain version."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{忙|いそが}しい＿、{連絡|れんらく}ぐらいはできるはずだ。",
+    "answer": "にしても",
+    "choices": [
+     "にしても",
+     "として",
+     "につれて"
+    ],
+    "why": "Even in that case: にしても.",
+    "answerKana": "にしても"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sou-ni-nai",
+  "level": "n3",
+  "unit": 19,
+  "order": 1956,
+  "title": "〜そうにない・〜かねない",
+  "pattern": "[V-stem] そうにない / かねない",
+  "summary": "unlikely to; might well (bad)",
+  "explanation": "そうにない: looks unlikely. かねない: could well happen (undesirable).",
+  "examples": [
+   {
+    "jp": "この仕事は今日中に終わりそうにない。",
+    "kana": "このしごとはきょうじゅうにおわりそうにない。",
+    "romaji": "kono shigoto wa kyoujuu ni owarisou ni nai.",
+    "en": "This work is unlikely to finish today."
+   },
+   {
+    "jp": "そんなに飲むと、病気になりかねない。",
+    "kana": "そんなにのむと、びょうきになりかねない。",
+    "romaji": "sonna ni nomu to, byouki ni narikanenai.",
+    "en": "If you drink that much, you could get ill."
+   },
+   {
+    "jp": "雨は止みそうにありません。",
+    "kana": "あめはやみそうにありません。",
+    "romaji": "ame wa yamisou ni arimasen.",
+    "en": "The rain does not look like stopping."
+   }
+  ],
+  "mistakes": [
+   "かねる (without ない) means \"cannot\" (formal)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}なら、そんなことも言い＿。(might well)",
+    "answer": "かねない",
+    "choices": [
+     "かねない",
+     "そうにない",
+     "かねる"
+    ],
+    "why": "Undesirable possibility: かねない.",
+    "answerKana": "かねない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-chigai-nai",
+  "level": "n3",
+  "unit": 19,
+  "order": 1957,
+  "title": "〜に違いない・〜に決まっている",
+  "pattern": "[plain / N] に違いない / に決まっている",
+  "summary": "must be; definitely",
+  "explanation": "に違いない: a confident deduction. に決まっている: certainly, obviously (colloquial).",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は何か{隠|かく}しているに{違|ちが}いない。",
+    "kana": "かれはなにかかくしているにちがいない。",
+    "romaji": "kare wa nanika kakushite iru ni chigainai.",
+    "en": "He must be hiding something."
+   },
+   {
+    "jp": "こんな時間だから、店は閉まっているに決まっている。",
+    "kana": "こんなじかんだから、みせはしまっているにきまっている。",
+    "romaji": "konna jikan da kara, mise wa shimatte iru ni kimatte iru.",
+    "en": "At this hour, the shop is surely closed."
+   },
+   {
+    "jp": "この絵は{本物|ほんもの}に{違|ちが}いない。",
+    "kana": "このえはほんものにちがいない。",
+    "romaji": "kono e wa honmono ni chigainai.",
+    "en": "This painting must be genuine."
+   }
+  ],
+  "mistakes": [
+   "No だ after a noun."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{鍵|かぎ}がない。どこかに{落|お}とした＿。(must have)",
+    "answer": "に{違|ちが}いない",
+    "choices": [
+     "に{違|ちが}いない",
+     "に{限|かぎ}る",
+     "にすぎない"
+    ],
+    "why": "Confident deduction: に違いない.",
+    "answerKana": "にちがいない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-suginai",
+  "level": "n3",
+  "unit": 20,
+  "order": 2058,
+  "title": "〜にすぎない・〜に限る",
+  "pattern": "[plain / N] にすぎない / [N / V] に限る",
+  "summary": "nothing more than; nothing beats",
+  "explanation": "にすぎない: merely. に限る: the best option is.",
+  "examples": [
+   {
+    "jp": "それは{噂|うわさ}にすぎない。",
+    "kana": "それはうわさにすぎない。",
+    "romaji": "sore wa uwasa ni suginai.",
+    "en": "That is nothing more than a rumour."
+   },
+   {
+    "jp": "{疲|つか}れた時は寝るに{限|かぎ}る。",
+    "kana": "つかれたときはねるにかぎる。",
+    "romaji": "tsukareta toki wa neru ni kagiru.",
+    "en": "When tired, nothing beats sleeping."
+   },
+   {
+    "jp": "{私|わたし}は一社員にすぎません。",
+    "kana": "わたしはいちしゃいんにすぎません。",
+    "romaji": "watashi wa ichishain ni sugimasen.",
+    "en": "I am merely one employee."
+   }
+  ],
+  "mistakes": [
+   "に限って means \"only in that case\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "夏はビール＿。(nothing beats)",
+    "answer": "に{限|かぎ}る",
+    "choices": [
+     "に{限|かぎ}る",
+     "にすぎない",
+     "に{違|ちが}いない"
+    ],
+    "why": "Best option: に限る.",
+    "answerKana": "にかぎる"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:you-ga-nai",
+  "level": "n3",
+  "unit": 20,
+  "order": 2059,
+  "title": "〜ようがない",
+  "pattern": "[V-stem] ようがない",
+  "summary": "there is no way to",
+  "explanation": "Stem + ようがない: impossible because there is no means.",
+  "examples": [
+   {
+    "jp": "{住所|じゅうしょ}が分からないので、{連絡|れんらく}のしようがない。",
+    "kana": "じゅうしょがわからないので、れんらくのしようがない。",
+    "romaji": "juusho ga wakaranai node, renraku no shiyou ga nai.",
+    "en": "I do not know the address, so there is no way to contact them."
+   },
+   {
+    "jp": "{壊|こわ}れすぎていて、直しようがない。",
+    "kana": "こわれすぎていて、なおしようがない。",
+    "romaji": "kowaresugite ite, naoshiyou ga nai.",
+    "en": "It is too broken to repair."
+   },
+   {
+    "jp": "こんなにおいしい{料理|りょうり}は、ほめようがないほどだ。",
+    "kana": "こんなにおいしいりょうりは、ほめようがないほどだ。",
+    "romaji": "konna ni oishii ryouri wa, homeyou ga nai hodo da.",
+    "en": "A dish this delicious is beyond praise."
+   }
+  ],
+  "mistakes": [
+   "する verbs: 説明のしようがない."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{証拠|しょうこ}がないので、調べ＿。",
+    "answer": "ようがない",
+    "choices": [
+     "ようがない",
+     "かねない",
+     "そうにない"
+    ],
+    "why": "No means: ようがない.",
+    "answerKana": "ようがない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:zaru-o-enai",
+  "level": "n3",
+  "unit": 21,
+  "order": 2150,
+  "title": "〜ざるを得ない",
+  "pattern": "[V-ない stem] ざるを得ない",
+  "summary": "cannot help but; have no choice but to",
+  "explanation": "Formal: replace ない with ざるを得ない (せざるを得ない for する).",
+  "examples": [
+   {
+    "jp": "台風で、旅行を中止せざるを得なかった。",
+    "kana": "たいふうで、りょこうをちゅうしせざるをえなかった。",
+    "romaji": "taifuu de, ryokou o chuushi sezaru o enakatta.",
+    "en": "Because of the typhoon, we had no choice but to cancel the trip."
+   },
+   {
+    "jp": "{証拠|しょうこ}があるので、認めざるを得ない。",
+    "kana": "しょうこがあるので、みとめざるをえない。",
+    "romaji": "shouko ga aru node, mitomezaru o enai.",
+    "en": "As there is evidence, I cannot help but admit it."
+   },
+   {
+    "jp": "{値上|ねあ}げせざるを得ない{状況|じょうきょう}だ。",
+    "kana": "ねあげせざるをえないじょうきょうだ。",
+    "romaji": "neage sezaru o enai joukyou da.",
+    "en": "It is a situation where we must raise prices."
+   }
+  ],
+  "mistakes": [
+   "する → せざるを得ない, not しざる."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{上司|じょうし}の{命令|めいれい}なので、{従|したが}わ＿。",
+    "answer": "ざるを得ない",
+    "choices": [
+     "ざるを得ない",
+     "ようがない",
+     "かねない"
+    ],
+    "why": "Forced: ざるを得ない.",
+    "answerKana": "ざるをえない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nai-koto-wa-nai",
+  "level": "n3",
+  "unit": 21,
+  "order": 2151,
+  "title": "〜ないことはない・〜ないこともない",
+  "pattern": "[V-ない] ことはない / こともない",
+  "summary": "it is not that … cannot",
+  "explanation": "Double negative softening: 食べられないことはない \"it is not that I cannot eat it\".",
+  "examples": [
+   {
+    "jp": "行けないことはないが、あまり行きたくない。",
+    "kana": "いけないことはないが、あまりいきたくない。",
+    "romaji": "ikenai koto wa nai ga, amari ikitakunai.",
+    "en": "It is not that I cannot go, but I do not really want to."
+   },
+   {
+    "jp": "この漢字は読めないこともない。",
+    "kana": "このかんじはよめないこともない。",
+    "romaji": "kono kanji wa yomenai koto mo nai.",
+    "en": "I can sort of read this kanji."
+   },
+   {
+    "jp": "{頼|たの}めば、{手伝|てつだ}ってくれないこともないだろう。",
+    "kana": "たのめば、てつだってくれないこともないだろう。",
+    "romaji": "tanomeba, tetsudatte kurenai koto mo nai darou.",
+    "en": "If asked, he would probably help."
+   }
+  ],
+  "mistakes": [
+   "Different from ことはない (no need to)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{辛|つら}い{物|もの}は食べられない＿が、好きではない。",
+    "answer": "ことはない",
+    "choices": [
+     "ことはない",
+     "ことがない",
+     "ことになる"
+    ],
+    "why": "Not that I cannot: ないことはない.",
+    "answerKana": "ことはない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:koto-wa-nai",
+  "level": "n3",
+  "unit": 22,
+  "order": 2252,
+  "title": "〜ことはない・〜ことだ",
+  "pattern": "[V-plain] ことはない / ことだ",
+  "summary": "no need to; should (advice)",
+  "explanation": "ことはない: there is no need to. ことだ: advice (\"the thing to do is\").",
+  "examples": [
+   {
+    "jp": "心配することはない。",
+    "kana": "しんぱいすることはない。",
+    "romaji": "shinpai suru koto wa nai.",
+    "en": "There is no need to worry."
+   },
+   {
+    "jp": "{風邪|かぜ}を治すには、よく寝ることだ。",
+    "kana": "かぜをなおすには、よくねることだ。",
+    "romaji": "kaze o naosu ni wa, yoku neru koto da.",
+    "en": "To get over a cold, the thing is to sleep well."
+   },
+   {
+    "jp": "急ぐことはありません。",
+    "kana": "いそぐことはありません。",
+    "romaji": "isogu koto wa arimasen.",
+    "en": "There is no need to hurry."
+   }
+  ],
+  "mistakes": [
+   "たことがある is experience; ことはない is \"no need\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{簡単|かんたん}な問題だから、{慌|あわ}てる＿。(no need)",
+    "answer": "ことはない",
+    "choices": [
+     "ことはない",
+     "ことだ",
+     "ことがある"
+    ],
+    "why": "No need: ことはない.",
+    "answerKana": "ことはない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:mono-da",
+  "level": "n3",
+  "unit": 22,
+  "order": 2253,
+  "title": "〜ものだ・〜ものではない",
+  "pattern": "[V-plain / A] ものだ / ものではない",
+  "summary": "it is natural that; used to; should not",
+  "explanation": "ものだ: general truths, nostalgia (たものだ \"used to\"), or strong feeling. ものではない: one should not.",
+  "examples": [
+   {
+    "jp": "人はみな年を取るものだ。",
+    "kana": "ひとはみなとしをとるものだ。",
+    "romaji": "hito wa mina toshi o toru mono da.",
+    "en": "Everyone grows old; that is how it is."
+   },
+   {
+    "jp": "子供のころ、よくこの川で{泳|およ}いだものだ。",
+    "kana": "こどものころ、よくこのかわでおよいだものだ。",
+    "romaji": "kodomo no koro, yoku kono kawa de oyoida mono da.",
+    "en": "As a child I used to swim in this river."
+   },
+   {
+    "jp": "人の{物|もの}を勝手に使うものではない。",
+    "kana": "ひとのものをかってにつかうものではない。",
+    "romaji": "hito no mono o katte ni tsukau mono de wa nai.",
+    "en": "One should not use other people's things without asking."
+   }
+  ],
+  "mistakes": [
+   "ものだ cannot describe a one-off event."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{約束|やくそく}は{守|まも}る＿。(that's how it should be)",
+    "answer": "ものだ",
+    "choices": [
+     "ものだ",
+     "ものか",
+     "ことか"
+    ],
+    "why": "General truth: ものだ.",
+    "answerKana": "ものだ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:mono-no",
+  "level": "n3",
+  "unit": 23,
+  "order": 2354,
+  "title": "〜ものの・〜ものだから",
+  "pattern": "[plain] ものの / ものだから",
+  "summary": "although; because (excuse)",
+  "explanation": "ものの: although (what follows falls short). ものだから: because (giving an excuse).",
+  "examples": [
+   {
+    "jp": "買ったものの、一度も使っていない。",
+    "kana": "かったものの、いちどもつかっていない。",
+    "romaji": "katta mono no, ichido mo tsukatte inai.",
+    "en": "Although I bought it, I have never used it."
+   },
+   {
+    "jp": "道が{混|こ}んでいたものだから、{遅|おく}れてしまった。",
+    "kana": "みちがこんでいたものだから、おくれてしまった。",
+    "romaji": "michi ga konde ita mono da kara, okurete shimatta.",
+    "en": "The roads were congested, so I ended up late."
+   },
+   {
+    "jp": "日本に住んでいるものの、日本語はまだ下手だ。",
+    "kana": "にほんにすんでいるものの、にほんごはまだへただ。",
+    "romaji": "nihon ni sunde iru mono no, nihongo wa mada heta da.",
+    "en": "Although I live in Japan, my Japanese is still poor."
+   }
+  ],
+  "mistakes": [
+   "ものだから sounds like an excuse; use ので when neutral."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{練習|れんしゅう}した＿、本{番|ばん}では{失敗|しっぱい}した。",
+    "answer": "ものの",
+    "choices": [
+     "ものの",
+     "ものだから",
+     "ものか"
+    ],
+    "why": "Although: ものの.",
+    "answerKana": "ものの"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tokoro-ga",
+  "level": "n3",
+  "unit": 23,
+  "order": 2355,
+  "title": "〜ところが・〜ところで",
+  "pattern": "ところが / ところで",
+  "summary": "however (unexpected); by the way",
+  "explanation": "ところが opens an unexpected turn. ところで changes the subject.",
+  "examples": [
+   {
+    "jp": "{晴|は}れると思っていた。ところが、大雨になった。",
+    "kana": "はれるとおもっていた。ところが、おおあめになった。",
+    "romaji": "hareru to omotte ita. tokoroga, ooame ni natta.",
+    "en": "I thought it would be sunny. However, it poured."
+   },
+   {
+    "jp": "ところで、{週末|しゅうまつ}は何をしますか。",
+    "kana": "ところで、しゅうまつはなにをしますか。",
+    "romaji": "tokorode, shuumatsu wa nani o shimasu ka.",
+    "en": "By the way, what are you doing at the weekend?"
+   },
+   {
+    "jp": "急いで行った。ところが、店は休みだった。",
+    "kana": "いそいでいった。ところが、みせはやすみだった。",
+    "romaji": "isoide itta. tokoroga, mise wa yasumi datta.",
+    "en": "I rushed there. But the shop was closed."
+   }
+  ],
+  "mistakes": [
+   "Verb + ところで means \"even if\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿、来週の予定はもう決まりましたか。(by the way)",
+    "answer": "ところで",
+    "choices": [
+     "ところで",
+     "ところが",
+     "ところに"
+    ],
+    "why": "Change of subject: ところで.",
+    "answerKana": "ところで"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-shite-wa",
+  "level": "n3",
+  "unit": 24,
+  "order": 2456,
+  "title": "〜にしては・〜わりに",
+  "pattern": "[N / plain] にしては / わりに",
+  "summary": "for (contrary to expectation)",
+  "explanation": "Both: considering X, Y is unexpected. にしては after a specific noun; わりに(は) more general.",
+  "examples": [
+   {
+    "jp": "初めてにしては、上手に書けている。",
+    "kana": "はじめてにしては、じょうずにかけている。",
+    "romaji": "hajimete ni shite wa, jouzu ni kakete iru.",
+    "en": "For a first attempt, it is well written."
+   },
+   {
+    "jp": "{値段|ねだん}のわりに、おいしくない。",
+    "kana": "ねだんのわりに、おいしくない。",
+    "romaji": "nedan no wari ni, oishikunai.",
+    "en": "For the price, it is not tasty."
+   },
+   {
+    "jp": "子供にしては{背|せ}が高い。",
+    "kana": "こどもにしてはせがたかい。",
+    "romaji": "kodomo ni shite wa se ga takai.",
+    "en": "He is tall for a child."
+   }
+  ],
+  "mistakes": [
+   "わりに takes の after nouns."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}は外国人＿、日本語がとても上手だ。",
+    "answer": "にしては",
+    "choices": [
+     "にしては",
+     "にとっては",
+     "によっては"
+    ],
+    "why": "Contrary to expectation: にしては.",
+    "answerKana": "にしては"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-iu-yori",
+  "level": "n3",
+  "unit": 24,
+  "order": 2457,
+  "title": "〜というより",
+  "pattern": "[plain / N] というより",
+  "summary": "rather than",
+  "explanation": "Corrects a description: 涼しいというより寒い \"cold rather than cool\".",
+  "examples": [
+   {
+    "jp": "今日は{涼|すず}しいというより{寒|さむ}い。",
+    "kana": "きょうはすずしいというよりさむい。",
+    "romaji": "kyou wa suzushii to iu yori samui.",
+    "en": "Today is cold rather than cool."
+   },
+   {
+    "jp": "{彼|かれ}は先生というより{友達|ともだち}のようだ。",
+    "kana": "かれはせんせいというよりともだちのようだ。",
+    "romaji": "kare wa sensei to iu yori tomodachi no you da.",
+    "en": "He is more like a friend than a teacher."
+   },
+   {
+    "jp": "{趣味|しゅみ}というより仕事になっている。",
+    "kana": "しゅみというよりしごとになっている。",
+    "romaji": "shumi to iu yori shigoto ni natte iru.",
+    "en": "It has become work rather than a hobby."
+   }
+  ],
+  "mistakes": [
+   "Often paired with むしろ."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "この{料理|りょうり}は{辛|つら}い＿、{苦|くる}い。",
+    "answer": "というより",
+    "choices": [
+     "というより",
+     "といっても",
+     "というと"
+    ],
+    "why": "Rather than: というより.",
+    "answerKana": "というより"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-itte-mo",
+  "level": "n3",
+  "unit": 25,
+  "order": 2558,
+  "title": "〜といっても",
+  "pattern": "[plain / N] といっても",
+  "summary": "although I say …; that said",
+  "explanation": "Qualifies a statement: 旅行といっても、一泊だけだ.",
+  "examples": [
+   {
+    "jp": "旅行といっても、{一泊|いっぱく}だけです。",
+    "kana": "りょこうといっても、いっぱくだけです。",
+    "romaji": "ryokou to itte mo, ippaku dake desu.",
+    "en": "I say \"trip\", but it is just one night."
+   },
+   {
+    "jp": "日本語が話せるといっても、{簡単|かんたん}な会話だけだ。",
+    "kana": "にほんごがはなせるといっても、かんたんなかいわだけだ。",
+    "romaji": "nihongo ga hanaseru to itte mo, kantan na kaiwa dake da.",
+    "en": "I can speak Japanese, but only simple conversation."
+   },
+   {
+    "jp": "{忙|いそが}しいといっても、{週末|しゅうまつ}は休める。",
+    "kana": "いそがしいといっても、しゅうまつはやすめる。",
+    "romaji": "isogashii to itte mo, shuumatsu wa yasumeru.",
+    "en": "Busy as I am, I can rest at weekends."
+   }
+  ],
+  "mistakes": [
+   "Not the same as ても (even if)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{庭|にわ}がある＿、とても小さい。",
+    "answer": "といっても",
+    "choices": [
+     "といっても",
+     "というより",
+     "としても"
+    ],
+    "why": "Qualification: といっても.",
+    "answerKana": "といっても"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kakete",
+  "level": "n3",
+  "unit": 25,
+  "order": 2559,
+  "title": "〜から〜にかけて・〜にわたって",
+  "pattern": "[N] から [N] にかけて / [N] にわたって",
+  "summary": "from … through to; over (a span)",
+  "explanation": "にかけて: a loose span between two points. にわたって: throughout a whole range or period.",
+  "examples": [
+   {
+    "jp": "今夜から{明日|あした}の朝にかけて、{雪|ゆき}が降るでしょう。",
+    "kana": "こんやからあしたのあさにかけて、ゆきがふるでしょう。",
+    "romaji": "kon'ya kara ashita no asa ni kakete, yuki ga furu deshou.",
+    "en": "From tonight through tomorrow morning, it will probably snow."
+   },
+   {
+    "jp": "工事は三年にわたって行われた。",
+    "kana": "こうじはさんねんにわたっておこなわれた。",
+    "romaji": "kouji wa sannen ni watatte okonawareta.",
+    "en": "The construction went on for three years."
+   },
+   {
+    "jp": "関東から東北にかけて、強い風が{吹|ふ}いています。",
+    "kana": "かんとうからとうほくにかけて、つよいかぜがふいています。",
+    "romaji": "kantou kara touhoku ni kakete, tsuyoi kaze ga fuite imasu.",
+    "en": "Strong winds are blowing from Kanto through Tohoku."
+   }
+  ],
+  "mistakes": [
+   "からまで is exact; にかけて is approximate."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "会議は五時間＿行われた。",
+    "answer": "にわたって",
+    "choices": [
+     "にわたって",
+     "にかけて",
+     "について"
+    ],
+    "why": "Throughout a span: にわたって.",
+    "answerKana": "にわたって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kara-ni-wa-review-2",
+  "level": "n3",
+  "unit": 26,
+  "order": 2650,
+  "title": "〜以来・〜て以来",
+  "pattern": "[V-て] 以来 / [N] 以来",
+  "summary": "ever since",
+  "explanation": "以来 (いらい) marks the start of a continuing state.",
+  "examples": [
+   {
+    "jp": "{卒業|そつぎょう}して以来、{彼|かれ}に会っていない。",
+    "kana": "そつぎょうしていらい、かれにあっていない。",
+    "romaji": "sotsugyou shite irai, kare ni atte inai.",
+    "en": "I have not seen him since graduating."
+   },
+   {
+    "jp": "{去年以来|きょねんいらい}、ずっと{忙|いそが}しい。",
+    "kana": "きょねんいらい、ずっといそがしい。",
+    "romaji": "kyonen irai, zutto isogashii.",
+    "en": "I have been busy ever since last year."
+   },
+   {
+    "jp": "日本に来て以来、毎日日本語を使っている。",
+    "kana": "にほんにきていらい、まいにちにほんごをつかっている。",
+    "romaji": "nihon ni kite irai, mainichi nihongo o tsukatte iru.",
+    "en": "Since coming to Japan, I use Japanese every day."
+   }
+  ],
+  "mistakes": [
+   "The second clause describes a continuing state."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{結婚|けっこん}して＿、{料理|りょうり}をするようになった。",
+    "answer": "以来",
+    "choices": [
+     "以来",
+     "以上",
+     "以前"
+    ],
+    "why": "Ever since: 以来.",
+    "answerKana": "以来"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kake",
+  "level": "n3",
+  "unit": 26,
+  "order": 2651,
+  "title": "〜かけ・〜かける",
+  "pattern": "[V-stem] かけ / かける",
+  "summary": "half-done; about to",
+  "explanation": "Stem + かけ: unfinished (読みかけの本). Stem + かける: begin to, almost.",
+  "examples": [
+   {
+    "jp": "読みかけの本が{三冊|さんさつ}ある。",
+    "kana": "よみかけのほんがさんさつある。",
+    "romaji": "yomikake no hon ga sansatsu aru.",
+    "en": "I have three half-read books."
+   },
+   {
+    "jp": "言いかけてやめた。",
+    "kana": "いいかけてやめた。",
+    "romaji": "iikakete yameta.",
+    "en": "I started to say something and stopped."
+   },
+   {
+    "jp": "食べかけのパンを{捨|す}てないでください。",
+    "kana": "たべかけのパンをすてないでください。",
+    "romaji": "tabekake no pan o sutenaide kudasai.",
+    "en": "Please do not throw away the half-eaten bread."
+   }
+  ],
+  "mistakes": [
+   "Not every verb takes かける naturally."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "書き＿のメールがある。(half-written)",
+    "answer": "かけ",
+    "choices": [
+     "かけ",
+     "ところ",
+     "すぎ"
+    ],
+    "why": "Unfinished: かけ.",
+    "answerKana": "かけ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kiru",
+  "level": "n3",
+  "unit": 27,
+  "order": 2752,
+  "title": "〜きる・〜きれない",
+  "pattern": "[V-stem] きる / きれない",
+  "summary": "do completely; cannot finish",
+  "explanation": "Stem + きる: do to the end. きれない: too much to finish (食べきれない).",
+  "examples": [
+   {
+    "jp": "マラソンを走りきった。",
+    "kana": "マラソンをはしりきった。",
+    "romaji": "marason o hashirikitta.",
+    "en": "I ran the whole marathon."
+   },
+   {
+    "jp": "こんなにたくさん食べきれません。",
+    "kana": "こんなにたくさんたべきれません。",
+    "romaji": "konna ni takusan tabekiremasen.",
+    "en": "I cannot eat this much."
+   },
+   {
+    "jp": "使いきった{電池|でんち}は、ここに{捨|す}ててください。",
+    "kana": "つかいきったでんちは、ここにすててください。",
+    "romaji": "tsukaikitta denchi wa, koko ni sutete kudasai.",
+    "en": "Please throw used-up batteries here."
+   }
+  ],
+  "mistakes": [
+   "切る is written in kana in this use."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "数え＿ほどの{星|ほし}が見えた。(countless)",
+    "answer": "きれない",
+    "choices": [
+     "きれない",
+     "かけない",
+     "すぎない"
+    ],
+    "why": "Too many to finish counting: きれない.",
+    "answerKana": "きれない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:dasu",
+  "level": "n3",
+  "unit": 27,
+  "order": 2753,
+  "title": "〜出す・〜始める・〜終わる・〜続ける",
+  "pattern": "[V-stem] 出す / 始める / 終わる / 続ける",
+  "summary": "suddenly start; begin; finish; keep on",
+  "explanation": "Compound verbs: 出す (sudden start), 始める (begin), 終わる (finish), 続ける (continue).",
+  "examples": [
+   {
+    "jp": "赤ちゃんが急に{泣|な}き出した。",
+    "kana": "あかちゃんがきゅうになきだした。",
+    "romaji": "akachan ga kyuu ni nakidashita.",
+    "en": "The baby suddenly started crying."
+   },
+   {
+    "jp": "レポートを書き終わった。",
+    "kana": "レポートをかきおわった。",
+    "romaji": "repooto o kakiowatta.",
+    "en": "I finished writing the report."
+   },
+   {
+    "jp": "十年間、日記を書き続けている。",
+    "kana": "じゅうねんかん、にっきをかきつづけている。",
+    "romaji": "juunenkan, nikki o kakitsuzukete iru.",
+    "en": "I have kept writing a diary for ten years."
+   }
+  ],
+  "mistakes": [
+   "出す implies suddenness; 始める is neutral."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "雨が降り＿。(suddenly started)",
+    "answer": "出した",
+    "choices": [
+     "出した",
+     "始めた",
+     "続けた"
+    ],
+    "why": "Sudden start: 出す.",
+    "answerKana": "出した"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sugi-review-2",
+  "level": "n3",
+  "unit": 28,
+  "order": 2854,
+  "title": "〜向け・〜向き",
+  "pattern": "[N] 向け / 向き",
+  "summary": "intended for; suited to",
+  "explanation": "向け (むけ): made for a target group. 向き (むき): suited to, facing.",
+  "examples": [
+   {
+    "jp": "これは子供向けの本です。",
+    "kana": "これはこどもむけのほんです。",
+    "romaji": "kore wa kodomo muke no hon desu.",
+    "en": "This book is for children."
+   },
+   {
+    "jp": "この仕事は{私|わたし}には向いていない。",
+    "kana": "このしごとはわたしにはむいていない。",
+    "romaji": "kono shigoto wa watashi ni wa muite inai.",
+    "en": "This job is not suited to me."
+   },
+   {
+    "jp": "南向きの部屋は{明|あか}るい。",
+    "kana": "みなみむきのへやはあかるい。",
+    "romaji": "minami muki no heya wa akarui.",
+    "en": "A south-facing room is bright."
+   }
+  ],
+  "mistakes": [
+   "向け = designed for; 向き = suited to / facing."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "初心者＿の{教科書|きょうかしょ}を{探|さぐ}しています。",
+    "answer": "向け",
+    "choices": [
+     "向け",
+     "向き",
+     "向かい"
+    ],
+    "why": "Intended for: 向け.",
+    "answerKana": "向け"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:chuu",
+  "level": "n3",
+  "unit": 28,
+  "order": 2855,
+  "title": "〜中・〜中に",
+  "pattern": "[N] 中 (ちゅう / じゅう)",
+  "summary": "during; throughout",
+  "explanation": "ちゅう: in the middle of (会議中, 午前中). じゅう: throughout (一日中, 世界中).",
+  "examples": [
+   {
+    "jp": "部長は今、会議中です。",
+    "kana": "ぶちょうはいま、かいぎちゅうです。",
+    "romaji": "buchou wa ima, kaigichuu desu.",
+    "en": "The manager is in a meeting now."
+   },
+   {
+    "jp": "一日中雨が降っていた。",
+    "kana": "いちにちじゅうあめがふっていた。",
+    "romaji": "ichinichijuu ame ga futte ita.",
+    "en": "It rained all day."
+   },
+   {
+    "jp": "今週中に返事をください。",
+    "kana": "こんしゅうちゅうにへんじをください。",
+    "romaji": "konshuuchuu ni henji o kudasai.",
+    "en": "Please reply within this week."
+   }
+  ],
+  "mistakes": [
+   "Reading varies: 午前中 (ちゅう) but 一日中 (じゅう)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "今日＿に終わらせます。(within today)",
+    "answer": "中",
+    "choices": [
+     "中",
+     "間",
+     "内"
+    ],
+    "why": "Within: 今日中に.",
+    "answerKana": "中"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:teki",
+  "level": "n3",
+  "unit": 29,
+  "order": 2956,
+  "title": "〜的・〜化・〜性",
+  "pattern": "[N] 的 / 化 / 性",
+  "summary": "suffixes: -ic, -isation, -ness",
+  "explanation": "的 makes な-adjectives (経済的). 化 makes change nouns (国際化). 性 makes property nouns (安全性).",
+  "examples": [
+   {
+    "jp": "経済的な{理由|りゆう}で{留学|りゅうがく}をあきらめた。",
+    "kana": "けいざいてきなりゆうでりゅうがくをあきらめた。",
+    "romaji": "keizaiteki na riyuu de ryuugaku o akirameta.",
+    "en": "I gave up studying abroad for economic reasons."
+   },
+   {
+    "jp": "社会の{高齢化|こうれいか}が進んでいる。",
+    "kana": "しゃかいのこうれいかがすすんでいる。",
+    "romaji": "shakai no koureika ga susunde iru.",
+    "en": "The ageing of society is advancing."
+   },
+   {
+    "jp": "この車は安全性が高い。",
+    "kana": "このくるまはあんぜんせいがたかい。",
+    "romaji": "kono kuruma wa anzensei ga takai.",
+    "en": "This car has high safety."
+   }
+  ],
+  "mistakes": [
+   "的 + noun needs な."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{具体|ぐたい}＿な例を{挙|あ}げてください。",
+    "answer": "的",
+    "choices": [
+     "的",
+     "化",
+     "性"
+    ],
+    "why": "-ic adjective: 的.",
+    "answerKana": "てき"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:rashii-suffix",
+  "level": "n3",
+  "unit": 29,
+  "order": 2957,
+  "title": "〜さ・〜み (nominalising)",
+  "pattern": "[A-stem] さ / み",
+  "summary": "turning adjectives into nouns",
+  "explanation": "さ: measurable degree (高さ, 便利さ). み: subjective quality (楽しみ, 重み).",
+  "examples": [
+   {
+    "jp": "このビルの高さは百メートルだ。",
+    "kana": "このビルのたかさはひゃくメートルだ。",
+    "romaji": "kono biru no takasa wa hyaku meetoru da.",
+    "en": "The height of this building is 100 metres."
+   },
+   {
+    "jp": "旅行を楽しみにしています。",
+    "kana": "りょこうをたのしみにしています。",
+    "romaji": "ryokou o tanoshimi ni shite imasu.",
+    "en": "I am looking forward to the trip."
+   },
+   {
+    "jp": "{言葉|ことば}の重みを感じる。",
+    "kana": "ことばのおもみをかんじる。",
+    "romaji": "kotoba no omomi o kanjiru.",
+    "en": "I feel the weight of the words."
+   }
+  ],
+  "mistakes": [
+   "Most adjectives take さ; only some take み."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{富士山|ふじさん}の高＿を知っていますか。",
+    "answer": "さ",
+    "choices": [
+     "さ",
+     "み",
+     "め"
+    ],
+    "why": "Measurable degree: さ.",
+    "answerKana": "さ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:causative-passive",
+  "level": "n3",
+  "unit": 30,
+  "order": 3058,
+  "title": "Causative-passive",
+  "pattern": "[V-させられる / V-あされる]",
+  "summary": "be made to do",
+  "explanation": "Combines causative and passive: 待たされる \"be made to wait\". Godan verbs often shorten させられる to される (待たされる).",
+  "examples": [
+   {
+    "jp": "一時間も{待|ま}たされた。",
+    "kana": "いちじかんもまたされた。",
+    "romaji": "ichijikan mo matasareta.",
+    "en": "I was made to wait a whole hour."
+   },
+   {
+    "jp": "子供のころ、野菜を食べさせられた。",
+    "kana": "こどものころ、やさいをたべさせられた。",
+    "romaji": "kodomo no koro, yasai o tabesaserareta.",
+    "en": "As a child I was made to eat vegetables."
+   },
+   {
+    "jp": "新入社員は毎日残業させられている。",
+    "kana": "しんにゅうしゃいんはまいにちざんぎょうさせられている。",
+    "romaji": "shinnyuushain wa mainichi zangyou saserarete iru.",
+    "en": "New employees are made to work overtime every day."
+   }
+  ],
+  "mistakes": [
+   "す-verbs cannot shorten: 話させられる."
+  ],
+  "exercises": [
+   {
+    "type": "choose",
+    "prompt": "Causative-passive of 書く",
+    "answer": "書かされる",
+    "choices": [
+     "書かされる",
+     "書かれさせる",
+     "書けられる"
+    ],
+    "why": "く → かされる.",
+    "answerKana": "書かされる"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:honorific-advanced",
+  "level": "n3",
+  "unit": 30,
+  "order": 3059,
+  "title": "お〜になる・お〜する・〜ていらっしゃる",
+  "pattern": "お[V-stem]になる / お[V-stem]する / [V-て]いらっしゃる",
+  "summary": "productive honorific and humble forms",
+  "explanation": "Honorific: お + stem + になる; ていらっしゃる for ている. Humble: お + stem + する / ご + N + する; ております.",
+  "examples": [
+   {
+    "jp": "社長は会議室でお{待|ま}ちになっています。",
+    "kana": "しゃちょうはかいぎしつでおまちになっています。",
+    "romaji": "shachou wa kaigishitsu de omachi ni natte imasu.",
+    "en": "The president is waiting in the meeting room."
+   },
+   {
+    "jp": "ご案内いたします。",
+    "kana": "ごあんないいたします。",
+    "romaji": "goannai itashimasu.",
+    "en": "I will show you the way."
+   },
+   {
+    "jp": "先生は本を書いていらっしゃいます。",
+    "kana": "せんせいはほんをかいていらっしゃいます。",
+    "romaji": "sensei wa hon o kaite irasshaimasu.",
+    "en": "The professor is writing a book."
+   }
+  ],
+  "mistakes": [
+   "Do not stack honorifics: お読みになられる is wrong."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "先生が＿書きになった本です。",
+    "answer": "お",
+    "choices": [
+     "お",
+     "ご",
+     "を"
+    ],
+    "why": "お + stem + になる.",
+    "answerKana": "お"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:te-moraitai",
+  "level": "n3",
+  "unit": 31,
+  "order": 3150,
+  "title": "〜てほしい・〜てもらいたい",
+  "pattern": "[V-て] ほしい / もらいたい",
+  "summary": "want someone to",
+  "explanation": "Wanting another person to do something. The person takes に.",
+  "examples": [
+   {
+    "jp": "もっとゆっくり話してほしい。",
+    "kana": "もっとゆっくりはなしてほしい。",
+    "romaji": "motto yukkuri hanashite hoshii.",
+    "en": "I want you to speak more slowly."
+   },
+   {
+    "jp": "子供には{健康|けんこう}に育ってほしい。",
+    "kana": "こどもにはけんこうにそだってほしい。",
+    "romaji": "kodomo ni wa kenkou ni sodatte hoshii.",
+    "en": "I want my children to grow up healthy."
+   },
+   {
+    "jp": "早く返事をしてもらいたい。",
+    "kana": "はやくへんじをしてもらいたい。",
+    "romaji": "hayaku henji o shite moraitai.",
+    "en": "I would like a quick reply."
+   }
+  ],
+  "mistakes": [
+   "たい is for oneself; てほしい for others."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{皆|みな}に会議に出席し＿。(want them to)",
+    "answer": "てほしい",
+    "choices": [
+     "てほしい",
+     "たい",
+     "てあげたい"
+    ],
+    "why": "Wanting others to act: てほしい.",
+    "answerKana": "てほしい"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:you-ni-iu",
+  "level": "n3",
+  "unit": 31,
+  "order": 3151,
+  "title": "〜ように言う・〜ように頼む",
+  "pattern": "[V-plain / V-ない] ように言う / 頼む / 伝える",
+  "summary": "tell / ask someone to",
+  "explanation": "Indirect commands and requests use ように before 言う, 頼む, 伝える, 注意する.",
+  "examples": [
+   {
+    "jp": "医者に{酒|さけ}をやめるように言われた。",
+    "kana": "いしゃにさけをやめるようにいわれた。",
+    "romaji": "isha ni sake o yameru you ni iwareta.",
+    "en": "I was told by the doctor to stop drinking."
+   },
+   {
+    "jp": "{友達|ともだち}に手伝ってくれるように{頼|たの}んだ。",
+    "kana": "ともだちにてつだってくれるようにたのんだ。",
+    "romaji": "tomodachi ni tetsudatte kureru you ni tanonda.",
+    "en": "I asked a friend to help."
+   },
+   {
+    "jp": "{遅|おく}れないように伝えてください。",
+    "kana": "おくれないようにつたえてください。",
+    "romaji": "okurenai you ni tsutaete kudasai.",
+    "en": "Please tell them not to be late."
+   }
+  ],
+  "mistakes": [
+   "Direct quotes use と; indirect use ように."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "母に早く帰る＿言われた。",
+    "answer": "ように",
+    "choices": [
+     "ように",
+     "ことに",
+     "ために"
+    ],
+    "why": "Indirect command: ように言う.",
+    "answerKana": "ように"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sase-te-kudasai",
+  "level": "n3",
+  "unit": 32,
+  "order": 3252,
+  "title": "〜させていただく",
+  "pattern": "[V-causative て] いただく",
+  "summary": "allow me to (very humble)",
+  "explanation": "Causative て-form + いただく: do with the listener's permission, extremely polite.",
+  "examples": [
+   {
+    "jp": "{少|すこ}し休ませていただきます。",
+    "kana": "すこしやすませていただきます。",
+    "romaji": "sukoshi yasumasete itadakimasu.",
+    "en": "Allow me to take a short rest."
+   },
+   {
+    "jp": "{説明|せつめい}させていただきます。",
+    "kana": "せつめいさせていただきます。",
+    "romaji": "setsumei sasete itadakimasu.",
+    "en": "Allow me to explain."
+   },
+   {
+    "jp": "{明日|あした}は休ませていただけませんか。",
+    "kana": "あしたはやすませていただけませんか。",
+    "romaji": "ashita wa yasumasete itadakemasen ka.",
+    "en": "Could I possibly take tomorrow off?"
+   }
+  ],
+  "mistakes": [
+   "Overuse sounds stiff; use in business and ceremonies."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{私|わたし}から報告＿いただきます。",
+    "answer": "させて",
+    "choices": [
+     "させて",
+     "して",
+     "されて"
+    ],
+    "why": "Causative + ていただく.",
+    "answerKana": "させて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:temo-shikata-nai",
+  "level": "n3",
+  "unit": 32,
+  "order": 3253,
+  "title": "〜ても仕方がない・〜てもしようがない",
+  "pattern": "[V-て] も仕方がない",
+  "summary": "no use doing",
+  "explanation": "It is no use doing / nothing can be done about it.",
+  "examples": [
+   {
+    "jp": "今さら{後悔|こうかい}しても仕方がない。",
+    "kana": "いまさらこうかいしてもしかたがない。",
+    "romaji": "imasara koukai shite mo shikata ga nai.",
+    "en": "It is no use regretting now."
+   },
+   {
+    "jp": "雨が降っているから、{待|ま}っても仕方がない。",
+    "kana": "あめがふっているから、まってもしかたがない。",
+    "romaji": "ame ga futte iru kara, matte mo shikata ga nai.",
+    "en": "It is raining, so there is no point waiting."
+   },
+   {
+    "jp": "{文句|もんく}を言ってもしようがない。",
+    "kana": "もんくをいってもしようがない。",
+    "romaji": "monku o itte mo shiyou ga nai.",
+    "en": "There is no point complaining."
+   }
+  ],
+  "mistakes": [
+   "仕方がない alone: \"it can't be helped\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{失敗|しっぱい}を{悔|く}やんで＿。(no use)",
+    "answer": "も仕方がない",
+    "choices": [
+     "も仕方がない",
+     "はいけない",
+     "もかまわない"
+    ],
+    "why": "No use: ても仕方がない.",
+    "answerKana": "も仕方がない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kuwaete",
+  "level": "n3",
+  "unit": 33,
+  "order": 3354,
+  "title": "〜に加えて・〜上に",
+  "pattern": "[N] に加えて / [plain] 上に",
+  "summary": "in addition to",
+  "explanation": "に加えて adds to a noun. 上に adds to a clause (\"on top of that\").",
+  "examples": [
+   {
+    "jp": "この店は安い上に、{量|りょう}も{多|おお}い。",
+    "kana": "このみせはやすいうえに、りょうもおおい。",
+    "romaji": "kono mise wa yasui ue ni, ryou mo ooi.",
+    "en": "This restaurant is cheap, and on top of that the portions are large."
+   },
+   {
+    "jp": "英語に加えて、中国語も勉強している。",
+    "kana": "えいごにくわえて、ちゅうごくごもべんきょうしている。",
+    "romaji": "eigo ni kuwaete, chuugokugo mo benkyou shite iru.",
+    "en": "In addition to English, I am studying Chinese."
+   },
+   {
+    "jp": "{彼|かれ}は親切な上に、仕事もできる。",
+    "kana": "かれはしんせつなうえに、しごともできる。",
+    "romaji": "kare wa shinsetsu na ue ni, shigoto mo dekiru.",
+    "en": "He is kind and, moreover, competent."
+   }
+  ],
+  "mistakes": [
+   "Both clauses should point the same way (both good or both bad)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "今日は{寒|さむ}い＿、風も強い。",
+    "answer": "上に",
+    "choices": [
+     "上に",
+     "に加えて",
+     "おかげで"
+    ],
+    "why": "After a clause: 上に.",
+    "answerKana": "上に"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nado",
+  "level": "n3",
+  "unit": 33,
+  "order": 3355,
+  "title": "〜など・〜なんか・〜なんて",
+  "pattern": "[N] など / なんか / なんて",
+  "summary": "such as; things like (dismissive)",
+  "explanation": "など: and so on. なんか/なんて (casual): dismissive or surprised tone.",
+  "examples": [
+   {
+    "jp": "野菜や{果物|くだもの}などを買った。",
+    "kana": "やさいやくだものなどをかった。",
+    "romaji": "yasai ya kudamono nado o katta.",
+    "en": "I bought vegetables, fruit and so on."
+   },
+   {
+    "jp": "{私|わたし}なんかには{無理|むり}だ。",
+    "kana": "わたしなんかにはむりだ。",
+    "romaji": "watashi nanka ni wa muri da.",
+    "en": "Someone like me could never do it."
+   },
+   {
+    "jp": "{彼|かれ}が{辞|や}めるなんて、信じられない。",
+    "kana": "かれがやめるなんて、しんじられない。",
+    "romaji": "kare ga yameru nante, shinjirarenai.",
+    "en": "I can't believe he is quitting."
+   }
+  ],
+  "mistakes": [
+   "なんて can sound rude when used about others."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "お金＿いらない。(dismissive)",
+    "answer": "なんか",
+    "choices": [
+     "なんか",
+     "など",
+     "ほど"
+    ],
+    "why": "Dismissive: なんか.",
+    "answerKana": "なんか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ippou-de",
+  "level": "n3",
+  "unit": 34,
+  "order": 3456,
+  "title": "〜一方（で）・〜反面",
+  "pattern": "[plain] 一方で / 反面",
+  "summary": "on the one hand … on the other",
+  "explanation": "Contrasting two sides of the same thing.",
+  "examples": [
+   {
+    "jp": "{都会|とかい}は{便利|べんり}な一方で、{物価|ぶっか}が高い。",
+    "kana": "とかいはべんりないっぽうで、ぶっかがたかい。",
+    "romaji": "tokai wa benri na ippou de, bukka ga takai.",
+    "en": "The city is convenient, but on the other hand prices are high."
+   },
+   {
+    "jp": "この仕事は{給料|きゅうりょう}がいい反面、休みが{少|すく}ない。",
+    "kana": "このしごとはきゅうりょうがいいはんめん、やすみがすくない。",
+    "romaji": "kono shigoto wa kyuuryou ga ii hanmen, yasumi ga sukunai.",
+    "en": "This job pays well, but there are few days off."
+   },
+   {
+    "jp": "輸出が増える一方で、輸入は減っている。",
+    "kana": "ゆしゅつがふえるいっぽうで、ゆにゅうはへっている。",
+    "romaji": "yushutsu ga fueru ippou de, yunyuu wa hette iru.",
+    "en": "While exports grow, imports are falling."
+   }
+  ],
+  "mistakes": [
+   "一方だ (keeps on) is a different pattern."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "インターネットは{便利|べんり}な＿、{危険|きけん}もある。",
+    "answer": "反面",
+    "choices": [
+     "反面",
+     "一方だ",
+     "代わり"
+    ],
+    "why": "Other side: 反面.",
+    "answerKana": "はんめん"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tsutsu",
+  "level": "n3",
+  "unit": 34,
+  "order": 3457,
+  "title": "〜つつ・〜つつある",
+  "pattern": "[V-stem] つつ / つつある",
+  "summary": "while (formal); in the process of",
+  "explanation": "つつ: formal ながら (both \"while\" and \"although\"). つつある: a change in progress (formal).",
+  "examples": [
+   {
+    "jp": "{環境問題|かんきょうもんだい}は{深刻化|しんこくか}しつつある。",
+    "kana": "かんきょうもんだいはしんこくかしつつある。",
+    "romaji": "kankyou mondai wa shinkokuka shitsutsu aru.",
+    "en": "Environmental problems are becoming more serious."
+   },
+   {
+    "jp": "悪いと知りつつ、やってしまった。",
+    "kana": "わるいとしりつつ、やってしまった。",
+    "romaji": "warui to shiritsutsu, yatte shimatta.",
+    "en": "Knowing it was wrong, I did it anyway."
+   },
+   {
+    "jp": "景色を楽しみつつ、山道を歩いた。",
+    "kana": "けしきをたのしみつつ、やまみちをあるいた。",
+    "romaji": "keshiki o tanoshimitsutsu, yamamichi o aruita.",
+    "en": "I walked the mountain path while enjoying the scenery."
+   }
+  ],
+  "mistakes": [
+   "Written style; ながら in speech."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "経済は回復し＿ある。",
+    "answer": "つつ",
+    "choices": [
+     "つつ",
+     "ながら",
+     "きり"
+    ],
+    "why": "In progress (formal): つつある.",
+    "answerKana": "つつ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-yoru-to-review",
+  "level": "n3",
+  "unit": 35,
+  "order": 3558,
+  "title": "〜によると・〜によれば (review) and 〜とか",
+  "pattern": "[N] によると … そうだ / とか",
+  "summary": "according to; I hear (vague)",
+  "explanation": "とか at the end of a sentence reports hearsay vaguely.",
+  "examples": [
+   {
+    "jp": "天気予報によれば、{明日|あした}は{晴|は}れるそうだ。",
+    "kana": "てんきよほうによれば、あしたははれるそうだ。",
+    "romaji": "tenki yohou ni yoreba, ashita wa hareru sou da.",
+    "en": "According to the forecast, it will be sunny tomorrow."
+   },
+   {
+    "jp": "田中さんは{来月結婚|らいげつけっこん}するとか。",
+    "kana": "たなかさんはらいげつけっこんするとか。",
+    "romaji": "tanaka-san wa raigetsu kekkon suru toka.",
+    "en": "I hear Tanaka is getting married next month or so."
+   },
+   {
+    "jp": "新聞によると、{事故|じこ}の{原因|げんいん}はまだ分からないそうだ。",
+    "kana": "しんぶんによると、じこのげんいんはまだわからないそうだ。",
+    "romaji": "shinbun ni yoru to, jiko no gen'in wa mada wakaranai sou da.",
+    "en": "According to the paper, the cause of the accident is still unknown."
+   }
+  ],
+  "mistakes": [
+   "とか at the end is casual and uncertain."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}は海外に{引|ひ}っ{越|こ}す＿。(vague hearsay)",
+    "answer": "とか",
+    "choices": [
+     "とか",
+     "とは",
+     "として"
+    ],
+    "why": "Vague hearsay: とか.",
+    "answerKana": "とか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kuraimono-ka",
+  "level": "n3",
+  "unit": 35,
+  "order": 3559,
+  "title": "〜ものか・〜もんか",
+  "pattern": "[plain] ものか",
+  "summary": "no way! (strong denial)",
+  "explanation": "A rhetorical, emphatic refusal: 行くものか \"as if I'd go\".",
+  "examples": [
+   {
+    "jp": "あんな店、二度と行くものか。",
+    "kana": "あんなみせ、にどといくものか。",
+    "romaji": "anna mise, nido to iku mono ka.",
+    "en": "As if I would ever go to that shop again!"
+   },
+   {
+    "jp": "負けるものか。",
+    "kana": "まけるものか。",
+    "romaji": "makeru mono ka.",
+    "en": "I will not lose!"
+   },
+   {
+    "jp": "そんなこと、信じるもんか。",
+    "kana": "そんなこと、しんじるもんか。",
+    "romaji": "sonna koto, shinjiru mon ka.",
+    "en": "As if I would believe that!"
+   }
+  ],
+  "mistakes": [
+   "Strong and casual."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "あの人に{頼|たよ}む＿。(no way)",
+    "answer": "ものか",
+    "choices": [
+     "ものか",
+     "ものだ",
+     "ものの"
+    ],
+    "why": "Emphatic denial: ものか.",
+    "answerKana": "ものか"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:sae-review-nagara-2",
+  "level": "n3",
+  "unit": 36,
+  "order": 3650,
+  "title": "〜ことから・〜ことだから",
+  "pattern": "[plain] ことから / [N の] ことだから",
+  "summary": "from the fact that; knowing X",
+  "explanation": "ことから gives evidence for a conclusion. のことだから reasons from someone's known character.",
+  "examples": [
+   {
+    "jp": "{窓|まど}が割れていることから、{泥棒|どろぼう}が入ったと分かった。",
+    "kana": "まどがわれていることから、どろぼうがはいったとわかった。",
+    "romaji": "mado ga warete iru koto kara, dorobou ga haitta to wakatta.",
+    "en": "From the fact the window was broken, we knew a thief had got in."
+   },
+   {
+    "jp": "真面目な{彼|かれ}のことだから、きっと来るだろう。",
+    "kana": "まじめなかれのことだから、きっとくるだろう。",
+    "romaji": "majime na kare no koto da kara, kitto kuru darou.",
+    "en": "Knowing how reliable he is, he will surely come."
+   },
+   {
+    "jp": "この町は{桜|さくら}が{多|おお}いことから、{桜町|さくらまち}と{呼|よ}ばれている。",
+    "kana": "このまちはさくらがおおいことから、さくらまちとよばれている。",
+    "romaji": "kono machi wa sakura ga ooi koto kara, sakuramachi to yobarete iru.",
+    "en": "Because of its many cherry trees, this town is called Sakuramachi."
+   }
+  ],
+  "mistakes": [
+   "ことだから follows a person."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "田中さん＿、{遅|おそ}れるかもしれない。(knowing him)",
+    "answer": "のことだから",
+    "choices": [
+     "のことだから",
+     "のことから",
+     "のため"
+    ],
+    "why": "Reasoning from character: のことだから.",
+    "answerKana": "のことだから"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tokoro-datta",
+  "level": "n3",
+  "unit": 36,
+  "order": 3651,
+  "title": "〜ところだった",
+  "pattern": "[V-plain] ところだった",
+  "summary": "almost (narrowly avoided)",
+  "explanation": "Something nearly happened but did not.",
+  "examples": [
+   {
+    "jp": "もう{少|すこ}しで電車に乗り{遅|おく}れるところだった。",
+    "kana": "もうすこしででんしゃにのりおくれるところだった。",
+    "romaji": "mou sukoshi de densha ni noriokureru tokoro datta.",
+    "en": "I very nearly missed the train."
+   },
+   {
+    "jp": "{危|あや}うく{事故|じこ}を起こすところだった。",
+    "kana": "あやうくじこをおこすところだった。",
+    "romaji": "ayauku jiko o okosu tokoro datta.",
+    "en": "I almost caused an accident."
+   },
+   {
+    "jp": "{忘|わす}れるところだった。ありがとう。",
+    "kana": "わすれるところだった。ありがとう。",
+    "romaji": "wasureru tokoro datta. arigatou.",
+    "en": "I almost forgot. Thanks."
+   }
+  ],
+  "mistakes": [
+   "Often with もう少しで or 危うく."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "もう{少|すく}しで{財布|さいふ}を落とす＿。",
+    "answer": "ところだった",
+    "choices": [
+     "ところだった",
+     "ところだ",
+     "ところに"
+    ],
+    "why": "Nearly happened: ところだった.",
+    "answerKana": "ところだった"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nai-uchi-ni-review",
+  "level": "n3",
+  "unit": 37,
+  "order": 3752,
+  "title": "〜ずに・〜ないで",
+  "pattern": "[V-ない stem] ずに / [V-ない] で",
+  "summary": "without doing",
+  "explanation": "ずに is the formal form of ないで (\"without doing\"). する → せずに.",
+  "examples": [
+   {
+    "jp": "朝ご飯を食べずに出かけた。",
+    "kana": "あさごはんをたべずにでかけた。",
+    "romaji": "asagohan o tabezu ni dekaketa.",
+    "en": "I went out without eating breakfast."
+   },
+   {
+    "jp": "{辞書|じしょ}を使わずに読めた。",
+    "kana": "じしょをつかわずによめた。",
+    "romaji": "jisho o tsukawazu ni yometa.",
+    "en": "I could read it without using a dictionary."
+   },
+   {
+    "jp": "何も言わずに帰ってしまった。",
+    "kana": "なにもいわずにかえってしまった。",
+    "romaji": "nani mo iwazu ni kaette shimatta.",
+    "en": "He went home without saying anything."
+   }
+  ],
+  "mistakes": [
+   "する → せずに, not しずに."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "準備＿に試験を受けた。(without preparing)",
+    "answer": "せず",
+    "choices": [
+     "せず",
+     "しず",
+     "しないで"
+    ],
+    "why": "する → せずに.",
+    "answerKana": "せず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:temo-ii-review-3",
+  "level": "n3",
+  "unit": 37,
+  "order": 3753,
+  "title": "〜てからでないと・〜てはじめて",
+  "pattern": "[V-て] からでないと / [V-て] はじめて",
+  "summary": "not until; only after",
+  "explanation": "てからでないと: cannot until X is done. てはじめて: only after X did one realise.",
+  "examples": [
+   {
+    "jp": "{許可|きょか}をもらってからでないと、入れません。",
+    "kana": "きょかをもらってからでないと、はいれません。",
+    "romaji": "kyoka o moratte kara de nai to, hairemasen.",
+    "en": "You cannot enter until you have permission."
+   },
+   {
+    "jp": "病気になってはじめて、{健康|けんこう}の大切さが分かった。",
+    "kana": "びょうきになってはじめて、けんこうのたいせつさがわかった。",
+    "romaji": "byouki ni natte hajimete, kenkou no taisetsusa ga wakatta.",
+    "en": "Only after falling ill did I understand the value of health."
+   },
+   {
+    "jp": "確認してからでないと、答えられない。",
+    "kana": "かくにんしてからでないと、こたえられない。",
+    "romaji": "kakunin shite kara de nai to, kotaerarenai.",
+    "en": "I cannot answer until I check."
+   }
+  ],
+  "mistakes": [
+   "てはじめて is followed by a realisation."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "親になって＿、親の気持ちが分かった。",
+    "answer": "はじめて",
+    "choices": [
+     "はじめて",
+     "からでないと",
+     "ばかり"
+    ],
+    "why": "Realisation only after: てはじめて.",
+    "answerKana": "はじめて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:koto-ni",
+  "level": "n3",
+  "unit": 38,
+  "order": 3854,
+  "title": "〜ことに・〜ことか",
+  "pattern": "[A / V-た] ことに / どんなに〜ことか",
+  "summary": "to my (surprise); how … it is",
+  "explanation": "ことに after an emotion word: \"to my surprise/relief\". どんなに〜ことか: exclamation.",
+  "examples": [
+   {
+    "jp": "{驚|おどろ}いたことに、{彼|かれ}は一位だった。",
+    "kana": "おどろいたことに、かれはいちいだった。",
+    "romaji": "odoroita koto ni, kare wa ichii datta.",
+    "en": "To my surprise, he came first."
+   },
+   {
+    "jp": "残念なことに、{試合|しあい}は中止になった。",
+    "kana": "ざんねんなことに、しあいはちゅうしになった。",
+    "romaji": "zannen na koto ni, shiai wa chuushi ni natta.",
+    "en": "Regrettably, the match was cancelled."
+   },
+   {
+    "jp": "どんなに{嬉|うれ}しかったことか。",
+    "kana": "どんなにうれしかったことか。",
+    "romaji": "donna ni ureshikatta koto ka.",
+    "en": "How happy I was!"
+   }
+  ],
+  "mistakes": [
+   "Only emotion words precede ことに."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{嬉|うれ}しい＿、全員{合格|ごうかく}した。",
+    "answer": "ことに",
+    "choices": [
+     "ことに",
+     "ことか",
+     "ことだ"
+    ],
+    "why": "To my joy: ことに.",
+    "answerKana": "ことに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nai-dewa-irarenai",
+  "level": "n3",
+  "unit": 38,
+  "order": 3855,
+  "title": "〜ないではいられない・〜ずにはいられない",
+  "pattern": "[V-ない] ではいられない / [V-ず] にはいられない",
+  "summary": "cannot help doing",
+  "explanation": "An urge one cannot suppress.",
+  "examples": [
+   {
+    "jp": "あの映画は{泣|な}かずにはいられない。",
+    "kana": "あのえいがはなかずにはいられない。",
+    "romaji": "ano eiga wa nakazu ni wa irarenai.",
+    "en": "That film makes you cry whether you like it or not."
+   },
+   {
+    "jp": "{彼|かれ}の話を聞くと、{笑|わら}わないではいられない。",
+    "kana": "かれのはなしをきくと、わらわないではいられない。",
+    "romaji": "kare no hanashi o kiku to, warawanai de wa irarenai.",
+    "en": "When I hear his stories I cannot help laughing."
+   },
+   {
+    "jp": "心配せずにはいられない。",
+    "kana": "しんぱいせずにはいられない。",
+    "romaji": "shinpai sezu ni wa irarenai.",
+    "en": "I cannot help worrying."
+   }
+  ],
+  "mistakes": [
+   "する → せずにはいられない."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "おいしそうで、食べ＿にはいられなかった。",
+    "answer": "ず",
+    "choices": [
+     "ず",
+     "ない",
+     "て"
+    ],
+    "why": "ずにはいられない.",
+    "answerKana": "ず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:tatoe-temo",
+  "level": "n3",
+  "unit": 39,
+  "order": 3956,
+  "title": "たとえ〜ても・いくら〜ても",
+  "pattern": "たとえ / いくら [V-て] も",
+  "summary": "even if; no matter how",
+  "explanation": "たとえ strengthens ても. いくら〜ても: however much.",
+  "examples": [
+   {
+    "jp": "たとえ雨が降っても、行きます。",
+    "kana": "たとえあめがふっても、いきます。",
+    "romaji": "tatoe ame ga futte mo, ikimasu.",
+    "en": "Even if it rains, I will go."
+   },
+   {
+    "jp": "いくら{頼|たの}んでも、{彼|かれ}は来なかった。",
+    "kana": "いくらたのんでも、かれはこなかった。",
+    "romaji": "ikura tanonde mo, kare wa konakatta.",
+    "en": "No matter how much I asked, he did not come."
+   },
+   {
+    "jp": "たとえ{失敗|しっぱい}しても、{挑戦|ちょうせん}する{価値|かち}がある。",
+    "kana": "たとえしっぱいしても、ちょうせんするかちがある。",
+    "romaji": "tatoe shippai shite mo, chousen suru kachi ga aru.",
+    "en": "Even if I fail, it is worth trying."
+   }
+  ],
+  "mistakes": [
+   "Pairs: たとえ〜ても, いくら〜ても, どんなに〜ても."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "＿{忙|いそが}しくても、電話はしてください。(no matter how)",
+    "answer": "いくら",
+    "choices": [
+     "いくら",
+     "たとえ",
+     "もし"
+    ],
+    "why": "No matter how: いくら〜ても.",
+    "answerKana": "いくら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-sureba",
+  "level": "n3",
+  "unit": 39,
+  "order": 3957,
+  "title": "〜とすれば・〜としたら",
+  "pattern": "[plain] とすれば / としたら",
+  "summary": "supposing that",
+  "explanation": "Sets a hypothetical premise for a judgement.",
+  "examples": [
+   {
+    "jp": "もし{一億円|いちおくえん}あるとしたら、何をしますか。",
+    "kana": "もしいちおくえんあるとしたら、なにをしますか。",
+    "romaji": "moshi ichiokuen aru to shitara, nani o shimasu ka.",
+    "en": "Supposing you had 100 million yen, what would you do?"
+   },
+   {
+    "jp": "{彼|かれ}が{犯人|はんにん}だとすれば、動機は何だろう。",
+    "kana": "かれがはんにんだとすれば、どうきはなんだろう。",
+    "romaji": "kare ga hannin da to sureba, douki wa nan darou.",
+    "en": "If he is the culprit, what would the motive be?"
+   },
+   {
+    "jp": "行くとしたら、来月がいい。",
+    "kana": "いくとしたら、らいげつがいい。",
+    "romaji": "iku to shitara, raigetsu ga ii.",
+    "en": "If we go, next month would be good."
+   }
+  ],
+  "mistakes": [
+   "Nouns take だ before と."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{留学|りゅうがく}する＿、どの国がいいですか。",
+    "answer": "としたら",
+    "choices": [
+     "としたら",
+     "として",
+     "とともに"
+    ],
+    "why": "Supposing: としたら.",
+    "answerKana": "としたら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ue-de",
+  "level": "n3",
+  "unit": 40,
+  "order": 4058,
+  "title": "〜上で・〜上は",
+  "pattern": "[V-た / N の] 上で / [plain] 上は",
+  "summary": "after (and based on); now that",
+  "explanation": "上で: after doing X (as a basis). 上は: now that, since (formal からには).",
+  "examples": [
+   {
+    "jp": "よく考えた上で、決めてください。",
+    "kana": "よくかんがえたうえで、きめてください。",
+    "romaji": "yoku kangaeta ue de, kimete kudasai.",
+    "en": "Please decide after thinking it over carefully."
+   },
+   {
+    "jp": "{契約書|けいやくしょ}を読んだ上で、サインします。",
+    "kana": "けいやくしょをよんだうえで、サインします。",
+    "romaji": "keiyakusho o yonda ue de, sain shimasu.",
+    "en": "I will sign after reading the contract."
+   },
+   {
+    "jp": "{引|ひ}き受けた上は、最後までやります。",
+    "kana": "ひきうけたうえは、さいごまでやります。",
+    "romaji": "hikiuketa ue wa, saigo made yarimasu.",
+    "en": "Now that I have taken it on, I will see it through."
+   }
+  ],
+  "mistakes": [
+   "上に (in addition) is different."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "相談した＿、返事をします。",
+    "answer": "上で",
+    "choices": [
+     "上で",
+     "上に",
+     "上は"
+    ],
+    "why": "After and based on: 上で.",
+    "answerKana": "上で"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kagiri",
+  "level": "n3",
+  "unit": 40,
+  "order": 4059,
+  "title": "〜限り・〜ない限り",
+  "pattern": "[V-plain / N の] 限り / [V-ない] 限り",
+  "summary": "as long as; unless",
+  "explanation": "限り: as long as a condition holds. ない限り: unless.",
+  "examples": [
+   {
+    "jp": "{私|わたし}が知っている限り、{彼|かれ}は正直な人だ。",
+    "kana": "わたしがしっているかぎり、かれはしょうじきなひとだ。",
+    "romaji": "watashi ga shitte iru kagiri, kare wa shoujiki na hito da.",
+    "en": "As far as I know, he is an honest man."
+   },
+   {
+    "jp": "{練習|れんしゅう}しない限り、上手にならない。",
+    "kana": "れんしゅうしないかぎり、じょうずにならない。",
+    "romaji": "renshuu shinai kagiri, jouzu ni naranai.",
+    "en": "Unless you practise, you will not improve."
+   },
+   {
+    "jp": "体が元気な限り、働きたい。",
+    "kana": "からだがげんきなかぎり、はたらきたい。",
+    "romaji": "karada ga genki na kagiri, hatarakitai.",
+    "en": "As long as I am healthy, I want to work."
+   }
+  ],
+  "mistakes": [
+   "に限る (nothing beats) is different."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "雨が止まない＿、出発できない。",
+    "answer": "限り",
+    "choices": [
+     "限り",
+     "限って",
+     "限らず"
+    ],
+    "why": "Unless: ない限り.",
+    "answerKana": "かぎり"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-wa-kagiranai",
+  "level": "n3",
+  "unit": 41,
+  "order": 4150,
+  "title": "〜とは限らない",
+  "pattern": "[plain] とは限らない",
+  "summary": "not necessarily",
+  "explanation": "Denies that something is always the case.",
+  "examples": [
+   {
+    "jp": "高い{物|もの}がいい{物|もの}だとは限らない。",
+    "kana": "たかいものがいいものだとはかぎらない。",
+    "romaji": "takai mono ga ii mono da to wa kagiranai.",
+    "en": "Expensive things are not necessarily good."
+   },
+   {
+    "jp": "日本人なら{誰|だれ}でも漢字が書けるとは限らない。",
+    "kana": "にほんじんならだれでもかんじがかけるとはかぎらない。",
+    "romaji": "nihonjin nara dare demo kanji ga kakeru to wa kagiranai.",
+    "en": "Not every Japanese person can necessarily write kanji."
+   },
+   {
+    "jp": "{努力|どりょく}が必ず報われるとは限らない。",
+    "kana": "どりょくがかならずむくわれるとはかぎらない。",
+    "romaji": "doryoku ga kanarazu mukuwareru to wa kagiranai.",
+    "en": "Effort is not always rewarded."
+   }
+  ],
+  "mistakes": [
+   "Often with 必ずしも."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "有名な店がおいしい＿。",
+    "answer": "とは限らない",
+    "choices": [
+     "とは限らない",
+     "に限る",
+     "に限って"
+    ],
+    "why": "Not necessarily: とは限らない.",
+    "answerKana": "とはかぎらない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kagitte",
+  "level": "n3",
+  "unit": 41,
+  "order": 4151,
+  "title": "〜に限って",
+  "pattern": "[N] に限って",
+  "summary": "only when (of all times); of all people",
+  "explanation": "Stresses an unlucky coincidence or a person who is above suspicion.",
+  "examples": [
+   {
+    "jp": "急いでいる時に限って、電車が{遅|おく}れる。",
+    "kana": "いそいでいるときにかぎって、でんしゃがおくれる。",
+    "romaji": "isoide iru toki ni kagitte, densha ga okureru.",
+    "en": "Just when I am in a hurry, the train is late."
+   },
+   {
+    "jp": "うちの子に限って、そんなことはしない。",
+    "kana": "うちのこにかぎって、そんなことはしない。",
+    "romaji": "uchi no ko ni kagitte, sonna koto wa shinai.",
+    "en": "My child, of all people, would never do that."
+   },
+   {
+    "jp": "{傘|かさ}を{忘|わす}れた日に限って、雨が降る。",
+    "kana": "かさをわすれたひにかぎって、あめがふる。",
+    "romaji": "kasa o wasureta hi ni kagitte, ame ga furu.",
+    "en": "It rains precisely on the days I forget my umbrella."
+   }
+  ],
+  "mistakes": [
+   "Usually implies misfortune."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{忙|いそが}しい日＿、{客|きゃく}が{多|おお}い。",
+    "answer": "に限って",
+    "choices": [
+     "に限って",
+     "に限らず",
+     "に限る"
+    ],
+    "why": "Of all times: に限って.",
+    "answerKana": "にかぎって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-tomonatte",
+  "level": "n3",
+  "unit": 42,
+  "order": 4252,
+  "title": "〜に伴って・〜とともに (review)",
+  "pattern": "[N / V-plain] に伴って",
+  "summary": "along with (change)",
+  "explanation": "Formal: one change accompanies another.",
+  "examples": [
+   {
+    "jp": "経済の発展に{伴|ともな}って、{環境問題|かんきょう}も増えた。",
+    "kana": "けいざいのはってんにともなって、かんきょうもんだいもふえた。",
+    "romaji": "keizai no hatten ni tomonatte, kankyou mondai mo fueta.",
+    "en": "Along with economic development, environmental problems increased."
+   },
+   {
+    "jp": "人口の増加に{伴|ともな}い、住宅が不足している。",
+    "kana": "じんこうのぞうかにともない、じゅうたくがふそくしている。",
+    "romaji": "jinkou no zouka ni tomonai, juutaku ga fusoku shite iru.",
+    "en": "With population growth, housing is in short supply."
+   },
+   {
+    "jp": "年を取るに{伴|ともな}って、{記憶力|きおくりょく}が落ちる。",
+    "kana": "としをとるにともなって、きおくりょくがおちる。",
+    "romaji": "toshi o toru ni tomonatte, kiokuryoku ga ochiru.",
+    "en": "As one ages, memory declines."
+   }
+  ],
+  "mistakes": [
+   "に伴い is the written form."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "工事＿、道路が{混|ま}んでいます。",
+    "answer": "に{伴|ともな}って",
+    "choices": [
+     "に{伴|ともな}って",
+     "にとって",
+     "において"
+    ],
+    "why": "Accompanying change: に伴って.",
+    "answerKana": "にともなって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:moto-de",
+  "level": "n3",
+  "unit": 42,
+  "order": 4253,
+  "title": "〜のもとで・〜をもとに",
+  "pattern": "[N] のもとで / をもとに",
+  "summary": "under (guidance); based on",
+  "explanation": "のもとで: under someone's guidance or conditions. をもとに: based on.",
+  "examples": [
+   {
+    "jp": "有名な先生のもとで学んだ。",
+    "kana": "ゆうめいなせんせいのもとでまなんだ。",
+    "romaji": "yuumei na sensei no moto de mananda.",
+    "en": "I studied under a famous teacher."
+   },
+   {
+    "jp": "調査の結果をもとに、計画を立てた。",
+    "kana": "ちょうさのけっかをもとに、けいかくをたてた。",
+    "romaji": "chousa no kekka o moto ni, keikaku o tateta.",
+    "en": "We made a plan based on the survey results."
+   },
+   {
+    "jp": "この映画は実話をもとに作られた。",
+    "kana": "このえいがはじつわをもとにつくられた。",
+    "romaji": "kono eiga wa jitsuwa o moto ni tsukurareta.",
+    "en": "This film was based on a true story."
+   }
+  ],
+  "mistakes": [
+   "に基づいて is the formal equivalent of をもとに."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "経験＿、新しい商品を考えた。",
+    "answer": "をもとに",
+    "choices": [
+     "をもとに",
+     "のもとで",
+     "として"
+    ],
+    "why": "Based on: をもとに.",
+    "answerKana": "をもとに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kawari-ni-review-2",
+  "level": "n3",
+  "unit": 43,
+  "order": 4354,
+  "title": "〜ついでに (review) · 〜がてら",
+  "pattern": "[V-stem / N] がてら",
+  "summary": "while also doing",
+  "explanation": "がてら: combining two purposes in one outing (散歩がてら).",
+  "examples": [
+   {
+    "jp": "{散歩|さんぽ}がてら、{郵便局|ゆうびんきょく}に行ってきます。",
+    "kana": "さんぽがてら、ゆうびんきょくにいってきます。",
+    "romaji": "sanpo gatera, yuubinkyoku ni itte kimasu.",
+    "en": "I will go to the post office while taking a walk."
+   },
+   {
+    "jp": "買い{物|もの}がてら、友達の家に{寄|よ}った。",
+    "kana": "かいものがてら、ともだちのいえによった。",
+    "romaji": "kaimono gatera, tomodachi no ie ni yotta.",
+    "en": "I dropped in on a friend while shopping."
+   },
+   {
+    "jp": "運動がてら、駅まで歩いた。",
+    "kana": "うんどうがてら、えきまであるいた。",
+    "romaji": "undou gatera, eki made aruita.",
+    "en": "For exercise, I walked to the station."
+   }
+  ],
+  "mistakes": [
+   "がてら takes a noun or stem; ついでに takes a clause too."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "見学＿、お{土産|みやげ}を買った。",
+    "answer": "がてら",
+    "choices": [
+     "がてら",
+     "がちに",
+     "がする"
+    ],
+    "why": "Combined purpose: がてら.",
+    "answerKana": "がてら"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-tsuki",
+  "level": "n3",
+  "unit": 43,
+  "order": 4355,
+  "title": "〜につき",
+  "pattern": "[N] につき",
+  "summary": "per; due to (notices)",
+  "explanation": "につき: per unit (一人につき), or a formal \"due to\" on notices.",
+  "examples": [
+   {
+    "jp": "入場料は一人につき五百円です。",
+    "kana": "にゅうじょうりょうはひとりにつきごひゃくえんです。",
+    "romaji": "nyuujouryou wa hitori ni tsuki gohyakuen desu.",
+    "en": "Admission is 500 yen per person."
+   },
+   {
+    "jp": "工事中につき、通行止めです。",
+    "kana": "こうじちゅうにつき、つうこうどめです。",
+    "romaji": "koujichuu ni tsuki, tsuukoudome desu.",
+    "en": "Closed to traffic due to construction."
+   },
+   {
+    "jp": "一日につき二回まで利用できます。",
+    "kana": "いちにちにつきにかいまでりようできます。",
+    "romaji": "ichinichi ni tsuki nikai made riyou dekimasu.",
+    "en": "You can use it up to twice per day."
+   }
+  ],
+  "mistakes": [
+   "Formal, written."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "一回＿百円かかります。",
+    "answer": "につき",
+    "choices": [
+     "につき",
+     "にとって",
+     "によって"
+    ],
+    "why": "Per: につき.",
+    "answerKana": "につき"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-hanshite",
+  "level": "n3",
+  "unit": 44,
+  "order": 4456,
+  "title": "〜に反して・〜に比べて",
+  "pattern": "[N] に反して / に比べて",
+  "summary": "contrary to; compared with",
+  "explanation": "に反して: contrary to expectations etc. に比べて: compared with.",
+  "examples": [
+   {
+    "jp": "予想に反して、{試合|しあい}は{簡単|かんたん}に勝てた。",
+    "kana": "よそうにはんして、しあいはかんたんにかてた。",
+    "romaji": "yosou ni hanshite, shiai wa kantan ni kateta.",
+    "en": "Contrary to expectations, we won the match easily."
+   },
+   {
+    "jp": "{去年|きょねん}に比べて、今年は{暑|あつ}い。",
+    "kana": "きょねんにくらべて、ことしはあつい。",
+    "romaji": "kyonen ni kurabete, kotoshi wa atsui.",
+    "en": "Compared with last year, this year is hot."
+   },
+   {
+    "jp": "親の{期待|きたい}に反して、{彼|かれ}は音楽家になった。",
+    "kana": "おやのきたいにはんして、かれはおんがくかになった。",
+    "romaji": "oya no kitai ni hanshite, kare wa ongakuka ni natta.",
+    "en": "Against his parents' expectations, he became a musician."
+   }
+  ],
+  "mistakes": [
+   "に反して follows nouns like 予想, 期待, 規則."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{昔|むかし}＿、今は{便利|べんり}になった。",
+    "answer": "に比べて",
+    "choices": [
+     "に比べて",
+     "に反して",
+     "に対して"
+    ],
+    "why": "Comparison: に比べて.",
+    "answerKana": "にくらべて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kanshite-review-2",
+  "level": "n3",
+  "unit": 44,
+  "order": 4457,
+  "title": "〜をめぐって・〜をきっかけに",
+  "pattern": "[N] をめぐって / をきっかけに",
+  "summary": "concerning (dispute); triggered by",
+  "explanation": "をめぐって: a topic argued over. をきっかけに: taking something as the trigger or start.",
+  "examples": [
+   {
+    "jp": "新しい工場の建設をめぐって、住民が反対している。",
+    "kana": "あたらしいこうじょうのけんせつをめぐって、じゅうみんがはんたいしている。",
+    "romaji": "atarashii koujou no kensetsu o megutte, juumin ga hantai shite iru.",
+    "en": "Residents are opposing the construction of the new factory."
+   },
+   {
+    "jp": "病気をきっかけに、生活を変えた。",
+    "kana": "びょうきをきっかけに、せいかつをかえた。",
+    "romaji": "byouki o kikkake ni, seikatsu o kaeta.",
+    "en": "Taking my illness as a turning point, I changed my life."
+   },
+   {
+    "jp": "{留学|りゅうがく}をきっかけに、日本に{興味|きょうみ}を持った。",
+    "kana": "りゅうがくをきっかけに、にほんにきょうみをもった。",
+    "romaji": "ryuugaku o kikkake ni, nihon ni kyoumi o motta.",
+    "en": "Studying abroad got me interested in Japan."
+   }
+  ],
+  "mistakes": [
+   "をめぐって implies disagreement."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "友達の{紹介|しょうかい}＿、{彼女|かのじょ}と知り{合|あ}った。",
+    "answer": "をきっかけに",
+    "choices": [
+     "をきっかけに",
+     "をめぐって",
+     "をもとに"
+    ],
+    "why": "Trigger: をきっかけに.",
+    "answerKana": "をきっかけに"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:o-tsuujite",
+  "level": "n3",
+  "unit": 45,
+  "order": 4558,
+  "title": "〜を通じて・〜を通して",
+  "pattern": "[N] を通じて / を通して",
+  "summary": "through (means); throughout",
+  "explanation": "Means or medium (友達を通じて), or an entire period (一年を通して).",
+  "examples": [
+   {
+    "jp": "友達を通じて、{彼|かれ}を知った。",
+    "kana": "ともだちをつうじて、かれをしった。",
+    "romaji": "tomodachi o tsuujite, kare o shitta.",
+    "en": "I got to know him through a friend."
+   },
+   {
+    "jp": "この地方は一年を通して{暖|あたた}かい。",
+    "kana": "このちほうはいちねんをとおしてあたたかい。",
+    "romaji": "kono chihou wa ichinen o tooshite atatakai.",
+    "en": "This region is warm all year round."
+   },
+   {
+    "jp": "仕事を通して、{多|おお}くのことを学んだ。",
+    "kana": "しごとをとおして、おおくのことをまなんだ。",
+    "romaji": "shigoto o tooshite, ooku no koto o mananda.",
+    "en": "Through my work I learned many things."
+   }
+  ],
+  "mistakes": [
+   "Both readings (つうじて / とおして) are fine."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "インターネット＿、世界中の人と話せる。",
+    "answer": "を通じて",
+    "choices": [
+     "を通じて",
+     "をめぐって",
+     "をもとに"
+    ],
+    "why": "Means: を通じて.",
+    "answerKana": "を通じて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kakete-wa",
+  "level": "n3",
+  "unit": 45,
+  "order": 4559,
+  "title": "〜にかけては・〜に関しては",
+  "pattern": "[N] にかけては",
+  "summary": "when it comes to (strength)",
+  "explanation": "にかけては praises ability in a particular area.",
+  "examples": [
+   {
+    "jp": "{料理|りょうり}にかけては、{彼女|かのじょ}の右に出る者はいない。",
+    "kana": "りょうりにかけては、かのじょのみぎにでるものはいない。",
+    "romaji": "ryouri ni kakete wa, kanojo no migi ni deru mono wa inai.",
+    "en": "When it comes to cooking, no one beats her."
+   },
+   {
+    "jp": "走ることにかけては、{自信|じしん}がある。",
+    "kana": "はしることにかけては、じしんがある。",
+    "romaji": "hashiru koto ni kakete wa, jishin ga aru.",
+    "en": "When it comes to running, I am confident."
+   },
+   {
+    "jp": "パソコンにかけては、{彼|かれ}が{一番詳|いちばんくわ}しい。",
+    "kana": "パソコンにかけては、かれがいちばんくわしい。",
+    "romaji": "pasokon ni kakete wa, kare ga ichiban kuwashii.",
+    "en": "When it comes to computers, he knows the most."
+   }
+  ],
+  "mistakes": [
+   "Used for strengths, not weaknesses."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "歌＿、{彼女|かのじょ}はプロ{並|なら}みだ。",
+    "answer": "にかけては",
+    "choices": [
+     "にかけては",
+     "にとっては",
+     "にしては"
+    ],
+    "why": "Strength area: にかけては.",
+    "answerKana": "にかけては"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kara-mite",
+  "level": "n3",
+  "unit": 46,
+  "order": 4650,
+  "title": "〜から見ると・〜からいうと",
+  "pattern": "[N] から見ると / からいうと / からすると",
+  "summary": "from the viewpoint of",
+  "explanation": "Judging from a standpoint or evidence.",
+  "examples": [
+   {
+    "jp": "親から見ると、子供はいつまでも子供だ。",
+    "kana": "おやからみると、こどもはいつまでもこどもだ。",
+    "romaji": "oya kara miru to, kodomo wa itsumademo kodomo da.",
+    "en": "From a parent's viewpoint, a child is always a child."
+   },
+   {
+    "jp": "費用の点からいうと、この案が一番いい。",
+    "kana": "ひようのてんからいうと、このあんがいちばんいい。",
+    "romaji": "hiyou no ten kara iu to, kono an ga ichiban ii.",
+    "en": "In terms of cost, this plan is best."
+   },
+   {
+    "jp": "{服装|ふくそう}からすると、{彼|かれ}は学生だろう。",
+    "kana": "ふくそうからすると、かれはがくせいだろう。",
+    "romaji": "fukusou kara suru to, kare wa gakusei darou.",
+    "en": "Judging by his clothes, he is probably a student."
+   }
+  ],
+  "mistakes": [
+   "からすると also means \"judging from evidence\"."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{専門家|せんもんか}＿、この絵は本{物|もの}らしい。",
+    "answer": "から見ると",
+    "choices": [
+     "から見ると",
+     "からこそ",
+     "からには"
+    ],
+    "why": "Viewpoint: から見ると.",
+    "answerKana": "から見ると"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-shiro",
+  "level": "n3",
+  "unit": 46,
+  "order": 4651,
+  "title": "〜にしろ・〜にせよ",
+  "pattern": "[plain / N] にしろ / にせよ",
+  "summary": "even if; whether … or",
+  "explanation": "Formal にしても. Paired AにしろBにしろ: whether A or B.",
+  "examples": [
+   {
+    "jp": "行くにしろ行かないにしろ、{連絡|れんらく}してください。",
+    "kana": "いくにしろいかないにしろ、れんらくしてください。",
+    "romaji": "iku ni shiro ikanai ni shiro, renraku shite kudasai.",
+    "en": "Whether you go or not, please let me know."
+   },
+   {
+    "jp": "{冗談|じょうだん}にせよ、言ってはいけないことだ。",
+    "kana": "じょうだんにせよ、いってはいけないことだ。",
+    "romaji": "joudan ni seyo, itte wa ikenai koto da.",
+    "en": "Even as a joke, it should not be said."
+   },
+   {
+    "jp": "{理由|りゆう}があるにせよ、{遅刻|ちこく}はよくない。",
+    "kana": "りゆうがあるにせよ、ちこくはよくない。",
+    "romaji": "riyuu ga aru ni seyo, chikoku wa yokunai.",
+    "en": "Even if there is a reason, being late is not good."
+   }
+  ],
+  "mistakes": [
+   "Written and formal."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{賛成|さんせい}＿反対＿、意見を言ってください。",
+    "answer": "にしろ",
+    "choices": [
+     "にしろ",
+     "にして",
+     "にしては"
+    ],
+    "why": "Whether … or: にしろ.",
+    "answerKana": "にしろ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ta-tokoro",
+  "level": "n3",
+  "unit": 47,
+  "order": 4752,
+  "title": "〜たところ",
+  "pattern": "[V-た] ところ、…",
+  "summary": "when I did X, (I found)",
+  "explanation": "Formal たら for discoveries: 調べたところ \"upon investigating\".",
+  "examples": [
+   {
+    "jp": "調べたところ、{間違|まちが}いが見つかった。",
+    "kana": "しらべたところ、まちがいがみつかった。",
+    "romaji": "shirabeta tokoro, machigai ga mitsukatta.",
+    "en": "Upon checking, an error was found."
+   },
+   {
+    "jp": "先生に相談したところ、いいアドバイスをもらえた。",
+    "kana": "せんせいにそうだんしたところ、いいアドバイスをもらえた。",
+    "romaji": "sensei ni soudan shita tokoro, ii adobaisu o moraeta.",
+    "en": "When I consulted the teacher, I got good advice."
+   },
+   {
+    "jp": "電話したところ、{留守|るす}だった。",
+    "kana": "でんわしたところ、るすだった。",
+    "romaji": "denwa shita tokoro, rusu datta.",
+    "en": "When I phoned, no one was home."
+   }
+  ],
+  "mistakes": [
+   "The main clause is a result, not an intention."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "店に行った＿、休みだった。",
+    "answer": "ところ",
+    "choices": [
+     "ところ",
+     "ところに",
+     "ところで"
+    ],
+    "why": "Discovery: たところ.",
+    "answerKana": "ところ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ta-ue-review",
+  "level": "n3",
+  "unit": 47,
+  "order": 4753,
+  "title": "〜次第・〜次第だ",
+  "pattern": "[V-stem / N] 次第 / [N] 次第だ",
+  "summary": "as soon as; depends on",
+  "explanation": "Stem + 次第: as soon as (formal). Noun + 次第だ: depends on.",
+  "examples": [
+   {
+    "jp": "結果が分かり次第、{連絡|れんらく}します。",
+    "kana": "けっかがわかりしだい、れんらくします。",
+    "romaji": "kekka ga wakari shidai, renraku shimasu.",
+    "en": "As soon as the result is known, I will contact you."
+   },
+   {
+    "jp": "{成功|せいこう}するかどうかは、{努力次第|どりょくしだい}だ。",
+    "kana": "せいこうするかどうかは、どりょくしだいだ。",
+    "romaji": "seikou suru ka dou ka wa, doryoku shidai da.",
+    "en": "Whether you succeed depends on effort."
+   },
+   {
+    "jp": "{到着次第|とうちゃくしだい}、会議を始めます。",
+    "kana": "とうちゃくしだい、かいぎをはじめます。",
+    "romaji": "touchaku shidai, kaigi o hajimemasu.",
+    "en": "We will start the meeting as soon as you arrive."
+   }
+  ],
+  "mistakes": [
+   "Stem form for \"as soon as\", not た-form."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "準備ができ＿、出発しましょう。",
+    "answer": "次第",
+    "choices": [
+     "次第",
+     "ついでに",
+     "とたん"
+    ],
+    "why": "As soon as: 次第.",
+    "answerKana": "しだい"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:totan",
+  "level": "n3",
+  "unit": 48,
+  "order": 4854,
+  "title": "〜とたん（に）",
+  "pattern": "[V-た] とたん（に）",
+  "summary": "the moment …",
+  "explanation": "Something unexpected happens immediately after an action.",
+  "examples": [
+   {
+    "jp": "ドアを開けたとたん、{猫|ねこ}が飛び出した。",
+    "kana": "ドアをあけたとたん、ねこがとびだした。",
+    "romaji": "doa o aketa totan, neko ga tobidashita.",
+    "en": "The moment I opened the door, the cat jumped out."
+   },
+   {
+    "jp": "立ち上がったとたんに、めまいがした。",
+    "kana": "たちあがったとたんに、めまいがした。",
+    "romaji": "tachiagatta totan ni, memai ga shita.",
+    "en": "The moment I stood up, I felt dizzy."
+   },
+   {
+    "jp": "{窓|まど}を開けたとたん、{冷|つめ}たい風が入ってきた。",
+    "kana": "まどをあけたとたん、つめたいかぜがはいってきた。",
+    "romaji": "mado o aketa totan, tsumetai kaze ga haitte kita.",
+    "en": "As soon as I opened the window, a cold wind came in."
+   }
+  ],
+  "mistakes": [
+   "The second clause is not under the speaker's control."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "家を出た＿、雨が降り出した。",
+    "answer": "とたん",
+    "choices": [
+     "とたん",
+     "次第",
+     "うちに"
+    ],
+    "why": "The moment: とたん.",
+    "answerKana": "とたん"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ka-no-you-ni",
+  "level": "n3",
+  "unit": 48,
+  "order": 4855,
+  "title": "〜かのように",
+  "pattern": "[plain] かのように",
+  "summary": "as if",
+  "explanation": "Describes something as if it were the case (it is not).",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は何も知らないかのように{振|ふ}る{舞|ま}った。",
+    "kana": "かれはなにもしらないかのようにふるまった。",
+    "romaji": "kare wa nani mo shiranai ka no you ni furumatta.",
+    "en": "He acted as if he knew nothing."
+   },
+   {
+    "jp": "まるで{夢|ゆめ}を見ているかのようだ。",
+    "kana": "まるでゆめをみているかのようだ。",
+    "romaji": "marude yume o mite iru ka no you da.",
+    "en": "It is as if I were dreaming."
+   },
+   {
+    "jp": "{彼女|かのじょ}は昨日のことを{忘|わす}れたかのように{笑|わら}った。",
+    "kana": "かのじょはきのうのことをわすれたかのようにわらった。",
+    "romaji": "kanojo wa kinou no koto o wasureta ka no you ni waratta.",
+    "en": "She laughed as if she had forgotten yesterday."
+   }
+  ],
+  "mistakes": [
+   "Often with まるで."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}は{自分|じぶん}がやった＿話している。(as if)",
+    "answer": "かのように",
+    "choices": [
+     "かのように",
+     "ように",
+     "ために"
+    ],
+    "why": "As if: かのように.",
+    "answerKana": "かのように"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nai-koto-ni-wa",
+  "level": "n3",
+  "unit": 49,
+  "order": 4956,
+  "title": "〜ないことには",
+  "pattern": "[V-ない] ことには",
+  "summary": "unless (one cannot)",
+  "explanation": "Unless X is done, Y is impossible; followed by a negative.",
+  "examples": [
+   {
+    "jp": "実際に見ないことには、判断できない。",
+    "kana": "じっさいにみないことには、はんだんできない。",
+    "romaji": "jissai ni minai koto ni wa, handan dekinai.",
+    "en": "Unless I actually see it, I cannot judge."
+   },
+   {
+    "jp": "お金がないことには、何も始められない。",
+    "kana": "おかねがないことには、なにもはじめられない。",
+    "romaji": "okane ga nai koto ni wa, nani mo hajimerarenai.",
+    "en": "Without money, nothing can start."
+   },
+   {
+    "jp": "やってみないことには分からない。",
+    "kana": "やってみないことにはわからない。",
+    "romaji": "yatte minai koto ni wa wakaranai.",
+    "en": "You will not know unless you try."
+   }
+  ],
+  "mistakes": [
+   "Ends in a negative."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "本人に聞か＿、本当のことは分からない。",
+    "answer": "ないことには",
+    "choices": [
+     "ないことには",
+     "ないうちに",
+     "ないかぎり"
+    ],
+    "why": "Unless: ないことには.",
+    "answerKana": "ないことには"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:te-wa",
+  "level": "n3",
+  "unit": 49,
+  "order": 4957,
+  "title": "〜ては (repeated action / condition)",
+  "pattern": "[V-て] は [V]、[V-て] は [V] / [V-て] は",
+  "summary": "repeatedly; if (negative result)",
+  "explanation": "ては…ては: repeated alternation. ては + negative evaluation: if one does X (it is bad).",
+  "examples": [
+   {
+    "jp": "書いては消し、書いては消して、やっと手紙ができた。",
+    "kana": "かいてはけし、かいてはけして、やっとてがみができた。",
+    "romaji": "kaite wa keshi, kaite wa keshite, yatto tegami ga dekita.",
+    "en": "Writing and erasing over and over, I finally finished the letter."
+   },
+   {
+    "jp": "そんなに食べては体に悪い。",
+    "kana": "そんなにたべてはからだにわるい。",
+    "romaji": "sonna ni tabete wa karada ni warui.",
+    "en": "Eating that much is bad for you."
+   },
+   {
+    "jp": "{毎日遅刻|まいにちちこく}しては困ります。",
+    "kana": "まいにちちこくしてはこまります。",
+    "romaji": "mainichi chikoku shite wa komarimasu.",
+    "en": "Being late every day is a problem."
+   }
+  ],
+  "mistakes": [
+   "Casual contraction: ちゃ (食べちゃ)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "ここで{泳|およ}い＿いけません。",
+    "answer": "では",
+    "choices": [
+     "では",
+     "ても",
+     "でも"
+    ],
+    "why": "Prohibition with ては: 泳いではいけない.",
+    "answerKana": "では"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-mo",
+  "level": "n3",
+  "unit": 50,
+  "order": 5058,
+  "title": "〜とも・〜ともなく",
+  "pattern": "[plain] とも / [V-plain] ともなく",
+  "summary": "even though (formal); without meaning to",
+  "explanation": "とも: even if (literary). ともなく: without a clear intention (見るともなく).",
+  "examples": [
+   {
+    "jp": "どんなに遠くとも、行きます。",
+    "kana": "どんなにとおくとも、いきます。",
+    "romaji": "donna ni tooku tomo, ikimasu.",
+    "en": "However far, I will go."
+   },
+   {
+    "jp": "見るともなくテレビを見ていた。",
+    "kana": "みるともなくテレビをみていた。",
+    "romaji": "miru tomo naku terebi o mite ita.",
+    "en": "I was watching TV without really watching."
+   },
+   {
+    "jp": "{少|すく}なくとも三日はかかる。",
+    "kana": "すくなくともみっかはかかる。",
+    "romaji": "sukunakutomo mikka wa kakaru.",
+    "en": "It will take at least three days."
+   }
+  ],
+  "mistakes": [
+   "少なくとも is a fixed adverb."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "聞く＿なく、{隣|となり}の会話が耳に入った。",
+    "answer": "とも",
+    "choices": [
+     "とも",
+     "でも",
+     "さえ"
+    ],
+    "why": "Without meaning to: ともなく.",
+    "answerKana": "とも"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:dake-ni",
+  "level": "n3",
+  "unit": 50,
+  "order": 5059,
+  "title": "〜だけに・〜だけあって",
+  "pattern": "[plain / N] だけに / だけあって",
+  "summary": "precisely because; as expected of",
+  "explanation": "だけあって: worthy of (praise). だけに: precisely because (often a heightened feeling).",
+  "examples": [
+   {
+    "jp": "高かっただけあって、味は最高だ。",
+    "kana": "たかかっただけあって、あじはさいこうだ。",
+    "romaji": "takakatta dake atte, aji wa saikou da.",
+    "en": "As you would expect from the price, the taste is superb."
+   },
+   {
+    "jp": "{期待|きたい}していただけに、がっかりした。",
+    "kana": "きたいしていただけに、がっかりした。",
+    "romaji": "kitai shite ita dake ni, gakkari shita.",
+    "en": "Precisely because I had been hoping, I was disappointed."
+   },
+   {
+    "jp": "{彼|かれ}は元選手だけあって、足が速い。",
+    "kana": "かれはもとせんしゅだけあって、あしがはやい。",
+    "romaji": "kare wa moto senshu dake atte, ashi ga hayai.",
+    "en": "Being a former athlete, he runs fast."
+   }
+  ],
+  "mistakes": [
+   "だけあって is positive; だけに can be either."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "さすが有名な店＿、いつも{混|ま}んでいる。",
+    "answer": "だけあって",
+    "choices": [
+     "だけあって",
+     "だけに",
+     "だけでなく"
+    ],
+    "why": "As expected of: だけあって.",
+    "answerKana": "だけあって"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-iu-mono-da",
+  "level": "n3",
+  "unit": 51,
+  "order": 5150,
+  "title": "〜というものだ・〜というものではない",
+  "pattern": "[plain] というものだ / というものではない",
+  "summary": "that is what … is; it is not that",
+  "explanation": "というものだ states a judgement of what something really is. Negative: that is not how it is.",
+  "examples": [
+   {
+    "jp": "それは{無理|むり}というものだ。",
+    "kana": "それはむりというものだ。",
+    "romaji": "sore wa muri to iu mono da.",
+    "en": "That is asking the impossible."
+   },
+   {
+    "jp": "安ければいいというものではない。",
+    "kana": "やすければいいというものではない。",
+    "romaji": "yasukereba ii to iu mono de wa nai.",
+    "en": "It is not simply that cheaper is better."
+   },
+   {
+    "jp": "困った時に助け{合|あ}うのが友達というものだ。",
+    "kana": "こまったときにたすけあうのがともだちというものだ。",
+    "romaji": "komatta toki ni tasukeau no ga tomodachi to iu mono da.",
+    "en": "Helping each other in trouble is what friends are."
+   }
+  ],
+  "mistakes": [
+   "Stating a general judgement, not a fact."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "勉強は時間をかければいい＿ではない。",
+    "answer": "というもの",
+    "choices": [
+     "というもの",
+     "ということ",
+     "というわけ"
+    ],
+    "why": "Not simply that: というものではない.",
+    "answerKana": "というもの"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-sotte",
+  "level": "n3",
+  "unit": 51,
+  "order": 5151,
+  "title": "〜に沿って・〜に応じて",
+  "pattern": "[N] に沿って / に応じて",
+  "summary": "along; in accordance with; depending on",
+  "explanation": "に沿って: along (a road, a policy). に応じて: according to, depending on.",
+  "examples": [
+   {
+    "jp": "川に{沿|そ}って歩いた。",
+    "kana": "かわにそってあるいた。",
+    "romaji": "kawa ni sotte aruita.",
+    "en": "I walked along the river."
+   },
+   {
+    "jp": "経験に応じて給料が決まる。",
+    "kana": "けいけんにおうじてきゅうりょうがきまる。",
+    "romaji": "keiken ni oujite kyuuryou ga kimaru.",
+    "en": "Salary is decided according to experience."
+   },
+   {
+    "jp": "計画に{沿|そ}って進めてください。",
+    "kana": "けいかくにそってすすめてください。",
+    "romaji": "keikaku ni sotte susumete kudasai.",
+    "en": "Please proceed in line with the plan."
+   }
+  ],
+  "mistakes": [
+   "に応じて = varying with; に従って = obeying."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "予算＿、計画を変えます。",
+    "answer": "に応じて",
+    "choices": [
+     "に応じて",
+     "に{沿|そ}って",
+     "に対して"
+    ],
+    "why": "Depending on: に応じて.",
+    "answerKana": "におうじて"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ya-ina-ya-review",
+  "level": "n3",
+  "unit": 52,
+  "order": 5252,
+  "title": "〜て以来 (review) · 〜てからというもの",
+  "pattern": "[V-て] からというもの",
+  "summary": "ever since (with a big change)",
+  "explanation": "Stresses that life changed after an event.",
+  "examples": [
+   {
+    "jp": "日本に来てからというもの、毎日が新しい発見だ。",
+    "kana": "にほんにきてからというもの、まいにちがあたらしいはっけんだ。",
+    "romaji": "nihon ni kite kara to iu mono, mainichi ga atarashii hakken da.",
+    "en": "Ever since coming to Japan, every day is a new discovery."
+   },
+   {
+    "jp": "子供が生まれてからというもの、生活が変わった。",
+    "kana": "こどもがうまれてからというもの、せいかつがかわった。",
+    "romaji": "kodomo ga umarete kara to iu mono, seikatsu ga kawatta.",
+    "en": "Ever since the baby was born, life has changed."
+   },
+   {
+    "jp": "病気をしてからというもの、{健康|けんこう}に気を付けている。",
+    "kana": "びょうきをしてからというもの、けんこうにきをつけている。",
+    "romaji": "byouki o shite kara to iu mono, kenkou ni ki o tsukete iru.",
+    "en": "Since being ill, I have been careful about my health."
+   }
+  ],
+  "mistakes": [
+   "Emotional emphasis beyond plain 以来."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}と出会って＿、毎日が楽しい。",
+    "answer": "からというもの",
+    "choices": [
+     "からというもの",
+     "からといって",
+     "からには"
+    ],
+    "why": "Big change since: てからというもの.",
+    "answerKana": "からというもの"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:hoka-nai",
+  "level": "n3",
+  "unit": 52,
+  "order": 5253,
+  "title": "〜ほかない・〜より（ほか）ない",
+  "pattern": "[V-plain] ほかない / よりほかない",
+  "summary": "have no choice but to",
+  "explanation": "Only one option remains.",
+  "examples": [
+   {
+    "jp": "終電がなくなったので、歩いて帰るほかない。",
+    "kana": "しゅうでんがなくなったので、あるいてかえるほかない。",
+    "romaji": "shuuden ga nakunatta node, aruite kaeru hoka nai.",
+    "en": "The last train has gone, so I have no choice but to walk home."
+   },
+   {
+    "jp": "こうなったら、{謝|あやま}るよりほかない。",
+    "kana": "こうなったら、あやまるよりほかない。",
+    "romaji": "kou nattara, ayamaru yori hoka nai.",
+    "en": "Now that it has come to this, there is nothing to do but apologise."
+   },
+   {
+    "jp": "{自分|じぶん}でやるほかなかった。",
+    "kana": "じぶんでやるほかなかった。",
+    "romaji": "jibun de yaru hoka nakatta.",
+    "en": "I had no choice but to do it myself."
+   }
+  ],
+  "mistakes": [
+   "Similar to しかない and ざるを得ない."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "バスがないので、タクシーで行く＿。",
+    "answer": "ほかない",
+    "choices": [
+     "ほかない",
+     "ことはない",
+     "わけがない"
+    ],
+    "why": "No other option: ほかない.",
+    "answerKana": "ほかない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:koto-nashi-ni",
+  "level": "n3",
+  "unit": 53,
+  "order": 5354,
+  "title": "〜ことなく・〜ことなしに",
+  "pattern": "[V-plain] ことなく / ことなしに",
+  "summary": "without doing (formal)",
+  "explanation": "Formal ないで: 休むことなく \"without resting\".",
+  "examples": [
+   {
+    "jp": "{彼|かれ}は休むことなく働き続けた。",
+    "kana": "かれはやすむことなくはたらきつづけた。",
+    "romaji": "kare wa yasumu koto naku hatarakitsuzuketa.",
+    "en": "He kept working without resting."
+   },
+   {
+    "jp": "{努力|どりょく}することなしに、{成功|せいこう}はない。",
+    "kana": "どりょくすることなしに、せいこうはない。",
+    "romaji": "doryoku suru koto nashi ni, seikou wa nai.",
+    "en": "There is no success without effort."
+   },
+   {
+    "jp": "一度も{遅|おく}れることなく、毎日来た。",
+    "kana": "いちどもおくれることなく、まいにちきた。",
+    "romaji": "ichido mo okureru koto naku, mainichi kita.",
+    "en": "He came every day without ever being late."
+   }
+  ],
+  "mistakes": [
+   "Written style."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{諦|あきら}める＿、{挑戦|ちょうせん}を続けた。",
+    "answer": "ことなく",
+    "choices": [
+     "ことなく",
+     "ことに",
+     "ことから"
+    ],
+    "why": "Without doing: ことなく.",
+    "answerKana": "ことなく"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kotoni-naru-review",
+  "level": "n3",
+  "unit": 53,
+  "order": 5355,
+  "title": "〜て当然だ・〜て当たり前だ",
+  "pattern": "[V-て / A-くて] 当然だ",
+  "summary": "naturally; it is only natural",
+  "explanation": "States that a result is to be expected.",
+  "examples": [
+   {
+    "jp": "あんなに{練習|れんしゅう}したのだから、勝って当然だ。",
+    "kana": "あんなにれんしゅうしたのだから、かってとうぜんだ。",
+    "romaji": "anna ni renshuu shita no da kara, katte touzen da.",
+    "en": "After all that practice, winning is only natural."
+   },
+   {
+    "jp": "安いのだから、品質が悪くて当たり前だ。",
+    "kana": "やすいのだから、ひんしつがわるくてあたりまえだ。",
+    "romaji": "yasui no da kara, hinshitsu ga warukute atarimae da.",
+    "en": "Being cheap, poor quality is to be expected."
+   },
+   {
+    "jp": "初めてなら、失敗して当然です。",
+    "kana": "はじめてなら、しっぱいしてとうぜんです。",
+    "romaji": "hajimete nara, shippai shite touzen desu.",
+    "en": "If it is your first time, failing is natural."
+   }
+  ],
+  "mistakes": [
+   "Also のは当然だ after a clause."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{努力|どりょく}しなかったのだから、落ち＿当然だ。",
+    "answer": "て",
+    "choices": [
+     "て",
+     "る",
+     "た"
+    ],
+    "why": "て-form + 当然だ.",
+    "answerKana": "て"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-tsuite-wa-review",
+  "level": "n3",
+  "unit": 54,
+  "order": 5456,
+  "title": "〜はもちろん・〜はもとより",
+  "pattern": "[N] はもちろん / はもとより",
+  "summary": "not to mention; let alone",
+  "explanation": "X goes without saying, and Y too.",
+  "examples": [
+   {
+    "jp": "子供はもちろん、大人も楽しめる。",
+    "kana": "こどもはもちろん、おとなもたのしめる。",
+    "romaji": "kodomo wa mochiron, otona mo tanoshimeru.",
+    "en": "Children of course, and adults too, can enjoy it."
+   },
+   {
+    "jp": "{彼|かれ}は英語はもとより、中国語も話せる。",
+    "kana": "かれはえいごはもとより、ちゅうごくごもはなせる。",
+    "romaji": "kare wa eigo wa motoyori, chuugokugo mo hanaseru.",
+    "en": "He speaks Chinese, not to mention English."
+   },
+   {
+    "jp": "平日はもちろん、週末も営業しています。",
+    "kana": "へいじつはもちろん、しゅうまつもえいぎょうしています。",
+    "romaji": "heijitsu wa mochiron, shuumatsu mo eigyou shite imasu.",
+    "en": "We are open at weekends, not just weekdays."
+   }
+  ],
+  "mistakes": [
+   "はもとより is more formal."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "漢字＿、カタカナも難しい。",
+    "answer": "はもちろん",
+    "choices": [
+     "はもちろん",
+     "はもとより",
+     "はともかく"
+    ],
+    "why": "Not to mention: はもちろん.",
+    "answerKana": "はもちろん"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:wa-tomokaku",
+  "level": "n3",
+  "unit": 54,
+  "order": 5457,
+  "title": "〜はともかく・〜はさておき",
+  "pattern": "[N] はともかく / はさておき",
+  "summary": "setting X aside",
+  "explanation": "Puts one matter aside to focus on another.",
+  "examples": [
+   {
+    "jp": "味はともかく、見た目はきれいだ。",
+    "kana": "あじはともかく、みためはきれいだ。",
+    "romaji": "aji wa tomokaku, mitame wa kirei da.",
+    "en": "Taste aside, it looks pretty."
+   },
+   {
+    "jp": "{冗談|じょうだん}はさておき、本題に入りましょう。",
+    "kana": "じょうだんはさておき、ほんだいにはいりましょう。",
+    "romaji": "joudan wa sateoki, hondai ni hairimashou.",
+    "en": "Joking aside, let's get to the main topic."
+   },
+   {
+    "jp": "値段はともかく、デザインが気に入った。",
+    "kana": "ねだんはともかく、デザインがきにいった。",
+    "romaji": "nedan wa tomokaku, dezain ga ki ni itta.",
+    "en": "Price aside, I liked the design."
+   }
+  ],
+  "mistakes": [
+   "Not the same as にかかわらず (regardless)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "結果＿、よく{頑張|がんば}った。",
+    "answer": "はともかく",
+    "choices": [
+     "はともかく",
+     "はもちろん",
+     "はもとより"
+    ],
+    "why": "Setting aside: はともかく.",
+    "answerKana": "はともかく"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-kakawarazu",
+  "level": "n3",
+  "unit": 55,
+  "order": 5558,
+  "title": "〜にかかわらず・〜を問わず",
+  "pattern": "[N] にかかわらず / を問わず",
+  "summary": "regardless of",
+  "explanation": "Both mean \"regardless of\". を問わず is used with pairs like 年齢・性別.",
+  "examples": [
+   {
+    "jp": "天候にかかわらず、{試合|しあい}は行います。",
+    "kana": "てんこうにかかわらず、しあいはおこないます。",
+    "romaji": "tenkou ni kakawarazu, shiai wa okonaimasu.",
+    "en": "The match will be held regardless of the weather."
+   },
+   {
+    "jp": "{年齢|ねんれい}を問わず、{誰|だれ}でも参加できます。",
+    "kana": "ねんれいをとわず、だれでもさんかできます。",
+    "romaji": "nenrei o towazu, dare demo sanka dekimasu.",
+    "en": "Anyone can take part regardless of age."
+   },
+   {
+    "jp": "経験の有無にかかわらず、{応募|おうぼ}できます。",
+    "kana": "けいけんのうむにかかわらず、おうぼできます。",
+    "romaji": "keiken no umu ni kakawarazu, oubo dekimasu.",
+    "en": "You can apply whether or not you have experience."
+   }
+  ],
+  "mistakes": [
+   "にもかかわらず (despite) is a different pattern."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{国籍|こくせき}＿、{誰|だれ}でも入れます。",
+    "answer": "を問わず",
+    "choices": [
+     "を問わず",
+     "にもかかわらず",
+     "に限らず"
+    ],
+    "why": "Regardless of: を問わず.",
+    "answerKana": "を問わず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:ni-mo-kakawarazu",
+  "level": "n3",
+  "unit": 55,
+  "order": 5559,
+  "title": "〜にもかかわらず",
+  "pattern": "[plain / N] にもかかわらず",
+  "summary": "despite",
+  "explanation": "A formal のに: despite the fact that.",
+  "examples": [
+   {
+    "jp": "雨にもかかわらず、{多|おお}くの人が集まった。",
+    "kana": "あめにもかかわらず、おおくのひとがあつまった。",
+    "romaji": "ame ni mo kakawarazu, ooku no hito ga atsumatta.",
+    "en": "Despite the rain, many people gathered."
+   },
+   {
+    "jp": "{努力|どりょく}したにもかかわらず、結果は出なかった。",
+    "kana": "どりょくしたにもかかわらず、けっかはでなかった。",
+    "romaji": "doryoku shita ni mo kakawarazu, kekka wa denakatta.",
+    "en": "Despite the effort, there was no result."
+   },
+   {
+    "jp": "{忙|いそが}しいにもかかわらず、来てくれた。",
+    "kana": "いそがしいにもかかわらず、きてくれた。",
+    "romaji": "isogashii ni mo kakawarazu, kite kureta.",
+    "en": "Despite being busy, he came."
+   }
+  ],
+  "mistakes": [
+   "Distinguish from にかかわらず (regardless of)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "高い値段＿、よく売れている。",
+    "answer": "にもかかわらず",
+    "choices": [
+     "にもかかわらず",
+     "にかかわらず",
+     "を問わず"
+    ],
+    "why": "Despite: にもかかわらず.",
+    "answerKana": "にもかかわらず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kara-naru",
+  "level": "n3",
+  "unit": 56,
+  "order": 5650,
+  "title": "〜からなる・〜から成る",
+  "pattern": "[N] からなる",
+  "summary": "consist of",
+  "explanation": "Formal \"to be made up of\".",
+  "examples": [
+   {
+    "jp": "このチームは十人からなる。",
+    "kana": "このチームはじゅうにんからなる。",
+    "romaji": "kono chiimu wa juunin kara naru.",
+    "en": "This team consists of ten people."
+   },
+   {
+    "jp": "委員会は五つの部からなっている。",
+    "kana": "いいんかいはいつつのぶからなっている。",
+    "romaji": "iinkai wa itsutsu no bu kara natte iru.",
+    "en": "The committee is made up of five departments."
+   },
+   {
+    "jp": "水は{水素|すいそ}と{酸素|さんそ}からなる。",
+    "kana": "みずはすいそとさんそからなる。",
+    "romaji": "mizu wa suiso to sanso kara naru.",
+    "en": "Water consists of hydrogen and oxygen."
+   }
+  ],
+  "mistakes": [
+   "でできている is the everyday form for materials."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "日本は四つの大きな島＿なる。",
+    "answer": "から",
+    "choices": [
+     "から",
+     "で",
+     "に"
+    ],
+    "why": "Consist of: からなる.",
+    "answerKana": "から"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:to-iu-koto-ni-naru",
+  "level": "n3",
+  "unit": 56,
+  "order": 5651,
+  "title": "〜ことになっている・〜ことにしている",
+  "pattern": "[V-plain] ことになっている / ことにしている",
+  "summary": "it is the rule that; I make it a rule to",
+  "explanation": "ことになっている: an established rule or schedule. ことにしている: a personal rule.",
+  "examples": [
+   {
+    "jp": "この学校では、制服を着ることになっている。",
+    "kana": "このがっこうでは、せいふくをきることになっている。",
+    "romaji": "kono gakkou de wa, seifuku o kiru koto ni natte iru.",
+    "en": "At this school, it is the rule to wear uniforms."
+   },
+   {
+    "jp": "毎朝六時に起きることにしている。",
+    "kana": "まいあさろくじにおきることにしている。",
+    "romaji": "maiasa rokuji ni okiru koto ni shite iru.",
+    "en": "I make it a rule to get up at six every morning."
+   },
+   {
+    "jp": "会議は月曜日に行うことになっています。",
+    "kana": "かいぎはげつようびにおこなうことになっています。",
+    "romaji": "kaigi wa getsuyoubi ni okonau koto ni natte imasu.",
+    "en": "Meetings are scheduled for Mondays."
+   }
+  ],
+  "mistakes": [
+   "Rule vs personal habit."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "寝る前に本を読む＿にしている。",
+    "answer": "こと",
+    "choices": [
+     "こと",
+     "もの",
+     "わけ"
+    ],
+    "why": "Personal rule: ことにしている.",
+    "answerKana": "こと"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:kiri-review-2",
+  "level": "n3",
+  "unit": 57,
+  "order": 5752,
+  "title": "〜っけ・〜じゃない(か)",
+  "pattern": "[plain] っけ / じゃないか",
+  "summary": "was it …? (recall); isn't it? (surprise, confirmation)",
+  "explanation": "っけ: trying to recall. じゃないか / じゃん: seeking agreement or expressing mild surprise (casual).",
+  "examples": [
+   {
+    "jp": "会議は何時からだっけ。",
+    "kana": "かいぎはなんじからだっけ。",
+    "romaji": "kaigi wa nanji kara da kke.",
+    "en": "What time was the meeting again?"
+   },
+   {
+    "jp": "よくできたじゃないか。",
+    "kana": "よくできたじゃないか。",
+    "romaji": "yoku dekita ja nai ka.",
+    "en": "You did well, didn't you?"
+   },
+   {
+    "jp": "あれ、{傘|かさ}を持ってきたっけ。",
+    "kana": "あれ、かさをもってきたっけ。",
+    "romaji": "are, kasa o motte kita kke.",
+    "en": "Hm, did I bring an umbrella?"
+   }
+  ],
+  "mistakes": [
+   "Casual speech only."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "{彼|かれ}の名前、何だった＿。(trying to recall)",
+    "answer": "っけ",
+    "choices": [
+     "っけ",
+     "かな",
+     "ね"
+    ],
+    "why": "Recall: っけ.",
+    "answerKana": "っけ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:nakya-review",
+  "level": "n3",
+  "unit": 57,
+  "order": 5753,
+  "title": "〜べきではなかった・〜ばよかった",
+  "pattern": "[V-plain] べきではなかった / [V-eba] よかった",
+  "summary": "should not have; wish I had",
+  "explanation": "Regret about the past.",
+  "examples": [
+   {
+    "jp": "あんなことを言うべきではなかった。",
+    "kana": "あんなことをいうべきではなかった。",
+    "romaji": "anna koto o iu beki de wa nakatta.",
+    "en": "I should not have said that."
+   },
+   {
+    "jp": "もっと早く出ればよかった。",
+    "kana": "もっとはやくでればよかった。",
+    "romaji": "motto hayaku dereba yokatta.",
+    "en": "I wish I had left earlier."
+   },
+   {
+    "jp": "あの時、{謝|あやま}っておけばよかった。",
+    "kana": "あのとき、あやまっておけばよかった。",
+    "romaji": "ano toki, ayamatte okeba yokatta.",
+    "en": "I should have apologised then."
+   }
+  ],
+  "mistakes": [
+   "Negative: なければよかった."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "もっと勉強すれば＿。(regret)",
+    "answer": "よかった",
+    "choices": [
+     "よかった",
+     "いい",
+     "よくない"
+    ],
+    "why": "Regret: ばよかった.",
+    "answerKana": "よかった"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:closing-you-ni-naru",
+  "level": "n3",
+  "unit": 58,
+  "order": 5854,
+  "title": "〜ようになっている・〜ようにできている",
+  "pattern": "[V-plain] ようになっている",
+  "summary": "is designed so that",
+  "explanation": "Describes how a system or object is set up to work.",
+  "examples": [
+   {
+    "jp": "このドアは{自動|じどう}で閉まるようになっている。",
+    "kana": "このドアはじどうでしまるようになっている。",
+    "romaji": "kono doa wa jidou de shimaru you ni natte iru.",
+    "en": "This door is designed to close automatically."
+   },
+   {
+    "jp": "ボタンを{押|お}すと、お{湯|ゆ}が出るようになっています。",
+    "kana": "ボタンをおすと、おゆがでるようになっています。",
+    "romaji": "botan o osu to, oyu ga deru you ni natte imasu.",
+    "en": "It is set up so that hot water comes out when you press the button."
+   },
+   {
+    "jp": "会員だけが入れるようになっている。",
+    "kana": "かいいんだけがはいれるようになっている。",
+    "romaji": "kaiin dake ga haireru you ni natte iru.",
+    "en": "It is arranged so that only members can enter."
+   }
+  ],
+  "mistakes": [
+   "ようになった (change) vs ようになっている (set-up)."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "電気は夜になると{自動|じどう}でつく＿。",
+    "answer": "ようになっている",
+    "choices": [
+     "ようになっている",
+     "ようにしている",
+     "ことになっている"
+    ],
+    "why": "Designed so that: ようになっている.",
+    "answerKana": "ようになっている"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:closing-mono-review",
+  "level": "n3",
+  "unit": 58,
+  "order": 5855,
+  "title": "〜わりには (review) · 〜だけのことはある",
+  "pattern": "[plain] だけのことはある",
+  "summary": "worth it; no wonder",
+  "explanation": "Praise: something lives up to expectations.",
+  "examples": [
+   {
+    "jp": "高いだけのことはあって、おいしい。",
+    "kana": "たかいだけのことはあって、おいしい。",
+    "romaji": "takai dake no koto wa atte, oishii.",
+    "en": "It is worth the high price; it is delicious."
+   },
+   {
+    "jp": "{毎日練習|まいにちれんしゅう}しただけのことはある。",
+    "kana": "まいにちれんしゅうしただけのことはある。",
+    "romaji": "mainichi renshuu shita dake no koto wa aru.",
+    "en": "The daily practice paid off."
+   },
+   {
+    "jp": "さすがプロだけのことはある。",
+    "kana": "さすがプロだけのことはある。",
+    "romaji": "sasuga puro dake no koto wa aru.",
+    "en": "No wonder, he is a professional."
+   }
+  ],
+  "mistakes": [
+   "Close to だけあって."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "留学した＿のことはあって、英語が上手だ。",
+    "answer": "だけ",
+    "choices": [
+     "だけ",
+     "ばかり",
+     "しか"
+    ],
+    "why": "Lives up to: だけのことはある.",
+    "answerKana": "だけ"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:closing-kagiri-review",
+  "level": "n3",
+  "unit": 59,
+  "order": 5956,
+  "title": "〜ずにすむ・〜ないですむ",
+  "pattern": "[V-ず] にすむ / [V-ない] ですむ",
+  "summary": "get by without",
+  "explanation": "Manage without having to do something.",
+  "examples": [
+   {
+    "jp": "友達が送ってくれたので、タクシーに乗らずにすんだ。",
+    "kana": "ともだちがおくってくれたので、タクシーにのらずにすんだ。",
+    "romaji": "tomodachi ga okutte kureta node, takushii ni norazu ni sunda.",
+    "en": "My friend drove me, so I got by without taking a taxi."
+   },
+   {
+    "jp": "保険に入っていたので、お金を{払|はら}わないですんだ。",
+    "kana": "ほけんにはいっていたので、おかねをはらわないですんだ。",
+    "romaji": "hoken ni haitte ita node, okane o harawanai de sunda.",
+    "en": "Because I had insurance, I did not have to pay."
+   },
+   {
+    "jp": "手術せずにすんでよかった。",
+    "kana": "しゅじゅつせずにすんでよかった。",
+    "romaji": "shujutsu sezu ni sunde yokatta.",
+    "en": "I am glad it did not come to surgery."
+   }
+  ],
+  "mistakes": [
+   "する → せずにすむ."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "早く着いたので、{待|ま}た＿にすんだ。",
+    "answer": "ず",
+    "choices": [
+     "ず",
+     "ない",
+     "なく"
+    ],
+    "why": "ずにすむ.",
+    "answerKana": "ず"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:closing-final",
+  "level": "n3",
+  "unit": 59,
+  "order": 5957,
+  "title": "〜に違いない (review) · 〜はずがない (review) · 〜っこない",
+  "pattern": "[V-stem] っこない",
+  "summary": "no way (casual)",
+  "explanation": "Casual, emphatic impossibility: できっこない.",
+  "examples": [
+   {
+    "jp": "そんなの、できっこない。",
+    "kana": "そんなの、できっこない。",
+    "romaji": "sonna no, dekikkonai.",
+    "en": "There's no way I can do that."
+   },
+   {
+    "jp": "{彼|かれ}が来るなんて、ありっこない。",
+    "kana": "かれがくるなんて、ありっこない。",
+    "romaji": "kare ga kuru nante, arikkonai.",
+    "en": "No way he's coming."
+   },
+   {
+    "jp": "一日で終わりっこないよ。",
+    "kana": "いちにちでおわりっこないよ。",
+    "romaji": "ichinichi de owarikkonai yo.",
+    "en": "There is no way it will finish in a day."
+   }
+  ],
+  "mistakes": [
+   "Very casual."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "こんな量、一人で食べ＿。",
+    "answer": "っこない",
+    "choices": [
+     "っこない",
+     "かねない",
+     "きれない"
+    ],
+    "why": "Casual impossibility: っこない.",
+    "answerKana": "っこない"
+   }
+  ]
+ },
+ {
+  "id": "gram:n3:closing-summary",
+  "level": "n3",
+  "unit": 60,
+  "order": 6058,
+  "title": "Review: formal connectives",
+  "pattern": "したがって / なお / ただし / もしくは",
+  "summary": "therefore; furthermore; however; or",
+  "explanation": "Written connectives for reports and notices.",
+  "examples": [
+   {
+    "jp": "雨天のため中止。したがって、{払|はら}い{戻|もど}しを行います。",
+    "kana": "うてんのためちゅうし。したがって、はらいもどしをおこないます。",
+    "romaji": "uten no tame chuushi. shitagatte, haraimodoshi o okonaimasu.",
+    "en": "Cancelled due to rain. Therefore, refunds will be made."
+   },
+   {
+    "jp": "会費は無料です。ただし、事前の申し込みが必要です。",
+    "kana": "かいひはむりょうです。ただし、じぜんのもうしこみがひつようです。",
+    "romaji": "kaihi wa muryou desu. tadashi, jizen no moushikomi ga hitsuyou desu.",
+    "en": "Participation is free. However, advance application is required."
+   },
+   {
+    "jp": "電話もしくはメールでご{連絡|れんらく}ください。",
+    "kana": "でんわもしくはメールでごれんらくください。",
+    "romaji": "denwa moshiku wa meeru de gorenraku kudasai.",
+    "en": "Please contact us by phone or email."
+   }
+  ],
+  "mistakes": [
+   "Spoken equivalents: だから, でも, それか."
+  ],
+  "exercises": [
+   {
+    "type": "fill",
+    "prompt": "入場は無料です。＿、予約が必要です。",
+    "answer": "ただし",
+    "choices": [
+     "ただし",
+     "したがって",
+     "もしくは"
+    ],
+    "why": "However (condition): ただし.",
+    "answerKana": "ただし"
+   }
+  ]
+ }
+]

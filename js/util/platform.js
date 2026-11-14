@@ -1,6 +1,6 @@
 /* Browser and device capability detection, PWA install handling, connectivity. */
 
-export const APP_VERSION = '0.7.0';
+export const APP_VERSION = '0.8.0';
 
 const ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
 

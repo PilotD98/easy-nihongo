@@ -1,0 +1,2337 @@
+[
+ {
+  "id": "unit:n3:01",
+  "no": 1,
+  "level": "n3",
+  "title": "Politics and groups",
+  "kanji": [
+   "kanji:関",
+   "kanji:表",
+   "kanji:戦",
+   "kanji:最",
+   "kanji:議",
+   "kanji:連"
+  ],
+  "vocab": [
+   "vocab:n3:seijika-政治家",
+   "vocab:n3:giin-議員",
+   "vocab:n3:kaigishitsu-会議室",
+   "vocab:n3:kokumin-国民",
+   "vocab:n3:ken-県",
+   "vocab:n3:chihou-地方",
+   "vocab:n3:kokugai-国外",
+   "vocab:n3:hyou-表",
+   "vocab:n3:happyoukai-発表会",
+   "vocab:n3:saishuu-最終",
+   "vocab:n3:saikou-最高",
+   "vocab:n3:saitei-最低",
+   "vocab:n3:mottomo-最も",
+   "vocab:n3:kanshin-関心",
+   "vocab:n3:kansuru-関する",
+   "vocab:n3:arawasu-表す",
+   "vocab:n3:kakawaru-関わる",
+   "vocab:n3:tatakau-戦う",
+   "vocab:n3:fushigi-不思議",
+   "vocab:n3:chousen-挑戦"
+  ],
+  "grammar": [
+   "gram:n3:ni-yotte",
+   "gram:n3:ni-totte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:02",
+  "no": 2,
+  "level": "n3",
+  "title": "Parts, parties, choices",
+  "kanji": [
+   "kanji:対",
+   "kanji:部",
+   "kanji:党",
+   "kanji:内",
+   "kanji:相",
+   "kanji:定"
+  ],
+  "vocab": [
+   "vocab:n3:taisaku-対策",
+   "vocab:n3:kokunai-国内",
+   "vocab:n3:bubun-部分",
+   "vocab:n3:zentai-全体",
+   "vocab:n3:ippan-一般",
+   "vocab:n3:shakaijin-社会人",
+   "vocab:n3:aikawarazu-相変わらず",
+   "vocab:n3:buka-部下",
+   "vocab:n3:seitou-政党",
+   "vocab:n3:taisuru-対する"
+  ],
+  "grammar": [
+   "gram:n3:ni-taishite",
+   "gram:n3:ni-kanshite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:03",
+  "no": 3,
+  "level": "n3",
+  "title": "Reality and change",
+  "kanji": [
+   "kanji:選",
+   "kanji:実",
+   "kanji:現",
+   "kanji:調",
+   "kanji:化",
+   "kanji:当"
+  ],
+  "vocab": [
+   "vocab:n3:senkyo-選挙",
+   "vocab:n3:hou-法",
+   "vocab:n3:jijitsu-事実",
+   "vocab:n3:genjitsu-現実",
+   "vocab:n3:gendai-現代",
+   "vocab:n3:jitsuha-実は",
+   "vocab:n3:touji-当時",
+   "vocab:n3:toujitsu-当日",
+   "vocab:n3:hyougen-表現",
+   "vocab:n3:choushi-調子",
+   "vocab:n3:arawareru-現れる",
+   "vocab:n3:ataru-当たる",
+   "vocab:n3:ateru-当てる",
+   "vocab:n3:minoru-実る",
+   "vocab:n3:junchou-順調",
+   "vocab:n3:jitsuni-実に",
+   "vocab:n3:teate-手当て",
+   "vocab:n3:jikken-実験",
+   "vocab:n3:ondanka-温暖化",
+   "vocab:n3:ka-化"
+  ],
+  "grammar": [
+   "gram:n3:to-shite",
+   "gram:n3:to-tomo-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:04",
+  "no": 4,
+  "level": "n3",
+  "title": "Deciding and promising",
+  "kanji": [
+   "kanji:約",
+   "kanji:性",
+   "kanji:的",
+   "kanji:制",
+   "kanji:務",
+   "kanji:成"
+  ],
+  "vocab": [
+   "vocab:n3:sansei-賛成",
+   "vocab:n3:seido-制度",
+   "vocab:n3:gimu-義務",
+   "vocab:n3:keiyaku-契約",
+   "vocab:n3:seishitsu-性質",
+   "vocab:n3:mokutekichi-目的地",
+   "vocab:n3:setsuyaku-節約",
+   "vocab:n3:kinmu-勤務",
+   "vocab:n3:teki-的",
+   "vocab:n3:sei-性"
+  ],
+  "grammar": [
+   "gram:n3:ni-tsurete",
+   "gram:n3:ni-oite"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:001"
+  ]
+ },
+ {
+  "id": "unit:n3:05",
+  "no": 5,
+  "level": "n3",
+  "title": "Systems and cooperation",
+  "kanji": [
+   "kanji:期",
+   "kanji:協",
+   "kanji:和",
+   "kanji:機",
+   "kanji:平",
+   "kanji:総"
+  ],
+  "vocab": [
+   "vocab:n3:heiwa-平和",
+   "vocab:n3:kikan-期間",
+   "vocab:n3:gakki-学期",
+   "vocab:n3:jiki-時期",
+   "vocab:n3:teiki-定期",
+   "vocab:n3:kyouryoku-協力",
+   "vocab:n3:kyoukai-協会",
+   "vocab:n3:kikan-機関",
+   "vocab:n3:souridaijin-総理大臣",
+   "vocab:n3:sougou-総合",
+   "vocab:n3:setsumeisho-説明書",
+   "vocab:n3:heiki-平気"
+  ],
+  "grammar": [
+   "gram:n3:ni-kawatte",
+   "gram:n3:wake"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:06",
+  "no": 6,
+  "level": "n3",
+  "title": "Records and beginnings",
+  "kanji": [
+   "kanji:加",
+   "kanji:領",
+   "kanji:続",
+   "kanji:設",
+   "kanji:保",
+   "kanji:改"
+  ],
+  "vocab": [
+   "vocab:n3:kuwaeru-加える",
+   "vocab:n3:kuwawaru-加わる",
+   "vocab:n3:aratamete-改めて"
+  ],
+  "grammar": [
+   "gram:n3:wake-ni-wa-ikanai",
+   "gram:n3:beki"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:07",
+  "no": 7,
+  "level": "n3",
+  "title": "Authority and support",
+  "kanji": [
+   "kanji:数",
+   "kanji:記",
+   "kanji:初",
+   "kanji:指",
+   "kanji:権",
+   "kanji:支"
+  ],
+  "vocab": [
+   "vocab:n3:kiji-記事",
+   "vocab:n3:kisha-記者",
+   "vocab:n3:kioku-記憶",
+   "vocab:n3:shitei-指定",
+   "vocab:n3:hajime-初め",
+   "vocab:n3:shoshinsha-初心者",
+   "vocab:n3:kazoeru-数える",
+   "vocab:n3:sasaeru-支える",
+   "vocab:n3:mezasu-目指す"
+  ],
+  "grammar": [
+   "gram:n3:tame",
+   "gram:n3:okage-sei"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:08",
+  "no": 8,
+  "level": "n3",
+  "title": "Results and reports",
+  "kanji": [
+   "kanji:第",
+   "kanji:結",
+   "kanji:点",
+   "kanji:報",
+   "kanji:府",
+   "kanji:活"
+  ],
+  "vocab": [
+   "vocab:n3:tensuu-点数",
+   "vocab:n3:houdou-報道",
+   "vocab:n3:musubu-結ぶ",
+   "vocab:n3:daiichi-第一"
+  ],
+  "grammar": [
+   "gram:n3:kara-ni-wa",
+   "gram:n3:kara-koso"
+  ],
+  "readings": [
+   "read:n3:001"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:09",
+  "no": 9,
+  "level": "n3",
+  "title": "Activity and origins",
+  "kanji": [
+   "kanji:原",
+   "kanji:共",
+   "kanji:得",
+   "kanji:解",
+   "kanji:交",
+   "kanji:資"
+  ],
+  "vocab": [
+   "vocab:n3:tokuten-得点",
+   "vocab:n3:tokui-得意",
+   "vocab:n3:kaiketsu-解決",
+   "vocab:n3:kaitou-解答",
+   "vocab:n3:rikai-理解",
+   "vocab:n3:koutsuu-交通",
+   "vocab:n3:koukan-交換",
+   "vocab:n3:shiryou-資料",
+   "vocab:n3:shigen-資源",
+   "vocab:n3:eru-得る",
+   "vocab:n3:toku-解く",
+   "vocab:n3:shigengomi-資源ごみ",
+   "vocab:n3:shiryoushitsu-資料室"
+  ],
+  "grammar": [
+   "gram:n3:toiu-koto-da",
+   "gram:n3:to-iu-no-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:10",
+  "no": 10,
+  "level": "n3",
+  "title": "Exchange and resources",
+  "kanji": [
+   "kanji:予",
+   "kanji:際",
+   "kanji:査",
+   "kanji:勝",
+   "kanji:面",
+   "kanji:委"
+  ],
+  "vocab": [
+   "vocab:n3:iin-委員",
+   "vocab:n3:iinkai-委員会",
+   "vocab:n3:jissai-実際",
+   "vocab:n3:yoteihyou-予定表",
+   "vocab:n3:sai-際",
+   "vocab:n3:kokusaiteki-国際的",
+   "vocab:n3:chousa-調査",
+   "vocab:n3:kachi-勝ち",
+   "vocab:n3:men-面",
+   "vocab:n3:bamen-場面",
+   "vocab:n3:gamen-画面",
+   "vocab:n3:mendou-面倒",
+   "vocab:n3:omoshirosa-面白さ",
+   "vocab:n3:mendoukusai-面倒臭い"
+  ],
+  "grammar": [
+   "gram:n3:to-ieba",
+   "gram:n3:tte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:11",
+  "no": 11,
+  "level": "n3",
+  "title": "Contests and committees",
+  "kanji": [
+   "kanji:告",
+   "kanji:軍",
+   "kanji:反",
+   "kanji:判",
+   "kanji:認",
+   "kanji:参"
+  ],
+  "vocab": [
+   "vocab:n3:hantai-反対",
+   "vocab:n3:sankasha-参加者",
+   "vocab:n3:gun-軍",
+   "vocab:n3:houkokusho-報告書",
+   "vocab:n3:koukoku-広告",
+   "vocab:n3:mitomeru-認める",
+   "vocab:n3:tsugeru-告げる",
+   "vocab:n3:hanmen-反面",
+   "vocab:n3:hansuru-反する"
+  ],
+  "grammar": [
+   "gram:n3:ppoi-rashii-review",
+   "gram:n3:ikenai-review"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:12",
+  "no": 12,
+  "level": "n3",
+  "title": "Judgement and participation",
+  "kanji": [
+   "kanji:利",
+   "kanji:組",
+   "kanji:案",
+   "kanji:在",
+   "kanji:件",
+   "kanji:団"
+  ],
+  "vocab": [
+   "vocab:n3:dantai-団体",
+   "vocab:n3:soshiki-組織",
+   "vocab:n3:kenri-権利",
+   "vocab:n3:jiken-事件",
+   "vocab:n3:genzai-現在",
+   "vocab:n3:rieki-利益",
+   "vocab:n3:benrisa-便利さ",
+   "vocab:n3:kumiawase-組み合わせ",
+   "vocab:n3:kumu-組む",
+   "vocab:n3:an-案",
+   "vocab:n3:teian-提案",
+   "vocab:n3:angai-案外",
+   "vocab:n3:zaigaku-在学",
+   "vocab:n3:ken-件",
+   "vocab:n3:youken-用件",
+   "vocab:n3:kumitateru-組み立てる",
+   "vocab:n3:shikumi-仕組み",
+   "vocab:n3:risoku-利息",
+   "vocab:n3:zaiko-在庫"
+  ],
+  "grammar": [
+   "gram:n3:uchi-ni",
+   "gram:n3:tabi-ni"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:002"
+  ]
+ },
+ {
+  "id": "unit:n3:13",
+  "no": 13,
+  "level": "n3",
+  "title": "Organising and planning",
+  "kanji": [
+   "kanji:側",
+   "kanji:任",
+   "kanji:求",
+   "kanji:次",
+   "kanji:昨",
+   "kanji:論"
+  ],
+  "vocab": [
+   "vocab:n3:giron-議論",
+   "vocab:n3:ketsuron-結論",
+   "vocab:n3:gawa-側",
+   "vocab:n3:makaseru-任せる",
+   "vocab:n3:motomeru-求める",
+   "vocab:n3:youkyuu-要求",
+   "vocab:n3:tsugitsugi-次々",
+   "vocab:n3:mokuji-目次",
+   "vocab:n3:ronbun-論文",
+   "vocab:n3:seikyuusho-請求書",
+   "vocab:n3:shidai-次第"
+  ],
+  "grammar": [
+   "gram:n3:saichuu",
+   "gram:n3:sai-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:14",
+  "no": 14,
+  "level": "n3",
+  "title": "Teams and tasks",
+  "kanji": [
+   "kanji:官",
+   "kanji:増",
+   "kanji:係",
+   "kanji:感",
+   "kanji:情",
+   "kanji:投"
+  ],
+  "vocab": [
+   "vocab:n3:touhyou-投票",
+   "vocab:n3:kankeisha-関係者",
+   "vocab:n3:jijou-事情",
+   "vocab:n3:jouhou-情報",
+   "vocab:n3:kanjou-感情",
+   "vocab:n3:hyoujou-表情",
+   "vocab:n3:kan-官",
+   "vocab:n3:zouka-増加",
+   "vocab:n3:fuyasu-増やす",
+   "vocab:n3:kanji-感じ",
+   "vocab:n3:kanjiru-感じる",
+   "vocab:n3:kandou-感動",
+   "vocab:n3:nasake-情け",
+   "vocab:n3:nagedasu-投げ出す",
+   "vocab:n3:masu-増す"
+  ],
+  "grammar": [
+   "gram:n3:ni-shitagatte-review",
+   "gram:n3:ba-hodo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:15",
+  "no": 15,
+  "level": "n3",
+  "title": "Feelings and information",
+  "kanji": [
+   "kanji:示",
+   "kanji:打",
+   "kanji:基",
+   "kanji:各",
+   "kanji:島",
+   "kanji:直"
+  ],
+  "vocab": [
+   "vocab:n3:shiji-指示",
+   "vocab:n3:shimesu-示す",
+   "vocab:n3:uchiawase-打ち合わせ",
+   "vocab:n3:kihon-基本",
+   "vocab:n3:kiso-基礎",
+   "vocab:n3:kaku-各",
+   "vocab:n3:kakuchi-各地",
+   "vocab:n3:sunao-素直",
+   "vocab:n3:kangaenaosu-考え直す",
+   "vocab:n3:shirabenaosu-調べ直す",
+   "vocab:n3:naoru-直る",
+   "vocab:n3:minaosu-見直す",
+   "vocab:n3:motozuku-基づく",
+   "vocab:n3:shoujiki-正直",
+   "vocab:n3:tadachini-直ちに"
+  ],
+  "grammar": [
+   "gram:n3:dake-de-naku-review",
+   "gram:n3:sae"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:16",
+  "no": 16,
+  "level": "n3",
+  "title": "Foundations and islands",
+  "kanji": [
+   "kanji:両",
+   "kanji:革",
+   "kanji:価",
+   "kanji:式",
+   "kanji:確",
+   "kanji:果"
+  ],
+  "vocab": [
+   "vocab:n3:kakujitsu-確実",
+   "vocab:n3:ryouhou-両方",
+   "vocab:n3:ryoute-両手",
+   "vocab:n3:kawa-革",
+   "vocab:n3:keishiki-形式",
+   "vocab:n3:seishiki-正式",
+   "vocab:n3:houshiki-方式",
+   "vocab:n3:shiki-式",
+   "vocab:n3:hatasu-果たす",
+   "vocab:n3:tashikameru-確かめる",
+   "vocab:n3:hatashite-果たして"
+  ],
+  "grammar": [
+   "gram:n3:koso",
+   "gram:n3:mo-emphasis"
+  ],
+  "readings": [
+   "read:n3:002"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:17",
+  "no": 17,
+  "level": "n3",
+  "title": "Direct and both",
+  "kanji": [
+   "kanji:勢",
+   "kanji:減",
+   "kanji:容",
+   "kanji:応",
+   "kanji:演",
+   "kanji:争"
+  ],
+  "vocab": [
+   "vocab:n3:naiyou-内容",
+   "vocab:n3:sensou-戦争",
+   "vocab:n3:ikioi-勢い",
+   "vocab:n3:herasu-減らす",
+   "vocab:n3:naiyoubutsu-内容物",
+   "vocab:n3:ouen-応援",
+   "vocab:n3:oubo-応募",
+   "vocab:n3:enzetsu-演説",
+   "vocab:n3:ensou-演奏",
+   "vocab:n3:arasoi-争い",
+   "vocab:n3:arasou-争う",
+   "vocab:n3:ichiou-一応",
+   "vocab:n3:oujiru-応じる"
+  ],
+  "grammar": [
+   "gram:n3:kiri",
+   "gram:n3:nagara-mo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:18",
+  "no": 18,
+  "level": "n3",
+  "title": "Shapes of certainty",
+  "kanji": [
+   "kanji:談",
+   "kanji:能",
+   "kanji:再",
+   "kanji:位",
+   "kanji:置",
+   "kanji:流"
+  ],
+  "vocab": [
+   "vocab:n3:kinou-機能",
+   "vocab:n3:kouryuu-交流",
+   "vocab:n3:soudanaite-相談相手",
+   "vocab:n3:nouryoku-能力",
+   "vocab:n3:futatabi-再び",
+   "vocab:n3:ichi-位置",
+   "vocab:n3:chii-地位",
+   "vocab:n3:nagare-流れ",
+   "vocab:n3:nagareru-流れる",
+   "vocab:n3:ryuukou-流行",
+   "vocab:n3:kouryuukai-交流会",
+   "vocab:n3:nagasu-流す",
+   "vocab:n3:hayaru-流行る",
+   "vocab:n3:yuunou-有能"
+  ],
+  "grammar": [
+   "gram:n3:kuse-ni",
+   "gram:n3:to-shite-mo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:19",
+  "no": 19,
+  "level": "n3",
+  "title": "Forces and capacities",
+  "kanji": [
+   "kanji:格",
+   "kanji:疑",
+   "kanji:過",
+   "kanji:局",
+   "kanji:放",
+   "kanji:税"
+  ],
+  "vocab": [
+   "vocab:n3:kekkyoku-結局",
+   "vocab:n3:shikaku-資格",
+   "vocab:n3:kakaku-価格",
+   "vocab:n3:kakkou-格好",
+   "vocab:n3:utagau-疑う",
+   "vocab:n3:gimon-疑問",
+   "vocab:n3:sugi-過ぎ",
+   "vocab:n3:kako-過去",
+   "vocab:n3:sugosu-過ごす",
+   "vocab:n3:kyoku-局",
+   "vocab:n3:housoukyoku-放送局",
+   "vocab:n3:hanasu-放す",
+   "vocab:n3:toorisugiru-通り過ぎる"
+  ],
+  "grammar": [
+   "gram:n3:sou-ni-nai",
+   "gram:n3:ni-chigai-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:20",
+  "no": 20,
+  "level": "n3",
+  "title": "Positions and flow",
+  "kanji": [
+   "kanji:検",
+   "kanji:常",
+   "kanji:状",
+   "kanji:球",
+   "kanji:営",
+   "kanji:職"
+  ],
+  "vocab": [
+   "vocab:n3:kensa-検査",
+   "vocab:n3:kentou-検討",
+   "vocab:n3:tsuneni-常に",
+   "vocab:n3:nichijou-日常",
+   "vocab:n3:joutai-状態",
+   "vocab:n3:joukyou-状況",
+   "vocab:n3:chikyuu-地球",
+   "vocab:n3:keiei-経営",
+   "vocab:n3:eigyou-営業",
+   "vocab:n3:shokugyou-職業",
+   "vocab:n3:shokuba-職場",
+   "vocab:n3:shuushoku-就職",
+   "vocab:n3:shoujou-症状",
+   "vocab:n3:shuushokukatsudou-就職活動",
+   "vocab:n3:tenshoku-転職"
+  ],
+  "grammar": [
+   "gram:n3:ni-suginai",
+   "gram:n3:you-ga-nai"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:003"
+  ]
+ },
+ {
+  "id": "unit:n3:21",
+  "no": 21,
+  "level": "n3",
+  "title": "Doubt and passing",
+  "kanji": [
+   "kanji:供",
+   "kanji:可",
+   "kanji:役",
+   "kanji:構",
+   "kanji:割",
+   "kanji:身"
+  ],
+  "vocab": [
+   "vocab:n3:yakuwari-役割",
+   "vocab:n3:yakusho-役所",
+   "vocab:n3:kanou-可能",
+   "vocab:n3:kanousei-可能性",
+   "vocab:n3:teikyou-提供",
+   "vocab:n3:kodomotachi-子供たち",
+   "vocab:n3:kousei-構成",
+   "vocab:n3:wareru-割れる",
+   "vocab:n3:waru-割る",
+   "vocab:n3:shintai-身体",
+   "vocab:n3:shinchou-身長",
+   "vocab:n3:mibun-身分",
+   "vocab:n3:souko-倉庫",
+   "vocab:n3:kamau-構う",
+   "vocab:n3:yakudatsu-役立つ",
+   "vocab:n3:warito-割と"
+  ],
+  "grammar": [
+   "gram:n3:zaru-o-enai",
+   "gram:n3:nai-koto-wa-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:22",
+  "no": 22,
+  "level": "n3",
+  "title": "Taxes and inspections",
+  "kanji": [
+   "kanji:費",
+   "kanji:付",
+   "kanji:由",
+   "kanji:比",
+   "kanji:難",
+   "kanji:防"
+  ],
+  "vocab": [
+   "vocab:n3:sankahi-参加費",
+   "vocab:n3:yobou-予防",
+   "vocab:n3:hiyou-費用",
+   "vocab:n3:tsukeru-付ける",
+   "vocab:n3:tsukiau-付き合う",
+   "vocab:n3:jiyuuni-自由に",
+   "vocab:n3:kuraberu-比べる",
+   "vocab:n3:hikaku-比較",
+   "vocab:n3:muzukashisa-難しさ",
+   "vocab:n3:fusegu-防ぐ",
+   "vocab:n3:boushi-防止",
+   "vocab:n3:omoitsuku-思い付く",
+   "vocab:n3:katazuku-片付く",
+   "vocab:n3:kizuku-気付く",
+   "vocab:n3:tsukiai-付き合い",
+   "vocab:n3:fujiyuu-不自由",
+   "vocab:n3:seikatsuhi-生活費"
+  ],
+  "grammar": [
+   "gram:n3:koto-wa-nai",
+   "gram:n3:mono-da"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:23",
+  "no": 23,
+  "level": "n3",
+  "title": "Business and roles",
+  "kanji": [
+   "kanji:補",
+   "kanji:優",
+   "kanji:夫",
+   "kanji:収",
+   "kanji:断",
+   "kanji:石"
+  ],
+  "vocab": [
+   "vocab:n3:handan-判断",
+   "vocab:n3:oginau-補う",
+   "vocab:n3:sugureru-優れる",
+   "vocab:n3:yuushuu-優秀",
+   "vocab:n3:yuusen-優先",
+   "vocab:n3:shuunyuu-収入",
+   "vocab:n3:osameru-収める",
+   "vocab:n3:kufuu-工夫",
+   "vocab:n3:kaishuu-回収",
+   "vocab:n3:ryoushuusho-領収書"
+  ],
+  "grammar": [
+   "gram:n3:mono-no",
+   "gram:n3:tokoro-ga"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:24",
+  "no": 24,
+  "level": "n3",
+  "title": "Dividing and paying",
+  "kanji": [
+   "kanji:消",
+   "kanji:境",
+   "kanji:神",
+   "kanji:番",
+   "kanji:規",
+   "kanji:術"
+  ],
+  "vocab": [
+   "vocab:n3:shouhizei-消費税",
+   "vocab:n3:shouhi-消費",
+   "vocab:n3:sakai-境",
+   "vocab:n3:kankyou-環境",
+   "vocab:n3:kami-神",
+   "vocab:n3:junban-順番",
+   "vocab:n3:kibo-規模",
+   "vocab:n3:shujutsu-手術"
+  ],
+  "grammar": [
+   "gram:n3:ni-shite-wa",
+   "gram:n3:to-iu-yori"
+  ],
+  "readings": [
+   "read:n3:003"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:25",
+  "no": 25,
+  "level": "n3",
+  "title": "Reasons and defence",
+  "kanji": [
+   "kanji:展",
+   "kanji:導",
+   "kanji:備",
+   "kanji:宅",
+   "kanji:害",
+   "kanji:副"
+  ],
+  "vocab": [
+   "vocab:n3:shidou-指導",
+   "vocab:n3:tenji-展示",
+   "vocab:n3:hatten-発展",
+   "vocab:n3:dounyuu-導入",
+   "vocab:n3:setsubi-設備",
+   "vocab:n3:jitaku-自宅",
+   "vocab:n3:juutaku-住宅",
+   "vocab:n3:higai-被害",
+   "vocab:n3:gai-害",
+   "vocab:n3:fuku-副",
+   "vocab:n3:sonaeru-備える",
+   "vocab:n3:michibiku-導く",
+   "vocab:n3:saigai-災害",
+   "vocab:n3:takuhai-宅配"
+  ],
+  "grammar": [
+   "gram:n3:to-itte-mo",
+   "gram:n3:ni-kakete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:26",
+  "no": 26,
+  "level": "n3",
+  "title": "Supplement and loss",
+  "kanji": [
+   "kanji:算",
+   "kanji:条",
+   "kanji:独",
+   "kanji:警",
+   "kanji:育",
+   "kanji:席"
+  ],
+  "vocab": [
+   "vocab:n3:jouken-条件",
+   "vocab:n3:yosan-予算",
+   "vocab:n3:keisan-計算",
+   "vocab:n3:jou-条",
+   "vocab:n3:dokuritsu-独立",
+   "vocab:n3:dokushin-独身",
+   "vocab:n3:keikoku-警告",
+   "vocab:n3:kodoku-孤独"
+  ],
+  "grammar": [
+   "gram:n3:kara-ni-wa-review-2",
+   "gram:n3:kake"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:27",
+  "no": 27,
+  "level": "n3",
+  "title": "Stone and spirit",
+  "kanji": [
+   "kanji:輸",
+   "kanji:訪",
+   "kanji:述",
+   "kanji:残",
+   "kanji:想",
+   "kanji:線"
+  ],
+  "vocab": [
+   "vocab:n3:yosou-予想",
+   "vocab:n3:kansou-感想",
+   "vocab:n3:yusou-輸送",
+   "vocab:n3:houmon-訪問",
+   "vocab:n3:noberu-述べる",
+   "vocab:n3:nokoru-残る",
+   "vocab:n3:nokosu-残す",
+   "vocab:n3:souzou-想像",
+   "vocab:n3:sen-線"
+  ],
+  "grammar": [
+   "gram:n3:kiru",
+   "gram:n3:dasu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:28",
+  "no": 28,
+  "level": "n3",
+  "title": "Rules and skills",
+  "kanji": [
+   "kanji:率",
+   "kanji:農",
+   "kanji:州",
+   "kanji:武",
+   "kanji:念",
+   "kanji:象"
+  ],
+  "vocab": [
+   "vocab:n3:taishou-対象",
+   "vocab:n3:ritsu-率",
+   "vocab:n3:kakuritsu-確率",
+   "vocab:n3:nougyou-農業",
+   "vocab:n3:nouka-農家",
+   "vocab:n3:shuu-州",
+   "vocab:n3:bushi-武士",
+   "vocab:n3:zannennagara-残念ながら",
+   "vocab:n3:nennotame-念のため",
+   "vocab:n3:zou-象"
+  ],
+  "grammar": [
+   "gram:n3:sugi-review-2",
+   "gram:n3:chuu"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:004"
+  ]
+ },
+ {
+  "id": "unit:n3:29",
+  "no": 29,
+  "level": "n3",
+  "title": "Homes and harm",
+  "kanji": [
+   "kanji:域",
+   "kanji:助",
+   "kanji:労",
+   "kanji:例",
+   "kanji:然",
+   "kanji:張"
+  ],
+  "vocab": [
+   "vocab:n3:chiiki-地域",
+   "vocab:n3:chiikishakai-地域社会",
+   "vocab:n3:tasukeru-助ける",
+   "vocab:n3:tasukaru-助かる",
+   "vocab:n3:roudou-労働",
+   "vocab:n3:rei-例",
+   "vocab:n3:reigai-例外",
+   "vocab:n3:shizen-自然",
+   "vocab:n3:touzen-当然",
+   "vocab:n3:haru-張る",
+   "vocab:n3:ganbari-頑張り",
+   "vocab:n3:tasukeau-助け合う",
+   "vocab:n3:harikiru-張り切る",
+   "vocab:n3:guuzen-偶然",
+   "vocab:n3:hirou-疲労",
+   "vocab:n3:kinchou-緊張"
+  ],
+  "grammar": [
+   "gram:n3:teki",
+   "gram:n3:rashii-suffix"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:30",
+  "no": 30,
+  "level": "n3",
+  "title": "Counting and warning",
+  "kanji": [
+   "kanji:限",
+   "kanji:額",
+   "kanji:追",
+   "kanji:商",
+   "kanji:葉",
+   "kanji:伝"
+  ],
+  "vocab": [
+   "vocab:n3:kigen-期限",
+   "vocab:n3:kagiru-限る",
+   "vocab:n3:genkai-限界",
+   "vocab:n3:kingaku-金額",
+   "vocab:n3:gaku-額",
+   "vocab:n3:tsuika-追加",
+   "vocab:n3:shoubai-商売",
+   "vocab:n3:kotobazukai-言葉遣い",
+   "vocab:n3:dentou-伝統",
+   "vocab:n3:tetsudai-手伝い",
+   "vocab:n3:oikakeru-追いかける",
+   "vocab:n3:oitsuku-追いつく",
+   "vocab:n3:tsutawaru-伝わる"
+  ],
+  "grammar": [
+   "gram:n3:causative-passive",
+   "gram:n3:honorific-advanced"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:31",
+  "no": 31,
+  "level": "n3",
+  "title": "Learning and seats",
+  "kanji": [
+   "kanji:景",
+   "kanji:落",
+   "kanji:担",
+   "kanji:退",
+   "kanji:準",
+   "kanji:賞"
+  ],
+  "vocab": [
+   "vocab:n3:tantou-担当",
+   "vocab:n3:tantousha-担当者",
+   "vocab:n3:kijun-基準",
+   "vocab:n3:keiki-景気",
+   "vocab:n3:ochitsuku-落ち着く",
+   "vocab:n3:katsugu-担ぐ",
+   "vocab:n3:taikutsu-退屈",
+   "vocab:n3:kijunten-基準点",
+   "vocab:n3:shou-賞",
+   "vocab:n3:shoukin-賞金",
+   "vocab:n3:atsukau-扱う",
+   "vocab:n3:au-合う",
+   "vocab:n3:ataeru-与える",
+   "vocab:n3:ochikomu-落ち込む"
+  ],
+  "grammar": [
+   "gram:n3:te-moraitai",
+   "gram:n3:you-ni-iu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:32",
+  "no": 32,
+  "level": "n3",
+  "title": "Visiting and remaining",
+  "kanji": [
+   "kanji:辺",
+   "kanji:造",
+   "kanji:技",
+   "kanji:復",
+   "kanji:負",
+   "kanji:失"
+  ],
+  "vocab": [
+   "vocab:n3:shoubu-勝負",
+   "vocab:n3:make-負け",
+   "vocab:n3:gijutsusha-技術者",
+   "vocab:n3:futan-負担",
+   "vocab:n3:atari-辺り",
+   "vocab:n3:tsukuru-造る",
+   "vocab:n3:waza-技",
+   "vocab:n3:kaifuku-回復",
+   "vocab:n3:ushinau-失う",
+   "vocab:n3:ayumu-歩む",
+   "vocab:n3:afureru-溢れる",
+   "vocab:n3:areru-荒れる",
+   "vocab:n3:awateru-慌てる",
+   "vocab:n3:ikasu-生かす",
+   "vocab:n3:daku-抱く",
+   "vocab:n3:ukabu-浮かぶ",
+   "vocab:n3:ukeireru-受け入れる",
+   "vocab:n3:nakusu-失くす",
+   "vocab:n3:uttaeru-訴える",
+   "vocab:n3:umu-生む",
+   "vocab:n3:umeru-埋める"
+  ],
+  "grammar": [
+   "gram:n3:sase-te-kudasai",
+   "gram:n3:temo-shikata-nai"
+  ],
+  "readings": [
+   "read:n3:004"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:33",
+  "no": 33,
+  "level": "n3",
+  "title": "Lines and farming",
+  "kanji": [
+   "kanji:移",
+   "kanji:差",
+   "kanji:個",
+   "kanji:評",
+   "kanji:課",
+   "kanji:末"
+  ],
+  "vocab": [
+   "vocab:n3:hyouban-評判",
+   "vocab:n3:hyouka-評価",
+   "vocab:n3:utsuru-移る",
+   "vocab:n3:idou-移動",
+   "vocab:n3:sa-差",
+   "vocab:n3:sabetsu-差別",
+   "vocab:n3:kojin-個人",
+   "vocab:n3:kosei-個性",
+   "vocab:n3:hyouron-評論",
+   "vocab:n3:kadai-課題",
+   "vocab:n3:nenmatsu-年末",
+   "vocab:n3:utsusu-移す",
+   "vocab:n3:oeru-終える",
+   "vocab:n3:okosu-起こす",
+   "vocab:n3:okoru-起こる",
+   "vocab:n3:okonau-行う",
+   "vocab:n3:osaeru-抑える",
+   "vocab:n3:osoreru-恐れる",
+   "vocab:n3:osowaru-教わる",
+   "vocab:n3:odorokasu-驚かす",
+   "vocab:n3:omoikomu-思い込む",
+   "vocab:n3:orosu-降ろす",
+   "vocab:n3:kakaeru-抱える",
+   "vocab:n3:kakasu-欠かす"
+  ],
+  "grammar": [
+   "gram:n3:ni-kuwaete",
+   "gram:n3:nado"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:34",
+  "no": 34,
+  "level": "n3",
+  "title": "Thought and examples",
+  "kanji": [
+   "kanji:守",
+   "kanji:若",
+   "kanji:脳",
+   "kanji:極",
+   "kanji:種",
+   "kanji:美"
+  ],
+  "vocab": [
+   "vocab:n3:wakamono-若者",
+   "vocab:n3:nou-脳",
+   "vocab:n3:kiwamete-極めて",
+   "vocab:n3:tane-種",
+   "vocab:n3:bijutsu-美術",
+   "vocab:n3:kagayaku-輝く",
+   "vocab:n3:kagu-嗅ぐ",
+   "vocab:n3:kakureru-隠れる",
+   "vocab:n3:kakomu-囲む",
+   "vocab:n3:kasaneru-重ねる",
+   "vocab:n3:kasegu-稼ぐ",
+   "vocab:n3:katamuku-傾く",
+   "vocab:n3:kanashimu-悲しむ",
+   "vocab:n3:kanau-叶う",
+   "vocab:n3:kaneru-兼ねる",
+   "vocab:n3:kaburu-被る",
+   "vocab:n3:kareru-枯れる"
+  ],
+  "grammar": [
+   "gram:n3:ippou-de",
+   "gram:n3:tsutsu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:35",
+  "no": 35,
+  "level": "n3",
+  "title": "Limits and commerce",
+  "kanji": [
+   "kanji:命",
+   "kanji:福",
+   "kanji:蔵",
+   "kanji:量",
+   "kanji:望",
+   "kanji:非"
+  ],
+  "vocab": [
+   "vocab:n3:inochi-命",
+   "vocab:n3:meirei-命令",
+   "vocab:n3:koufuku-幸福",
+   "vocab:n3:ryou-量",
+   "vocab:n3:tairyou-大量",
+   "vocab:n3:nozomu-望む",
+   "vocab:n3:kibou-希望",
+   "vocab:n3:hijouni-非常に",
+   "vocab:n3:hijou-非常",
+   "vocab:n3:kirau-嫌う",
+   "vocab:n3:kireru-切れる",
+   "vocab:n3:kubaru-配る",
+   "vocab:n3:kuyamu-悔やむ",
+   "vocab:n3:kureru-暮れる",
+   "vocab:n3:kezuru-削る",
+   "vocab:n3:keru-蹴る",
+   "vocab:n3:kooru-凍る",
+   "vocab:n3:kogeru-焦げる",
+   "vocab:n3:kobosu-こぼす",
+   "vocab:n3:korobu-転ぶ",
+   "vocab:n3:saguru-探る",
+   "vocab:n3:meijiru-命じる"
+  ],
+  "grammar": [
+   "gram:n3:ni-yoru-to-review",
+   "gram:n3:kuraimono-ka"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:36",
+  "no": 36,
+  "level": "n3",
+  "title": "Leaves and scenery",
+  "kanji": [
+   "kanji:観",
+   "kanji:察",
+   "kanji:整",
+   "kanji:段",
+   "kanji:横",
+   "kanji:型"
+  ],
+  "vocab": [
+   "vocab:n3:keisatsukan-警察官",
+   "vocab:n3:kansatsu-観察",
+   "vocab:n3:seiri-整理",
+   "vocab:n3:oudan-横断",
+   "vocab:n3:kata-型",
+   "vocab:n3:sakeru-避ける",
+   "vocab:n3:sakebu-叫ぶ",
+   "vocab:n3:sasu-刺す",
+   "vocab:n3:saru-去る",
+   "vocab:n3:sawagu-騒ぐ",
+   "vocab:n3:shitagau-従う",
+   "vocab:n3:shimeru-締める",
+   "vocab:n3:shimeru-湿る",
+   "vocab:n3:susumeru-進める",
+   "vocab:n3:susumeru-勧める",
+   "vocab:n3:sumaseru-済ませる",
+   "vocab:n3:suru-擦る",
+   "vocab:n3:totonoeru-整える",
+   "vocab:n3:shinsatsu-診察",
+   "vocab:n3:shudan-手段"
+  ],
+  "grammar": [
+   "gram:n3:sae-review-nagara-2",
+   "gram:n3:tokoro-datta"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:37",
+  "no": 37,
+  "level": "n3",
+  "title": "Burden and retreat",
+  "kanji": [
+   "kanji:深",
+   "kanji:製",
+   "kanji:申",
+   "kanji:様",
+   "kanji:財",
+   "kanji:港"
+  ],
+  "vocab": [
+   "vocab:n3:moushikomi-申し込み",
+   "vocab:n3:shinsei-申請",
+   "vocab:n3:kamisama-神様",
+   "vocab:n3:seizou-製造",
+   "vocab:n3:shinya-深夜",
+   "vocab:n3:yousu-様子",
+   "vocab:n3:samazama-様々",
+   "vocab:n3:zaisan-財産",
+   "vocab:n3:sorou-揃う",
+   "vocab:n3:soroeru-揃える",
+   "vocab:n3:taosu-倒す",
+   "vocab:n3:tazuneru-尋ねる",
+   "vocab:n3:tatamu-畳む",
+   "vocab:n3:tachiagaru-立ち上がる",
+   "vocab:n3:tatsu-経つ",
+   "vocab:n3:tayoru-頼る",
+   "vocab:n3:tasu-足す",
+   "vocab:n3:damaru-黙る",
+   "vocab:n3:tamaru-溜まる",
+   "vocab:n3:chijimu-縮む",
+   "vocab:n3:chuuibukai-注意深い",
+   "vocab:n3:seizougyou-製造業"
+  ],
+  "grammar": [
+   "gram:n3:nai-uchi-ni-review",
+   "gram:n3:temo-ii-review-3"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:38",
+  "no": 38,
+  "level": "n3",
+  "title": "Prizes and edges",
+  "kanji": [
+   "kanji:識",
+   "kanji:呼",
+   "kanji:達",
+   "kanji:良",
+   "kanji:針",
+   "kanji:専"
+  ],
+  "vocab": [
+   "vocab:n3:chishiki-知識",
+   "vocab:n3:joushiki-常識",
+   "vocab:n3:ishiki-意識",
+   "vocab:n3:yobidasu-呼び出す",
+   "vocab:n3:tassei-達成",
+   "vocab:n3:yoi-良い",
+   "vocab:n3:kairyou-改良",
+   "vocab:n3:houshin-方針",
+   "vocab:n3:senmonka-専門家",
+   "vocab:n3:senmongakkou-専門学校",
+   "vocab:n3:tsukamaeru-捕まえる",
+   "vocab:n3:tsukamu-掴む",
+   "vocab:n3:tsukiru-尽きる",
+   "vocab:n3:tsunagu-繋ぐ",
+   "vocab:n3:tsunagaru-繋がる",
+   "vocab:n3:tsubusu-潰す",
+   "vocab:n3:tsumeru-詰める",
+   "vocab:n3:deau-出会う",
+   "vocab:n3:terasu-照らす",
+   "vocab:n3:tokeru-溶ける",
+   "vocab:n3:yobikakeru-呼び掛ける",
+   "vocab:n3:haitatsu-配達"
+  ],
+  "grammar": [
+   "gram:n3:koto-ni",
+   "gram:n3:nai-dewa-irarenai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:39",
+  "no": 39,
+  "level": "n3",
+  "title": "Craft and return",
+  "kanji": [
+   "kanji:谷",
+   "kanji:候",
+   "kanji:史",
+   "kanji:階",
+   "kanji:程",
+   "kanji:満"
+  ],
+  "vocab": [
+   "vocab:n3:dankai-段階",
+   "vocab:n3:tani-谷",
+   "vocab:n3:kouho-候補",
+   "vocab:n3:kikou-気候",
+   "vocab:n3:hodo-程",
+   "vocab:n3:manzoku-満足",
+   "vocab:n3:manin-満員",
+   "vocab:n3:fuman-不満",
+   "vocab:n3:tomonau-伴う",
+   "vocab:n3:toraeru-捕らえる",
+   "vocab:n3:torikaeru-取り替える",
+   "vocab:n3:toridasu-取り出す",
+   "vocab:n3:nagameru-眺める",
+   "vocab:n3:nagusameru-慰める",
+   "vocab:n3:naguru-殴る",
+   "vocab:n3:namakeru-怠ける",
+   "vocab:n3:nayamu-悩む",
+   "vocab:n3:niru-似る",
+   "vocab:n3:manzokukan-満足感"
+  ],
+  "grammar": [
+   "gram:n3:tatoe-temo",
+   "gram:n3:to-sureba"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:40",
+  "no": 40,
+  "level": "n3",
+  "title": "Moving and differing",
+  "kanji": [
+   "kanji:敗",
+   "kanji:管",
+   "kanji:値",
+   "kanji:兵",
+   "kanji:接",
+   "kanji:器"
+  ],
+  "vocab": [
+   "vocab:n3:heishi-兵士",
+   "vocab:n3:buki-武器",
+   "vocab:n3:chokusetsu-直接",
+   "vocab:n3:kachi-価値",
+   "vocab:n3:youki-容器",
+   "vocab:n3:shippaisaku-失敗作",
+   "vocab:n3:kanri-管理",
+   "vocab:n3:ne-値",
+   "vocab:n3:hei-兵",
+   "vocab:n3:setsuzoku-接続",
+   "vocab:n3:chokusetsuteki-直接的",
+   "vocab:n3:utsuwa-器",
+   "vocab:n3:niru-煮る",
+   "vocab:n3:nigiru-握る",
+   "vocab:n3:nikumu-憎む",
+   "vocab:n3:nigasu-逃がす",
+   "vocab:n3:nurasu-濡らす",
+   "vocab:n3:nuru-塗る",
+   "vocab:n3:negau-願う",
+   "vocab:n3:nerau-狙う",
+   "vocab:n3:nobasu-伸ばす",
+   "vocab:n3:nobiru-伸びる",
+   "vocab:n3:norikoeru-乗り越える",
+   "vocab:n3:haeru-生える",
+   "vocab:n3:hakaru-計る",
+   "vocab:n3:haku-吐く",
+   "vocab:n3:hazusu-外す",
+   "vocab:n3:hazureru-外れる",
+   "vocab:n3:hanareru-離れる"
+  ],
+  "grammar": [
+   "gram:n3:ue-de",
+   "gram:n3:kagiri"
+  ],
+  "readings": [
+   "read:n3:005"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:41",
+  "no": 41,
+  "level": "n3",
+  "title": "Evaluation and lessons",
+  "kanji": [
+   "kanji:路",
+   "kanji:科",
+   "kanji:授",
+   "kanji:細",
+   "kanji:効",
+   "kanji:積"
+  ],
+  "vocab": [
+   "vocab:n3:kouka-効果",
+   "vocab:n3:senro-線路",
+   "vocab:n3:tsuuro-通路",
+   "vocab:n3:kamoku-科目",
+   "vocab:n3:kyouju-教授",
+   "vocab:n3:tsumu-積む",
+   "vocab:n3:sekkyokuteki-積極的",
+   "vocab:n3:menseki-面積",
+   "vocab:n3:kiku-効く",
+   "vocab:n3:tsumoru-積もる",
+   "vocab:n3:hareru-腫れる",
+   "vocab:n3:hirogaru-広がる",
+   "vocab:n3:hirogeru-広げる",
+   "vocab:n3:fukumu-含む",
+   "vocab:n3:furu-振る",
+   "vocab:n3:furueru-震える",
+   "vocab:n3:fureru-触れる",
+   "vocab:n3:horu-掘る",
+   "vocab:n3:mageru-曲げる",
+   "vocab:n3:mazaru-混ざる",
+   "vocab:n3:mazeru-混ぜる",
+   "vocab:n3:matomeru-まとめる",
+   "vocab:n3:manabu-学ぶ",
+   "vocab:n3:kagakusha-科学者"
+  ],
+  "grammar": [
+   "gram:n3:to-wa-kagiranai",
+   "gram:n3:ni-kagitte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:42",
+  "no": 42,
+  "level": "n3",
+  "title": "Guarding and youth",
+  "kanji": [
+   "kanji:丸",
+   "kanji:他",
+   "kanji:録",
+   "kanji:処",
+   "kanji:省",
+   "kanji:旧"
+  ],
+  "vocab": [
+   "vocab:n3:kiroku-記録",
+   "vocab:n3:tanin-他人",
+   "vocab:n3:sonota-その他",
+   "vocab:n3:kirokuteki-記録的",
+   "vocab:n3:shori-処理",
+   "vocab:n3:habuku-省く",
+   "vocab:n3:shouryaku-省略",
+   "vocab:n3:kyuu-旧",
+   "vocab:n3:maneku-招く",
+   "vocab:n3:maneru-真似る",
+   "vocab:n3:mayou-迷う",
+   "vocab:n3:mawasu-回す",
+   "vocab:n3:miokuru-見送る",
+   "vocab:n3:miorosu-見下ろす",
+   "vocab:n3:mikakeru-見掛ける",
+   "vocab:n3:mukau-向かう",
+   "vocab:n3:mukeru-向ける",
+   "vocab:n3:megumareru-恵まれる",
+   "vocab:n3:moeru-燃える"
+  ],
+  "grammar": [
+   "gram:n3:ni-tomonatte",
+   "gram:n3:moto-de"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:43",
+  "no": 43,
+  "level": "n3",
+  "title": "Kinds and beauty",
+  "kanji": [
+   "kanji:橋",
+   "kanji:岸",
+   "kanji:客",
+   "kanji:否",
+   "kanji:周",
+   "kanji:師"
+  ],
+  "vocab": [
+   "vocab:n3:shuuhen-周辺",
+   "vocab:n3:kankoukyaku-観光客",
+   "vocab:n3:kishi-岸",
+   "vocab:n3:kyakushitsu-客室",
+   "vocab:n3:hitei-否定",
+   "vocab:n3:shuui-周囲",
+   "vocab:n3:shi-師",
+   "vocab:n3:kyoushi-教師",
+   "vocab:n3:mochiiru-用いる",
+   "vocab:n3:modosu-戻す",
+   "vocab:n3:momu-揉む",
+   "vocab:n3:moru-盛る",
+   "vocab:n3:yatou-雇う",
+   "vocab:n3:yuzuru-譲る",
+   "vocab:n3:you-酔う",
+   "vocab:n3:yokeru-避ける",
+   "vocab:n3:yogosu-汚す",
+   "vocab:n3:wakareru-分かれる",
+   "vocab:n3:wakareru-別れる"
+  ],
+  "grammar": [
+   "gram:n3:kawari-ni-review-2",
+   "gram:n3:ni-tsuki"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:44",
+  "no": 44,
+  "level": "n3",
+  "title": "Fate and fortune",
+  "kanji": [
+   "kanji:材",
+   "kanji:登",
+   "kanji:批",
+   "kanji:易",
+   "kanji:健",
+   "kanji:戸"
+  ],
+  "vocab": [
+   "vocab:n3:hihan-批判",
+   "vocab:n3:mokuzai-木材",
+   "vocab:n3:touroku-登録",
+   "vocab:n3:tozan-登山",
+   "vocab:n3:hihyou-批評",
+   "vocab:n3:youi-容易",
+   "vocab:n3:waku-沸く",
+   "vocab:n3:watasu-渡す",
+   "vocab:n3:wabiru-詫びる",
+   "vocab:n3:warawaseru-笑わせる",
+   "vocab:n3:akiraka-明らか",
+   "vocab:n3:atsui-厚い",
+   "vocab:n3:ayashii-怪しい",
+   "vocab:n3:idai-偉大",
+   "vocab:n3:usui-薄い",
+   "vocab:n3:urayamashii-羨ましい",
+   "vocab:n3:urusai-煩い",
+   "vocab:n3:osanai-幼い",
+   "vocab:n3:omo-主",
+   "vocab:n3:kashikoi-賢い",
+   "vocab:n3:kayui-痒い",
+   "vocab:n3:kitsui-きつい"
+  ],
+  "grammar": [
+   "gram:n3:ni-hanshite",
+   "gram:n3:ni-kanshite-review-2"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:005"
+  ]
+ },
+ {
+  "id": "unit:n3:45",
+  "no": 45,
+  "level": "n3",
+  "title": "Quantity and hope",
+  "kanji": [
+   "kanji:速",
+   "kanji:存",
+   "kanji:飛",
+   "kanji:殺",
+   "kanji:央",
+   "kanji:券"
+  ],
+  "vocab": [
+   "vocab:n3:sonzai-存在",
+   "vocab:n3:sokudo-速度",
+   "vocab:n3:hozon-保存",
+   "vocab:n3:seizon-生存",
+   "vocab:n3:hikoujou-飛行場",
+   "vocab:n3:korosu-殺す",
+   "vocab:n3:chuuou-中央",
+   "vocab:n3:ken-券",
+   "vocab:n3:teikiken-定期券",
+   "vocab:n3:tobidasu-飛び出す",
+   "vocab:n3:kuwashii-詳しい",
+   "vocab:n3:koi-濃い",
+   "vocab:n3:sawagashii-騒がしい",
+   "vocab:n3:shiawase-幸せ",
+   "vocab:n3:shitashii-親しい",
+   "vocab:n3:jimi-地味",
+   "vocab:n3:juudai-重大",
+   "vocab:n3:shuyou-主要",
+   "vocab:n3:surudoi-鋭い",
+   "vocab:n3:zeitaku-贅沢",
+   "vocab:n3:arai-粗い",
+   "vocab:n3:oohaba-大幅"
+  ],
+  "grammar": [
+   "gram:n3:o-tsuujite",
+   "gram:n3:ni-kakete-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:46",
+  "no": 46,
+  "level": "n3",
+  "title": "Observation and order",
+  "kanji": [
+   "kanji:号",
+   "kanji:単",
+   "kanji:座",
+   "kanji:破",
+   "kanji:編",
+   "kanji:竹"
+  ],
+  "vocab": [
+   "vocab:n3:kigou-記号",
+   "vocab:n3:tango-単語",
+   "vocab:n3:tanni-単に",
+   "vocab:n3:zaseki-座席",
+   "vocab:n3:yabureru-破れる",
+   "vocab:n3:henshuu-編集",
+   "vocab:n3:take-竹",
+   "vocab:n3:amu-編む",
+   "vocab:n3:yabuku-破く",
+   "vocab:n3:daitan-大胆",
+   "vocab:n3:darashinai-だらしない",
+   "vocab:n3:tanjun-単純",
+   "vocab:n3:tsurai-辛い",
+   "vocab:n3:tsuyoki-強気",
+   "vocab:n3:nibui-鈍い",
+   "vocab:n3:nurui-温い",
+   "vocab:n3:hageshii-激しい",
+   "vocab:n3:hade-派手",
+   "vocab:n3:fukou-不幸",
+   "vocab:n3:fusei-不正",
+   "vocab:n3:makka-真っ赤",
+   "vocab:n3:masshiro-真っ白",
+   "vocab:n3:tannaru-単なる"
+  ],
+  "grammar": [
+   "gram:n3:kara-mite",
+   "gram:n3:ni-shiro"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:47",
+  "no": 47,
+  "level": "n3",
+  "title": "Models and depth",
+  "kanji": [
+   "kanji:除",
+   "kanji:完",
+   "kanji:責",
+   "kanji:並",
+   "kanji:修",
+   "kanji:危"
+  ],
+  "vocab": [
+   "vocab:n3:sekinin-責任",
+   "vocab:n3:nozoku-除く",
+   "vocab:n3:soujiki-掃除機",
+   "vocab:n3:kansei-完成",
+   "vocab:n3:kanzen-完全",
+   "vocab:n3:semeru-責める",
+   "vocab:n3:namiki-並木",
+   "vocab:n3:shuuri-修理",
+   "vocab:n3:shuusei-修正",
+   "vocab:n3:abunai-危ない",
+   "vocab:n3:makkuro-真っ黒",
+   "vocab:n3:makkura-真っ暗",
+   "vocab:n3:mazushii-貧しい",
+   "vocab:n3:mabushii-眩しい",
+   "vocab:n3:minikui-醜い",
+   "vocab:n3:muda-無駄",
+   "vocab:n3:buji-無事",
+   "vocab:n3:yuuki-勇気",
+   "vocab:n3:yurui-緩い",
+   "vocab:n3:youchi-幼稚",
+   "vocab:n3:raku-楽",
+   "vocab:n3:akushitsu-悪質"
+  ],
+  "grammar": [
+   "gram:n3:ta-tokoro",
+   "gram:n3:ta-ue-review"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:48",
+  "no": 48,
+  "level": "n3",
+  "title": "Making and applying",
+  "kanji": [
+   "kanji:採",
+   "kanji:競",
+   "kanji:拡",
+   "kanji:故",
+   "kanji:給",
+   "kanji:根"
+  ],
+  "vocab": [
+   "vocab:n3:saiyou-採用",
+   "vocab:n3:kyougi-競技",
+   "vocab:n3:kakudai-拡大",
+   "vocab:n3:koshou-故障",
+   "vocab:n3:shikyuu-支給",
+   "vocab:n3:ne-根",
+   "vocab:n3:aete-敢えて",
+   "vocab:n3:arayuru-あらゆる",
+   "vocab:n3:ikiiki-生き生き",
+   "vocab:n3:ikkini-一気に",
+   "vocab:n3:isseini-一斉に",
+   "vocab:n3:ittai-一体",
+   "vocab:n3:ippou-一方",
+   "vocab:n3:imanimo-今にも",
+   "vocab:n3:iyoiyo-いよいよ",
+   "vocab:n3:iwayuru-いわゆる",
+   "vocab:n3:ukkari-うっかり",
+   "vocab:n3:ooini-大いに",
+   "vocab:n3:osoraku-恐らく",
+   "vocab:n3:omoni-主に",
+   "vocab:n3:oyoso-およそ",
+   "vocab:n3:yuukyuu-有給"
+  ],
+  "grammar": [
+   "gram:n3:totan",
+   "gram:n3:ka-no-you-ni"
+  ],
+  "readings": [
+   "read:n3:006"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:49",
+  "no": 49,
+  "level": "n3",
+  "title": "Wealth and harbours",
+  "kanji": [
+   "kanji:苦",
+   "kanji:園",
+   "kanji:具",
+   "kanji:異",
+   "kanji:歴",
+   "kanji:辞"
+  ],
+  "vocab": [
+   "vocab:n3:rekishiteki-歴史的",
+   "vocab:n3:kigu-器具",
+   "vocab:n3:kurushii-苦しい",
+   "vocab:n3:kurou-苦労",
+   "vocab:n3:nigate-苦手",
+   "vocab:n3:teien-庭園",
+   "vocab:n3:gutaiteki-具体的",
+   "vocab:n3:kagu-家具",
+   "vocab:n3:kotonaru-異なる",
+   "vocab:n3:ijou-異常",
+   "vocab:n3:kesshite-決して",
+   "vocab:n3:sarani-更に",
+   "vocab:n3:sappari-さっぱり",
+   "vocab:n3:jojoni-徐々に",
+   "vocab:n3:sukunakutomo-少なくとも",
+   "vocab:n3:sukkari-すっかり",
+   "vocab:n3:sekkaku-せっかく",
+   "vocab:n3:semete-せめて",
+   "vocab:n3:taezu-絶えず",
+   "vocab:n3:tagaini-互いに",
+   "vocab:n3:tamatama-たまたま",
+   "vocab:n3:chittomo-ちっとも",
+   "vocab:n3:gutai-具体"
+  ],
+  "grammar": [
+   "gram:n3:nai-koto-ni-wa",
+   "gram:n3:te-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:50",
+  "no": 50,
+  "level": "n3",
+  "title": "Recognition and good",
+  "kanji": [
+   "kanji:将",
+   "kanji:因",
+   "kanji:馬",
+   "kanji:愛",
+   "kanji:富",
+   "kanji:未"
+  ],
+  "vocab": [
+   "vocab:n3:ai-愛",
+   "vocab:n3:aisuru-愛する",
+   "vocab:n3:tomi-富",
+   "vocab:n3:mirai-未来",
+   "vocab:n3:imada-未だ",
+   "vocab:n3:tsui-つい",
+   "vocab:n3:tsuini-ついに",
+   "vocab:n3:tsumari-つまり",
+   "vocab:n3:doushitemo-どうしても",
+   "vocab:n3:douse-どうせ",
+   "vocab:n3:tonikaku-とにかく",
+   "vocab:n3:tomokaku-ともかく",
+   "vocab:n3:naganen-長年",
+   "vocab:n3:narubeku-なるべく",
+   "vocab:n3:naruhodo-なるほど",
+   "vocab:n3:nidoto-二度と",
+   "vocab:n3:pittari-ぴったり",
+   "vocab:n3:futo-ふと",
+   "vocab:n3:betsubetsu-別々",
+   "vocab:n3:hobo-ほぼ",
+   "vocab:n3:masaka-まさか"
+  ],
+  "grammar": [
+   "gram:n3:to-mo",
+   "gram:n3:dake-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:51",
+  "no": 51,
+  "level": "n3",
+  "title": "Needles and specialists",
+  "kanji": [
+   "kanji:貿",
+   "kanji:講",
+   "kanji:装",
+   "kanji:諸",
+   "kanji:亡",
+   "kanji:劇"
+  ],
+  "vocab": [
+   "vocab:n3:koushi-講師",
+   "vocab:n3:fukusou-服装",
+   "vocab:n3:shokoku-諸国",
+   "vocab:n3:geki-劇",
+   "vocab:n3:gekijou-劇場",
+   "vocab:n3:nakusu-亡くす",
+   "vocab:n3:masani-まさに",
+   "vocab:n3:masumasu-ますます",
+   "vocab:n3:marude-まるで",
+   "vocab:n3:mettani-めったに",
+   "vocab:n3:moshikasuruto-もしかすると",
+   "vocab:n3:mottomo-もっとも",
+   "vocab:n3:yagate-やがて",
+   "vocab:n3:yaya-やや",
+   "vocab:n3:yousuruni-要するに",
+   "vocab:n3:wazato-わざと",
+   "vocab:n3:wazawaza-わざわざ",
+   "vocab:n3:shitagatte-したがって",
+   "vocab:n3:sokode-そこで",
+   "vocab:n3:soretomo-それとも",
+   "vocab:n3:tadashi-ただし"
+  ],
+  "grammar": [
+   "gram:n3:to-iu-mono-da",
+   "gram:n3:ni-sotte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:52",
+  "no": 52,
+  "level": "n3",
+  "title": "Valleys and history",
+  "kanji": [
+   "kanji:河",
+   "kanji:航",
+   "kanji:冷",
+   "kanji:適",
+   "kanji:婦",
+   "kanji:寄"
+  ],
+  "vocab": [
+   "vocab:n3:fuufu-夫婦",
+   "vocab:n3:kawa-河",
+   "vocab:n3:koukuu-航空",
+   "vocab:n3:tekisetsu-適切",
+   "vocab:n3:shufu-主婦",
+   "vocab:n3:sameru-冷める",
+   "vocab:n3:yoseru-寄せる",
+   "vocab:n3:nao-なお",
+   "vocab:n3:moshikuha-もしくは",
+   "vocab:n3:iki-息",
+   "vocab:n3:ase-汗",
+   "vocab:n3:namida-涙",
+   "vocab:n3:i-胃",
+   "vocab:n3:hai-肺",
+   "vocab:n3:kata-肩",
+   "vocab:n3:koshi-腰",
+   "vocab:n3:hiza-膝",
+   "vocab:n3:hada-肌",
+   "vocab:n3:kinniku-筋肉",
+   "vocab:n3:eiyou-栄養",
+   "vocab:n3:gan-癌"
+  ],
+  "grammar": [
+   "gram:n3:ya-ina-ya-review",
+   "gram:n3:hoka-nai"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n3:006"
+  ]
+ },
+ {
+  "id": "unit:n3:53",
+  "no": 53,
+  "level": "n3",
+  "title": "Degrees and fullness",
+  "kanji": [
+   "kanji:類",
+   "kanji:児",
+   "kanji:余",
+   "kanji:禁",
+   "kanji:印",
+   "kanji:逆"
+  ],
+  "vocab": [
+   "vocab:n3:inshou-印象",
+   "vocab:n3:shurui-種類",
+   "vocab:n3:rui-類",
+   "vocab:n3:jinrui-人類",
+   "vocab:n3:jidou-児童",
+   "vocab:n3:amaru-余る",
+   "vocab:n3:yokei-余計",
+   "vocab:n3:kinshi-禁止",
+   "vocab:n3:kinen-禁煙",
+   "vocab:n3:insatsu-印刷",
+   "vocab:n3:gyaku-逆",
+   "vocab:n3:kanbyou-看病",
+   "vocab:n3:kusuridai-薬代",
+   "vocab:n3:ikari-怒り",
+   "vocab:n3:yorokobi-喜び",
+   "vocab:n3:kanashimi-悲しみ",
+   "vocab:n3:kyoufu-恐怖",
+   "vocab:n3:koufun-興奮",
+   "vocab:n3:jishin-自信",
+   "vocab:n3:hokori-誇り",
+   "vocab:n3:kouun-幸運",
+   "vocab:n3:fuun-不運",
+   "vocab:n3:kuse-癖",
+   "vocab:n3:shorui-書類",
+   "vocab:n3:inkan-印鑑"
+  ],
+  "grammar": [
+   "gram:n3:koto-nashi-ni",
+   "gram:n3:kotoni-naru-review"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:54",
+  "no": 54,
+  "level": "n3",
+  "title": "Defeat and pipes",
+  "kanji": [
+   "kanji:王",
+   "kanji:標",
+   "kanji:久",
+   "kanji:油",
+   "kanji:妻",
+   "kanji:暴"
+  ],
+  "vocab": [
+   "vocab:n3:sekiyu-石油",
+   "vocab:n3:ou-王",
+   "vocab:n3:mokuhyou-目標",
+   "vocab:n3:hyoujun-標準",
+   "vocab:n3:hisashiburi-久しぶり",
+   "vocab:n3:bouryoku-暴力",
+   "vocab:n3:taido-態度",
+   "vocab:n3:koudou-行動",
+   "vocab:n3:koui-行為",
+   "vocab:n3:houhou-方法",
+   "vocab:n3:hatsumei-発明",
+   "vocab:n3:hakken-発見",
+   "vocab:n3:kenkyuusha-研究者",
+   "vocab:n3:kouzui-洪水"
+  ],
+  "grammar": [
+   "gram:n3:ni-tsuite-wa-review",
+   "gram:n3:wa-tomokaku"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:55",
+  "no": 55,
+  "level": "n3",
+  "title": "Soldiers and contact",
+  "kanji": [
+   "kanji:輪",
+   "kanji:背",
+   "kanji:植",
+   "kanji:熱",
+   "kanji:宿",
+   "kanji:清"
+  ],
+  "vocab": [
+   "vocab:n3:wa-輪",
+   "vocab:n3:senaka-背中",
+   "vocab:n3:haikei-背景",
+   "vocab:n3:shokubutsu-植物",
+   "vocab:n3:shukuhaku-宿泊",
+   "vocab:n3:seiketsu-清潔",
+   "vocab:n3:kiyoi-清い",
+   "vocab:n3:kazan-火山",
+   "vocab:n3:sabaku-砂漠",
+   "vocab:n3:uchuu-宇宙",
+   "vocab:n3:wakusei-惑星",
+   "vocab:n3:osen-汚染",
+   "vocab:n3:gomibako-ごみ箱",
+   "vocab:n3:kakei-家計",
+   "vocab:n3:chochiku-貯蓄",
+   "vocab:n3:shakkin-借金"
+  ],
+  "grammar": [
+   "gram:n3:ni-kakawarazu",
+   "gram:n3:ni-mo-kakawarazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:56",
+  "no": 56,
+  "level": "n3",
+  "title": "Tools and roads",
+  "kanji": [
+   "kanji:険",
+   "kanji:覚",
+   "kanji:船",
+   "kanji:倍",
+   "kanji:均",
+   "kanji:億"
+  ],
+  "vocab": [
+   "vocab:n3:heikin-平均",
+   "vocab:n3:hoken-保険",
+   "vocab:n3:kankaku-感覚",
+   "vocab:n3:kintou-均等",
+   "vocab:n3:oku-億",
+   "vocab:n3:samasu-覚ます",
+   "vocab:n3:kewashii-険しい",
+   "vocab:n3:kozeni-小銭",
+   "vocab:n3:souryou-送料",
+   "vocab:n3:tsuuhan-通販",
+   "vocab:n3:chuumonsho-注文書",
+   "vocab:n3:hinshitsu-品質",
+   "vocab:n3:torihiki-取引",
+   "vocab:n3:torihikisaki-取引先",
+   "vocab:n3:senpai-先輩",
+   "vocab:n3:kouhai-後輩"
+  ],
+  "grammar": [
+   "gram:n3:kara-naru",
+   "gram:n3:to-iu-koto-ni-naru"
+  ],
+  "readings": [
+   "read:n3:007"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:57",
+  "no": 57,
+  "level": "n3",
+  "title": "Science and effect",
+  "kanji": [
+   "kanji:圧",
+   "kanji:芸",
+   "kanji:許",
+   "kanji:署",
+   "kanji:留",
+   "kanji:罪"
+  ],
+  "vocab": [
+   "vocab:n3:kyoka-許可",
+   "vocab:n3:geijutsu-芸術",
+   "vocab:n3:atsuryoku-圧力",
+   "vocab:n3:geinoujin-芸能人",
+   "vocab:n3:yurusu-許す",
+   "vocab:n3:shomei-署名",
+   "vocab:n3:tsumi-罪",
+   "vocab:n3:shoushin-昇進",
+   "vocab:n3:shusse-出世",
+   "vocab:n3:kyuuka-休暇",
+   "vocab:n3:tsuukin-通勤",
+   "vocab:n3:tsutomesaki-勤め先",
+   "vocab:n3:meishiire-名刺入れ",
+   "vocab:n3:aidea-アイデア",
+   "vocab:n3:adobaisu-アドバイス",
+   "vocab:n3:imeeji-イメージ"
+  ],
+  "grammar": [
+   "gram:n3:kiri-review-2",
+   "gram:n3:nakya-review"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:58",
+  "no": 58,
+  "level": "n3",
+  "title": "Round and other",
+  "kanji": [
+   "kanji:停",
+   "kanji:陸",
+   "kanji:玉",
+   "kanji:波",
+   "kanji:帯",
+   "kanji:延"
+  ],
+  "vocab": [
+   "vocab:n3:teisha-停車",
+   "vocab:n3:teiden-停電",
+   "vocab:n3:riku-陸",
+   "vocab:n3:tama-玉",
+   "vocab:n3:denpa-電波",
+   "vocab:n3:obi-帯",
+   "vocab:n3:enki-延期",
+   "vocab:n3:tsunami-津波",
+   "vocab:n3:tairiku-大陸",
+   "vocab:n3:intabyuu-インタビュー",
+   "vocab:n3:enerugii-エネルギー",
+   "vocab:n3:ofisu-オフィス",
+   "vocab:n3:katarogu-カタログ",
+   "vocab:n3:kyanseru-キャンセル",
+   "vocab:n3:komyunikeeshon-コミュニケーション",
+   "vocab:n3:kontesuto-コンテスト",
+   "vocab:n3:saabisu-サービス",
+   "vocab:n3:sain-サイン",
+   "vocab:n3:shisutemu-システム",
+   "vocab:n3:sukejuuru-スケジュール",
+   "vocab:n3:sutoresu-ストレス",
+   "vocab:n3:supiido-スピード",
+   "vocab:n3:setto-セット",
+   "vocab:n3:chansu-チャンス",
+   "vocab:n3:deeta-データ",
+   "vocab:n3:dezain-デザイン"
+  ],
+  "grammar": [
+   "gram:n3:closing-you-ni-naru",
+   "gram:n3:closing-mono-review"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:59",
+  "no": 59,
+  "level": "n3",
+  "title": "Recording and places",
+  "kanji": [
+   "kanji:羽",
+   "kanji:努",
+   "kanji:固",
+   "kanji:精",
+   "kanji:則",
+   "kanji:乱"
+  ],
+  "vocab": [
+   "vocab:n3:hane-羽",
+   "vocab:n3:doryoku-努力",
+   "vocab:n3:seishin-精神",
+   "vocab:n3:kisokutadashii-規則正しい",
+   "vocab:n3:midareru-乱れる",
+   "vocab:n3:katamaru-固まる",
+   "vocab:n3:tsutomeru-努める",
+   "vocab:n3:toraburu-トラブル",
+   "vocab:n3:baransu-バランス",
+   "vocab:n3:puran-プラン",
+   "vocab:n3:puro-プロ",
+   "vocab:n3:borantia-ボランティア",
+   "vocab:n3:masukomi-マスコミ",
+   "vocab:n3:messeeji-メッセージ",
+   "vocab:n3:risaikuru-リサイクル",
+   "vocab:n3:riidaa-リーダー",
+   "vocab:n3:reberu-レベル",
+   "vocab:n3:chigau-違う",
+   "vocab:n3:gimi-気味"
+  ],
+  "grammar": [
+   "gram:n3:closing-kagiri-review",
+   "gram:n3:closing-final"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n3:60",
+  "no": 60,
+  "level": "n3",
+  "title": "Old and new",
+  "kanji": [
+   "kanji:散",
+   "kanji:司",
+   "kanji:康",
+   "kanji:測",
+   "kanji:豊",
+   "kanji:静"
+  ],
+  "vocab": [
+   "vocab:n3:reisei-冷静",
+   "vocab:n3:sanpomichi-散歩道",
+   "vocab:n3:shikai-司会",
+   "vocab:n3:kenkouteki-健康的",
+   "vocab:n3:hakaru-測る",
+   "vocab:n3:yutaka-豊か",
+   "vocab:n3:chirakaru-散らかる",
+   "vocab:n3:houfu-豊富",
+   "vocab:n3:joushi-上司",
+   "vocab:n3:shouko-証拠",
+   "vocab:n3:irai-以来",
+   "vocab:n3:ageru-挙げる",
+   "vocab:n3:zenin-全員",
+   "vocab:n3:kouji-工事",
+   "vocab:n3:sou-沿う",
+   "vocab:n3:akirameru-諦める",
+   "vocab:n3:tou-問う",
+   "vocab:n3:jidou-自動"
+  ],
+  "grammar": [
+   "gram:n3:closing-summary"
+  ],
+  "readings": [],
+  "listening": []
+ }
+]

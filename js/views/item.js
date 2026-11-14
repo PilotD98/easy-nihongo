@@ -46,7 +46,7 @@ async function renderJlptItem(el, id, p, levelId, rec) {
       h('section', { class: 'card' },
         h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana) }, icon('speak'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { rate: 0.7 }) }, icon('speak'), 'Slow') : null),
         h('p', { class: 'small muted', style: { marginTop: '12px' } }, `${lv.title} · unit ${it.unit}${it.furiganaException ? ' · uses kanji beyond this level, so furigana always shows' : ''}${it.verified ? ' · reading and meaning checked against JMdict' : ''}`),
-        it.kanji.length ? h('div', null, h('h3', null, 'Kanji'), h('div', { class: 'char-grid' }, it.kanji.map((kid) => { const k = lv.byId.get(kid); return h('a', { class: 'char-chip', href: `#/learn/item/${encodeURIComponent(kid)}` }, jp(k.char, 'jp-xl'), h('span', { class: 'small muted' }, k.meanings[0])); }))) : null),
+        it.kanji.length ? h('div', null, h('h3', null, 'Kanji'), h('div', { class: 'char-grid' }, it.kanji.map((kid) => { const k = lv.allById.get(kid) || lv.byId.get(kid); return h('a', { class: 'char-chip', href: `#/learn/item/${encodeURIComponent(kid)}` }, jp(k.char, 'jp-xl'), h('span', { class: 'small muted' }, k.meanings[0])); }))) : null),
       progressCard(rec, unitHref)
     ]);
   } else {

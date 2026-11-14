@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "updated": "2026-11-12",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "note": "The JLPT has not published official vocabulary or kanji lists since 2010. Level assignments in Kotoba Path follow commonly used community lists.",
   "stages": [
     { "id": "orientation", "no": 0, "title": "Orientation", "summary": "How Japanese works: the three scripts, mora, word order, politeness.", "level": "orientation" },
@@ -20,7 +20,7 @@
     { "id": "katakana", "title": "Katakana", "files": { "kana": "katakana.json" } },
     { "id": "n5", "title": "JLPT N5", "targets": { "kanji": 104, "vocab": 787, "grammar": 69 }, "files": { "kanji": "n5/kanji.json", "vocab": "n5/vocab.json", "grammar": "n5/grammar.json", "readings": "n5/readings.json", "listening": "n5/listening.json", "units": "n5/units.json" } },
     { "id": "n4", "title": "JLPT N4", "targets": { "kanji": 174, "vocab": 670, "grammar": 63 }, "files": { "kanji": "n4/kanji.json", "vocab": "n4/vocab.json", "grammar": "n4/grammar.json", "readings": "n4/readings.json", "listening": "n4/listening.json", "units": "n4/units.json" } },
-    { "id": "n3", "title": "JLPT N3", "targets": { "kanji": 650, "vocab": 3750, "grammar": 150 }, "files": {} },
+    { "id": "n3", "title": "JLPT N3", "targets": { "kanji": 360, "vocab": 990, "grammar": 119 }, "files": { "kanji": "n3/kanji.json", "vocab": "n3/vocab.json", "grammar": "n3/grammar.json", "readings": "n3/readings.json", "listening": "n3/listening.json", "units": "n3/units.json" } },
     { "id": "n2", "title": "JLPT N2", "targets": { "kanji": 1000, "vocab": 6000, "grammar": 180 }, "files": {} },
     { "id": "n1", "title": "JLPT N1", "targets": { "kanji": 2000, "vocab": 10000, "grammar": 200 }, "files": {} }
   ]

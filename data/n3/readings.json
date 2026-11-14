@@ -1,0 +1,324 @@
+[
+ {
+  "id": "read:n3:001",
+  "level": "n3",
+  "unit": 8,
+  "order": 890,
+  "title": "市の選挙",
+  "en": "The city election",
+  "text": "来月、{私|わたし}の住んでいる{市|し}で{市長選挙|しちょうせんきょ}が行われる。{候補者|こうほしゃ}は三人で、それぞれが{交通|こうつう}や{教育|きょういく}について意見を{述|の}べている。実は、{私|わたし}はまだ{誰|だれ}に{投票|とうひょう}するか決めていない。駅前で配られた{資料|しりょう}を読んだり、{演説|えんぜつ}を聞いたりして、よく考えて選ぶつもりだ。{選挙|せんきょ}は、{市民|しみん}が{自分|じぶん}の意見を{示|しめ}す大切な機会だと思う。",
+  "kana": "らいげつ、わたしのすんでいるしでしちょうせんきょがおこなわれる。こうほしゃはさんにんで、それぞれがこうつうやきょういくについていけんをのべている。じつは、わたしはまだだれにとうひょうするかきめていない。えきまえでくばられたしりょうをよんだり、えんぜつをきいたりして、よくかんがえてえらぶつもりだ。せんきょは、しみんがじぶんのいけんをしめすたいせつなきかいだとおもう。",
+  "enText": "Next month a mayoral election will be held in the city where I live. There are three candidates, and each is stating opinions about transport and education. Actually, I have not yet decided whom to vote for. I intend to read the materials handed out in front of the station, listen to the speeches, think carefully and choose. I believe an election is an important opportunity for citizens to show their opinions.",
+  "questions": [
+   {
+    "q": "{候補者|こうほしゃ}は何人いますか。",
+    "qKana": "こうほしゃはなんにんいますか。",
+    "choices": [
+     "二人",
+     "三人",
+     "四人"
+    ],
+    "answer": 1,
+    "why": "候補者は三人で…"
+   },
+   {
+    "q": "この人は{誰|だれ}に{投票|とうひょう}しますか。",
+    "qKana": "このひとはだれにとうひょうしますか。",
+    "choices": [
+     "まだ決めていない",
+     "一番目の候補者",
+     "友達と同じ人"
+    ],
+    "answer": 0,
+    "why": "まだ誰に投票するか決めていない。"
+   },
+   {
+    "q": "この人は{選挙|せんきょ}をどう思っていますか。",
+    "qKana": "このひとはせんきょをどうおもっていますか。",
+    "choices": [
+     "面倒だ",
+     "大切な機会だ",
+     "意味がない"
+    ],
+    "answer": 1,
+    "why": "大切な機会だと思う。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:002",
+  "level": "n3",
+  "unit": 16,
+  "order": 1690,
+  "title": "会議の報告",
+  "en": "A meeting report",
+  "text": "本日の会議では、新しい{商品|しょうひん}の{販売計画|はんばいけいかく}について話し{合|あ}った。{担当者|たんとうしゃ}からは、{価格|かかく}を{少|すこ}し下げれば売り上げが増えるという{提案|ていあん}があった。一方で、品質を保つためには{費用|ひよう}がかかるという意見も出た。{結局|けっきょく}、来週までに{費用|ひよう}と{効果|こうか}を調査し、改めて{判断|はんだん}することになった。{各部署|かくぶしょ}は資料を{準備|じゅんび}して、金曜日までに{提出|ていしゅつ}すること。",
+  "kana": "ほんじつのかいぎでは、あたらしいしょうひんのはんばいけいかくについてはなしあった。たんとうしゃからは、かかくをすこしさげればうりあげがふえるというていあんがあった。いっぽうで、ひんしつをたもつためにはひようがかかるといういけんもでた。けっきょく、らいしゅうまでにひようとこうかをちょうさし、あらためてはんだんすることになった。かくぶしょはしりょうをじゅんびして、きんようびまでにていしゅつすること。",
+  "enText": "At today's meeting we discussed the sales plan for the new product. The person in charge proposed that lowering the price a little would increase sales. On the other hand, the opinion was raised that maintaining quality costs money. In the end, it was decided to investigate costs and effects by next week and judge again. Each department is to prepare materials and submit them by Friday.",
+  "questions": [
+   {
+    "q": "{担当者|たんとうしゃ}は何を{提案|ていあん}しましたか。",
+    "qKana": "たんとうしゃはなにをていあんしましたか。",
+    "choices": [
+     "価格を上げる",
+     "価格を少し下げる",
+     "品質を下げる"
+    ],
+    "answer": 1,
+    "why": "価格を少し下げれば売り上げが増える…"
+   },
+   {
+    "q": "{結局|けっきょく}、どうなりましたか。",
+    "qKana": "けっきょく、どうなりましたか。",
+    "choices": [
+     "すぐに価格を下げる",
+     "来週までに調査する",
+     "計画を中止する"
+    ],
+    "answer": 1,
+    "why": "来週までに費用と効果を調査し…"
+   },
+   {
+    "q": "{各部署|かくぶしょ}はいつまでに資料を出しますか。",
+    "qKana": "かくぶしょはいつまでにしりょうをだしますか。",
+    "choices": [
+     "今日",
+     "金曜日",
+     "来月"
+    ],
+    "answer": 1,
+    "why": "金曜日までに提出すること。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:003",
+  "level": "n3",
+  "unit": 24,
+  "order": 2490,
+  "title": "環境のために",
+  "en": "For the environment",
+  "text": "最近、ごみを減らす活動が{盛|さか}んになってきた。{私|わたし}の町でも、{資源|しげん}ごみを分けて出すことが{義務|ぎむ}になり、買い{物|も}の際にはレジ{袋|ぶくろ}の代わりに{自分|じぶん}の{袋|ふくろ}を持って行く人が増えた。小さなことのように見えるが、一人一人が続ければ大きな{効果|こうか}がある。{環境|かんきょう}を{守|まも}るのは政府だけの{責任|せきにん}ではなく、{私|わたし}たち一人一人の{責任|せきにん}でもあるのだ。",
+  "kana": "さいきん、ごみをへらすかつどうがさかんになってきた。わたしのまちでも、しげんごみをわけてだすことがぎむになり、かいもののさいにはレジぶくろのかわりにじぶんのふくろをもっていくひとがふえた。ちいさなことのようにみえるが、ひとりひとりがつづければおおきなこうかがある。かんきょうをまもるのはせいふだけのせきにんではなく、わたしたちひとりひとりのせきにんでもあるのだ。",
+  "enText": "Recently, activities to reduce waste have become widespread. In my town too, separating recyclable waste has become an obligation, and more people bring their own bags when shopping instead of plastic bags. It looks like a small thing, but if each person keeps it up there is a big effect. Protecting the environment is not only the government's responsibility but each of ours as well.",
+  "questions": [
+   {
+    "q": "町で{義務|ぎむ}になったことは何ですか。",
+    "qKana": "まちでぎむになったことはなんですか。",
+    "choices": [
+     "レジ袋を買うこと",
+     "資源ごみを分けて出すこと",
+     "買い物をしないこと"
+    ],
+    "answer": 1,
+    "why": "資源ごみを分けて出すことが義務になり…"
+   },
+   {
+    "q": "{筆者|ひっしゃ}は小さな活動についてどう考えていますか。",
+    "qKana": "ひっしゃはちいさなかつどうについてどうかんがえていますか。",
+    "choices": [
+     "効果がない",
+     "続ければ大きな効果がある",
+     "政府がやるべきだ"
+    ],
+    "answer": 1,
+    "why": "一人一人が続ければ大きな効果がある。"
+   },
+   {
+    "q": "{環境|かんきょう}を{守|まも}る{責任|せきにん}は{誰|だれ}にありますか。",
+    "qKana": "かんきょうをまもるせきにんはだれにありますか。",
+    "choices": [
+     "政府だけ",
+     "私たち一人一人にも",
+     "会社だけ"
+    ],
+    "answer": 1,
+    "why": "私たち一人一人の責任でもある。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:004",
+  "level": "n3",
+  "unit": 32,
+  "order": 3290,
+  "title": "新入社員へのアドバイス",
+  "en": "Advice to new employees",
+  "text": "新しい職場では、まず{挨拶|あいさつ}をきちんとすることが大切だ。{上司|じょうし}や{先輩|せんぱい}の指示はメモを取り、分からないことは早めに確認すること。{失敗|しっぱい}を{恐|おそ}れる必要はないが、同じ{失敗|しっぱい}を{繰|く}り返さないように、{原因|げんいん}を考える{習慣|しゅうかん}をつけてほしい。また、仕事の進め方で{迷|まよ}ったときは、一人で{悩|なや}まず、{周|まわ}りに相談することだ。{信頼|しんらい}は、こうした小さな行動の{積|つ}み重ねによって生まれる。",
+  "kana": "あたらしいしょくばでは、まずあいさつをきちんとすることがたいせつだ。じょうしやせんぱいのしじはメモをとり、わからないことははやめにかくにんすること。しっぱいをおそれるひつようはないが、おなじしっぱいをくりかえさないように、げんいんをかんがえるしゅうかんをつけてほしい。また、しごとのすすめかたでまよったときは、ひとりでなやまず、まわりにそうだんすることだ。しんらいは、こうしたちいさなこうどうのつみかさねによってうまれる。",
+  "enText": "In a new workplace, the first important thing is to greet people properly. Take notes of instructions from your boss and seniors, and check anything you do not understand early. There is no need to fear failure, but I want you to form the habit of thinking about causes so that you do not repeat the same mistake. Also, when unsure how to proceed with work, do not agonise alone; consult those around you. Trust is born from the accumulation of such small actions.",
+  "questions": [
+   {
+    "q": "分からないことがあったらどうしますか。",
+    "qKana": "わからないことがあったらどうしますか。",
+    "choices": [
+     "後で考える",
+     "早めに確認する",
+     "黙っている"
+    ],
+    "answer": 1,
+    "why": "分からないことは早めに確認すること。"
+   },
+   {
+    "q": "{失敗|しっぱい}についてどう書いてありますか。",
+    "qKana": "しっぱいについてどうかいてありますか。",
+    "choices": [
+     "絶対にしてはいけない",
+     "恐れる必要はないが原因を考える",
+     "気にしなくていい"
+    ],
+    "answer": 1,
+    "why": "恐れる必要はないが…原因を考える習慣をつけてほしい。"
+   },
+   {
+    "q": "{信頼|しんらい}は何によって生まれますか。",
+    "qKana": "しんらいはなにによってうまれますか。",
+    "choices": [
+     "小さな行動の積み重ね",
+     "大きな成功",
+     "長い経験だけ"
+    ],
+    "answer": 0,
+    "why": "小さな行動の積み重ねによって生まれる。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:005",
+  "level": "n3",
+  "unit": 40,
+  "order": 4090,
+  "title": "祖父の畑",
+  "en": "My grandfather's field",
+  "text": "{祖父|そふ}は{八十歳|はちじゅっさい}になった今も、{毎朝畑|まいあさはたけ}に出て野菜を育てている。若いころは会社員だったが、退職してから農業を始めたそうだ。「土に{触|ふ}れていると、気持ちが落ち着く」と{祖父|そふ}は言う。{私|わたし}は休みの日に手伝いに行くことがあるが、思ったより体力が必要で、いつも{疲|つか}れてしまう。それでも、{自分|じぶん}で{収穫|しゅうかく}した野菜の味は格別だ。{祖父|そふ}の元気の{理由|りゆう}が、{少|すこ}し分かった気がする。",
+  "kana": "そふははちじゅっさいになったいまも、まいあさはたけにでてやさいをそだてている。わかいころはかいしゃいんだったが、たいしょくしてからのうぎょうをはじめたそうだ。「つちにふれていると、きもちがおちつく」とそふはいう。わたしはやすみのひにてつだいにいくことがあるが、おもったよりたいりょくがひつようで、いつもつかれてしまう。それでも、じぶんでしゅうかくしたやさいのあじはかくべつだ。そふのげんきのりゆうが、すこしわかったきがする。",
+  "enText": "Even now at eighty, my grandfather goes out to his field every morning to grow vegetables. When he was young he was a company employee, but I hear he started farming after retiring. \"Touching the soil calms me,\" he says. I sometimes go to help on my days off, but it needs more stamina than I thought and I always end up exhausted. Even so, the taste of vegetables you harvested yourself is special. I feel I understand a little the reason my grandfather is so well.",
+  "questions": [
+   {
+    "q": "{祖父|そふ}は若いころ何をしていましたか。",
+    "qKana": "そふはわかいころなにをしていましたか。",
+    "choices": [
+     "農業",
+     "会社員",
+     "教師"
+    ],
+    "answer": 1,
+    "why": "若いころは会社員だった…"
+   },
+   {
+    "q": "{祖父|そふ}はどうして{畑|はたけ}に出ますか。",
+    "qKana": "そふはどうしてはたけにでますか。",
+    "choices": [
+     "お金のため",
+     "気持ちが落ち着くから",
+     "家族に頼まれたから"
+    ],
+    "answer": 1,
+    "why": "「土に触れていると、気持ちが落ち着く」"
+   },
+   {
+    "q": "{筆者|ひっしゃ}は手伝いをどう感じていますか。",
+    "qKana": "ひっしゃはてつだいをどうかんじていますか。",
+    "choices": [
+     "楽だ",
+     "疲れるが野菜はおいしい",
+     "つまらない"
+    ],
+    "answer": 1,
+    "why": "いつも疲れてしまう。それでも…味は格別だ。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:006",
+  "level": "n3",
+  "unit": 48,
+  "order": 4890,
+  "title": "日本の伝統と現代",
+  "en": "Tradition and modernity in Japan",
+  "text": "日本には古い{伝統|でんとう}と新しい文化が同時に存在している。例えば、{京都|きょうと}では千年以上前に建てられた{寺|てら}の{隣|となり}に、最新の設備を備えたホテルが建っている。若い世代の中には、{着物|きもの}を着る機会がほとんどない人も{多|おお}いが、一方で、{伝統的|でんとうてき}な技術を現代のデザインに生かそうとする職人も増えている。{伝統|でんとう}を守ることと、時代に{合|あ}わせて変えることの両方が、文化を生き続けさせるのだろう。",
+  "kana": "にほんにはふるいでんとうとあたらしいぶんかがどうじにそんざいしている。たとえば、きょうとではせんねんいじょうまえにたてられたてらのとなりに、さいしんのせつびをそなえたホテルがたっている。わかいせだいのなかには、きものをきるきかいがほとんどないひともおおいが、いっぽうで、でんとうてきなぎじゅつをげんだいのデザインにいかそうとするしょくにんもふえている。でんとうをまもることと、じだいにあわせてかえることのりょうほうが、ぶんかをいきつづけさせるのだろう。",
+  "enText": "In Japan, old traditions and new culture exist at the same time. For example, in Kyoto a hotel equipped with the latest facilities stands next to a temple built more than a thousand years ago. Among the younger generation many people have almost no occasion to wear a kimono, but on the other hand, craftspeople trying to apply traditional techniques to modern design are increasing. Both protecting tradition and changing with the times are probably what keep a culture alive.",
+  "questions": [
+   {
+    "q": "{京都|きょうと}の例で、{寺|てら}の{隣|となり}に何がありますか。",
+    "qKana": "きょうとのれいで、てらのとなりになにがありますか。",
+    "choices": [
+     "古い家",
+     "最新の設備を備えたホテル",
+     "学校"
+    ],
+    "answer": 1,
+    "why": "最新の設備を備えたホテルが建っている。"
+   },
+   {
+    "q": "増えているのはどんな職人ですか。",
+    "qKana": "ふえているのはどんなしょくにんですか。",
+    "choices": [
+     "伝統的な技術を現代のデザインに生かす職人",
+     "着物だけを作る職人",
+     "外国で働く職人"
+    ],
+    "answer": 0,
+    "why": "伝統的な技術を現代のデザインに生かそうとする職人も増えている。"
+   },
+   {
+    "q": "{筆者|ひっしゃ}は文化を生き続けさせるために何が必要だと考えていますか。",
+    "qKana": "ひっしゃはぶんかをいきつづけさせるためになにがひつようだとかんがえていますか。",
+    "choices": [
+     "伝統を守ることだけ",
+     "時代に合わせて変えることだけ",
+     "守ることと変えることの両方"
+    ],
+    "answer": 2,
+    "why": "両方が、文化を生き続けさせるのだろう。"
+   }
+  ]
+ },
+ {
+  "id": "read:n3:007",
+  "level": "n3",
+  "unit": 56,
+  "order": 5690,
+  "title": "健康診断の結果",
+  "en": "Health check results",
+  "text": "先週受けた{健康診断|けんこうしんだん}の結果が届いた。体重と{血圧|けつあつ}がやや高めで、医師からは「このままだと将来、病気になる可能性が高まります」と注意された。原因は{明|あき}らかで、残業が続いて運動する時間がなく、{夜遅|よるおそ}くに食事をとる日が{多|おお}かったからだ。そこで、まず週に二回は歩いて{通勤|つうきん}し、夕食は九時までに済ませることにした。{無理|むり}な目標を立てても続かないので、できることから{少|すこ}しずつ始めるつもりだ。",
+  "kana": "せんしゅううけたけんこうしんだんのけっかがとどいた。たいじゅうとけつあつがややたかめで、いしからは「このままだとしょうらい、びょうきになるかのうせいがたかまります」とちゅういされた。げんいんはあきらかで、ざんぎょうがつづいてうんどうするじかんがなく、よるおそくにしょくじをとるひがおおかったからだ。そこで、まずしゅうににかいはあるいてつうきんし、ゆうしょくはくじまでにすませることにした。むりなもくひょうをたててもつづかないので、できることからすこしずつはじめるつもりだ。",
+  "enText": "The results of the health check I had last week arrived. My weight and blood pressure are somewhat high, and the doctor warned me, \"If this continues, the possibility of illness in the future will rise.\" The cause is clear: with continuous overtime I had no time to exercise, and there were many days when I ate late at night. So I decided to walk to work at least twice a week and to finish dinner by nine. Unreasonable goals do not last, so I intend to start little by little with what I can do.",
+  "questions": [
+   {
+    "q": "{診断|しんだん}の結果、何が高めでしたか。",
+    "qKana": "しんだんのけっか、なにがたかめでしたか。",
+    "choices": [
+     "体温",
+     "体重と血圧",
+     "視力"
+    ],
+    "answer": 1,
+    "why": "体重と血圧がやや高めで…"
+   },
+   {
+    "q": "原因は何ですか。",
+    "qKana": "げんいんはなんですか。",
+    "choices": [
+     "運動のしすぎ",
+     "残業が続いて運動できず、夜遅く食事をした",
+     "睡眠のとりすぎ"
+    ],
+    "answer": 1,
+    "why": "残業が続いて運動する時間がなく、夜遅くに食事をとる日が多かった。"
+   },
+   {
+    "q": "この人はどんな目標を立てましたか。",
+    "qKana": "このひとはどんなもくひょうをたてましたか。",
+    "choices": [
+     "毎日走る",
+     "週に二回歩いて通勤し、九時までに夕食を済ませる",
+     "残業をやめる"
+    ],
+    "answer": 1,
+    "why": "週に二回は歩いて通勤し、夕食は九時までに済ませることにした。"
+   }
+  ]
+ }
+]
