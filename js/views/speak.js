@@ -4,7 +4,7 @@ import { h, append, icon, jp } from '../ui/dom.js';
 import { supports, japaneseVoices, waitForVoices, osName, isIOS } from '../util/platform.js';
 import { settings } from '../store/settings.js';
 import { toast } from '../ui/toast.js';
-import { speakingMenu, MODES } from '../content/speaking.js';
+import { speakingMenu, MODES, LEVEL_LABEL } from '../content/speaking.js';
 import { recognitionSupported } from '../ui/recognizer.js';
 import { recordingSupported } from '../ui/recorder.js';
 
@@ -36,10 +36,10 @@ export async function render(el, ctx) {
         h('div', { class: 'card-title' }, h('h2', { id: `m-${mode}` }, meta.title)),
         h('p', { class: 'muted' }, meta.blurb),
         sets.length ? h('ul', { class: 'path' }, sets.map((s) => h('li', null,
-          h('span', { class: `step-no ${s.unlocked ? 'is-available' : ''}`, 'aria-hidden': 'true' }, icon(meta.icon)),
-          h('div', null, h('div', { class: 'step-title' }, s.title), h('div', { class: 'step-sub' }, `${s.summary} · ${(s.items || s.turns).length} ${mode === 'roleplay' ? 'lines' : 'items'} · ${s.level === 'katakana' ? 'after katakana' : 'from hiragana'}`)),
+          h('span', { class: `step-no ${s.unlocked ? 'is-available' : ''}`, 'aria-hidden': 'true' }, icon(MODES[s.mode]?.icon || meta.icon)),
+          h('div', null, h('div', { class: 'step-title' }, s.title), h('div', { class: 'step-sub' }, `${s.summary} · ${(s.items || s.turns).length} ${s.mode === 'roleplay' ? 'lines' : 'items'} · ${LEVEL_LABEL[s.level] || 'from hiragana'}`)),
           s.unlocked ? h('a', { class: 'btn btn-primary', href: `#/speak/${encodeURIComponent(s.id)}` }, 'Start')
-            : h('span', { class: 'icon lock', title: 'Unlocks with the katakana stage' }, icon('lock'))
+            : h('span', { class: 'icon lock', title: 'Unlocks when the katakana exam is passed' }, icon('lock'))
         ))) : h('p', { class: 'small muted' }, 'No sets yet.')
       );
     }),

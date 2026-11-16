@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "updated": "2026-11-12",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "note": "The JLPT has not published official vocabulary or kanji lists since 2010. Level assignments in Easy Nihongo follow commonly used community lists.",
   "stages": [
     { "id": "orientation", "no": 0, "title": "Orientation", "summary": "How Japanese works: the three scripts, mora, word order, politeness.", "level": "orientation" },
@@ -12,10 +12,14 @@
     { "id": "n3", "no": 5, "title": "JLPT N3", "summary": "Intermediate reading, natural-speed listening, nuance in grammar.", "level": "n3" },
     { "id": "n2", "no": 6, "title": "JLPT N2", "summary": "Newspapers, formal registers, keigo in practice.", "level": "n2" },
     { "id": "n1", "no": 7, "title": "JLPT N1", "summary": "Advanced reading and listening, literary and specialist vocabulary.", "level": "n1" }
+,
+    { "id": "realworld", "no": 8, "title": "Real-world Japanese", "summary": "How people really talk, what staff say, signs and menus, numbers, survival phrases. Open at any time.", "level": "guides" }
   ],
   "levels": [
     { "id": "orientation", "title": "Orientation", "files": { "orientation": "orientation.json" } },
     { "id": "speaking", "title": "Speaking practice", "files": { "speaking": "speaking.json" } },
+    { "id": "situations", "title": "Real-world speaking", "files": { "speaking": "situations.json" } },
+    { "id": "guides", "title": "Real-world Japanese", "files": { "guides": "guides.json" } },
     { "id": "kana", "title": "Hiragana", "files": { "kana": "kana.json" } },
     { "id": "katakana", "title": "Katakana", "files": { "kana": "katakana.json" } },
     { "id": "n5", "title": "JLPT N5", "targets": { "kanji": 104, "vocab": 787, "grammar": 69 }, "files": { "kanji": "n5/kanji.json", "vocab": "n5/vocab.json", "grammar": "n5/grammar.json", "readings": "n5/readings.json", "listening": "n5/listening.json", "units": "n5/units.json" } },

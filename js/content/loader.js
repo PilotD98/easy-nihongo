@@ -89,7 +89,7 @@ export async function searchContent(query, { limit = 30 } = {}) {
    The service worker precaches the shell plus the kana and N5 data on install.
    Higher levels are cached the first time they are opened; these helpers let
    Settings download everything up front and report what is stored. */
-const CORE_FILES = ['index.json', 'orientation.json', 'speaking.json', 'kana.json', 'katakana.json', 'strokes/hiragana.json', 'strokes/katakana.json'];
+const CORE_FILES = ['index.json', 'orientation.json', 'speaking.json', 'situations.json', 'guides.json', 'kana.json', 'katakana.json', 'strokes/hiragana.json', 'strokes/katakana.json'];
 
 /** Every data file this build can use, as paths relative to data/. */
 export async function allDataFiles() {

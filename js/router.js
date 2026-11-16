@@ -15,7 +15,8 @@ const routes = {
   unit: () => import('./views/unit.js'),
   placement: () => import('./views/placement.js'),
   mock: () => import('./views/mock.js'),
-  exam: () => import('./views/exam.js')
+  exam: () => import('./views/exam.js'),
+  guides: () => import('./views/guides.js')
 };
 
 let cleanup = null;

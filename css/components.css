@@ -183,3 +183,23 @@ dialog.sheet .sheet-foot { display: flex; justify-content: flex-end; gap: var(--
 .profile-list { list-style: none; padding: 0; margin: 0 0 var(--s-4); display: flex; flex-direction: column; gap: var(--s-2); }
 .profile-list > li { padding: var(--s-2) 0; border-bottom: 1px solid var(--border); }
 .profile-list > li:last-child { border-bottom: 0; }
+
+/* Real-world guides */
+.guide-list { list-style: none; padding: 0; margin: 0; }
+.guide-item { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: var(--s-3); padding: var(--s-3) 0; border-bottom: 1px solid var(--border); align-items: start; }
+.guide-item:last-child { border-bottom: 0; }
+.guide-say { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer; min-height: var(--tap); }
+.guide-say:disabled { cursor: default; }
+.guide-jp { font-size: 1.25rem; line-height: 1.5; }
+.guide-en { line-height: 1.45; }
+.is-hiding .guide-en, .is-hiding .sign-en { visibility: hidden; }
+.guide-links { list-style: none; padding: 0; margin: 0; }
+.guide-links li { padding: var(--s-2) 0; border-bottom: 1px solid var(--border); }
+.guide-links li:last-child { border-bottom: 0; }
+.sign-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); }
+.sign { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 110px; padding: var(--s-3); border: 2px solid var(--text); border-radius: var(--radius-sm); background: var(--surface); color: inherit; font: inherit; cursor: pointer; text-align: center; }
+.sign:disabled { cursor: default; }
+.sign-jp { font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
+.sign-kana { color: var(--text-2); }
+.sign-en { font-size: .85rem; color: var(--text-2); }
+@media (max-width: 480px) { .guide-item { grid-template-columns: 1fr; gap: var(--s-1); } }

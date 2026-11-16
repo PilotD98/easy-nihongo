@@ -111,6 +111,15 @@ Available now:
   appears when a new version is ready.
 - **Private by design**: no accounts, no server, no analytics. Progress lives
   in IndexedDB (localStorage fallback) with JSON export/import.
+- **Real-world Japanese**: seven guides with audio (how people really talk:
+  contractions, particles, fillers, reactions; what staff say to you; signs,
+  menus and labels as large sign cards with a hide-meanings test; prices,
+  times, dates and counters; survival phrases; politeness in practice; free
+  sources of real reading and listening by level) and 26 situational speaking
+  sets (airport, trains, taxi, directions, convenience store, restaurant,
+  izakaya, shopping, hotel, ryokan, pharmacy, clinic, lost property, work,
+  friends, visiting a home; natural-speech shadowing; the questions you will
+  be asked), each with cultural tips and mora-level feedback.
 - **Local profiles**: several people can share one device. Settings →
   Profiles adds, renames, switches and deletes profiles; each has its own
   progress, settings and backups, and nothing is shared between them.
@@ -140,9 +149,9 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Not included: speaking sets written specifically for each JLPT level (the
-speaking module ships with kana-stage sets; JLPT examples are voiced in the
-lessons and readings instead).
+What the app cannot do: make you fluent on its own. Speaking comes from
+speaking to people and reading from mileage with real texts; the
+Real-world Japanese guides say where to get both for free.
 
 ## Accessibility, performance and devices
 
@@ -267,7 +276,7 @@ js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), 
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
 js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, placement, mock, settings, about
-data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/ … n1/, strokes/; SCHEMA.md)
+data/                    curriculum JSON (orientation, kana, katakana, speaking, situations, guides, n5/ … n1/, strokes/; SCHEMA.md)
 scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs, fetch-edrdg.mjs
 scripts/authoring/       per-level sources (kanji, vocab, grammar, readings) and the build-level / check-vocab pipeline
 .github/workflows/       GitHub Pages deployment

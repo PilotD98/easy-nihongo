@@ -40,7 +40,7 @@ export async function render(el, ctx) {
   const sr = recognitionSupported();
   const recOk = recordingSupported();
   const scores = [];
-  let idx = 0;
+  let idx = set.tips?.length ? -1 : 0;
   let recognizer = null, recording = null;
 
   const bar = h('div', { class: 'bar' }, h('span', { style: { width: '0%' } }));
@@ -60,13 +60,23 @@ export async function render(el, ctx) {
   const show = () => {
     stopSpeaking(); recognizer?.abort(); recognizer = null;
     if (idx >= steps.length) { summary(); return; }
+    if (idx < 0) { counter.textContent = 'Before you start'; stage.replaceChildren(tipsCard()); window.scrollTo(0, 0); return; }
     const step = steps[idx];
     counter.textContent = `${idx + 1} / ${steps.length}`;
-    bar.firstChild.style.width = `${(idx / steps.length) * 100}%`;
+    bar.firstChild.style.width = `${(Math.max(0, idx) / steps.length) * 100}%`;
     stage.replaceChildren(step.kind === 'listen' ? listenCard(step) : sayCard(step));
     window.scrollTo(0, 0);
   };
   const nextBtn = (label = 'Continue') => h('button', { class: 'btn btn-primary btn-lg btn-block speak-next', type: 'button', onClick: () => { idx += 1; show(); } }, label);
+
+  /* Cultural and language tips shown once, before the first line. */
+  function tipsCard() {
+    return h('section', { class: 'card' },
+      h('h2', null, 'Good to know'),
+      h('ul', { class: 'speak-tips' }, set.tips.map((t) => h('li', null, t))),
+      h('p', { class: 'small muted' }, set.mode === 'roleplay' ? `${set.partner || 'The other person'} speaks first where it says so; your lines are marked "You say". Listen, then say the line.` : 'Listen, then speak along. Natural speed comes after the slow pass.'),
+      h('div', { class: 'lesson-foot' }, nextBtn('Start')));
+  }
 
   /* Partner line in a role-play: just listen. */
   function listenCard(step) {

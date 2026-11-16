@@ -1,0 +1,438 @@
+{
+  "id": "guides",
+  "title": "Real-world Japanese",
+  "intro": "Exams measure what you know. These guides are about what actually happens in Japan: how people really talk, what staff say to you, the signs on every wall, and the numbers on every price tag. Read them any time; each takes a few minutes and has audio.",
+  "guides": [
+    {
+      "id": "natural-speech",
+      "title": "How people really talk",
+      "summary": "Contractions, particles, fillers and the gap between textbook and street.",
+      "minutes": 10,
+      "sections": [
+        {
+          "title": "Polite is safe, plain is normal",
+          "body": [
+            "Textbooks teach です・ます first because it is never wrong. But friends, family, classmates and most people under forty talk to each other in plain form, and television, games and social media are almost entirely plain. If you only know polite forms you will understand half of what you hear.",
+            "The rule of thumb: polite with strangers, staff, superiors and anyone older; plain with friends, children and people who switch to plain with you first. When in doubt, stay polite and let the other person set the level."
+          ],
+          "items": [
+            { "jp": "行きます → 行く", "kana": "いきます → いく", "romaji": "ikimasu → iku", "en": "go (polite → plain)" },
+            { "jp": "食べました → 食べた", "kana": "たべました → たべた", "romaji": "tabemashita → tabeta", "en": "ate" },
+            { "jp": "学生です → 学生だ / 学生", "kana": "がくせいです → がくせいだ / がくせい", "romaji": "gakusei desu → gakusei da / gakusei", "en": "am a student (だ is often dropped in speech, especially by women)" },
+            { "jp": "行きますか → 行く？", "kana": "いきますか → いく？", "romaji": "ikimasu ka → iku?", "en": "Are you going? (rising intonation replaces か)" },
+            { "jp": "いいですね → いいね", "kana": "いいですね → いいね", "romaji": "ii desu ne → ii ne", "en": "Nice!" }
+          ]
+        },
+        {
+          "title": "Contractions you hear constantly",
+          "body": [
+            "Spoken Japanese squeezes common endings. These six account for most of the difference between what you learned and what you hear."
+          ],
+          "items": [
+            { "jp": "〜ている → 〜てる", "kana": "たべている → たべてる", "romaji": "tabete iru → tabeteru", "en": "is eating. The い disappears; also 〜でる (読んでる)." },
+            { "jp": "〜てしまう → 〜ちゃう", "kana": "わすれてしまった → わすれちゃった", "romaji": "wasurete shimatta → wasurechatta", "en": "I forgot (and it's too late). 〜でしまう → 〜じゃう (飲んじゃった)." },
+            { "jp": "〜ておく → 〜とく", "kana": "かっておく → かっとく", "romaji": "katte oku → kattoku", "en": "buy it in advance. 〜でおく → 〜どく." },
+            { "jp": "〜なければ → 〜なきゃ / 〜なくちゃ", "kana": "いかなければ → いかなきゃ", "romaji": "ikanakereba → ikanakya", "en": "have to go. Often the ending ならない is dropped entirely." },
+            { "jp": "〜ては → 〜ちゃ", "kana": "たべてはだめ → たべちゃだめ", "romaji": "tabete wa dame → tabecha dame", "en": "you mustn't eat it." },
+            { "jp": "〜という → 〜って", "kana": "たなかというひと → たなかってひと", "romaji": "tanaka to iu hito → tanaka tte hito", "en": "a person called Tanaka. って also quotes: 来るって (they said they'll come) and marks a topic: これって何？" },
+            { "jp": "〜のだ → 〜んだ", "kana": "いくのです → いくんです / いくんだ", "romaji": "iku no desu → iku n desu / iku n da", "en": "the explaining ん. Questions: 行くの？ (casual), 行くんですか (polite)." },
+            { "jp": "〜ない → 〜ん (western Japan)", "kana": "わからない → わからん", "romaji": "wakaranai → wakaran", "en": "don't know (Kansai and western dialects; you will hear it)." }
+          ]
+        },
+        {
+          "title": "Sentence-final particles",
+          "body": [
+            "The little sounds at the end of a sentence carry attitude. Overuse よ and you sound pushy; never use ね and you sound cold."
+          ],
+          "items": [
+            { "jp": "ね", "kana": "さむいね", "romaji": "samui ne", "en": "Cold, isn't it. Seeks agreement; the friendliest particle." },
+            { "jp": "よ", "kana": "おいしいよ", "romaji": "oishii yo", "en": "It's good, you know. Gives information the listener lacks; can sound insistent." },
+            { "jp": "よね", "kana": "あしたやすみだよね", "romaji": "ashita yasumi da yo ne", "en": "Tomorrow's a day off, right? Checking something you think is true." },
+            { "jp": "かな", "kana": "いこうかな", "romaji": "ikou kana", "en": "Maybe I'll go… Wondering aloud; softens a decision." },
+            { "jp": "じゃん", "kana": "できるじゃん", "romaji": "dekiru jan", "en": "See, you can do it! Casual じゃない; very Tokyo." },
+            { "jp": "っけ", "kana": "なんじだっけ", "romaji": "nanji dakke", "en": "What time was it again? Trying to recall." },
+            { "jp": "な", "kana": "いいな", "romaji": "ii na", "en": "Nice… (to oneself, envious or admiring). Rough command when attached to a verb: 行くな = don't go." },
+            { "jp": "さ", "kana": "きのうさ、", "romaji": "kinou sa,", "en": "So, yesterday, … A pause filler inside sentences (Tokyo casual)." },
+            { "jp": "わ / ぞ / ぜ", "kana": "いくぞ", "romaji": "iku zo", "en": "Let's go! (ぞ・ぜ: rough, male, anime-flavoured; わ: soft, mostly older women or Kansai). Recognise them; rarely use them." }
+          ]
+        },
+        {
+          "title": "Fillers and reactions",
+          "body": [
+            "Silence in a conversation is uncomfortable in Japanese. Fillers buy time; reactions (aizuchi) show you are listening. Native speakers produce one every few seconds and expect you to as well."
+          ],
+          "items": [
+            { "jp": "えっと…", "kana": "えっと", "romaji": "etto", "en": "um… (thinking)" },
+            { "jp": "あの…", "kana": "あの", "romaji": "ano", "en": "er… / excuse me… (getting attention, hesitating)" },
+            { "jp": "なんか", "kana": "なんか", "romaji": "nanka", "en": "like… / kind of (the most common filler among young people)" },
+            { "jp": "まあ", "kana": "まあ", "romaji": "maa", "en": "well… (hedging)" },
+            { "jp": "うん / ええ / はい", "kana": "うん", "romaji": "un", "en": "mm-hm / yes (casual → polite); said while the other person talks, not only to answer" },
+            { "jp": "そうそう", "kana": "そうそう", "romaji": "sou sou", "en": "yes, exactly" },
+            { "jp": "なるほど", "kana": "なるほど", "romaji": "naruhodo", "en": "I see (shows understanding; slightly formal)" },
+            { "jp": "へえ", "kana": "へえ", "romaji": "hee", "en": "huh, really (interest)" },
+            { "jp": "えー", "kana": "えー", "romaji": "ee", "en": "what? no way (surprise or mild complaint, depending on tone)" },
+            { "jp": "やばい", "kana": "やばい", "romaji": "yabai", "en": "wow / uh-oh / amazing / awful. Means whatever the tone says. Young, casual." },
+            { "jp": "すごい", "kana": "すごい", "romaji": "sugoi", "en": "wow, amazing (also すげー, rough)" },
+            { "jp": "お疲れ", "kana": "おつかれ", "romaji": "otsukare", "en": "hey / bye / nice work (casual お疲れさま; among friends and colleagues it is simply a greeting)" }
+          ]
+        },
+        {
+          "title": "Saying no without saying no",
+          "body": [
+            "A flat いいえ is rare. Refusals are hedged, left unfinished, or wrapped in regret. Learn to hear them, and to produce them, or you will seem blunt."
+          ],
+          "items": [
+            { "jp": "ちょっと…", "kana": "ちょっと", "romaji": "chotto…", "en": "It's a bit… (= no). The trailing-off is the answer." },
+            { "jp": "難しいですね", "kana": "むずかしいですね", "romaji": "muzukashii desu ne", "en": "That's difficult (= no)." },
+            { "jp": "考えておきます", "kana": "かんがえておきます", "romaji": "kangaete okimasu", "en": "I'll think about it (= probably no)." },
+            { "jp": "また今度", "kana": "またこんど", "romaji": "mata kondo", "en": "Another time (declining an invitation)." },
+            { "jp": "大丈夫です", "kana": "だいじょうぶです", "romaji": "daijoubu desu", "en": "I'm fine / no thanks (to an offer). Also 'it's okay' as reassurance; tone decides." },
+            { "jp": "結構です", "kana": "けっこうです", "romaji": "kekkou desu", "en": "No, thank you (polite, final)." },
+            { "jp": "せっかくですが…", "kana": "せっかくですが", "romaji": "sekkaku desu ga…", "en": "It's kind of you, but… (regretful refusal)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staff",
+      "title": "What staff say to you",
+      "summary": "Service keigo decoded: the questions at every counter and what to answer.",
+      "minutes": 8,
+      "sections": [
+        {
+          "title": "The pattern",
+          "body": [
+            "Shop and restaurant staff use the most formal register you will hear, fast and in a sing-song voice. The good news: it is a script. The same thirty sentences appear in every shop in the country, and your side of the conversation is はい, いいえ, お願いします and 大丈夫です.",
+            "Verbs are dressed up: 〜ます becomes 〜いたします or お〜します when staff do it, and ご〜 / お〜 plus になります・ください when you do it. Ignore the decoration and listen for the key noun: 袋 (bag), お支払い (payment), 温め (heating), ご注文 (order)."
+          ]
+        },
+        {
+          "title": "At the till",
+          "items": [
+            { "jp": "いらっしゃいませ", "kana": "いらっしゃいませ", "romaji": "irasshaimase", "en": "Welcome.", "note": "No reply needed; a nod is plenty." },
+            { "jp": "ポイントカードはお持ちですか", "kana": "ポイントカードはおもちですか", "romaji": "pointo kaado wa omochi desu ka", "en": "Do you have a point card?", "note": "ないです / 持っていません." },
+            { "jp": "袋はご利用ですか / 袋にお入れしますか", "kana": "ふくろはごりようですか", "romaji": "fukuro wa goriyou desu ka", "en": "Do you need a bag?", "note": "お願いします or 大丈夫です. Bags cost a few yen." },
+            { "jp": "お温めしますか", "kana": "おあたためしますか", "romaji": "oatatame shimasu ka", "en": "Shall I heat it up?", "note": "お願いします / そのままで." },
+            { "jp": "お箸はお付けしますか", "kana": "おはしはおつけしますか", "romaji": "ohashi wa otsuke shimasu ka", "en": "Would you like chopsticks?", "note": "はい、お願いします." },
+            { "jp": "お支払いはどうなさいますか", "kana": "おしはらいはどうなさいますか", "romaji": "oshiharai wa dou nasaimasu ka", "en": "How will you pay?", "note": "カードで / 現金で / 〇〇ペイで." },
+            { "jp": "一括でよろしいですか", "kana": "いっかつでよろしいですか", "romaji": "ikkatsu de yoroshii desu ka", "en": "Single payment? (credit card)", "note": "はい. Instalments are a Japanese-card feature; foreign cards are always single." },
+            { "jp": "〇〇円お預かりします", "kana": "えんおあずかりします", "romaji": "… en oazukari shimasu", "en": "Out of … yen. (you handed cash)", "note": "Then 〇〇円のお返しです: your change." },
+            { "jp": "レシートはご利用ですか", "kana": "レシートはごりようですか", "romaji": "reshiito wa goriyou desu ka", "en": "Do you want the receipt?", "note": "はい / いらないです." },
+            { "jp": "ありがとうございました。またお越しくださいませ", "kana": "ありがとうございました。またおこしくださいませ", "romaji": "arigatou gozaimashita. mata okoshi kudasaimase", "en": "Thank you. Please come again.", "note": "どうも or nothing." }
+          ]
+        },
+        {
+          "title": "In a restaurant",
+          "items": [
+            { "jp": "何名様ですか", "kana": "なんめいさまですか", "romaji": "nanmeisama desu ka", "en": "How many people?", "note": "一人 / 二人 / 三人です, or hold up fingers." },
+            { "jp": "ご予約はされていますか", "kana": "ごよやくはされていますか", "romaji": "goyoyaku wa sarete imasu ka", "en": "Do you have a reservation?", "note": "はい、〇〇で予約しています / していません." },
+            { "jp": "禁煙席と喫煙席、どちらになさいますか", "kana": "きんえんせきときつえんせき、どちらになさいますか", "romaji": "kin'enseki to kitsuenseki, dochira ni nasaimasu ka", "en": "Smoking or non-smoking?", "note": "禁煙で." },
+            { "jp": "お決まりになりましたらお呼びください", "kana": "おきまりになりましたらおよびください", "romaji": "okimari ni narimashitara oyobi kudasai", "en": "Call me when you have decided.", "note": "Press the button or say すみません." },
+            { "jp": "ご注文はお決まりですか", "kana": "ごちゅうもんはおきまりですか", "romaji": "gochuumon wa okimari desu ka", "en": "Ready to order?", "note": "はい / もう少し待ってください." },
+            { "jp": "以上でよろしいでしょうか", "kana": "いじょうでよろしいでしょうか", "romaji": "ijou de yoroshii deshou ka", "en": "Is that everything?", "note": "はい、以上です." },
+            { "jp": "お飲み物はいかがですか", "kana": "おのみものはいかがですか", "romaji": "onomimono wa ikaga desu ka", "en": "Anything to drink?", "note": "お水で大丈夫です." },
+            { "jp": "こちらでお召し上がりですか、お持ち帰りですか", "kana": "こちらでおめしあがりですか、おもちかえりですか", "romaji": "kochira de omeshiagari desu ka, omochikaeri desu ka", "en": "Eat in or take away?", "note": "ここで / 持ち帰りで." },
+            { "jp": "お会計はご一緒でよろしいですか", "kana": "おかいけいはごいっしょでよろしいですか", "romaji": "okaikei wa goissho de yoroshii desu ka", "en": "One bill for everyone?", "note": "はい / 別々でお願いします (separately)." },
+            { "jp": "お手洗いは奥の左手です", "kana": "おてあらいはおくのひだりてです", "romaji": "otearai wa oku no hidarite desu", "en": "The toilet is at the back on the left.", "note": "Ask with お手洗いはどこですか." }
+          ]
+        },
+        {
+          "title": "Hotels, trains, offices",
+          "items": [
+            { "jp": "少々お待ちください", "kana": "しょうしょうおまちください", "romaji": "shoushou omachi kudasai", "en": "One moment, please." },
+            { "jp": "お待たせいたしました", "kana": "おまたせいたしました", "romaji": "omatase itashimashita", "en": "Sorry to have kept you waiting.", "note": "Said even after ten seconds." },
+            { "jp": "こちらにご記入ください", "kana": "こちらにごきにゅうください", "romaji": "kochira ni gokinyuu kudasai", "en": "Please fill this in." },
+            { "jp": "身分証明書をお願いします", "kana": "みぶんしょうめいしょをおねがいします", "romaji": "mibun shoumeisho o onegai shimasu", "en": "ID, please.", "note": "Passport or residence card." },
+            { "jp": "確認いたします", "kana": "かくにんいたします", "romaji": "kakunin itashimasu", "en": "I'll check." },
+            { "jp": "申し訳ございません", "kana": "もうしわけございません", "romaji": "moushiwake gozaimasen", "en": "I'm very sorry. (the formal apology)" },
+            { "jp": "かしこまりました", "kana": "かしこまりました", "romaji": "kashikomarimashita", "en": "Certainly. (formal 'understood')" },
+            { "jp": "ご利用いただけません", "kana": "ごりよういただけません", "romaji": "goriyou itadakemasen", "en": "You cannot use (this). (= not available / not accepted)" },
+            { "jp": "ただいま満席です", "kana": "ただいままんせきです", "romaji": "tadaima manseki desu", "en": "We're full right now.", "note": "どのくらい待ちますか: how long is the wait?" },
+            { "jp": "本日は閉店しました", "kana": "ほんじつはへいてんしました", "romaji": "honjitsu wa heiten shimashita", "en": "We're closed for today." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signs",
+      "title": "Signs, menus and labels",
+      "summary": "The hundred or so words on walls, doors, platforms and packaging.",
+      "minutes": 12,
+      "sections": [
+        {
+          "title": "How to use this guide",
+          "body": [
+            "These are the words you read in the wild long before you can read a newspaper. They are shown large, as on a sign. Tap \"Hide meanings\" to test yourself, and tap any sign to hear it."
+          ]
+        },
+        {
+          "title": "Doors and buildings",
+          "style": "signs",
+          "items": [
+            { "jp": "入口", "kana": "いりぐち", "en": "entrance" }, { "jp": "出口", "kana": "でぐち", "en": "exit" }, { "jp": "非常口", "kana": "ひじょうぐち", "en": "emergency exit" },
+            { "jp": "押す", "kana": "おす", "en": "push" }, { "jp": "引く", "kana": "ひく", "en": "pull" }, { "jp": "自動ドア", "kana": "じどうドア", "en": "automatic door" },
+            { "jp": "営業中", "kana": "えいぎょうちゅう", "en": "open (for business)" }, { "jp": "準備中", "kana": "じゅんびちゅう", "en": "closed, preparing (opening soon)" }, { "jp": "定休日", "kana": "ていきゅうび", "en": "regular closing day" },
+            { "jp": "受付", "kana": "うけつけ", "en": "reception" }, { "jp": "案内", "kana": "あんない", "en": "information" }, { "jp": "階段", "kana": "かいだん", "en": "stairs" },
+            { "jp": "お手洗い", "kana": "おてあらい", "en": "toilet" }, { "jp": "男", "kana": "おとこ", "en": "men" }, { "jp": "女", "kana": "おんな", "en": "women" },
+            { "jp": "多目的トイレ", "kana": "たもくてきトイレ", "en": "accessible toilet" }, { "jp": "使用中", "kana": "しようちゅう", "en": "occupied" }, { "jp": "空き", "kana": "あき", "en": "vacant" },
+            { "jp": "立入禁止", "kana": "たちいりきんし", "en": "no entry" }, { "jp": "関係者以外立入禁止", "kana": "かんけいしゃいがいたちいりきんし", "en": "staff only" }, { "jp": "土足厳禁", "kana": "どそくげんきん", "en": "no shoes beyond this point" }
+          ]
+        },
+        {
+          "title": "Stations and transport",
+          "style": "signs",
+          "items": [
+            { "jp": "駅", "kana": "えき", "en": "station" }, { "jp": "改札", "kana": "かいさつ", "en": "ticket gate" }, { "jp": "切符売り場", "kana": "きっぷうりば", "en": "ticket office" },
+            { "jp": "精算機", "kana": "せいさんき", "en": "fare adjustment machine" }, { "jp": "〇番線", "kana": "ばんせん", "en": "platform number" }, { "jp": "乗り換え", "kana": "のりかえ", "en": "transfer" },
+            { "jp": "各駅停車", "kana": "かくえきていしゃ", "en": "local (stops everywhere)" }, { "jp": "快速", "kana": "かいそく", "en": "rapid" }, { "jp": "急行", "kana": "きゅうこう", "en": "express" },
+            { "jp": "特急", "kana": "とっきゅう", "en": "limited express (extra fare)" }, { "jp": "指定席", "kana": "していせき", "en": "reserved seat" }, { "jp": "自由席", "kana": "じゆうせき", "en": "non-reserved seat" },
+            { "jp": "優先席", "kana": "ゆうせんせき", "en": "priority seat" }, { "jp": "女性専用車", "kana": "じょせいせんようしゃ", "en": "women-only car" }, { "jp": "終電", "kana": "しゅうでん", "en": "last train" },
+            { "jp": "運転見合わせ", "kana": "うんてんみあわせ", "en": "service suspended" }, { "jp": "遅延", "kana": "ちえん", "en": "delay" }, { "jp": "バス停", "kana": "バスてい", "en": "bus stop" },
+            { "jp": "駐車場", "kana": "ちゅうしゃじょう", "en": "car park" }, { "jp": "駐輪場", "kana": "ちゅうりんじょう", "en": "bicycle parking" }, { "jp": "横断歩道", "kana": "おうだんほどう", "en": "pedestrian crossing" }
+          ]
+        },
+        {
+          "title": "Shops and prices",
+          "style": "signs",
+          "items": [
+            { "jp": "税込", "kana": "ぜいこみ", "en": "tax included" }, { "jp": "税抜", "kana": "ぜいぬき", "en": "before tax" }, { "jp": "割引", "kana": "わりびき", "en": "discount (2割引 = 20% off)" },
+            { "jp": "半額", "kana": "はんがく", "en": "half price" }, { "jp": "セール", "kana": "セール", "en": "sale" }, { "jp": "免税", "kana": "めんぜい", "en": "tax free" },
+            { "jp": "レジ", "kana": "レジ", "en": "checkout" }, { "jp": "現金のみ", "kana": "げんきんのみ", "en": "cash only" }, { "jp": "試着室", "kana": "しちゃくしつ", "en": "fitting room" },
+            { "jp": "薬局", "kana": "やっきょく", "en": "pharmacy" }, { "jp": "百円ショップ", "kana": "ひゃくえんショップ", "en": "100-yen shop" }, { "jp": "本日限り", "kana": "ほんじつかぎり", "en": "today only" },
+            { "jp": "新発売", "kana": "しんはつばい", "en": "new product" }, { "jp": "売り切れ", "kana": "うりきれ", "en": "sold out" }, { "jp": "品切れ", "kana": "しなぎれ", "en": "out of stock" }
+          ]
+        },
+        {
+          "title": "Food and menus",
+          "style": "signs",
+          "items": [
+            { "jp": "定食", "kana": "ていしょく", "en": "set meal" }, { "jp": "ランチ", "kana": "ランチ", "en": "lunch (set)" }, { "jp": "おすすめ", "kana": "おすすめ", "en": "recommended" },
+            { "jp": "本日の", "kana": "ほんじつの", "en": "today's …" }, { "jp": "並 / 大盛り", "kana": "なみ / おおもり", "en": "regular / large portion" }, { "jp": "食べ放題", "kana": "たべほうだい", "en": "all you can eat" },
+            { "jp": "飲み放題", "kana": "のみほうだい", "en": "all you can drink" }, { "jp": "辛口", "kana": "からくち", "en": "spicy / dry (sake)" }, { "jp": "甘口", "kana": "あまくち", "en": "mild / sweet" },
+            { "jp": "生", "kana": "なま", "en": "raw; draught (beer)" }, { "jp": "焼き", "kana": "やき", "en": "grilled" }, { "jp": "揚げ", "kana": "あげ", "en": "deep-fried" },
+            { "jp": "牛 / 豚 / 鶏", "kana": "ぎゅう / ぶた / とり", "en": "beef / pork / chicken" }, { "jp": "魚", "kana": "さかな", "en": "fish" }, { "jp": "野菜", "kana": "やさい", "en": "vegetables" },
+            { "jp": "卵", "kana": "たまご", "en": "egg" }, { "jp": "乳製品", "kana": "にゅうせいひん", "en": "dairy" }, { "jp": "小麦", "kana": "こむぎ", "en": "wheat (allergen label)" },
+            { "jp": "落花生", "kana": "らっかせい", "en": "peanuts (allergen label)" }, { "jp": "えび / かに", "kana": "えび / かに", "en": "shrimp / crab (allergen label)" }, { "jp": "お通し", "kana": "おとおし", "en": "table-charge appetiser" },
+            { "jp": "お会計", "kana": "おかいけい", "en": "bill" }, { "jp": "セルフサービス", "kana": "セルフサービス", "en": "self service" }, { "jp": "食券", "kana": "しょっけん", "en": "meal ticket (buy at the machine first)" }
+          ]
+        },
+        {
+          "title": "Packaging and labels",
+          "style": "signs",
+          "items": [
+            { "jp": "賞味期限", "kana": "しょうみきげん", "en": "best before" }, { "jp": "消費期限", "kana": "しょうひきげん", "en": "use by" }, { "jp": "要冷蔵", "kana": "ようれいぞう", "en": "keep refrigerated" },
+            { "jp": "電子レンジ", "kana": "でんしレンジ", "en": "microwave" }, { "jp": "開け口", "kana": "あけくち", "en": "open here" }, { "jp": "原材料", "kana": "げんざいりょう", "en": "ingredients" },
+            { "jp": "無料", "kana": "むりょう", "en": "free of charge" }, { "jp": "有料", "kana": "ゆうりょう", "en": "charged" }, { "jp": "燃えるごみ", "kana": "もえるごみ", "en": "burnable rubbish" },
+            { "jp": "燃えないごみ", "kana": "もえないごみ", "en": "non-burnable rubbish" }, { "jp": "ペットボトル", "kana": "ペットボトル", "en": "plastic bottles (recycling)" }, { "jp": "缶・びん", "kana": "かん・びん", "en": "cans and bottles" }
+          ]
+        },
+        {
+          "title": "Safety and emergencies",
+          "style": "signs",
+          "items": [
+            { "jp": "注意", "kana": "ちゅうい", "en": "caution" }, { "jp": "危険", "kana": "きけん", "en": "danger" }, { "jp": "禁止", "kana": "きんし", "en": "prohibited" },
+            { "jp": "禁煙", "kana": "きんえん", "en": "no smoking" }, { "jp": "喫煙所", "kana": "きつえんじょ", "en": "smoking area" }, { "jp": "撮影禁止", "kana": "さつえいきんし", "en": "no photography" },
+            { "jp": "足元注意", "kana": "あしもとちゅうい", "en": "mind your step" }, { "jp": "頭上注意", "kana": "ずじょうちゅうい", "en": "mind your head" }, { "jp": "避難所", "kana": "ひなんじょ", "en": "evacuation shelter" },
+            { "jp": "津波避難", "kana": "つなみひなん", "en": "tsunami evacuation (route)" }, { "jp": "地震", "kana": "じしん", "en": "earthquake" }, { "jp": "病院", "kana": "びょういん", "en": "hospital" },
+            { "jp": "交番", "kana": "こうばん", "en": "police box" }, { "jp": "110", "kana": "ひゃくとおばん", "en": "police (phone)" }, { "jp": "119", "kana": "ひゃくじゅうきゅうばん", "en": "fire and ambulance (phone)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers in the wild",
+      "summary": "Prices, times, dates and counters as they are actually said.",
+      "minutes": 8,
+      "sections": [
+        {
+          "title": "Prices",
+          "body": [
+            "Prices are said in full, fast. The sound changes are the trap: 300 is さんびゃく, 600 is ろっぴゃく, 800 is はっぴゃく; 3,000 is さんぜん, 8,000 is はっせん. 10,000 is いちまん, so 25,000 is にまんごせん. Listen for the まん."
+          ],
+          "items": [
+            { "jp": "380円", "kana": "さんびゃくはちじゅうえん", "romaji": "sanbyaku hachijuu en", "en": "380 yen (a convenience-store lunch)" },
+            { "jp": "1,980円", "kana": "せんきゅうひゃくはちじゅうえん", "romaji": "sen kyuuhyaku hachijuu en", "en": "1,980 yen (the classic shop price)" },
+            { "jp": "6,600円", "kana": "ろくせんろっぴゃくえん", "romaji": "rokusen roppyaku en", "en": "6,600 yen" },
+            { "jp": "13,500円", "kana": "いちまんさんぜんごひゃくえん", "romaji": "ichiman sanzen gohyaku en", "en": "13,500 yen (a shinkansen ticket)" },
+            { "jp": "税込み / 税別", "kana": "ぜいこみ / ぜいべつ", "romaji": "zeikomi / zeibetsu", "en": "tax included / tax extra (10%, 8% on food)" },
+            { "jp": "お釣り", "kana": "おつり", "romaji": "otsuri", "en": "change (money back)" }
+          ]
+        },
+        {
+          "title": "Time",
+          "body": [
+            "Hours use 時, minutes 分; four, seven and nine o'clock are よじ, しちじ, くじ, never よん・なな・きゅう. Minutes change sound: 1分 いっぷん, 3分 さんぷん, 6分 ろっぷん, 8分 はっぷん, 10分 じゅっぷん. Timetables use the 24-hour clock; speech uses ごぜん / ごご or あさ / よる."
+          ],
+          "items": [
+            { "jp": "9時半", "kana": "くじはん", "romaji": "kuji han", "en": "half past nine" },
+            { "jp": "7時15分", "kana": "しちじじゅうごふん", "romaji": "shichiji juugofun", "en": "7:15" },
+            { "jp": "午後4時10分", "kana": "ごごよじじゅっぷん", "romaji": "gogo yoji juppun", "en": "4:10 pm" },
+            { "jp": "18:30発", "kana": "じゅうはちじさんじゅっぷんはつ", "romaji": "juuhachiji sanjuppun hatsu", "en": "departs 18:30 (発 = departure, 着 = arrival)" },
+            { "jp": "何時間 / 何分", "kana": "なんじかん / なんぷん", "romaji": "nanjikan / nanpun", "en": "how many hours / minutes" },
+            { "jp": "30分くらい", "kana": "さんじゅっぷんくらい", "romaji": "sanjuppun kurai", "en": "about 30 minutes" }
+          ]
+        },
+        {
+          "title": "Dates",
+          "body": [
+            "Days 1–10 and a few others are irregular: ついたち, ふつか, みっか, よっか, いつか, むいか, なのか, ようか, ここのか, とおか, じゅうよっか (14), はつか (20), にじゅうよっか (24). Everything else is number + にち. Years can be Western (2026年) or era-based (令和8年, Reiwa 8) on official forms."
+          ],
+          "items": [
+            { "jp": "4月1日", "kana": "しがつついたち", "romaji": "shigatsu tsuitachi", "en": "1 April (4月 is しがつ, not よんがつ)" },
+            { "jp": "9月20日", "kana": "くがつはつか", "romaji": "kugatsu hatsuka", "en": "20 September" },
+            { "jp": "12月24日", "kana": "じゅうにがつにじゅうよっか", "romaji": "juunigatsu nijuuyokka", "en": "24 December" },
+            { "jp": "令和8年", "kana": "れいわはちねん", "romaji": "reiwa hachinen", "en": "Reiwa 8 (= 2026; Reiwa 1 was 2019)" },
+            { "jp": "月曜日 … 日曜日", "kana": "げつようび … にちようび", "romaji": "getsuyoubi … nichiyoubi", "en": "Monday to Sunday: 月 火 水 木 金 土 日" },
+            { "jp": "祝日", "kana": "しゅくじつ", "romaji": "shukujitsu", "en": "public holiday (shops open, banks and offices shut)" }
+          ]
+        },
+        {
+          "title": "Counters you cannot avoid",
+          "body": [
+            "You can get far with the generic ひとつ・ふたつ・みっつ for things, and 人 for people. These few others come up every day."
+          ],
+          "items": [
+            { "jp": "一人 / 二人 / 三人", "kana": "ひとり / ふたり / さんにん", "romaji": "hitori / futari / sannin", "en": "people (the first two are irregular)" },
+            { "jp": "一枚 / 二枚", "kana": "いちまい / にまい", "romaji": "ichimai / nimai", "en": "flat things: tickets, shirts, plates" },
+            { "jp": "一本 / 二本 / 三本", "kana": "いっぽん / にほん / さんぼん", "romaji": "ippon / nihon / sanbon", "en": "long things: bottles, umbrellas, trains (本数)" },
+            { "jp": "一杯 / 二杯", "kana": "いっぱい / にはい", "romaji": "ippai / nihai", "en": "cups and glasses (なまビール一杯)" },
+            { "jp": "一泊 / 二泊", "kana": "いっぱく / にはく", "romaji": "ippaku / nihaku", "en": "nights (hotels): 二泊三日 two nights three days" },
+            { "jp": "一階 / 二階 / 三階", "kana": "いっかい / にかい / さんがい", "romaji": "ikkai / nikai / sangai", "en": "floors: 地下一階 is basement 1" },
+            { "jp": "一回 / 二回", "kana": "いっかい / にかい", "romaji": "ikkai / nikai", "en": "times (occurrences): 一日三回 three times a day" },
+            { "jp": "一匹 / 一頭 / 一羽", "kana": "いっぴき / いっとう / いちわ", "romaji": "ippiki / ittou / ichiwa", "en": "small animals / large animals / birds (and rabbits)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival",
+      "title": "Survival phrases",
+      "summary": "Thirty lines that get you through any day, from the first hour.",
+      "minutes": 6,
+      "sections": [
+        {
+          "title": "Getting by",
+          "items": [
+            { "jp": "すみません", "kana": "すみません", "romaji": "sumimasen", "en": "excuse me / sorry / thank you (the one word to know)" },
+            { "jp": "お願いします", "kana": "おねがいします", "romaji": "onegai shimasu", "en": "please (asking for something or accepting an offer)" },
+            { "jp": "ありがとうございます", "kana": "ありがとうございます", "romaji": "arigatou gozaimasu", "en": "thank you" },
+            { "jp": "大丈夫です", "kana": "だいじょうぶです", "romaji": "daijoubu desu", "en": "it's fine / no thanks / I'm okay" },
+            { "jp": "分かりません", "kana": "わかりません", "romaji": "wakarimasen", "en": "I don't understand / I don't know" },
+            { "jp": "日本語が少しだけ話せます", "kana": "にほんごがすこしだけはなせます", "romaji": "nihongo ga sukoshi dake hanasemasu", "en": "I only speak a little Japanese" },
+            { "jp": "もう一度お願いします", "kana": "もういちどおねがいします", "romaji": "mou ichido onegai shimasu", "en": "once more, please" },
+            { "jp": "ゆっくり話してください", "kana": "ゆっくりはなしてください", "romaji": "yukkuri hanashite kudasai", "en": "please speak slowly" },
+            { "jp": "英語を話せますか", "kana": "えいごをはなせますか", "romaji": "eigo o hanasemasu ka", "en": "do you speak English?" },
+            { "jp": "書いてもらえますか", "kana": "かいてもらえますか", "romaji": "kaite moraemasu ka", "en": "could you write it down?" },
+            { "jp": "これは何ですか", "kana": "これはなんですか", "romaji": "kore wa nan desu ka", "en": "what is this?" },
+            { "jp": "〇〇はどこですか", "kana": "はどこですか", "romaji": "… wa doko desu ka", "en": "where is …?" },
+            { "jp": "いくらですか", "kana": "いくらですか", "romaji": "ikura desu ka", "en": "how much is it?" },
+            { "jp": "これをください", "kana": "これをください", "romaji": "kore o kudasai", "en": "this one, please (pointing works)" },
+            { "jp": "トイレはどこですか", "kana": "トイレはどこですか", "romaji": "toire wa doko desu ka", "en": "where is the toilet?" }
+          ]
+        },
+        {
+          "title": "Health and emergencies",
+          "items": [
+            { "jp": "助けてください", "kana": "たすけてください", "romaji": "tasukete kudasai", "en": "help me, please" },
+            { "jp": "救急車を呼んでください", "kana": "きゅうきゅうしゃをよんでください", "romaji": "kyuukyuusha o yonde kudasai", "en": "please call an ambulance (119)" },
+            { "jp": "警察を呼んでください", "kana": "けいさつをよんでください", "romaji": "keisatsu o yonde kudasai", "en": "please call the police (110)" },
+            { "jp": "気分が悪いです", "kana": "きぶんがわるいです", "romaji": "kibun ga warui desu", "en": "I feel unwell" },
+            { "jp": "〇〇アレルギーがあります", "kana": "アレルギーがあります", "romaji": "… arerugii ga arimasu", "en": "I am allergic to … (卵, 乳, 小麦, えび, 落花生, そば)" },
+            { "jp": "〇〇は入っていますか", "kana": "ははいっていますか", "romaji": "… wa haitte imasu ka", "en": "does it contain …?" },
+            { "jp": "病院に行きたいです", "kana": "びょういんにいきたいです", "romaji": "byouin ni ikitai desu", "en": "I want to go to a hospital" },
+            { "jp": "財布をなくしました", "kana": "さいふをなくしました", "romaji": "saifu o nakushimashita", "en": "I lost my wallet" },
+            { "jp": "パスポートをなくしました", "kana": "パスポートをなくしました", "romaji": "pasupooto o nakushimashita", "en": "I lost my passport" },
+            { "jp": "地震です。どこに避難しますか", "kana": "じしんです。どこにひなんしますか", "romaji": "jishin desu. doko ni hinan shimasu ka", "en": "It's an earthquake. Where do we evacuate to?" }
+          ]
+        },
+        {
+          "title": "Being polite in small ways",
+          "items": [
+            { "jp": "お邪魔します", "kana": "おじゃまします", "romaji": "ojama shimasu", "en": "said when entering someone's home" },
+            { "jp": "いただきます / ごちそうさまでした", "kana": "いただきます / ごちそうさまでした", "romaji": "itadakimasu / gochisousama deshita", "en": "before / after a meal, every meal" },
+            { "jp": "お先にどうぞ", "kana": "おさきにどうぞ", "romaji": "osaki ni douzo", "en": "after you" },
+            { "jp": "お疲れさまです", "kana": "おつかれさまです", "romaji": "otsukaresama desu", "en": "greeting among colleagues at any hour" },
+            { "jp": "失礼します", "kana": "しつれいします", "romaji": "shitsurei shimasu", "en": "excuse me (entering or leaving a room, hanging up the phone)" },
+            { "jp": "よろしくお願いします", "kana": "よろしくおねがいします", "romaji": "yoroshiku onegai shimasu", "en": "the all-purpose closer: nice to meet you / please / thanks in advance" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levels",
+      "title": "Politeness in practice",
+      "summary": "Plain, polite and respectful: the same sentence at three levels, and when each is right.",
+      "minutes": 7,
+      "sections": [
+        {
+          "title": "Three levels, one language",
+          "body": [
+            "Every Japanese sentence is pitched at a level: plain (friends), polite です・ます (default with strangers), and keigo (respectful 尊敬語 for what others do, humble 謙譲語 for what you do; used with customers, bosses and in formal settings). You produce keigo rarely until you work in Japan, but you hear it constantly, so learn to recognise the forms.",
+            "The safest path: speak polite, understand keigo, use plain only when the other person does."
+          ],
+          "items": [
+            { "jp": "食べる → 食べます → 召し上がる / いただく", "kana": "たべる → たべます → めしあがる / いただく", "romaji": "taberu → tabemasu → meshiagaru / itadaku", "en": "eat: plain → polite → respectful (they eat) / humble (I eat)" },
+            { "jp": "行く → 行きます → いらっしゃる / 参る", "kana": "いく → いきます → いらっしゃる / まいる", "romaji": "iku → ikimasu → irassharu / mairu", "en": "go (いらっしゃる also covers come and be)" },
+            { "jp": "見る → 見ます → ご覧になる / 拝見する", "kana": "みる → みます → ごらんになる / はいけんする", "romaji": "miru → mimasu → goran ni naru / haiken suru", "en": "see" },
+            { "jp": "言う → 言います → おっしゃる / 申す", "kana": "いう → いいます → おっしゃる / もうす", "romaji": "iu → iimasu → ossharu / mousu", "en": "say (田中と申します: my name is Tanaka)" },
+            { "jp": "する → します → なさる / いたす", "kana": "する → します → なさる / いたす", "romaji": "suru → shimasu → nasaru / itasu", "en": "do (どうなさいますか: what would you like to do?)" },
+            { "jp": "いる → います → いらっしゃる / おる", "kana": "いる → います → いらっしゃる / おる", "romaji": "iru → imasu → irassharu / oru", "en": "be (田中はおりません: Tanaka is not here, said of your own colleague)" },
+            { "jp": "知っている → 知っています → ご存じだ / 存じている", "kana": "しっている → しっています → ごぞんじだ / ぞんじている", "romaji": "shitte iru → shitte imasu → gozonji da / zonjite iru", "en": "know" },
+            { "jp": "もらう → もらいます → — / いただく", "kana": "もらう → もらいます → いただく", "romaji": "morau → moraimasu → itadaku", "en": "receive (〜ていただけますか: could you … for me?)" }
+          ]
+        },
+        {
+          "title": "The same request at three levels",
+          "items": [
+            { "jp": "ちょっと待って", "kana": "ちょっとまって", "romaji": "chotto matte", "en": "hang on (friend)" },
+            { "jp": "ちょっと待ってください", "kana": "ちょっとまってください", "romaji": "chotto matte kudasai", "en": "please wait a moment (polite)" },
+            { "jp": "少々お待ちいただけますか", "kana": "しょうしょうおまちいただけますか", "romaji": "shoushou omachi itadakemasu ka", "en": "could you wait a moment? (keigo, to a customer or superior)" },
+            { "jp": "これ、見て", "kana": "これ、みて", "romaji": "kore, mite", "en": "look at this (friend)" },
+            { "jp": "これを見てください", "kana": "これをみてください", "romaji": "kore o mite kudasai", "en": "please look at this (polite)" },
+            { "jp": "こちらをご覧ください", "kana": "こちらをごらんください", "romaji": "kochira o goran kudasai", "en": "please take a look at this (keigo)" }
+          ]
+        },
+        {
+          "title": "Mistakes that mark a learner",
+          "body": [
+            "Using あなた for 'you': use the person's name + さん instead; あなた sounds distant or scolding. Saying さようなら to people you will see tomorrow: use お疲れさまです, 失礼します or また明日. Answering はい to いらっしゃいませ: it is not a question. Using 〜たい about other people's wishes: say 〜たがっている or 〜たいそうです. Saying ごめんなさい to a shop assistant: すみません is the adult apology; ごめん is for friends."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-going",
+      "title": "Reading and listening in the wild",
+      "summary": "Free sources of real Japanese, ordered by level, and how to use them.",
+      "minutes": 5,
+      "sections": [
+        {
+          "title": "Why you still need this",
+          "body": [
+            "This app gives you the characters, the words and the grammar; reading anything you meet in Japan comes from mileage with real texts. Plan on reading something real every day from the N4 stage onwards, looking up only what blocks understanding. Comprehension at 80% is the sweet spot: hard enough to learn, easy enough to keep going.",
+            "The sources below are free or have a free tier, are made for learners or are real content with help attached, and contain nothing that needs an account to start."
+          ]
+        },
+        {
+          "title": "By level",
+          "links": [
+            { "level": "N5–N4", "name": "NHK News Web Easy", "url": "https://www3.nhk.or.jp/news/easy/", "note": "Daily news rewritten in simple Japanese with furigana, audio and a dictionary on tap. The single best next step after N5." },
+            { "level": "N5–N3", "name": "Tadoku free graded readers", "url": "https://tadoku.org/japanese/en/free-books-en/", "note": "Hundreds of short illustrated books by level, free to read online. Read many easy ones rather than one hard one." },
+            { "level": "N4–N3", "name": "Satori Reader", "url": "https://www.satorireader.com/", "note": "Serialised stories with per-sentence explanations and audio; several series are free." },
+            { "level": "N4–N2", "name": "Yomitan (browser dictionary)", "url": "https://yomitan.wiki/", "note": "Hover over any Japanese word in your browser for readings and meanings. Turns the whole web into graded reading." },
+            { "level": "N3–N1", "name": "NHK News (regular) and Aozora Bunko", "url": "https://www.aozora.gr.jp/", "note": "Real news, and the free library of out-of-copyright Japanese literature. Aim for short modern pieces first." },
+            { "level": "Any level", "name": "Japanese subtitles on streaming services", "url": "https://www.nhk.or.jp/", "note": "Watch Japanese shows with Japanese subtitles, not English. Pause and shadow a line now and then; it is the closest thing to living there." }
+          ]
+        },
+        {
+          "title": "Talking to people",
+          "body": [
+            "Speaking well comes from speaking. Language-exchange apps (HelloTalk, Tandem) pair you with Japanese speakers learning English; thirty minutes of messaging a day teaches the casual register faster than any textbook. Italki and similar sites offer tutors for a few hundred yen a lesson. In Japan itself, local international associations (国際交流協会) run free or near-free conversation groups in most cities.",
+            "Use the role-plays in Speak before each real situation: run the convenience store once in the app and the real one is easy."
+          ]
+        }
+      ]
+    }
+  ]
+}

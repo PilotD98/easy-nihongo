@@ -10,7 +10,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '1.2.1';
+const VERSION = '1.3.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -29,6 +29,8 @@ const CORE_DATA = [
   './data/katakana.json',
   './data/strokes/katakana.json',
   './data/speaking.json',
+  './data/situations.json',
+  './data/guides.json',
   './data/strokes/kanji-n5.json',
   './data/n5/kanji.json',
   './data/n5/vocab.json',
@@ -106,6 +108,7 @@ const SHELL = [
   './js/views/reading.js',
   './js/views/placement.js',
   './js/views/mock.js',
+  './js/views/guides.js',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',

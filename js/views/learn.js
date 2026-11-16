@@ -42,9 +42,10 @@ export async function render(el, ctx) {
   for (const s of manifest.stages || []) {
     const level = s.level ? levelsById[s.level] : null;
     const hasContent = !!(level && level.files && Object.keys(level.files).length);
-    const unlocked = hasContent && await isUnlocked(s.level);
+    const unlocked = hasContent && (s.id === 'realworld' || await isUnlocked(s.level));
     let status = '', href = null, sub = s.summary, done = false;
-    if (!hasContent) status = 'Not yet in this build';
+    if (s.id === 'realworld') { status = 'Open'; href = '#/guides'; }
+    else if (!hasContent) status = 'Not yet in this build';
     else if (!unlocked) status = 'Locked';
     else if (s.id === 'orientation') { href = '#/learn/orientation'; done = oDone; status = oDone ? 'Read' : 'Start'; }
     else if (s.id === 'hiragana' && hira) {

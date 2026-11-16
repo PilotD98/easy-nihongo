@@ -16,7 +16,7 @@ import { ID_RE } from '../js/content/ids.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
-const LEVEL_ORDER = ['orientation', 'speaking', 'kana', 'katakana', 'n5', 'n4', 'n3', 'n2', 'n1'];
+const LEVEL_ORDER = ['orientation', 'speaking', 'situations', 'guides', 'kana', 'katakana', 'n5', 'n4', 'n3', 'n2', 'n1'];
 
 const errors = [];
 const warnings = [];
@@ -177,6 +177,22 @@ for (const [levelId, data] of Object.entries(levelData)) {
       if (!/^unit:[a-z0-9]+:\d+$/.test(u.id || '')) err(where, 'unit id must look like unit:n5:01');
       if (unitIds.has(u.id)) err(where, 'duplicate unit id'); unitIds.add(u.id);
       pendingUnitRefs.push([where, [...(u.kanji || []), ...(u.vocab || []), ...(u.grammar || []), ...(u.readings || []), ...(u.listening || [])]]);
+    }
+  }
+  if (data.guides) {
+    const { rel, json } = data.guides;
+    const seen = new Set();
+    for (const g of json.guides || []) {
+      const where = `${rel} guide ${g.id}`;
+      requireFields(where, g, ['id', 'title', 'summary', 'minutes', 'sections']);
+      if (seen.has(g.id)) err(where, 'duplicate guide id'); seen.add(g.id);
+      (g.sections || []).forEach((sec, i) => {
+        const w = `${where} section ${i + 1}`;
+        if (!sec.title) err(w, 'section needs a title');
+        if (!(sec.body?.length || sec.items?.length || sec.links?.length)) err(w, 'section needs body, items or links');
+        (sec.items || []).forEach((it, j) => { if (!it.jp || !it.en) err(`${w} item ${j + 1}`, 'item needs jp and en'); });
+        (sec.links || []).forEach((l, j) => { if (!/^https:\/\//.test(l.url || '')) err(`${w} link ${j + 1}`, 'link needs an https url'); });
+      });
     }
   }
   if (data.speaking) {
