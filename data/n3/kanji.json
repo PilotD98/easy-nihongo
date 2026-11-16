@@ -1355,7 +1355,7 @@
   "unit": 8,
   "order": 800,
   "meanings": [
-   "No.",
+   "ordinal prefix (number)",
    "residence"
   ],
   "on": [
@@ -5414,9 +5414,9 @@
   "unit": 29,
   "order": 2905,
   "meanings": [
-   "counter for bows & stringed instruments",
    "stretch",
-   "spread"
+   "spread",
+   "counter for bows and stringed instruments"
   ],
   "on": [
    "チョウ"
@@ -6790,8 +6790,8 @@
   "unit": 37,
   "order": 3701,
   "meanings": [
-   "made in...",
-   "manufacture"
+   "manufacture",
+   "made in…"
   ],
   "on": [
    "セイ"
@@ -6850,9 +6850,9 @@
   "unit": 37,
   "order": 3703,
   "meanings": [
-   "Esq.",
+   "manner",
    "way",
-   "manner"
+   "Mr / Ms (very polite)"
   ],
   "on": [
    "ヨウ",
@@ -7805,8 +7805,8 @@
   "order": 4204,
   "meanings": [
    "government ministry",
-   "conserve",
-   "omit"
+   "omit",
+   "conserve"
   ],
   "on": [
    "セイ",

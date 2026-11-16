@@ -37,6 +37,24 @@ const priorVocab = PREVIOUS.flatMap((lv) => JSON.parse(fs.readFileSync(path.join
 
 /* ---------- kanji ---------- */
 const kanjiUnit = new Map();
+
+// KANJIDIC2 lists some meanings in an order that is unhelpful as a first gloss
+// ("Dr." for 博, "skids" for 脚). These overrides give learners a clearer lead.
+const MEANINGS = {
+  '院': ['institution', 'temple', 'hospital or academy (suffix)'], '済': ['finish', 'settle (a debt)', 'relieve'], '漢': ['China', 'Han; Sino-', 'fellow'],
+  '英': ['English', 'England', 'hero'], '第': ['ordinal prefix (number)', 'residence'], '張': ['stretch', 'spread', 'counter for bows and stringed instruments'],
+  '製': ['manufacture', 'made in…'], '様': ['manner', 'way', 'Mr / Ms (very polite)'], '省': ['government ministry', 'omit', 'conserve'],
+  '等': ['equal', 'class', 'etc.'], '仏': ['Buddha', 'France', 'the dead'], '寺': ['Buddhist temple'], '枚': ['counter for flat things', 'sheet'],
+  '秒': ['second (of time)'], '殿': ['hall', 'mansion', 'Mr (formal)'], '杯': ['cup', 'counter for cupfuls', 'glass'],
+  '宮': ['palace', 'Shinto shrine', 'constellation'], '渉': ['cross over', 'be involved', 'ford'], '博': ['broad', 'doctorate', 'esteem'],
+  '房': ['room', 'tuft', 'tassel'], '奈': ['Nara', 'how, what'], '懸': ['hang', 'depend', 'be at stake'], '掲': ['put up (a notice)', 'hoist', 'publish'],
+  '里': ['village', 'home town', 'ri (unit)'], '倉': ['warehouse', 'storehouse'], '旬': ['ten-day period', 'season (for produce)'],
+  '脚': ['leg', 'undercarriage'], '亜': ['sub-', 'Asia', 'come after'], '拓': ['open up (land)', 'clear', 'break up'], '碁': ['go (board game)'],
+  '賓': ['guest', 'VIP'], '僧': ['monk', 'Buddhist priest'], '唐': ['Tang (China)', 'China', 'foreign'], '厘': ['rin (one hundredth)', 'tiny amount'],
+  '薫': ['fragrant', 'be scented'], '斗': ['dipper', 'to (unit of volume)', 'Big Dipper'], '禅': ['Zen', 'silent meditation'], '尺': ['shaku (unit)', 'measure', 'length'],
+  '瞳': ['pupil (of the eye)'], '儒': ['Confucianism', 'Confucian'], '壱': ['one (formal, in documents)'], '箇': ['counter for items'], '弐': ['two (formal, in documents)']
+};
+
 const kanji = KANJI.filter(([char]) => !priorKanji.has(char)).map(([char, mnemonic], i) => {
   const unit = Math.floor(i / UNIT_SIZE) + 1;
   kanjiUnit.set(char, unit);
@@ -46,7 +64,7 @@ const kanji = KANJI.filter(([char]) => !priorKanji.has(char)).map(([char, mnemon
   const components = (strokes[char]?.components || []).filter((c) => c !== char).slice(0, 4);
   return {
     id: `kanji:${char}`, char, level: LEVEL, unit, order: unit * 100 + (i % UNIT_SIZE),
-    meanings: (kd?.meanings || []).filter((m) => !/radical \(no\./.test(m)).slice(0, 3), on: (kd?.on || []).slice(0, 3), kun: kun.slice(0, 4),
+    meanings: MEANINGS[char] || (kd?.meanings || []).filter((m) => !/radical \(no\./.test(m)).slice(0, 3), on: (kd?.on || []).slice(0, 3), kun: kun.slice(0, 4),
     strokes: kd?.strokes, radicals: components, mnemonic, examples: []
   };
 });

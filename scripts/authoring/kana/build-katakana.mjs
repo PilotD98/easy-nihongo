@@ -175,7 +175,7 @@ for (const [id, [title, intro, chars]] of Object.entries(DAKUTEN)) {
   push(id, title, id === 'k-pa' ? 'handakuten' : 'dakuten', chars.map(([char, romaji, idSlug]) => {
     const base = String.fromCodePoint(char.codePointAt(0) - (id === 'k-pa' ? 2 : 1));
     const mark = id === 'k-pa' ? 'a small circle (handakuten)' : 'two dots (dakuten)';
-    return { id: `kana:k:${idSlug || slug(romaji)}`, char, romaji, base, mnemonic: `${base} with ${mark} becomes ${romaji.replace(/\s*\(.*\)/, '')}. Same shape, voiced sound.` };
+    return { id: `kana:k:${idSlug || slug(romaji)}`, char, romaji, base, mnemonic: `${base} with ${mark} becomes ${romaji.replace(/\s*\(.*\)/, '')}. Same shape, ${mark.includes('handakuten') ? 'p sound' : 'voiced sound'}.` };
   }), WORDS[id], intro);
 }
 const allBasic = Object.values(BASIC).flatMap(([t, c]) => c).concat(Object.values(DAKUTEN).flatMap(([t, i, c]) => c));

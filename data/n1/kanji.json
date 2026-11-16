@@ -565,9 +565,9 @@
   "unit": 3,
   "order": 302,
   "meanings": [
+   "palace",
    "Shinto shrine",
-   "constellations",
-   "palace"
+   "constellation"
   ],
   "on": [
    "キュウ",
@@ -1030,9 +1030,9 @@
   "unit": 5,
   "order": 502,
   "meanings": [
-   "ford",
-   "go cross",
-   "transit"
+   "cross over",
+   "be involved",
+   "ford"
   ],
   "on": [
    "ショウ"
@@ -3014,8 +3014,8 @@
   "unit": 13,
   "order": 1303,
   "meanings": [
-   "Dr.",
-   "command",
+   "broad",
+   "doctorate",
    "esteem"
   ],
   "on": [
@@ -3110,9 +3110,9 @@
   "unit": 13,
   "order": 1306,
   "meanings": [
-   "tassel",
+   "room",
    "tuft",
-   "fringe"
+   "tassel"
   ],
   "on": [
    "ボウ"
@@ -3487,7 +3487,7 @@
   "order": 1502,
   "meanings": [
    "Nara",
-   "what?"
+   "how, what"
   ],
   "on": [
    "ナ",
@@ -4130,9 +4130,9 @@
   "unit": 17,
   "order": 1707,
   "meanings": [
-   "state of suspension",
    "hang",
-   "depend"
+   "depend",
+   "be at stake"
   ],
   "on": [
    "ケン",
@@ -4226,8 +4226,8 @@
   "order": 1802,
   "meanings": [
    "put up (a notice)",
-   "put up",
-   "hoist"
+   "hoist",
+   "publish"
   ],
   "on": [
    "ケイ"
@@ -7268,9 +7268,9 @@
   "unit": 30,
   "order": 3005,
   "meanings": [
-   "ri",
    "village",
-   "parent's home"
+   "home town",
+   "ri (unit)"
   ],
   "on": [
    "リ"
@@ -7646,7 +7646,6 @@
   "unit": 32,
   "order": 3202,
   "meanings": [
-   "godown",
    "warehouse",
    "storehouse"
   ],
@@ -8342,9 +8341,8 @@
   "unit": 35,
   "order": 3501,
   "meanings": [
-   "decameron",
    "ten-day period",
-   "season (for specific products)"
+   "season (for produce)"
   ],
   "on": [
    "ジュン",
@@ -9404,7 +9402,6 @@
   "unit": 39,
   "order": 3904,
   "meanings": [
-   "skids",
    "leg",
    "undercarriage"
   ],
@@ -14885,8 +14882,8 @@
   "unit": 62,
   "order": 6205,
   "meanings": [
+   "sub-",
    "Asia",
-   "rank next",
    "come after"
   ],
   "on": [
@@ -15298,9 +15295,9 @@
   "unit": 64,
   "order": 6403,
   "meanings": [
-   "clear (the land)",
-   "open",
-   "break up (land)"
+   "open up (land)",
+   "clear",
+   "break up"
   ],
   "on": [
    "タク"
@@ -16922,7 +16919,7 @@
   "unit": 71,
   "order": 7102,
   "meanings": [
-   "Go"
+   "go (board game)"
   ],
   "on": [
    "ゴ"
@@ -18277,8 +18274,8 @@
   "unit": 77,
   "order": 7701,
   "meanings": [
-   "V.I.P.",
-   "guest"
+   "guest",
+   "VIP"
   ],
   "on": [
    "ヒン"
@@ -19199,8 +19196,8 @@
   "unit": 81,
   "order": 8100,
   "meanings": [
-   "Buddhist priest",
-   "monk"
+   "monk",
+   "Buddhist priest"
   ],
   "on": [
    "ソウ"
@@ -19288,7 +19285,7 @@
   "unit": 81,
   "order": 8103,
   "meanings": [
-   "T'ang",
+   "Tang (China)",
    "China",
    "foreign"
   ],
@@ -21419,9 +21416,8 @@
   "unit": 90,
   "order": 9004,
   "meanings": [
-   "rin",
-   "1/10 sen",
-   "1/10 bu"
+   "rin (one hundredth)",
+   "tiny amount"
   ],
   "on": [
    "リン"
@@ -21672,7 +21668,6 @@
   "unit": 91,
   "order": 9105,
   "meanings": [
-   "send forth fragrance",
    "fragrant",
    "be scented"
   ],
@@ -22473,9 +22468,9 @@
   "unit": 95,
   "order": 9501,
   "meanings": [
-   "Big Dipper",
-   "ten sho (vol)",
-   "sake dipper"
+   "dipper",
+   "to (unit of volume)",
+   "Big Dipper"
   ],
   "on": [
    "ト",
@@ -23445,9 +23440,9 @@
   "unit": 99,
   "order": 9903,
   "meanings": [
-   "shaku",
-   "Japanese foot",
-   "measure"
+   "shaku (unit)",
+   "measure",
+   "length"
   ],
   "on": [
    "シャク",
@@ -25175,7 +25170,7 @@
   "unit": 106,
   "order": 10607,
   "meanings": [
-   "pupil (of eye)"
+   "pupil (of the eye)"
   ],
   "on": [
    "ドウ",
@@ -26092,6 +26087,7 @@
   "unit": 110,
   "order": 11007,
   "meanings": [
+   "Confucianism",
    "Confucian"
   ],
   "on": [
@@ -26978,7 +26974,7 @@
   "unit": 114,
   "order": 11406,
   "meanings": [
-   "one (in documents)"
+   "one (formal, in documents)"
   ],
   "on": [
    "イチ",
@@ -27319,7 +27315,7 @@
   "unit": 116,
   "order": 11602,
   "meanings": [
-   "counter for articles"
+   "counter for items"
   ],
   "on": [
    "カ",
@@ -27739,9 +27735,7 @@
   "unit": 118,
   "order": 11801,
   "meanings": [
-   "II",
-   "two",
-   "second"
+   "two (formal, in documents)"
   ],
   "on": [
    "ニ",

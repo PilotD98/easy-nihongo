@@ -69,7 +69,7 @@ export async function render(el, ctx) {
     return h('section', { class: 'card' },
       h('h2', null, 'In this unit'),
       h('div', { class: 'char-grid' }, kanji.map((k) => h('div', { class: 'char-chip' }, jp(k.char, 'jp-xl'), h('span', { class: 'small muted' }, k.meanings[0])))),
-      h('p', { class: 'muted' }, `${vocab.length} words that use these kanji or belong to the theme, then ${grammar.length} grammar point${grammar.length === 1 ? '' : 's'}: ${grammar.map((g) => g.title).join('; ')}.${readings.length ? ' A short reading closes the unit.' : ''}`),
+      h('p', { class: 'muted' }, `${vocab.length} words (written with these kanji, plus everyday words in kana), then ${grammar.length} grammar point${grammar.length === 1 ? '' : 's'}: ${grammar.map((g) => g.title).join('; ')}.${readings.length ? ' A short reading closes the unit.' : ''}`),
       h('p', { class: 'small muted' }, 'Kanji you have not learned yet always show furigana. Once you know a word, its furigana fades after four correct reviews in a row; tap any kanji to reveal it.'),
       nextBtn('Begin'));
   }

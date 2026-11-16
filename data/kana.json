@@ -63,8 +63,7 @@
      "id": "vocab:kana:ie-いえ",
      "jp": "いえ",
      "romaji": "ie",
-     "meaning": "house",
-     "pitch": 2
+     "meaning": "house"
     },
     {
      "id": "vocab:kana:ue-うえ",
@@ -145,15 +144,13 @@
      "id": "vocab:kana:aki-あき",
      "jp": "あき",
      "romaji": "aki",
-     "meaning": "autumn",
-     "pitch": 1
+     "meaning": "autumn"
     },
     {
      "id": "vocab:kana:kao-かお",
      "jp": "かお",
      "romaji": "kao",
-     "meaning": "face",
-     "pitch": 0
+     "meaning": "face"
     },
     {
      "id": "vocab:kana:ike-いけ",
@@ -165,43 +162,37 @@
      "id": "vocab:kana:koe-こえ",
      "jp": "こえ",
      "romaji": "koe",
-     "meaning": "voice",
-     "pitch": 1
+     "meaning": "voice"
     },
     {
      "id": "vocab:kana:eki-えき",
      "jp": "えき",
      "romaji": "eki",
-     "meaning": "station",
-     "pitch": 1
+     "meaning": "station"
     },
     {
      "id": "vocab:kana:kaku-かく",
      "jp": "かく",
      "romaji": "kaku",
-     "meaning": "to write",
-     "pitch": 1
+     "meaning": "to write"
     },
     {
      "id": "vocab:kana:kiku-きく",
      "jp": "きく",
      "romaji": "kiku",
-     "meaning": "to listen; to ask",
-     "pitch": 0
+     "meaning": "to listen; to ask"
     },
     {
      "id": "vocab:kana:kau-かう",
      "jp": "かう",
      "romaji": "kau",
-     "meaning": "to buy",
-     "pitch": 0
+     "meaning": "to buy"
     },
     {
      "id": "vocab:kana:iku-いく",
      "jp": "いく",
      "romaji": "iku",
-     "meaning": "to go",
-     "pitch": 0
+     "meaning": "to go"
     }
    ]
   },
@@ -257,15 +248,13 @@
      "id": "vocab:kana:asa-あさ",
      "jp": "あさ",
      "romaji": "asa",
-     "meaning": "morning",
-     "pitch": 1
+     "meaning": "morning"
     },
     {
      "id": "vocab:kana:isu-いす",
      "jp": "いす",
      "romaji": "isu",
-     "meaning": "chair",
-     "pitch": 0
+     "meaning": "chair"
     },
     {
      "id": "vocab:kana:seki-せき",
@@ -283,8 +272,7 @@
      "id": "vocab:kana:kasa-かさ",
      "jp": "かさ",
      "romaji": "kasa",
-     "meaning": "umbrella",
-     "pitch": 1
+     "meaning": "umbrella"
     },
     {
      "id": "vocab:kana:uso-うそ",
@@ -365,8 +353,7 @@
      "id": "vocab:kana:tsukue-つくえ",
      "jp": "つくえ",
      "romaji": "tsukue",
-     "meaning": "desk",
-     "pitch": 0
+     "meaning": "desk"
     },
     {
      "id": "vocab:kana:te-て",
@@ -384,15 +371,13 @@
      "id": "vocab:kana:uta-うた",
      "jp": "うた",
      "romaji": "uta",
-     "meaning": "song",
-     "pitch": 2
+     "meaning": "song"
     },
     {
      "id": "vocab:kana:shita-した",
      "jp": "した",
      "romaji": "shita",
-     "meaning": "below; under",
-     "pitch": 0
+     "meaning": "below; under"
     },
     {
      "id": "vocab:kana:tatsu-たつ",
@@ -404,8 +389,7 @@
      "id": "vocab:kana:tsuki-つき",
      "jp": "つき",
      "romaji": "tsuki",
-     "meaning": "moon; month",
-     "pitch": 2
+     "meaning": "moon; month"
     },
     {
      "id": "vocab:kana:ichi-いち",
@@ -417,8 +401,7 @@
      "id": "vocab:kana:kuchi-くち",
      "jp": "くち",
      "romaji": "kuchi",
-     "meaning": "mouth",
-     "pitch": 0
+     "meaning": "mouth"
     },
     {
      "id": "vocab:kana:chikatetsu-ちかてつ",
@@ -475,36 +458,31 @@
      "id": "vocab:kana:natsu-なつ",
      "jp": "なつ",
      "romaji": "natsu",
-     "meaning": "summer",
-     "pitch": 2
+     "meaning": "summer"
     },
     {
      "id": "vocab:kana:inu-いぬ",
      "jp": "いぬ",
      "romaji": "inu",
-     "meaning": "dog",
-     "pitch": 2
+     "meaning": "dog"
     },
     {
      "id": "vocab:kana:neko-ねこ",
      "jp": "ねこ",
      "romaji": "neko",
-     "meaning": "cat",
-     "pitch": 1
+     "meaning": "cat"
     },
     {
      "id": "vocab:kana:niku-にく",
      "jp": "にく",
      "romaji": "niku",
-     "meaning": "meat",
-     "pitch": 2
+     "meaning": "meat"
     },
     {
      "id": "vocab:kana:okane-おかね",
      "jp": "おかね",
      "romaji": "okane",
-     "meaning": "money",
-     "pitch": 0
+     "meaning": "money"
     },
     {
      "id": "vocab:kana:nani-なに",
@@ -516,15 +494,13 @@
      "id": "vocab:kana:sakana-さかな",
      "jp": "さかな",
      "romaji": "sakana",
-     "meaning": "fish",
-     "pitch": 0
+     "meaning": "fish"
     },
     {
      "id": "vocab:kana:kinou-きのう",
      "jp": "きのう",
      "romaji": "kinou",
-     "meaning": "yesterday",
-     "pitch": 2
+     "meaning": "yesterday"
     },
     {
      "id": "vocab:kana:anata-あなた",
@@ -592,22 +568,19 @@
      "id": "vocab:kana:hito-ひと",
      "jp": "ひと",
      "romaji": "hito",
-     "meaning": "person",
-     "pitch": 0
+     "meaning": "person"
     },
     {
      "id": "vocab:kana:fune-ふね",
      "jp": "ふね",
      "romaji": "fune",
-     "meaning": "boat; ship",
-     "pitch": 1
+     "meaning": "boat; ship"
     },
     {
      "id": "vocab:kana:hoshi-ほし",
      "jp": "ほし",
      "romaji": "hoshi",
-     "meaning": "star",
-     "pitch": 0
+     "meaning": "star"
     },
     {
      "id": "vocab:kana:hashi-はし",
@@ -694,15 +667,13 @@
      "id": "vocab:kana:machi-まち",
      "jp": "まち",
      "romaji": "machi",
-     "meaning": "town",
-     "pitch": 2
+     "meaning": "town"
     },
     {
      "id": "vocab:kana:mimi-みみ",
      "jp": "みみ",
      "romaji": "mimi",
-     "meaning": "ear",
-     "pitch": 2
+     "meaning": "ear"
     },
     {
      "id": "vocab:kana:mushi-むし",
@@ -714,57 +685,49 @@
      "id": "vocab:kana:me-め",
      "jp": "め",
      "romaji": "me",
-     "meaning": "eye",
-     "pitch": 1
+     "meaning": "eye"
     },
     {
      "id": "vocab:kana:momo-もも",
      "jp": "もも",
      "romaji": "momo",
-     "meaning": "peach",
-     "pitch": 0
+     "meaning": "peach"
     },
     {
      "id": "vocab:kana:ame-あめ",
      "jp": "あめ",
      "romaji": "ame",
-     "meaning": "rain; candy",
-     "pitch": 1
+     "meaning": "rain; candy"
     },
     {
      "id": "vocab:kana:umi-うみ",
      "jp": "うみ",
      "romaji": "umi",
-     "meaning": "sea",
-     "pitch": 1
+     "meaning": "sea"
     },
     {
      "id": "vocab:kana:namae-なまえ",
      "jp": "なまえ",
      "romaji": "namae",
-     "meaning": "name",
-     "pitch": 0
+     "meaning": "name"
     },
     {
      "id": "vocab:kana:ima-いま",
      "jp": "いま",
      "romaji": "ima",
-     "meaning": "now",
-     "pitch": 1
+     "meaning": "now"
     },
     {
      "id": "vocab:kana:mise-みせ",
      "jp": "みせ",
      "romaji": "mise",
-     "meaning": "shop",
-     "pitch": 2
+     "meaning": "shop"
     },
     {
      "id": "vocab:kana:nomu-のむ",
      "jp": "のむ",
      "romaji": "nomu",
-     "meaning": "to drink",
-     "pitch": 1
+     "meaning": "to drink"
     }
    ]
   },
@@ -800,29 +763,25 @@
      "id": "vocab:kana:yama-やま",
      "jp": "やま",
      "romaji": "yama",
-     "meaning": "mountain",
-     "pitch": 2
+     "meaning": "mountain"
     },
     {
      "id": "vocab:kana:yuki-ゆき",
      "jp": "ゆき",
      "romaji": "yuki",
-     "meaning": "snow",
-     "pitch": 2
+     "meaning": "snow"
     },
     {
      "id": "vocab:kana:yomu-よむ",
      "jp": "よむ",
      "romaji": "yomu",
-     "meaning": "to read",
-     "pitch": 1
+     "meaning": "to read"
     },
     {
      "id": "vocab:kana:fuyu-ふゆ",
      "jp": "ふゆ",
      "romaji": "fuyu",
-     "meaning": "winter",
-     "pitch": 2
+     "meaning": "winter"
     },
     {
      "id": "vocab:kana:heya-へや",
@@ -908,29 +867,25 @@
      "id": "vocab:kana:sakura-さくら",
      "jp": "さくら",
      "romaji": "sakura",
-     "meaning": "cherry blossom",
-     "pitch": 0
+     "meaning": "cherry blossom"
     },
     {
      "id": "vocab:kana:tori-とり",
      "jp": "とり",
      "romaji": "tori",
-     "meaning": "bird",
-     "pitch": 0
+     "meaning": "bird"
     },
     {
      "id": "vocab:kana:kuruma-くるま",
      "jp": "くるま",
      "romaji": "kuruma",
-     "meaning": "car",
-     "pitch": 0
+     "meaning": "car"
     },
     {
      "id": "vocab:kana:sora-そら",
      "jp": "そら",
      "romaji": "sora",
-     "meaning": "sky",
-     "pitch": 1
+     "meaning": "sky"
     },
     {
      "id": "vocab:kana:kore-これ",
@@ -960,15 +915,13 @@
      "id": "vocab:kana:haru-はる",
      "jp": "はる",
      "romaji": "haru",
-     "meaning": "spring",
-     "pitch": 1
+     "meaning": "spring"
     },
     {
      "id": "vocab:kana:miru-みる",
      "jp": "みる",
      "romaji": "miru",
-     "meaning": "to see; to watch",
-     "pitch": 1
+     "meaning": "to see; to watch"
     },
     {
      "id": "vocab:kana:kaeru-かえる",
@@ -1017,57 +970,49 @@
      "id": "vocab:kana:watashi-わたし",
      "jp": "わたし",
      "romaji": "watashi",
-     "meaning": "I; me",
-     "pitch": 0
+     "meaning": "I; me"
     },
     {
      "id": "vocab:kana:kawa-かわ",
      "jp": "かわ",
      "romaji": "kawa",
-     "meaning": "river",
-     "pitch": 2
+     "meaning": "river"
     },
     {
      "id": "vocab:kana:niwa-にわ",
      "jp": "にわ",
      "romaji": "niwa",
-     "meaning": "garden",
-     "pitch": 0
+     "meaning": "garden"
     },
     {
      "id": "vocab:kana:hon-ほん",
      "jp": "ほん",
      "romaji": "hon",
-     "meaning": "book",
-     "pitch": 1
+     "meaning": "book"
     },
     {
      "id": "vocab:kana:sensei-せんせい",
      "jp": "せんせい",
      "romaji": "sensei",
-     "meaning": "teacher",
-     "pitch": 3
+     "meaning": "teacher"
     },
     {
      "id": "vocab:kana:nihon-にほん",
      "jp": "にほん",
      "romaji": "nihon",
-     "meaning": "Japan",
-     "pitch": 2
+     "meaning": "Japan"
     },
     {
      "id": "vocab:kana:onna-おんな",
      "jp": "おんな",
      "romaji": "onna",
-     "meaning": "woman",
-     "pitch": 3
+     "meaning": "woman"
     },
     {
      "id": "vocab:kana:mikan-みかん",
      "jp": "みかん",
      "romaji": "mikan",
-     "meaning": "mandarin orange",
-     "pitch": 1
+     "meaning": "mandarin orange"
     },
     {
      "id": "vocab:kana:en-えん",
@@ -1166,8 +1111,7 @@
      "id": "vocab:kana:gohan-ごはん",
      "jp": "ごはん",
      "romaji": "gohan",
-     "meaning": "cooked rice; meal",
-     "pitch": 1
+     "meaning": "cooked rice; meal"
     },
     {
      "id": "vocab:kana:hiragana-ひらがな",
@@ -1272,22 +1216,19 @@
      "id": "vocab:kana:kaze-かぜ",
      "jp": "かぜ",
      "romaji": "kaze",
-     "meaning": "wind; a cold",
-     "pitch": 0
+     "meaning": "wind; a cold"
     },
     {
      "id": "vocab:kana:mizu-みず",
      "jp": "みず",
      "romaji": "mizu",
-     "meaning": "water",
-     "pitch": 0
+     "meaning": "water"
     },
     {
      "id": "vocab:kana:kazoku-かぞく",
      "jp": "かぞく",
      "romaji": "kazoku",
-     "meaning": "family",
-     "pitch": 1
+     "meaning": "family"
     },
     {
      "id": "vocab:kana:kaji-かじ",
@@ -1317,8 +1258,7 @@
      "id": "vocab:kana:jikan-じかん",
      "jp": "じかん",
      "romaji": "jikan",
-     "meaning": "time; hour",
-     "pitch": 0
+     "meaning": "time; hour"
     },
     {
      "id": "vocab:kana:hiza-ひざ",
@@ -1392,15 +1332,13 @@
      "id": "vocab:kana:daigaku-だいがく",
      "jp": "だいがく",
      "romaji": "daigaku",
-     "meaning": "university",
-     "pitch": 0
+     "meaning": "university"
     },
     {
      "id": "vocab:kana:denwa-でんわ",
      "jp": "でんわ",
      "romaji": "denwa",
-     "meaning": "telephone",
-     "pitch": 0
+     "meaning": "telephone"
     },
     {
      "id": "vocab:kana:doko-どこ",
@@ -1412,8 +1350,7 @@
      "id": "vocab:kana:tomodachi-ともだち",
      "jp": "ともだち",
      "romaji": "tomodachi",
-     "meaning": "friend",
-     "pitch": 0
+     "meaning": "friend"
     },
     {
      "id": "vocab:kana:denki-でんき",
@@ -1511,64 +1448,55 @@
      "id": "vocab:kana:kaban-かばん",
      "jp": "かばん",
      "romaji": "kaban",
-     "meaning": "bag",
-     "pitch": 0
+     "meaning": "bag"
     },
     {
      "id": "vocab:kana:buta-ぶた",
      "jp": "ぶた",
      "romaji": "buta",
-     "meaning": "pig",
-     "pitch": 0
+     "meaning": "pig"
     },
     {
      "id": "vocab:kana:boushi-ぼうし",
      "jp": "ぼうし",
      "romaji": "boushi",
-     "meaning": "hat",
-     "pitch": 0
+     "meaning": "hat"
     },
     {
      "id": "vocab:kana:taberu-たべる",
      "jp": "たべる",
      "romaji": "taberu",
-     "meaning": "to eat",
-     "pitch": 2
+     "meaning": "to eat"
     },
     {
      "id": "vocab:kana:ebi-えび",
      "jp": "えび",
      "romaji": "ebi",
-     "meaning": "shrimp",
-     "pitch": 0
+     "meaning": "shrimp"
     },
     {
      "id": "vocab:kana:kabe-かべ",
      "jp": "かべ",
      "romaji": "kabe",
-     "meaning": "wall",
-     "pitch": 0
+     "meaning": "wall"
     },
     {
      "id": "vocab:kana:shinbun-しんぶん",
      "jp": "しんぶん",
      "romaji": "shinbun",
-     "meaning": "newspaper",
-     "pitch": 0
+     "meaning": "newspaper"
     },
     {
      "id": "vocab:kana:yubi-ゆび",
      "jp": "ゆび",
      "romaji": "yubi",
-     "meaning": "finger",
-     "pitch": 2
+     "meaning": "finger"
     },
     {
      "id": "vocab:kana:kotoba-ことば",
      "jp": "ことば",
      "romaji": "kotoba",
-     "meaning": "word; language",
-     "pitch": 3
+     "meaning": "word; language"
     },
     {
      "id": "vocab:kana:abunai-あぶない",
@@ -1607,7 +1535,7 @@
      "char": "ぱ",
      "romaji": "pa",
      "base": "は",
-     "mnemonic": "は with a small circle (handakuten) becomes pa. Same shape, voiced sound.",
+     "mnemonic": "は with a small circle (handakuten) becomes pa. Same shape, p sound.",
      "strokes": 4
     },
     {
@@ -1615,7 +1543,7 @@
      "char": "ぴ",
      "romaji": "pi",
      "base": "ひ",
-     "mnemonic": "ひ with a small circle (handakuten) becomes pi. Same shape, voiced sound.",
+     "mnemonic": "ひ with a small circle (handakuten) becomes pi. Same shape, p sound.",
      "strokes": 2
     },
     {
@@ -1623,7 +1551,7 @@
      "char": "ぷ",
      "romaji": "pu",
      "base": "ふ",
-     "mnemonic": "ふ with a small circle (handakuten) becomes pu. Same shape, voiced sound.",
+     "mnemonic": "ふ with a small circle (handakuten) becomes pu. Same shape, p sound.",
      "strokes": 5
     },
     {
@@ -1631,7 +1559,7 @@
      "char": "ぺ",
      "romaji": "pe",
      "base": "へ",
-     "mnemonic": "へ with a small circle (handakuten) becomes pe. Same shape, voiced sound.",
+     "mnemonic": "へ with a small circle (handakuten) becomes pe. Same shape, p sound.",
      "strokes": 2
     },
     {
@@ -1639,7 +1567,7 @@
      "char": "ぽ",
      "romaji": "po",
      "base": "ほ",
-     "mnemonic": "ほ with a small circle (handakuten) becomes po. Same shape, voiced sound.",
+     "mnemonic": "ほ with a small circle (handakuten) becomes po. Same shape, p sound.",
      "strokes": 5
     }
    ],
@@ -1648,22 +1576,19 @@
      "id": "vocab:kana:pan-ぱん",
      "jp": "ぱん",
      "romaji": "pan",
-     "meaning": "bread",
-     "pitch": 1
+     "meaning": "bread"
     },
     {
      "id": "vocab:kana:enpitsu-えんぴつ",
      "jp": "えんぴつ",
      "romaji": "enpitsu",
-     "meaning": "pencil",
-     "pitch": 0
+     "meaning": "pencil"
     },
     {
      "id": "vocab:kana:sanpo-さんぽ",
      "jp": "さんぽ",
      "romaji": "sanpo",
-     "meaning": "a walk",
-     "pitch": 0
+     "meaning": "a walk"
     },
     {
      "id": "vocab:kana:tenpura-てんぷら",
@@ -1953,57 +1878,49 @@
      "id": "vocab:kana:kyaku-きゃく",
      "jp": "きゃく",
      "romaji": "kyaku",
-     "meaning": "guest; customer",
-     "pitch": 0
+     "meaning": "guest; customer"
     },
     {
      "id": "vocab:kana:shashin-しゃしん",
      "jp": "しゃしん",
      "romaji": "shashin",
-     "meaning": "photograph",
-     "pitch": 0
+     "meaning": "photograph"
     },
     {
      "id": "vocab:kana:ocha-おちゃ",
      "jp": "おちゃ",
      "romaji": "ocha",
-     "meaning": "tea",
-     "pitch": 0
+     "meaning": "tea"
     },
     {
      "id": "vocab:kana:hyaku-ひゃく",
      "jp": "ひゃく",
      "romaji": "hyaku",
-     "meaning": "hundred",
-     "pitch": 2
+     "meaning": "hundred"
     },
     {
      "id": "vocab:kana:ryokou-りょこう",
      "jp": "りょこう",
      "romaji": "ryokou",
-     "meaning": "travel",
-     "pitch": 0
+     "meaning": "travel"
     },
     {
      "id": "vocab:kana:kyou-きょう",
      "jp": "きょう",
      "romaji": "kyou",
-     "meaning": "today",
-     "pitch": 1
+     "meaning": "today"
     },
     {
      "id": "vocab:kana:shukudai-しゅくだい",
      "jp": "しゅくだい",
      "romaji": "shukudai",
-     "meaning": "homework",
-     "pitch": 0
+     "meaning": "homework"
     },
     {
      "id": "vocab:kana:toshokan-としょかん",
      "jp": "としょかん",
      "romaji": "toshokan",
-     "meaning": "library",
-     "pitch": 2
+     "meaning": "library"
     },
     {
      "id": "vocab:kana:chuui-ちゅうい",
@@ -2206,15 +2123,13 @@
      "id": "vocab:kana:gyuunyuu-ぎゅうにゅう",
      "jp": "ぎゅうにゅう",
      "romaji": "gyuunyuu",
-     "meaning": "milk",
-     "pitch": 0
+     "meaning": "milk"
     },
     {
      "id": "vocab:kana:juu-じゅう",
      "jp": "じゅう",
      "romaji": "juu",
-     "meaning": "ten",
-     "pitch": 1
+     "meaning": "ten"
     },
     {
      "id": "vocab:kana:jaa-じゃあ",
@@ -2226,8 +2141,7 @@
      "id": "vocab:kana:byouin-びょういん",
      "jp": "びょういん",
      "romaji": "byouin",
-     "meaning": "hospital",
-     "pitch": 0
+     "meaning": "hospital"
     },
     {
      "id": "vocab:kana:sanbyaku-さんびゃく",
@@ -2298,29 +2212,25 @@
      "id": "vocab:kana:gakkou-がっこう",
      "jp": "がっこう",
      "romaji": "gakkou",
-     "meaning": "school",
-     "pitch": 0
+     "meaning": "school"
     },
     {
      "id": "vocab:kana:kitte-きって",
      "jp": "きって",
      "romaji": "kitte",
-     "meaning": "postage stamp",
-     "pitch": 0
+     "meaning": "postage stamp"
     },
     {
      "id": "vocab:kana:zasshi-ざっし",
      "jp": "ざっし",
      "romaji": "zasshi",
-     "meaning": "magazine",
-     "pitch": 0
+     "meaning": "magazine"
     },
     {
      "id": "vocab:kana:kippu-きっぷ",
      "jp": "きっぷ",
      "romaji": "kippu",
-     "meaning": "ticket",
-     "pitch": 0
+     "meaning": "ticket"
     },
     {
      "id": "vocab:kana:chotto-ちょっと",
@@ -2446,29 +2356,25 @@
      "id": "vocab:kana:okaasan-おかあさん",
      "jp": "おかあさん",
      "romaji": "okaasan",
-     "meaning": "mother",
-     "pitch": 2
+     "meaning": "mother"
     },
     {
      "id": "vocab:kana:oniisan-おにいさん",
      "jp": "おにいさん",
      "romaji": "oniisan",
-     "meaning": "older brother",
-     "pitch": 2
+     "meaning": "older brother"
     },
     {
      "id": "vocab:kana:oneesan-おねえさん",
      "jp": "おねえさん",
      "romaji": "oneesan",
-     "meaning": "older sister",
-     "pitch": 2
+     "meaning": "older sister"
     },
     {
      "id": "vocab:kana:otousan-おとうさん",
      "jp": "おとうさん",
      "romaji": "otousan",
-     "meaning": "father",
-     "pitch": 2
+     "meaning": "father"
     },
     {
      "id": "vocab:kana:kuuki-くうき",
@@ -2480,22 +2386,19 @@
      "id": "vocab:kana:tooi-とおい",
      "jp": "とおい",
      "romaji": "tooi",
-     "meaning": "far",
-     "pitch": 0
+     "meaning": "far"
     },
     {
      "id": "vocab:kana:ookii-おおきい",
      "jp": "おおきい",
      "romaji": "ookii",
-     "meaning": "big",
-     "pitch": 3
+     "meaning": "big"
     },
     {
      "id": "vocab:kana:koukou-こうこう",
      "jp": "こうこう",
      "romaji": "koukou",
-     "meaning": "high school",
-     "pitch": 0
+     "meaning": "high school"
     },
     {
      "id": "vocab:kana:yuubinkyoku-ゆうびんきょく",
@@ -2507,8 +2410,7 @@
      "id": "vocab:kana:eiga-えいが",
      "jp": "えいが",
      "romaji": "eiga",
-     "meaning": "movie",
-     "pitch": 1
+     "meaning": "movie"
     },
     {
      "id": "vocab:kana:toukyou-とうきょう",
@@ -2526,15 +2428,13 @@
      "id": "vocab:kana:ohayou-おはよう",
      "jp": "おはよう",
      "romaji": "ohayou",
-     "meaning": "good morning",
-     "pitch": 0
+     "meaning": "good morning"
     },
     {
      "id": "vocab:kana:arigatou-ありがとう",
      "jp": "ありがとう",
      "romaji": "arigatou",
-     "meaning": "thank you",
-     "pitch": 2
+     "meaning": "thank you"
     },
     {
      "id": "vocab:kana:sayounara-さようなら",

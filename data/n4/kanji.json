@@ -2017,9 +2017,9 @@
   "unit": 12,
   "order": 1200,
   "meanings": [
-   "Inst.",
    "institution",
-   "temple"
+   "temple",
+   "hospital or academy (suffix)"
   ],
   "on": [
    "イン"
@@ -5051,9 +5051,9 @@
   "unit": 28,
   "order": 2802,
   "meanings": [
-   "settle (debt, etc.)",
-   "relieve (burden)",
-   "finish"
+   "finish",
+   "settle (a debt)",
+   "relieve"
   ],
   "on": [
    "サイ",
@@ -5182,8 +5182,9 @@
   "unit": 29,
   "order": 2900,
   "meanings": [
-   "Sino-",
-   "China"
+   "China",
+   "Han; Sino-",
+   "fellow"
   ],
   "on": [
    "カン"
@@ -5209,8 +5210,8 @@
   "unit": 29,
   "order": 2901,
   "meanings": [
-   "England",
    "English",
+   "England",
    "hero"
   ],
   "on": [

@@ -147,7 +147,7 @@ for (const [id, [title, intro, chars]] of Object.entries(DAKUTEN)) {
   push(id, title, id === 'h-pa' ? 'handakuten' : 'dakuten', chars.map(([char, romaji, idSlug]) => {
     const base = String.fromCodePoint(char.codePointAt(0) - (id === 'h-pa' ? 2 : 1));
     const mark = id === 'h-pa' ? 'a small circle (handakuten)' : 'two dots (dakuten)';
-    return { id: `kana:h:${idSlug || slug(romaji)}`, char, romaji, base, mnemonic: `${base} with ${mark} becomes ${romaji.replace(/\s*\(.*\)/, '')}. Same shape, voiced sound.` };
+    return { id: `kana:h:${idSlug || slug(romaji)}`, char, romaji, base, mnemonic: `${base} with ${mark} becomes ${romaji.replace(/\s*\(.*\)/, '')}. Same shape, ${mark.includes('handakuten') ? 'p sound' : 'voiced sound'}.` };
   }), WORDS[id], intro);
 }
 function comboChars(list) {

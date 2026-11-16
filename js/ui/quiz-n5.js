@@ -22,7 +22,7 @@ export function qKanjiFromMeaning(k, pool) {
 /* ---------- vocabulary ---------- */
 export function qVocabMeaning(v, pool) {
   const distractors = pick(pool.filter((x) => x.id !== v.id).map((x) => x.meanings[0]), 3, v.meanings[0]);
-  return { kind: 'choice', itemId: v.id, type: 'recognition', prompt: { jp: v.jp }, options: shuffle([v.meanings[0], ...distractors]), answer: v.meanings[0], why: `${v.jp} (${v.kana}) means ${v.meanings.join('; ')}.` };
+  return { kind: 'choice', itemId: v.id, type: 'recognition', prompt: { jp: v.jp }, options: shuffle([v.meanings[0], ...distractors]), answer: v.meanings[0], why: `${v.jp}${v.jp === v.kana ? '' : ` (${v.kana})`} means ${v.meanings.join('; ')}.` };
 }
 export function qVocabReading(v) {
   return { kind: 'typed', itemId: v.id, type: 'reading', prompt: { jp: v.jp, hint: v.meanings[0] }, accepted: [v.kana], answer: v.kana, why: `${v.jp} is read ${v.kana} (${v.romaji}).`, kanaOnly: true };
@@ -61,7 +61,7 @@ export function unitQuiz(lv, unit, { n = 12, strokes = null } = {}) {
     const slot = i % 6;
     if (slot === 0 && K.length) qs.push(qKanjiMeaning(nk(), lv.kanji));
     else if (slot === 1 && V.length) qs.push(qVocabMeaning(nv(), lv.vocab));
-    else if (slot === 2 && V.length) qs.push(qVocabReading(nv()));
+    else if (slot === 2 && V.length) { const v = nv(); qs.push(v.jp === v.kana ? qVocabListen(v, lv.vocab) : qVocabReading(v)); }
     else if (slot === 3 && G.length) qs.push(qGrammar(ng()));
     else if (slot === 4 && K.length) qs.push(qKanjiReading(nk()));
     else if (V.length) qs.push(qVocabListen(nv(), lv.vocab));

@@ -1592,9 +1592,9 @@
   "unit": 9,
   "order": 903,
   "meanings": [
-   "etc.",
-   "and so forth",
-   "class (first)"
+   "equal",
+   "class",
+   "etc."
   ],
   "on": [
    "トウ"
@@ -2053,8 +2053,8 @@
   "order": 1200,
   "meanings": [
    "Buddha",
-   "the dead",
-   "France"
+   "France",
+   "the dead"
   ],
   "on": [
    "ブツ",
@@ -3499,8 +3499,8 @@
   "unit": 19,
   "order": 1905,
   "meanings": [
-   "sheet of...",
-   "counter for flat thin objects or sheets"
+   "counter for flat things",
+   "sheet"
   ],
   "on": [
    "マイ",
@@ -4914,7 +4914,7 @@
   "unit": 27,
   "order": 2703,
   "meanings": [
-   "second (1/60 minute)"
+   "second (of time)"
   ],
   "on": [
    "ビョウ"
@@ -6739,9 +6739,9 @@
   "unit": 37,
   "order": 3704,
   "meanings": [
-   "Mr.",
    "hall",
-   "mansion"
+   "mansion",
+   "Mr (formal)"
   ],
   "on": [
    "デン",
@@ -7122,8 +7122,8 @@
   "unit": 39,
   "order": 3905,
   "meanings": [
+   "cup",
    "counter for cupfuls",
-   "wine glass",
    "glass"
   ],
   "on": [

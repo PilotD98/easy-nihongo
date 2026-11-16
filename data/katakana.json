@@ -139,8 +139,7 @@
      "id": "vocab:katakana:keeki-ケーキ",
      "jp": "ケーキ",
      "romaji": "keeki",
-     "meaning": "cake",
-     "pitch": 1
+     "meaning": "cake"
     },
     {
      "id": "vocab:katakana:kii-キー",
@@ -338,15 +337,13 @@
      "id": "vocab:katakana:tesuto-テスト",
      "jp": "テスト",
      "romaji": "tesuto",
-     "meaning": "test",
-     "pitch": 1
+     "meaning": "test"
     },
     {
      "id": "vocab:katakana:takushii-タクシー",
      "jp": "タクシー",
      "romaji": "takushii",
-     "meaning": "taxi",
-     "pitch": 1
+     "meaning": "taxi"
     },
     {
      "id": "vocab:katakana:toosuto-トースト",
@@ -457,8 +454,7 @@
      "id": "vocab:katakana:nooto-ノート",
      "jp": "ノート",
      "romaji": "nooto",
-     "meaning": "notebook",
-     "pitch": 1
+     "meaning": "notebook"
     },
     {
      "id": "vocab:katakana:nekutai-ネクタイ",
@@ -551,8 +547,7 @@
      "id": "vocab:katakana:koohii-コーヒー",
      "jp": "コーヒー",
      "romaji": "koohii",
-     "meaning": "coffee",
-     "pitch": 3
+     "meaning": "coffee"
     },
     {
      "id": "vocab:katakana:naifu-ナイフ",
@@ -829,15 +824,13 @@
      "id": "vocab:katakana:hoteru-ホテル",
      "jp": "ホテル",
      "romaji": "hoteru",
-     "meaning": "hotel",
-     "pitch": 1
+     "meaning": "hotel"
     },
     {
      "id": "vocab:katakana:kamera-カメラ",
      "jp": "カメラ",
      "romaji": "kamera",
-     "meaning": "camera",
-     "pitch": 1
+     "meaning": "camera"
     },
     {
      "id": "vocab:katakana:toire-トイレ",
@@ -861,8 +854,7 @@
      "id": "vocab:katakana:meeru-メール",
      "jp": "メール",
      "romaji": "meeru",
-     "meaning": "email",
-     "pitch": 0
+     "meaning": "email"
     },
     {
      "id": "vocab:katakana:karaa-カラー",
@@ -953,8 +945,7 @@
      "id": "vocab:katakana:wain-ワイン",
      "jp": "ワイン",
      "romaji": "wain",
-     "meaning": "wine",
-     "pitch": 1
+     "meaning": "wine"
     },
     {
      "id": "vocab:katakana:remon-レモン",
@@ -966,15 +957,13 @@
      "id": "vocab:katakana:raamen-ラーメン",
      "jp": "ラーメン",
      "romaji": "raamen",
-     "meaning": "ramen",
-     "pitch": 1
+     "meaning": "ramen"
     },
     {
      "id": "vocab:katakana:resutoran-レストラン",
      "jp": "レストラン",
      "romaji": "resutoran",
-     "meaning": "restaurant",
-     "pitch": 1
+     "meaning": "restaurant"
     },
     {
      "id": "vocab:katakana:rimokon-リモコン",
@@ -1079,8 +1068,7 @@
      "id": "vocab:katakana:geemu-ゲーム",
      "jp": "ゲーム",
      "romaji": "geemu",
-     "meaning": "game",
-     "pitch": 1
+     "meaning": "game"
     },
     {
      "id": "vocab:katakana:gasu-ガス",
@@ -1092,8 +1080,7 @@
      "id": "vocab:katakana:gitaa-ギター",
      "jp": "ギター",
      "romaji": "gitaa",
-     "meaning": "guitar",
-     "pitch": 1
+     "meaning": "guitar"
     },
     {
      "id": "vocab:katakana:gurasu-グラス",
@@ -1339,8 +1326,7 @@
      "id": "vocab:katakana:doa-ドア",
      "jp": "ドア",
      "romaji": "doa",
-     "meaning": "door",
-     "pitch": 1
+     "meaning": "door"
     },
     {
      "id": "vocab:katakana:sarada-サラダ",
@@ -1451,22 +1437,19 @@
      "id": "vocab:katakana:terebi-テレビ",
      "jp": "テレビ",
      "romaji": "terebi",
-     "meaning": "television",
-     "pitch": 1
+     "meaning": "television"
     },
     {
      "id": "vocab:katakana:basu-バス",
      "jp": "バス",
      "romaji": "basu",
-     "meaning": "bus",
-     "pitch": 1
+     "meaning": "bus"
     },
     {
      "id": "vocab:katakana:biiru-ビール",
      "jp": "ビール",
      "romaji": "biiru",
-     "meaning": "beer",
-     "pitch": 1
+     "meaning": "beer"
     },
     {
      "id": "vocab:katakana:banana-バナナ",
@@ -1548,7 +1531,7 @@
      "char": "パ",
      "romaji": "pa",
      "base": "ハ",
-     "mnemonic": "ハ with a small circle (handakuten) becomes pa. Same shape, voiced sound.",
+     "mnemonic": "ハ with a small circle (handakuten) becomes pa. Same shape, p sound.",
      "strokes": 3
     },
     {
@@ -1556,7 +1539,7 @@
      "char": "ピ",
      "romaji": "pi",
      "base": "ヒ",
-     "mnemonic": "ヒ with a small circle (handakuten) becomes pi. Same shape, voiced sound.",
+     "mnemonic": "ヒ with a small circle (handakuten) becomes pi. Same shape, p sound.",
      "strokes": 3
     },
     {
@@ -1564,7 +1547,7 @@
      "char": "プ",
      "romaji": "pu",
      "base": "フ",
-     "mnemonic": "フ with a small circle (handakuten) becomes pu. Same shape, voiced sound.",
+     "mnemonic": "フ with a small circle (handakuten) becomes pu. Same shape, p sound.",
      "strokes": 2
     },
     {
@@ -1572,7 +1555,7 @@
      "char": "ペ",
      "romaji": "pe",
      "base": "ヘ",
-     "mnemonic": "ヘ with a small circle (handakuten) becomes pe. Same shape, voiced sound.",
+     "mnemonic": "ヘ with a small circle (handakuten) becomes pe. Same shape, p sound.",
      "strokes": 2
     },
     {
@@ -1580,7 +1563,7 @@
      "char": "ポ",
      "romaji": "po",
      "base": "ホ",
-     "mnemonic": "ホ with a small circle (handakuten) becomes po. Same shape, voiced sound.",
+     "mnemonic": "ホ with a small circle (handakuten) becomes po. Same shape, p sound.",
      "strokes": 5
     }
    ],
@@ -1589,22 +1572,19 @@
      "id": "vocab:katakana:pan-パン",
      "jp": "パン",
      "romaji": "pan",
-     "meaning": "bread",
-     "pitch": 1
+     "meaning": "bread"
     },
     {
      "id": "vocab:katakana:pen-ペン",
      "jp": "ペン",
      "romaji": "pen",
-     "meaning": "pen",
-     "pitch": 1
+     "meaning": "pen"
     },
     {
      "id": "vocab:katakana:pasokon-パソコン",
      "jp": "パソコン",
      "romaji": "pasokon",
-     "meaning": "personal computer",
-     "pitch": 0
+     "meaning": "personal computer"
     },
     {
      "id": "vocab:katakana:suupu-スープ",
@@ -1658,8 +1638,7 @@
      "id": "vocab:katakana:suupaa-スーパー",
      "jp": "スーパー",
      "romaji": "suupaa",
-     "meaning": "supermarket",
-     "pitch": 1
+     "meaning": "supermarket"
     },
     {
      "id": "vocab:katakana:depaato-デパート",
@@ -1925,15 +1904,13 @@
      "id": "vocab:katakana:shatsu-シャツ",
      "jp": "シャツ",
      "romaji": "shatsu",
-     "meaning": "shirt",
-     "pitch": 1
+     "meaning": "shirt"
     },
     {
      "id": "vocab:katakana:nyuusu-ニュース",
      "jp": "ニュース",
      "romaji": "nyuusu",
-     "meaning": "news",
-     "pitch": 1
+     "meaning": "news"
     },
     {
      "id": "vocab:katakana:shawaa-シャワー",
@@ -2160,8 +2137,7 @@
      "id": "vocab:katakana:juusu-ジュース",
      "jp": "ジュース",
      "romaji": "juusu",
-     "meaning": "juice",
-     "pitch": 1
+     "meaning": "juice"
     },
     {
      "id": "vocab:katakana:jogingu-ジョギング",
@@ -2251,8 +2227,7 @@
      "id": "vocab:katakana:sakkaa-サッカー",
      "jp": "サッカー",
      "romaji": "sakkaa",
-     "meaning": "football (soccer)",
-     "pitch": 1
+     "meaning": "football (soccer)"
     },
     {
      "id": "vocab:katakana:kukkii-クッキー",

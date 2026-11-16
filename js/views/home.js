@@ -35,7 +35,7 @@ export async function render(el) {
 
     h('section', { class: 'card', 'aria-labelledby': 'plan-h' },
       h('div', { class: 'card-title' }, h('h2', { id: 'plan-h' }, "Today's plan"),
-        h('span', { class: 'pill', title: 'Missing a day never costs you anything.' }, `${streak}-day streak`)),
+        h('span', { class: 'pill', title: 'Missing a day never costs you anything.' }, streak ? `${streak}-day streak` : 'No streak yet')),
       h('div', { class: 'stat-grid' },
         stat(plan.due, 'Reviews due'),
         stat(plan.newLeft, 'New items left'),
