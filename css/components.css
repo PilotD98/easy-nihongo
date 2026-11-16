@@ -196,7 +196,7 @@ dialog.sheet .sheet-foot { display: flex; justify-content: flex-end; gap: var(--
 .guide-links { list-style: none; padding: 0; margin: 0; }
 .guide-links li { padding: var(--s-2) 0; border-bottom: 1px solid var(--border); }
 .guide-links li:last-child { border-bottom: 0; }
-.sign-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); }
+.sign-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); gap: var(--s-3); }
 .sign { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 110px; padding: var(--s-3); border: 2px solid var(--text); border-radius: var(--radius-sm); background: var(--surface); color: inherit; font: inherit; cursor: pointer; text-align: center; }
 .sign:disabled { cursor: default; }
 .sign-jp { font-size: 1.6rem; font-weight: 700; line-height: 1.2; }
