@@ -1,8 +1,8 @@
 {
-  "name": "kotoba-path",
+  "name": "easy-nihongo",
   "version": "0.1.0",
   "private": true,
-  "description": "Kotoba Path — a calm, offline-first Japanese learning app (zero to JLPT N1) that deploys as a static site.",
+  "description": "Easy Nihongo — a calm, offline-first Japanese learning app (zero to JLPT N1) that deploys as a static site.",
   "type": "module",
   "scripts": {
     "serve": "node scripts/serve.mjs",

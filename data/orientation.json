@@ -40,7 +40,7 @@
       "body": [
         "Japanese verbs have a plain form and a polite form, and choosing between them is part of every sentence. The polite form (ending in ます / です) is the safe default with strangers, colleagues and anyone older. The plain form (たべる, だ) is for family, close friends and writing to yourself.",
         "There is also a respectful register, keigo, used in service and business settings. You will learn it at N3 and beyond; for now, knowing that it exists is enough.",
-        "Kotoba Path teaches the polite form first, so everything you can say from day one is safe to say to anyone."
+        "Easy Nihongo teaches the polite form first, so everything you can say from day one is safe to say to anyone."
       ],
       "example": { "jp": "たべる → たべます", "romaji": "taberu → tabemasu", "en": "plain → polite: \"eat\"" }
     },
@@ -48,7 +48,7 @@
       "id": "romaji",
       "title": "About romaji",
       "body": [
-        "Romaji writes Japanese sounds in Latin letters. Kotoba Path uses it as training wheels: you will see it under each kana until you know that kana, and then it fades away, character by character.",
+        "Romaji writes Japanese sounds in Latin letters. Easy Nihongo uses it as training wheels: you will see it under each kana until you know that kana, and then it fades away, character by character.",
         "Japanese people do not read romaji in daily life, and leaning on it slows down reading. Treat it as a temporary support, not a goal. You can adjust how long it stays in Settings → Script support.",
         "Next: the first five hiragana, あ い う え お, the vowels every other sound is built on."
       ]

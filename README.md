@@ -1,4 +1,4 @@
-# Kotoba Path (言葉の道)
+# Easy Nihongo (かんたん日本語)
 
 A calm, serious Japanese study tool that runs entirely in your browser and
 deploys as a static site on GitHub Pages. It takes a learner from zero to
@@ -201,7 +201,7 @@ You do not need any prior GitHub experience.
 
 1. **Create a GitHub account** at https://github.com if you do not have one.
 2. **Create a new repository**: click the "+" in the top-right → "New
-   repository". Name it, for example, `kotoba-path`. Keep it Public (GitHub
+   repository". Name it, for example, `easy-nihongo`. Keep it Public (GitHub
    Pages is free for public repositories). Do not add a README; this project
    already has one. Click "Create repository".
 3. **Upload the project.** Either:
@@ -209,9 +209,9 @@ You do not need any prior GitHub experience.
      ```bash
      git init
      git add .
-     git commit -m "Kotoba Path: foundation"
+     git commit -m "Easy Nihongo: foundation"
      git branch -M main
-     git remote add origin https://github.com/YOUR-USER/kotoba-path.git
+     git remote add origin https://github.com/YOUR-USER/easy-nihongo.git
      git push -u origin main
      ```
    - *Without git:* on the repository page click "uploading an existing file",
@@ -223,7 +223,7 @@ You do not need any prior GitHub experience.
 5. **Wait for the deploy**: open the **Actions** tab. The "Deploy to GitHub
    Pages" workflow runs automatically on every push to `main`. The first run
    takes about a minute. When it shows a green check, the site is live.
-6. **Open the app** at `https://YOUR-USER.github.io/kotoba-path/`. On a phone,
+6. **Open the app** at `https://YOUR-USER.github.io/easy-nihongo/`. On a phone,
    add it to the home screen (see "Browser support").
 
 Every later push to `main` redeploys automatically. The workflow validates the
@@ -241,7 +241,7 @@ curriculum and scans for accidentally committed secrets before deploying.
   separately from Safari. Recording (MediaRecorder) works in Safari 14.1+ and
   produces `audio/mp4`.
 - **Speech recognition accuracy**: the browser's recognizer may return kanji
-  (今日は for こんにちは). Kotoba Path compares by sound using the best of up
+  (今日は for こんにちは). Easy Nihongo compares by sound using the best of up
   to five alternatives and a list of common spellings per phrase, and tells
   you when part of a result could not be compared.
 - **Firefox**: everything except speech recognition (it falls back to
@@ -306,7 +306,7 @@ commercial textbooks or apps.
 
 ## Privacy
 
-Kotoba Path makes no network requests except to load its own files, its
+Easy Nihongo makes no network requests except to load its own files, its
 open-licensed curriculum data and the Noto fonts from Google Fonts (cached
 after first use). There are no analytics, no trackers and no accounts. All
 progress is stored on your device and only leaves it when you export a backup.

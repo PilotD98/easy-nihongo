@@ -73,7 +73,7 @@ function setupCard() {
     const describe = () => {
       row.replaceChildren();
       if (canPromptInstall()) {
-        row.append(h('span', { class: 'grow' }, 'Install Kotoba Path for full-screen, offline study.'),
+        row.append(h('span', { class: 'grow' }, 'Install Easy Nihongo for full-screen, offline study.'),
           h('button', { class: 'btn', type: 'button', onClick: async () => { const r = await promptInstall(); if (r === 'accepted') toast('Installed. Open it from your home screen or app list.'); } }, icon('install'), 'Install'));
       } else if (isIOS()) {
         row.append(h('span', null, 'Install on iPhone or iPad: tap the Share button in Safari, then ', h('strong', null, 'Add to Home Screen'), '.'));

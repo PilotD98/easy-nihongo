@@ -42,7 +42,7 @@ function registerServiceWorker() {
       const reg = await navigator.serviceWorker.register('./sw.js');
       // A new version is waiting: offer to reload.
       const offerUpdate = (worker) => {
-        toast('A new version of Kotoba Path is ready.', {
+        toast('A new version of Easy Nihongo is ready.', {
           sticky: true,
           action: { label: 'Reload', onClick: () => worker.postMessage({ type: 'SKIP_WAITING' }) }
         });

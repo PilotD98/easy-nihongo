@@ -34,5 +34,5 @@ http.createServer((req, res) => {
     fs.createReadStream(file).pipe(res);
   });
 }).listen(PORT, () => {
-  console.log(`Kotoba Path dev server: http://localhost:${PORT}/`);
+  console.log(`Easy Nihongo dev server: http://localhost:${PORT}/`);
 });

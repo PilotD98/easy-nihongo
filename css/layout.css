@@ -73,3 +73,26 @@
   .topbar .nav-secondary { display: none; }
   .view { flex: 1; min-width: 0; padding: var(--s-6) var(--s-6) var(--s-7); }
 }
+
+/* Wide desktop: pages made of cards flow into two columns so a 1080p screen
+   is not mostly empty. Lessons, reviews, exams and item pages stay single
+   column at reading width. */
+@media (min-width: 1200px) {
+  .view[data-route="home"], .view[data-route="learn"], .view[data-route="settings"], .view[data-route="progress"],
+  .view[data-route="read"], .view[data-route="speak"], .view[data-route="about"] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 560px));
+    justify-content: center;
+    align-content: start;
+    gap: var(--s-4) var(--s-5);
+  }
+  .view[data-route] > * { max-width: none; margin-left: 0; margin-right: 0; }
+  .view[data-route] > .page-head, .view[data-route] > .card-accent, .view[data-route] > .span-2,
+  .view[data-route="learn"] > .card, .view[data-route="progress"] > .card:first-of-type { grid-column: 1 / -1; }
+  .view[data-route="learn"] .path, .view[data-route="read"] .path { display: grid; grid-template-columns: 1fr 1fr; column-gap: var(--s-5); }
+  .view[data-route="read"] > .card { grid-column: 1 / -1; }
+  .view[data-route="settings"] > .settings-group { margin-bottom: 0; }
+  /* Home: plan beside placement, set-up beside its note; the closing note spans. */
+  .view[data-route="home"] > .card-accent { grid-column: auto; }
+  .view[data-route] > p { grid-column: 1 / -1; }
+}

@@ -20,7 +20,7 @@ export async function render(el, ctx) {
     group('Appearance', [
       segField('Theme', 'theme'),
       segField('Text size', 'fontSize', 'Japanese text is always shown a little larger than English.'),
-      selectField('Japanese font', 'jpFont', h('span', null, 'Sample: ', jp('言葉の道を歩く'), ' — recognising kanji across fonts matters, so try both.')),
+      selectField('Japanese font', 'jpFont', h('span', null, 'Sample: ', jp('かんたんな日本語を学ぶ'), ' — recognising kanji across fonts matters, so try both.')),
       segField('Motion', 'motion', 'Reduced motion turns off animations.')
     ]),
 

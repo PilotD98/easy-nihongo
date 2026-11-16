@@ -31,7 +31,7 @@ export async function buildExport() {
 /** Trigger a file download of the current data. Returns the filename. */
 export async function downloadExport() {
   const data = await buildExport();
-  const name = `kotoba-path-backup-${data.exportedAt.slice(0, 10)}.json`;
+  const name = `easy-nihongo-backup-${data.exportedAt.slice(0, 10)}.json`;
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -46,7 +46,7 @@ export function validateImport(obj) {
   const errors = [];
   if (!obj || typeof obj !== 'object') errors.push('File is not a JSON object.');
   else {
-    if (obj.app !== 'kotoba-path') errors.push('This is not a Kotoba Path backup (missing app marker).');
+    if (obj.app !== 'kotoba-path') errors.push('This is not an Easy Nihongo backup (missing app marker).');
     if (typeof obj.schema !== 'number') errors.push('Missing schema number.');
     else if (obj.schema > BACKUP_SCHEMA) errors.push(`Backup schema ${obj.schema} is newer than this app understands (${BACKUP_SCHEMA}). Update the app first.`);
     if (obj.progress && !Array.isArray(obj.progress)) errors.push('"progress" must be a list.');
@@ -71,7 +71,7 @@ export function validateImport(obj) {
 
 /** Read a File object and parse it. Throws with a friendly message on failure. */
 export async function readBackupFile(file) {
-  if (file.size > 50 * 1024 * 1024) throw new Error('File is too large to be a Kotoba Path backup.');
+  if (file.size > 50 * 1024 * 1024) throw new Error('File is too large to be an Easy Nihongo backup.');
   const text = await file.text();
   try { return JSON.parse(text); }
   catch { throw new Error('The file is not valid JSON.'); }

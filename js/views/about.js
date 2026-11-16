@@ -15,7 +15,7 @@ const SOURCES = [
 
 export async function render(el) {
   el.append(
-    h('header', { class: 'page-head' }, h('h1', null, 'About Kotoba Path'), h('p', { class: 'lede' }, jp('言葉の道'), ' — “the path of words”. Version ', APP_VERSION, '.')),
+    h('header', { class: 'page-head' }, h('h1', null, 'About Easy Nihongo'), h('p', { class: 'lede' }, jp('かんたん日本語'), ' — “the path of words”. Version ', APP_VERSION, '.')),
     h('section', { class: 'card' },
       h('h2', null, 'What it is'),
       h('p', null, 'A serious, calm study tool for Japanese: from the first hiragana to advanced reading and speaking, with progress measured against JLPT N5 → N1. Spaced repetition decides what you review; script support (romaji, kana, furigana) fades per character as you master it.'),
@@ -31,7 +31,7 @@ export async function render(el) {
     ),
     h('section', { class: 'card' },
       h('h2', null, 'Privacy'),
-      h('p', null, 'Kotoba Path makes no network requests except to load its own files, open-licensed curriculum data, and fonts. Speech synthesis and recognition use your browser’s built-in engines; on some platforms (Chrome, Safari) recognition sends audio to the browser vendor’s service while you use the Speak feature. Recordings stay in memory on this device and are discarded when you leave the page.')
+      h('p', null, 'Easy Nihongo makes no network requests except to load its own files, open-licensed curriculum data, and fonts. Speech synthesis and recognition use your browser’s built-in engines; on some platforms (Chrome, Safari) recognition sends audio to the browser vendor’s service while you use the Speak feature. Recordings stay in memory on this device and are discarded when you leave the page.')
     ),
     h('p', { class: 'small muted' }, 'Application code is released under the MIT License.')
   );

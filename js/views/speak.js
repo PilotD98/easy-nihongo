@@ -77,7 +77,7 @@ function testVoice(voices) {
 function voiceGuide() {
   const os = osName();
   const steps = {
-    ios: ['Open Settings → Accessibility → Spoken Content → Voices.', 'Choose Japanese and download a voice (for example Kyoko or O-ren).', 'Return to Kotoba Path and reload this page.'],
+    ios: ['Open Settings → Accessibility → Spoken Content → Voices.', 'Choose Japanese and download a voice (for example Kyoko or O-ren).', 'Return to Easy Nihongo and reload this page.'],
     android: ['Open Settings → System → Languages & input → Text-to-speech output (the path varies by manufacturer).', 'Open the settings of your speech engine (usually Speech Services by Google) → Install voice data → Japanese.', 'Reload this page.'],
     windows: ['Open Settings → Time & Language → Language & region → Add a language → 日本語 (Japanese).', 'Tick “Text-to-speech” among the optional features and install.', 'Restart the browser. Microsoft Edge also offers higher-quality online Japanese voices.'],
     macos: ['Open System Settings → Accessibility → Spoken Content → System Voice → Manage Voices.', 'Choose Japanese and download a voice (for example Kyoko or O-ren).', 'Reload this page.'],

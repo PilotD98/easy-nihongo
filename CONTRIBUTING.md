@@ -1,4 +1,4 @@
-# Contributing to Kotoba Path
+# Contributing to Easy Nihongo
 
 Thank you for helping. Most contributions are curriculum content: a missing
 word, a wrong reading, a better mnemonic, a new reading passage. This guide

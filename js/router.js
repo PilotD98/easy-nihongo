@@ -51,6 +51,7 @@ async function render() {
   const ctx = parseHash();
   const loader = routes[ctx.route];
   container.setAttribute('aria-busy', 'true');
+  container.dataset.route = ctx.route === 'learn' && ctx.segs[1] === 'item' ? 'item' : ctx.route;
   let mod;
   try {
     mod = loader ? await loader() : await import('./views/notfound.js');
@@ -76,7 +77,7 @@ async function render() {
     const nf = await import('./views/notfound.js');
     await nf.render(container, { ...ctx, navigate, error: err });
   }
-  document.title = mod && mod.title ? `${mod.title} · Kotoba Path` : 'Kotoba Path';
+  document.title = mod && mod.title ? `${mod.title} · Easy Nihongo` : 'Easy Nihongo';
   setActiveNav(ctx.route);
   container.setAttribute('aria-busy', 'false');
 

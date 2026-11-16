@@ -1,4 +1,4 @@
-/* Kotoba Path service worker.
+/* Easy Nihongo service worker.
    Strategy:
    - App shell (HTML, CSS, JS, icons): precached on install, served cache-first.
      Bump VERSION whenever shell files change so clients pick up the new build.
@@ -10,7 +10,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '1.1.0';
+const VERSION = '1.2.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
