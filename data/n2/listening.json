@@ -1,0 +1,282 @@
+[
+ {
+  "id": "listen:n2:001",
+  "level": "n2",
+  "unit": 4,
+  "order": 495,
+  "type": "dictation",
+  "title": "Dictation: business phrases",
+  "text": "詳細につきましては、後ほどご連絡いたします。 ご都合のよろしい日時をお知らせください。 恐れ入りますが、少々お待ちいただけますか。",
+  "items": [
+   {
+    "text": "{詳細|しょうさい}につきましては、後ほどご{連絡|れんらく}いたします。",
+    "kana": "しょうさいにつきましては、のちほどごれんらくいたします。",
+    "en": "Regarding the details, we will contact you later."
+   },
+   {
+    "text": "ご{都合|つごう}のよろしい日時をお知らせください。",
+    "kana": "ごつごうのよろしいにちじをおしらせください。",
+    "en": "Please let us know a convenient date and time."
+   },
+   {
+    "text": "{恐|おそ}れ入りますが、{少々|しょうしょう}お{待|ま}ちいただけますか。",
+    "kana": "おそれいりますが、しょうしょうおまちいただけますか。",
+    "en": "I am sorry, but could you wait a moment?"
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n2:002",
+  "level": "n2",
+  "unit": 12,
+  "order": 1295,
+  "type": "comprehension",
+  "title": "Station announcement",
+  "text": "ご乗車の皆様にお知らせいたします。強風の影響により、現在、特急列車は三十分ほど遅れて運転しております。お急ぎのところ、大変ご迷惑をおかけしております。なお、普通列車は通常通り運転しております。",
+  "items": [
+   {
+    "text": "ご乗車の{皆様|みなさま}にお知らせいたします。強風の{影響|えいきょう}により、現在、{特急列車|とっきゅうれっしゃ}は三十分ほど{遅|おく}れて運転しております。お急ぎのところ、大変ご{迷惑|めいわく}をおかけしております。なお、{普通列車|ふつうれっしゃ}は通常通り運転しております。",
+    "kana": "ごじょうしゃのみなさまにおしらせいたします。きょうふうのえいきょうにより、げんざい、とっきゅうれっしゃはさんじゅっぷんほどおくれてうんてんしております。おいそぎのところ、たいへんごめいわくをおかけしております。なお、ふつうれっしゃはつうじょうどおりうんてんしております。",
+    "en": "Attention passengers. Due to strong winds, limited express trains are currently running about thirty minutes late. We apologise for the inconvenience to those in a hurry. Local trains are running as normal.",
+    "questions": [
+     {
+      "q": "{特急列車|とっきゅうれっしゃ}はどのくらい{遅|おく}れていますか。",
+      "qKana": "とっきゅうれっしゃはどのくらいおくれていますか。",
+      "choices": [
+       "十分",
+       "三十分",
+       "一時間"
+      ],
+      "answer": 1,
+      "why": "三十分ほど遅れて運転しております。"
+     },
+     {
+      "q": "{遅|おく}れの原因は何ですか。",
+      "qKana": "おくれのげんいんはなんですか。",
+      "choices": [
+       "強風",
+       "大雪",
+       "事故"
+      ],
+      "answer": 0,
+      "why": "強風の影響により…"
+     },
+     {
+      "q": "{普通列車|ふつうれっしゃ}はどうなっていますか。",
+      "qKana": "ふつうれっしゃはどうなっていますか。",
+      "choices": [
+       "止まっている",
+       "遅れている",
+       "通常通り運転している"
+      ],
+      "answer": 2,
+      "why": "普通列車は通常通り運転しております。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "特急列車はどのくらい遅れていますか。",
+    "qKana": "とっきゅうれっしゃはどのくらいおくれていますか。",
+    "choices": [
+     "十分",
+     "三十分",
+     "一時間"
+    ],
+    "answer": 1,
+    "why": "三十分ほど遅れて運転しております。"
+   },
+   {
+    "q": "遅れの原因は何ですか。",
+    "qKana": "おくれのげんいんはなんですか。",
+    "choices": [
+     "強風",
+     "大雪",
+     "事故"
+    ],
+    "answer": 0,
+    "why": "強風の影響により…"
+   },
+   {
+    "q": "普通列車はどうなっていますか。",
+    "qKana": "ふつうれっしゃはどうなっていますか。",
+    "choices": [
+     "止まっている",
+     "遅れている",
+     "通常通り運転している"
+    ],
+    "answer": 2,
+    "why": "普通列車は通常通り運転しております。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n2:003",
+  "level": "n2",
+  "unit": 20,
+  "order": 2095,
+  "type": "shadow",
+  "title": "Shadowing: giving opinions",
+  "text": "その案には賛成ですが、費用の面で検討が必要だと思います。 確かにおっしゃる通りですが、別の見方もあるのではないでしょうか。 結論を急ぐより、まず現状を把握すべきではないでしょうか。",
+  "items": [
+   {
+    "text": "その案には賛成ですが、費用の面で{検討|けんとう}が必要だと思います。",
+    "kana": "そのあんにはさんせいですが、ひようのめんでけんとうがひつようだとおもいます。",
+    "en": "I agree with that proposal, but I think it needs consideration in terms of cost."
+   },
+   {
+    "text": "確かにおっしゃる通りですが、別の見方もあるのではないでしょうか。",
+    "kana": "たしかにおっしゃるとおりですが、べつのみかたもあるのではないでしょうか。",
+    "en": "You are certainly right, but might there not be another way of looking at it?"
+   },
+   {
+    "text": "結論を急ぐより、まず現状を{把握|はあく}すべきではないでしょうか。",
+    "kana": "けつろんをいそぐより、まずげんじょうをはあくすべきではないでしょうか。",
+    "en": "Rather than rushing to a conclusion, should we not first grasp the current situation?"
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n2:004",
+  "level": "n2",
+  "unit": 28,
+  "order": 2895,
+  "type": "dictation",
+  "title": "Dictation: news headlines",
+  "text": "政府は来年度の予算案を発表しました。 台風の接近に伴い、各地で避難が呼びかけられています。 新しい制度は四月から実施される予定です。",
+  "items": [
+   {
+    "text": "政府は来年度の予算案を発表しました。",
+    "kana": "せいふはらいねんどのよさんあんをはっぴょうしました。",
+    "en": "The government announced the budget proposal for next fiscal year."
+   },
+   {
+    "text": "台風の接近に{伴|ともな}い、各地で{避難|ひなん}が呼びかけられています。",
+    "kana": "たいふうのせっきんにともない、かくちでひなんがよびかけられています。",
+    "en": "As the typhoon approaches, evacuation is being urged in various areas."
+   },
+   {
+    "text": "新しい制度は四月から{実施|じっし}される予定です。",
+    "kana": "あたらしいせいどはしがつからじっしされるよていです。",
+    "en": "The new system is scheduled to be implemented from April."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n2:005",
+  "level": "n2",
+  "unit": 36,
+  "order": 3695,
+  "type": "comprehension",
+  "title": "A phone message",
+  "text": "もしもし、山田です。明日の打ち合わせの件ですが、急な出張が入ってしまい、伺えなくなりました。申し訳ありません。代わりに木曜日の午後はいかがでしょうか。資料は本日中にメールでお送りしますので、ご確認の上、ご都合をお知らせください。",
+  "items": [
+   {
+    "text": "もしもし、山田です。{明日|あした}の打ち{合|あ}わせの件ですが、急な出張が入ってしまい、{伺|うかが}えなくなりました。申し{訳|わけ}ありません。代わりに木曜日の午後はいかがでしょうか。資料は本日中にメールでお送りしますので、ご確認の上、ご{都合|つごう}をお知らせください。",
+    "kana": "もしもし、やまだです。あしたのうちあわせのけんですが、きゅうなしゅっちょうがはいってしまい、うかがえなくなりました。もうしわけありません。かわりにもくようびのごごはいかがでしょうか。しりょうはほんじつちゅうにメールでおおくりしますので、ごかくにんのうえ、ごつごうをおしらせください。",
+    "en": "Hello, this is Yamada. About tomorrow's meeting: a sudden business trip has come up and I will not be able to come. I am sorry. Would Thursday afternoon suit instead? I will email the materials today, so please check them and let me know your availability.",
+    "questions": [
+     {
+      "q": "山田さんはなぜ{明日行|あしたい}けませんか。",
+      "qKana": "やまださんはなぜあしたいけませんか。",
+      "choices": [
+       "病気になった",
+       "急な出張が入った",
+       "資料ができていない"
+      ],
+      "answer": 1,
+      "why": "急な出張が入ってしまい…"
+     },
+     {
+      "q": "代わりにいつを{提案|ていあん}していますか。",
+      "qKana": "かわりにいつをていあんしていますか。",
+      "choices": [
+       "水曜日の午前",
+       "木曜日の午後",
+       "金曜日の午後"
+      ],
+      "answer": 1,
+      "why": "木曜日の午後はいかがでしょうか。"
+     },
+     {
+      "q": "資料はどうやって送られますか。",
+      "qKana": "しりょうはどうやっておくられますか。",
+      "choices": [
+       "メールで",
+       "郵便で",
+       "直接持って行く"
+      ],
+      "answer": 0,
+      "why": "本日中にメールでお送りします。"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "山田さんはなぜ明日行けませんか。",
+    "qKana": "やまださんはなぜあしたいけませんか。",
+    "choices": [
+     "病気になった",
+     "急な出張が入った",
+     "資料ができていない"
+    ],
+    "answer": 1,
+    "why": "急な出張が入ってしまい…"
+   },
+   {
+    "q": "代わりにいつを提案していますか。",
+    "qKana": "かわりにいつをていあんしていますか。",
+    "choices": [
+     "水曜日の午前",
+     "木曜日の午後",
+     "金曜日の午後"
+    ],
+    "answer": 1,
+    "why": "木曜日の午後はいかがでしょうか。"
+   },
+   {
+    "q": "資料はどうやって送られますか。",
+    "qKana": "しりょうはどうやっておくられますか。",
+    "choices": [
+     "メールで",
+     "郵便で",
+     "直接持って行く"
+    ],
+    "answer": 0,
+    "why": "本日中にメールでお送りします。"
+   }
+  ]
+ },
+ {
+  "id": "listen:n2:006",
+  "level": "n2",
+  "unit": 44,
+  "order": 4495,
+  "type": "shadow",
+  "title": "Shadowing: formal requests",
+  "text": "お忙しいところ恐縮ですが、ご確認いただけますでしょうか。 差し支えなければ、理由をお聞かせ願えますか。 本日はお越しいただき、誠にありがとうございました。",
+  "items": [
+   {
+    "text": "お{忙|いそが}しいところ{恐縮|きょうしゅく}ですが、ご確認いただけますでしょうか。",
+    "kana": "おいそがしいところきょうしゅくですが、ごかくにんいただけますでしょうか。",
+    "en": "I am sorry to trouble you when you are busy, but could you please check this?"
+   },
+   {
+    "text": "差し支えなければ、{理由|りゆう}をお聞かせ願えますか。",
+    "kana": "さしつかえなければ、りゆうをおきかせねがえますか。",
+    "en": "If it is no trouble, could you tell me the reason?"
+   },
+   {
+    "text": "本日はお越しいただき、{誠|まこと}にありがとうございました。",
+    "kana": "ほんじつはおこしいただき、まことにありがとうございました。",
+    "en": "Thank you very much for coming today."
+   }
+  ],
+  "questions": []
+ }
+]
