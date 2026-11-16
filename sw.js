@@ -10,7 +10,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '1.0.1';
+const VERSION = '1.1.0';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -52,6 +52,7 @@ const SHELL = [
   './js/app.js',
   './js/router.js',
   './js/store/db.js',
+  './js/store/profiles.js',
   './js/store/settings.js',
   './js/store/progress.js',
   './js/store/days.js',

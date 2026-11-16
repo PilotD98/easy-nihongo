@@ -7,7 +7,10 @@
    If IndexedDB is unavailable (some private modes, very old browsers) the same
    API is backed by localStorage. Nothing ever leaves the device. */
 
-const DB_NAME = 'kotoba-path';
+import { dbNameFor } from './profiles.js';
+
+// Each local profile has its own database; see profiles.js.
+const DB_NAME = dbNameFor();
 const DB_VERSION = 1;
 export const STORES = ['progress', 'settings', 'days', 'meta'];
 
@@ -57,7 +60,7 @@ async function run(store, mode, fn) {
 }
 
 /* ---------- localStorage fallback ---------- */
-const LS_PREFIX = 'kp:db:';
+const LS_PREFIX = `kp:db:${DB_NAME === 'kotoba-path' ? '' : DB_NAME + ':'}`;
 function lsKey(store, id) { return `${LS_PREFIX}${store}:${id}`; }
 function lsRead(key) {
   try { const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : undefined; }

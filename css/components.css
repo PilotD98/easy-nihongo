@@ -178,3 +178,8 @@ dialog.sheet .sheet-foot { display: flex; justify-content: flex-end; gap: var(--
 .acc-grid { display: grid; grid-template-columns: 1fr; gap: var(--s-4); }
 @media (min-width: 700px) { .acc-grid { grid-template-columns: 1fr 1fr; } }
 .acc-grid h3 { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color: var(--text-3); }
+
+/* Profiles (Settings) */
+.profile-list { list-style: none; padding: 0; margin: 0 0 var(--s-4); display: flex; flex-direction: column; gap: var(--s-2); }
+.profile-list > li { padding: var(--s-2) 0; border-bottom: 1px solid var(--border); }
+.profile-list > li:last-child { border-bottom: 0; }

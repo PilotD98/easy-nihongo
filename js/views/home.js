@@ -1,4 +1,5 @@
 /* Home: today's plan, where to continue, and first-run setup. */
+import { activeProfile, listProfiles } from '../store/profiles.js';
 import { h, append, icon, formatMinutes } from '../ui/dom.js';
 import { days } from '../store/days.js';
 import { settings } from '../store/settings.js';
@@ -29,7 +30,7 @@ export async function render(el) {
 
   append(el, [
     h('header', { class: 'page-head' },
-      h('h1', null, `${greeting()}.`),
+      h('h1', null, listProfiles().length > 1 ? `${greeting()}, ${activeProfile().name}.` : `${greeting()}.`),
       h('p', { class: 'lede' }, dateLine)),
 
     h('section', { class: 'card', 'aria-labelledby': 'plan-h' },

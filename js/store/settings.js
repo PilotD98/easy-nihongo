@@ -2,6 +2,7 @@
    Appearance settings are mirrored to localStorage ('kp:appearance') so the
    inline script in index.html can apply them before first paint. */
 import { db } from './db.js';
+import { appearanceKeyFor } from './profiles.js';
 
 export const DEFAULTS = Object.freeze({
   // Appearance
@@ -75,7 +76,7 @@ export const settings = {
     root.dataset.jpFont = state.jpFont;
     root.dataset.motion = state.motion;
     try {
-      localStorage.setItem('kp:appearance', JSON.stringify({
+      localStorage.setItem(appearanceKeyFor(), JSON.stringify({
         theme: state.theme, fontSize: state.fontSize, jpFont: state.jpFont, motion: state.motion
       }));
     } catch { /* storage may be unavailable; harmless */ }

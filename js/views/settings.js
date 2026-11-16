@@ -8,6 +8,7 @@ import { toast } from '../ui/toast.js';
 import { openSheet, confirm } from '../ui/dialog.js';
 import { showShortcuts } from '../ui/shortcuts.js';
 import { offlineStatus, downloadAllContent } from '../content/loader.js';
+import { listProfiles, activeProfileId, createProfile, renameProfile, switchProfile, deleteProfile } from '../store/profiles.js';
 import { APP_VERSION, canPromptInstall, promptInstall, isStandalone, isIOS, onInstallAvailable, supports } from '../util/platform.js';
 
 export const title = 'Settings';
@@ -36,6 +37,7 @@ export async function render(el, ctx) {
     ]),
 
     group('App', [appCard()]),
+    group('Profiles', [profilesCard()]),
     group('Data', [await dataCard(ctx), await offlineCard()]),
     group('Help', [
       h('div', { class: 'btn-row' },
@@ -166,6 +168,36 @@ async function dataCard(ctx) {
       h('button', { class: 'btn btn-danger', type: 'button', onClick: () => onClear(ctx) }, icon('trash'), 'Clear all data')
     )
   );
+}
+
+function profilesCard() {
+  const card = h('div', { class: 'card', id: 'profiles' });
+  const nameSheet = (title, initial, onSave) => {
+    const input = h('input', { type: 'text', class: 'input', value: initial || '', maxlength: 40, autocomplete: 'off', 'aria-label': 'Profile name', placeholder: 'Name' });
+    const sheet = openSheet({ title, body: h('div', null, h('label', { class: 'field' }, h('span', { class: 'field-label' }, 'Profile name'), input)),
+      actions: [{ label: 'Cancel' }, { label: 'Save', primary: true, onClick: () => { const v = input.value.trim(); if (!v) { input.focus(); return false; } onSave(v); } }] });
+    setTimeout(() => input.focus(), 50);
+    return sheet;
+  };
+  const rebuild = () => {
+    const active = activeProfileId();
+    const list = listProfiles();
+    card.replaceChildren(
+      h('p', { class: 'small muted' }, 'Each profile keeps its own progress, settings and backups on this device. Switching reloads the app. Nothing is shared between profiles and nothing leaves the device.'),
+      h('ul', { class: 'profile-list', 'aria-label': 'Profiles' }, list.map((p) => h('li', { class: 'row' },
+        h('span', { class: 'grow' }, p.name, p.id === active ? h('span', { class: 'pill', style: { marginLeft: '8px' } }, 'Active') : null),
+        p.id === active ? null : h('button', { class: 'btn', type: 'button', onClick: () => { switchProfile(p.id); location.hash = '#/home'; location.reload(); } }, 'Switch'),
+        h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Rename ${p.name}`, onClick: () => nameSheet('Rename profile', p.name, (v) => { renameProfile(p.id, v); rebuild(); }) }, icon('edit')),
+        p.id === active ? null : h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Delete ${p.name}`, onClick: async () => {
+          const ok = await confirm({ title: `Delete ${p.name}?`, body: "This deletes that profile's progress, study history and settings from this device. It cannot be undone.", confirmLabel: 'Delete profile', danger: true });
+          if (!ok) return; await deleteProfile(p.id); toast(`Deleted ${p.name}.`); rebuild();
+        } }, icon('trash'))
+      ))),
+      h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => nameSheet('New profile', '', (v) => { createProfile(v); toast(`Added ${v}. Switch to it from this list.`); rebuild(); }) }, icon('plus'), 'Add profile'))
+    );
+  };
+  rebuild();
+  return card;
 }
 
 async function offlineCard() {

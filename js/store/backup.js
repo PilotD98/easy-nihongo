@@ -7,6 +7,7 @@
      days:     [ row, ... ],
      meta:     [ { id, value }, ... ]
    } */
+import { appearanceKeyFor } from './profiles.js';
 import { db, STORES } from './db.js';
 import { settings, DEFAULTS } from './settings.js';
 import { APP_VERSION } from '../util/platform.js';
@@ -129,7 +130,7 @@ export async function applyImport(obj, { mode = 'replace' } = {}) {
 export async function clearAllData() {
   await db.clearAll();
   for (const s of STORES) await db.clear(s);
-  try { localStorage.removeItem('kp:appearance'); } catch { /* ignore */ }
+  try { localStorage.removeItem(appearanceKeyFor()); } catch { /* ignore */ }
   await settings.resetToDefaults();
   window.dispatchEvent(new CustomEvent('kp:data-changed'));
 }

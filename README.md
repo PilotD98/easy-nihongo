@@ -109,6 +109,9 @@ Available now:
   appears when a new version is ready.
 - **Private by design**: no accounts, no server, no analytics. Progress lives
   in IndexedDB (localStorage fallback) with JSON export/import.
+- **Local profiles**: several people can share one device. Settings →
+  Profiles adds, renames, switches and deletes profiles; each has its own
+  progress, settings and backups, and nothing is shared between them.
 - **Responsive, accessible UI**: bottom tab bar on phones, sidebar on desktop,
   safe-area aware, 44px targets, light/dark themes, four text sizes,
   sans/serif Japanese fonts, reduced motion, keyboard shortcuts
@@ -307,6 +310,8 @@ Kotoba Path makes no network requests except to load its own files, its
 open-licensed curriculum data and the Noto fonts from Google Fonts (cached
 after first use). There are no analytics, no trackers and no accounts. All
 progress is stored on your device and only leaves it when you export a backup.
+There are no accounts: profiles are local to the device and browser, and
+moving between devices is done with export and import.
 Speech synthesis and recognition use the browser's built-in engines; on some
 platforms (Chrome, Safari) recognition sends audio to the browser vendor's
 service while you are using the Speak feature, and only then. Recordings stay
