@@ -1,0 +1,4306 @@
+[
+ {
+  "id": "unit:n1:01",
+  "no": 1,
+  "level": "n1",
+  "title": "Names and policy",
+  "kanji": [
+   "kanji:氏",
+   "kanji:統",
+   "kanji:派",
+   "kanji:策",
+   "kanji:提",
+   "kanji:挙",
+   "kanji:藤",
+   "kanji:沢"
+  ],
+  "vocab": [
+   "vocab:n1:shimei-氏名",
+   "vocab:n1:shi-氏",
+   "vocab:n1:touitsu-統一",
+   "vocab:n1:toukeigaku-統計学",
+   "vocab:n1:dentouteki-伝統的",
+   "vocab:n1:ryuuha-流派",
+   "vocab:n1:taisakuhonbu-対策本部",
+   "vocab:n1:zentei-前提",
+   "vocab:n1:senkyosen-選挙戦",
+   "vocab:n1:fuji-藤",
+   "vocab:n1:sawa-沢",
+   "vocab:n1:zeitakuhin-贅沢品"
+  ],
+  "grammar": [
+   "gram:n1:atte-no"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:02",
+  "no": 2,
+  "level": "n1",
+  "title": "Courts and welfare",
+  "kanji": [
+   "kanji:裁",
+   "kanji:証",
+   "kanji:援",
+   "kanji:施",
+   "kanji:井",
+   "kanji:護",
+   "kanji:態",
+   "kanji:鮮"
+  ],
+  "vocab": [
+   "vocab:n1:saibankan-裁判官",
+   "vocab:n1:shougen-証言",
+   "vocab:n1:shien-支援",
+   "vocab:n1:jisshichuu-実施中",
+   "vocab:n1:ido-井戸",
+   "vocab:n1:hogo-保護",
+   "vocab:n1:jittai-実態",
+   "vocab:n1:senmei-鮮明"
+  ],
+  "grammar": [
+   "gram:n1:ikan"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:03",
+  "no": 3,
+  "level": "n1",
+  "title": "Inspection and justice",
+  "kanji": [
+   "kanji:視",
+   "kanji:幹",
+   "kanji:宮",
+   "kanji:衛",
+   "kanji:監",
+   "kanji:審",
+   "kanji:義",
+   "kanji:訴"
+  ],
+  "vocab": [
+   "vocab:n1:goei-護衛",
+   "vocab:n1:shiya-視野",
+   "vocab:n1:juushi-重視",
+   "vocab:n1:mushi-無視",
+   "vocab:n1:kanbu-幹部",
+   "vocab:n1:kansen-幹線",
+   "vocab:n1:kyuuden-宮殿",
+   "vocab:n1:jinguu-神宮",
+   "vocab:n1:bouei-防衛",
+   "vocab:n1:eisei-衛星",
+   "vocab:n1:kanshi-監視",
+   "vocab:n1:shinsa-審査",
+   "vocab:n1:shinpan-審判",
+   "vocab:n1:seigi-正義",
+   "vocab:n1:igi-意義"
+  ],
+  "grammar": [
+   "gram:n1:ikan-ni-yorazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:04",
+  "no": 4,
+  "level": "n1",
+  "title": "Figures and masses",
+  "kanji": [
+   "kanji:姿",
+   "kanji:閣",
+   "kanji:衆",
+   "kanji:影",
+   "kanji:松",
+   "kanji:撃",
+   "kanji:佐",
+   "kanji:核"
+  ],
+  "vocab": [
+   "vocab:n1:shisei-姿勢",
+   "vocab:n1:sugata-姿",
+   "vocab:n1:naikaku-内閣",
+   "vocab:n1:taishuu-大衆",
+   "vocab:n1:kanshuu-観衆",
+   "vocab:n1:kage-影",
+   "vocab:n1:matsu-松",
+   "vocab:n1:kougekiryoku-攻撃力",
+   "vocab:n1:mokugeki-目撃",
+   "vocab:n1:hosa-補佐",
+   "vocab:n1:kaku-核",
+   "vocab:n1:kakushin-核心"
+  ],
+  "grammar": [
+   "gram:n1:u-ga"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:05",
+  "no": 5,
+  "level": "n1",
+  "title": "Votes and influence",
+  "kanji": [
+   "kanji:融",
+   "kanji:票",
+   "kanji:渉",
+   "kanji:響",
+   "kanji:推",
+   "kanji:請",
+   "kanji:士",
+   "kanji:討"
+  ],
+  "vocab": [
+   "vocab:n1:eikyou-影響",
+   "vocab:n1:kinyuu-金融",
+   "vocab:n1:yuugou-融合",
+   "vocab:n1:touhyouritsu-投票率",
+   "vocab:n1:denpyou-伝票",
+   "vocab:n1:kanshou-干渉",
+   "vocab:n1:eikyouryoku-影響力",
+   "vocab:n1:hankyou-反響",
+   "vocab:n1:suishinryoku-推進力",
+   "vocab:n1:yousei-要請",
+   "vocab:n1:seikyuu-請求",
+   "vocab:n1:touronkai-討論会",
+   "vocab:n1:kentouchuu-検討中"
+  ],
+  "grammar": [
+   "gram:n1:u-ga-mai-ga"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:06",
+  "no": 6,
+  "level": "n1",
+  "title": "Coaching and constitution",
+  "kanji": [
+   "kanji:崎",
+   "kanji:督",
+   "kanji:催",
+   "kanji:及",
+   "kanji:憲",
+   "kanji:離",
+   "kanji:激",
+   "kanji:摘"
+  ],
+  "vocab": [
+   "vocab:n1:kantoku-監督",
+   "vocab:n1:saki-崎",
+   "vocab:n1:kantokusha-監督者",
+   "vocab:n1:kaisai-開催",
+   "vocab:n1:moyooshi-催し",
+   "vocab:n1:oyobu-及ぶ",
+   "vocab:n1:fukyuuritsu-普及率",
+   "vocab:n1:kenpoukaisei-憲法改正",
+   "vocab:n1:hanare-離れ",
+   "vocab:n1:bunri-分離",
+   "vocab:n1:shigeki-刺激",
+   "vocab:n1:kageki-過激",
+   "vocab:n1:tsumu-摘む",
+   "vocab:n1:tekihatsu-摘発"
+  ],
+  "grammar": [
+   "gram:n1:u-ni-mo-nai"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:001"
+  ]
+ },
+ {
+  "id": "unit:n1:07",
+  "no": 7,
+  "level": "n1",
+  "title": "Lineage and alliances",
+  "kanji": [
+   "kanji:系",
+   "kanji:郎",
+   "kanji:盟",
+   "kanji:従",
+   "kanji:隊",
+   "kanji:織",
+   "kanji:振",
+   "kanji:弁"
+  ],
+  "vocab": [
+   "vocab:n1:bengoshi-弁護士",
+   "vocab:n1:keitou-系統",
+   "vocab:n1:taikei-体系",
+   "vocab:n1:tarou-太郎",
+   "vocab:n1:shinrou-新郎",
+   "vocab:n1:doumei-同盟",
+   "vocab:n1:kamei-加盟",
+   "vocab:n1:juugyouinsuu-従業員数",
+   "vocab:n1:fukujuu-服従",
+   "vocab:n1:juurai-従来",
+   "vocab:n1:butai-部隊",
+   "vocab:n1:taiin-隊員",
+   "vocab:n1:soshikiteki-組織的",
+   "vocab:n1:orimono-織物",
+   "vocab:n1:shindou-振動",
+   "vocab:n1:furi-振り",
+   "vocab:n1:benkai-弁解"
+  ],
+  "grammar": [
+   "gram:n1:katagata"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:08",
+  "no": 8,
+  "level": "n1",
+  "title": "Service and heritage",
+  "kanji": [
+   "kanji:就",
+   "kanji:献",
+   "kanji:厳",
+   "kanji:維",
+   "kanji:浜",
+   "kanji:遺",
+   "kanji:塁",
+   "kanji:邦"
+  ],
+  "vocab": [
+   "vocab:n1:shuunin-就任",
+   "vocab:n1:kondate-献立",
+   "vocab:n1:bunken-文献",
+   "vocab:n1:kibishisa-厳しさ",
+   "vocab:n1:ijihi-維持費",
+   "vocab:n1:hama-浜",
+   "vocab:n1:kaihin-海浜",
+   "vocab:n1:isan-遺産",
+   "vocab:n1:iden-遺伝",
+   "vocab:n1:rui-塁",
+   "vocab:n1:renpou-連邦",
+   "vocab:n1:houjin-邦人"
+  ],
+  "grammar": [
+   "gram:n1:katawara"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:09",
+  "no": 9,
+  "level": "n1",
+  "title": "Elements and benefit",
+  "kanji": [
+   "kanji:素",
+   "kanji:抗",
+   "kanji:模",
+   "kanji:雄",
+   "kanji:益",
+   "kanji:緊",
+   "kanji:宣",
+   "kanji:昭"
+  ],
+  "vocab": [
+   "vocab:n1:sozai-素材",
+   "vocab:n1:soshitsu-素質",
+   "vocab:n1:kougi-抗議",
+   "vocab:n1:taikou-対抗",
+   "vocab:n1:moyou-模様",
+   "vocab:n1:osu-雄",
+   "vocab:n1:eiyuu-英雄",
+   "vocab:n1:yuueki-有益",
+   "vocab:n1:kinkyuu-緊急",
+   "vocab:n1:kinchoukan-緊張感",
+   "vocab:n1:sengen-宣言",
+   "vocab:n1:senden-宣伝",
+   "vocab:n1:shouwa-昭和"
+  ],
+  "grammar": [
+   "gram:n1:gatera"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:10",
+  "no": 10,
+  "level": "n1",
+  "title": "Emperors and officials",
+  "kanji": [
+   "kanji:廃",
+   "kanji:江",
+   "kanji:僚",
+   "kanji:吉",
+   "kanji:盛",
+   "kanji:皇",
+   "kanji:臨",
+   "kanji:踏"
+  ],
+  "vocab": [
+   "vocab:n1:kakuryou-閣僚",
+   "vocab:n1:edo-江戸",
+   "vocab:n1:kanryou-官僚",
+   "vocab:n1:kichi-吉",
+   "vocab:n1:moriagari-盛り上がり",
+   "vocab:n1:tennou-天皇",
+   "vocab:n1:rinjikyuugyou-臨時休業",
+   "vocab:n1:nozomu-臨む",
+   "vocab:n1:fumikiru-踏み切る"
+  ],
+  "grammar": [
+   "gram:n1:ga-hayai-ka"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:11",
+  "no": 11,
+  "level": "n1",
+  "title": "Debt and ceremony",
+  "kanji": [
+   "kanji:壊",
+   "kanji:債",
+   "kanji:興",
+   "kanji:源",
+   "kanji:儀",
+   "kanji:創",
+   "kanji:障",
+   "kanji:継"
+  ],
+  "vocab": [
+   "vocab:n1:hakai-破壊",
+   "vocab:n1:fusai-負債",
+   "vocab:n1:saiken-債券",
+   "vocab:n1:kyoumibukai-興味深い",
+   "vocab:n1:kigen-起源",
+   "vocab:n1:gishiki-儀式",
+   "vocab:n1:reigitadashii-礼儀正しい",
+   "vocab:n1:souzou-創造",
+   "vocab:n1:sougyou-創業",
+   "vocab:n1:shougai-障害",
+   "vocab:n1:koshouchuu-故障中",
+   "vocab:n1:keizokusei-継続性",
+   "vocab:n1:tsugu-継ぐ",
+   "vocab:n1:chuukei-中継",
+   "vocab:n1:yogi-余儀"
+  ],
+  "grammar": [
+   "gram:n1:kagiri-da"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:12",
+  "no": 12,
+  "level": "n1",
+  "title": "Struggle and evasion",
+  "kanji": [
+   "kanji:筋",
+   "kanji:闘",
+   "kanji:葬",
+   "kanji:避",
+   "kanji:逮",
+   "kanji:迫",
+   "kanji:惑",
+   "kanji:崩"
+  ],
+  "vocab": [
+   "vocab:n1:houkai-崩壊",
+   "vocab:n1:kinnikutsuu-筋肉痛",
+   "vocab:n1:suji-筋",
+   "vocab:n1:tousou-闘争",
+   "vocab:n1:sentou-戦闘",
+   "vocab:n1:soushiki-葬式",
+   "vocab:n1:hinanjo-避難所",
+   "vocab:n1:taihojou-逮捕状",
+   "vocab:n1:semaru-迫る",
+   "vocab:n1:appaku-圧迫"
+  ],
+  "grammar": [
+   "gram:n1:ta-ga-saigo"
+  ],
+  "readings": [
+   "read:n1:001"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:13",
+  "no": 13,
+  "level": "n1",
+  "title": "Chronicles and removal",
+  "kanji": [
+   "kanji:紀",
+   "kanji:聴",
+   "kanji:脱",
+   "kanji:博",
+   "kanji:締",
+   "kanji:執",
+   "kanji:房",
+   "kanji:撤"
+  ],
+  "vocab": [
+   "vocab:n1:hakase-博士",
+   "vocab:n1:seiki-世紀",
+   "vocab:n1:kigen-紀元",
+   "vocab:n1:kiku-聴く",
+   "vocab:n1:choushuu-聴衆",
+   "vocab:n1:shichousha-視聴者",
+   "vocab:n1:dasshutsu-脱出",
+   "vocab:n1:ridatsu-離脱",
+   "vocab:n1:shimekiru-締め切る",
+   "vocab:n1:teiketsu-締結",
+   "vocab:n1:shippitsu-執筆",
+   "vocab:n1:shuuchaku-執着",
+   "vocab:n1:shikkou-執行",
+   "vocab:n1:danboukigu-暖房器具",
+   "vocab:n1:chuubou-厨房",
+   "vocab:n1:tettai-撤退",
+   "vocab:n1:tekkyo-撤去"
+  ],
+  "grammar": [
+   "gram:n1:ka-to-omoikiya"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:14",
+  "no": 14,
+  "level": "n1",
+  "title": "Secrecy and ego",
+  "kanji": [
+   "kanji:削",
+   "kanji:密",
+   "kanji:措",
+   "kanji:載",
+   "kanji:陣",
+   "kanji:我",
+   "kanji:為",
+   "kanji:抑"
+  ],
+  "vocab": [
+   "vocab:n1:genmitsu-厳密",
+   "vocab:n1:meiwakukoui-迷惑行為",
+   "vocab:n1:sakugen-削減",
+   "vocab:n1:missetsu-密接",
+   "vocab:n1:mitsudo-密度",
+   "vocab:n1:sochi-措置",
+   "vocab:n1:kisai-記載",
+   "vocab:n1:sekisai-積載",
+   "vocab:n1:jinei-陣営",
+   "vocab:n1:jin-陣",
+   "vocab:n1:wareware-我々",
+   "vocab:n1:wagakuni-我が国",
+   "vocab:n1:kawase-為替",
+   "vocab:n1:jiniteki-人為的",
+   "vocab:n1:yokusei-抑制"
+  ],
+  "grammar": [
+   "gram:n1:kara-aru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:15",
+  "no": 15,
+  "level": "n1",
+  "title": "Dyes and wounds",
+  "kanji": [
+   "kanji:幕",
+   "kanji:染",
+   "kanji:奈",
+   "kanji:傷",
+   "kanji:択",
+   "kanji:秀",
+   "kanji:徴",
+   "kanji:弾"
+  ],
+  "vocab": [
+   "vocab:n1:maku-幕",
+   "vocab:n1:kaimaku-開幕",
+   "vocab:n1:bakufu-幕府",
+   "vocab:n1:kansen-感染",
+   "vocab:n1:densen-伝染",
+   "vocab:n1:nara-奈良",
+   "vocab:n1:kizu-傷",
+   "vocab:n1:kizutsukeru-傷つける",
+   "vocab:n1:fushou-負傷",
+   "vocab:n1:sentaku-選択",
+   "vocab:n1:hiideru-秀でる",
+   "vocab:n1:tokuchouteki-特徴的",
+   "vocab:n1:shouchou-象徴",
+   "vocab:n1:choushuu-徴収",
+   "vocab:n1:tama-弾",
+   "vocab:n1:bakudan-爆弾"
+  ],
+  "grammar": [
+   "gram:n1:kiraiga-aru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:16",
+  "no": 16,
+  "level": "n1",
+  "title": "Compensation and punishment",
+  "kanji": [
+   "kanji:償",
+   "kanji:功",
+   "kanji:拠",
+   "kanji:秘",
+   "kanji:拒",
+   "kanji:刑",
+   "kanji:塚",
+   "kanji:致"
+  ],
+  "vocab": [
+   "vocab:n1:shoukohin-証拠品",
+   "vocab:n1:hoshou-補償",
+   "vocab:n1:seikousha-成功者",
+   "vocab:n1:kouseki-功績",
+   "vocab:n1:konkyochi-根拠地",
+   "vocab:n1:kyoten-拠点",
+   "vocab:n1:hisho-秘書",
+   "vocab:n1:shinpi-神秘",
+   "vocab:n1:kyohi-拒否",
+   "vocab:n1:kobamu-拒む",
+   "vocab:n1:keiji-刑事",
+   "vocab:n1:tsuka-塚",
+   "vocab:n1:chimeiteki-致命的",
+   "vocab:n1:itchi-一致"
+  ],
+  "grammar": [
+   "gram:n1:kiwamaru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:17",
+  "no": 17,
+  "level": "n1",
+  "title": "Tails and tasks",
+  "kanji": [
+   "kanji:尾",
+   "kanji:描",
+   "kanji:鈴",
+   "kanji:盤",
+   "kanji:項",
+   "kanji:喪",
+   "kanji:養",
+   "kanji:懸"
+  ],
+  "vocab": [
+   "vocab:n1:o-尾",
+   "vocab:n1:bikou-尾行",
+   "vocab:n1:byousharyoku-描写力",
+   "vocab:n1:suzu-鈴",
+   "vocab:n1:fuurin-風鈴",
+   "vocab:n1:kiban-基盤",
+   "vocab:n1:enban-円盤",
+   "vocab:n1:koumoku-項目",
+   "vocab:n1:jikou-事項",
+   "vocab:n1:soushitsu-喪失",
+   "vocab:n1:mofuku-喪服",
+   "vocab:n1:yousei-養成",
+   "vocab:n1:kyouyou-教養",
+   "vocab:n1:kenen-懸念",
+   "vocab:n1:kenmei-懸命",
+   "vocab:n1:kakaru-懸かる"
+  ],
+  "grammar": [
+   "gram:n1:kiwami"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:18",
+  "no": 18,
+  "level": "n1",
+  "title": "Streets and contracts",
+  "kanji": [
+   "kanji:街",
+   "kanji:契",
+   "kanji:掲",
+   "kanji:躍",
+   "kanji:棄",
+   "kanji:邸",
+   "kanji:籍",
+   "kanji:縮"
+  ],
+  "vocab": [
+   "vocab:n1:haiki-廃棄",
+   "vocab:n1:machikado-街角",
+   "vocab:n1:gaitou-街頭",
+   "vocab:n1:keiki-契機",
+   "vocab:n1:keiyakusho-契約書",
+   "vocab:n1:keijiban-掲示板",
+   "vocab:n1:hiyaku-飛躍",
+   "vocab:n1:odoru-躍る",
+   "vocab:n1:houki-放棄",
+   "vocab:n1:kiken-棄権",
+   "vocab:n1:teitaku-邸宅",
+   "vocab:n1:kantei-官邸",
+   "vocab:n1:koseki-戸籍",
+   "vocab:n1:chijimeru-縮める",
+   "vocab:n1:asshuku-圧縮"
+  ],
+  "grammar": [
+   "gram:n1:gotoki"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:002"
+  ]
+ },
+ {
+  "id": "unit:n1:19",
+  "no": 19,
+  "level": "n1",
+  "title": "Belonging and demand",
+  "kanji": [
+   "kanji:還",
+   "kanji:属",
+   "kanji:慮",
+   "kanji:枠",
+   "kanji:露",
+   "kanji:沖",
+   "kanji:緩",
+   "kanji:需"
+  ],
+  "vocab": [
+   "vocab:n1:henkan-返還",
+   "vocab:n1:kangen-還元",
+   "vocab:n1:shozoku-所属",
+   "vocab:n1:zokusuru-属する",
+   "vocab:n1:kinzoku-金属",
+   "vocab:n1:enryogachi-遠慮がち",
+   "vocab:n1:waku-枠",
+   "vocab:n1:wakugumi-枠組み",
+   "vocab:n1:roshutsu-露出",
+   "vocab:n1:bakuro-暴露",
+   "vocab:n1:tsuyu-露",
+   "vocab:n1:oki-沖",
+   "vocab:n1:yuruyaka-緩やか",
+   "vocab:n1:kanwa-緩和",
+   "vocab:n1:juyou-需要",
+   "vocab:n1:hitsujuhin-必需品"
+  ],
+  "grammar": [
+   "gram:n1:kotonashi-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:20",
+  "no": 20,
+  "level": "n1",
+  "title": "Shooting and tribute",
+  "kanji": [
+   "kanji:射",
+   "kanji:購",
+   "kanji:揮",
+   "kanji:充",
+   "kanji:跡",
+   "kanji:貢",
+   "kanji:鹿",
+   "kanji:却"
+  ],
+  "vocab": [
+   "vocab:n1:hansha-反射",
+   "vocab:n1:iru-射る",
+   "vocab:n1:kounyuu-購入",
+   "vocab:n1:koubairyoku-購買力",
+   "vocab:n1:shiki-指揮",
+   "vocab:n1:juujitsukan-充実感",
+   "vocab:n1:juuden-充電",
+   "vocab:n1:juubun-充分",
+   "vocab:n1:ato-跡",
+   "vocab:n1:iseki-遺跡",
+   "vocab:n1:ashiato-足跡",
+   "vocab:n1:koukendo-貢献度",
+   "vocab:n1:shika-鹿",
+   "vocab:n1:kagoshima-鹿児島",
+   "vocab:n1:kyakka-却下"
+  ],
+  "grammar": [
+   "gram:n1:shimatsu-da"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:21",
+  "no": 21,
+  "level": "n1",
+  "title": "Edges and collisions",
+  "kanji": [
+   "kanji:端",
+   "kanji:獲",
+   "kanji:郡",
+   "kanji:併",
+   "kanji:徹",
+   "kanji:貴",
+   "kanji:衝",
+   "kanji:焦"
+  ],
+  "vocab": [
+   "vocab:n1:shougeki-衝撃",
+   "vocab:n1:kyokutan-極端",
+   "vocab:n1:hashi-端",
+   "vocab:n1:sentan-先端",
+   "vocab:n1:eru-獲る",
+   "vocab:n1:gun-郡",
+   "vocab:n1:gappei-合併",
+   "vocab:n1:awaseru-併せる",
+   "vocab:n1:tetteiteki-徹底的",
+   "vocab:n1:tetsuyaake-徹夜明け",
+   "vocab:n1:kichouhin-貴重品",
+   "vocab:n1:kizoku-貴族",
+   "vocab:n1:shoudou-衝動",
+   "vocab:n1:shouten-焦点"
+  ],
+  "grammar": [
+   "gram:n1:zu-ni-wa-okanai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:22",
+  "no": 22,
+  "level": "n1",
+  "title": "Disaster and concession",
+  "kanji": [
+   "kanji:奪",
+   "kanji:災",
+   "kanji:浦",
+   "kanji:析",
+   "kanji:譲",
+   "kanji:称",
+   "kanji:納",
+   "kanji:樹"
+  ],
+  "vocab": [
+   "vocab:n1:ubau-奪う",
+   "vocab:n1:soudatsu-争奪",
+   "vocab:n1:sainan-災難",
+   "vocab:n1:kasai-火災",
+   "vocab:n1:ura-浦",
+   "vocab:n1:kaiseki-解析",
+   "vocab:n1:jouho-譲歩",
+   "vocab:n1:meishou-名称",
+   "vocab:n1:shousuru-称する",
+   "vocab:n1:shousan-称賛",
+   "vocab:n1:nouzei-納税",
+   "vocab:n1:nouki-納期",
+   "vocab:n1:jumoku-樹木",
+   "vocab:n1:juritsu-樹立"
+  ],
+  "grammar": [
+   "gram:n1:zu-ni-wa-sumanai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:23",
+  "no": 23,
+  "level": "n1",
+  "title": "Challenge and prudence",
+  "kanji": [
+   "kanji:挑",
+   "kanji:誘",
+   "kanji:紛",
+   "kanji:至",
+   "kanji:宗",
+   "kanji:促",
+   "kanji:慎",
+   "kanji:控"
+  ],
+  "vocab": [
+   "vocab:n1:yuuwaku-誘惑",
+   "vocab:n1:idomu-挑む",
+   "vocab:n1:chousensha-挑戦者",
+   "vocab:n1:yuudou-誘導",
+   "vocab:n1:funsou-紛争",
+   "vocab:n1:magireru-紛れる",
+   "vocab:n1:magirawashii-紛らわしい",
+   "vocab:n1:itaru-至る",
+   "vocab:n1:shikyuu-至急",
+   "vocab:n1:shuukyou-宗教",
+   "vocab:n1:shuuha-宗派",
+   "vocab:n1:unagasu-促す",
+   "vocab:n1:saisoku-催促",
+   "vocab:n1:tsutsushimu-慎む",
+   "vocab:n1:hikaeru-控える",
+   "vocab:n1:hikaeshitsu-控室"
+  ],
+  "grammar": [
+   "gram:n1:zu-jimai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:24",
+  "no": 24,
+  "level": "n1",
+  "title": "Grip and coins",
+  "kanji": [
+   "kanji:握",
+   "kanji:俊",
+   "kanji:銭",
+   "kanji:渋",
+   "kanji:銃",
+   "kanji:携",
+   "kanji:診",
+   "kanji:託"
+  ],
+  "vocab": [
+   "vocab:n1:teikei-提携",
+   "vocab:n1:akushu-握手",
+   "vocab:n1:zeni-銭",
+   "vocab:n1:kinsen-金銭",
+   "vocab:n1:shibui-渋い",
+   "vocab:n1:shiburu-渋る",
+   "vocab:n1:juu-銃",
+   "vocab:n1:tazusawaru-携わる",
+   "vocab:n1:teikeisaki-提携先",
+   "vocab:n1:miru-診る",
+   "vocab:n1:shinryou-診療",
+   "vocab:n1:itaku-委託",
+   "vocab:n1:takusu-託す"
+  ],
+  "grammar": [
+   "gram:n1:soba-kara"
+  ],
+  "readings": [
+   "read:n1:002"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:25",
+  "no": 25,
+  "level": "n1",
+  "title": "Snapshots and gratitude",
+  "kanji": [
+   "kanji:撮",
+   "kanji:誕",
+   "kanji:侵",
+   "kanji:括",
+   "kanji:掛",
+   "kanji:謝",
+   "kanji:孝",
+   "kanji:駆"
+  ],
+  "vocab": [
+   "vocab:n1:satsuei-撮影",
+   "vocab:n1:tanjou-誕生",
+   "vocab:n1:shinnyuu-侵入",
+   "vocab:n1:shingai-侵害",
+   "vocab:n1:okasu-侵す",
+   "vocab:n1:ikkatsu-一括",
+   "vocab:n1:houkatsuteki-包括的",
+   "vocab:n1:kakezan-掛け算",
+   "vocab:n1:tegakari-手掛かり",
+   "vocab:n1:shazai-謝罪",
+   "vocab:n1:kanshajou-感謝状",
+   "vocab:n1:koukou-孝行",
+   "vocab:n1:oyakoukou-親孝行",
+   "vocab:n1:kakekomu-駆け込む",
+   "vocab:n1:senkusha-先駆者"
+  ],
+  "grammar": [
+   "gram:n1:tada-nomi-narazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:26",
+  "no": 26,
+  "level": "n1",
+  "title": "Transparency and rice",
+  "kanji": [
+   "kanji:透",
+   "kanji:津",
+   "kanji:稲",
+   "kanji:裂",
+   "kanji:敏",
+   "kanji:是",
+   "kanji:排",
+   "kanji:裕"
+  ],
+  "vocab": [
+   "vocab:n1:shunbin-俊敏",
+   "vocab:n1:toumeikan-透明感",
+   "vocab:n1:sukeru-透ける",
+   "vocab:n1:tsunamikeihou-津波警報",
+   "vocab:n1:tsu-津",
+   "vocab:n1:ine-稲",
+   "vocab:n1:inasaku-稲作",
+   "vocab:n1:sakeru-裂ける",
+   "vocab:n1:bunretsu-分裂",
+   "vocab:n1:kibin-機敏",
+   "vocab:n1:zesei-是正",
+   "vocab:n1:haijo-排除",
+   "vocab:n1:haishutsu-排出",
+   "vocab:n1:haisui-排水",
+   "vocab:n1:yuufuku-裕福",
+   "vocab:n1:yoyuu-余裕",
+   "vocab:n1:zehitomo-是非とも"
+  ],
+  "grammar": [
+   "gram:n1:tari-tomo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:27",
+  "no": 27,
+  "level": "n1",
+  "title": "Firmness and codes",
+  "kanji": [
+   "kanji:堅",
+   "kanji:訳",
+   "kanji:芝",
+   "kanji:綱",
+   "kanji:典",
+   "kanji:賀",
+   "kanji:扱",
+   "kanji:顧"
+  ],
+  "vocab": [
+   "vocab:n1:katai-堅い",
+   "vocab:n1:kenjitsu-堅実",
+   "vocab:n1:chuuken-中堅",
+   "vocab:n1:tsuuyakusha-通訳者",
+   "vocab:n1:yakusu-訳す",
+   "vocab:n1:shiba-芝",
+   "vocab:n1:shibai-芝居",
+   "vocab:n1:shibafu-芝生",
+   "vocab:n1:tsuna-綱",
+   "vocab:n1:tsunahiki-綱引き",
+   "vocab:n1:youkou-要綱",
+   "vocab:n1:tenkeiteki-典型的",
+   "vocab:n1:koten-古典",
+   "vocab:n1:shukuga-祝賀",
+   "vocab:n1:nengajou-年賀状",
+   "vocab:n1:toriatsukai-取り扱い",
+   "vocab:n1:kaerimiru-顧みる",
+   "vocab:n1:komon-顧問"
+  ],
+  "grammar": [
+   "gram:n1:taru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:28",
+  "no": 28,
+  "level": "n1",
+  "title": "Lawsuits and delight",
+  "kanji": [
+   "kanji:訟",
+   "kanji:戒",
+   "kanji:祉",
+   "kanji:誉",
+   "kanji:歓",
+   "kanji:奏",
+   "kanji:勧",
+   "kanji:騒"
+  ],
+  "vocab": [
+   "vocab:n1:soshou-訴訟",
+   "vocab:n1:soshouhiyou-訴訟費用",
+   "vocab:n1:keikai-警戒",
+   "vocab:n1:imashimeru-戒める",
+   "vocab:n1:fukushishisetsu-福祉施設",
+   "vocab:n1:meiyo-名誉",
+   "vocab:n1:homare-誉れ",
+   "vocab:n1:kangeikai-歓迎会",
+   "vocab:n1:kansei-歓声",
+   "vocab:n1:kanaderu-奏でる",
+   "vocab:n1:kankoku-勧告",
+   "vocab:n1:kanyuu-勧誘",
+   "vocab:n1:souon-騒音",
+   "vocab:n1:soudou-騒動"
+  ],
+  "grammar": [
+   "gram:n1:tsu-tsu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:29",
+  "no": 29,
+  "level": "n1",
+  "title": "Cliques and neighbours",
+  "kanji": [
+   "kanji:閥",
+   "kanji:甲",
+   "kanji:縄",
+   "kanji:郷",
+   "kanji:免",
+   "kanji:既",
+   "kanji:薦",
+   "kanji:隣"
+  ],
+  "vocab": [
+   "vocab:n1:habatsu-派閥",
+   "vocab:n1:suisen-推薦",
+   "vocab:n1:okinawa-沖縄",
+   "vocab:n1:zaibatsu-財閥",
+   "vocab:n1:kou-甲",
+   "vocab:n1:kanpan-甲板",
+   "vocab:n1:nawa-縄",
+   "vocab:n1:nawabari-縄張り",
+   "vocab:n1:kyoudo-郷土",
+   "vocab:n1:menkyo-免許",
+   "vocab:n1:menjo-免除",
+   "vocab:n1:manugareru-免れる",
+   "vocab:n1:sudeni-既に",
+   "vocab:n1:kizon-既存",
+   "vocab:n1:kikon-既婚",
+   "vocab:n1:suisenjou-推薦状",
+   "vocab:n1:rinsetsu-隣接",
+   "vocab:n1:kinrin-近隣"
+  ],
+  "grammar": [
+   "gram:n1:to-atte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:30",
+  "no": 30,
+  "level": "n1",
+  "title": "Splendour and virtue",
+  "kanji": [
+   "kanji:華",
+   "kanji:範",
+   "kanji:徳",
+   "kanji:哲",
+   "kanji:杉",
+   "kanji:里",
+   "kanji:釈",
+   "kanji:己"
+  ],
+  "vocab": [
+   "vocab:n1:mohan-模範",
+   "vocab:n1:chuuka-中華",
+   "vocab:n1:hanigai-範囲外",
+   "vocab:n1:kihan-規範",
+   "vocab:n1:doutokuteki-道徳的",
+   "vocab:n1:toku-徳",
+   "vocab:n1:tetsugaku-哲学",
+   "vocab:n1:sugi-杉",
+   "vocab:n1:sato-里",
+   "vocab:n1:satogaeri-里帰り",
+   "vocab:n1:shakumei-釈明",
+   "vocab:n1:jiko-自己",
+   "vocab:n1:rikoteki-利己的"
+  ],
+  "grammar": [
+   "gram:n1:to-areba"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:003"
+  ]
+ },
+ {
+  "id": "unit:n1:31",
+  "no": 31,
+  "level": "n1",
+  "title": "Threat and symptoms",
+  "kanji": [
+   "kanji:妥",
+   "kanji:威",
+   "kanji:豪",
+   "kanji:熊",
+   "kanji:滞",
+   "kanji:微",
+   "kanji:隆",
+   "kanji:症"
+  ],
+  "vocab": [
+   "vocab:n1:juutai-渋滞",
+   "vocab:n1:dakyouan-妥協案",
+   "vocab:n1:datousei-妥当性",
+   "vocab:n1:iryoku-威力",
+   "vocab:n1:ibaru-威張る",
+   "vocab:n1:keni-権威",
+   "vocab:n1:gouu-豪雨",
+   "vocab:n1:goukai-豪快",
+   "vocab:n1:kuma-熊",
+   "vocab:n1:taizai-滞在",
+   "vocab:n1:todokooru-滞る",
+   "vocab:n1:bishou-微笑",
+   "vocab:n1:kasuka-微か",
+   "vocab:n1:ryuusei-隆盛",
+   "vocab:n1:shoukougun-症候群",
+   "vocab:n1:juushou-重症"
+  ],
+  "grammar": [
+   "gram:n1:to-ii-to-ii"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:32",
+  "no": 32,
+  "level": "n1",
+  "title": "Loyalty and chanting",
+  "kanji": [
+   "kanji:暫",
+   "kanji:忠",
+   "kanji:倉",
+   "kanji:肝",
+   "kanji:喚",
+   "kanji:沿",
+   "kanji:妙",
+   "kanji:唱"
+  ],
+  "vocab": [
+   "vocab:n1:bimyou-微妙",
+   "vocab:n1:zantei-暫定",
+   "vocab:n1:chuukoku-忠告",
+   "vocab:n1:chuujitsu-忠実",
+   "vocab:n1:kura-倉",
+   "vocab:n1:kanjin-肝心",
+   "vocab:n1:kanzou-肝臓",
+   "vocab:n1:kanki-喚起",
+   "vocab:n1:engan-沿岸",
+   "vocab:n1:ensen-沿線",
+   "vocab:n1:tonaeru-唱える",
+   "vocab:n1:gasshou-合唱",
+   "vocab:n1:teishou-提唱"
+  ],
+  "grammar": [
+   "gram:n1:to-iu-tokoro-da"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:33",
+  "no": 33,
+  "level": "n1",
+  "title": "Sincerity and surprise",
+  "kanji": [
+   "kanji:索",
+   "kanji:誠",
+   "kanji:襲",
+   "kanji:懇",
+   "kanji:俳",
+   "kanji:柄",
+   "kanji:驚",
+   "kanji:麻"
+  ],
+  "vocab": [
+   "vocab:n1:kensaku-検索",
+   "vocab:n1:mosaku-模索",
+   "vocab:n1:sakuin-索引",
+   "vocab:n1:seijitsu-誠実",
+   "vocab:n1:makotoni-誠に",
+   "vocab:n1:osou-襲う",
+   "vocab:n1:shuugeki-襲撃",
+   "vocab:n1:kondan-懇談",
+   "vocab:n1:konshinkai-懇親会",
+   "vocab:n1:haiyuu-俳優",
+   "vocab:n1:gara-柄",
+   "vocab:n1:tegara-手柄",
+   "vocab:n1:kyoui-驚異",
+   "vocab:n1:mayaku-麻薬",
+   "vocab:n1:mahi-麻痺"
+  ],
+  "grammar": [
+   "gram:n1:to-ittara-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:34",
+  "no": 34,
+  "level": "n1",
+  "title": "Rapids and consolation",
+  "kanji": [
+   "kanji:剤",
+   "kanji:瀬",
+   "kanji:趣",
+   "kanji:陥",
+   "kanji:斎",
+   "kanji:貫",
+   "kanji:仙",
+   "kanji:慰"
+  ],
+  "vocab": [
+   "vocab:n1:yakuzaishi-薬剤師",
+   "vocab:n1:asase-浅瀬",
+   "vocab:n1:omomuki-趣",
+   "vocab:n1:ochiiru-陥る",
+   "vocab:n1:kekkanhin-欠陥品",
+   "vocab:n1:shosai-書斎",
+   "vocab:n1:tsuranuku-貫く",
+   "vocab:n1:ikkan-一貫",
+   "vocab:n1:sennin-仙人",
+   "vocab:n1:isharyou-慰謝料"
+  ],
+  "grammar": [
+   "gram:n1:to-iedomo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:35",
+  "no": 35,
+  "level": "n1",
+  "title": "Prefaces and sanctity",
+  "kanji": [
+   "kanji:序",
+   "kanji:旬",
+   "kanji:兼",
+   "kanji:聖",
+   "kanji:旨",
+   "kanji:即",
+   "kanji:柳",
+   "kanji:舎"
+  ],
+  "vocab": [
+   "vocab:n1:shushi-趣旨",
+   "vocab:n1:jobun-序文",
+   "vocab:n1:junjo-順序",
+   "vocab:n1:shun-旬",
+   "vocab:n1:kengyou-兼業",
+   "vocab:n1:seisho-聖書",
+   "vocab:n1:shinsei-神聖",
+   "vocab:n1:mune-旨",
+   "vocab:n1:youshi-要旨",
+   "vocab:n1:sokuza-即座",
+   "vocab:n1:sokkyou-即興",
+   "vocab:n1:yanagi-柳",
+   "vocab:n1:kousha-校舎",
+   "vocab:n1:sokusuru-即する"
+  ],
+  "grammar": [
+   "gram:n1:to-kitara"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:36",
+  "no": 36,
+  "level": "n1",
+  "title": "Falsehood and flags",
+  "kanji": [
+   "kanji:偽",
+   "kanji:覇",
+   "kanji:詳",
+   "kanji:抵",
+   "kanji:脅",
+   "kanji:茂",
+   "kanji:犠",
+   "kanji:旗"
+  ],
+  "vocab": [
+   "vocab:n1:teikou-抵抗",
+   "vocab:n1:nisemono-偽物",
+   "vocab:n1:gizou-偽造",
+   "vocab:n1:itsuwaru-偽る",
+   "vocab:n1:haken-覇権",
+   "vocab:n1:seiha-制覇",
+   "vocab:n1:shousai-詳細",
+   "vocab:n1:teikouryoku-抵抗力",
+   "vocab:n1:odosu-脅す",
+   "vocab:n1:kyoui-脅威",
+   "vocab:n1:shigeru-茂る",
+   "vocab:n1:hata-旗",
+   "vocab:n1:kokki-国旗"
+  ],
+  "grammar": [
+   "gram:n1:tokoro-o"
+  ],
+  "readings": [
+   "read:n1:003"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:37",
+  "no": 37,
+  "level": "n1",
+  "title": "Distance and dragons",
+  "kanji": [
+   "kanji:距",
+   "kanji:雅",
+   "kanji:飾",
+   "kanji:網",
+   "kanji:竜",
+   "kanji:詩",
+   "kanji:繁",
+   "kanji:翼"
+  ],
+  "vocab": [
+   "vocab:n1:kyori-距離",
+   "vocab:n1:kyorikan-距離感",
+   "vocab:n1:yuuga-優雅",
+   "vocab:n1:miyabi-雅",
+   "vocab:n1:kazaru-飾る",
+   "vocab:n1:soushoku-装飾",
+   "vocab:n1:ami-網",
+   "vocab:n1:tsuushinmou-通信網",
+   "vocab:n1:ryuu-竜",
+   "vocab:n1:kyouryuu-恐竜",
+   "vocab:n1:shi-詩",
+   "vocab:n1:shijin-詩人",
+   "vocab:n1:hankagai-繁華街",
+   "vocab:n1:tsubasa-翼",
+   "vocab:n1:sayoku-左翼"
+  ],
+  "grammar": [
+   "gram:n1:to-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:38",
+  "no": 38,
+  "level": "n1",
+  "title": "Enemies and spheres",
+  "kanji": [
+   "kanji:潟",
+   "kanji:敵",
+   "kanji:魅",
+   "kanji:斉",
+   "kanji:敷",
+   "kanji:擁",
+   "kanji:圏",
+   "kanji:酸"
+  ],
+  "vocab": [
+   "vocab:n1:kata-潟",
+   "vocab:n1:niigata-新潟",
+   "vocab:n1:teki-敵",
+   "vocab:n1:tekitai-敵対",
+   "vocab:n1:miryoku-魅力",
+   "vocab:n1:miryou-魅了",
+   "vocab:n1:issei-一斉",
+   "vocab:n1:seishou-斉唱",
+   "vocab:n1:shiku-敷く",
+   "vocab:n1:shikichi-敷地",
+   "vocab:n1:yashiki-屋敷",
+   "vocab:n1:yougo-擁護",
+   "vocab:n1:houyou-抱擁",
+   "vocab:n1:shutoken-首都圏",
+   "vocab:n1:kennai-圏内",
+   "vocab:n1:sanso-酸素",
+   "vocab:n1:suppai-酸っぱい"
+  ],
+  "grammar": [
+   "gram:n1:to-wa-ie"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:39",
+  "no": 39,
+  "level": "n1",
+  "title": "Penalty and tides",
+  "kanji": [
+   "kanji:罰",
+   "kanji:滅",
+   "kanji:礎",
+   "kanji:腐",
+   "kanji:脚",
+   "kanji:潮",
+   "kanji:梅",
+   "kanji:尽"
+  ],
+  "vocab": [
+   "vocab:n1:keibatsu-刑罰",
+   "vocab:n1:bakkinkei-罰金刑",
+   "vocab:n1:shobatsu-処罰",
+   "vocab:n1:horobiru-滅びる",
+   "vocab:n1:zetsumetsu-絶滅",
+   "vocab:n1:ishizue-礎",
+   "vocab:n1:fuhai-腐敗",
+   "vocab:n1:kyakuhon-脚本",
+   "vocab:n1:ashi-脚",
+   "vocab:n1:shio-潮",
+   "vocab:n1:fuuchou-風潮",
+   "vocab:n1:ume-梅",
+   "vocab:n1:umeboshi-梅干し",
+   "vocab:n1:tsukusu-尽くす"
+  ],
+  "grammar": [
+   "gram:n1:to-mo-naku"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:40",
+  "no": 40,
+  "level": "n1",
+  "title": "Cherry and longevity",
+  "kanji": [
+   "kanji:僕",
+   "kanji:桜",
+   "kanji:滑",
+   "kanji:孤",
+   "kanji:炎",
+   "kanji:賠",
+   "kanji:句",
+   "kanji:寿"
+  ],
+  "vocab": [
+   "vocab:n1:baishoukin-賠償金",
+   "vocab:n1:haiku-俳句",
+   "vocab:n1:bokura-僕ら",
+   "vocab:n1:sakura-桜",
+   "vocab:n1:koritsu-孤立",
+   "vocab:n1:honoo-炎",
+   "vocab:n1:enshou-炎症",
+   "vocab:n1:baishou-賠償",
+   "vocab:n1:goku-語句",
+   "vocab:n1:monku-文句",
+   "vocab:n1:jumyou-寿命",
+   "vocab:n1:sushi-寿司"
+  ],
+  "grammar": [
+   "gram:n1:to-mo-nareba"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:41",
+  "no": 41,
+  "level": "n1",
+  "title": "Steel and radiance",
+  "kanji": [
+   "kanji:鋼",
+   "kanji:頑",
+   "kanji:鎖",
+   "kanji:彩",
+   "kanji:摩",
+   "kanji:励",
+   "kanji:縦",
+   "kanji:輝"
+  ],
+  "vocab": [
+   "vocab:n1:koutetsu-鋼鉄",
+   "vocab:n1:hagane-鋼",
+   "vocab:n1:ganko-頑固",
+   "vocab:n1:kusari-鎖",
+   "vocab:n1:heisa-閉鎖",
+   "vocab:n1:irodori-彩り",
+   "vocab:n1:shikisai-色彩",
+   "vocab:n1:hagemu-励む",
+   "vocab:n1:gekirei-激励",
+   "vocab:n1:tate-縦",
+   "vocab:n1:juudan-縦断",
+   "vocab:n1:kagayaki-輝き"
+  ],
+  "grammar": [
+   "gram:n1:nai-made-mo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:42",
+  "no": 42,
+  "level": "n1",
+  "title": "Axes and boasting",
+  "kanji": [
+   "kanji:蓄",
+   "kanji:軸",
+   "kanji:巡",
+   "kanji:稼",
+   "kanji:瞬",
+   "kanji:砲",
+   "kanji:噴",
+   "kanji:誇"
+  ],
+  "vocab": [
+   "vocab:n1:jiku-軸",
+   "vocab:n1:chijiku-地軸",
+   "vocab:n1:junkai-巡回",
+   "vocab:n1:kadou-稼働",
+   "vocab:n1:mabataku-瞬く",
+   "vocab:n1:teppou-鉄砲",
+   "vocab:n1:funsui-噴水",
+   "vocab:n1:hokoru-誇る",
+   "vocab:n1:kochou-誇張"
+  ],
+  "grammar": [
+   "gram:n1:nai-mono-demo-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:43",
+  "no": 43,
+  "level": "n1",
+  "title": "Omens and bribery",
+  "kanji": [
+   "kanji:祥",
+   "kanji:牲",
+   "kanji:秩",
+   "kanji:帝",
+   "kanji:唆",
+   "kanji:阻",
+   "kanji:泰",
+   "kanji:賄"
+  ],
+  "vocab": [
+   "vocab:n1:koutei-皇帝",
+   "vocab:n1:chitsujo-秩序",
+   "vocab:n1:gisei-犠牲",
+   "vocab:n1:giseisha-犠牲者",
+   "vocab:n1:hasshou-発祥",
+   "vocab:n1:kisshou-吉祥",
+   "vocab:n1:giseiteki-犠牲的",
+   "vocab:n1:chitsujotadashii-秩序正しい",
+   "vocab:n1:teikoku-帝国",
+   "vocab:n1:shisa-示唆",
+   "vocab:n1:soshi-阻止",
+   "vocab:n1:habamu-阻む",
+   "vocab:n1:antai-安泰",
+   "vocab:n1:wairo-賄賂",
+   "vocab:n1:makanau-賄う"
+  ],
+  "grammar": [
+   "gram:n1:nagara-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:44",
+  "no": 44,
+  "level": "n1",
+  "title": "Ditches and swelling",
+  "kanji": [
+   "kanji:撲",
+   "kanji:堀",
+   "kanji:菊",
+   "kanji:絞",
+   "kanji:縁",
+   "kanji:唯",
+   "kanji:膨",
+   "kanji:矢"
+  ],
+  "vocab": [
+   "vocab:n1:sumou-相撲",
+   "vocab:n1:bokumetsu-撲滅",
+   "vocab:n1:hori-堀",
+   "vocab:n1:kiku-菊",
+   "vocab:n1:shiboru-絞る",
+   "vocab:n1:shimeru-絞める",
+   "vocab:n1:en-縁",
+   "vocab:n1:engawa-縁側",
+   "vocab:n1:yuiitsu-唯一",
+   "vocab:n1:fukuramu-膨らむ",
+   "vocab:n1:boudai-膨大",
+   "vocab:n1:ya-矢",
+   "vocab:n1:yajirushi-矢印"
+  ],
+  "grammar": [
+   "gram:n1:nakushite-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:45",
+  "no": 45,
+  "level": "n1",
+  "title": "Endurance and swords",
+  "kanji": [
+   "kanji:耐",
+   "kanji:塾",
+   "kanji:漏",
+   "kanji:慶",
+   "kanji:猛",
+   "kanji:芳",
+   "kanji:懲",
+   "kanji:剣"
+  ],
+  "vocab": [
+   "vocab:n1:taikyuu-耐久",
+   "vocab:n1:juku-塾",
+   "vocab:n1:morasu-漏らす",
+   "vocab:n1:keishuku-慶祝",
+   "vocab:n1:mousho-猛暑",
+   "vocab:n1:kanbashii-芳しい",
+   "vocab:n1:koriru-懲りる",
+   "vocab:n1:choukai-懲戒",
+   "vocab:n1:ken-剣",
+   "vocab:n1:shinken-真剣"
+  ],
+  "grammar": [
+   "gram:n1:nashi-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:46",
+  "no": 46,
+  "level": "n1",
+  "title": "Ethics and constancy",
+  "kanji": [
+   "kanji:彰",
+   "kanji:棋",
+   "kanji:丁",
+   "kanji:恒",
+   "kanji:揚",
+   "kanji:冒",
+   "kanji:倫",
+   "kanji:陳"
+  ],
+  "vocab": [
+   "vocab:n1:hyoushou-表彰",
+   "vocab:n1:shougi-将棋",
+   "vocab:n1:choudo-丁度",
+   "vocab:n1:kourei-恒例",
+   "vocab:n1:koukyuu-恒久",
+   "vocab:n1:keiyou-掲揚",
+   "vocab:n1:bouken-冒険",
+   "vocab:n1:boutou-冒頭",
+   "vocab:n1:okasu-冒す",
+   "vocab:n1:rinrikan-倫理観",
+   "vocab:n1:chinretsu-陳列"
+  ],
+  "grammar": [
+   "gram:n1:narade-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:47",
+  "no": 47,
+  "level": "n1",
+  "title": "Memory and outlines",
+  "kanji": [
+   "kanji:憶",
+   "kanji:潜",
+   "kanji:梨",
+   "kanji:仁",
+   "kanji:克",
+   "kanji:岳",
+   "kanji:概",
+   "kanji:拘"
+  ],
+  "vocab": [
+   "vocab:n1:okusoku-憶測",
+   "vocab:n1:senzai-潜在",
+   "vocab:n1:jin-仁",
+   "vocab:n1:kokufuku-克服",
+   "vocab:n1:sangaku-山岳",
+   "vocab:n1:gainenka-概念化",
+   "vocab:n1:gaiyou-概要",
+   "vocab:n1:taigai-大概",
+   "vocab:n1:kousoku-拘束",
+   "vocab:n1:kodawaru-拘る",
+   "vocab:n1:oomune-概ね"
+  ],
+  "grammar": [
+   "gram:n1:nari"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:48",
+  "no": 48,
+  "level": "n1",
+  "title": "Graves and silence",
+  "kanji": [
+   "kanji:墓",
+   "kanji:黙",
+   "kanji:須",
+   "kanji:偏",
+   "kanji:雰",
+   "kanji:遇",
+   "kanji:諮",
+   "kanji:卓"
+  ],
+  "vocab": [
+   "vocab:n1:haka-墓",
+   "vocab:n1:bochi-墓地",
+   "vocab:n1:chinmoku-沈黙",
+   "vocab:n1:hissu-必須",
+   "vocab:n1:henken-偏見",
+   "vocab:n1:katayoru-偏る",
+   "vocab:n1:funiki-雰囲気",
+   "vocab:n1:taiguu-待遇",
+   "vocab:n1:shimon-諮問",
+   "vocab:n1:shokutaku-食卓",
+   "vocab:n1:takuetsu-卓越"
+  ],
+  "grammar": [
+   "gram:n1:nari-nari"
+  ],
+  "readings": [
+   "read:n1:004"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:49",
+  "no": 49,
+  "level": "n1",
+  "title": "Tortoises and warships",
+  "kanji": [
+   "kanji:亀",
+   "kanji:糧",
+   "kanji:簿",
+   "kanji:炉",
+   "kanji:牧",
+   "kanji:殊",
+   "kanji:殖",
+   "kanji:艦"
+  ],
+  "vocab": [
+   "vocab:n1:hanshoku-繁殖",
+   "vocab:n1:kame-亀",
+   "vocab:n1:shokuryou-食糧",
+   "vocab:n1:kate-糧",
+   "vocab:n1:meibo-名簿",
+   "vocab:n1:ro-炉",
+   "vocab:n1:genshiro-原子炉",
+   "vocab:n1:bokujou-牧場",
+   "vocab:n1:bokushi-牧師",
+   "vocab:n1:tokushu-特殊",
+   "vocab:n1:kotoni-殊に",
+   "vocab:n1:youshoku-養殖",
+   "vocab:n1:zoushoku-増殖",
+   "vocab:n1:gunkan-軍艦"
+  ],
+  "grammar": [
+   "gram:n1:nari-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:50",
+  "no": 50,
+  "level": "n1",
+  "title": "Holes and cranes",
+  "kanji": [
+   "kanji:輩",
+   "kanji:穴",
+   "kanji:奇",
+   "kanji:慢",
+   "kanji:鶴",
+   "kanji:謀",
+   "kanji:拍",
+   "kanji:朗"
+  ],
+  "vocab": [
+   "vocab:n1:gamanzuyoi-我慢強い",
+   "vocab:n1:senpaizura-先輩面",
+   "vocab:n1:ana-穴",
+   "vocab:n1:kiseki-奇跡",
+   "vocab:n1:koukishin-好奇心",
+   "vocab:n1:jiman-自慢",
+   "vocab:n1:mansei-慢性",
+   "vocab:n1:tsuru-鶴",
+   "vocab:n1:hakaru-謀る",
+   "vocab:n1:hakushu-拍手",
+   "vocab:n1:hyoushi-拍子",
+   "vocab:n1:hogaraka-朗らか",
+   "vocab:n1:roudoku-朗読",
+   "vocab:n1:anagura-穴蔵"
+  ],
+  "grammar": [
+   "gram:n1:ni-atai-suru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:51",
+  "no": 51,
+  "level": "n1",
+  "title": "Tolerance and leisure",
+  "kanji": [
+   "kanji:丈",
+   "kanji:寛",
+   "kanji:覆",
+   "kanji:胞",
+   "kanji:隔",
+   "kanji:浄",
+   "kanji:没",
+   "kanji:暇"
+  ],
+  "vocab": [
+   "vocab:n1:setake-背丈",
+   "vocab:n1:kandai-寛大",
+   "vocab:n1:oou-覆う",
+   "vocab:n1:kutsugaesu-覆す",
+   "vocab:n1:saibou-細胞",
+   "vocab:n1:kankaku-間隔",
+   "vocab:n1:jouka-浄化",
+   "vocab:n1:bottou-没頭",
+   "vocab:n1:bosshuu-没収"
+  ],
+  "grammar": [
+   "gram:n1:ni-atatte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:52",
+  "no": 52,
+  "level": "n1",
+  "title": "Lungs and inscriptions",
+  "kanji": [
+   "kanji:肺",
+   "kanji:貞",
+   "kanji:鑑",
+   "kanji:飼",
+   "kanji:陰",
+   "kanji:銘",
+   "kanji:随",
+   "kanji:烈"
+  ],
+  "vocab": [
+   "vocab:n1:mouretsu-猛烈",
+   "vocab:n1:inbou-陰謀",
+   "vocab:n1:haien-肺炎",
+   "vocab:n1:teisou-貞操",
+   "vocab:n1:kanshou-鑑賞",
+   "vocab:n1:kantei-鑑定",
+   "vocab:n1:shiiku-飼育",
+   "vocab:n1:kage-陰",
+   "vocab:n1:inki-陰気",
+   "vocab:n1:meigara-銘柄",
+   "vocab:n1:zuiji-随時",
+   "vocab:n1:kyouretsu-強烈"
+  ],
+  "grammar": [
+   "gram:n1:ni-itatte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:53",
+  "no": 53,
+  "level": "n1",
+  "title": "Drafts and hills",
+  "kanji": [
+   "kanji:尋",
+   "kanji:稿",
+   "kanji:丹",
+   "kanji:啓",
+   "kanji:丘",
+   "kanji:棟",
+   "kanji:壌",
+   "kanji:漫"
+  ],
+  "vocab": [
+   "vocab:n1:jinjou-尋常",
+   "vocab:n1:genkou-原稿",
+   "vocab:n1:toukou-投稿",
+   "vocab:n1:tannen-丹念",
+   "vocab:n1:keihatsu-啓発",
+   "vocab:n1:haikei-拝啓",
+   "vocab:n1:oka-丘",
+   "vocab:n1:sakyuu-砂丘",
+   "vocab:n1:mune-棟",
+   "vocab:n1:dojou-土壌",
+   "vocab:n1:manga-漫画",
+   "vocab:n1:sanman-散漫"
+  ],
+  "grammar": [
+   "gram:n1:ni-kagitta-koto-de-wa-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:54",
+  "no": 54,
+  "level": "n1",
+  "title": "Mystery and grace",
+  "kanji": [
+   "kanji:玄",
+   "kanji:粘",
+   "kanji:悟",
+   "kanji:舗",
+   "kanji:妊",
+   "kanji:熟",
+   "kanji:恩",
+   "kanji:騰"
+  ],
+  "vocab": [
+   "vocab:n1:genmai-玄米",
+   "vocab:n1:nebaru-粘る",
+   "vocab:n1:nebarizuyoi-粘り強い",
+   "vocab:n1:satoru-悟る",
+   "vocab:n1:tenpo-店舗",
+   "vocab:n1:hosou-舗装",
+   "vocab:n1:jukuren-熟練",
+   "vocab:n1:seijuku-成熟",
+   "vocab:n1:on-恩",
+   "vocab:n1:onkei-恩恵",
+   "vocab:n1:onshi-恩師",
+   "vocab:n1:koutou-高騰",
+   "vocab:n1:futtou-沸騰",
+   "vocab:n1:jukusu-熟す"
+  ],
+  "grammar": [
+   "gram:n1:ni-kataku-nai"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:004"
+  ]
+ },
+ {
+  "id": "unit:n1:55",
+  "no": 55,
+  "level": "n1",
+  "title": "Beans and cultivation",
+  "kanji": [
+   "kanji:往",
+   "kanji:豆",
+   "kanji:遂",
+   "kanji:狂",
+   "kanji:岐",
+   "kanji:陛",
+   "kanji:緯",
+   "kanji:培"
+  ],
+  "vocab": [
+   "vocab:n1:toufu-豆腐",
+   "vocab:n1:ourai-往来",
+   "vocab:n1:daizu-大豆",
+   "vocab:n1:togeru-遂げる",
+   "vocab:n1:suikou-遂行",
+   "vocab:n1:kuruu-狂う",
+   "vocab:n1:nekkyou-熱狂",
+   "vocab:n1:bunkiten-分岐点",
+   "vocab:n1:heika-陛下",
+   "vocab:n1:ido-緯度",
+   "vocab:n1:keii-経緯",
+   "vocab:n1:tsuchikau-培う"
+  ],
+  "grammar": [
+   "gram:n1:ni-shite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:56",
+  "no": 56,
+  "level": "n1",
+  "title": "Decline and courts",
+  "kanji": [
+   "kanji:衰",
+   "kanji:艇",
+   "kanji:屈",
+   "kanji:径",
+   "kanji:淡",
+   "kanji:抽",
+   "kanji:披",
+   "kanji:廷"
+  ],
+  "vocab": [
+   "vocab:n1:otoroeru-衰える",
+   "vocab:n1:suitai-衰退",
+   "vocab:n1:tei-艇",
+   "vocab:n1:kussetsu-屈折",
+   "vocab:n1:chokkei-直径",
+   "vocab:n1:hankei-半径",
+   "vocab:n1:awai-淡い",
+   "vocab:n1:tansui-淡水",
+   "vocab:n1:chuusen-抽選",
+   "vocab:n1:chuushouteki-抽象的",
+   "vocab:n1:hirou-披露",
+   "vocab:n1:houtei-法廷",
+   "vocab:n1:kuppuku-屈服"
+  ],
+  "grammar": [
+   "gram:n1:ni-sokushite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:57",
+  "no": 57,
+  "level": "n1",
+  "title": "Brocade and ponies",
+  "kanji": [
+   "kanji:錦",
+   "kanji:准",
+   "kanji:奨",
+   "kanji:浸",
+   "kanji:剰",
+   "kanji:胆",
+   "kanji:繊",
+   "kanji:駒"
+  ],
+  "vocab": [
+   "vocab:n1:seni-繊維",
+   "vocab:n1:shintou-浸透",
+   "vocab:n1:nishiki-錦",
+   "vocab:n1:junkyouju-准教授",
+   "vocab:n1:shourei-奨励",
+   "vocab:n1:shinsui-浸水",
+   "vocab:n1:kajou-過剰",
+   "vocab:n1:yojou-余剰",
+   "vocab:n1:kimo-胆",
+   "vocab:n1:sensai-繊細",
+   "vocab:n1:koma-駒"
+  ],
+  "grammar": [
+   "gram:n1:ni-taeru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:58",
+  "no": 58,
+  "level": "n1",
+  "title": "Spirits and regret",
+  "kanji": [
+   "kanji:虚",
+   "kanji:霊",
+   "kanji:帳",
+   "kanji:悔",
+   "kanji:諭",
+   "kanji:惨",
+   "kanji:虐",
+   "kanji:翻"
+  ],
+  "vocab": [
+   "vocab:n1:choubo-帳簿",
+   "vocab:n1:munashii-虚しい",
+   "vocab:n1:kyogi-虚偽",
+   "vocab:n1:rei-霊",
+   "vocab:n1:techou-手帳",
+   "vocab:n1:tobari-帳",
+   "vocab:n1:kuyashisa-悔しさ",
+   "vocab:n1:satosu-諭す",
+   "vocab:n1:kyouyu-教諭",
+   "vocab:n1:hisan-悲惨",
+   "vocab:n1:sanji-惨事",
+   "vocab:n1:gyakutai-虐待",
+   "vocab:n1:zangyaku-残虐",
+   "vocab:n1:honyakusha-翻訳者",
+   "vocab:n1:hirugaesu-翻す"
+  ],
+  "grammar": [
+   "gram:n1:ni-taru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:59",
+  "no": 59,
+  "level": "n1",
+  "title": "Marshes and shields",
+  "kanji": [
+   "kanji:墜",
+   "kanji:沼",
+   "kanji:据",
+   "kanji:肥",
+   "kanji:徐",
+   "kanji:糖",
+   "kanji:搭",
+   "kanji:盾"
+  ],
+  "vocab": [
+   "vocab:n1:tsuiraku-墜落",
+   "vocab:n1:numa-沼",
+   "vocab:n1:sueru-据える",
+   "vocab:n1:suetsuke-据え付け",
+   "vocab:n1:hiryou-肥料",
+   "vocab:n1:koeru-肥える",
+   "vocab:n1:jokou-徐行",
+   "vocab:n1:toubun-糖分",
+   "vocab:n1:toujou-搭乗",
+   "vocab:n1:tousai-搭載",
+   "vocab:n1:tate-盾"
+  ],
+  "grammar": [
+   "gram:n1:ni-terashite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:60",
+  "no": 60,
+  "level": "n1",
+  "title": "Veins and whales",
+  "kanji": [
+   "kanji:脈",
+   "kanji:滝",
+   "kanji:軌",
+   "kanji:俵",
+   "kanji:妨",
+   "kanji:擦",
+   "kanji:鯨",
+   "kanji:荘"
+  ],
+  "vocab": [
+   "vocab:n1:masatsu-摩擦",
+   "vocab:n1:bunmyaku-文脈",
+   "vocab:n1:sanmyaku-山脈",
+   "vocab:n1:taki-滝",
+   "vocab:n1:kidou-軌道",
+   "vocab:n1:dohyou-土俵",
+   "vocab:n1:samatageru-妨げる",
+   "vocab:n1:bougai-妨害",
+   "vocab:n1:sureru-擦れる",
+   "vocab:n1:kujira-鯨",
+   "vocab:n1:bessou-別荘",
+   "vocab:n1:sougon-荘厳"
+  ],
+  "grammar": [
+   "gram:n1:ni-wa-oyobanai"
+  ],
+  "readings": [
+   "read:n1:005"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:61",
+  "no": 61,
+  "level": "n1",
+  "title": "Thunder and intuition",
+  "kanji": [
+   "kanji:諾",
+   "kanji:雷",
+   "kanji:漂",
+   "kanji:懐",
+   "kanji:勘",
+   "kanji:栽",
+   "kanji:拐",
+   "kanji:駄"
+  ],
+  "vocab": [
+   "vocab:n1:saibai-栽培",
+   "vocab:n1:shoudaku-承諾",
+   "vocab:n1:judaku-受諾",
+   "vocab:n1:kaminari-雷",
+   "vocab:n1:raiu-雷雨",
+   "vocab:n1:tadayou-漂う",
+   "vocab:n1:hyouryuu-漂流",
+   "vocab:n1:futokoro-懐",
+   "vocab:n1:kaigiteki-懐疑的",
+   "vocab:n1:kan-勘",
+   "vocab:n1:kanchigai-勘違い",
+   "vocab:n1:kanjou-勘定",
+   "vocab:n1:yuukai-誘拐"
+  ],
+  "grammar": [
+   "gram:n1:ni-hikikae"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:62",
+  "no": 62,
+  "level": "n1",
+  "title": "Crowns and mirrors",
+  "kanji": [
+   "kanji:添",
+   "kanji:冠",
+   "kanji:斜",
+   "kanji:鏡",
+   "kanji:浪",
+   "kanji:亜",
+   "kanji:覧",
+   "kanji:詐"
+  ],
+  "vocab": [
+   "vocab:n1:hakurankai-博覧会",
+   "vocab:n1:soeru-添える",
+   "vocab:n1:tenpu-添付",
+   "vocab:n1:kanmuri-冠",
+   "vocab:n1:oukan-王冠",
+   "vocab:n1:naname-斜め",
+   "vocab:n1:keisha-傾斜",
+   "vocab:n1:harou-波浪",
+   "vocab:n1:rouhi-浪費",
+   "vocab:n1:anettai-亜熱帯",
+   "vocab:n1:ichiran-一覧",
+   "vocab:n1:kanran-観覧"
+  ],
+  "grammar": [
+   "gram:n1:ni-mo-mashite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:63",
+  "no": 63,
+  "level": "n1",
+  "title": "Demons and crests",
+  "kanji": [
+   "kanji:壇",
+   "kanji:勲",
+   "kanji:魔",
+   "kanji:酬",
+   "kanji:紫",
+   "kanji:紋",
+   "kanji:卸",
+   "kanji:奮"
+  ],
+  "vocab": [
+   "vocab:n1:koufunjoutai-興奮状態",
+   "vocab:n1:danjou-壇上",
+   "vocab:n1:kadan-花壇",
+   "vocab:n1:kunshou-勲章",
+   "vocab:n1:mahou-魔法",
+   "vocab:n1:akuma-悪魔",
+   "vocab:n1:houshuu-報酬",
+   "vocab:n1:murasaki-紫",
+   "vocab:n1:monshou-紋章",
+   "vocab:n1:shimon-指紋",
+   "vocab:n1:oroshiuri-卸売",
+   "vocab:n1:orosu-卸す",
+   "vocab:n1:funtou-奮闘",
+   "vocab:n1:koufungimi-興奮気味"
+  ],
+  "grammar": [
+   "gram:n1:no-itari"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:64",
+  "no": 64,
+  "level": "n1",
+  "title": "Columns and prisons",
+  "kanji": [
+   "kanji:欄",
+   "kanji:逸",
+   "kanji:涯",
+   "kanji:拓",
+   "kanji:眼",
+   "kanji:瓶",
+   "kanji:獄",
+   "kanji:尚"
+  ],
+  "vocab": [
+   "vocab:n1:ran-欄",
+   "vocab:n1:kuuran-空欄",
+   "vocab:n1:itsuwa-逸話",
+   "vocab:n1:shougai-生涯",
+   "vocab:n1:kaitaku-開拓",
+   "vocab:n1:ganka-眼科",
+   "vocab:n1:nikugan-肉眼",
+   "vocab:n1:jigoku-地獄",
+   "vocab:n1:kangoku-監獄",
+   "vocab:n1:naosara-尚更",
+   "vocab:n1:koushou-高尚"
+  ],
+  "grammar": [
+   "gram:n1:te-hajimete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:65",
+  "no": 65,
+  "level": "n1",
+  "title": "Carving and hedges",
+  "kanji": [
+   "kanji:彫",
+   "kanji:穏",
+   "kanji:顕",
+   "kanji:巧",
+   "kanji:矛",
+   "kanji:垣",
+   "kanji:欺",
+   "kanji:釣"
+  ],
+  "vocab": [
+   "vocab:n1:mujun-矛盾",
+   "vocab:n1:sagi-詐欺",
+   "vocab:n1:choukoku-彫刻",
+   "vocab:n1:horu-彫る",
+   "vocab:n1:heion-平穏",
+   "vocab:n1:kencho-顕著",
+   "vocab:n1:takumi-巧み",
+   "vocab:n1:seikou-精巧",
+   "vocab:n1:hokosaki-矛先",
+   "vocab:n1:kakine-垣根",
+   "vocab:n1:azamuku-欺く",
+   "vocab:n1:tsuri-釣り"
+  ],
+  "grammar": [
+   "gram:n1:bekarazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:66",
+  "no": 66,
+  "level": "n1",
+  "title": "Cans and ghosts",
+  "kanji": [
+   "kanji:缶",
+   "kanji:粧",
+   "kanji:隻",
+   "kanji:粛",
+   "kanji:愚",
+   "kanji:遭",
+   "kanji:架",
+   "kanji:鬼"
+  ],
+  "vocab": [
+   "vocab:n1:souguu-遭遇",
+   "vocab:n1:kanzume-缶詰め",
+   "vocab:n1:keshou-化粧",
+   "vocab:n1:keshouhin-化粧品",
+   "vocab:n1:seki-隻",
+   "vocab:n1:jishuku-自粛",
+   "vocab:n1:genshuku-厳粛",
+   "vocab:n1:oroka-愚か",
+   "vocab:n1:au-遭う",
+   "vocab:n1:sounan-遭難",
+   "vocab:n1:kakeru-架ける",
+   "vocab:n1:kakuu-架空",
+   "vocab:n1:shoka-書架",
+   "vocab:n1:oni-鬼"
+  ],
+  "grammar": [
+   "gram:n1:beku"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:67",
+  "no": 67,
+  "level": "n1",
+  "title": "Princesses and vows",
+  "kanji": [
+   "kanji:庶",
+   "kanji:稚",
+   "kanji:滋",
+   "kanji:幻",
+   "kanji:煮",
+   "kanji:姫",
+   "kanji:誓",
+   "kanji:把"
+  ],
+  "vocab": [
+   "vocab:n1:shomin-庶民",
+   "vocab:n1:shomu-庶務",
+   "vocab:n1:chigyo-稚魚",
+   "vocab:n1:jiyou-滋養",
+   "vocab:n1:maboroshi-幻",
+   "vocab:n1:gensou-幻想",
+   "vocab:n1:nikomu-煮込む",
+   "vocab:n1:nimono-煮物",
+   "vocab:n1:hime-姫",
+   "vocab:n1:chikau-誓う",
+   "vocab:n1:seiyaku-誓約"
+  ],
+  "grammar": [
+   "gram:n1:bekumo-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:68",
+  "no": 68,
+  "level": "n1",
+  "title": "Practice and smashing",
+  "kanji": [
+   "kanji:践",
+   "kanji:呈",
+   "kanji:疎",
+   "kanji:仰",
+   "kanji:剛",
+   "kanji:疾",
+   "kanji:征",
+   "kanji:砕"
+  ],
+  "vocab": [
+   "vocab:n1:jissen-実践",
+   "vocab:n1:zoutei-贈呈",
+   "vocab:n1:orosoka-疎か",
+   "vocab:n1:kaso-過疎",
+   "vocab:n1:aogu-仰ぐ",
+   "vocab:n1:shinkou-信仰",
+   "vocab:n1:gouken-剛健",
+   "vocab:n1:shissou-疾走",
+   "vocab:n1:shikkan-疾患",
+   "vocab:n1:seifuku-征服",
+   "vocab:n1:ensei-遠征",
+   "vocab:n1:kudakeru-砕ける"
+  ],
+  "grammar": [
+   "gram:n1:beshi"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:69",
+  "no": 69,
+  "level": "n1",
+  "title": "Songs and nests",
+  "kanji": [
+   "kanji:謡",
+   "kanji:嫁",
+   "kanji:謙",
+   "kanji:后",
+   "kanji:嘆",
+   "kanji:菌",
+   "kanji:鎌",
+   "kanji:巣"
+  ],
+  "vocab": [
+   "vocab:n1:kenkyo-謙虚",
+   "vocab:n1:minyou-民謡",
+   "vocab:n1:douyou-童謡",
+   "vocab:n1:hanayome-花嫁",
+   "vocab:n1:kenson-謙遜",
+   "vocab:n1:kougou-皇后",
+   "vocab:n1:nageku-嘆く",
+   "vocab:n1:kantan-感嘆",
+   "vocab:n1:saikin-細菌",
+   "vocab:n1:sakkin-殺菌",
+   "vocab:n1:kama-鎌",
+   "vocab:n1:kamakura-鎌倉",
+   "vocab:n1:su-巣",
+   "vocab:n1:sudatsu-巣立つ"
+  ],
+  "grammar": [
+   "gram:n1:made-da"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:70",
+  "no": 70,
+  "level": "n1",
+  "title": "Harps and corridors",
+  "kanji": [
+   "kanji:頻",
+   "kanji:琴",
+   "kanji:班",
+   "kanji:棚",
+   "kanji:潔",
+   "kanji:酷",
+   "kanji:宰",
+   "kanji:廊"
+  ],
+  "vocab": [
+   "vocab:n1:hinpan-頻繁",
+   "vocab:n1:hindo-頻度",
+   "vocab:n1:koto-琴",
+   "vocab:n1:han-班",
+   "vocab:n1:hanchou-班長",
+   "vocab:n1:todana-戸棚",
+   "vocab:n1:seiketsukan-清潔感",
+   "vocab:n1:isagiyoi-潔い",
+   "vocab:n1:zankoku-残酷",
+   "vocab:n1:shusai-主宰",
+   "vocab:n1:garou-画廊"
+  ],
+  "grammar": [
+   "gram:n1:made-mo-nai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:71",
+  "no": 71,
+  "level": "n1",
+  "title": "Loneliness and ink",
+  "kanji": [
+   "kanji:寂",
+   "kanji:伏",
+   "kanji:碁",
+   "kanji:俗",
+   "kanji:漠",
+   "kanji:邪",
+   "kanji:晶",
+   "kanji:墨"
+  ],
+  "vocab": [
+   "vocab:n1:sabishisa-寂しさ",
+   "vocab:n1:seijaku-静寂",
+   "vocab:n1:fuseru-伏せる",
+   "vocab:n1:kifuku-起伏",
+   "vocab:n1:igo-囲碁",
+   "vocab:n1:go-碁",
+   "vocab:n1:fuuzoku-風俗",
+   "vocab:n1:zokugo-俗語",
+   "vocab:n1:bakuzen-漠然",
+   "vocab:n1:jama-邪魔",
+   "vocab:n1:jaaku-邪悪",
+   "vocab:n1:kesshou-結晶",
+   "vocab:n1:ekishou-液晶",
+   "vocab:n1:sumi-墨"
+  ],
+  "grammar": [
+   "gram:n1:majiki"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:72",
+  "no": 72,
+  "level": "n1",
+  "title": "Dens and assault",
+  "kanji": [
+   "kanji:鎮",
+   "kanji:洞",
+   "kanji:履",
+   "kanji:劣",
+   "kanji:那",
+   "kanji:殴",
+   "kanji:娠",
+   "kanji:奉"
+  ],
+  "vocab": [
+   "vocab:n1:ninshin-妊娠",
+   "vocab:n1:shizumeru-鎮める",
+   "vocab:n1:chinsei-鎮静",
+   "vocab:n1:doukutsu-洞窟",
+   "vocab:n1:dousatsu-洞察",
+   "vocab:n1:rireki-履歴",
+   "vocab:n1:otoru-劣る",
+   "vocab:n1:rettoukan-劣等感",
+   "vocab:n1:naha-那覇",
+   "vocab:n1:ninshinchuu-妊娠中",
+   "vocab:n1:houshikatsudou-奉仕活動",
+   "vocab:n1:tatematsuru-奉る"
+  ],
+  "grammar": [
+   "gram:n1:mamire"
+  ],
+  "readings": [
+   "read:n1:006"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:73",
+  "no": 73,
+  "level": "n1",
+  "title": "Melancholy and harvest",
+  "kanji": [
+   "kanji:憂",
+   "kanji:朴",
+   "kanji:亭",
+   "kanji:怪",
+   "kanji:酔",
+   "kanji:惜",
+   "kanji:穫",
+   "kanji:佳"
+  ],
+  "vocab": [
+   "vocab:n1:yuuutsu-憂鬱",
+   "vocab:n1:ureu-憂う",
+   "vocab:n1:soboku-素朴",
+   "vocab:n1:ryoutei-料亭",
+   "vocab:n1:kaibutsu-怪物",
+   "vocab:n1:yopparai-酔っ払い",
+   "vocab:n1:oshimu-惜しむ",
+   "vocab:n1:shuukaku-収穫",
+   "vocab:n1:kasaku-佳作"
+  ],
+  "grammar": [
+   "gram:n1:meku"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:74",
+  "no": 74,
+  "level": "n1",
+  "title": "Marrow and tigers",
+  "kanji": [
+   "kanji:潤",
+   "kanji:悼",
+   "kanji:乏",
+   "kanji:該",
+   "kanji:赴",
+   "kanji:桑",
+   "kanji:髄",
+   "kanji:虎"
+  ],
+  "vocab": [
+   "vocab:n1:uruou-潤う",
+   "vocab:n1:uruoi-潤い",
+   "vocab:n1:tsuitou-追悼",
+   "vocab:n1:toboshii-乏しい",
+   "vocab:n1:ketsubou-欠乏",
+   "vocab:n1:gaitou-該当",
+   "vocab:n1:omomuku-赴く",
+   "vocab:n1:kuwa-桑",
+   "vocab:n1:kotsuzui-骨髄",
+   "vocab:n1:tora-虎"
+  ],
+  "grammar": [
+   "gram:n1:mono-o"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:75",
+  "no": 75,
+  "level": "n1",
+  "title": "Basins and epidemics",
+  "kanji": [
+   "kanji:盆",
+   "kanji:穂",
+   "kanji:壮",
+   "kanji:堤",
+   "kanji:飢",
+   "kanji:傍",
+   "kanji:疫",
+   "kanji:累"
+  ],
+  "vocab": [
+   "vocab:n1:bon-盆",
+   "vocab:n1:obon-お盆",
+   "vocab:n1:ho-穂",
+   "vocab:n1:soudai-壮大",
+   "vocab:n1:yuusou-勇壮",
+   "vocab:n1:teibou-堤防",
+   "vocab:n1:ueru-飢える",
+   "vocab:n1:katawara-傍ら",
+   "vocab:n1:boukan-傍観",
+   "vocab:n1:boueki-防疫",
+   "vocab:n1:ruikei-累計",
+   "vocab:n1:ruiseki-累積"
+  ],
+  "grammar": [
+   "gram:n1:ya-inaya"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:76",
+  "no": 76,
+  "level": "n1",
+  "title": "Healing and villains",
+  "kanji": [
+   "kanji:痴",
+   "kanji:搬",
+   "kanji:癒",
+   "kanji:寸",
+   "kanji:郭",
+   "kanji:尿",
+   "kanji:凶",
+   "kanji:吐"
+  ],
+  "vocab": [
+   "vocab:n1:tounyoubyou-糖尿病",
+   "vocab:n1:guchi-愚痴",
+   "vocab:n1:chikan-痴漢",
+   "vocab:n1:unpan-運搬",
+   "vocab:n1:hannyuu-搬入",
+   "vocab:n1:chiyu-治癒",
+   "vocab:n1:iyasu-癒す",
+   "vocab:n1:sunpou-寸法",
+   "vocab:n1:sunzen-寸前",
+   "vocab:n1:rinkaku-輪郭",
+   "vocab:n1:nyou-尿",
+   "vocab:n1:kyouki-凶器",
+   "vocab:n1:kyouaku-凶悪",
+   "vocab:n1:hakike-吐き気"
+  ],
+  "grammar": [
+   "gram:n1:yue-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:77",
+  "no": 77,
+  "level": "n1",
+  "title": "Banquets and bells",
+  "kanji": [
+   "kanji:宴",
+   "kanji:賓",
+   "kanji:虜",
+   "kanji:陶",
+   "kanji:鐘",
+   "kanji:憾",
+   "kanji:磁",
+   "kanji:弥"
+  ],
+  "vocab": [
+   "vocab:n1:enkai-宴会",
+   "vocab:n1:raihin-来賓",
+   "vocab:n1:horyo-捕虜",
+   "vocab:n1:touki-陶器",
+   "vocab:n1:tougei-陶芸",
+   "vocab:n1:kane-鐘",
+   "vocab:n1:ikan-遺憾",
+   "vocab:n1:jishaku-磁石",
+   "vocab:n1:jiki-磁気",
+   "vocab:n1:yayoi-弥生"
+  ],
+  "grammar": [
+   "gram:n1:o-kagiri-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:78",
+  "no": 78,
+  "level": "n1",
+  "title": "Buds and umbrellas",
+  "kanji": [
+   "kanji:昆",
+   "kanji:粗",
+   "kanji:訂",
+   "kanji:芽",
+   "kanji:傘",
+   "kanji:騎",
+   "kanji:寧",
+   "kanji:循"
+  ],
+  "vocab": [
+   "vocab:n1:konchuu-昆虫",
+   "vocab:n1:kaitei-改訂",
+   "vocab:n1:me-芽",
+   "vocab:n1:mebaeru-芽生える",
+   "vocab:n1:kishu-騎手",
+   "vocab:n1:kishi-騎士",
+   "vocab:n1:teineigo-丁寧語",
+   "vocab:n1:annei-安寧"
+  ],
+  "grammar": [
+   "gram:n1:o-kawakiri-ni"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:005"
+  ]
+ },
+ {
+  "id": "unit:n1:79",
+  "no": 79,
+  "level": "n1",
+  "title": "Patience and pearls",
+  "kanji": [
+   "kanji:忍",
+   "kanji:怠",
+   "kanji:如",
+   "kanji:寮",
+   "kanji:鉛",
+   "kanji:珠",
+   "kanji:凝",
+   "kanji:苗"
+  ],
+  "vocab": [
+   "vocab:n1:nintai-忍耐",
+   "vocab:n1:shinobu-忍ぶ",
+   "vocab:n1:okotaru-怠る",
+   "vocab:n1:taiman-怠慢",
+   "vocab:n1:ikaga-如何",
+   "vocab:n1:totsujo-突如",
+   "vocab:n1:ryou-寮",
+   "vocab:n1:namari-鉛",
+   "vocab:n1:enpitsukezuri-鉛筆削り",
+   "vocab:n1:shinju-真珠",
+   "vocab:n1:tama-珠",
+   "vocab:n1:koru-凝る",
+   "vocab:n1:gyoushuku-凝縮",
+   "vocab:n1:nae-苗",
+   "vocab:n1:myouji-苗字",
+   "vocab:n1:ikani-如何に"
+  ],
+  "grammar": [
+   "gram:n1:o-kinjienai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:80",
+  "no": 80,
+  "level": "n1",
+  "title": "Beasts and snakes",
+  "kanji": [
+   "kanji:獣",
+   "kanji:哀",
+   "kanji:跳",
+   "kanji:匠",
+   "kanji:垂",
+   "kanji:蛇",
+   "kanji:澄",
+   "kanji:縫"
+  ],
+  "vocab": [
+   "vocab:n1:kemono-獣",
+   "vocab:n1:juui-獣医",
+   "vocab:n1:aware-哀れ",
+   "vocab:n1:hiai-悲哀",
+   "vocab:n1:takumi-匠",
+   "vocab:n1:kyoshou-巨匠",
+   "vocab:n1:tareru-垂れる",
+   "vocab:n1:suichoku-垂直",
+   "vocab:n1:hebi-蛇",
+   "vocab:n1:sumu-澄む",
+   "vocab:n1:sumasu-澄ます",
+   "vocab:n1:saihou-裁縫"
+  ],
+  "grammar": [
+   "gram:n1:o-motte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:81",
+  "no": 81,
+  "level": "n1",
+  "title": "Monks and recess",
+  "kanji": [
+   "kanji:僧",
+   "kanji:幾",
+   "kanji:眺",
+   "kanji:唐",
+   "kanji:呉",
+   "kanji:凡",
+   "kanji:憩",
+   "kanji:媛"
+  ],
+  "vocab": [
+   "vocab:n1:sou-僧",
+   "vocab:n1:souryo-僧侶",
+   "vocab:n1:ikutsu-幾つ",
+   "vocab:n1:ikura-幾ら",
+   "vocab:n1:nagame-眺め",
+   "vocab:n1:toutotsu-唐突",
+   "vocab:n1:gofuku-呉服",
+   "vocab:n1:bonjin-凡人",
+   "vocab:n1:ikoi-憩い",
+   "vocab:n1:saien-才媛"
+  ],
+  "grammar": [
+   "gram:n1:o-mono-tomo-sezu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:82",
+  "no": 82,
+  "level": "n1",
+  "title": "Gutters and grain",
+  "kanji": [
+   "kanji:溝",
+   "kanji:恭",
+   "kanji:刈",
+   "kanji:睡",
+   "kanji:錯",
+   "kanji:伯",
+   "kanji:穀",
+   "kanji:陵"
+  ],
+  "vocab": [
+   "vocab:n1:mizo-溝",
+   "vocab:n1:haisuikou-排水溝",
+   "vocab:n1:uyauyashii-恭しい",
+   "vocab:n1:karu-刈る",
+   "vocab:n1:inekari-稲刈り",
+   "vocab:n1:suiminbusoku-睡眠不足",
+   "vocab:n1:sakkaku-錯覚",
+   "vocab:n1:shikousakugo-試行錯誤",
+   "vocab:n1:oji-伯父",
+   "vocab:n1:oba-伯母",
+   "vocab:n1:kokumotsu-穀物",
+   "vocab:n1:kokurui-穀類",
+   "vocab:n1:kyuuryou-丘陵"
+  ],
+  "grammar": [
+   "gram:n1:o-yoginaku-sareru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:83",
+  "no": 83,
+  "level": "n1",
+  "title": "Fog and souls",
+  "kanji": [
+   "kanji:霧",
+   "kanji:魂",
+   "kanji:弊",
+   "kanji:妃",
+   "kanji:舶",
+   "kanji:餓",
+   "kanji:窮",
+   "kanji:掌"
+  ],
+  "vocab": [
+   "vocab:n1:kiga-飢餓",
+   "vocab:n1:kiri-霧",
+   "vocab:n1:noumu-濃霧",
+   "vocab:n1:tamashii-魂",
+   "vocab:n1:heigai-弊害",
+   "vocab:n1:heisha-弊社",
+   "vocab:n1:kisaki-妃",
+   "vocab:n1:senpaku-船舶",
+   "vocab:n1:gashi-餓死",
+   "vocab:n1:kyuukutsu-窮屈",
+   "vocab:n1:konkyuu-困窮",
+   "vocab:n1:tenohira-掌",
+   "vocab:n1:gasshou-合掌"
+  ],
+  "grammar": [
+   "gram:n1:o-yoso-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:84",
+  "no": 84,
+  "level": "n1",
+  "title": "Beauty and blades",
+  "kanji": [
+   "kanji:麗",
+   "kanji:臭",
+   "kanji:悦",
+   "kanji:刃",
+   "kanji:縛",
+   "kanji:暦",
+   "kanji:宜",
+   "kanji:盲"
+  ],
+  "vocab": [
+   "vocab:n1:birei-美麗",
+   "vocab:n1:uruwashii-麗しい",
+   "vocab:n1:kusai-臭い",
+   "vocab:n1:akushuu-悪臭",
+   "vocab:n1:kietsu-喜悦",
+   "vocab:n1:ha-刃",
+   "vocab:n1:hamono-刃物",
+   "vocab:n1:sokubaku-束縛",
+   "vocab:n1:koyomi-暦",
+   "vocab:n1:seireki-西暦",
+   "vocab:n1:tekigi-適宜",
+   "vocab:n1:bengi-便宜",
+   "vocab:n1:moumoku-盲目",
+   "vocab:n1:mouten-盲点"
+  ],
+  "grammar": [
+   "gram:n1:n-bakari-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:85",
+  "no": 85,
+  "level": "n1",
+  "title": "Chic and monkeys",
+  "kanji": [
+   "kanji:粋",
+   "kanji:辱",
+   "kanji:轄",
+   "kanji:猿",
+   "kanji:弦",
+   "kanji:窒",
+   "kanji:炊",
+   "kanji:洪"
+  ],
+  "vocab": [
+   "vocab:n1:iki-粋",
+   "vocab:n1:kutsujoku-屈辱",
+   "vocab:n1:kankatsu-管轄",
+   "vocab:n1:saru-猿",
+   "vocab:n1:tsuru-弦",
+   "vocab:n1:gengakki-弦楽器",
+   "vocab:n1:chisso-窒素",
+   "vocab:n1:chissoku-窒息",
+   "vocab:n1:taku-炊く",
+   "vocab:n1:suihanki-炊飯器"
+  ],
+  "grammar": [
+   "gram:n1:n-ga-tame-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:86",
+  "no": 86,
+  "level": "n1",
+  "title": "Peaches and whirlpools",
+  "kanji": [
+   "kanji:摂",
+   "kanji:飽",
+   "kanji:冗",
+   "kanji:桃",
+   "kanji:狩",
+   "kanji:朱",
+   "kanji:渦",
+   "kanji:紳"
+  ],
+  "vocab": [
+   "vocab:n1:sesshu-摂取",
+   "vocab:n1:sesshi-摂氏",
+   "vocab:n1:akiru-飽きる",
+   "vocab:n1:houwa-飽和",
+   "vocab:n1:jouchou-冗長",
+   "vocab:n1:kari-狩り",
+   "vocab:n1:shuiro-朱色",
+   "vocab:n1:uzu-渦",
+   "vocab:n1:uzumaki-渦巻き",
+   "vocab:n1:shinshi-紳士"
+  ],
+  "grammar": [
+   "gram:n1:zukume"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:87",
+  "no": 87,
+  "level": "n1",
+  "title": "Hinges and drums",
+  "kanji": [
+   "kanji:枢",
+   "kanji:碑",
+   "kanji:鍛",
+   "kanji:刀",
+   "kanji:鼓",
+   "kanji:裸",
+   "kanji:猶",
+   "kanji:塊"
+  ],
+  "vocab": [
+   "vocab:n1:chuusuu-中枢",
+   "vocab:n1:sekihi-石碑",
+   "vocab:n1:kinenhi-記念碑",
+   "vocab:n1:kitaeru-鍛える",
+   "vocab:n1:katana-刀",
+   "vocab:n1:nihontou-日本刀",
+   "vocab:n1:taiko-太鼓",
+   "vocab:n1:kobu-鼓舞",
+   "vocab:n1:hadaka-裸",
+   "vocab:n1:hadashi-裸足",
+   "vocab:n1:yuuyo-猶予",
+   "vocab:n1:katamari-塊"
+  ],
+  "grammar": [
+   "gram:n1:sura"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:88",
+  "no": 88,
+  "level": "n1",
+  "title": "Bows and fans",
+  "kanji": [
+   "kanji:旋",
+   "kanji:弓",
+   "kanji:幣",
+   "kanji:膜",
+   "kanji:扇",
+   "kanji:腸",
+   "kanji:槽",
+   "kanji:慈"
+  ],
+  "vocab": [
+   "vocab:n1:senritsu-旋律",
+   "vocab:n1:senkai-旋回",
+   "vocab:n1:yumi-弓",
+   "vocab:n1:kyuudou-弓道",
+   "vocab:n1:shihei-紙幣",
+   "vocab:n1:kahei-貨幣",
+   "vocab:n1:maku-膜",
+   "vocab:n1:komaku-鼓膜",
+   "vocab:n1:ougi-扇",
+   "vocab:n1:senpuuki-扇風機",
+   "vocab:n1:sensu-扇子",
+   "vocab:n1:chou-腸",
+   "vocab:n1:daichou-大腸",
+   "vocab:n1:suisou-水槽",
+   "vocab:n1:yokusou-浴槽",
+   "vocab:n1:jizen-慈善",
+   "vocab:n1:itsukushimu-慈しむ"
+  ],
+  "grammar": [
+   "gram:n1:dani"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:89",
+  "no": 89,
+  "level": "n1",
+  "title": "Pickles and tombs",
+  "kanji": [
+   "kanji:伐",
+   "kanji:漬",
+   "kanji:糾",
+   "kanji:墳",
+   "kanji:坪",
+   "kanji:紺",
+   "kanji:慌",
+   "kanji:娯"
+  ],
+  "vocab": [
+   "vocab:n1:bassai-伐採",
+   "vocab:n1:tsukeru-漬ける",
+   "vocab:n1:tsukemono-漬物",
+   "vocab:n1:kyuudan-糾弾",
+   "vocab:n1:funkyuu-紛糾",
+   "vocab:n1:kofun-古墳",
+   "vocab:n1:funbo-墳墓",
+   "vocab:n1:tsubo-坪",
+   "vocab:n1:koniro-紺色",
+   "vocab:n1:kon-紺",
+   "vocab:n1:awatadashii-慌ただしい"
+  ],
+  "grammar": [
+   "gram:n1:tomo-are"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:90",
+  "no": 90,
+  "level": "n1",
+  "title": "Tongues and summits",
+  "kanji": [
+   "kanji:舌",
+   "kanji:羅",
+   "kanji:峡",
+   "kanji:俸",
+   "kanji:厘",
+   "kanji:峰",
+   "kanji:醸",
+   "kanji:弔"
+  ],
+  "vocab": [
+   "vocab:n1:moura-網羅",
+   "vocab:n1:shita-舌",
+   "vocab:n1:shitauchi-舌打ち",
+   "vocab:n1:mourateki-網羅的",
+   "vocab:n1:raretsu-羅列",
+   "vocab:n1:kaikyou-海峡",
+   "vocab:n1:kyoukoku-峡谷",
+   "vocab:n1:nenpou-年俸",
+   "vocab:n1:houkyuu-俸給",
+   "vocab:n1:mine-峰",
+   "vocab:n1:saikouhou-最高峰",
+   "vocab:n1:jouzou-醸造",
+   "vocab:n1:kamosu-醸す",
+   "vocab:n1:tomurau-弔う",
+   "vocab:n1:choumon-弔問",
+   "vocab:n1:rin-厘"
+  ],
+  "grammar": [
+   "gram:n1:wa-oroka"
+  ],
+  "readings": [
+   "read:n1:007"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:91",
+  "no": 91,
+  "level": "n1",
+  "title": "Soup and sheep",
+  "kanji": [
+   "kanji:乙",
+   "kanji:汁",
+   "kanji:尼",
+   "kanji:遍",
+   "kanji:衡",
+   "kanji:薫",
+   "kanji:猟",
+   "kanji:羊"
+  ],
+  "vocab": [
+   "vocab:n1:shuryou-狩猟",
+   "vocab:n1:otsu-乙",
+   "vocab:n1:kouotsu-甲乙",
+   "vocab:n1:shiru-汁",
+   "vocab:n1:misoshiru-味噌汁",
+   "vocab:n1:ama-尼",
+   "vocab:n1:fuhen-普遍",
+   "vocab:n1:henreki-遍歴",
+   "vocab:n1:kinkou-均衡",
+   "vocab:n1:heikou-平衡",
+   "vocab:n1:kaoru-薫る",
+   "vocab:n1:kuntou-薫陶",
+   "vocab:n1:ryoushi-猟師",
+   "vocab:n1:ryou-猟",
+   "vocab:n1:youmou-羊毛"
+  ],
+  "grammar": [
+   "gram:n1:wa-satoki"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:92",
+  "no": 92,
+  "level": "n1",
+  "title": "Spies and ferment",
+  "kanji": [
+   "kanji:款",
+   "kanji:閲",
+   "kanji:偵",
+   "kanji:喝",
+   "kanji:敢",
+   "kanji:胎",
+   "kanji:酵",
+   "kanji:憤"
+  ],
+  "vocab": [
+   "vocab:n1:yakkan-約款",
+   "vocab:n1:shakkan-借款",
+   "vocab:n1:etsuran-閲覧",
+   "vocab:n1:kenetsu-検閲",
+   "vocab:n1:tantei-探偵",
+   "vocab:n1:teisatsu-偵察",
+   "vocab:n1:kyoukatsu-恐喝",
+   "vocab:n1:kakan-果敢",
+   "vocab:n1:taiji-胎児",
+   "vocab:n1:botai-母胎",
+   "vocab:n1:hakkou-発酵",
+   "vocab:n1:koubo-酵母",
+   "vocab:n1:ikidoori-憤り"
+  ],
+  "grammar": [
+   "gram:n1:hitori-nomi-narazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:93",
+  "no": 93,
+  "level": "n1",
+  "title": "Pork and bubbles",
+  "kanji": [
+   "kanji:豚",
+   "kanji:遮",
+   "kanji:扉",
+   "kanji:硫",
+   "kanji:赦",
+   "kanji:窃",
+   "kanji:泡",
+   "kanji:又"
+  ],
+  "vocab": [
+   "vocab:n1:saegiru-遮る",
+   "vocab:n1:shadan-遮断",
+   "vocab:n1:tobira-扉",
+   "vocab:n1:iou-硫黄",
+   "vocab:n1:onsha-恩赦",
+   "vocab:n1:yousha-容赦",
+   "vocab:n1:settou-窃盗",
+   "vocab:n1:awa-泡",
+   "vocab:n1:kihou-気泡",
+   "vocab:n1:mata-又",
+   "vocab:n1:mataha-又は"
+  ],
+  "grammar": [
+   "gram:n1:mono-ka"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:94",
+  "no": 94,
+  "level": "n1",
+  "title": "Spinning and frolic",
+  "kanji": [
+   "kanji:慨",
+   "kanji:紡",
+   "kanji:恨",
+   "kanji:肪",
+   "kanji:扶",
+   "kanji:戯",
+   "kanji:忌",
+   "kanji:濁"
+  ],
+  "vocab": [
+   "vocab:n1:fungai-憤慨",
+   "vocab:n1:kangai-感慨",
+   "vocab:n1:gaitan-慨嘆",
+   "vocab:n1:tsumugu-紡ぐ",
+   "vocab:n1:bouseki-紡績",
+   "vocab:n1:urami-恨み",
+   "vocab:n1:fuyou-扶養",
+   "vocab:n1:fujo-扶助",
+   "vocab:n1:yuugi-遊戯",
+   "vocab:n1:gikyoku-戯曲",
+   "vocab:n1:imawashii-忌まわしい",
+   "vocab:n1:kinki-禁忌",
+   "vocab:n1:nigoru-濁る",
+   "vocab:n1:dakuon-濁音"
+  ],
+  "grammar": [
+   "gram:n1:de-are"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:95",
+  "no": 95,
+  "level": "n1",
+  "title": "Dippers and husks",
+  "kanji": [
+   "kanji:奔",
+   "kanji:斗",
+   "kanji:迅",
+   "kanji:肖",
+   "kanji:鉢",
+   "kanji:朽",
+   "kanji:殻",
+   "kanji:享"
+  ],
+  "vocab": [
+   "vocab:n1:honpou-奔放",
+   "vocab:n1:honsou-奔走",
+   "vocab:n1:hokutoshichisei-北斗七星",
+   "vocab:n1:jinsoku-迅速",
+   "vocab:n1:shouzou-肖像",
+   "vocab:n1:shouzouga-肖像画",
+   "vocab:n1:hachi-鉢",
+   "vocab:n1:uekibachi-植木鉢",
+   "vocab:n1:kuchiru-朽ちる",
+   "vocab:n1:fukyuu-不朽",
+   "vocab:n1:kara-殻",
+   "vocab:n1:kaigara-貝殻",
+   "vocab:n1:kyouju-享受",
+   "vocab:n1:kyounen-享年"
+  ],
+  "grammar": [
+   "gram:n1:tomo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:96",
+  "no": 96,
+  "level": "n1",
+  "title": "Clans and chickens",
+  "kanji": [
+   "kanji:藩",
+   "kanji:沙",
+   "kanji:媒",
+   "kanji:鶏",
+   "kanji:禅",
+   "kanji:嘱",
+   "kanji:胴",
+   "kanji:迭"
+  ],
+  "vocab": [
+   "vocab:n1:han-藩",
+   "vocab:n1:baitai-媒体",
+   "vocab:n1:shokubai-触媒",
+   "vocab:n1:niwatori-鶏",
+   "vocab:n1:zen-禅",
+   "vocab:n1:zazen-座禅",
+   "vocab:n1:shokutaku-嘱託",
+   "vocab:n1:doutai-胴体",
+   "vocab:n1:dou-胴",
+   "vocab:n1:koutetsu-更迭"
+  ],
+  "grammar": [
+   "gram:n1:temo-sashitsukaenai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:97",
+  "no": 97,
+  "level": "n1",
+  "title": "Storms and silk",
+  "kanji": [
+   "kanji:挿",
+   "kanji:嵐",
+   "kanji:椎",
+   "kanji:絹",
+   "kanji:陪",
+   "kanji:剖",
+   "kanji:譜",
+   "kanji:悠"
+  ],
+  "vocab": [
+   "vocab:n1:sounyuu-挿入",
+   "vocab:n1:sasu-挿す",
+   "vocab:n1:arashi-嵐",
+   "vocab:n1:shiitake-椎茸",
+   "vocab:n1:kinu-絹",
+   "vocab:n1:kenshi-絹糸",
+   "vocab:n1:baishin-陪審",
+   "vocab:n1:kaibou-解剖",
+   "vocab:n1:gakufu-楽譜",
+   "vocab:n1:keifu-系譜",
+   "vocab:n1:yuuyuu-悠々",
+   "vocab:n1:yuuchou-悠長"
+  ],
+  "grammar": [
+   "gram:n1:te-yamanai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:98",
+  "no": 98,
+  "level": "n1",
+  "title": "Sails and flutes",
+  "kanji": [
+   "kanji:淑",
+   "kanji:帆",
+   "kanji:暁",
+   "kanji:傑",
+   "kanji:笛",
+   "kanji:奴",
+   "kanji:錠",
+   "kanji:拳"
+  ],
+  "vocab": [
+   "vocab:n1:kenjuu-拳銃",
+   "vocab:n1:shukujo-淑女",
+   "vocab:n1:ho-帆",
+   "vocab:n1:hansen-帆船",
+   "vocab:n1:akatsuki-暁",
+   "vocab:n1:kessaku-傑作",
+   "vocab:n1:kesshutsu-傑出",
+   "vocab:n1:fue-笛",
+   "vocab:n1:yatsu-奴",
+   "vocab:n1:jou-錠",
+   "vocab:n1:jouzai-錠剤",
+   "vocab:n1:kobushi-拳",
+   "vocab:n1:kenpou-拳法"
+  ],
+  "grammar": [
+   "gram:n1:to-bakari-ni"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:99",
+  "no": 99,
+  "level": "n1",
+  "title": "Transition and thirst",
+  "kanji": [
+   "kanji:遷",
+   "kanji:拙",
+   "kanji:侍",
+   "kanji:尺",
+   "kanji:峠",
+   "kanji:篤",
+   "kanji:渇",
+   "kanji:叔"
+  ],
+  "vocab": [
+   "vocab:n1:seni-遷移",
+   "vocab:n1:hensen-変遷",
+   "vocab:n1:tsutanai-拙い",
+   "vocab:n1:chisetsu-稚拙",
+   "vocab:n1:samurai-侍",
+   "vocab:n1:shaku-尺",
+   "vocab:n1:shakudo-尺度",
+   "vocab:n1:touge-峠",
+   "vocab:n1:atsui-篤い",
+   "vocab:n1:kitoku-危篤",
+   "vocab:n1:kawaku-渇く",
+   "vocab:n1:katsubou-渇望"
+  ],
+  "grammar": [
+   "gram:n1:to-aimatte"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:100",
+  "no": 100,
+  "level": "n1",
+  "title": "Vinegar and adoration",
+  "kanji": [
+   "kanji:雌",
+   "kanji:堪",
+   "kanji:叙",
+   "kanji:酢",
+   "kanji:吟",
+   "kanji:逓",
+   "kanji:甚",
+   "kanji:崇"
+  ],
+  "vocab": [
+   "vocab:n1:mesu-雌",
+   "vocab:n1:shiyuu-雌雄",
+   "vocab:n1:kannin-堪忍",
+   "vocab:n1:jojutsu-叙述",
+   "vocab:n1:jokun-叙勲",
+   "vocab:n1:sunomono-酢の物",
+   "vocab:n1:ginmi-吟味",
+   "vocab:n1:teishin-逓信",
+   "vocab:n1:hanahadashii-甚だしい",
+   "vocab:n1:jindai-甚大",
+   "vocab:n1:suuhai-崇拝",
+   "vocab:n1:suukou-崇高"
+  ],
+  "grammar": [
+   "gram:n1:ni-makasete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:101",
+  "no": 101,
+  "level": "n1",
+  "title": "Lacquer and reefs",
+  "kanji": [
+   "kanji:漆",
+   "kanji:岬",
+   "kanji:癖",
+   "kanji:愉",
+   "kanji:礁",
+   "kanji:屯",
+   "kanji:姻",
+   "kanji:擬"
+  ],
+  "vocab": [
+   "vocab:n1:urushi-漆",
+   "vocab:n1:shikki-漆器",
+   "vocab:n1:misaki-岬",
+   "vocab:n1:kuchiguse-口癖",
+   "vocab:n1:yukai-愉快",
+   "vocab:n1:tanoshimu-愉しむ",
+   "vocab:n1:ganshou-岩礁",
+   "vocab:n1:chuuton-駐屯",
+   "vocab:n1:konin-婚姻",
+   "vocab:n1:mogi-模擬",
+   "vocab:n1:gitaigo-擬態語"
+  ],
+  "grammar": [
+   "gram:n1:ni-kakotsukete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:102",
+  "no": 102,
+  "level": "n1",
+  "title": "Fences and lips",
+  "kanji": [
+   "kanji:塀",
+   "kanji:唇",
+   "kanji:睦",
+   "kanji:閑",
+   "kanji:幽",
+   "kanji:曹",
+   "kanji:詠",
+   "kanji:卑"
+  ],
+  "vocab": [
+   "vocab:n1:yuurei-幽霊",
+   "vocab:n1:hei-塀",
+   "vocab:n1:kuchibiru-唇",
+   "vocab:n1:shinboku-親睦",
+   "vocab:n1:kansei-閑静",
+   "vocab:n1:kansan-閑散",
+   "vocab:n1:yuugen-幽玄",
+   "vocab:n1:housou-法曹",
+   "vocab:n1:yomu-詠む",
+   "vocab:n1:hikyou-卑怯",
+   "vocab:n1:iyashii-卑しい"
+  ],
+  "grammar": [
+   "gram:n1:ni-kamakete"
+  ],
+  "readings": [],
+  "listening": [
+   "listen:n1:006"
+  ]
+ },
+ {
+  "id": "unit:n1:103",
+  "no": 103,
+  "level": "n1",
+  "title": "Casting and calamity",
+  "kanji": [
+   "kanji:侮",
+   "kanji:鋳",
+   "kanji:抹",
+   "kanji:尉",
+   "kanji:隷",
+   "kanji:禍",
+   "kanji:酪",
+   "kanji:茎"
+  ],
+  "vocab": [
+   "vocab:n1:bujoku-侮辱",
+   "vocab:n1:dorei-奴隷",
+   "vocab:n1:anadoru-侮る",
+   "vocab:n1:chuuzou-鋳造",
+   "vocab:n1:imono-鋳物",
+   "vocab:n1:matcha-抹茶",
+   "vocab:n1:masshou-抹消",
+   "vocab:n1:taii-大尉",
+   "vocab:n1:reizoku-隷属",
+   "vocab:n1:saika-災禍",
+   "vocab:n1:kakon-禍根",
+   "vocab:n1:rakunou-酪農",
+   "vocab:n1:kuki-茎"
+  ],
+  "grammar": [
+   "gram:n1:sobireru"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:104",
+  "no": 104,
+  "level": "n1",
+  "title": "Commanders and fireflies",
+  "kanji": [
+   "kanji:帥",
+   "kanji:逝",
+   "kanji:汽",
+   "kanji:匿",
+   "kanji:襟",
+   "kanji:蛍",
+   "kanji:寡",
+   "kanji:痢"
+  ],
+  "vocab": [
+   "vocab:n1:kiteki-汽笛",
+   "vocab:n1:gensui-元帥",
+   "vocab:n1:seikyo-逝去",
+   "vocab:n1:kisha-汽車",
+   "vocab:n1:tokumei-匿名",
+   "vocab:n1:intoku-隠匿",
+   "vocab:n1:eri-襟",
+   "vocab:n1:hotaru-蛍",
+   "vocab:n1:keikoutou-蛍光灯",
+   "vocab:n1:kamoku-寡黙",
+   "vocab:n1:taka-多寡",
+   "vocab:n1:geri-下痢"
+  ],
+  "grammar": [
+   "gram:n1:ppanashi"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:105",
+  "no": 105,
+  "level": "n1",
+  "title": "Indigo and cavities",
+  "kanji": [
+   "kanji:庸",
+   "kanji:坑",
+   "kanji:藍",
+   "kanji:賊",
+   "kanji:搾",
+   "kanji:畔",
+   "kanji:唄",
+   "kanji:孔"
+  ],
+  "vocab": [
+   "vocab:n1:bonyou-凡庸",
+   "vocab:n1:chuuyou-中庸",
+   "vocab:n1:tankou-炭坑",
+   "vocab:n1:ai-藍",
+   "vocab:n1:touzoku-盗賊",
+   "vocab:n1:kaizoku-海賊",
+   "vocab:n1:shiboru-搾る",
+   "vocab:n1:sakushu-搾取",
+   "vocab:n1:kohan-湖畔",
+   "vocab:n1:uta-唄",
+   "vocab:n1:komoriuta-子守唄",
+   "vocab:n1:kikou-気孔"
+  ],
+  "grammar": [
+   "gram:n1:wa-ii-to-shite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:106",
+  "no": 106,
+  "level": "n1",
+  "title": "Streams and pupils",
+  "kanji": [
+   "kanji:呂",
+   "kanji:拷",
+   "kanji:嬢",
+   "kanji:渓",
+   "kanji:翁",
+   "kanji:廉",
+   "kanji:謹",
+   "kanji:瞳"
+  ],
+  "vocab": [
+   "vocab:n1:furoba-風呂場",
+   "vocab:n1:goumon-拷問",
+   "vocab:n1:reijou-令嬢",
+   "vocab:n1:ojousan-お嬢さん",
+   "vocab:n1:keikoku-渓谷",
+   "vocab:n1:rouou-老翁",
+   "vocab:n1:renka-廉価",
+   "vocab:n1:seiren-清廉",
+   "vocab:n1:tsutsushinde-謹んで",
+   "vocab:n1:kinshin-謹慎",
+   "vocab:n1:hitomi-瞳"
+  ],
+  "grammar": [
+   "gram:n1:to-shita-tokoro-de"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:107",
+  "no": 107,
+  "level": "n1",
+  "title": "Kilns and praise",
+  "kanji": [
+   "kanji:湧",
+   "kanji:窯",
+   "kanji:褒",
+   "kanji:醜",
+   "kanji:升",
+   "kanji:殉",
+   "kanji:煩",
+   "kanji:劾"
+  ],
+  "vocab": [
+   "vocab:n1:waku-湧く",
+   "vocab:n1:wakimizu-湧き水",
+   "vocab:n1:kama-窯",
+   "vocab:n1:houbi-褒美",
+   "vocab:n1:shuubun-醜聞",
+   "vocab:n1:isshou-一升",
+   "vocab:n1:junshoku-殉職",
+   "vocab:n1:wazurawashii-煩わしい",
+   "vocab:n1:hanzatsu-煩雑",
+   "vocab:n1:dangai-弾劾"
+  ],
+  "grammar": [
+   "gram:n1:nari-tomo"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:108",
+  "no": 108,
+  "level": "n1",
+  "title": "Tariffs and bridegrooms",
+  "kanji": [
+   "kanji:堕",
+   "kanji:租",
+   "kanji:桟",
+   "kanji:婿",
+   "kanji:慕",
+   "kanji:罷",
+   "kanji:矯",
+   "kanji:某"
+  ],
+  "vocab": [
+   "vocab:n1:daraku-堕落",
+   "vocab:n1:sozei-租税",
+   "vocab:n1:sanbashi-桟橋",
+   "vocab:n1:hanamuko-花婿",
+   "vocab:n1:shitau-慕う",
+   "vocab:n1:shibo-思慕",
+   "vocab:n1:himen-罷免",
+   "vocab:n1:kyousei-矯正",
+   "vocab:n1:bou-某",
+   "vocab:n1:bousho-某所"
+  ],
+  "grammar": [
+   "gram:n1:de-wa-arumai-ka"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:109",
+  "no": 109,
+  "level": "n1",
+  "title": "Rainbows and mosquitoes",
+  "kanji": [
+   "kanji:囚",
+   "kanji:虹",
+   "kanji:泌",
+   "kanji:漸",
+   "kanji:蚊",
+   "kanji:厄",
+   "kanji:藻",
+   "kanji:嫡"
+  ],
+  "vocab": [
+   "vocab:n1:shuujin-囚人",
+   "vocab:n1:niji-虹",
+   "vocab:n1:bunpitsu-分泌",
+   "vocab:n1:youyaku-漸く",
+   "vocab:n1:zenshin-漸進",
+   "vocab:n1:ka-蚊",
+   "vocab:n1:yakudoshi-厄年",
+   "vocab:n1:kaisou-海藻",
+   "vocab:n1:mo-藻",
+   "vocab:n1:chakushi-嫡子"
+  ],
+  "grammar": [
+   "gram:n1:koto-to-te"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:110",
+  "no": 110,
+  "level": "n1",
+  "title": "Frost and coffins",
+  "kanji": [
+   "kanji:嚇",
+   "kanji:凸",
+   "kanji:韻",
+   "kanji:霜",
+   "kanji:硝",
+   "kanji:勅",
+   "kanji:棺",
+   "kanji:儒"
+  ],
+  "vocab": [
+   "vocab:n1:ikaku-威嚇",
+   "vocab:n1:in-韻",
+   "vocab:n1:yoin-余韻",
+   "vocab:n1:shimo-霜",
+   "vocab:n1:garasu-硝子",
+   "vocab:n1:chokugo-勅語",
+   "vocab:n1:hitsugi-棺",
+   "vocab:n1:shukkan-出棺",
+   "vocab:n1:jukyou-儒教"
+  ],
+  "grammar": [
+   "gram:n1:nara-iza-shirazu"
+  ],
+  "readings": [
+   "read:n1:008"
+  ],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:111",
+  "no": 111,
+  "level": "n1",
+  "title": "Eyebrows and firewood",
+  "kanji": [
+   "kanji:愁",
+   "kanji:楼",
+   "kanji:眉",
+   "kanji:薪",
+   "kanji:褐",
+   "kanji:賜",
+   "kanji:繕",
+   "kanji:栓"
+  ],
+  "vocab": [
+   "vocab:n1:kyoushuu-郷愁",
+   "vocab:n1:urei-愁い",
+   "vocab:n1:roukaku-楼閣",
+   "vocab:n1:mayu-眉",
+   "vocab:n1:mayuge-眉毛",
+   "vocab:n1:maki-薪",
+   "vocab:n1:kasshoku-褐色",
+   "vocab:n1:tamawaru-賜る",
+   "vocab:n1:tsukurou-繕う",
+   "vocab:n1:shuuzen-修繕"
+  ],
+  "grammar": [
+   "gram:n1:to-iwazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:112",
+  "no": 112,
+  "level": "n1",
+  "title": "Lustre and yearning",
+  "kanji": [
+   "kanji:凹",
+   "kanji:艶",
+   "kanji:錬",
+   "kanji:衷",
+   "kanji:逐",
+   "kanji:斥",
+   "kanji:詔",
+   "kanji:憧"
+  ],
+  "vocab": [
+   "vocab:n1:tanren-鍛錬",
+   "vocab:n1:dekoboko-凸凹",
+   "vocab:n1:hekomu-凹む",
+   "vocab:n1:tsuya-艶",
+   "vocab:n1:adeyaka-艶やか",
+   "vocab:n1:seiren-精錬",
+   "vocab:n1:setchuu-折衷",
+   "vocab:n1:kuchiku-駆逐",
+   "vocab:n1:chikuichi-逐一",
+   "vocab:n1:haiseki-排斥",
+   "vocab:n1:shousho-詔書",
+   "vocab:n1:akogare-憧れ"
+  ],
+  "grammar": [
+   "gram:n1:o-oite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:113",
+  "no": 113,
+  "level": "n1",
+  "title": "Silkworms and heirs",
+  "kanji": [
+   "kanji:宵",
+   "kanji:妄",
+   "kanji:酌",
+   "kanji:蚕",
+   "kanji:頒",
+   "kanji:肢",
+   "kanji:謄",
+   "kanji:嗣"
+  ],
+  "vocab": [
+   "vocab:n1:sentakushi-選択肢",
+   "vocab:n1:yoi-宵",
+   "vocab:n1:mousou-妄想",
+   "vocab:n1:kumu-酌む",
+   "vocab:n1:banshaku-晩酌",
+   "vocab:n1:kaiko-蚕",
+   "vocab:n1:hanpu-頒布",
+   "vocab:n1:shitai-肢体",
+   "vocab:n1:touhon-謄本",
+   "vocab:n1:koushi-後嗣"
+  ],
+  "grammar": [
+   "gram:n1:o-fumaete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:114",
+  "no": 114,
+  "level": "n1",
+  "title": "Furrows and barbarians",
+  "kanji": [
+   "kanji:畝",
+   "kanji:抄",
+   "kanji:爽",
+   "kanji:惰",
+   "kanji:蛮",
+   "kanji:旺",
+   "kanji:壱",
+   "kanji:瑠"
+  ],
+  "vocab": [
+   "vocab:n1:une-畝",
+   "vocab:n1:shouroku-抄録",
+   "vocab:n1:soukai-爽快",
+   "vocab:n1:dasei-惰性",
+   "vocab:n1:taida-怠惰",
+   "vocab:n1:yaban-野蛮",
+   "vocab:n1:ousei-旺盛",
+   "vocab:n1:ichimanen-壱万円"
+  ],
+  "grammar": [
+   "gram:n1:o-hikaete"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:115",
+  "no": 115,
+  "level": "n1",
+  "title": "Arcs and taro",
+  "kanji": [
+   "kanji:侯",
+   "kanji:弧",
+   "kanji:附",
+   "kanji:但",
+   "kanji:芋",
+   "kanji:婆",
+   "kanji:倣",
+   "kanji:倹"
+  ],
+  "vocab": [
+   "vocab:n1:kakko-括弧",
+   "vocab:n1:shokou-諸侯",
+   "vocab:n1:ko-弧",
+   "vocab:n1:kakkonai-括弧内",
+   "vocab:n1:fuzoku-附属",
+   "vocab:n1:tadashi-但し",
+   "vocab:n1:tadashigaki-但し書き",
+   "vocab:n1:imo-芋",
+   "vocab:n1:yakiimo-焼き芋",
+   "vocab:n1:rouba-老婆",
+   "vocab:n1:narau-倣う",
+   "vocab:n1:mohou-模倣",
+   "vocab:n1:kenyaku-倹約",
+   "vocab:n1:akumade-あくまで",
+   "vocab:n1:ikanimo-いかにも",
+   "vocab:n1:itatte-いたって",
+   "vocab:n1:kumanaku-くまなく",
+   "vocab:n1:kotogotoku-ことごとく",
+   "vocab:n1:sahodo-さほど",
+   "vocab:n1:zuratto-ずらっと",
+   "vocab:n1:tekkiri-てっきり"
+  ],
+  "grammar": [
+   "gram:n1:te-wa-te-wa"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:116",
+  "no": 116,
+  "level": "n1",
+  "title": "Cocoons and axes",
+  "kanji": [
+   "kanji:繭",
+   "kanji:謁",
+   "kanji:箇",
+   "kanji:且",
+   "kanji:伎",
+   "kanji:斤",
+   "kanji:虞",
+   "kanji:墾"
+  ],
+  "vocab": [
+   "vocab:n1:mayu-繭",
+   "vocab:n1:haietsu-拝謁",
+   "vocab:n1:kasho-箇所",
+   "vocab:n1:kajougaki-箇条書き",
+   "vocab:n1:katsu-且つ",
+   "vocab:n1:kabuki-歌舞伎",
+   "vocab:n1:kin-斤",
+   "vocab:n1:osore-虞",
+   "vocab:n1:kaikon-開墾",
+   "vocab:n1:toriwake-とりわけ",
+   "vocab:n1:hitasura-ひたすら",
+   "vocab:n1:mashite-まして",
+   "vocab:n1:mohaya-もはや",
+   "vocab:n1:yamuoezu-やむを得ず",
+   "vocab:n1:onozukara-おのずから",
+   "vocab:n1:ichiichi-いちいち",
+   "vocab:n1:karoujite-辛うじて",
+   "vocab:n1:kyokuryoku-極力",
+   "vocab:n1:danzen-断然",
+   "vocab:n1:toutei-到底",
+   "vocab:n1:annojou-案の定",
+   "vocab:n1:imasara-今更"
+  ],
+  "grammar": [
+   "gram:n1:nai-to-mo-kagiranai"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:117",
+  "no": 117,
+  "level": "n1",
+  "title": "Seals and dawn",
+  "kanji": [
+   "kanji:采",
+   "kanji:璽",
+   "kanji:爵",
+   "kanji:遵",
+   "kanji:塑",
+   "kanji:汰",
+   "kanji:旦",
+   "kanji:朕"
+  ],
+  "vocab": [
+   "vocab:n1:kassai-喝采",
+   "vocab:n1:sata-沙汰",
+   "vocab:n1:saihai-采配",
+   "vocab:n1:gyoji-御璽",
+   "vocab:n1:shakui-爵位",
+   "vocab:n1:junshu-遵守",
+   "vocab:n1:sozou-塑像",
+   "vocab:n1:touta-淘汰",
+   "vocab:n1:gantan-元旦",
+   "vocab:n1:chin-朕",
+   "vocab:n1:izen-依然",
+   "vocab:n1:shosen-所詮",
+   "vocab:n1:shuushi-終始",
+   "vocab:n1:shiite-強いて",
+   "vocab:n1:soujite-総じて",
+   "vocab:n1:tokiori-時折",
+   "vocab:n1:nanitozo-何卒"
+  ],
+  "grammar": [
+   "gram:n1:ni-todomarazu"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:118",
+  "no": 118,
+  "level": "n1",
+  "title": "Pox and officers",
+  "kanji": [
+   "kanji:痘",
+   "kanji:弐",
+   "kanji:賦",
+   "kanji:丙",
+   "kanji:耗",
+   "kanji:冶",
+   "kanji:濫",
+   "kanji:吏"
+  ],
+  "vocab": [
+   "vocab:n1:tennentou-天然痘",
+   "vocab:n1:ni-弐",
+   "vocab:n1:fuka-賦課",
+   "vocab:n1:hei-丙",
+   "vocab:n1:shoumou-消耗",
+   "vocab:n1:mamou-摩耗",
+   "vocab:n1:yakin-冶金",
+   "vocab:n1:ranyou-濫用",
+   "vocab:n1:hanran-氾濫",
+   "vocab:n1:kanri-官吏",
+   "vocab:n1:tenkou-天候",
+   "vocab:n1:kaihi-会費",
+   "vocab:n1:jouki-上記",
+   "vocab:n1:joutatsu-上達",
+   "vocab:n1:shimatsu-始末",
+   "vocab:n1:mono-者",
+   "vocab:n1:kyouin-教員",
+   "vocab:n1:tenkai-展開",
+   "vocab:n1:ichido-一度",
+   "vocab:n1:dome-度目",
+   "vocab:n1:tabi-旅",
+   "vocab:n1:kanpeki-完璧",
+   "vocab:n1:aji-味"
+  ],
+  "grammar": [
+   "gram:n1:zu-shite"
+  ],
+  "readings": [],
+  "listening": []
+ },
+ {
+  "id": "unit:n1:119",
+  "no": 119,
+  "level": "n1",
+  "title": "Glass and clarity",
+  "kanji": [
+   "kanji:璃",
+   "kanji:瞭"
+  ],
+  "vocab": [
+   "vocab:n1:ruri-瑠璃",
+   "vocab:n1:meiryou-明瞭",
+   "vocab:n1:ichimokuryouzen-一目瞭然",
+   "vocab:n1:ajiwau-味わう",
+   "vocab:n1:seiippai-精一杯",
+   "vocab:n1:seiten-晴天",
+   "vocab:n1:taishi-大志",
+   "vocab:n1:hatsugen-発言",
+   "vocab:n1:sekkyou-説教",
+   "vocab:n1:iji-意地",
+   "vocab:n1:ina-否",
+   "vocab:n1:shuuryou-終了",
+   "vocab:n1:aimatte-相まって",
+   "vocab:n1:tekininsha-適任者"
+  ],
+  "grammar": [
+   "gram:n1:mono-to-suru"
+  ],
+  "readings": [],
+  "listening": []
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "id": "listen:n1:001",
+  "level": "n1",
+  "unit": 6,
+  "order": 695,
+  "type": "dictation",
+  "title": "Dictation: formal announcements",
+  "text": "本日はお忙しい中、ご来場いただき誠にありがとうございます。 諸般の事情により、公演は延期させていただきます。 詳細につきましては、追ってご連絡申し上げます。",
+  "items": [
+   {
+    "text": "本日はお忙しい中、ご来場いただき{誠|まこと}にありがとうございます。",
+    "kana": "ほんじつはおいそがしいなか、ごらいじょういただきまことにありがとうございます。",
+    "en": "Thank you very much for coming today despite your busy schedules."
+   },
+   {
+    "text": "諸般の事情により、公演は延期させていただきます。",
+    "kana": "しょはんのじじょうにより、こうえんはえんきさせていただきます。",
+    "en": "Due to various circumstances, the performance will be postponed."
+   },
+   {
+    "text": "{詳細|しょうさい}につきましては、追ってご連絡申し上げます。",
+    "kana": "しょうさいにつきましては、おってごれんらくもうしあげます。",
+    "en": "Regarding the details, we will contact you in due course."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n1:002",
+  "level": "n1",
+  "unit": 18,
+  "order": 1895,
+  "type": "comprehension",
+  "title": "A news report",
+  "text": "次のニュースです。政府は今朝の閣議で、来年度から中小企業への支援を拡大する方針を正式に決定しました。対象となるのは従業員三百人以下の企業で、設備投資にかかる費用の最大三分の一を補助するとしています。一方、財源については増税を伴う可能性もあり、野党からは批判の声が上がっています。",
+  "items": [
+   {
+    "text": "次のニュースです。政府は今朝の閣議で、来年度から中小企業への支援を拡大する方針を正式に決定しました。対象となるのは従業員三百人以下の企業で、設備投資にかかる費用の最大三分の一を補助するとしています。一方、財源については増税を伴う可能性もあり、野党からは批判の声が上がっています。",
+    "kana": "つぎのニュースです。せいふはけさのかくぎで、らいねんどからちゅうしょうきぎょうへのしえんをかくだいするほうしんをせいしきにけっていしました。たいしょうとなるのはじゅうぎょういんさんびゃくにんいかのきぎょうで、せつびとうしにかかるひようのさいだいさんぶんのいちをほじょするとしています。いっぽう、ざいげんについてはぞうぜいをともなうかのうせいもあり、やとうからはひはんのこえがあがっています。",
+    "en": "Next item. At this morning's cabinet meeting the government formally decided on a policy to expand support for small and medium-sized enterprises from next fiscal year. Eligible are companies with three hundred or fewer employees, and up to one third of capital investment costs will be subsidised. Meanwhile, the funding may involve tax rises, and the opposition has voiced criticism.",
+    "questions": [
+     {
+      "q": "支援の対象となる企業はどれですか。",
+      "qKana": "しえんのたいしょうとなるきぎょうはどれですか。",
+      "choices": [
+       "従業員三百人以下",
+       "従業員千人以上",
+       "全ての企業"
+      ],
+      "answer": 0,
+      "why": "従業員三百人以下の企業で…"
+     },
+     {
+      "q": "補助される費用の{割合|わりあい}は最大どのくらいですか。",
+      "qKana": "ほじょされるひようのわりあいはさいだいどのくらいですか。",
+      "choices": [
+       "二分の一",
+       "三分の一",
+       "四分の一"
+      ],
+      "answer": 1,
+      "why": "最大三分の一を補助する。"
+     },
+     {
+      "q": "野党はなぜ批判していますか。",
+      "qKana": "やとうはなぜひはんしていますか。",
+      "choices": [
+       "増税を伴う可能性があるから",
+       "対象が広すぎるから",
+       "決定が遅いから"
+      ],
+      "answer": 0,
+      "why": "増税を伴う可能性もあり、野党からは批判の声が…"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "支援の対象となる企業はどれですか。",
+    "qKana": "しえんのたいしょうとなるきぎょうはどれですか。",
+    "choices": [
+     "従業員三百人以下",
+     "従業員千人以上",
+     "全ての企業"
+    ],
+    "answer": 0,
+    "why": "従業員三百人以下の企業で…"
+   },
+   {
+    "q": "補助される費用の割合は最大どのくらいですか。",
+    "qKana": "ほじょされるひようのわりあいはさいだいどのくらいですか。",
+    "choices": [
+     "二分の一",
+     "三分の一",
+     "四分の一"
+    ],
+    "answer": 1,
+    "why": "最大三分の一を補助する。"
+   },
+   {
+    "q": "野党はなぜ批判していますか。",
+    "qKana": "やとうはなぜひはんしていますか。",
+    "choices": [
+     "増税を伴う可能性があるから",
+     "対象が広すぎるから",
+     "決定が遅いから"
+    ],
+    "answer": 0,
+    "why": "増税を伴う可能性もあり、野党からは批判の声が…"
+   }
+  ]
+ },
+ {
+  "id": "listen:n1:003",
+  "level": "n1",
+  "unit": 30,
+  "order": 3095,
+  "type": "shadow",
+  "title": "Shadowing: formal debate",
+  "text": "ご指摘はごもっともですが、現状を踏まえますと、段階的な導入が妥当かと存じます。 その点につきましては、データに基づいて改めて検討させていただきたく存じます。 費用対効果を考慮すれば、現行の方式を維持するほかないのではないでしょうか。",
+  "items": [
+   {
+    "text": "ご指摘はごもっともですが、現状を踏まえますと、段階的な導入が{妥当|だとう}かと存じます。",
+    "kana": "ごしてきはごもっともですが、げんじょうをふまえますと、だんかいてきなどうにゅうがだとうかとぞんじます。",
+    "en": "Your point is well taken, but considering the current situation, I believe a phased introduction is appropriate."
+   },
+   {
+    "text": "その点につきましては、データに基づいて改めて検討させていただきたく存じます。",
+    "kana": "そのてんにつきましては、データにもとづいてあらためてけんとうさせていただきたくぞんじます。",
+    "en": "On that point, I would like to reconsider based on the data."
+   },
+   {
+    "text": "費用対効果を考慮すれば、現行の方式を維持するほかないのではないでしょうか。",
+    "kana": "ひようたいこうかをこうりょすれば、げんこうのほうしきをいじするほかないのではないでしょうか。",
+    "en": "Considering cost-effectiveness, is there any option but to keep the current method?"
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n1:004",
+  "level": "n1",
+  "unit": 54,
+  "order": 5495,
+  "type": "dictation",
+  "title": "Dictation: literary sentences",
+  "text": "夕暮れの浜辺に、波の音だけが絶えず響いていた。 彼は何も言わずに、ただ窓の外の雪を眺めていた。 記憶とは、過ぎ去った時間が残した影にすぎないのかもしれない。",
+  "items": [
+   {
+    "text": "夕暮れの浜辺に、波の音だけが絶えず響いていた。",
+    "kana": "ゆうぐれのはまべに、なみのおとだけがたえずひびいていた。",
+    "en": "On the beach at dusk, only the sound of the waves echoed without cease."
+   },
+   {
+    "text": "彼は何も言わずに、ただ窓の外の雪を{眺|なが}めていた。",
+    "kana": "かれはなにもいわずに、ただまどのそとのゆきをながめていた。",
+    "en": "He said nothing, and simply gazed at the snow outside the window."
+   },
+   {
+    "text": "記憶とは、過ぎ{去|さ}った時間が残した影にすぎないのかもしれない。",
+    "kana": "きおくとは、すぎさったじかんがのこしたかげにすぎないのかもしれない。",
+    "en": "Memory may be nothing more than the shadow left by time that has passed."
+   }
+  ],
+  "questions": []
+ },
+ {
+  "id": "listen:n1:005",
+  "level": "n1",
+  "unit": 78,
+  "order": 7895,
+  "type": "comprehension",
+  "title": "A lecture excerpt",
+  "text": "今日は人口減少と地方経済についてお話しします。地方の人口が減ると、まず商店や病院が維持できなくなり、生活の利便性が下がります。すると若い世代がさらに流出し、人口減少が加速するという悪循環に陥ります。この連鎖を断ち切るには、雇用の創出だけでは不十分で、教育や医療といった生活基盤への投資を同時に行う必要があります。",
+  "items": [
+   {
+    "text": "今日は{人口減少|じんこうげんしょう}と地方経済についてお話しします。地方の人口が減ると、まず商店や病院が維持できなくなり、生活の{利便性|りべんせい}が下がります。すると若い世代がさらに流出し、{人口減少|じんこうげんしょう}が加速するという悪循環に陥ります。この連鎖を断ち切るには、雇用の創出だけでは不十分で、教育や医療といった生活基盤への投資を同時に行う必要があります。",
+    "kana": "きょうはじんこうげんしょうとちほうけいざいについておはなしします。ちほうのじんこうがへると、まずしょうてんやびょういんがいじできなくなり、せいかつのりべんせいがさがります。するとわかいせだいがさらにりゅうしゅつし、じんこうげんしょうがかそくするというあくじゅんかんにおちいります。このれんさをたちきるには、こようのそうしゅつだけではふじゅうぶんで、きょういくやいりょうといったせいかつきばんへのとうしをどうじにおこなうひつようがあります。",
+    "en": "Today I will talk about population decline and regional economies. When a region's population falls, shops and hospitals first become impossible to maintain and the convenience of daily life declines. Then the younger generation leaves even more, and population decline accelerates, a vicious circle. To break this chain, creating jobs alone is not enough; investment in the foundations of daily life such as education and medical care must be made at the same time.",
+    "questions": [
+     {
+      "q": "人口が減ると最初に何が起きますか。",
+      "qKana": "じんこうがへるとさいしょになにがおきますか。",
+      "choices": [
+       "商店や病院が維持できなくなる",
+       "税金が上がる",
+       "工場が増える"
+      ],
+      "answer": 0,
+      "why": "まず商店や病院が維持できなくなり…"
+     },
+     {
+      "q": "悪循環とはどういうことですか。",
+      "qKana": "あくじゅんかんとはどういうことですか。",
+      "choices": [
+       "若者が流出して減少が加速する",
+       "病院が増えすぎる",
+       "物価が下がり続ける"
+      ],
+      "answer": 0,
+      "why": "若い世代がさらに流出し、人口減少が加速する…"
+     },
+     {
+      "q": "連鎖を断ち切るために必要なことは何ですか。",
+      "qKana": "れんさをたちきるためにひつようなことはなんですか。",
+      "choices": [
+       "雇用の創出だけ",
+       "生活基盤への投資も同時に行うこと",
+       "人口の移動を禁止すること"
+      ],
+      "answer": 1,
+      "why": "教育や医療といった生活基盤への投資を同時に行う必要が…"
+     }
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "q": "人口が減ると最初に何が起きますか。",
+    "qKana": "じんこうがへるとさいしょになにがおきますか。",
+    "choices": [
+     "商店や病院が維持できなくなる",
+     "税金が上がる",
+     "工場が増える"
+    ],
+    "answer": 0,
+    "why": "まず商店や病院が維持できなくなり…"
+   },
+   {
+    "q": "悪循環とはどういうことですか。",
+    "qKana": "あくじゅんかんとはどういうことですか。",
+    "choices": [
+     "若者が流出して減少が加速する",
+     "病院が増えすぎる",
+     "物価が下がり続ける"
+    ],
+    "answer": 0,
+    "why": "若い世代がさらに流出し、人口減少が加速する…"
+   },
+   {
+    "q": "連鎖を断ち切るために必要なことは何ですか。",
+    "qKana": "れんさをたちきるためにひつようなことはなんですか。",
+    "choices": [
+     "雇用の創出だけ",
+     "生活基盤への投資も同時に行うこと",
+     "人口の移動を禁止すること"
+    ],
+    "answer": 1,
+    "why": "教育や医療といった生活基盤への投資を同時に行う必要が…"
+   }
+  ]
+ },
+ {
+  "id": "listen:n1:006",
+  "level": "n1",
+  "unit": 102,
+  "order": 10295,
+  "type": "shadow",
+  "title": "Shadowing: keigo in business",
+  "text": "恐れ入りますが、ご確認の上、折り返しご連絡いただけますと幸いです。 ご要望に沿えず、誠に申し訳ございません。 今後ともご指導ご鞭撻のほど、よろしくお願い申し上げます。",
+  "items": [
+   {
+    "text": "恐れ入りますが、ご確認の上、折り返しご連絡いただけますと幸いです。",
+    "kana": "おそれいりますが、ごかくにんのうえ、おりかえしごれんらくいただけますとさいわいです。",
+    "en": "I am sorry to trouble you, but I would be grateful if you could check and get back to me."
+   },
+   {
+    "text": "ご要望に沿えず、誠に申し訳ございません。",
+    "kana": "ごようぼうにそえず、まことにもうしわけございません。",
+    "en": "I sincerely apologise that we are unable to meet your request."
+   },
+   {
+    "text": "今後ともご指導ご{鞭撻|べんたつ}のほど、よろしくお願い申し上げます。",
+    "kana": "こんごともごしどうごべんたつのほど、よろしくおねがいもうしあげます。",
+    "en": "I look forward to your continued guidance and encouragement."
+   }
+  ],
+  "questions": []
+ }
+]

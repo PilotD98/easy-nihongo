@@ -1,0 +1,370 @@
+[
+ {
+  "id": "read:n1:001",
+  "level": "n1",
+  "unit": 12,
+  "order": 1290,
+  "title": "政策の転換",
+  "en": "A policy shift",
+  "text": "政府は先週、{高齢者福祉|こうれいしゃふくし}に関する新たな政策を発表した。従来の制度が施設への{入所|にゅうしょ}を前提としていたのにひきかえ、新政策は在宅での介護を支援することに重点を置いている。背景には、施設の不足と財政の悪化がある。野党は「負担を家族に押しつけるものだ」と批判しているが、与党は「本人の希望に{沿|そ}った{選択肢|せんたくし}を増やすためだ」と反論する。実際、調査によれば高齢者の約七割が住み慣れた家で暮らし続けたいと答えている。問題は、その希望を支える人手と予算を確保できるかどうかにほかならない。制度の{理念|りねん}がいかに立派であれ、現場が回らなければ絵に{描|か}いた{餅|もち}にすぎない。",
+  "kana": "せいふはせんしゅう、こうれいしゃふくしにかんするあらたなせいさくをはっぴょうした。じゅうらいのせいどがしせつへのにゅうしょをぜんていとしていたのにひきかえ、しんせいさくはざいたくでのかいごをしえんすることにじゅうてんをおいている。はいけいには、しせつのふそくとざいせいのあっかがある。やとうは「ふたんをかぞくにおしつけるものだ」とひはんしているが、よとうは「ほんにんのきぼうにそったせんたくしをふやすためだ」とはんろんする。じっさい、ちょうさによればこうれいしゃのやくななわりがすみなれたいえでくらしつづけたいとこたえている。もんだいは、そのきぼうをささえるひとでとよさんをかくほできるかどうかにほかならない。せいどのりねんがいかにりっぱであれ、げんばがまわらなければえにかいたもちにすぎない。",
+  "enText": "Last week the government announced a new policy on welfare for the elderly. In contrast to the previous system, which presupposed admission to care facilities, the new policy puts the emphasis on supporting care at home. Behind this lie a shortage of facilities and worsening public finances. The opposition criticises it as shifting the burden onto families, while the ruling party counters that it increases options in line with people's own wishes. Indeed, surveys show about seventy percent of the elderly want to keep living in their familiar homes. The problem is nothing other than whether the staff and budget to support that wish can be secured. However admirable the system's principles, if the front line does not function it is no more than a picture of a rice cake.",
+  "questions": [
+   {
+    "q": "新政策は何に重点を置いていますか。",
+    "qKana": "しんせいさくはなににじゅうてんをおいていますか。",
+    "choices": [
+     "施設への入所",
+     "在宅での介護支援",
+     "施設の建設"
+    ],
+    "answer": 1,
+    "why": "在宅での介護を支援することに重点を置いている。"
+   },
+   {
+    "q": "野党はどう批判していますか。",
+    "qKana": "やとうはどうひはんしていますか。",
+    "choices": [
+     "予算が多すぎる",
+     "負担を家族に押しつける",
+     "施設が増えすぎる"
+    ],
+    "answer": 1,
+    "why": "「負担を家族に押しつけるものだ」と批判している。"
+   },
+   {
+    "q": "筆者が最も重要だと考えている問題は何ですか。",
+    "qKana": "ひっしゃがもっともじゅうようだとかんがえているもんだいはなんですか。",
+    "choices": [
+     "制度の理念",
+     "人手と予算の確保",
+     "野党の反対"
+    ],
+    "answer": 1,
+    "why": "人手と予算を確保できるかどうかにほかならない。"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:002",
+  "level": "n1",
+  "unit": 24,
+  "order": 2490,
+  "title": "沈黙の価値",
+  "en": "The value of silence",
+  "text": "会議で発言しない人は、やる気がないとみなされがちである。しかし、{沈黙|ちんもく}が必ずしも無関心を意味するとは限らない。{熟慮|じゅくりょ}の末に口を開く人もいれば、他人の意見を十分に聞いてから判断を下す人もいる。むしろ、思いつきを{次々|つぎつぎ}と口にする者より、一言で核心を突く者のほうが、議論に貢献しているとすら言える。問題は、発言の量を評価の基準にしてしまう組織の文化にある。発言せずにはいられない{雰囲気|ふんいき}の中では、質より量が優先され、本当に価値ある意見が埋もれかねない。{沈黙|ちんもく}を許容し、それを{待|ま}つ{余裕|よゆう}を持つことこそ、{成熟|せいじゅく}した議論の条件ではなかろうか。",
+  "kana": "かいぎではつげんしないひとは、やるきがないとみなされがちである。しかし、ちんもくがかならずしもむかんしんをいみするとはかぎらない。じゅくりょのすえにくちをひらくひともいれば、たにんのいけんをじゅうぶんにきいてからはんだんをくだすひともいる。むしろ、おもいつきをつぎつぎとくちにするものより、ひとことでかくしんをつくもののほうが、ぎろんにこうけんしているとすらいえる。もんだいは、はつげんのりょうをひょうかのきじゅんにしてしまうそしきのぶんかにある。はつげんせずにはいられないふんいきのなかでは、しつよりりょうがゆうせんされ、ほんとうにかちあるいけんがうもれかねない。ちんもくをきょようし、それをまつよゆうをもつことこそ、せいじゅくしたぎろんのじょうけんではなかろうか。",
+  "enText": "People who do not speak in meetings tend to be regarded as unmotivated. Yet silence does not necessarily mean indifference. Some open their mouths only after careful thought; others make their judgement after listening fully to everyone else. Indeed, one could even say that a person who hits the core in a single sentence contributes more to the discussion than one who blurts out idea after idea. The problem lies in an organisational culture that makes the quantity of remarks the measure of evaluation. In an atmosphere where people cannot help speaking, quantity is prioritised over quality, and truly valuable opinions may well be buried. Is it not precisely tolerating silence, and having the patience to wait for it, that is the condition for mature discussion?",
+  "questions": [
+   {
+    "q": "筆者は{沈黙|ちんもく}についてどう考えていますか。",
+    "qKana": "ひっしゃはちんもくについてどうかんがえていますか。",
+    "choices": [
+     "無関心の証拠だ",
+     "必ずしも無関心ではない",
+     "やる気がない証拠だ"
+    ],
+    "answer": 1,
+    "why": "沈黙が必ずしも無関心を意味するとは限らない。"
+   },
+   {
+    "q": "筆者が問題だと考えているのは何ですか。",
+    "qKana": "ひっしゃがもんだいだとかんがえているのはなんですか。",
+    "choices": [
+     "発言の量で評価する文化",
+     "発言しない人",
+     "会議が長いこと"
+    ],
+    "answer": 0,
+    "why": "発言の量を評価の基準にしてしまう組織の文化にある。"
+   },
+   {
+    "q": "{成熟|せいじゅく}した議論の条件として挙げられているのは何ですか。",
+    "qKana": "せいじゅくしたぎろんのじょうけんとしてあげられているのはなんですか。",
+    "choices": [
+     "全員が発言すること",
+     "沈黙を許容し待つ余裕",
+     "時間を短くすること"
+    ],
+    "answer": 1,
+    "why": "沈黙を許容し、それを待つ余裕を持つことこそ…"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:003",
+  "level": "n1",
+  "unit": 36,
+  "order": 3690,
+  "title": "方言の行方",
+  "en": "The fate of dialects",
+  "text": "全国どこへ行っても同じ言葉が通じるのは、{便利|べんり}この上ない。テレビや教育の普及と相まって、標準語は{隅々|すみずみ}まで{浸透|しんとう}した。その一方で、各地の方言は急速に姿を消しつつある。祖父母の世代ならいざ知らず、今の若者は{自分|じぶん}の土地の言葉を話せないどころか、聞いても{理解|りかい}できないことさえある。方言は単なる言葉の違いにとどまらず、その土地の暮らしや感覚を映す文化そのものである。失われてからではもう取り戻すべくもない。近年、方言を教材に取り入れる学校や、方言で演じる劇団が現れたのは、こうした危機感の表れにほかならない。標準語の{便利|べんり}さを{享受|きょうじゅ}しつつ、方言を次の世代に手渡す工夫が求められている。",
+  "kana": "ぜんこくどこへいってもおなじことばがつうじるのは、べんりこのうえない。テレビやきょういくのふきゅうとあいまって、ひょうじゅんごはすみずみまでしんとうした。そのいっぽうで、かくちのほうげんはきゅうそくにすがたをけしつつある。そふぼのせだいならいざしらず、いまのわかものはじぶんのとちのことばをはなせないどころか、きいてもりかいできないことさえある。ほうげんはたんなることばのちがいにとどまらず、そのとちのくらしやかんかくをうつすぶんかそのものである。うしなわれてからではもうとりもどすべくもない。きんねん、ほうげんをきょうざいにとりいれるがっこうや、ほうげんでえんじるげきだんがあらわれたのは、こうしたききかんのあらわれにほかならない。ひょうじゅんごのべんりさをきょうじゅしつつ、ほうげんをつぎのせだいにてわたすくふうがもとめられている。",
+  "enText": "That the same language is understood wherever you go in the country is as convenient as can be. Combined with the spread of television and education, standard Japanese has penetrated every corner. At the same time, regional dialects are rapidly disappearing. The grandparents' generation is one thing, but today's young people not only cannot speak their local dialect, they sometimes cannot even understand it. Dialects are not merely differences of words; they are culture itself, reflecting the life and sensibility of a place. Once lost, there is no getting them back. The recent appearance of schools using dialect as teaching material and theatre troupes performing in dialect is nothing other than an expression of this sense of crisis. What is needed is ingenuity to hand dialects on to the next generation while enjoying the convenience of the standard language.",
+  "questions": [
+   {
+    "q": "標準語が広まった{理由|りゆう}として挙げられているのは何ですか。",
+    "qKana": "ひょうじゅんごがひろまったりゆうとしてあげられているのはなんですか。",
+    "choices": [
+     "テレビと教育の普及",
+     "法律による強制",
+     "人口の減少"
+    ],
+    "answer": 0,
+    "why": "テレビや教育の普及と相まって…"
+   },
+   {
+    "q": "筆者は方言を何だと考えていますか。",
+    "qKana": "ひっしゃはほうげんをなんだとかんがえていますか。",
+    "choices": [
+     "単なる言葉の違い",
+     "土地の文化そのもの",
+     "不便なもの"
+    ],
+    "answer": 1,
+    "why": "土地の暮らしや感覚を映す文化そのものである。"
+   },
+   {
+    "q": "方言の劇団や教材が現れたのは何の表れですか。",
+    "qKana": "ほうげんのげきだんやきょうざいがあらわれたのはなんのあらわれですか。",
+    "choices": [
+     "危機感",
+     "流行",
+     "政府の方針"
+    ],
+    "answer": 0,
+    "why": "こうした危機感の表れにほかならない。"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:004",
+  "level": "n1",
+  "unit": 48,
+  "order": 4890,
+  "title": "匠の技",
+  "en": "The craftsman's skill",
+  "text": "{漆器職人|しっきしょくにん}の佐藤氏は、七十を過ぎた今も毎朝五時に工房に立つ。一つの{椀|わん}を仕上げるのに、下地から塗り、研ぎ、乾燥を三十回以上繰り返す。機械で塗れば一日で済む工程に、彼は三か月をかける。「早く作ろうと思えば作れないこともない。だが、それは{私|わたし}の仕事ではない」と氏は言う。弟子は十年で一人前と言われるが、その{多|おお}くは途中で{去|さ}っていく。後継者不足は、ひとり{漆器|しっき}の世界にとどまらず、伝統工芸全体の課題である。それでも氏は悲観していない。「{本物|ほんもの}を求める人がいる限り、技は残る。残すべきは{物|もの}ではなく、{物|もの}に向き{合|あ}う姿勢だ」。研ぎ{澄|す}まされた言葉は、磨き抜かれた{椀|わん}の光沢と重なって見えた。",
+  "kana": "しっきしょくにんのさとうしは、ななじゅうをすぎたいまもまいあさごじにこうぼうにたつ。ひとつのわんをしあげるのに、したじからぬり、とぎ、かんそうをさんじゅっかいいじょうくりかえす。きかいでぬればいちにちですむこうていに、かれはさんかげつをかける。「はやくつくろうとおもえばつくれないこともない。だが、それはわたしのしごとではない」としはいう。でしはじゅうねんでいちにんまえといわれるが、そのおおくはとちゅうでさっていく。こうけいしゃぶそくは、ひとりしっきのせかいにとどまらず、でんとうこうげいぜんたいのかだいである。それでもしはひかんしていない。「ほんものをもとめるひとがいるかぎり、わざはのこる。のこすべきはものではなく、ものにむきあうしせいだ」。とぎすまされたことばは、みがきぬかれたわんのこうたくとかさなってみえた。",
+  "enText": "Lacquerware craftsman Mr Sato, now past seventy, still stands in his workshop at five every morning. To finish a single bowl he repeats the cycle of base coat, lacquering, polishing and drying more than thirty times. A process that a machine could finish in a day takes him three months. \"If I wanted to make them quickly, it is not that I couldn't. But that is not my work,\" he says. Apprentices are said to take ten years to become fully fledged, and many leave along the way. The shortage of successors is a problem not of lacquerware alone but of traditional crafts as a whole. Even so, he is not pessimistic. \"As long as there are people who seek the genuine article, the skill will survive. What must be preserved is not the object but the attitude of facing the object.\" His honed words seemed to merge with the lustre of the polished bowl.",
+  "questions": [
+   {
+    "q": "佐藤氏が一つの{椀|わん}にかける時間はどのくらいですか。",
+    "qKana": "さとうしがひとつのわんにかけるじかんはどのくらいですか。",
+    "choices": [
+     "一日",
+     "三か月",
+     "十年"
+    ],
+    "answer": 1,
+    "why": "彼は三か月をかける。"
+   },
+   {
+    "q": "後継者不足について何と書かれていますか。",
+    "qKana": "こうけいしゃぶそくについてなんとかかれていますか。",
+    "choices": [
+     "漆器だけの問題だ",
+     "伝統工芸全体の課題だ",
+     "もう解決した"
+    ],
+    "answer": 1,
+    "why": "ひとり漆器の世界にとどまらず、伝統工芸全体の課題である。"
+   },
+   {
+    "q": "氏が残すべきだと考えているものは何ですか。",
+    "qKana": "しがのこすべきだとかんがえているものはなんですか。",
+    "choices": [
+     "椀そのもの",
+     "物に向き合う姿勢",
+     "工房の建物"
+    ],
+    "answer": 1,
+    "why": "残すべきは物ではなく、物に向き合う姿勢だ。"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:005",
+  "level": "n1",
+  "unit": 60,
+  "order": 6090,
+  "title": "匿名の功罪",
+  "en": "Anonymity, for better and worse",
+  "text": "インターネット上では、{誰|だれ}もが名を{伏|ふ}せて発言できる。{匿名|とくめい}は、立場の弱い者が声を上げることを可能にした反面、無責任な中傷を生む温床にもなった。名を名乗らずして他人を攻撃する行為が、言論の{自由|じゆう}の名のもとに許されてよいはずがない。しかし、{匿名|とくめい}を一律に禁じれば、内部告発や{少数意見|しょうすういけん}の{表明|ひょうめい}まで{萎縮|いしゅく}させかねない。要は、{匿名|とくめい}か実名かという二者択一ではなく、発言の内容に応じて責任を問える仕組みをいかに設計するかである。欧米の一部では、{裁判所|さいばんしょ}の命令があれば発信者を特定できる制度が整いつつある。制度の整備と並行して、画面の向こうに人がいるという当たり前の想像力を、教育を通じて培うほかはない。",
+  "kana": "インターネットじょうでは、だれもがなをふせてはつげんできる。とくめいは、たちばのよわいものがこえをあげることをかのうにしたはんめん、むせきにんなちゅうしょうをうむおんしょうにもなった。なをなのらずしてたにんをこうげきするこういが、げんろんのじゆうのなのもとにゆるされてよいはずがない。しかし、とくめいをいちりつにきんじれば、ないぶこくはつやしょうすういけんのひょうめいまでいしゅくさせかねない。ようは、とくめいかじつめいかというにしゃたくいつではなく、はつげんのないようにおうじてせきにんをとえるしくみをいかにせっけいするかである。おうべいのいちぶでは、さいばんしょのめいれいがあればはっしんしゃをとくていできるせいどがととのいつつある。せいどのせいびとへいこうして、がめんのむこうにひとがいるというあたりまえのそうぞうりょくを、きょういくをつうじてつちかうほかはない。",
+  "enText": "On the internet, anyone can speak without revealing their name. Anonymity has made it possible for the vulnerable to raise their voices, but it has also become a breeding ground for irresponsible slander. Attacking others without giving one's name cannot possibly be permitted in the name of free speech. Yet a blanket ban on anonymity could well stifle even whistle-blowing and the expression of minority views. The point is not a binary choice between anonymity and real names, but how to design a system in which responsibility can be demanded according to the content of what is said. In parts of Europe and America, systems are taking shape under which a court order can identify the sender. Alongside building such systems, there is no option but to cultivate, through education, the ordinary imagination that there is a person on the other side of the screen.",
+  "questions": [
+   {
+    "q": "{匿名|とくめい}の良い面として挙げられているのは何ですか。",
+    "qKana": "とくめいのよいめんとしてあげられているのはなんですか。",
+    "choices": [
+     "立場の弱い者が声を上げられる",
+     "誰でも攻撃できる",
+     "裁判が減る"
+    ],
+    "answer": 0,
+    "why": "立場の弱い者が声を上げることを可能にした…"
+   },
+   {
+    "q": "{匿名|とくめい}を一律に禁じるとどうなると筆者は考えていますか。",
+    "qKana": "とくめいをいちりつにきんじるとどうなるとひっしゃはかんがえていますか。",
+    "choices": [
+     "中傷がなくなる",
+     "内部告発などが萎縮しかねない",
+     "問題は全て解決する"
+    ],
+    "answer": 1,
+    "why": "内部告発や少数意見の表明まで萎縮させかねない。"
+   },
+   {
+    "q": "制度の整備と並行して必要なことは何ですか。",
+    "qKana": "せいどのせいびとへいこうしてひつようなことはなんですか。",
+    "choices": [
+     "実名の強制",
+     "教育を通じて想像力を培うこと",
+     "インターネットの禁止"
+    ],
+    "answer": 1,
+    "why": "想像力を、教育を通じて培うほかはない。"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:006",
+  "level": "n1",
+  "unit": 72,
+  "order": 7290,
+  "title": "祖父の遺言",
+  "en": "My grandfather's will",
+  "text": "祖父が{逝去|せいきょ}して一年が経つ。遺品を{整理|せいり}していた母が、古びた手帳を見つけた。そこには、{几帳面|きちょうめん}な字で{日々|ひび}の出来事が{綴|つづ}られていた。戦後の混乱期に一家を養うべく、昼は工場で働き、夜は屋台を{引|ひ}いたこと。長男を病で亡くした日の、たった一行の記述。そして最後のページには、孫である{私|わたし}に{宛|あ}てた{短|みじか}い言葉があった。「迷ったら、損か得かではなく、恥ずかしくないかで決めよ」。生前の祖父は{寡黙|かもく}で、説教めいたことを一切言わなかった。それだけに、この一行の重みは計り知れない。{私|わたし}は今、就職か進学かで迷っている。祖父の言葉に照らして考えれば、答えはおのずと見えてくる気がする。",
+  "kana": "そふがせいきょしていちねんがたつ。いひんをせいりしていたははが、ふるびたてちょうをみつけた。そこには、きちょうめんなじでひびのできごとがつづられていた。せんごのこんらんきにいっかをやしなうべく、ひるはこうじょうではたらき、よるはやたいをひいたこと。ちょうなんをやまいでなくしたひの、たったいちぎょうのきじゅつ。そしてさいごのページには、まごであるわたしにあてたみじかいことばがあった。「まよったら、そんかとくかではなく、はずかしくないかできめよ」。せいぜんのそふはかもくで、せっきょうめいたことをいっさいいわなかった。それだけに、このいちぎょうのおもみははかりしれない。わたしはいま、しゅうしょくかしんがくかでまよっている。そふのことばにてらしてかんがえれば、こたえはおのずとみえてくるきがする。",
+  "enText": "A year has passed since my grandfather died. My mother, sorting through his belongings, found an old notebook. In it, in meticulous handwriting, the events of each day were recorded: working in a factory by day and pulling a food cart at night to support the family in the post-war confusion; a single line on the day he lost his eldest son to illness. And on the last page, a few short words addressed to me, his grandchild: \"When in doubt, decide not by gain or loss, but by whether you would be ashamed.\" In life my grandfather was a man of few words and never said anything that sounded like a lecture. For that very reason, the weight of this one line is immeasurable. I am now torn between taking a job and going on to further study. Considered in the light of his words, I feel the answer will come into view of its own accord.",
+  "questions": [
+   {
+    "q": "手帳には何が書かれていましたか。",
+    "qKana": "てちょうにはなにがかかれていましたか。",
+    "choices": [
+     "日々の出来事と孫への言葉",
+     "仕事の記録だけ",
+     "詩"
+    ],
+    "answer": 0,
+    "why": "日々の出来事が綴られ…私に宛てた短い言葉があった。"
+   },
+   {
+    "q": "祖父の言葉はどういう意味ですか。",
+    "qKana": "そふのことばはどういういみですか。",
+    "choices": [
+     "得になる方を選べ",
+     "恥ずかしくないかで決めよ",
+     "迷うな"
+    ],
+    "answer": 1,
+    "why": "損か得かではなく、恥ずかしくないかで決めよ。"
+   },
+   {
+    "q": "筆者は今何に迷っていますか。",
+    "qKana": "ひっしゃはいまなにになやんでいますか。",
+    "choices": [
+     "結婚",
+     "就職か進学か",
+     "引っ越し"
+    ],
+    "answer": 1,
+    "why": "就職か進学かで迷っている。"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:007",
+  "level": "n1",
+  "unit": 90,
+  "order": 9090,
+  "title": "科学と倫理の境界",
+  "en": "The boundary between science and ethics",
+  "text": "遺伝子を{自在|じざい}に書き換える技術が実用段階に入った。難病の治療に道を開く一方で、人間の能力を人為的に高める「設計」への応用も、技術的には不可能ではない。ここに至って、科学はもはや科学者だけの問題ではなくなった。何が許され、何が許されないかは、{専門知識|せんもんちしき}のみをもって決められるものではない。{倫理|りんり}、宗教、法、そして{一般市民|いっぱんしみん}の感覚を踏まえた{合意|ごうい}なくしては、いかなる規制も正当性を持ち得ない。歴史を顧みれば、技術の進歩は常に規範の整備に先行してきた。だからこそ、今回ばかりは後追いであってはならない。研究者には、{自|みずか}らの研究の帰結を社会に{説明|せつめい}する責任が、社会には、恐れからではなく{理解|りかい}に基づいて判断する責任が、それぞれ課されている。",
+  "kana": "いでんしをじざいにかきかえるぎじゅつがじつようだんかいにはいった。なんびょうのちりょうにみちをひらくいっぽうで、にんげんののうりょくをじんいてきにたかめる「せっけい」へのおうようも、ぎじゅつてきにはふかのうではない。ここにいたって、かがくはもはやかがくしゃだけのもんだいではなくなった。なにがゆるされ、なにがゆるされないかは、せんもんちしきのみをもってきめられるものではない。りんり、しゅうきょう、ほう、そしていっぱんしみんのかんかくをふまえたごういなくしては、いかなるきせいもせいとうせいをもちえない。れきしをかえりみれば、ぎじゅつのしんぽはつねにきはんのせいびにせんこうしてきた。だからこそ、こんかいばかりはあとおいであってはならない。けんきゅうしゃには、みずからのけんきゅうのきけつをしゃかいにせつめいするせきにんが、しゃかいには、おそれからではなくりかいにもとづいてはんだんするせきにんが、それぞれかされている。",
+  "enText": "Technology that can freely rewrite genes has entered the practical stage. While it opens the way to treating intractable diseases, its application to the \"design\" of artificially enhanced human abilities is also not technically impossible. At this point, science has ceased to be a matter for scientists alone. What is permitted and what is not cannot be decided by expert knowledge alone. Without a consensus grounded in ethics, religion, law and the sensibilities of ordinary citizens, no regulation can have legitimacy. Looking back at history, technological progress has always preceded the establishment of norms. Precisely for that reason, this time it must not be a case of catching up afterwards. Researchers bear the responsibility of explaining the consequences of their research to society, and society bears the responsibility of judging on the basis of understanding rather than fear.",
+  "questions": [
+   {
+    "q": "遺伝子技術の良い面として挙げられているのは何ですか。",
+    "qKana": "いでんしぎじゅつのよいめんとしてあげられているのはなんですか。",
+    "choices": [
+     "難病の治療",
+     "能力の設計",
+     "費用の削減"
+    ],
+    "answer": 0,
+    "why": "難病の治療に道を開く一方で…"
+   },
+   {
+    "q": "規制が正当性を持つために必要なものは何ですか。",
+    "qKana": "きせいがせいとうせいをもつためにひつようなものはなんですか。",
+    "choices": [
+     "専門知識だけ",
+     "倫理や法や市民の感覚を踏まえた合意",
+     "研究者の多数決"
+    ],
+    "answer": 1,
+    "why": "合意なくしては、いかなる規制も正当性を持ち得ない。"
+   },
+   {
+    "q": "社会に課されている責任は何ですか。",
+    "qKana": "しゃかいにかされているせきにんはなんですか。",
+    "choices": [
+     "研究を禁止すること",
+     "理解に基づいて判断すること",
+     "恐れること"
+    ],
+    "answer": 1,
+    "why": "恐れからではなく理解に基づいて判断する責任…"
+   }
+  ]
+ },
+ {
+  "id": "read:n1:008",
+  "level": "n1",
+  "unit": 110,
+  "order": 11090,
+  "title": "書くということ",
+  "en": "On writing",
+  "text": "書くという行為は、考えを記録することではなく、考えを生み出すことである。頭の中では{明瞭|めいりょう}に思えた考えも、いざ文字にしようとすると、{曖昧|あいまい}さが露呈する。書きながら、人は{自分|じぶん}が何を分かっていなかったかを知る。だからこそ、書くことは苦しい。一文を書いては消し、書いては消す。その繰り返しの末に、ようやく{自分|じぶん}の言葉と呼べるものが残る。安易に書かれた文章が読む者の心に届かないのは、書き{手自身|てじしん}がその言葉を通過していないからにほかならない。文章の巧拙はさておき、{自分|じぶん}の言葉で書かれているかどうかは、読む側には{一目瞭然|いちもくりょうぜん}である。技術は後からついてくる。まず、書かずにはいられない何かを持つこと。それがすべての始まりである。",
+  "kana": "かくというこういは、かんがえをきろくすることではなく、かんがえをうみだすことである。あたまのなかではめいりょうにおもえたかんがえも、いざもじにしようとすると、あいまいさがろていする。かきながら、ひとはじぶんがなにをわかっていなかったかをしる。だからこそ、かくことはくるしい。いちぶんをかいてはけし、かいてはけす。そのくりかえしのすえに、ようやくじぶんのことばとよべるものがのこる。あんいにかかれたぶんしょうがよむもののこころにとどかないのは、かきてじしんがそのことばをつうかしていないからにほかならない。ぶんしょうのこうせつはさておき、じぶんのことばでかかれているかどうかは、よむがわにはいちもくりょうぜんである。ぎじゅつはあとからついてくる。まず、かかずにはいられないなにかをもつこと。それがすべてのはじまりである。",
+  "enText": "The act of writing is not recording thought but producing it. A thought that seemed clear in one's head reveals its vagueness the moment one tries to put it into words. As they write, people learn what they had not understood. That is precisely why writing is painful. One writes a sentence and erases it, writes and erases. At the end of that repetition, something one can finally call one's own words remains. Writing produced carelessly fails to reach the reader's heart for no other reason than that the writer has not passed through those words themselves. Skill aside, whether something is written in one's own words is obvious at a glance to the reader. Technique follows later. First, have something you cannot help writing about. That is the beginning of everything.",
+  "questions": [
+   {
+    "q": "筆者によると、書くこととは何ですか。",
+    "qKana": "ひっしゃによると、かくこととはなんですか。",
+    "choices": [
+     "考えを記録すること",
+     "考えを生み出すこと",
+     "技術を見せること"
+    ],
+    "answer": 1,
+    "why": "考えを記録することではなく、考えを生み出すことである。"
+   },
+   {
+    "q": "安易な文章が心に届かない{理由|りゆう}は何ですか。",
+    "qKana": "あんいなぶんしょうがこころにとどかないりゆうはなんですか。",
+    "choices": [
+     "短すぎるから",
+     "書き手がその言葉を通過していないから",
+     "漢字が多いから"
+    ],
+    "answer": 1,
+    "why": "書き手自身がその言葉を通過していないからにほかならない。"
+   },
+   {
+    "q": "筆者が「すべての始まり」と呼ぶものは何ですか。",
+    "qKana": "ひっしゃが「すべてのはじまり」とよぶものはなんですか。",
+    "choices": [
+     "文章技術",
+     "書かずにはいられない何かを持つこと",
+     "良い辞書"
+    ],
+    "answer": 1,
+    "why": "書かずにはいられない何かを持つこと。それがすべての始まりである。"
+   }
+  ]
+ }
+]

@@ -22,7 +22,7 @@ const { KANJI, UNIT_TITLES: KANJI_UNIT_TITLES } = await src(`${LEVEL}-kanji-src.
 const { VOCAB } = await src(`${LEVEL}-vocab-src.mjs`);
 const { GRAMMAR } = await src(`${LEVEL}-grammar-src.mjs`);
 const { READINGS, LISTENING } = await src(`${LEVEL}-readings-src.mjs`);
-const UNIT_SIZE = Number(process.env.UNIT_SIZE || (LEVEL === 'n5' ? 5 : 6));
+const UNIT_SIZE = Number(process.env.UNIT_SIZE || (LEVEL === 'n5' ? 5 : LEVEL === 'n1' ? 8 : 6));
 const UNIT_TITLES = KANJI_UNIT_TITLES || (await src(`${LEVEL}-kanji-src.mjs`)).UNIT_TITLES || [];
 
 const kanjidic = JSON.parse(fs.readFileSync(path.join(CACHE, `kanjidic-${LEVEL}.json`), 'utf8'));
