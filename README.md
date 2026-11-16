@@ -1,5 +1,7 @@
 # Easy Nihongo (かんたん日本語)
 
+Live app: https://pilotd98.github.io/easy-nihongo/
+
 A calm, serious Japanese study tool that runs entirely in your browser and
 deploys as a static site on GitHub Pages. It takes a learner from zero to
 advanced reading and speaking, measured against JLPT N5 → N1.
