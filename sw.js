@@ -4,11 +4,13 @@
      Bump VERSION whenever shell files change so clients pick up the new build.
    - Curriculum data (data/*.json): stale-while-revalidate in a stable cache, so
      content updates arrive on the next visit without a shell version bump.
+     Kana and N5 data are stored at install; the other levels (about 5 MB) are
+     stored when first opened or all at once from Settings.
    - Fonts (Google Fonts): stale-while-revalidate. Offline before first use, the
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -16,6 +18,25 @@ const KEEP = new Set([SHELL_CACHE, DATA_CACHE, FONT_CACHE]);
 // On localhost, prefer the network for shell files so edits show up on reload
 // without bumping VERSION. Production (GitHub Pages) stays cache-first.
 const DEV = self.location.hostname === 'localhost' || self.location.hostname === '127.0.0.1';
+
+// Content stored at install so the beginner path works offline straight away.
+// Higher levels are cached when first opened or via Settings → Offline content.
+const CORE_DATA = [
+  './data/index.json',
+  './data/orientation.json',
+  './data/kana.json',
+  './data/strokes/hiragana.json',
+  './data/katakana.json',
+  './data/strokes/katakana.json',
+  './data/speaking.json',
+  './data/strokes/kanji-n5.json',
+  './data/n5/kanji.json',
+  './data/n5/vocab.json',
+  './data/n5/grammar.json',
+  './data/n5/readings.json',
+  './data/n5/listening.json',
+  './data/n5/units.json',
+];
 
 const SHELL = [
   './',
@@ -84,48 +105,6 @@ const SHELL = [
   './js/views/reading.js',
   './js/views/placement.js',
   './js/views/mock.js',
-  './data/index.json',
-  './data/orientation.json',
-  './data/kana.json',
-  './data/strokes/hiragana.json',
-  './data/katakana.json',
-  './data/strokes/katakana.json',
-  './data/speaking.json',
-  './data/strokes/kanji-n5.json',
-  './data/n5/kanji.json',
-  './data/n5/vocab.json',
-  './data/n5/grammar.json',
-  './data/n5/readings.json',
-  './data/n5/listening.json',
-  './data/n5/units.json',
-  './data/strokes/kanji-n4.json',
-  './data/n4/kanji.json',
-  './data/n4/vocab.json',
-  './data/n4/grammar.json',
-  './data/n4/readings.json',
-  './data/n4/listening.json',
-  './data/n4/units.json',
-  './data/strokes/kanji-n3.json',
-  './data/n3/kanji.json',
-  './data/n3/vocab.json',
-  './data/n3/grammar.json',
-  './data/n3/readings.json',
-  './data/n3/listening.json',
-  './data/n3/units.json',
-  './data/strokes/kanji-n2.json',
-  './data/n2/kanji.json',
-  './data/n2/vocab.json',
-  './data/n2/grammar.json',
-  './data/n2/readings.json',
-  './data/n2/listening.json',
-  './data/n2/units.json',
-  './data/strokes/kanji-n1.json',
-  './data/n1/kanji.json',
-  './data/n1/vocab.json',
-  './data/n1/grammar.json',
-  './data/n1/readings.json',
-  './data/n1/listening.json',
-  './data/n1/units.json',
   './assets/icons/icon.svg',
   './assets/icons/icon-192.png',
   './assets/icons/icon-512.png',
@@ -134,9 +113,15 @@ const SHELL = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL))
-  );
+  event.waitUntil((async () => {
+    const shell = await caches.open(SHELL_CACHE);
+    await shell.addAll(SHELL);
+    const data = await caches.open(DATA_CACHE);
+    await Promise.all(CORE_DATA.map(async (path) => {
+      if (await data.match(path)) return; // keep what an earlier version stored
+      try { const res = await fetch(path); if (res.ok) await data.put(path, res); } catch { /* fetched on demand later */ }
+    }));
+  })());
 });
 
 self.addEventListener('activate', (event) => {

@@ -55,9 +55,9 @@ async function renderJlptItem(el, id, p, levelId, rec) {
       h('section', { class: 'card' },
         h('div', { class: 'gram-pattern', lang: 'ja' }, it.pattern),
         h('p', null, it.explanation),
-        h('h3', null, 'Examples'),
+        h('h2', null, 'Examples'),
         it.examples.map((ex) => h('div', { class: 'gram-example' }, h('div', { class: 'row' }, sentence(ex.jp, { reading: ex.kana, records, lv, cls: 'ex-jp' }), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.kana) }, icon('speak')) : null), h('div', { class: 'ex-meta' }, ex.romaji, ' · ', ex.en))),
-        it.mistakes?.length ? h('div', null, h('h3', null, 'Common mistakes'), h('ul', null, it.mistakes.map((m) => h('li', null, m)))) : null),
+        it.mistakes?.length ? h('div', null, h('h2', null, 'Common mistakes'), h('ul', null, it.mistakes.map((m) => h('li', null, m)))) : null),
       progressCard(rec, unitHref)
     ]);
   }

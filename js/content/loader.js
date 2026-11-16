@@ -84,3 +84,47 @@ export async function searchContent(query, { limit = 30 } = {}) {
   results.sort((a, b) => b.score - a.score || a.jp.length - b.jp.length);
   return results.slice(0, limit).map(({ keys, score, ...rest }) => rest);
 }
+
+/* ---------- Offline content ----------
+   The service worker precaches the shell plus the kana and N5 data on install.
+   Higher levels are cached the first time they are opened; these helpers let
+   Settings download everything up front and report what is stored. */
+const CORE_FILES = ['index.json', 'orientation.json', 'speaking.json', 'kana.json', 'katakana.json', 'strokes/hiragana.json', 'strokes/katakana.json'];
+
+/** Every data file this build can use, as paths relative to data/. */
+export async function allDataFiles() {
+  const manifest = await getManifest();
+  const files = new Set(CORE_FILES);
+  for (const l of manifest.levels || []) {
+    for (const p of Object.values(l.files || {})) files.add(p);
+    if (/^n[1-5]$/.test(l.id) && l.files && Object.keys(l.files).length) files.add(`strokes/kanji-${l.id}.json`);
+  }
+  return [...files];
+}
+
+/** { total, stored, supported } — how many data files the cache already holds. */
+export async function offlineStatus() {
+  if (!('caches' in window)) return { total: 0, stored: 0, supported: false };
+  const files = await allDataFiles();
+  const cache = await caches.open('kp-data');
+  let stored = 0;
+  for (const f of files) if (await cache.match(new URL(`${DATA_BASE}${f}`, location.href).href)) stored++;
+  return { total: files.length, stored, supported: true };
+}
+
+/** Fetch every data file so the service worker stores it. onProgress(done, total). */
+export async function downloadAllContent(onProgress) {
+  const files = await allDataFiles();
+  let done = 0;
+  const failed = [];
+  const queue = [...files];
+  async function worker() {
+    while (queue.length) {
+      const f = queue.shift();
+      try { const r = await fetch(`${DATA_BASE}${f}`); if (!r.ok) failed.push(f); } catch { failed.push(f); }
+      done++; if (onProgress) onProgress(done, files.length);
+    }
+  }
+  await Promise.all([worker(), worker(), worker()]);
+  return { total: files.length, failed };
+}

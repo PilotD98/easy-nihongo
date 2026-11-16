@@ -7,13 +7,14 @@ advanced reading and speaking, measured against JLPT N5 → N1.
 Think: Duolingo's ease of use + WaniKani's structure + Anki's memory science +
 a real tutor's feedback. No hearts, no lives, no streak-shaming.
 
-**Status: Phase 7 complete (kana + Speaking + JLPT N5–N1 + dashboard,
-placement, mock exams).** On top of the Phase 1 foundation (installable PWA, offline
-mode, device-local storage with export/import, settings, theming, deploy
-workflow), the app teaches Stage 0, the complete hiragana and katakana stages,
-speaking practice with mora-level feedback, and all five JLPT stages (N5 to
-N1) with furigana scaffolding, measured by a progress dashboard, an optional
-placement test and timed mock exams. The next phase is final polish.
+**Status: 1.0 — all eight phases complete.** On top of the Phase 1
+foundation (installable PWA, offline mode, device-local storage with
+export/import, settings, theming, deploy workflow), the app teaches Stage 0,
+the complete hiragana and katakana stages, speaking practice with mora-level
+feedback, and all five JLPT stages (N5 to N1, about 1,950 kanji and 5,500
+words) with furigana scaffolding, measured by a progress dashboard, an
+optional placement test and timed mock exams. Phase 8 was an accessibility,
+performance and cross-device pass (see below).
 
 ## Features
 
@@ -101,8 +102,11 @@ Available now:
   words and comprehension), no feedback until the end, early submit, auto
   submit on time-out, a scaled estimate on the JLPT scale (0–120 + 0–60,
   pass at 80 with sectional minimums) and weak areas with one-tap practice.
-- **Installable PWA** with offline support (service worker precaches the app
-  and curriculum; update toast on new versions).
+- **Installable PWA** with offline support: the service worker stores the app
+  shell plus the kana and N5 curriculum at install (about 1 MB), caches
+  higher levels the first time they are opened, and Settings → Offline
+  content downloads every level at once (about 5 MB more). An update toast
+  appears when a new version is ready.
 - **Private by design**: no accounts, no server, no analytics. Progress lives
   in IndexedDB (localStorage fallback) with JSON export/import.
 - **Responsive, accessible UI**: bottom tab bar on phones, sidebar on desktop,
@@ -131,12 +135,33 @@ Available now:
 - **Content validator** enforcing unique IDs, required fields, stroke counts
   that match the stroke data, and "only use what has been taught" ordering.
 
-Coming in the final phase: speaking sets for each JLPT level and a final
-accessibility, performance and cross-device polish pass.
+Not included: speaking sets written specifically for each JLPT level (the
+speaking module ships with kana-stage sets; JLPT examples are voiced in the
+lessons and readings instead).
 
-## Screenshots
+## Accessibility, performance and devices
 
-Screenshots are added at the polish phase. Screens today: Home (today's
+The 1.0 polish pass checked every screen, including in-progress lessons,
+reviews, placement and mock exams, in light and dark mode at phone (375 px),
+tablet (768 px) and desktop widths:
+
+- Every control has an accessible name, every input a label, every page one
+  `h1` and no skipped heading levels; focus moves to the page heading on
+  navigation, dialogs restore focus, quiz feedback and toasts are live
+  regions, and everything works from the keyboard (the trace pad is optional
+  practice, never required to continue).
+- Text contrast meets WCAG AA in both themes (checked programmatically on
+  every rendered text node); touch targets are 44 px; `prefers-reduced-motion`
+  and the in-app motion setting disable animations.
+- No horizontal overflow at any width; safe-area insets are respected.
+- Performance: the shell is 71 small files with no build step; a cached load
+  completes in well under 100 ms, and parsing the largest level (N1, about
+  2 MB of JSON) takes under 100 ms on a laptop. Levels are loaded lazily and
+  kept in memory; stroke data is loaded per level.
+
+## Screens
+
+The app's screens: Home (today's
 plan), Learn (stage path → hiragana groups → lesson: stroke order, tracing,
 words, quiz), Review (session with grading), Speak (capability check), Read,
 Progress (dashboard, most-missed), Settings, item pages and quick lookup,
@@ -237,8 +262,9 @@ js/engine/               fsrs (scheduler maths), scheduler (daily plan, queue), 
 js/content/              content loader (lazy per level), ID helpers, kana stage helpers
 js/util/platform.js      capability detection, install prompt, connectivity
 js/views/                home, learn, orientation, kana-stage, lesson, exam, n5-stage, unit, reading, item, review, speak, speak-session, read, progress, placement, mock, settings, about
-data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/, n4/, strokes/; SCHEMA.md)
+data/                    curriculum JSON (orientation, kana, katakana, speaking, n5/ … n1/, strokes/; SCHEMA.md)
 scripts/                 serve.mjs, validate-content.mjs, make-icons.mjs, fetch-kanjivg.mjs, fetch-edrdg.mjs
+scripts/authoring/       per-level sources (kanji, vocab, grammar, readings) and the build-level / check-vocab pipeline
 .github/workflows/       GitHub Pages deployment
 ```
 

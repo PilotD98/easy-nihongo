@@ -7,6 +7,7 @@ import { downloadExport, readBackupFile, validateImport, applyImport, clearAllDa
 import { toast } from '../ui/toast.js';
 import { openSheet, confirm } from '../ui/dialog.js';
 import { showShortcuts } from '../ui/shortcuts.js';
+import { offlineStatus, downloadAllContent } from '../content/loader.js';
 import { APP_VERSION, canPromptInstall, promptInstall, isStandalone, isIOS, onInstallAvailable, supports } from '../util/platform.js';
 
 export const title = 'Settings';
@@ -35,7 +36,7 @@ export async function render(el, ctx) {
     ]),
 
     group('App', [appCard()]),
-    group('Data', [await dataCard(ctx)]),
+    group('Data', [await dataCard(ctx), await offlineCard()]),
     group('Help', [
       h('div', { class: 'btn-row' },
         h('a', { class: 'btn', href: '#/placement' }, 'Placement test'),
@@ -165,6 +166,28 @@ async function dataCard(ctx) {
       h('button', { class: 'btn btn-danger', type: 'button', onClick: () => onClear(ctx) }, icon('trash'), 'Clear all data')
     )
   );
+}
+
+async function offlineCard() {
+  const status = await offlineStatus();
+  const line = h('p', { class: 'small muted' });
+  const describe = (st) => { line.textContent = !st.supported ? 'This browser cannot store content for offline use.' : st.stored >= st.total ? `All ${st.total} content files are stored on this device.` : `${st.stored} of ${st.total} content files stored. Kana and N5 are always kept; higher levels are stored when you first open them, or all at once here (about 5 MB).`; };
+  describe(status);
+  const btn = h('button', { class: 'btn', type: 'button', disabled: !status.supported || status.stored >= status.total ? true : null, onClick: async () => {
+    btn.disabled = true;
+    const label = btn.querySelector('span');
+    try {
+      const res = await downloadAllContent((done, total) => { label.textContent = `Downloading… ${done} / ${total}`; });
+      describe(await offlineStatus());
+      label.textContent = 'Download all levels';
+      toast(res.failed.length ? `${res.failed.length} file(s) could not be downloaded. Try again when online.` : 'Every level is now available offline.');
+      if (res.failed.length) btn.disabled = false;
+    } catch (err) { label.textContent = 'Download all levels'; btn.disabled = false; toast(`Download failed: ${err.message}`); }
+  } }, icon('download'), h('span', null, 'Download all levels'));
+  return h('div', { class: 'card', id: 'offline', 'aria-live': 'polite' },
+    h('h3', null, 'Offline content'),
+    line,
+    h('div', { class: 'btn-row' }, btn));
 }
 
 async function onImportFile(file, ctx) {
