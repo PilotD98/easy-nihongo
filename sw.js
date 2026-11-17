@@ -10,7 +10,7 @@
      CSS falls back to system Japanese fonts.
    Nothing here talks to any other origin. */
 
-const VERSION = '1.4.0';
+const VERSION = '1.4.1';
 const SHELL_CACHE = `kp-shell-${VERSION}`;
 const DATA_CACHE = 'kp-data';
 const FONT_CACHE = 'kp-fonts';
@@ -73,6 +73,7 @@ const SHELL = [
   './js/ui/recognizer.js',
   './js/ui/recorder.js',
   './js/engine/mora.js',
+  './js/engine/speech-text.js',
   './js/content/speaking.js',
   './js/content/n5.js',
   './js/engine/furigana.js',

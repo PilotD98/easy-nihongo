@@ -52,10 +52,11 @@ function renderGuide(el, data, guide) {
 }
 
 function sayable(item) { return (item.kana || item.jp || '').replace(/[→/].*$/, '').replace(/[〇…]/g, '').trim(); }
+function sayOpts(item) { return { romaji: (item.romaji || '').replace(/[→/].*$/, ''), kanji: (item.jp || '').replace(/[→/].*$/, '').replace(/[〇…（）()]/g, '').trim() }; }
 
 function itemList(items) {
   return h('ul', { class: 'guide-list' }, items.map((it) => h('li', { class: 'guide-item' },
-    h('button', { class: 'guide-say', type: 'button', lang: 'ja', 'aria-label': `Listen: ${it.jp}`, disabled: !canSpeak() || !sayable(it) ? true : null, onClick: () => speak(sayable(it)) },
+    h('button', { class: 'guide-say', type: 'button', lang: 'ja', 'aria-label': `Listen: ${it.jp}`, disabled: !canSpeak() || !sayable(it) ? true : null, onClick: () => speak(sayable(it), sayOpts(it)) },
       h('span', { class: 'jp guide-jp' }, it.jp),
       it.kana && it.kana !== it.jp ? h('span', { class: 'jp guide-kana small' }, it.kana) : null,
       it.romaji ? h('span', { class: 'small muted guide-romaji', lang: 'en' }, it.romaji) : null),
@@ -63,7 +64,7 @@ function itemList(items) {
 }
 
 function signGrid(items) {
-  return h('div', { class: 'sign-grid' }, items.map((it) => h('button', { class: 'sign', type: 'button', lang: 'ja', 'aria-label': `${it.jp}, ${it.kana}: ${it.en}`, disabled: !canSpeak() ? true : null, onClick: () => speak(sayable(it)) },
+  return h('div', { class: 'sign-grid' }, items.map((it) => h('button', { class: 'sign', type: 'button', lang: 'ja', 'aria-label': `${it.jp}, ${it.kana}: ${it.en}`, disabled: !canSpeak() ? true : null, onClick: () => speak(sayable(it), sayOpts(it)) },
     h('span', { class: 'sign-jp jp' }, it.jp),
     h('span', { class: 'sign-kana jp small' }, it.kana),
     h('span', { class: 'sign-en guide-en' }, it.en))));

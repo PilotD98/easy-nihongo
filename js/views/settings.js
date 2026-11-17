@@ -2,6 +2,7 @@
    Every change saves immediately to the device. */
 import { h, icon, jp, formatBytes, formatDate } from '../ui/dom.js';
 import { settings, OPTIONS } from '../store/settings.js';
+import { speak, rankedVoices } from '../ui/audio.js';
 import { db } from '../store/db.js';
 import { downloadExport, readBackupFile, validateImport, applyImport, clearAllData } from '../store/backup.js';
 import { toast } from '../ui/toast.js';
@@ -9,7 +10,7 @@ import { openSheet, confirm } from '../ui/dialog.js';
 import { showShortcuts } from '../ui/shortcuts.js';
 import { offlineStatus, downloadAllContent } from '../content/loader.js';
 import { listProfiles, activeProfileId, createProfile, renameProfile, switchProfile, deleteProfile } from '../store/profiles.js';
-import { APP_VERSION, canPromptInstall, promptInstall, isStandalone, isIOS, onInstallAvailable, supports } from '../util/platform.js';
+import { APP_VERSION, canPromptInstall, promptInstall, isStandalone, isIOS, onInstallAvailable, supports, osName } from '../util/platform.js';
 
 export const title = 'Settings';
 
@@ -33,6 +34,7 @@ export async function render(el, ctx) {
       stepperField('New items per day', 'dailyNew', 1, 50, 1, 'Eases off automatically when your accuracy drops.'),
       stepperField('Review cap per day', 'dailyReviewCap', 20, 500, 10, 'Reviews beyond the cap are spread over the following days.'),
       segField('Audio speed', 'audioRate'),
+      voiceField(),
       switchField('Play audio automatically', 'autoplayAudio')
     ]),
 
@@ -108,6 +110,26 @@ function switchField(label, key) {
 function coerce(key, value) {
   if (key === 'audioRate') return Number(value);
   return value;
+}
+
+/* ---------- Voice ---------- */
+function voiceField() {
+  const voices = rankedVoices();
+  const current = settings.get('voice') || '';
+  const id = 'sel-voice';
+  const sel = h('select', { class: 'select', id, onChange: (e) => settings.set('voice', e.target.value) },
+    h('option', { value: '', selected: current === '' ? true : null }, voices.length ? `Automatic (${voices[0].name})` : 'Automatic'),
+    voices.map((v) => h('option', { value: v.name, selected: v.name === current ? true : null }, `${v.name}${v.localService ? '' : ' (online)'}`)));
+  const test = h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => speak('これはペンです。わたしはがくせいです。', { kanji: 'これはペンです。私は学生です。' }) }, icon('speak'), 'Test');
+  const os = osName();
+  const better = os === 'ios' ? 'For a much more natural voice on iPhone or iPad: Settings → Accessibility → Spoken Content → Voices → Japanese, download Kyoko or O-ren (Enhanced or Premium), then reload this app.'
+    : os === 'android' ? 'For a more natural voice on Android: Settings → System → Languages → Text-to-speech, open Google Speech Services and install Japanese voice data.'
+    : os === 'macos' ? 'For a much more natural voice on a Mac: System Settings → Accessibility → Spoken Content → System Voice → Manage Voices, download Kyoko or O-ren (Premium).'
+    : os === 'windows' ? 'On Windows: Settings → Time & Language → Speech → Add voices → Japanese. Microsoft Edge also provides natural online voices (Nanami, Keita).'
+    : 'The voice quality depends on the voices installed on this device; install a Japanese voice in the system settings for a more natural one.';
+  return h('div', { class: 'field' }, h('label', { for: id }, 'Japanese voice'),
+    h('div', { class: 'row' }, sel, test),
+    h('span', { class: 'hint' }, voices.length ? `${voices.length} Japanese voice${voices.length === 1 ? '' : 's'} installed. ${better}` : `No Japanese voice is installed. ${better}`));
 }
 
 /* ---------- App card ---------- */

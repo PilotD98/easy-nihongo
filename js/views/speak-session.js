@@ -7,6 +7,7 @@ import { speak, canSpeak, initAudio, stopSpeaking } from '../ui/audio.js';
 import { createRecognizer, recognitionSupported } from '../ui/recognizer.js';
 import { startRecording, recordingSupported, micErrorMessage } from '../ui/recorder.js';
 import { compare, bestOf, toMora } from '../engine/mora.js';
+import { readingDict, toKanaReading } from '../engine/speech-text.js';
 import { pitchDiagram, pitchName } from '../ui/pitch.js';
 import { kanaWord } from '../ui/kanatext.js';
 import { wordLevel } from '../engine/scaffold.js';
@@ -40,6 +41,8 @@ export async function render(el, ctx) {
   const sr = recognitionSupported();
   const recOk = recordingSupported();
   const scores = [];
+  // Kanji spellings of every line in this set, so the recogniser's kanji can be read back as kana.
+  const dict = readingDict(steps.flatMap((s) => [{ kanji: s.alt, kana: s.jp }, s.q ? { kanji: s.qAlt, kana: s.q } : null]).filter(Boolean));
   let idx = set.tips?.length ? -1 : 0;
   let recognizer = null, recording = null;
 
@@ -80,11 +83,11 @@ export async function render(el, ctx) {
 
   /* Partner line in a role-play: just listen. */
   function listenCard(step) {
-    if (canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(step.jp), 300);
+    if (canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(step.jp, voiceOpts(step)), 300);
     return h('section', { class: 'card' },
       h('div', { class: 'speak-who' }, set.partner || 'Partner', ' says:'),
       phraseBlock(step),
-      h('div', { class: 'btn-row', style: { marginTop: '12px' } }, playButtons(step.jp)),
+      h('div', { class: 'btn-row', style: { marginTop: '12px' } }, playButtons(step.jp, voiceOpts(step))),
       h('div', { class: 'lesson-foot' }, nextBtn('Your turn'))
     );
   }
@@ -100,7 +103,7 @@ export async function render(el, ctx) {
     const foot = h('div', { class: 'lesson-foot' });
 
     const onFinal = (alts) => {
-      const best = bestOf(target, alts);
+      const best = bestOf(target, alts.map((a) => toKanaReading(a, dict)));
       showResult(best, best.transcript);
     };
     const listenBtn = h('button', { class: 'btn btn-primary btn-lg', type: 'button' }, icon('speak'), isShadow ? 'Shadow (audio + mic)' : 'Speak');
@@ -116,7 +119,7 @@ export async function render(el, ctx) {
       status.textContent = isShadow ? 'Listening… speak along with the audio.' : 'Listening… say the phrase.';
       listenBtn.classList.add('is-listening'); listenBtn.lastChild.textContent = 'Stop';
       recognizer.start();
-      if (isShadow) speak(target.replace(/\[[^\]]+\]/g, ''), { rate: 0.7, interrupt: true });
+      if (isShadow) speak(target, { ...voiceOpts(step), rate: 0.7, interrupt: true });
     });
 
     // Record-and-compare (always available as the self-check path)
@@ -130,7 +133,7 @@ export async function render(el, ctx) {
         playback.replaceChildren(
           h('div', { class: 'small muted' }, `Your recording (${(r.duration / 1000).toFixed(1)} s). Play it, then the native voice, and compare the rhythm.`),
           audio,
-          h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => { audio.play(); } }, 'Play mine'), h('button', { class: 'btn', type: 'button', onClick: () => speak(target.replace(/\[[^\]]+\]/g, '')) }, icon('speak'), 'Play native'),
+          h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => { audio.play(); } }, 'Play mine'), h('button', { class: 'btn', type: 'button', onClick: () => speak(target, voiceOpts(step)) }, icon('speak'), 'Play native'),
             !sr ? selfRate() : null));
         return;
       }
@@ -164,7 +167,7 @@ export async function render(el, ctx) {
         h('div', { class: 'row', style: { justifyContent: 'space-between' } }, h('strong', { class: `speak-score ${res.score >= 75 ? 'is-good' : ''}` }, `${res.score}%`), h('span', null, grade)),
         chips,
         h('div', { class: 'small muted' }, 'Heard: ', h('span', { lang: 'ja' }, transcript || '—')),
-        res.saidHasKanji ? h('div', { class: 'small muted' }, 'The recognizer wrote part of this in kanji, so a few beats could not be compared and are marked as mismatches. Read the tips with that in mind.') : null,
+        res.saidHasKanji ? h('div', { class: 'small muted' }, 'Part of this came back in kanji the app could not read, so those beats could not be compared. Read the tips with that in mind.') : null,
         res.tips.length ? h('ul', { class: 'speak-tips' }, res.tips.map((t) => h('li', null, t))) : h('p', { class: 'small', style: { color: 'var(--ok)' } }, 'Every beat landed.'),
         isAnswer ? h('p', { class: 'small muted' }, 'Your answer may legitimately differ from the model; the score compares only what overlaps.') : null,
         h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => { resultBox.replaceChildren(); live.textContent = ''; } }, 'Try again'))
@@ -172,19 +175,19 @@ export async function render(el, ctx) {
       foot.replaceChildren(nextBtn());
     }
 
-    if (canSpeak() && settings.get('autoplayAudio') && !isAnswer) setTimeout(() => speak(target.replace(/\[[^\]]+\]/g, '')), 300);
-    if (isAnswer && canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(step.q), 300);
+    if (canSpeak() && settings.get('autoplayAudio') && !isAnswer) setTimeout(() => speak(target, voiceOpts(step)), 300);
+    if (isAnswer && canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(step.q, { romaji: step.qRomaji }), 300);
 
     const card = h('section', { class: 'card' });
     if (isAnswer) {
       card.append(h('div', { class: 'speak-who' }, 'Question:'),
         h('div', { class: 'speak-q' }, kanaWord({ jp: step.q, romaji: step.qRomaji }, levelFor(step.q), { cls: 'jp' }), h('div', { class: 'muted' }, step.qEn)),
-        h('div', { class: 'btn-row' }, playButtons(step.q)),
+        h('div', { class: 'btn-row' }, playButtons(step.q, { romaji: step.qRomaji })),
         h('details', { class: 'speak-model' }, h('summary', null, 'Show a model answer'), phraseBlock(step)));
     } else {
       append(card, [step.kind === 'say' && set.mode === 'roleplay' ? h('div', { class: 'speak-who' }, 'You say:') : null,
         phraseBlock(step),
-        h('div', { class: 'btn-row' }, playButtons(target))]);
+        h('div', { class: 'btn-row' }, playButtons(target, voiceOpts(step)))]);
     }
     if (step.pair) {
       const other = steps.find((s) => s.id === step.pair);
@@ -213,12 +216,14 @@ export async function render(el, ctx) {
     return block;
   }
 
-  function playButtons(text) {
-    const clean = text.replace(/\[[^\]]+\]/g, '');
+  /** Romaji (for particle は/へ) and kanji spelling (read most naturally) of a line. */
+  function voiceOpts(step) { return { romaji: step.romaji, kanji: step.alt?.[0] || null }; }
+
+  function playButtons(text, opts = {}) {
     if (!canSpeak()) return h('span', { class: 'small muted' }, 'No Japanese voice available.');
     return [
-      h('button', { class: 'btn', type: 'button', onClick: () => speak(clean, { rate: 1 }) }, icon('speak'), 'Natural 1.0×'),
-      h('button', { class: 'btn', type: 'button', onClick: () => speak(clean, { rate: 0.7 }) }, icon('speak'), 'Slow 0.7×')
+      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 1 }) }, icon('speak'), 'Natural 1.0×'),
+      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 0.7 }) }, icon('speak'), 'Slow 0.7×')
     ];
   }
 

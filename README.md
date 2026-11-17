@@ -125,6 +125,12 @@ Available now:
   home; shadowing of everyday phrases, thanks and apologies, feelings and
   natural speech; the questions you will be asked), each with cultural tips
   and mora-level feedback.
+- **Speech that reads particles correctly**: lines are spoken from their kanji
+  spelling where there is one, and particle は／へ in kana text is read as
+  "wa"/"e" using each line's romaji. The recogniser's kanji is read back to
+  kana before scoring, so 新宿 against しんじゅく is a match, not four errors.
+  Settings → Study plan picks the Japanese voice and explains how to install a
+  more natural one on each OS.
 - **Local profiles**: several people can share one device. Settings →
   Profiles adds, renames, switches and deletes profiles; each has its own
   progress, settings and backups, and nothing is shared between them.

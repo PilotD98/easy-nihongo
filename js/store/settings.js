@@ -17,6 +17,7 @@ export const DEFAULTS = Object.freeze({
   dailyNew: 10,           // new items per day
   dailyReviewCap: 100,    // max reviews scheduled per day; the rest spill to later days
   audioRate: 1.0,         // 0.7 | 1.0
+  voice: '',              // name of a speechSynthesis voice; '' = best available
   autoplayAudio: true,
   // Flags
   onboarded: false

@@ -41,7 +41,7 @@ function renderPassage(el, lv, r, records) {
     const node = sentence(markupSentences[i] || s, { reading: kanaSentences[i] || null, records, lv });
     // make vocabulary tokens tappable: wrap the rendered sentence's text runs
     makeTappable(node, lv, records, s);
-    passage.append(node, canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen to this sentence', onClick: () => speak(kanaSentences[i] || s) }, icon('speak')) : null);
+    passage.append(node, canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen to this sentence', onClick: () => speak(kanaSentences[i] || s, { kanji: markupSentences[i] || null }) }, icon('speak')) : null);
   });
 
   const translation = h('div', { class: 'translation', hidden: true }, r.enText);
@@ -50,8 +50,8 @@ function renderPassage(el, lv, r, records) {
     h('header', { class: 'page-head' }, h('h1', null, r.title), h('p', { class: 'lede' }, `${r.en} · ${lv.title} unit ${r.unit} · tap a word to look it up`)),
     h('section', { class: 'card' }, passage,
       h('div', { class: 'btn-row', style: { marginTop: '12px' } },
-        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana) }, icon('speak'), 'Read aloud') : null,
-        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { rate: 0.7 }) }, icon('speak'), 'Slow') : null,
+        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { kanji: r.text }) }, icon('speak'), 'Read aloud') : null,
+        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { rate: 0.7, kanji: r.text }) }, icon('speak'), 'Slow') : null,
         h('button', { class: 'btn', type: 'button', onClick: (e) => { translation.hidden = !translation.hidden; e.currentTarget.lastChild.textContent = translation.hidden ? 'Show translation' : 'Hide translation'; } }, icon('read'), h('span', null, 'Show translation'))),
       translation),
     h('section', { class: 'card' }, h('h2', null, 'Questions'), quizArea),
