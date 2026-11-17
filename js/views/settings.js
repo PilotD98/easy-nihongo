@@ -123,7 +123,7 @@ function voiceField() {
     voices.map((v) => h('option', { value: v.name, selected: v.name === current ? true : null }, `${v.name}${v.localService ? '' : ' (online)'}`)));
   const test = h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => speak('これはペンです。わたしはがくせいです。', { kanji: 'これはペンです。私は学生です。' }) }, icon('listen'), 'Test');
   const os = osName();
-  const better = os === 'ios' ? 'For a much more natural voice on iPhone or iPad: Settings → Accessibility → Spoken Content → Voices → Japanese, download Kyoko or O-ren (Enhanced or Premium), then reload this app.'
+  const better = os === 'ios' ? 'Nothing playing? Spoken audio follows the Ring/Silent switch on the side of the iPhone, so flip it to ring and turn the volume up. For a much more natural voice on iPhone or iPad: Settings → Accessibility → Spoken Content → Voices → Japanese, download Kyoko or O-ren (Enhanced or Premium), then reload this app.'
     : os === 'android' ? 'For a more natural voice on Android: Settings → System → Languages → Text-to-speech, open Google Speech Services and install Japanese voice data.'
     : os === 'macos' ? 'For a much more natural voice on a Mac: System Settings → Accessibility → Spoken Content → System Voice → Manage Voices, download Kyoko or O-ren (Premium).'
     : os === 'windows' ? 'On Windows: Settings → Time & Language → Speech → Add voices → Japanese. Microsoft Edge also provides natural online voices (Nanami, Keita).'

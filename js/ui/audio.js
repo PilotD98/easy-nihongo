@@ -3,6 +3,7 @@
 import { settings } from '../store/settings.js';
 import { japaneseVoices, waitForVoices } from '../util/platform.js';
 import { ttsText } from '../engine/speech-text.js';
+import { toast } from './toast.js';
 
 let voice = null;
 let ready = null;
@@ -66,7 +67,12 @@ function speakNow(text, { rate, interrupt, romaji, kanji }) {
     const r = rate ?? Number(settings.get('audioRate'));
     u.rate = Number.isFinite(r) && r > 0 ? r : 1;
     u.onend = () => { if (current === u) current = null; resolve(true); };
-    u.onerror = (e) => { if (current === u) current = null; resolve(e?.error === 'interrupted' || e?.error === 'canceled'); };
+    u.onerror = (e) => {
+      if (current === u) current = null;
+      const benign = e?.error === 'interrupted' || e?.error === 'canceled';
+      if (!benign) toast(`Audio could not play (${e?.error || 'unknown error'}). If your iPhone is on silent, flip the Ring/Silent switch — spoken audio follows it.`);
+      resolve(benign);
+    };
     current = u;
     speechSynthesis.speak(u);
     // Safari sometimes leaves the engine paused after a cancel(); nudge it.
