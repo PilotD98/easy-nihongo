@@ -111,15 +111,20 @@ Available now:
   appears when a new version is ready.
 - **Private by design**: no accounts, no server, no analytics. Progress lives
   in IndexedDB (localStorage fallback) with JSON export/import.
-- **Real-world Japanese**: seven guides with audio (how people really talk:
+- **Real-world Japanese**: eight guides with audio (everyday set phrases
+  by moment of the day: greetings, thanks and apologies, requests, yes/no,
+  feelings, phone and messages, compliments; how people really talk:
   contractions, particles, fillers, reactions; what staff say to you; signs,
   menus and labels as large sign cards with a hide-meanings test; prices,
   times, dates and counters; survival phrases; politeness in practice; free
-  sources of real reading and listening by level) and 26 situational speaking
-  sets (airport, trains, taxi, directions, convenience store, restaurant,
-  izakaya, shopping, hotel, ryokan, pharmacy, clinic, lost property, work,
-  friends, visiting a home; natural-speech shadowing; the questions you will
-  be asked), each with cultural tips and mora-level feedback.
+  sources of real reading and listening by level) and 40 situational speaking
+  sets, 376 lines (a day at home, cafe, supermarket, post office, a phone
+  booking, haircut, neighbours, parcel delivery, making plans, running late,
+  airport, trains, taxi, directions, convenience store, restaurant, izakaya,
+  shopping, hotel, ryokan, pharmacy, clinic, lost property, work, visiting a
+  home; shadowing of everyday phrases, thanks and apologies, feelings and
+  natural speech; the questions you will be asked), each with cultural tips
+  and mora-level feedback.
 - **Local profiles**: several people can share one device. Settings →
   Profiles adds, renames, switches and deletes profiles; each has its own
   progress, settings and backups, and nothing is shared between them.

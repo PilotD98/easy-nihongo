@@ -1,9 +1,11 @@
-// Builds data/situations.json from situations-src.mjs.
+// Builds data/situations.json from situations-src.mjs and everyday-src.mjs.
 //   node scripts/authoring/speaking/build-situations.mjs
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SETS } from './situations-src.mjs';
+import { SETS as SITUATIONS } from './situations-src.mjs';
+import { SETS as EVERYDAY } from './everyday-src.mjs';
+const SETS = [...SITUATIONS, ...EVERYDAY];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const sets = SETS.map((s) => {

@@ -2147,6 +2147,1417 @@
      ]
     }
    ]
+  },
+  {
+   "id": "spk:real:rp-home",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "A day at home",
+   "summary": "The fixed phrases of leaving, coming back, eating and going to bed.",
+   "tips": [
+    "いってきます／いってらっしゃい and ただいま／おかえり are fixed pairs said every single day; nobody skips them.",
+    "いただきます before eating and ごちそうさま after are said even when eating alone.",
+    "Among family and housemates everything is plain form; a ね on the end keeps it soft."
+   ],
+   "partner": "Housemate",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "おはよう。よくねむれた？",
+     "romaji": "ohayou. yoku nemureta?",
+     "en": "Morning. Did you sleep well?"
+    },
+    {
+     "who": "you",
+     "jp": "おはよう。うん、ぐっすり。",
+     "romaji": "ohayou. un, gussuri.",
+     "en": "Morning. Yeah, like a log.",
+     "alt": []
+    },
+    {
+     "who": "you",
+     "jp": "いってきます。",
+     "romaji": "ittekimasu.",
+     "en": "I am off. (leaving the house)",
+     "alt": [
+      "行ってきます。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "いってらっしゃい。きをつけてね。",
+     "romaji": "itterasshai. ki o tsukete ne.",
+     "en": "See you later. Take care."
+    },
+    {
+     "who": "you",
+     "jp": "ただいま。",
+     "romaji": "tadaima.",
+     "en": "I am home.",
+     "alt": []
+    },
+    {
+     "who": "partner",
+     "jp": "おかえり。ごはんできてるよ。",
+     "romaji": "okaeri. gohan dekiteru yo.",
+     "en": "Welcome back. Dinner is ready."
+    },
+    {
+     "who": "you",
+     "jp": "ありがとう。いただきます。",
+     "romaji": "arigatou. itadakimasu.",
+     "en": "Thanks. (said before eating)",
+     "alt": []
+    },
+    {
+     "who": "you",
+     "jp": "ごちそうさまでした。おいしかった。",
+     "romaji": "gochisousama deshita. oishikatta.",
+     "en": "Thank you for the meal. It was delicious.",
+     "alt": [
+      "ごちそうさまでした。美味しかった。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "よかった。",
+     "romaji": "yokatta.",
+     "en": "Glad you liked it."
+    },
+    {
+     "who": "you",
+     "jp": "さきにおふろはいるね。",
+     "romaji": "saki ni ofuro hairu ne.",
+     "en": "I will take a bath first, OK?",
+     "alt": [
+      "先にお風呂入るね。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "うん、どうぞ。",
+     "romaji": "un, douzo.",
+     "en": "Sure, go ahead."
+    },
+    {
+     "who": "you",
+     "jp": "おやすみ。",
+     "romaji": "oyasumi.",
+     "en": "Good night.",
+     "alt": []
+    },
+    {
+     "who": "partner",
+     "jp": "おやすみ。",
+     "romaji": "oyasumi.",
+     "en": "Good night."
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-cafe",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Cafe order",
+   "summary": "Drink, size, for here or to go, and the \"is that all?\" question.",
+   "tips": [
+    "ホット or アイス goes before the drink name: ホットコーヒー, アイスティー.",
+    "Sizes are ショート／トール or エス・エム・エル; just say the letter.",
+    "てんない (in-store) or もちかえり (take-away) changes the tax rate, so you are always asked."
+   ],
+   "partner": "Barista",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "いらっしゃいませ。ごちゅうもんはおきまりですか。",
+     "romaji": "irasshaimase. gochuumon wa okimari desu ka.",
+     "en": "Welcome. Have you decided your order?"
+    },
+    {
+     "who": "you",
+     "jp": "アイスカフェラテをひとつおねがいします。",
+     "romaji": "aisu kaferate o hitotsu onegai shimasu.",
+     "en": "One iced latte, please.",
+     "alt": [
+      "アイスカフェラテを一つお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "サイズはいかがなさいますか。",
+     "romaji": "saizu wa ikaga nasaimasu ka.",
+     "en": "Which size?"
+    },
+    {
+     "who": "you",
+     "jp": "エムでおねがいします。",
+     "romaji": "emu de onegai shimasu.",
+     "en": "Medium, please.",
+     "alt": [
+      "Mでお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "てんないでおめしあがりですか。おもちかえりですか。",
+     "romaji": "tennai de omeshiagari desu ka. omochikaeri desu ka.",
+     "en": "For here or to go?"
+    },
+    {
+     "who": "you",
+     "jp": "てんないで。",
+     "romaji": "tennai de.",
+     "en": "For here.",
+     "alt": [
+      "店内で。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "ほかにごちゅうもんはございますか。",
+     "romaji": "hoka ni gochuumon wa gozaimasu ka.",
+     "en": "Anything else?"
+    },
+    {
+     "who": "you",
+     "jp": "チーズケーキもおねがいします。",
+     "romaji": "chiizukeeki mo onegai shimasu.",
+     "en": "A cheesecake too, please.",
+     "alt": [
+      "チーズケーキもお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "いじょうでよろしいですか。",
+     "romaji": "ijou de yoroshii desu ka.",
+     "en": "Is that everything?"
+    },
+    {
+     "who": "you",
+     "jp": "はい、いじょうで。",
+     "romaji": "hai, ijou de.",
+     "en": "Yes, that is all.",
+     "alt": [
+      "はい、以上で。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "ななひゃくはちじゅうえんです。おばんごうでおよびします。",
+     "romaji": "nanahyaku hachijuu en desu. obangou de oyobi shimasu.",
+     "en": "That is 780 yen. We will call your number."
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-supermarket",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Supermarket",
+   "summary": "Find an item, get a bag, and survive the self-checkout.",
+   "tips": [
+    "Bags cost a few yen; most people bring an エコバッグ.",
+    "After paying you carry the basket to the packing counter (サッカーだい) and bag things yourself.",
+    "In the evening fresh food gets discount stickers: はんがく half price, にわりびき 20% off."
+   ],
+   "partner": "Staff",
+   "turns": [
+    {
+     "who": "you",
+     "jp": "すみません、とうふはどこにありますか。",
+     "romaji": "sumimasen, toufu wa doko ni arimasu ka.",
+     "en": "Excuse me, where is the tofu?",
+     "alt": [
+      "すみません、豆腐はどこにありますか。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "とうふはおくのれいぞうコーナーです。",
+     "romaji": "toufu wa oku no reizou koonaa desu.",
+     "en": "Tofu is in the chilled section at the back."
+    },
+    {
+     "who": "you",
+     "jp": "ありがとうございます。",
+     "romaji": "arigatou gozaimasu.",
+     "en": "Thank you.",
+     "alt": []
+    },
+    {
+     "who": "partner",
+     "jp": "レジぶくろはごりようですか。",
+     "romaji": "rejibukuro wa goriyou desu ka.",
+     "en": "Do you need a carrier bag?"
+    },
+    {
+     "who": "you",
+     "jp": "はい、おおきいのをいちまいおねがいします。",
+     "romaji": "hai, ookii no o ichimai onegai shimasu.",
+     "en": "Yes, one large one please.",
+     "alt": [
+      "はい、大きいのを一枚お願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "おしはらいはセルフレジでおねがいします。",
+     "romaji": "oshiharai wa serufu reji de onegai shimasu.",
+     "en": "Please pay at the self-checkout."
+    },
+    {
+     "who": "you",
+     "jp": "つかいかたがわからないんですが。",
+     "romaji": "tsukaikata ga wakaranai n desu ga.",
+     "en": "I am not sure how to use it…",
+     "alt": [
+      "使い方が分からないんですが。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "はい、おてつだいします。",
+     "romaji": "hai, otetsudai shimasu.",
+     "en": "Of course, I will help you."
+    },
+    {
+     "who": "you",
+     "jp": "たすかります。",
+     "romaji": "tasukarimasu.",
+     "en": "That is a great help.",
+     "alt": [
+      "助かります。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-post",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Post office: sending a parcel",
+   "summary": "Send something abroad, choose a service, fill in the form.",
+   "tips": [
+    "Post offices (ゆうびんきょく, the red 〒 sign) also sell stamps and have ATMs that take foreign cards.",
+    "こうくうびん is airmail, ふなびん surface mail, EMS the fast international service.",
+    "Customs forms can be filled in in English."
+   ],
+   "partner": "Clerk",
+   "turns": [
+    {
+     "who": "you",
+     "jp": "すみません、これをアメリカにおくりたいんですが。",
+     "romaji": "sumimasen, kore o amerika ni okuritai n desu ga.",
+     "en": "Excuse me, I would like to send this to the US.",
+     "alt": [
+      "すみません、これをアメリカに送りたいんですが。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "なかみはなんですか。",
+     "romaji": "nakami wa nan desu ka.",
+     "en": "What is inside?"
+    },
+    {
+     "who": "you",
+     "jp": "おかしとほんです。",
+     "romaji": "okashi to hon desu.",
+     "en": "Sweets and books.",
+     "alt": [
+      "お菓子と本です。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "こうくうびんとふなびん、どちらになさいますか。",
+     "romaji": "koukuubin to funabin, dochira ni nasaimasu ka.",
+     "en": "Airmail or surface mail?"
+    },
+    {
+     "who": "you",
+     "jp": "いちばんやすいほうでおねがいします。",
+     "romaji": "ichiban yasui hou de onegai shimasu.",
+     "en": "The cheapest one, please.",
+     "alt": [
+      "一番安い方でお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "では、ふなびんですね。にかげつくらいかかりますが、よろしいですか。",
+     "romaji": "dewa, funabin desu ne. nikagetsu kurai kakarimasu ga, yoroshii desu ka.",
+     "en": "Surface mail then. It takes about two months; is that all right?"
+    },
+    {
+     "who": "you",
+     "jp": "じゃあ、こうくうびんにします。どのくらいかかりますか。",
+     "romaji": "jaa, koukuubin ni shimasu. dono kurai kakarimasu ka.",
+     "en": "Then airmail. How long does that take?",
+     "alt": [
+      "じゃあ、航空便にします。どのくらいかかりますか。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "いっしゅうかんほどです。こちらのようしにごきにゅうください。",
+     "romaji": "isshuukan hodo desu. kochira no youshi ni gokinyuu kudasai.",
+     "en": "About a week. Please fill in this form."
+    },
+    {
+     "who": "you",
+     "jp": "えいごでかいてもいいですか。",
+     "romaji": "eigo de kaite mo ii desu ka.",
+     "en": "May I write it in English?",
+     "alt": [
+      "英語で書いてもいいですか。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "はい、だいじょうぶです。",
+     "romaji": "hai, daijoubu desu.",
+     "en": "Yes, that is fine."
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-phone",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Phone call: booking a table",
+   "summary": "The phone is the hardest place to understand Japanese. This is the script.",
+   "tips": [
+    "もしもし opens a call; しつれいします closes it. Nobody says さようなら on the phone.",
+    "Give the day, the time and the number of people in that order; staff repeat each one back.",
+    "ゆっくり おねがいします works on the phone too."
+   ],
+   "partner": "Restaurant",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "おでんわありがとうございます。[shop]でございます。",
+     "romaji": "odenwa arigatou gozaimasu. [shop] de gozaimasu.",
+     "en": "Thank you for calling. This is [shop]."
+    },
+    {
+     "who": "you",
+     "jp": "もしもし、よやくをおねがいしたいんですが。",
+     "romaji": "moshimoshi, yoyaku o onegai shitai n desu ga.",
+     "en": "Hello, I would like to make a reservation.",
+     "alt": [
+      "もしもし、予約をお願いしたいんですが。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "ありがとうございます。いつがよろしいでしょうか。",
+     "romaji": "arigatou gozaimasu. itsu ga yoroshii deshou ka.",
+     "en": "Thank you. When would you like?"
+    },
+    {
+     "who": "you",
+     "jp": "あしたのよるななじに、ふたりでおねがいします。",
+     "romaji": "ashita no yoru nanaji ni, futari de onegai shimasu.",
+     "en": "Tomorrow evening at seven, for two.",
+     "alt": [
+      "明日の夜七時に、二人でお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "かしこまりました。おなまえとおでんわばんごうをおねがいします。",
+     "romaji": "kashikomarimashita. onamae to odenwa bangou o onegai shimasu.",
+     "en": "Certainly. Your name and phone number, please."
+    },
+    {
+     "who": "you",
+     "jp": "[name]です。でんわばんごうは[number]です。",
+     "romaji": "[name] desu. denwa bangou wa [number] desu.",
+     "en": "It is [name]. The number is [number].",
+     "alt": [
+      "[name]です。電話番号は[number]です。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "では、あしたのななじににめいさまですね。おまちしております。",
+     "romaji": "dewa, ashita no nanaji ni nimeisama desu ne. omachi shite orimasu.",
+     "en": "So, tomorrow at seven for two. We look forward to seeing you."
+    },
+    {
+     "who": "you",
+     "jp": "よろしくおねがいします。しつれいします。",
+     "romaji": "yoroshiku onegai shimasu. shitsurei shimasu.",
+     "en": "Thank you. Goodbye.",
+     "alt": [
+      "よろしくお願いします。失礼します。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-barber",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Haircut",
+   "summary": "Say how much to cut, what to leave, and whether you want a wash.",
+   "tips": [
+    "Bring a photo; it beats any description.",
+    "みじかく short, ととのえるだけ just a trim, すく thin it out, かりあげ clipped sides, まえがみ fringe.",
+    "Cheap chains do a cut only, no wash; a サロン does everything and takes bookings."
+   ],
+   "partner": "Stylist",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "きょうはどうなさいますか。",
+     "romaji": "kyou wa dou nasaimasu ka.",
+     "en": "What would you like today?"
+    },
+    {
+     "who": "you",
+     "jp": "ぜんたいにみじかくしてください。",
+     "romaji": "zentai ni mijikaku shite kudasai.",
+     "en": "Shorter all over, please.",
+     "alt": [
+      "全体に短くしてください。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "どのくらいきりますか。",
+     "romaji": "dono kurai kirimasu ka.",
+     "en": "How much shall I cut?"
+    },
+    {
+     "who": "you",
+     "jp": "さんセンチくらいおねがいします。",
+     "romaji": "san senchi kurai onegai shimasu.",
+     "en": "About three centimetres.",
+     "alt": [
+      "三センチくらいお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "よこはかりあげますか。",
+     "romaji": "yoko wa kariagemasu ka.",
+     "en": "Shall I clip the sides?"
+    },
+    {
+     "who": "you",
+     "jp": "はい、すこしだけ。まえがみはそのままで。",
+     "romaji": "hai, sukoshi dake. maegami wa sono mama de.",
+     "en": "Yes, just a little. Leave the fringe as it is.",
+     "alt": [
+      "はい、少しだけ。前髪はそのままで。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "かしこまりました。シャンプーもされますか。",
+     "romaji": "kashikomarimashita. shanpuu mo saremasu ka.",
+     "en": "Certainly. Would you like a wash as well?"
+    },
+    {
+     "who": "you",
+     "jp": "はい、おねがいします。",
+     "romaji": "hai, onegai shimasu.",
+     "en": "Yes, please.",
+     "alt": [
+      "はい、お願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "こんなかんじでいかがですか。",
+     "romaji": "konna kanji de ikaga desu ka.",
+     "en": "How is this?"
+    },
+    {
+     "who": "you",
+     "jp": "いいですね。ありがとうございます。",
+     "romaji": "ii desu ne. arigatou gozaimasu.",
+     "en": "That is great. Thank you.",
+     "alt": []
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-neighbour",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Meeting a neighbour",
+   "summary": "Introduce yourself after moving in and ask about rubbish day.",
+   "tips": [
+    "A quick hello to the immediate neighbours when you move in is still common; a small gift is optional.",
+    "Rubbish sorting is strict and local: もえるごみ burnable, もえないごみ non-burnable, しげんごみ recyclables. Check the ward calendar.",
+    "Greeting neighbours in the stairwell with おはようございます／こんにちは is expected."
+   ],
+   "partner": "Neighbour",
+   "turns": [
+    {
+     "who": "you",
+     "jp": "こんにちは。せんしゅうとなりにひっこしてきた[name]です。よろしくおねがいします。",
+     "romaji": "konnichiwa. senshuu tonari ni hikkoshite kita [name] desu. yoroshiku onegai shimasu.",
+     "en": "Hello. I am [name], I moved in next door last week. Nice to meet you.",
+     "alt": [
+      "こんにちは。先週隣に引っ越してきた[name]です。よろしくお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "あら、ごていねいに。こちらこそよろしくおねがいします。",
+     "romaji": "ara, goteinei ni. kochira koso yoroshiku onegai shimasu.",
+     "en": "Oh, how kind of you. Nice to meet you too."
+    },
+    {
+     "who": "you",
+     "jp": "あの、ごみのひはいつですか。",
+     "romaji": "ano, gomi no hi wa itsu desu ka.",
+     "en": "Um, when is rubbish day?",
+     "alt": [
+      "あの、ごみの日はいつですか。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "もえるごみはげつようびともくようび、しげんごみはすいようびですよ。",
+     "romaji": "moeru gomi wa getsuyoubi to mokuyoubi, shigen gomi wa suiyoubi desu yo.",
+     "en": "Burnable rubbish is Monday and Thursday, recyclables Wednesday."
+    },
+    {
+     "who": "you",
+     "jp": "あさなんじまでにだせばいいですか。",
+     "romaji": "asa nanji made ni daseba ii desu ka.",
+     "en": "By what time in the morning should I put it out?",
+     "alt": [
+      "朝何時までに出せばいいですか。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "はちじまでにおねがいしますね。",
+     "romaji": "hachiji made ni onegai shimasu ne.",
+     "en": "By eight, please."
+    },
+    {
+     "who": "you",
+     "jp": "わかりました。ありがとうございます。",
+     "romaji": "wakarimashita. arigatou gozaimasu.",
+     "en": "Understood. Thank you.",
+     "alt": []
+    },
+    {
+     "who": "partner",
+     "jp": "なにかわからないことがあったら、きいてくださいね。",
+     "romaji": "nanika wakaranai koto ga attara, kiite kudasai ne.",
+     "en": "If there is anything you are not sure about, just ask."
+    },
+    {
+     "who": "you",
+     "jp": "たすかります。しつれいします。",
+     "romaji": "tasukarimasu. shitsurei shimasu.",
+     "en": "That is very helpful. Goodbye.",
+     "alt": [
+      "助かります。失礼します。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-delivery",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Parcel delivery",
+   "summary": "The courier at the door, and booking a redelivery by phone.",
+   "tips": [
+    "A missed-delivery slip (ふざいひょう) goes in your letterbox; redelivery is booked by phone, web or QR code.",
+    "You can have parcels sent to a convenience store or a locker instead.",
+    "No stamp (はんこ) needed; a signature or just your name is fine."
+   ],
+   "partner": "Courier",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "たくはいびんです。",
+     "romaji": "takuhaibin desu.",
+     "en": "Parcel delivery."
+    },
+    {
+     "who": "you",
+     "jp": "はい、いまいきます。",
+     "romaji": "hai, ima ikimasu.",
+     "en": "Yes, coming.",
+     "alt": [
+      "はい、今行きます。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "こちらにサインをおねがいします。",
+     "romaji": "kochira ni sain o onegai shimasu.",
+     "en": "Please sign here."
+    },
+    {
+     "who": "you",
+     "jp": "はい。ありがとうございました。",
+     "romaji": "hai. arigatou gozaimashita.",
+     "en": "There you go. Thank you.",
+     "alt": []
+    },
+    {
+     "who": "you",
+     "jp": "ふざいひょうがはいっていたんですが、さいはいたつをおねがいします。",
+     "romaji": "fuzaihyou ga haitte ita n desu ga, saihaitatsu o onegai shimasu.",
+     "en": "I got a missed-delivery slip; I would like a redelivery.",
+     "alt": [
+      "不在票が入っていたんですが、再配達をお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "はい。ごきぼうのにちじはございますか。",
+     "romaji": "hai. gokibou no nichiji wa gozaimasu ka.",
+     "en": "Yes. Is there a date and time you would prefer?"
+    },
+    {
+     "who": "you",
+     "jp": "あしたのよる、じゅうくじからにじゅういちじでおねがいします。",
+     "romaji": "ashita no yoru, juukuji kara nijuuichiji de onegai shimasu.",
+     "en": "Tomorrow evening, between seven and nine.",
+     "alt": [
+      "明日の夜、十九時から二十一時でお願いします。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "かしこまりました。",
+     "romaji": "kashikomarimashita.",
+     "en": "Certainly."
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-invite",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Making plans with a friend",
+   "summary": "Casual invitations, times and meeting places.",
+   "tips": [
+    "〜ない？ (\"won't you…?\") is the standard casual invitation.",
+    "おっけー, いいよ, いいね are the casual yeses; ちょっと… on its own is a no.",
+    "えきまえ (in front of the station) is the default meeting place."
+   ],
+   "partner": "Friend",
+   "turns": [
+    {
+     "who": "partner",
+     "jp": "ねえ、こんどのどようび、ひま？",
+     "romaji": "nee, kondo no doyoubi, hima?",
+     "en": "Hey, are you free this Saturday?"
+    },
+    {
+     "who": "you",
+     "jp": "うん、ひまだよ。なんで？",
+     "romaji": "un, hima da yo. nande?",
+     "en": "Yeah, I am free. Why?",
+     "alt": []
+    },
+    {
+     "who": "partner",
+     "jp": "あたらしいラーメンや、いかない？",
+     "romaji": "atarashii raamen-ya, ikanai?",
+     "en": "Want to go to the new ramen place?"
+    },
+    {
+     "who": "you",
+     "jp": "いいね！なんじにする？",
+     "romaji": "ii ne! nanji ni suru?",
+     "en": "Nice! What time?",
+     "alt": [
+      "いいね！何時にする？"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "じゅうにじはんにえきまえでいい？",
+     "romaji": "juuniji han ni ekimae de ii?",
+     "en": "Half twelve in front of the station OK?"
+    },
+    {
+     "who": "you",
+     "jp": "おっけー。じゃあ、どようびね。",
+     "romaji": "okkee. jaa, doyoubi ne.",
+     "en": "OK. Saturday then.",
+     "alt": [
+      "オッケー。じゃあ、土曜日ね。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "たのしみ！",
+     "romaji": "tanoshimi!",
+     "en": "Looking forward to it!"
+    },
+    {
+     "who": "you",
+     "jp": "わたしも。",
+     "romaji": "watashi mo.",
+     "en": "Me too.",
+     "alt": [
+      "私も。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:rp-late",
+   "mode": "roleplay",
+   "level": "n5",
+   "group": "situations",
+   "title": "Running late",
+   "summary": "Warn a friend you are late, apologise, and arrive.",
+   "tips": [
+    "Message the moment you know you will be late; even five minutes is worth a text in Japan.",
+    "Casual: ごめん, おまたせ. Polite: おそくなってすみません, おまたせしました.",
+    "りょうかい is the casual \"got it\" you will see constantly in messages."
+   ],
+   "partner": "Friend",
+   "turns": [
+    {
+     "who": "you",
+     "jp": "ごめん、ちょっとおくれそう。",
+     "romaji": "gomen, chotto okuresou.",
+     "en": "Sorry, I am going to be a bit late.",
+     "alt": [
+      "ごめん、ちょっと遅れそう。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "だいじょうぶ。どのくらい？",
+     "romaji": "daijoubu. dono kurai?",
+     "en": "No worries. How long?"
+    },
+    {
+     "who": "you",
+     "jp": "じゅっぷんくらい。でんしゃがおくれてて。",
+     "romaji": "juppun kurai. densha ga okuretete.",
+     "en": "About ten minutes. The train is delayed.",
+     "alt": [
+      "十分くらい。電車が遅れてて。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "りょうかい。カフェでまってるね。",
+     "romaji": "ryoukai. kafe de matteru ne.",
+     "en": "Got it. I will wait in the cafe."
+    },
+    {
+     "who": "you",
+     "jp": "ほんとにごめんね。",
+     "romaji": "honto ni gomen ne.",
+     "en": "Really sorry.",
+     "alt": []
+    },
+    {
+     "who": "you",
+     "jp": "おまたせ！ごめんね。",
+     "romaji": "omatase! gomen ne.",
+     "en": "Sorry to keep you waiting!",
+     "alt": [
+      "お待たせ！ごめんね。"
+     ]
+    },
+    {
+     "who": "partner",
+     "jp": "ぜんぜんだいじょうぶ。いこっか。",
+     "romaji": "zenzen daijoubu. ikokka.",
+     "en": "No problem at all. Shall we go?"
+    }
+   ]
+  },
+  {
+   "id": "spk:real:sh-daily",
+   "mode": "shadow",
+   "level": "n5",
+   "group": "situations",
+   "title": "Everyday phrases at natural speed",
+   "summary": "The fifteen phrases you will say most. Shadow them until they come out by themselves.",
+   "tips": [
+    "These are set phrases: say them whole, do not build them word by word.",
+    "In casual speech they shorten: おはよう, いただきまーす, おつかれ, おやすみ."
+   ],
+   "items": [
+    {
+     "id": "spk:real:sh-daily:01",
+     "jp": "おはようございます。",
+     "romaji": "ohayou gozaimasu.",
+     "en": "Good morning.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:02",
+     "jp": "いってきます。",
+     "romaji": "ittekimasu.",
+     "en": "I am off. (leaving home or the office)",
+     "alt": [
+      "行ってきます。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:03",
+     "jp": "いってらっしゃい。",
+     "romaji": "itterasshai.",
+     "en": "See you later. (to someone leaving)",
+     "alt": [
+      "行ってらっしゃい。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:04",
+     "jp": "ただいま。",
+     "romaji": "tadaima.",
+     "en": "I am back.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:05",
+     "jp": "おかえりなさい。",
+     "romaji": "okaerinasai.",
+     "en": "Welcome back.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:06",
+     "jp": "いただきます。",
+     "romaji": "itadakimasu.",
+     "en": "(before eating)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:07",
+     "jp": "ごちそうさまでした。",
+     "romaji": "gochisousama deshita.",
+     "en": "(after eating; also to whoever paid)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:08",
+     "jp": "おつかれさまです。",
+     "romaji": "otsukaresama desu.",
+     "en": "Hello / thanks for your work. (colleagues, any hour)",
+     "alt": [
+      "お疲れ様です。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:09",
+     "jp": "おさきにしつれいします。",
+     "romaji": "osaki ni shitsurei shimasu.",
+     "en": "I am leaving before you. (leaving work)",
+     "alt": [
+      "お先に失礼します。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:10",
+     "jp": "おやすみなさい。",
+     "romaji": "oyasuminasai.",
+     "en": "Good night.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-daily:11",
+     "jp": "よろしくおねがいします。",
+     "romaji": "yoroshiku onegai shimasu.",
+     "en": "Please treat me well / thanks in advance.",
+     "alt": [
+      "よろしくお願いします。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:12",
+     "jp": "おじゃまします。",
+     "romaji": "ojama shimasu.",
+     "en": "(entering someone's home)",
+     "alt": [
+      "お邪魔します。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:13",
+     "jp": "おせわになっております。",
+     "romaji": "osewa ni natte orimasu.",
+     "en": "Thank you for your continued support. (business opener)",
+     "alt": [
+      "お世話になっております。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:14",
+     "jp": "おひさしぶりです。",
+     "romaji": "ohisashiburi desu.",
+     "en": "Long time no see.",
+     "alt": [
+      "お久しぶりです。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-daily:15",
+     "jp": "きをつけて。",
+     "romaji": "ki o tsukete.",
+     "en": "Take care.",
+     "alt": [
+      "気をつけて。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:sh-thanks",
+   "mode": "shadow",
+   "level": "n5",
+   "group": "situations",
+   "title": "Thanks, apologies and the replies",
+   "summary": "Every level of thank-you and sorry, and what to say back.",
+   "tips": [
+    "すみません does triple duty: excuse me, sorry, and thank you for the trouble.",
+    "Replies to thanks are modest: いえいえ, とんでもないです. どういたしまして is correct but a little formal between friends."
+   ],
+   "items": [
+    {
+     "id": "spk:real:sh-thanks:01",
+     "jp": "どうも。",
+     "romaji": "doumo.",
+     "en": "Thanks. (light, to staff)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:02",
+     "jp": "ありがとうございます。",
+     "romaji": "arigatou gozaimasu.",
+     "en": "Thank you.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:03",
+     "jp": "どうもありがとうございました。",
+     "romaji": "doumo arigatou gozaimashita.",
+     "en": "Thank you very much. (for something done)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:04",
+     "jp": "たすかりました。",
+     "romaji": "tasukarimashita.",
+     "en": "That was a great help.",
+     "alt": [
+      "助かりました。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-thanks:05",
+     "jp": "すみません。",
+     "romaji": "sumimasen.",
+     "en": "Sorry / excuse me / thanks for the trouble.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:06",
+     "jp": "もうしわけありません。",
+     "romaji": "moushiwake arimasen.",
+     "en": "I am very sorry. (formal)",
+     "alt": [
+      "申し訳ありません。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-thanks:07",
+     "jp": "ごめんなさい。",
+     "romaji": "gomennasai.",
+     "en": "I am sorry.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:08",
+     "jp": "ごめんね。",
+     "romaji": "gomen ne.",
+     "en": "Sorry. (casual)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:09",
+     "jp": "おそくなってすみません。",
+     "romaji": "osoku natte sumimasen.",
+     "en": "Sorry I am late.",
+     "alt": [
+      "遅くなってすみません。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-thanks:10",
+     "jp": "しつれいしました。",
+     "romaji": "shitsurei shimashita.",
+     "en": "Excuse me. (after a small mistake)",
+     "alt": [
+      "失礼しました。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-thanks:11",
+     "jp": "いえいえ。",
+     "romaji": "ieie.",
+     "en": "Not at all.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:12",
+     "jp": "とんでもないです。",
+     "romaji": "tondemonai desu.",
+     "en": "Not at all. (modest reply to thanks)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-thanks:13",
+     "jp": "きにしないで。",
+     "romaji": "ki ni shinaide.",
+     "en": "Do not worry about it. (casual)",
+     "alt": [
+      "気にしないで。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-thanks:14",
+     "jp": "おきづかいなく。",
+     "romaji": "okizukai naku.",
+     "en": "Please do not go to any trouble.",
+     "alt": [
+      "お気遣いなく。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:sh-feelings",
+   "mode": "shadow",
+   "level": "n5",
+   "group": "situations",
+   "title": "Saying how you feel",
+   "summary": "Short reactions you can drop into any conversation.",
+   "tips": [
+    "One word plus intonation is a full sentence in casual Japanese: さむい！ つかれた。",
+    "やばい means anything from terrible to amazing; listen for the tone."
+   ],
+   "items": [
+    {
+     "id": "spk:real:sh-feelings:01",
+     "jp": "うれしい！",
+     "romaji": "ureshii!",
+     "en": "I am so happy!",
+     "alt": [
+      "嬉しい！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:02",
+     "jp": "たのしかった！",
+     "romaji": "tanoshikatta!",
+     "en": "That was fun!",
+     "alt": [
+      "楽しかった！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:03",
+     "jp": "おいしい！",
+     "romaji": "oishii!",
+     "en": "Delicious!",
+     "alt": [
+      "美味しい！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:04",
+     "jp": "めっちゃおいしい。",
+     "romaji": "meccha oishii.",
+     "en": "Really tasty. (casual)",
+     "alt": [
+      "めっちゃ美味しい。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:05",
+     "jp": "つかれた。",
+     "romaji": "tsukareta.",
+     "en": "I am tired.",
+     "alt": [
+      "疲れた。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:06",
+     "jp": "ねむい。",
+     "romaji": "nemui.",
+     "en": "I am sleepy.",
+     "alt": [
+      "眠い。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:07",
+     "jp": "おなかすいた。",
+     "romaji": "onaka suita.",
+     "en": "I am hungry.",
+     "alt": [
+      "お腹すいた。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:08",
+     "jp": "のどかわいた。",
+     "romaji": "nodo kawaita.",
+     "en": "I am thirsty.",
+     "alt": [
+      "喉乾いた。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:09",
+     "jp": "さむい！",
+     "romaji": "samui!",
+     "en": "It is cold!",
+     "alt": [
+      "寒い！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:10",
+     "jp": "あつい！",
+     "romaji": "atsui!",
+     "en": "It is hot!",
+     "alt": [
+      "暑い！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:11",
+     "jp": "びっくりした。",
+     "romaji": "bikkuri shita.",
+     "en": "That surprised me.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-feelings:12",
+     "jp": "ざんねん。",
+     "romaji": "zannen.",
+     "en": "What a shame.",
+     "alt": [
+      "残念。"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:13",
+     "jp": "やばい。",
+     "romaji": "yabai.",
+     "en": "Wow / oh no. (either way)",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-feelings:14",
+     "jp": "さいこう！",
+     "romaji": "saikou!",
+     "en": "The best!",
+     "alt": [
+      "最高！"
+     ]
+    },
+    {
+     "id": "spk:real:sh-feelings:15",
+     "jp": "まあまあ。",
+     "romaji": "maamaa.",
+     "en": "So-so.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:sh-feelings:16",
+     "jp": "きんちょうする。",
+     "romaji": "kinchou suru.",
+     "en": "I am nervous.",
+     "alt": [
+      "緊張する。"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spk:real:qa-daily",
+   "mode": "question",
+   "level": "n5",
+   "group": "situations",
+   "title": "Everyday questions",
+   "summary": "The questions of ordinary days, with natural answers.",
+   "tips": [
+    "Casual questions often have no か: rising intonation does the work.",
+    "Answer short. Japanese conversation is built from short turns and reactions, not speeches."
+   ],
+   "items": [
+    {
+     "id": "spk:real:qa-daily:01",
+     "q": "おげんきですか。",
+     "qRomaji": "ogenki desu ka.",
+     "qEn": "How are you?",
+     "model": "はい、おかげさまで。",
+     "modelRomaji": "hai, okagesama de.",
+     "en": "Fine, thank you.",
+     "alt": [
+      "はい、おかげさまで。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:02",
+     "q": "きょうはなにするの？",
+     "qRomaji": "kyou wa nani suru no?",
+     "qEn": "What are you doing today?",
+     "model": "かいものにいく。",
+     "modelRomaji": "kaimono ni iku.",
+     "en": "Going shopping.",
+     "alt": [
+      "買い物に行く。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:03",
+     "q": "もうたべた？",
+     "qRomaji": "mou tabeta?",
+     "qEn": "Have you eaten?",
+     "model": "まだ。これからたべる。",
+     "modelRomaji": "mada. kore kara taberu.",
+     "en": "Not yet. About to.",
+     "alt": [
+      "まだ。これから食べる。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:04",
+     "q": "なにのむ？",
+     "qRomaji": "nani nomu?",
+     "qEn": "What will you have to drink?",
+     "model": "おちゃでいいよ。",
+     "modelRomaji": "ocha de ii yo.",
+     "en": "Tea is fine.",
+     "alt": [
+      "お茶でいいよ。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:05",
+     "q": "しゅみはなんですか。",
+     "qRomaji": "shumi wa nan desu ka.",
+     "qEn": "What are your hobbies?",
+     "model": "りょうりとさんぽです。",
+     "modelRomaji": "ryouri to sanpo desu.",
+     "en": "Cooking and walks.",
+     "alt": [
+      "料理と散歩です。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:06",
+     "q": "にほんにきてどのくらいですか。",
+     "qRomaji": "nihon ni kite dono kurai desu ka.",
+     "qEn": "How long have you been in Japan?",
+     "model": "さんかげつです。",
+     "modelRomaji": "sankagetsu desu.",
+     "en": "Three months.",
+     "alt": [
+      "三か月です。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:07",
+     "q": "にほんのせいかつはどうですか。",
+     "qRomaji": "nihon no seikatsu wa dou desu ka.",
+     "qEn": "How is life in Japan?",
+     "model": "たのしいです。でもなつはあついですね。",
+     "modelRomaji": "tanoshii desu. demo natsu wa atsui desu ne.",
+     "en": "It is fun. But summer is hot.",
+     "alt": [
+      "楽しいです。でも夏は暑いですね。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:08",
+     "q": "おしごとはなにをされていますか。",
+     "qRomaji": "oshigoto wa nani o sarete imasu ka.",
+     "qEn": "What do you do for work?",
+     "model": "エンジニアです。",
+     "modelRomaji": "enjinia desu.",
+     "en": "I am an engineer.",
+     "alt": []
+    },
+    {
+     "id": "spk:real:qa-daily:09",
+     "q": "どちらからいらっしゃいましたか。",
+     "qRomaji": "dochira kara irasshaimashita ka.",
+     "qEn": "Where are you from?",
+     "model": "イギリスからきました。",
+     "modelRomaji": "igirisu kara kimashita.",
+     "en": "From the UK.",
+     "alt": [
+      "イギリスから来ました。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:10",
+     "q": "あしたあいてる？",
+     "qRomaji": "ashita aiteru?",
+     "qEn": "Are you free tomorrow?",
+     "model": "ごめん、あしたはちょっと。",
+     "modelRomaji": "gomen, ashita wa chotto.",
+     "en": "Sorry, tomorrow is a bit…",
+     "alt": [
+      "ごめん、明日はちょっと。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:11",
+     "q": "だいじょうぶ？",
+     "qRomaji": "daijoubu?",
+     "qEn": "You OK?",
+     "model": "うん、だいじょうぶ。ありがとう。",
+     "modelRomaji": "un, daijoubu. arigatou.",
+     "en": "Yeah, I am fine. Thanks.",
+     "alt": [
+      "うん、大丈夫。ありがとう。"
+     ]
+    },
+    {
+     "id": "spk:real:qa-daily:12",
+     "q": "なにかてつだおうか？",
+     "qRomaji": "nanika tetsudaou ka?",
+     "qEn": "Shall I help with something?",
+     "model": "ありがとう、おねがい。",
+     "modelRomaji": "arigatou, onegai.",
+     "en": "Thanks, please.",
+     "alt": [
+      "ありがとう、お願い。"
+     ]
+    }
+   ]
   }
  ]
 }
