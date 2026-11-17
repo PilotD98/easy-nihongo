@@ -91,7 +91,7 @@ export async function render(el, ctx) {
       diagram ? h('div', { class: 'row', style: { alignItems: 'flex-start', marginTop: '12px' } }, diagram.el, h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => diagram.play() }, 'Replay strokes'))) : null,
       h('p', { class: 'mnemonic' }, h('strong', null, 'Remember: '), k.mnemonic),
       h('h3', null, 'Words with ', jp(k.char)),
-      h('ul', { class: 'vocab-list' }, examples.map((v) => h('li', null, vocabWord(v, records.get(v.id), { cls: 'vw' }), h('div', { class: 'vm' }, v.meanings[0], h('small', null, v.kana)), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${v.kana}`, onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('speak')) : null))),
+      h('ul', { class: 'vocab-list' }, examples.map((v) => h('li', null, vocabWord(v, records.get(v.id), { cls: 'vw' }), h('div', { class: 'vm' }, v.meanings[0], h('small', null, v.kana)), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${v.kana}`, onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('listen')) : null))),
       data ? traceSection(data) : null,
       nextBtn());
   }
@@ -111,7 +111,7 @@ export async function render(el, ctx) {
       h('ul', { class: 'vocab-list' }, words.map((v) => h('li', null,
         vocabWord(v, records.get(v.id), { cls: 'vw' }),
         h('div', { class: 'vm' }, v.meanings.join('; '), h('small', null, `${v.kana} · ${v.romaji}`, v.pos?.length ? h('span', { class: 'pos-tag' }, ` · ${POS[v.pos[0]] || v.pos[0]}`) : null)),
-        canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${v.kana}`, onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('speak')) : null))),
+        canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${v.kana}`, onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('listen')) : null))),
       h('p', { class: 'small muted' }, 'Read each word aloud, then tap the speaker to compare.'),
       nextBtn());
   }
@@ -124,7 +124,7 @@ export async function render(el, ctx) {
       h('p', null, g.explanation),
       h('h3', null, 'Examples'),
       h('div', null, g.examples.map((ex) => h('div', { class: 'gram-example' },
-        h('div', { class: 'row' }, sentence(ex.jp, { reading: ex.kana, records, lv, cls: 'ex-jp' }), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.kana, { kanji: ex.jp }) }, icon('speak')) : null),
+        h('div', { class: 'row' }, sentence(ex.jp, { reading: ex.kana, records, lv, cls: 'ex-jp' }), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.kana, { kanji: ex.jp }) }, icon('listen')) : null),
         h('div', { class: 'ex-meta' }, ex.romaji, ' · ', ex.en)))),
       g.mistakes?.length ? h('div', null, h('h3', null, 'Common mistakes'), h('ul', { class: 'gram-mistakes' }, g.mistakes.map((m) => h('li', null, m)))) : null,
       h('h3', null, 'Try it'),

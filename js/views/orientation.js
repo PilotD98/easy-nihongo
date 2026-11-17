@@ -42,6 +42,6 @@ function example(ex) {
     box.append(jp(ex.jp, 'jp-xl ex-line'));
   }
   box.append(h('div', { class: 'ex-romaji' }, ex.romaji), h('div', { class: 'muted' }, ex.en));
-  if (canSpeak() && ex.jp) box.append(h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.jp.replace(/→.*/, '')) }, icon('speak')));
+  if (canSpeak() && ex.jp) box.append(h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.jp.replace(/→.*/, '')) }, icon('listen')));
   return box;
 }

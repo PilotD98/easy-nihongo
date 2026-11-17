@@ -81,7 +81,7 @@ export async function render(el, ctx) {
     const parts = c.parts || [c.char];
     const hasStrokes = parts.every((p) => kana.strokes[p]);
     const diagram = hasStrokes ? (parts.length === 1 ? strokeDiagram(kana.strokes[c.char], { size: 180, label: c.char }) : strokeDiagrams(parts, kana.strokes, { size: 140 })) : null;
-    const audioBtn = canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(speakable(c)) }, icon('speak'), 'Listen') : null;
+    const audioBtn = canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(speakable(c)) }, icon('listen'), 'Listen') : null;
     if (canSpeak() && settings.get('autoplayAudio')) setTimeout(() => speak(speakable(c)), 400);
     const card = h('section', { class: 'card char-card' },
       h('div', { class: 'char-head' },
@@ -109,7 +109,7 @@ export async function render(el, ctx) {
     const list = h('ul', { class: 'word-list' }, group.words.map((w) => h('li', null,
       kanaWord(w, 1, { cls: 'jp word-jp' }),
       h('span', { class: 'word-meaning grow' }, w.meaning),
-      canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${w.romaji}`, onClick: () => speak(w.jp) }, icon('speak')) : null
+      canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': `Listen to ${w.romaji}`, onClick: () => speak(w.jp) }, icon('listen')) : null
     )));
     return h('section', { class: 'card' },
       h('h2', { tabindex: '-1' }, 'Real words you can now read'),

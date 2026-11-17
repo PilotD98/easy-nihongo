@@ -90,13 +90,13 @@ export function renderQuestion(container, q, { onAnswer, autoplay = true, number
   if (q.prompt.jp) promptEl.append(jp(q.prompt.jp, 'jp-xl q-jp'));
   if (q.prompt.text) promptEl.append(h('div', { class: 'q-text' }, q.prompt.text));
   if (q.prompt.audio) {
-    const play = h('button', { class: 'btn btn-lg', type: 'button', onClick: () => speak(q.prompt.audio) }, icon('speak'), 'Play again');
+    const play = h('button', { class: 'btn btn-lg', type: 'button', onClick: () => speak(q.prompt.audio) }, icon('listen'), 'Play again');
     promptEl.append(play);
     if (autoplay) setTimeout(() => speak(q.prompt.audio), 150);
   }
   if (q.prompt.hint) promptEl.append(h('div', { class: 'q-hint muted' }, q.prompt.hint));
   if (q.prompt.jp && !q.prompt.audio && canSpeak()) {
-    promptEl.append(h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(q.prompt.jp) }, icon('speak')));
+    promptEl.append(h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(q.prompt.jp) }, icon('listen')));
   }
   container.append(promptEl);
 

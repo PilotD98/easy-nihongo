@@ -133,7 +133,7 @@ export async function render(el, ctx) {
         playback.replaceChildren(
           h('div', { class: 'small muted' }, `Your recording (${(r.duration / 1000).toFixed(1)} s). Play it, then the native voice, and compare the rhythm.`),
           audio,
-          h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => { audio.play(); } }, 'Play mine'), h('button', { class: 'btn', type: 'button', onClick: () => speak(target, voiceOpts(step)) }, icon('speak'), 'Play native'),
+          h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => { audio.play(); } }, 'Play mine'), h('button', { class: 'btn', type: 'button', onClick: () => speak(target, voiceOpts(step)) }, icon('listen'), 'Play native'),
             !sr ? selfRate() : null));
         return;
       }
@@ -222,8 +222,8 @@ export async function render(el, ctx) {
   function playButtons(text, opts = {}) {
     if (!canSpeak()) return h('span', { class: 'small muted' }, 'No Japanese voice available.');
     return [
-      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 1 }) }, icon('speak'), 'Natural 1.0×'),
-      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 0.7 }) }, icon('speak'), 'Slow 0.7×')
+      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 1 }) }, icon('listen'), 'Natural 1.0×'),
+      h('button', { class: 'btn', type: 'button', onClick: () => speak(text, { ...opts, rate: 0.7 }) }, icon('listen'), 'Slow 0.7×')
     ];
   }
 

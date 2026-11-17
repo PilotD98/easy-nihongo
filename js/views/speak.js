@@ -51,7 +51,7 @@ export async function render(el, ctx) {
         cap(sr, 'Speech recognition (ja-JP)', sr ? 'Supported. Needs a network connection on most browsers.' : 'Not supported; record-and-compare is used instead.'),
         cap(recOk, 'Recording (self-check)', recOk ? 'Supported. Recordings stay in memory on this device.' : 'Not supported in this browser.')),
       h('div', { class: 'btn-row', style: { marginTop: '12px' } },
-        h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => testVoice(voices) }, icon('speak'), 'Test the Japanese voice'),
+        h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => testVoice(voices) }, icon('listen'), 'Test the Japanese voice'),
         h('span', { class: 'small muted' }, 'Plays ', jp('こんにちは'), ` at ${settings.get('audioRate')}× speed.`)),
       voices.length ? null : voiceGuide(),
       isIOS() ? h('p', { class: 'small muted', style: { marginTop: '12px' } }, 'On iPhone and iPad, speech recognition works in Safari and needs an internet connection. Text-to-speech and recording work offline.') : null)
