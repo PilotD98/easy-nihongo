@@ -44,18 +44,33 @@ export function currentVoice() { return voice; }
  * Pass the line's `romaji` (to read particle は/へ as wa/e in kana text) and,
  * when there is one, its `kanji` spelling, which the engine reads most naturally.
  */
-export async function speak(text, { rate = null, interrupt = true, romaji = null, kanji = null } = {}) {
-  await initAudio();
-  if (!('speechSynthesis' in window)) return false;
+/* iOS (especially an installed PWA) only plays speech when speak() is called
+   synchronously inside the tap that requested it. Any await before it — even
+   a resolved promise — can silently drop the utterance, so this is NOT async:
+   when the voice list is already loaded it speaks immediately, and only waits
+   for voices when there are none yet. */
+let current = null; // keep a reference so the utterance isn't GC'd before onend fires
+export function speak(text, { rate = null, interrupt = true, romaji = null, kanji = null } = {}) {
+  if (!('speechSynthesis' in window)) return Promise.resolve(false);
+  if (!voice) pickVoice();
+  if (voice || speechSynthesis.getVoices().length) return speakNow(text, { rate, interrupt, romaji, kanji });
+  return initAudio().then(() => speakNow(text, { rate, interrupt, romaji, kanji }));
+}
+
+function speakNow(text, { rate, interrupt, romaji, kanji }) {
   if (interrupt) speechSynthesis.cancel();
   return new Promise((resolve) => {
     const u = new SpeechSynthesisUtterance(ttsText(text, { romaji, kanji }));
     u.lang = 'ja-JP';
     if (voice) u.voice = voice;
-    u.rate = rate ?? Number(settings.get('audioRate')) ?? 1;
-    u.onend = () => resolve(true);
-    u.onerror = () => resolve(false);
+    const r = rate ?? Number(settings.get('audioRate'));
+    u.rate = Number.isFinite(r) && r > 0 ? r : 1;
+    u.onend = () => { if (current === u) current = null; resolve(true); };
+    u.onerror = (e) => { if (current === u) current = null; resolve(e?.error === 'interrupted' || e?.error === 'canceled'); };
+    current = u;
     speechSynthesis.speak(u);
+    // Safari sometimes leaves the engine paused after a cancel(); nudge it.
+    if (speechSynthesis.paused) speechSynthesis.resume();
   });
 }
 

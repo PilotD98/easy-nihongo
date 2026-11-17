@@ -2,7 +2,7 @@
    Every change saves immediately to the device. */
 import { h, icon, jp, formatBytes, formatDate } from '../ui/dom.js';
 import { settings, OPTIONS } from '../store/settings.js';
-import { speak, rankedVoices } from '../ui/audio.js';
+import { speak, rankedVoices, initAudio } from '../ui/audio.js';
 import { db } from '../store/db.js';
 import { downloadExport, readBackupFile, validateImport, applyImport, clearAllData } from '../store/backup.js';
 import { toast } from '../ui/toast.js';
@@ -15,6 +15,7 @@ import { APP_VERSION, canPromptInstall, promptInstall, isStandalone, isIOS, onIn
 export const title = 'Settings';
 
 export async function render(el, ctx) {
+  await initAudio(); // voices must be loaded before the voice picker and Test button render
   el.append(
     h('header', { class: 'page-head' }, h('h1', null, 'Settings'), h('p', { class: 'lede' }, 'Everything here is stored on this device only.')),
 
@@ -120,7 +121,7 @@ function voiceField() {
   const sel = h('select', { class: 'select', id, onChange: (e) => settings.set('voice', e.target.value) },
     h('option', { value: '', selected: current === '' ? true : null }, voices.length ? `Automatic (${voices[0].name})` : 'Automatic'),
     voices.map((v) => h('option', { value: v.name, selected: v.name === current ? true : null }, `${v.name}${v.localService ? '' : ' (online)'}`)));
-  const test = h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => speak('これはペンです。わたしはがくせいです。', { kanji: 'これはペンです。私は学生です。' }) }, icon('speak'), 'Test');
+  const test = h('button', { class: 'btn', type: 'button', disabled: !voices.length, onClick: () => speak('これはペンです。わたしはがくせいです。', { kanji: 'これはペンです。私は学生です。' }) }, icon('listen'), 'Test');
   const os = osName();
   const better = os === 'ios' ? 'For a much more natural voice on iPhone or iPad: Settings → Accessibility → Spoken Content → Voices → Japanese, download Kyoko or O-ren (Enhanced or Premium), then reload this app.'
     : os === 'android' ? 'For a more natural voice on Android: Settings → System → Languages → Text-to-speech, open Google Speech Services and install Japanese voice data.'

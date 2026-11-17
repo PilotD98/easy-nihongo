@@ -41,7 +41,7 @@ function renderPassage(el, lv, r, records) {
     const node = sentence(markupSentences[i] || s, { reading: kanaSentences[i] || null, records, lv });
     // make vocabulary tokens tappable: wrap the rendered sentence's text runs
     makeTappable(node, lv, records, s);
-    passage.append(node, canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen to this sentence', onClick: () => speak(kanaSentences[i] || s, { kanji: markupSentences[i] || null }) }, icon('speak')) : null);
+    passage.append(node, canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen to this sentence', onClick: () => speak(kanaSentences[i] || s, { kanji: markupSentences[i] || null }) }, icon('listen')) : null);
   });
 
   const translation = h('div', { class: 'translation', hidden: true }, r.enText);
@@ -50,8 +50,8 @@ function renderPassage(el, lv, r, records) {
     h('header', { class: 'page-head' }, h('h1', null, r.title), h('p', { class: 'lede' }, `${r.en} · ${lv.title} unit ${r.unit} · tap a word to look it up`)),
     h('section', { class: 'card' }, passage,
       h('div', { class: 'btn-row', style: { marginTop: '12px' } },
-        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { kanji: r.text }) }, icon('speak'), 'Read aloud') : null,
-        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { rate: 0.7, kanji: r.text }) }, icon('speak'), 'Slow') : null,
+        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { kanji: r.text }) }, icon('listen'), 'Read aloud') : null,
+        canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(r.kana, { rate: 0.7, kanji: r.text }) }, icon('listen'), 'Slow') : null,
         h('button', { class: 'btn', type: 'button', onClick: (e) => { translation.hidden = !translation.hidden; e.currentTarget.lastChild.textContent = translation.hidden ? 'Show translation' : 'Hide translation'; } }, icon('read'), h('span', null, 'Show translation'))),
       translation),
     h('section', { class: 'card' }, h('h2', null, 'Questions'), quizArea),
@@ -92,7 +92,7 @@ function showLookup(v, records) {
     h('div', { class: 'lookup-word' }, vocabWord(v, { display: 3 })),
     h('p', null, h('strong', null, v.meanings.join('; ')), h('div', { class: 'small muted' }, `${v.kana} · ${v.romaji}`)),
     h('div', { class: 'btn-row' },
-      canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(v.kana) }, icon('speak'), 'Listen') : null,
+      canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(v.kana) }, icon('listen'), 'Listen') : null,
       h('a', { class: 'btn', href: `#/learn/item/${encodeURIComponent(v.id)}` }, 'Details'),
       rec ? h('span', { class: 'pill' }, 'In your reviews') : h('button', { class: 'btn btn-primary', type: 'button', onClick: async (e) => { await learnItems([{ id: v.id, type: 'vocab', display: [...v.jp].some(isKanji) ? 3 : 1 }]); e.currentTarget.replaceWith(h('span', { class: 'pill' }, 'Added')); toast('Added to your reviews.'); } }, 'Add to reviews')));
   openSheet({ title: 'Word', body });
@@ -117,7 +117,7 @@ function renderListening(el, lv, l, records) {
     // shadowing: play, show text, self-check
     const list = h('div');
     l.items.forEach((it, i) => list.append(h('div', { class: 'gram-example' },
-      h('div', { class: 'row' }, sentence(it.text, { reading: it.kana, records, lv, cls: 'ex-jp' }), h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { rate: 0.7 }) }, icon('speak'), 'Slow'), h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana) }, icon('speak'), 'Natural')),
+      h('div', { class: 'row' }, sentence(it.text, { reading: it.kana, records, lv, cls: 'ex-jp' }), h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { rate: 0.7 }) }, icon('listen'), 'Slow'), h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana) }, icon('listen'), 'Natural')),
       h('div', { class: 'ex-meta' }, it.en))));
     area.append(h('p', { class: 'muted' }, 'Play each line and speak along, first slowly, then at natural speed. For scored feedback use the Speak tab.'), list);
     return;

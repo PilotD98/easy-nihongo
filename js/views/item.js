@@ -37,14 +37,14 @@ async function renderJlptItem(el, id, p, levelId, rec) {
         h('dl', { class: 'kanji-readings' }, h('dt', null, 'On'), h('dd', { lang: 'ja' }, it.on.join('・') || '—'), h('dt', null, 'Kun'), h('dd', { lang: 'ja' }, it.kun.join('・') || '—'), it.radicals.length ? h('dt', null, 'Components') : null, it.radicals.length ? h('dd', { class: 'components' }, it.radicals.map((r) => h('span', { class: 'pill', lang: 'ja' }, r))) : null),
         diagram ? h('div', { class: 'row', style: { alignItems: 'flex-start', marginTop: '12px' } }, diagram.el, h('button', { class: 'btn', type: 'button', onClick: () => diagram.play() }, 'Replay strokes')) : null,
         h('p', { class: 'mnemonic' }, h('strong', null, 'Remember: '), it.mnemonic)),
-      h('section', { class: 'card' }, h('h2', null, 'Words with ', jp(it.char)), h('ul', { class: 'vocab-list' }, examples.map((v) => h('li', null, h('a', { href: `#/learn/item/${encodeURIComponent(v.id)}`, class: 'vw' }, vocabWord(v, records.get(v.id))), h('div', { class: 'vm' }, v.meanings[0], h('small', null, v.kana)), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('speak')) : null)))),
+      h('section', { class: 'card' }, h('h2', null, 'Words with ', jp(it.char)), h('ul', { class: 'vocab-list' }, examples.map((v) => h('li', null, h('a', { href: `#/learn/item/${encodeURIComponent(v.id)}`, class: 'vw' }, vocabWord(v, records.get(v.id))), h('div', { class: 'vm' }, v.meanings[0], h('small', null, v.kana)), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(v.kana, { romaji: v.romaji }) }, icon('listen')) : null)))),
       progressCard(rec, unitHref)
     ]);
   } else if (p.type === 'vocab') {
     append(el, [
       h('header', { class: 'page-head' }, h('h1', null, vocabWord(it, rec, { cls: 'jp-xl' })), h('p', { class: 'lede' }, `${it.meanings.join('; ')} · ${it.kana} · ${it.romaji}`)),
       h('section', { class: 'card' },
-        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { romaji: it.romaji }) }, icon('speak'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { rate: 0.7, romaji: it.romaji }) }, icon('speak'), 'Slow') : null),
+        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { romaji: it.romaji }) }, icon('listen'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(it.kana, { rate: 0.7, romaji: it.romaji }) }, icon('listen'), 'Slow') : null),
         h('p', { class: 'small muted', style: { marginTop: '12px' } }, `${lv.title} · unit ${it.unit}${it.furiganaException ? ' · uses kanji beyond this level, so furigana always shows' : ''}${it.verified ? ' · reading and meaning checked against JMdict' : ''}`),
         it.kanji.length ? h('div', null, h('h3', null, 'Kanji'), h('div', { class: 'char-grid' }, it.kanji.map((kid) => { const k = lv.allById.get(kid) || lv.byId.get(kid); return h('a', { class: 'char-chip', href: `#/learn/item/${encodeURIComponent(kid)}` }, jp(k.char, 'jp-xl'), h('span', { class: 'small muted' }, k.meanings[0])); }))) : null),
       progressCard(rec, unitHref)
@@ -56,7 +56,7 @@ async function renderJlptItem(el, id, p, levelId, rec) {
         h('div', { class: 'gram-pattern', lang: 'ja' }, it.pattern),
         h('p', null, it.explanation),
         h('h2', null, 'Examples'),
-        it.examples.map((ex) => h('div', { class: 'gram-example' }, h('div', { class: 'row' }, sentence(ex.jp, { reading: ex.kana, records, lv, cls: 'ex-jp' }), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.kana, { kanji: ex.jp }) }, icon('speak')) : null), h('div', { class: 'ex-meta' }, ex.romaji, ' · ', ex.en))),
+        it.examples.map((ex) => h('div', { class: 'gram-example' }, h('div', { class: 'row' }, sentence(ex.jp, { reading: ex.kana, records, lv, cls: 'ex-jp' }), canSpeak() ? h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Listen', onClick: () => speak(ex.kana, { kanji: ex.jp }) }, icon('listen')) : null), h('div', { class: 'ex-meta' }, ex.romaji, ' · ', ex.en))),
         it.mistakes?.length ? h('div', null, h('h2', null, 'Common mistakes'), h('ul', null, it.mistakes.map((m) => h('li', null, m)))) : null),
       progressCard(rec, unitHref)
     ]);
@@ -92,7 +92,7 @@ export async function render(el, id) {
     append(el, [
       h('header', { class: 'page-head' }, h('h1', null, jp(ch.char, 'jp-xl'), ' ', h('span', { class: 'muted' }, ch.romaji)), h('p', { class: 'lede' }, `${kana.data.title} · ${group.title} · ${ch.strokes} stroke${ch.strokes === 1 ? '' : 's'}`)),
       h('section', { class: 'card' },
-        diagram ? h('div', { class: 'row', style: { alignItems: 'flex-start' } }, diagram.el, h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => diagram.play() }, 'Replay strokes'), canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(ch.char) }, icon('speak'), 'Listen') : null)) : null,
+        diagram ? h('div', { class: 'row', style: { alignItems: 'flex-start' } }, diagram.el, h('div', { class: 'btn-row' }, h('button', { class: 'btn', type: 'button', onClick: () => diagram.play() }, 'Replay strokes'), canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(ch.char) }, icon('listen'), 'Listen') : null)) : null,
         h('p', { class: 'mnemonic' }, h('strong', null, 'Remember: '), ch.mnemonic)),
       words.length ? h('section', { class: 'card' }, h('h2', null, 'Words with ', jp(ch.char)), h('ul', { class: 'word-list' }, words.map((w) => h('li', null, h('a', { href: `#/learn/item/${encodeURIComponent(w.id)}`, class: 'jp word-jp', lang: 'ja' }, w.jp), h('span', { class: 'grow' }, w.meaning), h('span', { class: 'small muted' }, w.romaji))))) : null,
       progressCard(rec, `#/lesson/${levelId}/${group.id}`)
@@ -101,7 +101,7 @@ export async function render(el, id) {
     append(el, [
       h('header', { class: 'page-head' }, h('h1', null, kanaWord(word, rec ? kanaLevel(rec) : 1, { cls: 'jp-xl' })), h('p', { class: 'lede' }, `${word.meaning} · ${word.romaji}`)),
       h('section', { class: 'card' },
-        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp) }, icon('speak'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp, { rate: 0.7 }) }, icon('speak'), 'Slow') : null),
+        h('div', { class: 'btn-row' }, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp) }, icon('listen'), 'Listen') : null, canSpeak() ? h('button', { class: 'btn', type: 'button', onClick: () => speak(word.jp, { rate: 0.7 }) }, icon('listen'), 'Slow') : null),
         word.pitch !== undefined ? h('div', { style: { marginTop: '12px' } }, h('h3', null, 'Pitch accent'), h('div', { class: 'row' }, pitchDiagram(word.jp, word.pitch), h('span', { class: 'small muted' }, `[${word.pitch}] ${pitchName(word.pitch, toMora(word.jp).length)}`))) : null,
         h('h3', { style: { marginTop: '12px' } }, 'Characters'),
         h('div', { class: 'char-grid' }, word.units.map((u) => { const c = kana.charByGlyph.get(u); return h('a', { class: 'char-chip', href: c ? `#/learn/item/${encodeURIComponent(c.id)}` : null }, jp(u, 'jp-xl'), h('span', { class: 'small muted' }, c ? c.romaji : '')); }))),
